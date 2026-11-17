@@ -1,0 +1,238 @@
+[
+  {
+    "item": "('admapix', 'https://lightmake.site/api/v1/download?slug=admapix&namespace=clawhub_fly0pants', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\admapix__clawhub_fly0pants.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('auto-updater', 'https://lightmake.site/api/v1/download?slug=auto-updater&namespace=clawhub_maximeprades', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\auto-updater__clawhub_maximeprades.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('markdown-converter', 'https://lightmake.site/api/v1/download?slug=markdown-converter&namespace=clawhub_steipete', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\markdown-converter__clawhub_steipete.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('pptx', 'https://lightmake.site/api/v1/download?slug=pptx&namespace=user_c0d57d10', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\pptx__user_c0d57d10.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('openai-whisper', 'https://lightmake.site/api/v1/download?slug=openai-whisper&namespace=clawhub_steipete', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\openai-whisper__clawhub_steipete.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('baidu-netdisk-skills', 'https://lightmake.site/api/v1/download?slug=baidu-netdisk-skills&namespace=clawhub_wscats', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\baidu-netdisk-skills__clawhub_wscats.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('ppt-generator', 'https://lightmake.site/api/v1/download?slug=ppt-generator&namespace=clawhub_wwlyzzyorg', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\ppt-generator__clawhub_wwlyzzyorg.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('stock', 'https://lightmake.site/api/v1/download?slug=stock&namespace=clawhub_mrblackerx', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\stock__clawhub_mrblackerx.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('bilibili-all-in-one', 'https://lightmake.site/api/v1/download?slug=bilibili-all-in-one&namespace=clawhub_wscats', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\bilibili-all-in-one__clawhub_wscats.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('content-writer', 'https://lightmake.site/api/v1/download?slug=content-writer&namespace=clawhub_alexandrali1989-cell', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\content-writer__clawhub_alexandrali1989-cell.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('figma', 'https://lightmake.site/api/v1/download?slug=figma&namespace=clawhub_maddiedreese', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\figma__clawhub_maddiedreese.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('google-search', 'https://lightmake.site/api/v1/download?slug=google-search&namespace=clawhub_mxfeinberg', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\google-search__clawhub_mxfeinberg.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('smart-agriculture-opportunity-tracker', 'https://lightmake.site/api/v1/download?slug=smart-agriculture-opportunity-tracker&namespace=org-whlskj', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\smart-agriculture-opportunity-tracker__org-whlskj.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('kubernetes', 'https://lightmake.site/api/v1/download?slug=kubernetes&namespace=clawhub_kcns008', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\kubernetes__clawhub_kcns008.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('cadstack', 'https://lightmake.site/api/v1/download?slug=cadstack&namespace=clawhub_wayneouyang', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\cadstack__clawhub_wayneouyang.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('yuqing', 'https://lightmake.site/api/v1/download?slug=yuqing&namespace=user_59252579', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\yuqing__user_59252579.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('writing-assistant', 'https://lightmake.site/api/v1/download?slug=writing-assistant&namespace=clawhub_urrrich', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\writing-assistant__clawhub_urrrich.zip')",
+    "error": "FAIL URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>"
+  },
+  {
+    "item": "('ui-ux-pro-max-plus', 'https://lightmake.site/api/v1/download?slug=ui-ux-pro-max-plus&namespace=clawhub_ireact2code', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\ui-ux-pro-max-plus__clawhub_ireact2code.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('hermes-skill', 'https://lightmake.site/api/v1/download?slug=hermes-skill&namespace=user_a37770d2', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\hermes-skill__user_a37770d2.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('web-browsing', 'https://lightmake.site/api/v1/download?slug=web-browsing&namespace=clawhub_tankebuaa', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\web-browsing__clawhub_tankebuaa.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('douyin-video-fetch', 'https://lightmake.site/api/v1/download?slug=douyin-video-fetch&namespace=clawhub_kamiender', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\douyin-video-fetch__clawhub_kamiender.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('pdf-toolkit-pro', 'https://lightmake.site/api/v1/download?slug=pdf-toolkit-pro&namespace=clawhub_gdp6539', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\pdf-toolkit-pro__clawhub_gdp6539.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('excel-formula-assistant', 'https://lightmake.site/api/v1/download?slug=excel-formula-assistant&namespace=zechuan-zhuchuang', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\excel-formula-assistant__zechuan-zhuchuang.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('multi-search-engine-simple', 'https://lightmake.site/api/v1/download?slug=multi-search-engine-simple&namespace=clawhub_jhc888007', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\multi-search-engine-simple__clawhub_jhc888007.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('git-workflows', 'https://lightmake.site/api/v1/download?slug=git-workflows&namespace=clawhub_gitgoodordietrying', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\git-workflows__clawhub_gitgoodordietrying.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('contract-risk-reviewer', 'https://lightmake.site/api/v1/download?slug=contract-risk-reviewer&namespace=clawhub_amaxclaw', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\contract-risk-reviewer__clawhub_amaxclaw.zip')",
+    "error": "FAIL URLError: <urlopen error Tunnel connection failed: 502 Bad Gateway>"
+  },
+  {
+    "item": "('competitive-intelligence-market-research', 'https://lightmake.site/api/v1/download?slug=competitive-intelligence-market-research&namespace=clawhub_shashwatgtm', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\competitive-intelligence-market-research__clawhub_shashwatgtm.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('cron', 'https://lightmake.site/api/v1/download?slug=cron&namespace=clawhub_projectsnowwork', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\cron__clawhub_projectsnowwork.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('academic-researcher', 'https://lightmake.site/api/v1/download?slug=academic-researcher&namespace=clawhub_hades4501', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\academic-researcher__clawhub_hades4501.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('unity-operation-wizard', 'https://lightmake.site/api/v1/download?slug=unity-operation-wizard&namespace=user_2aa4a621', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\unity-operation-wizard__user_2aa4a621.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('resume-optimizer', 'https://lightmake.site/api/v1/download?slug=resume-optimizer&namespace=clawhub_tomstools11', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\resume-optimizer__clawhub_tomstools11.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('data-analysis-report-assistant', 'https://lightmake.site/api/v1/download?slug=data-analysis-report-assistant&namespace=zechuan-zhuchuang', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\data-analysis-report-assistant__zechuan-zhuchuang.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('blender-mcp', 'https://lightmake.site/api/v1/download?slug=blender-mcp&namespace=clawhub_flayzz', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\blender-mcp__clawhub_flayzz.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('a-stock-data', 'https://lightmake.site/api/v1/download?slug=a-stock-data&namespace=clawhub_mr-nova86', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\a-stock-data__clawhub_mr-nova86.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('meta-ads', 'https://lightmake.site/api/v1/download?slug=meta-ads&namespace=clawhub_zachgodsell93', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\meta-ads__clawhub_zachgodsell93.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('personal-productivity', 'https://lightmake.site/api/v1/download?slug=personal-productivity&namespace=clawhub_bo-aibot', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\personal-productivity__clawhub_bo-aibot.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('prompt-engineering-assistant', 'https://lightmake.site/api/v1/download?slug=prompt-engineering-assistant&namespace=zechuan-zhuchuang', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\prompt-engineering-assistant__zechuan-zhuchuang.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('obsidian-official-cli', 'https://lightmake.site/api/v1/download?slug=obsidian-official-cli&namespace=clawhub_slmoloch', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\obsidian-official-cli__clawhub_slmoloch.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('ui-ux-dev', 'https://lightmake.site/api/v1/download?slug=ui-ux-dev&namespace=clawhub_wing8169', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\ui-ux-dev__clawhub_wing8169.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('frontend-ui-engineering', 'https://lightmake.site/api/v1/download?slug=frontend-ui-engineering&namespace=user_e40a4360', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\frontend-ui-engineering__user_e40a4360.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('code-simplification', 'https://lightmake.site/api/v1/download?slug=code-simplification&namespace=user_e40a4360', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\code-simplification__user_e40a4360.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('web-ui-design-assistant', 'https://lightmake.site/api/v1/download?slug=web-ui-design-assistant&namespace=zechuan-zhuchuang', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\web-ui-design-assistant__zechuan-zhuchuang.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('a-share-sector-heat-analyst', 'https://lightmake.site/api/v1/download?slug=a-share-sector-heat-analyst&namespace=zechuan-zhuchuang', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\a-share-sector-heat-analyst__zechuan-zhuchuang.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('aws-infra', 'https://lightmake.site/api/v1/download?slug=aws-infra&namespace=clawhub_bmdhodl', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\aws-infra__clawhub_bmdhodl.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('parallel-ai-research', 'https://lightmake.site/api/v1/download?slug=parallel-ai-research&namespace=clawhub_brennerspear', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\parallel-ai-research__clawhub_brennerspear.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('jackyshen-design-workshop-outline', 'https://lightmake.site/api/v1/download?slug=jackyshen-design-workshop-outline&namespace=user_46180358', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\jackyshen-design-workshop-outline__user_46180358.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('aws', 'https://lightmake.site/api/v1/download?slug=aws&namespace=clawhub_ivangdavila', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\aws__clawhub_ivangdavila.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('wechat-mp-layout-assistant', 'https://lightmake.site/api/v1/download?slug=wechat-mp-layout-assistant&namespace=zechuan-zhuchuang', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\wechat-mp-layout-assistant__zechuan-zhuchuang.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('auto-monitor', 'https://lightmake.site/api/v1/download?slug=auto-monitor&namespace=clawhub_xaiohuangningde', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\auto-monitor__clawhub_xaiohuangningde.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('azure-infra', 'https://lightmake.site/api/v1/download?slug=azure-infra&namespace=clawhub_bmdhodl', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\azure-infra__clawhub_bmdhodl.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('azure-cli', 'https://lightmake.site/api/v1/download?slug=azure-cli&namespace=clawhub_ddevaal', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\azure-cli__clawhub_ddevaal.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('enterprise-decision-room', 'https://lightmake.site/api/v1/download?slug=enterprise-decision-room&namespace=chenfeng-agent', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\enterprise-decision-room__chenfeng-agent.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('prototype-verification-assistant', 'https://lightmake.site/api/v1/download?slug=prototype-verification-assistant&namespace=zechuan-zhuchuang', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\prototype-verification-assistant__zechuan-zhuchuang.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('tdd-coach', 'https://lightmake.site/api/v1/download?slug=tdd-coach&namespace=zechuan-zhuchuang', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\tdd-coach__zechuan-zhuchuang.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('triage-assistant', 'https://lightmake.site/api/v1/download?slug=triage-assistant&namespace=zechuan-zhuchuang', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\triage-assistant__zechuan-zhuchuang.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('badminton-racket', 'https://lightmake.site/api/v1/download?slug=badminton-racket&namespace=org-oy2t62s3', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\badminton-racket__org-oy2t62s3.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('regex-tester-v2', 'https://lightmake.site/api/v1/download?slug=regex-tester-v2&namespace=org-4zi88x86', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\regex-tester-v2__org-4zi88x86.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('cloud-deployment-planner', 'https://lightmake.site/api/v1/download?slug=cloud-deployment-planner&namespace=zechuan-zhuchuang', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\cloud-deployment-planner__zechuan-zhuchuang.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('zhice-weekly-brief', 'https://lightmake.site/api/v1/download?slug=zhice-weekly-brief&namespace=org-4zi88x86', 'D:/workbuddy-market-export\\\\_raw\\\\skillhub\\\\zips\\\\zhice-weekly-brief__org-4zi88x86.zip')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  }
+]
