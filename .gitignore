@@ -11,3 +11,9 @@ __MACOSX/
 # leader 侧抓取快照与临时目录（本就在 repo/ 外，兜底）
 .tmp-dl/
 market-api/
+
+# 并行线（专家镜像）：Git 自动生成的缩略图缓存
+_thumbnails/
+
+# 说明：_raw/ 只保留采集脚本与元数据 JSON（约 6 MB），不含原始二进制压缩包；
+# 专家正文已解压进 01-专家市场/，市场资产正文在 skills/ plugins/ connectors/。

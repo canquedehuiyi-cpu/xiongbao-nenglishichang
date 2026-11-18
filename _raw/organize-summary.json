@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "experts": 429,
+    "connectors": 298,
+    "plugins": 149,
+    "official": 295,
+    "builtin": 52,
+    "community": 2387
+  },
+  "indexRows": 3610
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "item": "('avatar', 'InvestmentMastersTeam', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/InvestmentMastersTeam.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\InvestmentMastersTeam.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'ChatLawTeam', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/ChatLawTeam.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\ChatLawTeam.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'MetamorphosisPractitioner', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/MetamorphosisPractitioner.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\MetamorphosisPractitioner.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'BiddingStrategist', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/BiddingStrategist.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\BiddingStrategist.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'FortuneMaster', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/FortuneMaster.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\FortuneMaster.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'LazyTravelPlanner', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/LazyTravelPlanner.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\LazyTravelPlanner.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'NewsBriefingExpert', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/NewsBriefingExpert.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\NewsBriefingExpert.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'PersonalFitnessCoach', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/PersonalFitnessCoach.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\PersonalFitnessCoach.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'NovelCreator', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/NovelCreator.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\NovelCreator.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'PersonalKnowledgeArchitect', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/PersonalKnowledgeArchitect.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\PersonalKnowledgeArchitect.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'StudyPlanner', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/StudyPlanner.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\StudyPlanner.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'PromptEngineer', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/PromptEngineer.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\PromptEngineer.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "item": "('avatar', 'WorldcupBuddy', 'https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/expert-marketplace/avatars/WorldcupBuddy.png', 'D:/workbuddy-market-export\\\\_raw\\\\experts\\\\avatars\\\\WorldcupBuddy.png')",
+    "error": "FAIL HTTPError: HTTP Error 404: Not Found"
+  }
+]
