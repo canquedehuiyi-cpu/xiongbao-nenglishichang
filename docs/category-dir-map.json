@@ -1,0 +1,586 @@
+{
+  "generatedAt": "2026-11-18T10:49:00.943Z",
+  "source": "market-api/category-counts.json 的 display_name_i18n.en-US；cat_<hash> 类目据此映射为可读目录名；rawToDisplayCode 来自 catalog-top 实测配对",
+  "topN": 200,
+  "kinds": {
+    "skill": {
+      "categoryCount": 20,
+      "totalMarketCount": 20709,
+      "categoriesOverTopN": 11,
+      "expectedTopRows": 2284,
+      "entries": [
+        {
+          "code": "Productivity",
+          "dirName": "Productivity",
+          "en": "Productivity",
+          "zh": "办公效率",
+          "marketCount": 16,
+          "overTopN": false,
+          "topDirRaw": "Productivity"
+        },
+        {
+          "code": "Content Creation",
+          "dirName": "Content-Creation",
+          "en": "Content Creation",
+          "zh": "内容创作",
+          "marketCount": 58,
+          "overTopN": false,
+          "topDirRaw": "Content_Creation"
+        },
+        {
+          "code": "Marketing & Sales",
+          "dirName": "Marketing-and-Sales",
+          "en": "Marketing & Sales",
+          "zh": "市场营销",
+          "marketCount": 4,
+          "overTopN": false,
+          "topDirRaw": "Marketing_Sales"
+        },
+        {
+          "code": "E-commerce & Retail",
+          "dirName": "E-commerce-and-Retail",
+          "en": "E-commerce & Retail",
+          "zh": "电商零售",
+          "marketCount": 2,
+          "overTopN": false,
+          "topDirRaw": "E-commerce_Retail"
+        },
+        {
+          "code": "Finance",
+          "dirName": "Finance",
+          "en": "Finance",
+          "zh": "金融财务",
+          "marketCount": 3,
+          "overTopN": false,
+          "topDirRaw": "Finance"
+        },
+        {
+          "code": "Legal",
+          "dirName": "Legal",
+          "en": "Legal",
+          "zh": "法律",
+          "marketCount": 0,
+          "overTopN": false,
+          "topDirRaw": "Legal"
+        },
+        {
+          "code": "HR & Recruiting",
+          "dirName": "HR-and-Recruiting",
+          "en": "HR & Recruiting",
+          "zh": "人力招聘",
+          "marketCount": 1,
+          "overTopN": false,
+          "topDirRaw": "HR_Recruiting"
+        },
+        {
+          "code": "Coding",
+          "dirName": "Coding",
+          "en": "Coding",
+          "zh": "代码开发",
+          "marketCount": 1317,
+          "overTopN": true,
+          "topDirRaw": "Coding"
+        },
+        {
+          "code": "Code Review",
+          "dirName": "Code-Review",
+          "en": "Code Review",
+          "zh": "代码评审",
+          "marketCount": 270,
+          "overTopN": true,
+          "topDirRaw": "Code_Review"
+        },
+        {
+          "code": "Security & Testing",
+          "dirName": "Security-and-Testing",
+          "en": "Security & Testing",
+          "zh": "安全与测试",
+          "marketCount": 1126,
+          "overTopN": true,
+          "topDirRaw": "Security_Testing"
+        },
+        {
+          "code": "Database & Analytics",
+          "dirName": "Database-and-Analytics",
+          "en": "Database & Analytics",
+          "zh": "数据库与分析",
+          "marketCount": 3149,
+          "overTopN": true,
+          "topDirRaw": "Database_Analytics"
+        },
+        {
+          "code": "DevOps",
+          "dirName": "DevOps",
+          "en": "DevOps",
+          "zh": "运维部署",
+          "marketCount": 689,
+          "overTopN": true,
+          "topDirRaw": "DevOps"
+        },
+        {
+          "code": "Developer Tools",
+          "dirName": "Developer-Tools",
+          "en": "Developer Tools",
+          "zh": "开发者工具",
+          "marketCount": 1897,
+          "overTopN": true,
+          "topDirRaw": "Developer_Tools"
+        },
+        {
+          "code": "Design",
+          "dirName": "Design",
+          "en": "Design",
+          "zh": "设计",
+          "marketCount": 3666,
+          "overTopN": true,
+          "topDirRaw": "Design"
+        },
+        {
+          "code": "Product Management",
+          "dirName": "Product-Management",
+          "en": "Product Management",
+          "zh": "产品管理",
+          "marketCount": 1127,
+          "overTopN": true,
+          "topDirRaw": "Product_Management"
+        },
+        {
+          "code": "Knowledge",
+          "dirName": "Knowledge",
+          "en": "Knowledge",
+          "zh": "知识研究",
+          "marketCount": 3504,
+          "overTopN": true,
+          "topDirRaw": "Knowledge"
+        },
+        {
+          "code": "Workflow",
+          "dirName": "Workflow",
+          "en": "Workflow",
+          "zh": "工作流",
+          "marketCount": 265,
+          "overTopN": true,
+          "topDirRaw": "Workflow"
+        },
+        {
+          "code": "Agent Evolution",
+          "dirName": "Agent-Evolution",
+          "en": "Agent Evolution",
+          "zh": "Agent 自进化",
+          "marketCount": 3615,
+          "overTopN": true,
+          "topDirRaw": "Agent_Evolution"
+        },
+        {
+          "code": "IM",
+          "dirName": "IM",
+          "en": "IM",
+          "zh": "通讯",
+          "marketCount": 0,
+          "overTopN": false,
+          "topDirRaw": "IM"
+        },
+        {
+          "code": "Other",
+          "dirName": "Other",
+          "en": "Other",
+          "zh": "其他",
+          "marketCount": 0,
+          "overTopN": false,
+          "topDirRaw": "Other"
+        }
+      ]
+    },
+    "plugin": {
+      "categoryCount": 16,
+      "totalMarketCount": 154,
+      "categoriesOverTopN": 0,
+      "expectedTopRows": 154,
+      "entries": [
+        {
+          "code": "IM",
+          "dirName": "IM",
+          "en": "IM",
+          "zh": "沟通（IM）",
+          "marketCount": 0,
+          "overTopN": false,
+          "topDirRaw": "IM"
+        },
+        {
+          "code": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+          "dirName": "Work-Suite",
+          "en": "Work Suite",
+          "zh": "工作套件",
+          "marketCount": 8,
+          "overTopN": false,
+          "topDirRaw": "cat_c0e07b667a9d4ab8bf1283dd5e335825"
+        },
+        {
+          "code": "Productivity",
+          "dirName": "Productivity",
+          "en": "Productivity",
+          "zh": "效率工具",
+          "marketCount": 3,
+          "overTopN": false,
+          "topDirRaw": "Productivity"
+        },
+        {
+          "code": "Coding",
+          "dirName": "Coding",
+          "en": "Coding",
+          "zh": "代码开发",
+          "marketCount": 27,
+          "overTopN": false,
+          "topDirRaw": "Coding"
+        },
+        {
+          "code": "Content Creation",
+          "dirName": "Visual-Design",
+          "en": "Visual Design",
+          "zh": "视觉设计",
+          "marketCount": 61,
+          "overTopN": false,
+          "topDirRaw": "Content_Creation"
+        },
+        {
+          "code": "cat_57b3c6ce1b64470c86b91f456099accf",
+          "dirName": "Content-Creation",
+          "en": "Content Creation",
+          "zh": "内容创作",
+          "marketCount": 6,
+          "overTopN": false,
+          "topDirRaw": "cat_57b3c6ce1b64470c86b91f456099accf"
+        },
+        {
+          "code": "Workflow",
+          "dirName": "Tools-and-Automation",
+          "en": "Tools & Automation",
+          "zh": "工具与自动化",
+          "marketCount": 9,
+          "overTopN": false,
+          "topDirRaw": "Workflow"
+        },
+        {
+          "code": "Database & Analytics",
+          "dirName": "Database-and-Analytics",
+          "en": "Database & Analytics",
+          "zh": "数据分析",
+          "marketCount": 9,
+          "overTopN": false,
+          "topDirRaw": "Database_Analytics"
+        },
+        {
+          "code": "Security & Testing",
+          "dirName": "Security-and-Testing",
+          "en": "Security & Testing",
+          "zh": "测试与安全",
+          "marketCount": 5,
+          "overTopN": false,
+          "topDirRaw": "Security_Testing"
+        },
+        {
+          "code": "DevOps",
+          "dirName": "DevOps",
+          "en": "DevOps",
+          "zh": "运维部署",
+          "marketCount": 8,
+          "overTopN": false,
+          "topDirRaw": "DevOps"
+        },
+        {
+          "code": "Marketing & Sales",
+          "dirName": "Marketing-and-Sales",
+          "en": "Marketing & Sales",
+          "zh": "销售与运营",
+          "marketCount": 6,
+          "overTopN": false,
+          "topDirRaw": "Marketing_Sales"
+        },
+        {
+          "code": "Finance",
+          "dirName": "Finance",
+          "en": "Finance",
+          "zh": "金融财务",
+          "marketCount": 2,
+          "overTopN": false,
+          "topDirRaw": "Finance"
+        },
+        {
+          "code": "Legal",
+          "dirName": "Legal",
+          "en": "Legal",
+          "zh": "法律",
+          "marketCount": 0,
+          "overTopN": false,
+          "topDirRaw": "Legal"
+        },
+        {
+          "code": "Knowledge",
+          "dirName": "Knowledge",
+          "en": "Knowledge",
+          "zh": "教育科研",
+          "marketCount": 4,
+          "overTopN": false,
+          "topDirRaw": "Knowledge"
+        },
+        {
+          "code": "cat_68c7c3393dca4123a7860771196d3bb5",
+          "dirName": "Industrial-Manufacturing",
+          "en": "Industrial Manufacturing",
+          "zh": "工业制造",
+          "marketCount": 3,
+          "overTopN": false,
+          "topDirRaw": "cat_68c7c3393dca4123a7860771196d3bb5"
+        },
+        {
+          "code": "Other",
+          "dirName": "Other",
+          "en": "Other",
+          "zh": "其他",
+          "marketCount": 3,
+          "overTopN": false,
+          "topDirRaw": "Other"
+        }
+      ]
+    },
+    "mcp": {
+      "categoryCount": 20,
+      "totalMarketCount": 128,
+      "categoriesOverTopN": 0,
+      "expectedTopRows": 128,
+      "entries": [
+        {
+          "code": "Productivity",
+          "dirName": "Productivity",
+          "en": "Productivity",
+          "zh": "办公效率",
+          "marketCount": 19,
+          "overTopN": false,
+          "topDirRaw": "Productivity"
+        },
+        {
+          "code": "Content Creation",
+          "dirName": "Content-Creation",
+          "en": "Content Creation",
+          "zh": "内容创作",
+          "marketCount": 8,
+          "overTopN": false,
+          "topDirRaw": "Content_Creation"
+        },
+        {
+          "code": "Marketing & Sales",
+          "dirName": "Marketing-and-Sales",
+          "en": "Marketing & Sales",
+          "zh": "市场营销",
+          "marketCount": 11,
+          "overTopN": false,
+          "topDirRaw": "Marketing_Sales"
+        },
+        {
+          "code": "E-commerce & Retail",
+          "dirName": "E-commerce-and-Retail",
+          "en": "E-commerce & Retail",
+          "zh": "电商零售",
+          "marketCount": 0,
+          "overTopN": false,
+          "topDirRaw": "E-commerce_Retail"
+        },
+        {
+          "code": "Finance",
+          "dirName": "Finance",
+          "en": "Finance",
+          "zh": "金融财务",
+          "marketCount": 6,
+          "overTopN": false,
+          "topDirRaw": "Finance"
+        },
+        {
+          "code": "Legal",
+          "dirName": "Legal",
+          "en": "Legal",
+          "zh": "法律",
+          "marketCount": 3,
+          "overTopN": false,
+          "topDirRaw": "Legal"
+        },
+        {
+          "code": "HR & Recruiting",
+          "dirName": "HR-and-Recruiting",
+          "en": "HR & Recruiting",
+          "zh": "人力招聘",
+          "marketCount": 0,
+          "overTopN": false,
+          "topDirRaw": "HR_Recruiting"
+        },
+        {
+          "code": "Coding",
+          "dirName": "Coding",
+          "en": "Coding",
+          "zh": "代码开发",
+          "marketCount": 5,
+          "overTopN": false,
+          "topDirRaw": "Coding"
+        },
+        {
+          "code": "Code Review",
+          "dirName": "Code-Review",
+          "en": "Code Review",
+          "zh": "代码评审",
+          "marketCount": 0,
+          "overTopN": false,
+          "topDirRaw": "Code_Review"
+        },
+        {
+          "code": "Security & Testing",
+          "dirName": "Security-and-Testing",
+          "en": "Security & Testing",
+          "zh": "安全与测试",
+          "marketCount": 4,
+          "overTopN": false,
+          "topDirRaw": "Security_Testing"
+        },
+        {
+          "code": "Database & Analytics",
+          "dirName": "Database-and-Analytics",
+          "en": "Database & Analytics",
+          "zh": "数据库与分析",
+          "marketCount": 19,
+          "overTopN": false,
+          "topDirRaw": "Database_Analytics"
+        },
+        {
+          "code": "DevOps",
+          "dirName": "DevOps",
+          "en": "DevOps",
+          "zh": "运维部署",
+          "marketCount": 12,
+          "overTopN": false,
+          "topDirRaw": "DevOps"
+        },
+        {
+          "code": "Developer Tools",
+          "dirName": "Developer-Tools",
+          "en": "Developer Tools",
+          "zh": "开发者工具",
+          "marketCount": 12,
+          "overTopN": false,
+          "topDirRaw": "Developer_Tools"
+        },
+        {
+          "code": "Design",
+          "dirName": "Design",
+          "en": "Design",
+          "zh": "设计",
+          "marketCount": 5,
+          "overTopN": false,
+          "topDirRaw": "Design"
+        },
+        {
+          "code": "Product Management",
+          "dirName": "Product-Management",
+          "en": "Product Management",
+          "zh": "产品管理",
+          "marketCount": 6,
+          "overTopN": false,
+          "topDirRaw": "Product_Management"
+        },
+        {
+          "code": "Knowledge",
+          "dirName": "Knowledge",
+          "en": "Knowledge",
+          "zh": "知识研究",
+          "marketCount": 12,
+          "overTopN": false,
+          "topDirRaw": "Knowledge"
+        },
+        {
+          "code": "Workflow",
+          "dirName": "Workflow",
+          "en": "Workflow",
+          "zh": "工作流",
+          "marketCount": 4,
+          "overTopN": false,
+          "topDirRaw": "Workflow"
+        },
+        {
+          "code": "Agent Evolution",
+          "dirName": "Agent-Evolution",
+          "en": "Agent Evolution",
+          "zh": "Agent 自进化",
+          "marketCount": 0,
+          "overTopN": false,
+          "topDirRaw": "Agent_Evolution"
+        },
+        {
+          "code": "IM",
+          "dirName": "IM",
+          "en": "IM",
+          "zh": "通讯",
+          "marketCount": 1,
+          "overTopN": false,
+          "topDirRaw": "IM"
+        },
+        {
+          "code": "Other",
+          "dirName": "Other",
+          "en": "Other",
+          "zh": "其他",
+          "marketCount": 1,
+          "overTopN": false,
+          "topDirRaw": "Other"
+        }
+      ]
+    }
+  },
+  "rawToDisplayCode": {
+    "skill": {
+      "devops": "Agent Evolution",
+      "content-creation": "Content Creation",
+      "data-ai": "Database & Analytics",
+      "design-ui": "Design",
+      "productivity": "Product Management",
+      "research-analysis": "Knowledge",
+      "docs-writing": "Knowledge"
+    },
+    "plugin": {
+      "cat_57b3c6ce1b64470c86b91f456099accf": "cat_57b3c6ce1b64470c86b91f456099accf",
+      "cat_68c7c3393dca4123a7860771196d3bb5": "cat_68c7c3393dca4123a7860771196d3bb5",
+      "cat_c0e07b667a9d4ab8bf1283dd5e335825": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+      "Coding": "Coding",
+      "Content Creation": "Content Creation",
+      "Database & Analytics": "Database & Analytics",
+      "DevOps": "DevOps",
+      "Finance": "Finance",
+      "Knowledge": "Knowledge",
+      "Marketing & Sales": "Marketing & Sales",
+      "Other": "Other",
+      "Productivity": "Productivity",
+      "Security & Testing": "Security & Testing",
+      "Workflow": "Workflow"
+    },
+    "mcp": {
+      "Coding": "Coding",
+      "Content Creation": "Content Creation",
+      "Database & Analytics": "Database & Analytics",
+      "Design": "Design",
+      "Developer Tools": "Developer Tools",
+      "DevOps": "DevOps",
+      "Finance": "Finance",
+      "IM": "IM",
+      "Knowledge": "Knowledge",
+      "Legal": "Legal",
+      "Marketing & Sales": "Marketing & Sales",
+      "Other": "Other",
+      "Productivity": "Productivity",
+      "Product Management": "Product Management",
+      "Security & Testing": "Security & Testing",
+      "Workflow": "Workflow"
+    }
+  },
+  "rawToDisplayAmbiguity": {
+    "skill/devops": "Agent Evolution=200, Code Review=200, Coding=200, Developer Tools=200, DevOps=200, Security & Testing=200, Database & Analytics=4",
+    "skill/content-creation": "Content Creation=58, Marketing & Sales=4",
+    "skill/productivity": "Product Management=200, Workflow=200, Productivity=16, Finance=3, E-commerce & Retail=2, HR & Recruiting=1"
+  },
+  "rawToDisplayAmbiguityNote": "categoryRaw 与 display 类目并非一一对应（同一 raw 行会出现在多个类目的清单里），该映射仅在 id 未命中 catalog-top 时兜底，取实测出现次数最多者；歧义分布见 rawToDisplayAmbiguity"
+}

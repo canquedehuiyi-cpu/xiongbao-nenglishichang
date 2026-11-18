@@ -1,0 +1,92 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.648Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Security-and-Testing",
+  "categoryCode": "Security & Testing",
+  "connector_id": "abuseipdb",
+  "connector_name": "AbuseIPDB",
+  "connector_name_cn": "AbuseIPDB",
+  "description": "Check IP reputation, abuse reports, and network security risk with AbuseIPDB. Add IP context to security investigations and organize triage evidence. Interpret reputation results alongside your own logs and operational context. For security and quality investigations, organize findings, records, and issue context around the relevant subject. Combine returned information with your own system context when preparing triage decisions, investigation records, and follow-up reviews. Available data and operations depend on the current connection configuration, account permissions, and service plan.",
+  "description_cn": "通过 AbuseIPDB 查询 IP 信誉、滥用记录和网络安全风险。适合在安全告警排查时补充 IP 背景信息，辅助整理调查线索；信誉结果应结合自身日志和业务场景判断。面向安全与质量排查工作，可围绕具体对象整理发现、记录和问题背景，将返回信息与自身系统上下文结合，支持风险分流、排查记录和后续复核。",
+  "version": "1.0.0",
+  "category": "Security & Testing",
+  "tags": [
+    "security",
+    "ip",
+    "reputation"
+  ],
+  "provider_name": "AbuseIPDB",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "abuseipdb",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_43d07f358e912d22d11a35905e5a1c3a90488919b0f1bcf3fd98273537d961ce",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Check IP reputation, abuse reports, and network security risk with AbuseIPDB.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_43d07f358e912d22d11a35905e5a1c3a90488919b0f1bcf3fd98273537d961ce",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "abuseipdb",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_43d07f358e912d22d11a35905e5a1c3a90488919b0f1bcf3fd98273537d961ce",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Inspect a CIDR block for addresses reported to AbuseIPDB.",
+            "name": "check_block"
+          },
+          {
+            "description": "Check the abuse reputation of one IP address with AbuseIPDB.",
+            "name": "check_ip"
+          },
+          {
+            "description": "List detailed AbuseIPDB reports for one IP address.",
+            "name": "get_reports"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "abuseipdb": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_43d07f358e912d22d11a35905e5a1c3a90488919b0f1bcf3fd98273537d961ce",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_43d07f358e912d22d11a35905e5a1c3a90488919b0f1bcf3fd98273537d961ce"
+      }
+    }
+  }
+}

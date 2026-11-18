@@ -1,0 +1,139 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.620Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "ca471984-11b2-4a6a-b031-45c8f64434f2",
+  "connector_name": "Granola",
+  "connector_name_cn": "Granola",
+  "description": "Granola uses AI to capture and organize meeting notes, highlighting key points, decisions, and follow-up actions.",
+  "description_cn": "利用 AI 自动记录和整理会议笔记，帮助提取重点、决策和后续行动项。",
+  "version": "1.0.1",
+  "category": "Productivity",
+  "tags": [],
+  "provider_name": "Granola",
+  "author": {
+    "name": "",
+    "display_name": "Granola"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Granola",
+        "url": "https://mcp.granola.ai/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ed79847042c2db7b56cccc7a7575c1ce5987b6beecf7fd49dad83a79c90f5075",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_ed79847042c2db7b56cccc7a7575c1ce5987b6beecf7fd49dad83a79c90f5075",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Query Granola about the user's meetings in natural language. Returns an answer with inline markdown citation links (e.g. [[1]](url)) to the source meeting notes; keep them in your response so the user can verify it. The citation URL [REDACTED]<meeting_id> gives the ID to pass to get_meetings (meeting_ids).\n\nThe answer is a summary that can leave out owners, numbers, dates and exact wording; when the question asks for those, read the cited meetings with get_meetings first.\n\nThis tool is slow: an agent behind it searches and reads the user's notes. Prefer a faster tool when it can answer:\n- Meeting discovery tools: find meetings by date range\n- get_meetings: read notes for meetings whose IDs you already have\n- search_meetings: find meetings by keyword, participant or company\n\nUse it for what was discussed, decided or assigned across meetings, follow-ups and commitments, or when the user references their 'Granola notes'.\n\nWhen NOT to use:\n- Calendar scheduling or upcoming events\n- A specific meeting by ID: use get_meetings\n\nTranscripts need a paid Granola plan. If get_meeting_transcript returns a paid-plan error and results lack a detail, say so rather than conclude it was never discussed.\nKeep at most 15 query_granola_meetings calls in flight, and only for calls you already need. On a rate_limit error, retry only the failed call after retry_after_seconds, one at a time, and not when retryable is false.",
+            "name": "query_granola_meetings"
+          },
+          {
+            "description": "List the user's Granola meeting notes in a time range (the last 7 days by default, or all history with folder_id), newest first. Returns titles, metadata and note URLs for notes you can access; the note creator may differ from the connected user. Read other_ids in duplicate_recordings only for details the listed note lacks or when asked to compare attendees' notes.\n\nWhen to use:\n- Browse or count accessible meetings in a date range\n\nWhen NOT to use:\n- Upcoming calendar events, scheduling, or creating/modifying calendar invites\n\nFiltering: omit [REDACTED] and involvement for every accessible meeting. For 'my meetings', set both involvement conditions to true; true conditions combine with OR and false ones exclude. [REDACTED]=true limits results to Team Space or public workspace meetings.\n\nRead meetings with get_meetings after identifying them. list_meeting_folders gives folder_id values.\npagination reports total_count for the filtered range (use it for count-only questions), remaining_count and has_more; while has_more is true, continue with next_cursor as cursor and the same filters before concluding a meeting is absent. requested_range is the range queried, in the user's timezone.\nEach meeting's folders element lists its folders' IDs and titles; list_meeting_folders has their other details. Meetings with viewable attachments carry an attachment_count attribute; get_meetings lists them.\nKeep at most 2 list_meetings calls in flight, and only for calls you already need. On a rate_limit error, retry only the failed call after retry_after_seconds, one at a time, and not when retryable is false.",
+            "name": "list_meetings"
+          },
+          {
+            "description": "List the user's Granola meeting folders: ID, title, description, note count including nested folders, visibility (private or workspace) and who can see the notes.\n\nFolders nest one level: parent_folder_id is the containing folder, or null at top level. role is the user's access (owner, collaborator or viewer), including access inherited from a parent folder or the workspace; viewers can read a folder's notes but can't add notes.\n\nUse it when the user asks about their folders or wants meetings in a specific folder; pass a returned ID as folder_id to the meeting discovery tools. Returns at most 100 folders per call, ordered by ID; partial results include truncated, total_count and next_offset.",
+            "name": "list_meeting_folders"
+          },
+          {
+            "description": "Needs a paid Granola plan. If it returns a paid-plan error, tell the user.\n\nAdd a Granola note to a folder (additive and idempotent). Use list_meeting_folders for the folder ID and meeting discovery results for the note ID. Only notes the user created or collaborates on can be added.\n\nAdding a note grants everyone with access to the folder access to the note; a folder with visibility \"workspace\" shares it with the whole workspace, so check the folder's visibility and audience first and use this only when the user has clearly requested that destination.\n\nThe response confirms the outcome (added or already_in_folder) and the folder's visibility and audience.",
+            "name": "add_note_to_folder"
+          },
+          {
+            "description": "Needs a paid Granola plan. If it returns a paid-plan error, tell the user.\n\nRemove a Granola note from a folder. Use list_meeting_folders for the folder ID and meeting discovery results for the note ID. Removing it may revoke folder-derived access for other people. The response confirms the outcome (removed or not_in_folder) and the folder's visibility and audience.",
+            "name": "remove_note_from_folder"
+          },
+          {
+            "description": "Needs a paid Granola plan. If it returns a paid-plan error, tell the user.\n\nCreate a top-level Granola folder. Use only when the user explicitly asks for a new folder; to file notes into an existing one, find it with list_meeting_folders and use add_note_to_folder.\n\nvisibility \"private\" (the default) is visible only to the user; \"workspace\" puts it in the Shared space where everyone in the workspace sees every note added, so use it only when the user asks for a team or shared folder.\n\nSub-folders can't be created. A top-level folder with the same title and visibility is returned with outcome already_exists instead of a duplicate; otherwise outcome is created. The response includes the folder's id, visibility and audience; pass the id to add_note_to_folder.",
+            "name": "create_folder"
+          },
+          {
+            "description": "Needs a paid Granola plan. If it returns a paid-plan error, tell the user.\n\nRename a Granola folder or change its description, only when the user asks. Get the folder ID from list_meeting_folders. Pass title, description or both; anything omitted stays the same, and an empty description clears it. Requires owner or collaborator role on the folder. Returns the updated folder.",
+            "name": "update_folder"
+          },
+          {
+            "description": "Read one or more Granola meetings by ID: private notes, AI summary, attendees, metadata and note URLs. Use it when you have meeting IDs from discovery results or note URLs; batch up to 10 IDs per call.\nPrivate notes appear only for meetings the user owns (status \"empty\": no text; \"not_included\": another user owns the note).\nmeeting_at is the calendar event's scheduled start (created_at without an event), so it can differ from when the meeting was recorded.\nInvalid, missing and inaccessible IDs are reported separately; the other meetings are still returned.\nRecorded meetings come newest first, not in request order. Over the response size limit, the oldest go in omitted_meetings; read them in another call. The newest is always whole, so one long meeting can exceed it.\nknown_participants comes from the calendar invite, attendees added by hand, and the note creator; anyone else who spoke appears only in the notes and transcript.\nDoes not return transcripts; notes can omit details that were discussed. If a detail is missing, get_meeting_transcript may have it on a paid Granola plan; if it returns a paid-plan error, say the detail is missing rather than conclude it was never discussed.\nShared-screen screenshots appear in <attachments> with an ID, time offset and lossy description; for anything visual (designs, slides, charts, code), view them with get_meeting_attachment.\nAttached photos appear as <attachment type=\"photo\"> without a description; view them with get_meeting_attachment.\nKeep at most 5 get_meetings calls in flight, and only for calls you already need. On a rate_limit error, retry only the failed call after retry_after_seconds, one at a time, and not when retryable is false.",
+            "name": "get_meetings"
+          },
+          {
+            "description": "Get the verbatim transcript of a Granola meeting by ID; no summaries or notes.\nReturns up to 40000 bytes per call by default (max_chars, capped), with total_chars, truncated and next_offset reported. A page ends at an utterance unless that wastes over half, else it has ends_mid_utterance and the next starts_mid_utterance.\nWith meeting_ids, meetings has one entry per distinct ID in request order, with the single-read fields or an error. The batch shares one size limit: each meeting returns up to max_chars or an equal share of that, whichever is smaller. Pass offsets to continue several meetings in one call.\nAn accessible meeting with no transcript returns transcript null (status \"unavailable\" for chunk reads) and transcript_unavailable with a reason: transcript_pending means retry in a few minutes; not_happened_yet means retry after the meeting; no_transcript and transcript_deleted are final. \"Meeting not found\" means the ID does not resolve or is not accessible.\nTranscript blocks separate audio source (Microphone/System audio) from speaker identity; mobile/imported transcripts may keep Speaker A/B labels. For native recordings, recording context identifies the document owner as the recorder, not necessarily the speaker; missing recorder data stays unknown.\nNeeds a paid Granola plan. If it returns a paid-plan error, use the other meeting tools and say when their results lack the requested detail.",
+            "name": "get_meeting_transcript"
+          },
+          {
+            "description": "Get the email, active workspace, joined workspaces (names and IDs) and effective note-access scopes for the Granola account connected to this MCP session.\n\nWorkspace membership does not imply MCP access to its meetings. mcp_plan is the effective plan for MCP access and limits.\n\nWhen to use:\n- Switch accounts: disconnect and reconnect Granola in this client; if the browser auto-selects the previous account and sign_out_url is present, open it first (it clears the browser login, not the client's authorization)\n- Which workspaces the user belongs to, or meeting results missing because the wrong workspace is active\n- Meeting results incomplete or empty because of the user's plan or workspace MCP access controls\n- Confirming identity before acting when the user references a specific account\n\nmcp_note_access.scopes lists what this connection can search: personal (notes the user owns, shared directly with them, or in private folders) and public (notes in [REDACTED] Team Space folders). Scopes describe access, not who captured or attended a meeting.\n\ncurrent_time is the server's current time; use it to resolve relative dates such as \"last week\".",
+            "name": "get_account_info"
+          },
+          {
+            "description": "Find the user's meetings by keyword, participant/company, date, or a combination. Keyword searches cover meeting titles, summaries and your private notes. They do not search transcripts: an empty result does not mean a term was never spoken in a meeting. Returns metadata (title, date, participants, note headings, and a short match excerpt when the keyword isn't in the title), not what was said: read the relevant meetings with get_meetings before answering about their content, and use get_meetings directly for a meeting you already identified. With keywords or participant, results are ranked by relevance favouring recent meetings; with neither, newest first, defaulting to the last 7 days unless folder_id is set.\n\nPages can be short or empty; continue with next_cursor while it is present. completion_status incomplete means continuation is unavailable: narrow the search.\n\nparticipant matches participant metadata (names, emails, companies, domains) or the title, not mentions in notes, as an AND filter with the other inputs. For broader questions about a person or company, also search their name plus the topic in keywords with participant omitted: internal discussions may hold the answer.\n\nCaptures of the same calendar event are grouped, keeping the user's own note or else the newest; read other_ids in duplicate_recordings only for details the listed note lacks or when the user asks to compare attendees' notes. Use attended_only=true for 'my meetings'. list_meeting_folders gives folder_id values. Keyword matching is literal, so pass the user's words plus obvious synonyms. Meetings with viewable attachments carry an attachment_count attribute; get_meetings lists them.\nKeep at most 2 search_meetings calls in flight, and only for calls you already need. On a rate_limit error, retry only the failed call after retry_after_seconds, one at a time, and not when retryable is false.",
+            "name": "search_meetings"
+          },
+          {
+            "description": "Needs a paid Granola plan. If it returns a paid-plan error, use the other meeting tools.\n\nFind specific words or quotes in accessible meeting transcripts in the active workspace. Returns ranked passages with approximate timestamps.\n\nSupply meeting_ids when known, batching meetings that share the same terms and filters. Matching is literal, in the script and spelling the transcript uses; put alternative words and spellings in one keywords array, e.g. [\"pricing\", \"price\", \"cost\"], since no match can mean the term was written differently, not that nobody said it. For what a person or company said, use participant (names/companies) or attendee_emails/attendee_domains (invite list). participant matches metadata or speaker names, both incomplete, as an AND filter with the rest, so for broader questions also search their name and the topic in keywords without it.\n\nKnown meetings with no indexed match are also searched in their current transcripts. Without meeting_ids, search relies on an asynchronously updated index and groups duplicate recordings; empty results do not prove a topic was never discussed.\n\nPages can be short or empty; continue with next_cursor while it is present. If completion_status is incomplete, narrow the search or read known transcripts.\n\nRead surrounding dialogue with get_meeting_transcript using meeting_id, the passage's chunk_ids and transcript_version; adjacent chunk IDs continue, and omitting chunk_ids reads the whole conversation.\n\ncounts is cumulative across pages; total_matching_chunks is a first-page estimate, null for direct search. Neither counts spoken mentions.\n\nUse another tool when:\n- The term is likely in the notes, or the user wants meetings about a topic: use search_meetings\n- You need the whole conversation: use get_meeting_transcript",
+            "name": "search_transcripts"
+          },
+          {
+            "description": "View up to 5 meeting attachments (screenshots of shared screens, or photos the user attached) as images in request order, each followed by its metadata including pixel width and height. Pass just meeting_id (or note_id) to browse its viewable attachments: described screenshots first in capture order, then photos; continue with pagination.next_offset as offset, and limit can request fewer. Or pass attachment_ids (or attachment_id) with the meeting_id or note_id they belong to, chosen from the <attachments> section of get_meetings results; browsing by meeting ID needs no get_meetings call first. A failed attachment returns an error with its ID without discarding the others. Thumbnail-sized or likely blank images carry an image_quality_notice instead of a description; do not use them as evidence. Each successful attachment includes a signed url and url_expires_at, valid for up to 10 minutes; offer it when the user asks to see or download the image (inline display depends on the client), and fetch again for a fresh link. Anyone holding the link can open it until it expires. A response holds about 6 MB of images, often only one to three screenshots; attachments that don't fit are listed in left_out_attachment_ids with a next_step, and pagination advances past the whole batch. Use this when a description alone does not answer the question, for example to read a slide, chart or code on screen.",
+            "name": "get_meeting_attachment"
+          },
+          {
+            "description": "List the note templates available for generating a meeting summary: Granola's built-in templates, the user's own, and those shared with their company, each with id, title, description, source (granola, yours or shared) and section headings. Pass a template's id as template_id to generate_summary; match the user's wording by title and description, and ask if more than one could fit.",
+            "name": "list_templates"
+          },
+          {
+            "description": "Needs a paid Granola plan. If it returns a paid-plan error, tell the user.\n\nStart generating a new summary for a Granola meeting the user owns, from its transcript and notes, only when the user explicitly asks. Existing summaries are kept.\n\nTo use a template, find its ID with list_templates and pass it as template_id; otherwise Granola's standard summary is generated. For every meeting in a folder, find the folder with list_meeting_folders, discover its meetings with folder_id, and call this once per meeting.\n\nGeneration runs in the background for about 30 to 90 seconds; this returns as soon as it has started. Until it finishes, get_meetings returns the previous summary if one exists; then it returns the new one.",
+            "name": "generate_summary"
+          },
+          {
+            "description": "Needs a paid Granola plan. If it returns a paid-plan error, tell the user.\n\nAdd content to the private notes of a Granola meeting the user owns (the notes they typed, not the AI summary), only when the user asks to add context or information. Existing notes are kept, and additions are stored as written by an agent so they stay distinguishable. Set purpose to notes when the AI summary should reflect what you add; the default, prep, keeps it out of the summary.\n\nPass 1 to 20 operations, applied in order, each adding Markdown at the end (append) or start (prepend). Supported: paragraphs, # and ## headings, bullet and numbered lists, unchecked checkboxes, bold, italic and links; tables, code, quotes, images and deeper headings are flattened or dropped. Read the notes with get_meetings first to avoid repeating what's there. To refresh the AI summary after adding with purpose notes, call generate_summary afterwards if it's available.",
+            "name": "update_private_notes"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Granola": {
+        "type": "http",
+        "url": "https://mcp.granola.ai/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ed79847042c2db7b56cccc7a7575c1ce5987b6beecf7fd49dad83a79c90f5075"
+      }
+    }
+  }
+}

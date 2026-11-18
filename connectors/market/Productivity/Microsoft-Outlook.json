@@ -1,0 +1,171 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.604Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "microsoft_outlook",
+  "connector_name": "Microsoft Outlook",
+  "connector_name_cn": "微软Outlook邮箱",
+  "description": "Manage Outlook email, personal calendars, and contacts.",
+  "description_cn": "管理 Outlook 邮件、个人日历和联系人。",
+  "version": "1.0.4",
+  "category": "Productivity",
+  "tags": [
+    "qoder-vibe-new",
+    "qoder-pro-new"
+  ],
+  "provider_name": "Microsoft Outlook",
+  "author": {
+    "name": "",
+    "display_name": ""
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "microsoft_outlook",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7573c6d4a87a9955038a29d2d3664a150b3a249d7cf5825c8a926c2b64fa83ab",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7573c6d4a87a9955038a29d2d3664a150b3a249d7cf5825c8a926c2b64fa83ab",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "microsoft_outlook",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_7573c6d4a87a9955038a29d2d3664a150b3a249d7cf5825c8a926c2b64fa83ab",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Add a file attachment to an Outlook message. The attachment content must be base64 encoded.",
+            "name": "add_mail_attachment"
+          },
+          {
+            "description": "Create an event in the authenticated Outlook user's default calendar.",
+            "name": "create_calendar_event"
+          },
+          {
+            "description": "Create a draft Outlook email. This changes the user's mailbox but does not send the message.",
+            "name": "create_draft_email"
+          },
+          {
+            "description": "Create an Outlook contact.",
+            "name": "create_outlook_contact"
+          },
+          {
+            "description": "Delete an Outlook calendar event.",
+            "name": "delete_calendar_event"
+          },
+          {
+            "description": "Delete an Outlook message from the user's mailbox.",
+            "name": "delete_mail_message"
+          },
+          {
+            "description": "Delete an Outlook contact.",
+            "name": "delete_outlook_contact"
+          },
+          {
+            "description": "Get an Outlook calendar event by ID.",
+            "name": "get_calendar_event"
+          },
+          {
+            "description": "List Outlook calendar occurrences in an explicit UTC date-time range.",
+            "name": "get_calendar_view"
+          },
+          {
+            "description": "Get an Outlook message attachment. File attachment content is returned as base64 when Microsoft Graph provides it.",
+            "name": "get_mail_attachment"
+          },
+          {
+            "description": "Get an Outlook message by ID.",
+            "name": "get_mail_message"
+          },
+          {
+            "description": "Get an Outlook contact by ID.",
+            "name": "get_outlook_contact"
+          },
+          {
+            "description": "List events in the authenticated Outlook user's default calendar.",
+            "name": "list_calendar_events"
+          },
+          {
+            "description": "List calendars for the authenticated Outlook user.",
+            "name": "list_calendars"
+          },
+          {
+            "description": "List metadata for attachments on an Outlook message.",
+            "name": "list_mail_attachments"
+          },
+          {
+            "description": "List messages in an Outlook mail folder.",
+            "name": "list_mail_folder_messages"
+          },
+          {
+            "description": "List mail folders for the authenticated Outlook user.",
+            "name": "list_mail_folders"
+          },
+          {
+            "description": "List messages in the authenticated Outlook user's mailbox.",
+            "name": "list_mail_messages"
+          },
+          {
+            "description": "List contacts for the authenticated Outlook user.",
+            "name": "list_outlook_contacts"
+          },
+          {
+            "description": "Send an existing Outlook draft. This sends email to the draft recipients.",
+            "name": "send_draft_message"
+          },
+          {
+            "description": "Update an Outlook calendar event.",
+            "name": "update_calendar_event"
+          },
+          {
+            "description": "Update fields on an Outlook message.",
+            "name": "update_mail_message"
+          },
+          {
+            "description": "Update an Outlook contact.",
+            "name": "update_outlook_contact"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "microsoft_outlook": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7573c6d4a87a9955038a29d2d3664a150b3a249d7cf5825c8a926c2b64fa83ab",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7573c6d4a87a9955038a29d2d3664a150b3a249d7cf5825c8a926c2b64fa83ab"
+      }
+    }
+  }
+}

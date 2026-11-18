@@ -1,0 +1,219 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.624Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "7625b995-845a-41ad-9a17-5b636b6b8151",
+  "connector_name": "Calendly",
+  "connector_name_cn": "Calendly",
+  "description": "Calendly provides online scheduling so people can book meetings or consultations based on available times.",
+  "description_cn": "提供在线预约排期服务，让他人根据可用时间自主预约会议或咨询。",
+  "version": "1.0.3",
+  "category": "Productivity",
+  "tags": [],
+  "provider_name": "Calendly",
+  "author": {
+    "name": "",
+    "display_name": "Calendly"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Calendly",
+        "url": "https://mcp.calendly.com",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f3b1e3a2df289c0a8b8cff93b8e3ceb5913bc0d13d3a42c8650aa2f576b2abc3",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_f3b1e3a2df289c0a8b8cff93b8e3ceb5913bc0d13d3a42c8650aa2f576b2abc3",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Use: List all named availability schedules for the connected user.\nWhen: User asks about availability schedules or you need to identify one by name.\nNeeds: User URI from `users-get_current_user`.\nDo: Use returned `uri` to fetch schedule details or associate with an event type.\nAvoid: Confusing user availability schedules with event-type-level schedules.\nThen: Use schedule URI in `availability-get_user_availability_schedule` for details.",
+            "name": "availability-list_user_availability_schedules"
+          },
+          {
+            "description": "Use: Fetch details for one named availability schedule.\nWhen: User asks about specific schedule rules or needs rules for a named schedule.\nNeeds: Schedule URI from `availability-list_user_availability_schedules`.\nDo: Read `rules` array and `timezone` for display or to inform event-type updates.\nAvoid: Writing to this schedule—use event-type-level update for changes.\nThen: Report schedule details to user or use rules for availability queries.",
+            "name": "availability-get_user_availability_schedule"
+          },
+          {
+            "description": "Use: List a user's busy time blocks within a date range.\nWhen: User asks a general yes/no \"what's my schedule\", \"am I free/busy\", or \"do I have any meetings\" question with no named event type, invitee, or specific meeting. Default here even when the user says \"meetings\" — see `meetings-list_events` instead when the user wants to see or list which meetings they have.\nNeeds: User URI from `users-get_current_user` and ISO 8601 start/end range.\nDo: Pass user URI and date range; use returned intervals to report conflicts.\nAvoid: Substituting for `event_types-list_event_type_available_times` (event-type bookable slots) or `meetings-list_events` (only booked Calendly meetings, not full calendar busy blocks) — they differ.\nThen: Use busy intervals to inform scheduling recommendations.",
+            "name": "availability-list_user_busy_times"
+          },
+          {
+            "description": "Use: Create a new event type on the connected account.\nWhen: User explicitly asks to create a new event type.\nNeeds: Host user URI from `users-get_current_user`.\nDo: Set name, duration, and host URI; omit optional fields unless user specified them.\nAvoid: Creating duplicates—call `event_types-list_event_types` first to check for existing types.\nThen: Confirm the new event type URI and share the scheduling URL.",
+            "name": "event_types-create_event_type"
+          },
+          {
+            "description": "Use: Update fields on an existing event type.\nWhen: User asks to change name, duration, description, or other settings.\nNeeds: Event type URI from `event_types-list_event_types` or `event_types-get_event_type`.\nDo: Read current state first with `event_types-get_event_type`; patch only requested fields.\nAvoid: Sending fields not read from current state—partial writes may reset unset fields.\nThen: Confirm changes with `event_types-get_event_type`.",
+            "name": "event_types-update_event_type"
+          },
+          {
+            "description": "Use: List all event types for the connected user or org.\nWhen: Start of any event-type task, or when selecting an event type by name.\nNeeds: User URI from `users-get_current_user`.\nDo: Filter by current user URI unless user explicitly asks about a different host or org.\nAvoid: Assuming a cached list is current—call fresh each session.\nThen: Carry the selected `uri` into get, update, or availability tools.",
+            "name": "event_types-list_event_types"
+          },
+          {
+            "description": "Use: Fetch full details for one event type by URI.\nWhen: Before updating an event type or confirming its current configuration.\nNeeds: Event type URI.\nDo: Use the returned fields as the baseline for any patch payload.\nAvoid: Constructing update payloads without reading current state first.\nThen: Proceed with `event_types-update_event_type` using the returned data as base.",
+            "name": "event_types-get_event_type"
+          },
+          {
+            "description": "Use: List bookable time slots for an event type within a date range.\nWhen: User wants slots, or to confirm availability before booking.\nNeeds: Event type URI and start/end date range (ISO 8601).\nDo: Pass `start_time` verbatim to subsequent tool calls; do not rewrite UTC values.\nAvoid: Stale data, or trusting a prior local label—re-check UTC `start_time` if questioned.\nThen: Pass UTC `start_time` to `meetings-create_invitee`.",
+            "name": "event_types-list_event_type_available_times"
+          },
+          {
+            "description": "Use: Read the current availability schedule (rules) for an event type.\nWhen: Before calling `event_types-update_event_type_availability_schedule`.\nNeeds: Event type URI.\nDo: Retain the full `rules` array verbatim—it is the required base for updates.\nAvoid: Calling the update endpoint without first reading the current rules.\nThen: Pass the rules to `event_types-update_event_type_availability_schedule` with only the needed edits.",
+            "name": "event_types-list_event_type_availability_schedule"
+          },
+          {
+            "description": "Use: Overwrite the availability schedule for an event type.\nWhen: User requests schedule changes (hours, days, one-off date overrides) for an event type.\nNeeds: Event type URI and current rules from `event_types-list_event_type_availability_schedule`.\nDo: Must copy existing rules verbatim, modify only requested entries, send full rules array with IANA timezone. wday rules need `wday` field; date rules need `date` field (YYYY-MM-DD); `intervals` is list of `{from, to}` in HH:MM 24h.\nAvoid: Constructing rules from scratch or sending a partial array—this endpoint overwrites all rules.\nThen: Re-read schedule with `event_types-list_event_type_availability_schedule` to confirm.",
+            "name": "event_types-update_event_type_availability_schedule"
+          },
+          {
+            "description": "Use: List allowed meeting location kinds for a user.\nWhen: Before creating bookings that need a `location` payload.\nNeeds: User URI from `users-get_current_user`.\nDo: Read supported location `kind` values; choose one compatible with the event type.\nAvoid: Submitting a location kind not configured for the host or event type.\nThen: Use chosen kind in `meetings-create_invitee` location payload.",
+            "name": "locations-list_user_meeting_locations"
+          },
+          {
+            "description": "Use: List scheduled meetings for user/org.\nWhen: Upcoming/past meetings or to find meetings by date.\nNeeds: User/org URI via `users-get_current_user`.\nDo: Filter status (active/canceled), date range; carry `uri`.\nAvoid: Fetching unfiltered when the user has a specific date. Not for a yes/no busy/free check phrased as \"meetings\" (e.g. \"do I have any meetings tomorrow\") — use `availability-list_user_busy_times` instead.\nThen: Enrich via `meetings-list_event_invitees` before listing/naming meetings, unless asked for only a count; then `uri` in `meetings-get_event`/`meetings-cancel_event`.",
+            "name": "meetings-list_events"
+          },
+          {
+            "description": "Use: Fetch details for a single scheduled meeting.\nWhen: User asks about a specific meeting or before canceling/examining invitees.\nNeeds: Meeting URI from `meetings-list_events`.\nDo: Use returned `event_type`, `start_time`, `end_time`, and `location` for display or next actions.\nAvoid: Calling this without a known meeting URI. list meetings first.\nThen: Use meeting URI in `meetings-list_event_invitees` or `meetings-cancel_event`.",
+            "name": "meetings-get_event"
+          },
+          {
+            "description": "Use: Cancel a scheduled meeting on behalf of the connected host\nWhen: User confirms they want to cancel a specific meeting.\nNeeds: Meeting URI from `meetings-list_events` or `meetings-get_event`.\nDo: Pass meeting URI and optional cancellation reason.\nAvoid: Canceling without confirmation; this notifies all invitees. For reschedule, surface `reschedule_url` instead.\nThen: Inform user the meeting is canceled and optionally list remaining meetings.",
+            "name": "meetings-cancel_event"
+          },
+          {
+            "description": "Use: Book a meeting slot for an invitee on a Calendly event type.\nWhen: User provides invitee name, email, and a confirmed available time slot.\nNeeds: Event type URI, `start_time` from `event_types-list_event_type_available_times`, invitee name and email. Include `location` if the event type has configured locations.\nDo: Set invitee name/email as the person being booked; host is the connected user from `users-get_current_user`. Never swap host and invitee fields.\nAvoid: Booking without confirming slot availability first, or omitting `location` when event type requires it.\nThen: Confirm booking with invitee details and meeting URI.",
+            "name": "meetings-create_invitee"
+          },
+          {
+            "description": "Use: List all invitees for a scheduled meeting.\nWhen: User asks who is attending a meeting or you need invitee URIs.\nNeeds: Meeting URI from `meetings-list_events`.\nDo: Use returned invitee `uri` for no-show marking or detail lookups.\nAvoid: Calling without a meeting URI. list meetings first.\nThen: Use invitee URI in `meetings-get_event_invitee` or `meetings-create_invitee_no_show`. For reschedule, surface each invitee's `reschedule_url`.",
+            "name": "meetings-list_event_invitees"
+          },
+          {
+            "description": "Use: Fetch details for a single meeting invitee.\nWhen: User asks about a specific attendee's booking details.\nNeeds: Meeting URI from `meetings-list_events` and Invitee URI from `meetings-list_event_invitees`.\nDo: Use returned fields for display or no-show status. Reschedule: surface `reschedule_url`.\nAvoid: Calling without known meeting and invitee URIs.\nThen: Use invitee URI in no-show tools if needed.",
+            "name": "meetings-get_event_invitee"
+          },
+          {
+            "description": "Use: Mark an invitee as a no-show for a past meeting.\nWhen: User reports an invitee did not attend.\nNeeds: Invitee URI from `meetings-list_event_invitees`.\nDo: Pass invitee URI; operation is idempotent.\nAvoid: Marking no-show before the meeting end time.\nThen: Confirm no-show is recorded and carry forward the no-show URI.",
+            "name": "meetings-create_invitee_no_show"
+          },
+          {
+            "description": "Use: Fetch the no-show record for a meeting invitee.\nWhen: User asks whether a no-show was recorded for an invitee.\nNeeds: No-show URI from `meetings-create_invitee_no_show`.\nDo: Check returned record for no-show status and timestamp.\nAvoid: Calling if no no-show has been recorded—returns 404.\nThen: Report no-show status to user.",
+            "name": "meetings-get_invitee_no_show"
+          },
+          {
+            "description": "Use: Remove a no-show mark from an invitee.\nWhen: User asks to undo a no-show marking.\nNeeds: No-show URI from `meetings-create_invitee_no_show`.\nDo: Pass no-show URI; operation is idempotent.\nAvoid: Calling without confirming a no-show record exists.\nThen: Confirm no-show has been removed.",
+            "name": "meetings-delete_invitee_no_show"
+          },
+          {
+            "description": "Use: Fetch details for the connected user's organization.\nWhen: User asks about the org or you need the org URI for [REDACTED] list tools.\nNeeds: Org URI from `users-get_current_user` (`resource.current_organization`).\nDo: Use returned `uri` for [REDACTED] event type or membership queries.\nAvoid: Calling without an org URI.\nThen: Use org URI in `organizations-list_organization_memberships`.",
+            "name": "organizations-get_organization"
+          },
+          {
+            "description": "Use: List all members of an organization.\nWhen: User asks who is in the org or you need to find a member's user URI.\nNeeds: Org URI from `users-get_current_user`.\nDo: Use returned `user.uri` for per-user event-type or availability queries.\nAvoid: Fetching the full list when you only need the connected user—use `users-get_current_user` instead.\nThen: Use member URI in [REDACTED] tools or `organizations-get_organization_membership`.",
+            "name": "organizations-list_organization_memberships"
+          },
+          {
+            "description": "Use: Fetch details for a single org membership.\nWhen: You need role or status for a specific member.\nNeeds: Membership URI from `organizations-list_organization_memberships`.\nDo: Check `role` and `status` fields for permissions context.\nAvoid: Calling without a known membership URI.\nThen: Use membership data to confirm before invite or removal actions.",
+            "name": "organizations-get_organization_membership"
+          },
+          {
+            "description": "Use: List pending invitations for the organization.\nWhen: User asks to see pending invites or check if someone was already invited.\nNeeds: Org URI from `users-get_current_user`.\nDo: Check returned list before sending a new invite to avoid duplicates.\nAvoid: Sending a new invitation without checking for existing pending ones.\nThen: Use invitation URI in `organizations-revoke_organization_invitation` if needed.",
+            "name": "organizations-list_organization_invitations"
+          },
+          {
+            "description": "Use: Invite a user to the organization by email.\nWhen: User asks to add a new member.\nNeeds: Org URI and invitee email address.\nDo: Check `organizations-list_organization_invitations` first to avoid duplicate invites.\nAvoid: Calling without confirming no pending invite exists for this email.\nThen: Confirm invitation sent and optionally show pending invitations.",
+            "name": "organizations-create_organization_invitation"
+          },
+          {
+            "description": "Use: Revoke a pending organization invitation.\nWhen: User asks to cancel a pending invite.\nNeeds: Organization URI from `users-get_current_user` and Invitation URI from `organizations-list_organization_invitations`.\nDo: Confirm with user before revoking; this cannot be undone.\nAvoid: Revoking without confirming the invite is still pending.\nThen: Confirm revocation and optionally refresh invitations list.",
+            "name": "organizations-revoke_organization_invitation"
+          },
+          {
+            "description": "Use: List routing forms for the org.\nWhen: User asks about routing forms or you need to find a form by name.\nNeeds: Org URI from `users-get_current_user`.\nDo: Use returned `uri` to fetch form details.\nAvoid: Assuming form names without listing first.\nThen: Use form URI in `routing_forms-get_routing_form`.",
+            "name": "routing_forms-list_routing_forms"
+          },
+          {
+            "description": "Use: Fetch details for a single routing form.\nWhen: User asks about a specific form or its questions.\nNeeds: Routing form URI from `routing_forms-list_routing_forms`.\nDo: Use returned question IDs for submission filtering.\nAvoid: Calling without a known form URI.\nThen: Use form details to answer user questions or list submissions.",
+            "name": "routing_forms-get_routing_form"
+          },
+          {
+            "description": "Use: List submissions for a routing form.\nWhen: User asks to see form responses or analyze routing data.\nNeeds: Routing form URI from `routing_forms-list_routing_forms`.\nDo: Use pagination params for large result sets.\nAvoid: Fetching all submissions without date/count filters on high-volume forms.\nThen: Use submission URI in `routing_forms-get_routing_form_submission`.",
+            "name": "routing_forms-list_routing_form_submissions"
+          },
+          {
+            "description": "Use: Fetch details for a single routing form submission.\nWhen: User asks about a specific submission or response.\nNeeds: Submission URI from `routing_forms-list_routing_form_submissions`.\nDo: Read `questions_and_answers` for the submitted values.\nAvoid: Calling without a known submission URI.\nThen: Report submission details to user.",
+            "name": "routing_forms-get_routing_form_submission"
+          },
+          {
+            "description": "Use: Create a single-use scheduling link using the event type's settings unchanged.\nWhen: User wants a one-time link with no overrides. For per-link customization (duration, scheduling window, location, availability), use `shares-create_share` instead.\nNeeds: Event type URI from `event_types-list_event_types`.\nDo: Each call creates a new link; store the returned `booking_url`.\nAvoid: Using when any override is requested — this endpoint cannot customize the link. Don't create more links than needed; each call creates a distinct non-reusable link.\nThen: Share `booking_url` with the intended invitee.",
+            "name": "scheduling_links-create_single_use_scheduling_link"
+          },
+          {
+            "description": "Use: Create a single-use share link for a one-on-one event type with per-link overrides\nWhen: User wants a single-use link with any customization (duration, scheduling window, location, or availability).\nNeeds: Event type URI from `event_types-list_event_types`.\nDo: Set only fields to override; omitted fields inherit from event type.\nAvoid: Group event types (one-on-one only).\nThen: Share the returned `booking_url`. To prefill the invitee's name on the booking page, append a `name` query parameter with the URL-encoded value, e.g. `{booking_url}?name=Pat+Tester`.",
+            "name": "shares-create_share"
+          },
+          {
+            "description": "Use: Resolve the connected host account and canonical user URI.\nWhen: Start any scheduling, booking, event-type, or availability workflow.\nNeeds: No inputs.\nDo: Call once and keep `resource.uri`, `timezone`, and `scheduling_url` for downstream calls.\nAvoid: Skipping this and guessing host identity.\nThen: Use `resource.uri` in list/get tools unless the user explicitly names another host.",
+            "name": "users-get_current_user"
+          },
+          {
+            "description": "Use: Fetch profile for a specific user by URI.\nNeeds: User URI.\nDo: Pass the user URI from org/membership data; do not use this to look up the connected user.\nAvoid: Calling this without a known URI - use `users-get_current_user` for the connected user.\nThen: Use returned `resource.uri` and `resource.timezone` for event-type or availability lookups scoped to that user.",
+            "name": "users-get_user"
+          },
+          {
+            "description": "List or search available Calendly skill guides. Each skill gives domain-specific context, recommended tool usage, and best practices for working with Calendly MCP tools. Call this when the user's goal has no obvious single tool (e.g. reschedule or move a meeting). Load a matching skill before using related workflow tools. Use `keywords` to search by name or description (any keyword may match), and `include_header=true` to include each skill's description and related skills.",
+            "name": "list_calendly_skills"
+          },
+          {
+            "description": "Load a Calendly skill guide that provides domain-specific context, recommended queries, and best practices for working with Calendly tools. Required after listing when a skill matches; do not guess multi-step flows from tool names alone. Use `list_calendly_skills` to discover available skills, or load directly by name. Set `header_only=true` to preview a skill's description and related skills without loading full content.",
+            "name": "load_calendly_skill"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Calendly": {
+        "type": "http",
+        "url": "https://mcp.calendly.com",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f3b1e3a2df289c0a8b8cff93b8e3ceb5913bc0d13d3a42c8650aa2f576b2abc3"
+      }
+    }
+  }
+}

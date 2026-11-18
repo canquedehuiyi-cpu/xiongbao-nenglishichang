@@ -1,0 +1,221 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.471Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Design",
+  "categoryCode": "Design",
+  "connector_id": "ea185e40-0c4d-4b27-bea2-149d6246cfff",
+  "connector_name": "Webflow",
+  "connector_name_cn": "Webflow",
+  "description": "Webflow provides visual website design and development with CMS content management and publishing. Coordinate website design, content maintenance, and publishing so page presentation and CMS content stay aligned throughout the production workflow. For product and design teams, the available material supports organizing visual content, design context, and feedback around a specific proposal. Use it to prepare design reviews and keep subsequent production aligned with the intended direction. Available data and operations depend on the current connection configuration, account permissions, and service plan.",
+  "description_cn": "提供可视化网站设计与开发平台，支持 CMS 内容管理和网站发布。适合围绕网站设计、内容维护和发布组织工作，使页面呈现与 CMS 内容在同一制作流程中衔接。面向产品与设计协作团队，可围绕具体方案整理视觉内容、设计背景和反馈，把相关素材用于方案表达与评审准备，帮助设计讨论与后续制作保持一致。具体可用的数据与操作范围以当前连接配置、账号权限及服务套餐为准。",
+  "version": "1.0.1",
+  "category": "Design",
+  "tags": [],
+  "provider_name": "Webflow",
+  "author": {
+    "name": "",
+    "display_name": "Webflow"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Webflow",
+        "url": "https://mcp.webflow.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_9dbc85f3c33d504d52ea5b3cfa4aad3d4c759f182f06d48863681b50023f5272",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_9dbc85f3c33d504d52ea5b3cfa4aad3d4c759f182f06d48863681b50023f5272",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Ask Webflow AI about anything related to Webflow API.",
+            "name": "ask_webflow_ai"
+          },
+          {
+            "description": "Data tool - Manage and generate agent instructions (rules and skills) for a site. Actions: search_instructions, read_instruction, create_instruction, update_instruction, delete_instruction, move_instruction, generate_instruction. Paths must follow 'rules/<name>.md', 'rules/<name>.mdc', or '<skill-name>/SKILL.md'. Generation is asynchronous and saves a draft: call generate_instruction to start, then call it again with task_id set to the returned taskId until it finishes and read the returned resourceUri.",
+            "name": "data_agent_instructions_tool"
+          },
+          {
+            "description": "Read Webflow Analyze report data for a site, including traffic timeseries, ranked pages, ranked dimensions, ranked engagement events, and aggregate or bucketed time on page. Includes guide actions for building Analyze queries and resolving engagement event rows to page elements, component instances, and CMS context. Also includes goals (list and daily performance), scroll depth, browser window height, and page flow (pages viewed before/after an anchor page).",
+            "name": "data_analyze_tool"
+          },
+          {
+            "description": "Read Webflow AEO (Answer Engine Optimization) analytics for a site: LLM crawler traffic, tracked prompts, prompt executions, visibility, citation rate, cited domains and paths, page citation share, competitor citations, and individual citations. The eight public read reports use the workspace AI/copilot gate; bot traffic does not. Brand names, owned domains, and competitor hosts are server-resolved on the reports that use them. Callers must not send brandNames, domains, or competitorDomains. Requires sites:read and the ALLOW_AEO_ANALYTICS entitlement. Includes a query guide.",
+            "name": "data_aeo_tool"
+          },
+          {
+            "description": "Inspect and manage Webflow Cloud apps, GitHub sources, environments, variable metadata, deployments, domains, and logs, including destructive lifecycle changes and deployment triggers. Create GitHub-source apps; use the Webflow CLI for CLI/local-source app creation, local-source deployment, and environment variable writes. This tool does not accept environment variable values. list_variables returns plaintext non-secret values and omits secret values. Use data_variable_tool for Designer variables. Raw build-phase/runtime logs may contain secrets.",
+            "name": "data_apps_tool"
+          },
+          {
+            "description": "Campaign Hub sites, campaigns, page-variation personalization, and campaign analytics. Discover sites via list_campaign_hub_sites (workspace from list_sites/get_site). Create campaigns from a confirmed markdown_brief; page content generates async — get_campaign_task_status is the only completion signal. Reads return metadata (id, name, brief, markdownBrief, state, timestamps, landingPage.pageId); updates are metadata-only; delete_campaign hard-deletes campaign/assets (page archived). Page variations: suggestions, create, list field matrix, bulk fieldValues update, delete. personalize_property creates and binds PlainText or ImageRef to ComponentInstance props; personalize_element creates and binds PlainText or ImageRef to non-component element settings (key from get_settings); unlink_delete_personalized_field permanently removes a field across all variations; update_personalized_field renames a field display name (slug/type can't be changed). Analytics: time series, form submits, engaged accounts, opportunity summary (optional page_variation_id).",
+            "name": "data_campaigns_tool"
+          },
+          {
+            "description": "Data tool - CMS tool to manage collections, collection fields (static/option/reference), collection field groups, and collection items (list, create, update, publish, unpublish, delete)",
+            "name": "data_cms_tool"
+          },
+          {
+            "description": "Data tool for localizing pages and components into secondary locales. Read and update static page content, component content, and component property overrides for any non-primary locale. Writes target secondary locales only — the primary (default) locale cannot be edited through this tool. Also includes list_components for discovering component IDs to localize.",
+            "name": "data_localization_tool"
+          },
+          {
+            "description": "Read Webflow Optimize results: which optimizations exist, what state they're in, and how one optimization's variations are performing overall, by audience segment, or over time.",
+            "name": "data_optimize_tool"
+          },
+          {
+            "description": "Data tool - Pages tool to perform actions like list pages, get page metadata, update page settings, create a page, bulk update page settings, manage page branches and their staging previews (page-branch actions require Enterprise), list or create site-scope branches / Releases via list_site_branches and create_site_branch (beta MCP only), and read or write JSON-LD schema markup for pages in bulk.",
+            "name": "data_pages_tool"
+          },
+          {
+            "description": "Data tool - Scripts tool to manage custom code scripts. Register, apply, update, and remove scripts at the site or page level, and read or write freeform head/footer custom code blocks.",
+            "name": "data_scripts_tool"
+          },
+          {
+            "description": "Data tool - Sites tool to perform actions like list sites, get site details, and publish sites",
+            "name": "data_sites_tool"
+          },
+          {
+            "description": "Manage who has access to Webflow sites and workspaces: list members, grant and revoke site access, invite people to a workspace, change site and workspace roles, list the site roles a workspace can assign (including custom ones), and remove members. Covers both scopes because granting site access needs a member identity, which lives at the workspace level. Requires an Enterprise workspace plan with user management enabled, and the authenticated user must be a workspace owner or admin; calls from workspaces or users without that fail with a message saying so.",
+            "name": "data_members_tool"
+          },
+          {
+            "description": "Data tool - A comment in Webflow is user feedback attached to a specific element or page inside the Designer, stored as a top-level thread with optional replies. Each comment includes author info, timestamps, content, resolved state, and design-context metadata like page location and breakpoint. Use this tool to inspect feedback discussions, filter threads by page, resolution status, or creation date, search for comment users by email, and create replies to existing threads.",
+            "name": "data_comments_tool"
+          },
+          {
+            "description": "Data tool - Enterprise tool to perform actions like manage 301 redirects, manage robots.txt and more. This tool only works if User's workspace plan is Enterprise or higher, else tool will return an error.",
+            "name": "data_enterprise_tool"
+          },
+          {
+            "description": "Data tool - Read forms and manage form submissions on a site. Actions: list_forms, get_form, list_site_form_submissions, list_form_submissions, get_form_submission, update_form_submission, delete_form_submission.",
+            "name": "data_forms_tool"
+          },
+          {
+            "description": "Data tool - Manage a site's uploaded custom fonts: list and inspect them, register new fonts and replace their files (a two-step upload flow), update font metadata, and remove fonts individually or in batches.",
+            "name": "data_fonts_tool"
+          },
+          {
+            "description": "Data tool - Webhook tool to perform actions like list webhooks, create webhooks, get webhook details, and delete webhooks for a Webflow site.",
+            "name": "data_webhook_tool"
+          },
+          {
+            "description": "Data tool - Manage sitemap indexing status for CMS collection items and static pages. Read and update whether pages and collection items appear in a site's generated sitemap. All endpoints are under the /beta namespace. Folder pages, collection template pages, and utility pages are not supported for page endpoints.",
+            "name": "data_sitemap_tool"
+          },
+          {
+            "description": "Data tool - Manage Webflow site assets and asset folders via the Data API. Creates asset metadata entries and returns presigned S3 upload information (uploadUrl and uploadDetails) used to upload the file bytes, and supports listing, updating, organizing, and deleting assets and asset folders, plus compressing image assets to webp or avif via async tasks.",
+            "name": "data_assets_tool"
+          },
+          {
+            "description": "Get an image preview of a site asset by its asset ID. Fetches the asset's metadata, downloads the smallest available image variant (or the original file when no variants exist), and returns the image content. Works with any image content type (e.g. JPG, PNG, GIF, WEBP); non-image files and files larger than 2 MB return an error instead of an image. Returns a 404 error if the asset does not exist or has been deleted.",
+            "name": "get_asset_preview"
+          },
+          {
+            "description": "Data Tool - Style tool to perform actions like get all styles, create a new style, update a style, query styles, remove a style, and manage style variable modes",
+            "name": "data_style_tool"
+          },
+          {
+            "description": "Data tool - Component tool to manage component definitions and instances: create, query, transform, insert, unlink.",
+            "name": "data_component_tool"
+          },
+          {
+            "description": "Data tool - Component props tool to manage prop definitions and set or reset prop values on component instances.",
+            "name": "data_component_props_tool"
+          },
+          {
+            "description": "Data tool - Component variants tool to manage variants and per-variant style overrides.",
+            "name": "data_component_variants_tool"
+          },
+          {
+            "description": "Data Tool - Variable tool to perform actions like create variable, get all variables, query variables, update variable, rename and delete variables, and reorder variable collections.",
+            "name": "data_variable_tool"
+          },
+          {
+            "description": "Manage IX3 interactions (animations) on a site: list, get, create, update, and delete. Creates take the full definition (object-format triggers and inline timelines) in one call. Animate opacity under wf:transform (e.g. [\"0%\",\"100%\"]), not wf:style. Headless; does not require Designer or the MCP Bridge. For legal payload shapes, call action guide or read MCP resource [REDACTED]",
+            "name": "data_interactions_tool"
+          },
+          {
+            "description": "Inspect and modify elements on a Webflow page: query the element tree, move or remove elements, and edit text, styles, links, images, heading levels, attributes, and display names.",
+            "name": "data_element_tool"
+          },
+          {
+            "description": "Read and write element settings and data bindings on a Webflow page: get or set settings, discover bindable sources, and set tag, visibility, and DOM id via static values or prop bindings.",
+            "name": "data_element_settings_tool"
+          },
+          {
+            "description": "Data Tool - Element builder to create elements on a page via the public-mcp headless surface.",
+            "name": "data_element_builder"
+          },
+          {
+            "description": "Data Tool - WHTML builder to insert elements from HTML and CSS strings on a page via the public-mcp headless surface. Accepts HTML markup and optional raw CSS rules, constructs WHTML, and inserts it into a parent element.",
+            "name": "data_whtml_builder"
+          },
+          {
+            "description": "Data Tool - Component builder to insert component instances on a page via the public-mcp headless surface. Supports inserting into an element (insert_in_element) or into a component instance's slot (insert_in_slot), with recursive nested-component trees via component_schema.slots.",
+            "name": "data_component_builder"
+          },
+          {
+            "description": "Designer Tool - Upload an image from a publicly accessible URL as a Webflow asset. Other asset and folder management is handled by data_assets_tool.",
+            "name": "asset_tool"
+          },
+          {
+            "description": "Designer Tool - Element snapshot tool to perform actions like get element snapshot. helpful to get element snapshot for debugging and more and visual feedback.",
+            "name": "element_snapshot_tool"
+          },
+          {
+            "description": "Interact with the user's live Webflow Designer session — select an element on the canvas or read which element is currently selected, navigate the canvas between pages and component canvases, switch to or read the current page, list a page's branches, read the current branch ID, parent page ID, and Designer mode, enter, exit, or inspect the current component view, and read all breakpoints (media queries) configured for the site.",
+            "name": "designer_tool"
+          },
+          {
+            "description": "Provides essential guidelines and best practices for effectively using the Webflow tools. Call this tool to understand recommended workflows and important considerations before performing actions. ALWAYS CALL THIS TOOL FIRST BEFORE CALLING ANY OTHER TOOLS.  ALWAYS CALL THIS TOOL FIRST BEFORE CALLING ANY OTHER TOOLS.",
+            "name": "webflow_guide_tool"
+          },
+          {
+            "description": "Check for additional tools whenever your task might benefit from specialized capabilities - even if existing tools could work as a fallback.",
+            "name": "get_more_tools"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Webflow": {
+        "type": "http",
+        "url": "https://mcp.webflow.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_9dbc85f3c33d504d52ea5b3cfa4aad3d4c759f182f06d48863681b50023f5272"
+      }
+    }
+  }
+}

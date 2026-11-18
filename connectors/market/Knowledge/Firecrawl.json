@@ -1,0 +1,200 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.541Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Knowledge",
+  "categoryCode": "Knowledge",
+  "connector_id": "firecrawl",
+  "connector_name": "Firecrawl",
+  "connector_name_cn": "Firecrawl",
+  "description": "Search, crawl, and extract web content with Firecrawl, and inspect account usage. Use the returned webpage content or run results as inputs to research, retrieval, or automation workflows. Define the target pages and content scope first, inspect the returned material, and preserve source links for traceability. Layout changes, dynamic loading, and site access restrictions can affect completeness. Check important fields before passing the result into downstream processing or treating it as a complete representation of the page.",
+  "description_cn": "通过 Firecrawl 搜索、抓取和提取网页内容，并查询账户用量。适合将公开网页资料整理为研究、检索或自动化流程的输入。可先限定目标页面和需要的内容范围，再检查返回文本或运行结果，保留来源链接用于追溯。网页布局变化、动态加载及站点访问限制都可能影响结果完整性，进入后续流程前应核对关键字段。",
+  "version": "1.0.0",
+  "category": "Knowledge",
+  "tags": [
+    "web",
+    "search",
+    "extraction"
+  ],
+  "provider_name": "Firecrawl",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "firecrawl",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_44530d8d3201b840ed66c14ecd8e92293a17d4b5a34c70469b1b03d3f3650ee4",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Search, crawl, and extract web content with Firecrawl, and inspect account usage.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_44530d8d3201b840ed66c14ecd8e92293a17d4b5a34c70469b1b03d3f3650ee4",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "firecrawl",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_44530d8d3201b840ed66c14ecd8e92293a17d4b5a34c70469b1b03d3f3650ee4",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Cancel a running Firecrawl agent job by job ID.",
+            "name": "agent_cancel"
+          },
+          {
+            "description": "Start a Firecrawl batch scrape job for multiple URLs and return the async job ID.",
+            "name": "batch_scrape"
+          },
+          {
+            "description": "Cancel a running Firecrawl batch scrape job by job ID.",
+            "name": "batch_scrape_cancel"
+          },
+          {
+            "description": "Get the current status and paged results of a Firecrawl batch scrape job by job ID.",
+            "name": "batch_scrape_get"
+          },
+          {
+            "description": "Get the failed URLs and robots.txt blocks from a Firecrawl batch scrape job.",
+            "name": "batch_scrape_get_errors"
+          },
+          {
+            "description": "Start a Firecrawl crawl job with compatibility input fields.",
+            "name": "crawl"
+          },
+          {
+            "description": "Cancel a running Firecrawl crawl job by job ID.",
+            "name": "crawl_cancel"
+          },
+          {
+            "description": "Compatibility alias of crawl_cancel for the crawl delete action name.",
+            "name": "crawl_delete"
+          },
+          {
+            "description": "Get the current status and paged results of a Firecrawl crawl job by job ID.",
+            "name": "crawl_get"
+          },
+          {
+            "description": "Get the failed URLs and robots.txt blocks from a Firecrawl crawl job.",
+            "name": "crawl_get_errors"
+          },
+          {
+            "description": "List the currently active Firecrawl crawl jobs for the authenticated team.",
+            "name": "crawl_list_active"
+          },
+          {
+            "description": "Preview the crawl parameters that Firecrawl would infer from a URL and prompt.",
+            "name": "crawl_params_preview"
+          },
+          {
+            "description": "Start a Firecrawl crawl job with the official v2 crawl fields.",
+            "name": "crawl_v2"
+          },
+          {
+            "description": "Get the authenticated Firecrawl team's current credit usage summary.",
+            "name": "credit_usage_get"
+          },
+          {
+            "description": "Get the authenticated Firecrawl team's historical credit usage summary.",
+            "name": "credit_usage_get_historical"
+          },
+          {
+            "description": "Start a Firecrawl deep research job.",
+            "name": "deep_research"
+          },
+          {
+            "description": "Start a Firecrawl extract job that returns structured data for one or more URLs.",
+            "name": "extract"
+          },
+          {
+            "description": "Get the current status and output of a Firecrawl extract job by job ID.",
+            "name": "extract_get"
+          },
+          {
+            "description": "Get the current status and output of a Firecrawl agent job by job ID.",
+            "name": "get_agent_status"
+          },
+          {
+            "description": "Get the current status and output of a Firecrawl deep research job by job ID.",
+            "name": "get_deep_research_status"
+          },
+          {
+            "description": "Compatibility alias of crawl_get for the crawl status action name.",
+            "name": "get_the_status_of_a_crawl_job"
+          },
+          {
+            "description": "Start an LLMs.txt generation job for a website.",
+            "name": "llms_txt_generate"
+          },
+          {
+            "description": "Get the current status and generated content of an LLMs.txt job by job ID.",
+            "name": "llms_txt_get"
+          },
+          {
+            "description": "Discover URLs from a website with Firecrawl's map endpoint using the legacy map action name.",
+            "name": "map_multiple_urls_based_on_options"
+          },
+          {
+            "description": "Get the authenticated Firecrawl team's queue status and concurrency information.",
+            "name": "queue_get"
+          },
+          {
+            "description": "Scrape a single URL with Firecrawl and return the extracted page content in the requested formats.",
+            "name": "scrape"
+          },
+          {
+            "description": "Search the web with Firecrawl and optionally scrape the top results in the requested formats.",
+            "name": "search"
+          },
+          {
+            "description": "Start a Firecrawl agent job for multi-page autonomous browsing and extraction.",
+            "name": "start_agent"
+          },
+          {
+            "description": "Get the authenticated Firecrawl team's current token usage summary.",
+            "name": "token_usage_get"
+          },
+          {
+            "description": "Get the authenticated Firecrawl team's historical token usage summary.",
+            "name": "token_usage_get_historical"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "firecrawl": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_44530d8d3201b840ed66c14ecd8e92293a17d4b5a34c70469b1b03d3f3650ee4",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_44530d8d3201b840ed66c14ecd8e92293a17d4b5a34c70469b1b03d3f3650ee4"
+      }
+    }
+  }
+}

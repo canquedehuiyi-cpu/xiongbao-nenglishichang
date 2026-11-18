@@ -1,0 +1,108 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.641Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Product-Management",
+  "categoryCode": "Product Management",
+  "connector_id": "dovetail",
+  "connector_name": "Dovetail",
+  "connector_name_cn": "Dovetail",
+  "description": "Access customer research projects and research material. Use submissions and feedback records as inputs to product research or operational reviews. Organize material by form, project, or topic while retaining links to the original records and their context. Distinguish the collected sample from the wider user population and check for duplicate submissions or missing information. A small set of responses should not automatically be generalized into a conclusion about all users.",
+  "description_cn": "访问用户研究项目及研究资料。适合将收集到的意见和提交资料整理成产品研究或运营复盘的输入。可围绕表单、项目或反馈主题归纳返回记录，保留原始条目与上下文以便进一步查看。分析时应区分样本范围与总体用户，注意重复提交和缺失信息，避免从少量反馈直接推导普遍结论。",
+  "version": "1.0.0",
+  "category": "Product Management",
+  "tags": [
+    "research",
+    "product",
+    "insights"
+  ],
+  "provider_name": "Dovetail",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "dovetail",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7d90afaf603ed873ef2e7596187188651ab38d2a6e88a1c39d0286dd96d656b9",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Access customer research projects and research material.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7d90afaf603ed873ef2e7596187188651ab38d2a6e88a1c39d0286dd96d656b9",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "dovetail",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_7d90afaf603ed873ef2e7596187188651ab38d2a6e88a1c39d0286dd96d656b9",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create a Dovetail data record inside a specific project.",
+            "name": "create_data"
+          },
+          {
+            "description": "Export a Dovetail data record in HTML or Markdown format.",
+            "name": "export_data"
+          },
+          {
+            "description": "Get one Dovetail data record by identifier.",
+            "name": "get_data"
+          },
+          {
+            "description": "Get metadata for the current Dovetail personal API key.",
+            "name": "get_token_info"
+          },
+          {
+            "description": "List Dovetail data records with pagination and common filters.",
+            "name": "list_data"
+          },
+          {
+            "description": "List Dovetail projects with pagination and title filtering.",
+            "name": "list_projects"
+          },
+          {
+            "description": "Update the title or fields of a Dovetail data record.",
+            "name": "update_data"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "dovetail": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7d90afaf603ed873ef2e7596187188651ab38d2a6e88a1c39d0286dd96d656b9",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7d90afaf603ed873ef2e7596187188651ab38d2a6e88a1c39d0286dd96d656b9"
+      }
+    }
+  }
+}

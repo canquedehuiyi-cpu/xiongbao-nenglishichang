@@ -1,0 +1,184 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.467Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Design",
+  "categoryCode": "Design",
+  "connector_id": "figma",
+  "connector_name": "Figma",
+  "connector_name_cn": "Figma",
+  "description": "Access design files, team projects, and design collaboration data. Use the available design information or image outputs to prepare visual-content work and coordinate design tasks. Start from a specific design objective, check the relevant file, template, or image context, and review the result against content and delivery requirements. Preview material before publication or handoff to confirm that text, brand elements, dimensions, and visual details match the intended use.",
+  "description_cn": "访问设计文件、团队项目及设计协作信息。适合在设计协作和视觉内容制作中组织素材与工作输入。可围绕具体设计目标核对文件、模板或图片信息，再检查处理结果是否满足尺寸、内容和交付要求。对需要发布的视觉内容，应在导出或使用前进行人工预览，确认文字、品牌元素和画面细节符合预期。",
+  "version": "1.0.0",
+  "category": "Design",
+  "tags": [
+    "design",
+    "collaboration",
+    "prototyping"
+  ],
+  "provider_name": "Figma",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "figma",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_b0fa5312d41458655287eebad500ffd7451f3bb138f21f5d804ea88f2840b3ab",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Access design files, team projects, and design collaboration data.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_b0fa5312d41458655287eebad500ffd7451f3bb138f21f5d804ea88f2840b3ab",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "figma",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_b0fa5312d41458655287eebad500ffd7451f3bb138f21f5d804ea88f2840b3ab",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create dev resources and attach them to Figma file nodes.",
+            "name": "create_dev_resources"
+          },
+          {
+            "description": "Delete a Figma comment created by the authenticated user.",
+            "name": "delete_comment"
+          },
+          {
+            "description": "Delete an emoji reaction created by the authenticated user.",
+            "name": "delete_comment_reaction"
+          },
+          {
+            "description": "Delete a Figma dev resource from a main file.",
+            "name": "delete_dev_resource"
+          },
+          {
+            "description": "Get metadata for a published Figma component by key.",
+            "name": "get_component"
+          },
+          {
+            "description": "Get metadata for a published Figma component set by key.",
+            "name": "get_component_set"
+          },
+          {
+            "description": "Get the current Figma user associated with the credential.",
+            "name": "get_current_user"
+          },
+          {
+            "description": "Get dev resources attached to a Figma main file.",
+            "name": "get_dev_resources"
+          },
+          {
+            "description": "Get the JSON document for a Figma file or branch.",
+            "name": "get_file"
+          },
+          {
+            "description": "Get lightweight metadata for a Figma file without fetching its full document.",
+            "name": "get_file_metadata"
+          },
+          {
+            "description": "Get JSON for selected node IDs from a Figma file or branch.",
+            "name": "get_file_nodes"
+          },
+          {
+            "description": "Get temporary download URLs for image fills used in a Figma file.",
+            "name": "get_image_fills"
+          },
+          {
+            "description": "Get metadata for a Figma project.",
+            "name": "get_project_metadata"
+          },
+          {
+            "description": "Get metadata for a published Figma style by key.",
+            "name": "get_style"
+          },
+          {
+            "description": "List emoji reactions on a Figma file comment.",
+            "name": "list_comment_reactions"
+          },
+          {
+            "description": "List comments on a Figma file or branch.",
+            "name": "list_comments"
+          },
+          {
+            "description": "List published component sets in a Figma main file library.",
+            "name": "list_file_component_sets"
+          },
+          {
+            "description": "List published components in a Figma main file library.",
+            "name": "list_file_components"
+          },
+          {
+            "description": "List published styles in a Figma main file library.",
+            "name": "list_file_styles"
+          },
+          {
+            "description": "List version history records for a Figma file.",
+            "name": "list_file_versions"
+          },
+          {
+            "description": "List files in a Figma project.",
+            "name": "list_project_files"
+          },
+          {
+            "description": "List projects visible to the authenticated user in a Figma team.",
+            "name": "list_team_projects"
+          },
+          {
+            "description": "Post a comment on a Figma file or branch.",
+            "name": "post_comment"
+          },
+          {
+            "description": "Add an emoji reaction to a Figma file comment.",
+            "name": "post_comment_reaction"
+          },
+          {
+            "description": "Render selected Figma file nodes and return temporary image URLs.",
+            "name": "render_images"
+          },
+          {
+            "description": "Update existing Figma dev resources.",
+            "name": "update_dev_resources"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "figma": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_b0fa5312d41458655287eebad500ffd7451f3bb138f21f5d804ea88f2840b3ab",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_b0fa5312d41458655287eebad500ffd7451f3bb138f21f5d804ea88f2840b3ab"
+      }
+    }
+  }
+}

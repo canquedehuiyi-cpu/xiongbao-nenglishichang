@@ -1,0 +1,123 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.493Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Developer-Tools",
+  "categoryCode": "Developer Tools",
+  "connector_id": "hashnode",
+  "connector_name": "Hashnode",
+  "connector_name_cn": "Hashnode",
+  "description": "Access Hashnode profiles and developer publications. Use the returned material to turn scattered content into reusable work context. Organize information by topic, project, or document identifier for reading preparation, knowledge review, and collaborative handoff. Check versions, access scope, and original sources before quoting or updating content. An outdated record or a short excerpt should not be treated as the complete or current conclusion of the source.",
+  "description_cn": "连接 Hashnode，查询开发者资料与内容。适合将分散的内容和资料组织为可继续使用的工作上下文。可围绕主题、项目或文档标识整理返回信息，用于阅读准备、知识梳理和协作交接。引用或更新内容前应检查资料版本、访问范围和原始出处，避免把过期内容或局部片段当成完整结论。",
+  "version": "1.0.0",
+  "category": "Developer Tools",
+  "tags": [
+    "developers",
+    "publishing"
+  ],
+  "provider_name": "Hashnode",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "hashnode",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5bfa4eb47eb059d97b4937b6ec3d704dbc82aa2e482b89c8fa9e6d22b5206f7a",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Developer publication connector.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5bfa4eb47eb059d97b4937b6ec3d704dbc82aa2e482b89c8fa9e6d22b5206f7a",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "hashnode",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_5bfa4eb47eb059d97b4937b6ec3d704dbc82aa2e482b89c8fa9e6d22b5206f7a",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create a draft in a Hashnode publication with an active Pro plan.",
+            "name": "create_draft"
+          },
+          {
+            "description": "Soft-delete an accessible Hashnode draft from a Pro publication.",
+            "name": "delete_draft"
+          },
+          {
+            "description": "Get the profile for the user authenticated by the connected Hashnode PAT.",
+            "name": "get_current_user"
+          },
+          {
+            "description": "Get one accessible Hashnode draft by ID from a Pro publication.",
+            "name": "get_draft"
+          },
+          {
+            "description": "Get one published Hashnode post by ID, including Markdown and rendered HTML.",
+            "name": "get_post"
+          },
+          {
+            "description": "List publications available to the authenticated Hashnode user.",
+            "name": "list_my_publications"
+          },
+          {
+            "description": "List posts from a Hashnode publication with cursor pagination; the publication must have an active Pro plan.",
+            "name": "list_publication_posts"
+          },
+          {
+            "description": "Publish an existing Hashnode draft from a Pro publication.",
+            "name": "publish_draft"
+          },
+          {
+            "description": "Publish a Markdown post to a Hashnode publication with an active Pro plan.",
+            "name": "publish_post"
+          },
+          {
+            "description": "Update fields on an existing Hashnode draft in a Pro publication.",
+            "name": "update_draft"
+          },
+          {
+            "description": "Update fields on an existing Hashnode post in a Pro publication.",
+            "name": "update_post"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "hashnode": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5bfa4eb47eb059d97b4937b6ec3d704dbc82aa2e482b89c8fa9e6d22b5206f7a",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5bfa4eb47eb059d97b4937b6ec3d704dbc82aa2e482b89c8fa9e6d22b5206f7a"
+      }
+    }
+  }
+}

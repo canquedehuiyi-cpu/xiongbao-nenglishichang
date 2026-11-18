@@ -1,0 +1,72 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.402Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Coding",
+  "categoryCode": "Coding",
+  "connector_id": "Sourcegraph",
+  "connector_name": "Sourcegraph",
+  "connector_name_cn": "Sourcegraph",
+  "description": "List repositories and files in Sourcegraph, search code with keywords or natural language, and read file contents. Search commits and diffs and read existing Deep Search results to understand code across repositories.",
+  "description_cn": "在 Sourcegraph 中列出代码仓库和文件，使用关键词或自然语言搜索代码并读取文件内容。支持搜索提交与代码差异、读取已有 Deep Search 结果，辅助理解跨仓库代码上下文。",
+  "version": "1.0.0",
+  "category": "Coding",
+  "tags": [],
+  "provider_name": "Sourcegraph",
+  "author": {
+    "name": "",
+    "display_name": "Sourcegraph"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Sourcegraph",
+        "url": "https://sourcegraph.com/.api/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_1bda3aac4be5bcd5ba6f149a9e3794382b03fe3fb390487cf32ab9a1d5e8f4a1",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_1bda3aac4be5bcd5ba6f149a9e3794382b03fe3fb390487cf32ab9a1d5e8f4a1",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Sourcegraph": {
+        "type": "http",
+        "url": "https://sourcegraph.com/.api/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_1bda3aac4be5bcd5ba6f149a9e3794382b03fe3fb390487cf32ab9a1d5e8f4a1"
+      }
+    }
+  }
+}

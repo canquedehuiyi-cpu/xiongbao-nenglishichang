@@ -1,0 +1,114 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.397Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Coding",
+  "categoryCode": "Coding",
+  "connector_id": "Replit",
+  "connector_name": "Replit",
+  "connector_name_cn": "Replit",
+  "description": "Replit provides cloud development, app building, execution, and deployment to move ideas into working products quickly.",
+  "description_cn": "Replit 提供云端代码开发、应用构建、运行和部署环境，帮助团队快速从想法推进到可用产品。",
+  "version": "1.0.1",
+  "category": "Coding",
+  "tags": [],
+  "provider_name": "Replit",
+  "author": {
+    "name": "",
+    "display_name": "Replit"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "qoderapp",
+    "qoder"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Replit",
+        "url": "https://replit-mcp.com/server/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_1f469e0a2de68ca07f8577706aada236d7121829385cf76805ac37deaa0e719e",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_1f469e0a2de68ca07f8577706aada236d7121829385cf76805ac37deaa0e719e",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Ask the Replit Agent a question in natural language about the user's Replit App's codebase or behavior without modifying it. Use this when the user wants explanation, debugging help, or inspection (for example, understanding how routing works, why a request is failing, or where a bug might be), and NOT when they are clearly asking you to change how their Replit App behaves — in that case, prefer update_app_using_prompt. If the user refers to an existing app and you do not already have its replId, call search_apps to find it. Do not guess a replId. The question should be written in the user's language and tone, as if you were the user, and it will be visible if they open their Replit App in Replit. The response you get back is natural language from the Replit Agent; summarize or quote it for the user as appropriate, still without showing raw code, file paths, or terminal commands in this chat. From the user's perspective, combined with create_app_from_prompt, search_apps, and update_app_using_prompt, this tool is what lets them simply chat (\"create or find → inspect/ask → update → repeat\") without needing to know about the underlying tools.",
+            "name": "ask_question"
+          },
+          {
+            "description": "Create a brand-new Replit App for the user. Use this the first time the user asks you to build a Replit App in this chat, including when they want the new app to start as a copy of one of their existing apps (pass sourceReplId); do not use it to modify or open existing Replit Apps the user already has in Replit. Replit will receive your request, start working on it in the background, BUT immediately respond to the tool call. Important: a response does not mean the app was created, only that creation started at the returned URL. These details are meant for you, the assistant. The user may not know what tool calls are. Explain in a user friendly way, and provide the URL so they can navigate to the Repl, since without the URL, there would be no way to visually see what Replit built.",
+            "name": "create_app_from_prompt"
+          },
+          {
+            "description": "Publish the user's Replit App so its latest changes go live at its public URL. If the app has been published before, this republishes it, reusing the existing deployment's settings. If it has never been published, this publishes it with default settings: Autoscale hosting, private visibility when the app belongs to a workspace (organization), public visibility otherwise. Some apps cannot be published from chat the first time; when that applies, this tool returns an error explaining what the user should do on the Replit website instead. Use it when the user asks to publish, deploy, redeploy, ship, or otherwise put their latest changes live; do not use it to change how the app behaves (use update_app_using_prompt for that). This tool returns as soon as the publish is scheduled, but publishing takes a few minutes and some failures only surface while it runs. After starting one, if you are able to wait and poll, call get_publish_status every 30 seconds until the status settles; otherwise tell the user the publish has started and that they should check back later.",
+            "name": "publish_app"
+          },
+          {
+            "description": "Check the publish status of the user's Replit App: its current publication, the status of its most recent publish, and the public URL it serves. found=false means no current publication status is available: the app may never have been published, its publication may have been removed, or its build state may be unavailable. When found, 'success' means it is live at the returned url, 'failed' means the last publish did not go through, 'suspended' means the published app is paused and not serving, and anything else means a publish or lifecycle operation is still in progress. Use this to poll every 30 seconds after calling publish_app, or whenever the user asks whether their app is published or what its live URL is. Takes the same replId as publish_app.",
+            "name": "get_publish_status"
+          },
+          {
+            "description": "List Replit Apps the user can edit, most recently updated first; `query` optionally filters by matching app titles, surfacing the best matches for the query first. Use this when the user wants to browse or pick from their apps, or when you need a replId but resolve_app_by_name returned found=false because the user gave an approximate name — present the returned titles and let the user choose, then pass the chosen replId to update_app_using_prompt or ask_question. This is a search/list, not the exact resolver: prefer resolve_app_by_name when the user already gave an exact app name. Results can include apps owned by or shared with the user.",
+            "name": "list_apps"
+          },
+          {
+            "description": "Look up by exact name a Replit App the user can edit and return its replId (UUID) and URL. Use this when the user refers to an app by name (e.g. \"update my Todo App\", \"what does my Recipe Tracker do?\") and you don't already have a replId from create_app_from_prompt earlier in this conversation. Pass the result's replId into update_app_using_prompt or ask_question to act on the app. Matching is case-insensitive but exact: this is a name resolver, not a search. If the user gives you an approximate or partial name and this tool returns found=false, call list_apps (optionally with the partial name as the query) and let the user pick from the results rather than guessing. Results can include apps owned by or shared with the user.",
+            "name": "resolve_app_by_name"
+          },
+          {
+            "description": "Search Replit Apps the user can edit (owned or shared with them). query is a BM25-style keyword search over app titles, best matches first; updatedAfter/updatedBefore bound the last-updated time; these combine. Prefer the default recency ordering: only set updatedAfter/updatedBefore when the user explicitly asks to filter by time, since date bounds exclude apps that would otherwise be listed. url resolves a Replit App URL directly to that app and ignores the other filters. With no filters, this returns the user's most recently updated apps. Pass a result's replId to update_app_using_prompt or ask_question to act on that app. <important>This tool is EXPERIMENTAL: prefer it for finding the user's apps, but if it errors or its results do not match what the user described, fall back to resolve_app_by_name (exact name) and list_apps (recent apps).</important>",
+            "name": "search_apps"
+          },
+          {
+            "description": "Update the user's Replit App.\n\nUse this whenever the user wants to change how their Replit App behaves (new features, bug fixes, UX tweaks, configuration changes, etc.).\n\nAcceptable replIds come from create_app_from_prompt (for an app you created in this conversation) or search_apps (for an existing app the user can edit). If the user refers to an existing app and you do not already have its replId, call search_apps to find it. Do not guess a replId. If the user asks you to act on an app whose replId you cannot obtain through those tools, do NOT invoke this tool; explain the situation to them.\n\nReplit will receive your request, start working on it in the background, BUT immediately respond to the tool call. Important: a response does not mean the app has finished updating, only that updating has started at the returned URL. These details are meant for you, the assistant. The user may not know what tool calls are. Explain in a user friendly way, and provide the URL so they can navigate to the Repl, since without the URL, there would be no way to visually see what Replit built.",
+            "name": "update_app_using_prompt"
+          },
+          {
+            "description": "List one directory of one of the user's Replit Apps, like the `ls` command. Pass the app's replId, and optionally a directory path; omit the path to list the app's root. Call it again on a subdirectory to explore deeper; a file's full path is the directory names you descended joined with \"/\" (for example src/pages/Home.tsx), which is what read_app_file takes. Listings show the app's files as they are right now, and may briefly start the app's machine if it was asleep. Dependency and build folders (like node_modules) are left out. If a directory holds more entries than fit in the token limit, the last line says so.",
+            "name": "list_app_files"
+          },
+          {
+            "description": "Read one text file from one of the user's Replit Apps. Pass the app's replId and the file's path relative to the app root: the directory names you descended with list_app_files joined with \"/\", plus the file name (for example src/pages/Home.tsx). This returns the file as it is right now (the same content the user sees in their workspace) and may briefly start the app's machine if it was asleep. Only text files up to about 100 KB can be read; larger files cannot be read with this tool.",
+            "name": "read_app_file"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Replit": {
+        "type": "http",
+        "url": "https://replit-mcp.com/server/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_1f469e0a2de68ca07f8577706aada236d7121829385cf76805ac37deaa0e719e"
+      }
+    }
+  }
+}

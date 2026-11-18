@@ -1,0 +1,108 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.557Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Knowledge",
+  "categoryCode": "Knowledge",
+  "connector_id": "carbonstop-ccdb",
+  "connector_name": "Carbonstop CCDB Emission Factor Search",
+  "connector_name_cn": "碳阻迹 CCDB 碳因子查询",
+  "description": "Search, compare and select Carbonstop CCDB emission factors for corporate carbon accounting, product carbon footprints (PCF) and life cycle assessment (LCA). Find candidate factors for electricity, natural gas, diesel, gasoline, coal, cement, steel, aluminium, plastics, transport, packaging, food and other materials or activities. Filter by country or region and year, and check units, system boundaries, technologies and data sources. Results include traceable Carbon Agent factor detail links when available. Data coverage and numeric visibility depend on the user's account permissions and data licenses. The AI assistant compares retrieved candidates; the connector does not provide a separate comparison API, modify models, or replace a complete assessment or compliance review.",
+  "description_cn": "碳阻迹（Carbonstop）CCDB 碳排放因子与排放系数查询、比较和匹配。适用于企业碳核算、产品碳足迹（PCF）和生命周期评价（LCA）中的因子选择，覆盖电力、天然气、柴油、汽油、煤炭、水泥、钢材、铝材、塑料、运输、包装、食品等材料与活动的检索场景。支持按国家/地区、年份等条件筛选，核对单位、系统边界、技术规格和数据来源，并返回 Carbon Agent 因子详情链接。数据覆盖及数值可见范围取决于账号权限与数据许可；候选比较由 AI 基于工具结果完成，不执行建模写入，也不替代完整核算或合规审核。",
+  "version": "1.0.0",
+  "category": "Knowledge",
+  "tags": [
+    "碳排放因子",
+    "排放系数",
+    "碳足迹",
+    "企业碳核算",
+    "LCA",
+    "qoder-vibe-new",
+    "qoder-pro-new"
+  ],
+  "provider_name": "碳阻迹（北京）科技有限公司",
+  "author": {
+    "name": "碳阻迹（北京）科技有限公司",
+    "display_name": "碳阻迹（北京）科技有限公司"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {
+    "en-US": [
+      "Search emission factor candidates by keyword",
+      "Filter emission factors by country, year, source",
+      "Get returned factor details, unit and source by ID"
+    ],
+    "zh-CN": [
+      "按关键词检索排放因子候选",
+      "按国家、年份和来源筛选排放因子候选",
+      "用搜索返回的因子ID查看详情、单位和来源"
+    ]
+  },
+  "config": {
+    "servers": [
+      {
+        "name": "carbonstop-ccdb",
+        "url": "https://gateway.carbonstop.com/mcp/ccdb",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "查询、比较和匹配 CCDB 碳排放因子，核对单位、地区、年份、边界和来源，并提供可追溯的因子详情链接。",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_efe86ff0c246a3620c41435cd36aa92e098faae15e81a0295456a8f499ed34d0",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_efe86ff0c246a3620c41435cd36aa92e098faae15e81a0295456a8f499ed34d0",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [
+      {
+        "name": "search_emission_factors",
+        "description": "按具体关键词及可选国家/地区、年份、来源条件检索候选因子。候选不是最终推荐，选用前需核对详情。展示因子名称时使用返回的 detailUrl 提供可点击链接；不编造链接或全库遍历。",
+        "server_name": "carbonstop-ccdb",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "get_emission_factor_detail",
+        "description": "用搜索实际返回的字符串 factorId 获取因子详情、单位、来源及适用范围。保留原始字段和受限值，并提供实际返回的详情链接；不承诺登录、注册或付费后解锁。",
+        "server_name": "carbonstop-ccdb",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      }
+    ],
+    "mcp_servers": {
+      "carbonstop-ccdb": {
+        "type": "http",
+        "url": "https://gateway.carbonstop.com/mcp/ccdb",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_efe86ff0c246a3620c41435cd36aa92e098faae15e81a0295456a8f499ed34d0"
+      }
+    }
+  }
+}

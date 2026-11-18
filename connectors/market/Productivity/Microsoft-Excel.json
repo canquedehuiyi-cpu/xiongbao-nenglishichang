@@ -1,0 +1,109 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.603Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "microsoft_excel",
+  "connector_name": "Microsoft Excel",
+  "connector_name_cn": "微软 Excel",
+  "description": "查看和编辑云端 Excel 工作簿",
+  "description_cn": "View and edit cloud-based Excel workbooks",
+  "version": "1.0.4",
+  "category": "Productivity",
+  "tags": [
+    "qoder-vibe-new",
+    "qoder-pro-new",
+    "qoder-vibe",
+    "qoder-pro"
+  ],
+  "provider_name": "Microsoft Excel",
+  "author": {
+    "name": "",
+    "display_name": ""
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "microsoft_excel",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5e9ed1761c649d3a07e733ef334a260306f58ddcbf355b73c4e0f1d00fb1de0b",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5e9ed1761c649d3a07e733ef334a260306f58ddcbf355b73c4e0f1d00fb1de0b",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "microsoft_excel",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_5e9ed1761c649d3a07e733ef334a260306f58ddcbf355b73c4e0f1d00fb1de0b",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create a chart in a cloud Excel workbook through the Microsoft Graph Workbook API.",
+            "name": "create_excel_chart"
+          },
+          {
+            "description": "Get the root item of a drive used to locate a cloud workbook.",
+            "name": "get_drive_root_item"
+          },
+          {
+            "description": "Read a cell range from a cloud Excel workbook without downloading the file.",
+            "name": "get_excel_range"
+          },
+          {
+            "description": "List drives available for selecting a cloud workbook.",
+            "name": "list_drives"
+          },
+          {
+            "description": "List worksheets in a cloud Excel workbook without downloading the file.",
+            "name": "list_excel_worksheets"
+          },
+          {
+            "description": "List cloud files used to locate an Excel workbook. This tool does not download file content.",
+            "name": "list_folder_files"
+          },
+          {
+            "description": "Sort a cell range in a cloud Excel workbook through the Microsoft Graph Workbook API.",
+            "name": "sort_excel_range"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "microsoft_excel": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5e9ed1761c649d3a07e733ef334a260306f58ddcbf355b73c4e0f1d00fb1de0b",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5e9ed1761c649d3a07e733ef334a260306f58ddcbf355b73c4e0f1d00fb1de0b"
+      }
+    }
+  }
+}

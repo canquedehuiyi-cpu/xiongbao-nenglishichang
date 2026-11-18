@@ -1,0 +1,210 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.408Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Content-Creation",
+  "categoryCode": "Content Creation",
+  "connector_id": "shenhuo-designers",
+  "connector_name": "Shenhuo Designers",
+  "connector_name_cn": "神火设计师",
+  "description": "Connect your Shenhuo AI account to commission professional AI designers from Qoder. Shenhuo Designers lists the live designer catalogue with each designer's specialties, lets you upload reference images and brand assets, matches a designer to your brief, and walks through requirement questions before producing a design proposal. Before any image is generated the server returns a credit quote that you must explicitly confirm, then the job runs asynchronously and the finished artwork is returned for download; the same project stays accessible in your Shenhuo account. Typical uses include brand visuals, e-commerce product images, promotional posters, social content and everyday office graphics. All work is billed against your personal Shenhuo credits, and matching, requirement understanding and proposals may consume credits before generation begins. Access is limited to your own tasks and settled works, and can be revoked from Shenhuo's connected-apps page.",
+  "description_cn": "连接神火 AI 个人账号，在 Qoder 内委托专业 AI 设计师完成图片设计。可读取实时设计师目录与各自擅长方向，上传参考图与品牌素材，按需求智能匹配设计师并回答需求追问后生成设计方案；生图前服务端返回积分报价，需你明确确认后任务才异步执行，完成后返回作品供下载，同一项目可在神火网站继续查看。适用于品牌视觉、电商图片、运营海报、社交内容与日常办公图片。全部消耗你账号的个人积分，匹配、需求理解与提案阶段可能先行扣减积分。授权后仅能访问你自己的任务与已结算作品，可在神火「已连接应用」中撤销授权。",
+  "version": "1.0.0",
+  "category": "Content Creation",
+  "tags": [
+    "design",
+    "image-generation",
+    "shenhuo",
+    "mcp",
+    "qoder-vibe-new",
+    "qoder-pro-new"
+  ],
+  "provider_name": "神火 AI",
+  "author": {
+    "name": "神火 AI",
+    "display_name": "神火 AI"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "shenhuo-designers",
+        "url": "https://api.shenhuoai.com/external/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "神火 AI 远程 MCP：账号信息、实时设计师目录与能力、素材上传票据、需求追问、建项与提案、积分报价确认、异步生图与作品获取；以实时 tools/list 为参数真源。",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7b8df5734100a30f637ceb31ea795aac3b95da2e5d83ced4afdc0e9b726e363b",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_7b8df5734100a30f637ceb31ea795aac3b95da2e5d83ced4afdc0e9b726e363b",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "读取实时启用工具、参数 Schema、积分和限制。mode=browser 只导入并交付编辑链接，不能调用 canvas_run。不依赖固定名单。",
+            "name": "canvas_list_tools"
+          },
+          {
+            "description": "创建个人画布项目。一次批量需求默认同一项目，不每张新建，不静默拆分。",
+            "name": "canvas_create_project"
+          },
+          {
+            "description": "读取图片 ID、已保存版本、剩余容量和画布链接，恢复已有操作。",
+            "name": "canvas_get_project"
+          },
+          {
+            "description": "导入一张原图，后续结果保留同组。批量逐张调用，先检查原图和预计结果容量，不执行处理。",
+            "name": "canvas_import_image"
+          },
+          {
+            "description": "绑定单张已保存图片版本，报价有效期 10 分钟。用户确认后才提交；编辑文字须沿用同版本 OCR 行，不能虚构坐标。",
+            "name": "canvas_quote"
+          },
+          {
+            "description": "执行已确认报价并返回任务 ID，不生成 PSD。批量逐张、最多两个在途，断线查询原任务或重放原幂等键。",
+            "name": "canvas_run"
+          },
+          {
+            "description": "查询到终态。两种分离成功即完成：先展示 canvas_url，再提供可选 PSD，等待用户明确要求，不自动导出。",
+            "name": "canvas_get_task"
+          },
+          {
+            "description": "仅响应用户明确取消要求；结果未知继续核对，不重建任务。",
+            "name": "canvas_cancel_task"
+          },
+          {
+            "description": "先交付画布链接，用户明确要求下载后才独立导出已保存版本，不重新分离。批量只逐张导出用户选择的图片。",
+            "name": "canvas_export"
+          },
+          {
+            "description": "查询已请求的独立导出；失败只重试导出，不重新分离或重复扣图片处理积分。",
+            "name": "canvas_get_export"
+          },
+          {
+            "description": "恰好提供一个任务或导出 ID。只取得已有结果和短期文件链接，不启动导出。下载过期重新取链接。始终交付画布入口并提示继续智能编辑。",
+            "name": "canvas_get_result"
+          },
+          {
+            "description": "定位图片与浏览器工具，提供简短说明。同账号网页登录后自行操作；不执行处理、不输出登录凭据。",
+            "name": "canvas_get_editor"
+          },
+          {
+            "description": "查询当前绑定的神火个人账号和可用积分。",
+            "name": "get_account"
+          },
+          {
+            "description": "读取当前已发布、在线且对外可调用的设计师目录，不依赖固定名单或设计师数量。",
+            "name": "list_designers"
+          },
+          {
+            "description": "查询指定设计师的公开素材要求、默认图片规格和对外模型档位名称（如 Pro／Flash）。",
+            "name": "get_designer"
+          },
+          {
+            "description": "申请有效期五分钟的原始文件 PUT 上传地址，默认单文件上限 20 MiB。使用宿主文件能力上传原始字节，无需 API Key 或 Base64。超时重试沿用原幂等键。",
+            "name": "create_upload"
+          },
+          {
+            "description": "查询上传状态、资产 ID 和 SHA-256，超时后用原上传记录恢复，不要改传另一份文件。",
+            "name": "get_upload"
+          },
+          {
+            "description": "根据需求匹配设计师，可能消费个人积分。保存素材、张数、明确规格和返回的 rte_ 开头的 routing_evaluation_id，用于 get_task 查询和 create_design 建项，并请用户选择设计师。匹配后用户可补充或修改需求，并在建项时提交完整最新需求，无需为此重新匹配。prompt_readiness 仅判断能否跳过提案。",
+            "name": "match_designer"
+          },
+          {
+            "description": "创建个人项目并开始提案，prompt_readiness.eligible 为 false 时也可正常建项。关联匹配记录时，brief 可包含用户在匹配后的真实补充需求；保留原匹配记录，不必重新匹配。设计师、素材、张数和明确规格须符合匹配记录。可复用本人已上传的素材，服务端自动为新项目建立素材记录；已交付项目的匹配记录通过同样的输入校验后可作为参考复用，无需重新上传。新项目仍按正常流程计费。默认规格及模型跟随设计师。超时重试保持原键及原参数；变更参数前先确认原操作状态。",
+            "name": "create_design"
+          },
+          {
+            "description": "查询或恢复同一个已受理任务，返回真实追问、方案、进度和错误。生图结果按 image_index 对应原方案页码，部分成功可能有缺页。不得为轮询重新创建付费任务。",
+            "name": "get_task"
+          },
+          {
+            "description": "转交用户对追问的真实回答及新增素材 ID，不得编造回答或在本地重写最终设计提示词。",
+            "name": "answer_questions"
+          },
+          {
+            "description": "获取有效期十分钟的生图报价。展示设计师、方案摘要、实际张数、图片规格、对外模型档位、预估生图积分、余额及此前匹配/提案费用。等待用户明确确认后才能调用 generate_images。",
+            "name": "quote_images"
+          },
+          {
+            "description": "仅在用户明确确认已展示的当前报价后提交异步生图。超时沿用原幂等键；报价失效时必须重新报价并再次取得确认。",
+            "name": "generate_images"
+          },
+          {
+            "description": "领取当前账号拥有且已结算的作品，返回有效期十分钟的下载/预览链接，不返回原始存储地址。使用宿主文件工具下载：先确保目标目录存在，检查 HTTP 状态和文件内容后展示；缺少文件工具时提供链接和项目入口，并说明尚未下载到本地。不要公开短期凭证。",
+            "name": "get_result"
+          },
+          {
+            "description": "为上传图片创建或恢复私有图层文档并报价，不启动付费分离。需要 images:edit。展示有效期、预计积分和余额；用户明确确认后调用 separate_layers。无需设计师匹配。",
+            "name": "quote_layer_separation"
+          },
+          {
+            "description": "确认报价后异步分离上传图片，服务器完成拟合、校色；psd 模式继续导出。保存 separation.id，以 get_layer_separation 查询至终态，成功后可打开 editor_url。断线不可换键重复提交。",
+            "name": "separate_layers"
+          },
+          {
+            "description": "查询原分离任务的状态和结算积分。成功返回 editor_url；document 模式此时已完成，无 export_id，稍后可独立导出。psd 模式成功且有 export_id 才领取文件。处理中继续轮询，不能自动重建付费任务。",
+            "name": "get_layer_separation"
+          },
+          {
+            "description": "获取本人成功分离结果的 editor_url、project_url 和当前 document_revision，供浏览器打开查看和编辑。链接不含 Token；未登录时用同一神火账号登录后返回。只读取已有结果，不启动分离或导出。",
+            "name": "get_layer_editor"
+          },
+          {
+            "description": "第二步：将已经分离成功的文档版本交给 Node 导出 PSD，不重新做 AI 分离。返回 job.id，用 get_layer_export 查询。版本冲突重新读取结果并确认导出版本，不静默改用新版。",
+            "name": "export_layer_psd"
+          },
+          {
+            "description": "查询独立 Node PSD 导出任务。成功时用 job.export.id 调用 get_layer_result 下载；导出失败不重新执行 AI 图层分离。继续轮询原任务至终态。",
+            "name": "get_layer_export"
+          },
+          {
+            "description": "用户明确要求取消时停止原任务，已开始的处理可能需等待退出。随后继续查询原 separation_id，按实际结算回执报告费用，不承诺未产生费用。",
+            "name": "cancel_layer_separation"
+          },
+          {
+            "description": "领取本人私有 PSD 的十分钟下载凭证。使用宿主文件能力下载原始字节，检查文件后交付。链接过期重新领取，不能重新分离；无文件能力时提供链接并说明尚未下载。不承诺所有文字或效果均可编辑。",
+            "name": "get_layer_result"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "shenhuo-designers": {
+        "type": "http",
+        "url": "https://api.shenhuoai.com/external/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7b8df5734100a30f637ceb31ea795aac3b95da2e5d83ced4afdc0e9b726e363b"
+      }
+    }
+  }
+}

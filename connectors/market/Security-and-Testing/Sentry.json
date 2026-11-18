@@ -1,0 +1,72 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.646Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Security-and-Testing",
+  "categoryCode": "Security & Testing",
+  "connector_id": "c6d1ba39-250a-4772-8cc0-625abb4a2ad5",
+  "connector_name": "Sentry",
+  "connector_name_cn": "Sentry",
+  "description": "Sentry provides application error monitoring and performance analysis to help development teams diagnose failures and latency. Gather context around errors and performance problems, identify investigation priorities, and connect monitoring findings to engineering follow-up. For security and quality investigations, organize findings, records, and issue context around the relevant subject. Combine returned information with your own system context when preparing triage decisions, investigation records, and follow-up reviews. Available data and operations depend on the current connection configuration, account permissions, and service plan.",
+  "description_cn": "提供应用错误监控与性能分析平台，帮助开发团队定位异常和性能问题。适合围绕异常和性能问题整理排查上下文，帮助团队确定调查方向，并把监控发现衔接到缺陷跟进流程。面向安全与质量排查工作，可围绕具体对象整理发现、记录和问题背景，将返回信息与自身系统上下文结合，支持风险分流、排查记录和后续复核。具体可用的数据与操作范围以当前连接配置、账号权限及服务套餐为准。",
+  "version": "1.0.2",
+  "category": "Security & Testing",
+  "tags": [],
+  "provider_name": "Sentry",
+  "author": {
+    "name": "",
+    "display_name": "Sentry"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Sentry",
+        "url": "https://mcp.sentry.dev/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_373d13ce404c967e8b7ab93d9fe7db84f9b53d7079522eda32ad21062d7e1864",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_373d13ce404c967e8b7ab93d9fe7db84f9b53d7079522eda32ad21062d7e1864",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Sentry": {
+        "type": "http",
+        "url": "https://mcp.sentry.dev/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_373d13ce404c967e8b7ab93d9fe7db84f9b53d7079522eda32ad21062d7e1864"
+      }
+    }
+  }
+}

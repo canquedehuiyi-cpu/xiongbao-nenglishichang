@@ -1,0 +1,457 @@
+{
+  "generatedAt": "2026-11-18T10:29:54.646Z",
+  "counts": {
+    "localSkills": 42,
+    "localPluginDirs": 38,
+    "feedPlugins": 10,
+    "connectorsLocal": 2,
+    "connectorsMarketMetadata": 127
+  },
+  "copy": {
+    "filesCopied": 3644,
+    "entriesSkipped": 51,
+    "copiedBytes": 46295675,
+    "skippedBytesApprox": 71386855
+  },
+  "excludedDirs": [
+    "vendor",
+    "node_modules",
+    ".git",
+    "__pycache__",
+    ".venv",
+    "bin",
+    "runtime",
+    "dist",
+    "out",
+    ".next",
+    "target",
+    "Cache",
+    "blob_storage"
+  ],
+  "excludedExt": [
+    ".wasm",
+    ".exe",
+    ".dll",
+    ".node",
+    ".so",
+    ".dylib",
+    ".zip",
+    ".png",
+    ".jpg",
+    ".jpeg",
+    ".gif",
+    ".webp",
+    ".ico",
+    ".ttf",
+    ".otf",
+    ".woff",
+    ".woff2",
+    ".mp4",
+    ".mov",
+    ".pyc",
+    ".map",
+    ".pdf",
+    ".class",
+    ".jar",
+    ".7z",
+    ".gz"
+  ],
+  "maxFileBytes": 2097152,
+  "credentialScan": {
+    "filesScanned": 4026,
+    "filesHit": 10,
+    "kvHits": 21,
+    "jwtHits": 0,
+    "prefixedSecretHits": 0,
+    "placeholderKept": 10,
+    "homePathRedacted": 3,
+    "note": "v2 规则：占位符(<>/your/example/xxx…)与 sha256 基线保留不动；已移除 v1 的 40+ 位十六进制盲替换（会误伤 git commit 与文档示例）"
+  },
+  "feed": [
+    {
+      "name": "better-harness",
+      "version": "0.2.20",
+      "bytes": 4381341,
+      "sha256": "cabe6fdaf2a786272ae2857cb4b8136cf01cb3bb7c7bd7cc5081de3a6b4a23cf",
+      "matchesFeed": true,
+      "files": 67,
+      "url": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0b4a0-1596-72a7-b7ab-d294e84e60b2/ed2674d6_9d1445c5_better-harness-runtime.zip"
+    },
+    {
+      "name": "dingtalk",
+      "version": "0.1.0",
+      "bytes": 1092284,
+      "sha256": "3d8cea9cc64d6b00f1da1f974ec4a8c25b73b39b919784b692100638d8ff1554",
+      "matchesFeed": true,
+      "files": 277,
+      "url": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a09ecf-2fba-7b21-853f-6ba3108c3fa1/21aaa94b_90fb77d1_dingtalk-plugin.zip"
+    },
+    {
+      "name": "grillme-matt",
+      "version": "0.1.0",
+      "bytes": 18835,
+      "sha256": "ebc42ac1cfaee535119f7a83a0ac9b0512bac0541366ef6834ef265feddef8c2",
+      "matchesFeed": true,
+      "files": 15,
+      "url": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0b364-4355-7456-b0ca-f6eb3535f051/8441f0ab_grillme-matt.zip"
+    },
+    {
+      "name": "mobile-use",
+      "version": "0.7.6",
+      "bytes": 689466,
+      "sha256": "52b78f8c943457e966bbcaaf1d053c29365b2cc860d494e0cbbc1abd168d96ee",
+      "matchesFeed": true,
+      "files": 66,
+      "url": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a15db8-efa1-7306-bb3d-6eaf0e244c5d/d291aea6_mobile-use.zip"
+    },
+    {
+      "name": "moneypal",
+      "version": "1.0.9",
+      "bytes": 39321,
+      "sha256": "dcba81fb59ed32d04aad4e90f89c240ea70394927d255bdd21280fbf29db244c",
+      "matchesFeed": true,
+      "files": 16,
+      "url": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a14e9b-4642-745d-a80b-2e17f4c87e45/3312a0f8_moneypal-qoder-1.0.9.zip"
+    },
+    {
+      "name": "polarmem0",
+      "version": "0.1.0",
+      "bytes": 6855,
+      "sha256": "ee732cbf03477e351ac10fe90f8ac61f35e2340d1b90842e661c85abc94ab06a",
+      "matchesFeed": true,
+      "files": 5,
+      "url": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fdcce-3f37-7949-951f-0a0812f27d96/96805bbe_polarmem0-0.1.0.zip"
+    },
+    {
+      "name": "qgraphflow",
+      "version": "0.0.7",
+      "bytes": 1090238,
+      "sha256": "8d8854610fd253ebe09cd3045799e513024642ca6e34ebab38b7c3492c983370",
+      "matchesFeed": true,
+      "files": 104,
+      "url": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a117d6-e424-759d-a7eb-ed504f94f9b2/444cfa6c_qgraphflow-0.0.7.zip"
+    },
+    {
+      "name": "qmind-knowledge-cn",
+      "version": "0.2.2",
+      "bytes": 36592,
+      "sha256": "479fa960016d463b909dd2d56c229b7b18c592b2a9d82b792514e9d9a2fdd1fd",
+      "matchesFeed": true,
+      "files": 5,
+      "url": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a08443-6187-76bf-97e1-ea8559d8232a/179df583_qmind-knowledge-cn-v0.2.2.zip"
+    },
+    {
+      "name": "qoder-credits-inspector",
+      "version": "2.7.4",
+      "bytes": 101855,
+      "sha256": "f1963949e0367ac36ae7ec1b7a86a4933e82fd9f27986446916b37ec7fc0ee48",
+      "matchesFeed": true,
+      "files": 21,
+      "url": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0b333-9f59-7dbc-a065-0dbf47250e06/f1303a4d_qoder-credits-inspector-2.7.4.zip"
+    },
+    {
+      "name": "zion-nocode",
+      "version": "2.7.5",
+      "bytes": 275238,
+      "sha256": "2cf0a585bd57b18e0b7d899fdf242c3c4c6315465930068396cc3bb3317687bb",
+      "matchesFeed": true,
+      "files": 66,
+      "url": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a08fee-183b-7e5e-aea9-5efdc70b9e83/e3b27a3d_zion-nocode-2.7.5.zip"
+    }
+  ],
+  "pluginIndex": [
+    {
+      "market": "qoder-bundler",
+      "name": "better-harness",
+      "version": "templates",
+      "versionsSeen": 11,
+      "skippedVersions": [
+        ".qoder-plugin",
+        "assets",
+        "case-studies",
+        "datasets",
+        "docs",
+        "hooks",
+        "models",
+        "references",
+        "scripts",
+        "skills"
+      ]
+    },
+    {
+      "market": "qoder-bundler",
+      "name": "computer-use",
+      "version": "skills",
+      "versionsSeen": 3,
+      "skippedVersions": [
+        ".qoder-plugin",
+        "bin"
+      ]
+    },
+    {
+      "market": "qoder-bundler",
+      "name": "qoder-create-plugin",
+      "version": "skills",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-bundler",
+      "name": "security-scan",
+      "version": "skills",
+      "versionsSeen": 5,
+      "skippedVersions": [
+        ".qoder-plugin",
+        "assets",
+        "bin",
+        "scripts"
+      ]
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "agent-design-studio",
+      "version": "1.1.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "alibabacloud-core",
+      "version": "1.0.37",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "alibabacloud-workbench",
+      "version": "1.0.1",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "apollo-graphql",
+      "version": "1.0.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "architecture-visualization",
+      "version": "0.1.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "better-harness",
+      "version": "0.2.20",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "cangjie-skills",
+      "version": "1.0.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "chrome-devtools-mcp",
+      "version": "1.9.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "cloudbase",
+      "version": "0.2.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "context7",
+      "version": "1.0.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "design-review",
+      "version": "0.1.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "duckdb",
+      "version": "1.0.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "fullstack-dev-expert",
+      "version": "1.0.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "fullstack-dev-group",
+      "version": "0.2.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "grillme-matt",
+      "version": "0.1.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "meoo",
+      "version": "0.1.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "mobile-use",
+      "version": "0.7.5",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "moonbit-skills",
+      "version": "0.1.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "oceanbase-skills",
+      "version": "2.0.1",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "office-docx",
+      "version": "0.4.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "office-excel",
+      "version": "0.1.2",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "postman",
+      "version": "1.3.1",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "Presentations",
+      "version": "0.1.4",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "product-design",
+      "version": "0.5.10",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "prompt-design-studio",
+      "version": "1.1.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "prompt-skill",
+      "version": "0.2.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "qgraphflow",
+      "version": "0.0.7",
+      "versionsSeen": 2,
+      "skippedVersions": [
+        "0.0.5"
+      ]
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "shenhuo-software-prototype",
+      "version": "1.0.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "site-audit",
+      "version": "1.0.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "super-design-studio",
+      "version": "1.0.0",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoder-marketplace",
+      "name": "superun-ui-expert",
+      "version": "0.1.27",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qoderapp-bundler",
+      "name": "qoder-context",
+      "version": "1.0.102.7c750f24",
+      "versionsSeen": 6,
+      "skippedVersions": [
+        "1.0.72.34cf9e2f",
+        "1.0.74.7a73af9",
+        "1.0.78.26e781a",
+        "1.0.84.f756706",
+        "1.0.97.fb328997"
+      ]
+    },
+    {
+      "market": "qoderapp-bundler",
+      "name": "qoder-memory",
+      "version": "0.1.2",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    },
+    {
+      "market": "qodercli-bundler",
+      "name": "qoder-sites",
+      "version": "5751bf07de10c632834c2a96d5a6817d9d65c815d1e6bcadcf5877d6d5e6a51c",
+      "versionsSeen": 1,
+      "skippedVersions": []
+    }
+  ]
+}

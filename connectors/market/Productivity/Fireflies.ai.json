@@ -1,0 +1,163 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.626Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "82f607ed-72bc-4e00-b9b8-16f8d98bf1f7",
+  "connector_name": "Fireflies.ai",
+  "connector_name_cn": "Fireflies.ai",
+  "description": "Fireflies.ai records, transcribes, and summarizes meetings so teams can search conversations and follow up on action items.",
+  "description_cn": "利用 AI 录制、转写和总结会议，帮助团队检索会话内容并跟进事项。",
+  "version": "1.0.1",
+  "category": "Productivity",
+  "tags": [],
+  "provider_name": "Fireflies.ai",
+  "author": {
+    "name": "",
+    "display_name": "Fireflies.ai"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Fireflies.ai",
+        "url": "https://api.fireflies.ai/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_aeb9fb78ed500b4ee7013beaeba65de2edc15de4f0bbeefe92e9584ee5c02b4e",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_aeb9fb78ed500b4ee7013beaeba65de2edc15de4f0bbeefe92e9584ee5c02b4e",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Fetches detailed meeting transcript by ID, with optional field filtering. Returns transcript content (sentences, speakers) and metadata, but excludes summary data. Each sentence is prefixed with its timestamp range (e.g. \"[00:05 - 00:08] Speaker: text\") so moments can be anchored back to the recording. To link a user directly to a moment in the meeting, convert the sentence start timestamp to seconds and build a deep link: [REDACTED] (e.g. ?t=441.29 for 07:21). If you need summary data, use fireflies_get_summary instead. If the meeting is currently live (is_live: true), the transcript returned is a point-in-time snapshot of the live transcript with sentences captured so far.",
+            "name": "fireflies_get_transcript"
+          },
+          {
+            "description": "Fetches meeting summary by ID, with optional field filtering. Returns summary data (keywords, action items, overview, etc.) and basic metadata, but excludes transcript content. If you need transcript content, use fireflies_get_transcript instead.",
+            "name": "fireflies_get_summary"
+          },
+          {
+            "description": "Queries multiple meeting transcripts using filter properties (date, keyword, email, etc.). Returns basic metadata and transcript summary. Does NOT accept transcriptId as input - use fireflies_get_transcript() multiple times to get detailed transcript content. Each result includes the meeting id, which can be linked as [REDACTED] append ?t={seconds} (e.g. ?t=441.29) to deep-link to a specific moment in the recording.",
+            "name": "fireflies_get_transcripts"
+          },
+          {
+            "description": "Retrieves a list of currently active (in-progress) meetings from Fireflies.ai. Returns meeting details including ID, title, organizer, meeting link, start/end time, privacy, and state. Admins can query active meetings for any user; regular users can only query their own.",
+            "name": "fireflies_get_active_meetings"
+          },
+          {
+            "description": "Fetches user account details. Returns profile info, transcript counts, meeting activity, and admin status. If no user ID provided, returns current authenticated user data.",
+            "name": "fireflies_get_user"
+          },
+          {
+            "description": "Fetches user groups for the authenticated user or their team. Returns group details including name, handle, and members. Use mine=true to get only groups the user belongs to, or mine=false (default) to get all groups in the team.",
+            "name": "fireflies_get_usergroups"
+          },
+          {
+            "description": "Fetches contact list for the authenticated user. Returns contacts with their names, emails, profile pictures, and last meeting dates sorted by most recent interaction.",
+            "name": "fireflies_get_user_contacts"
+          },
+          {
+            "description": "Shares a meeting transcript with specified email addresses. The authenticated user must be the owner of the meeting or a team admin. Up to 100 emails can be provided. Optionally set an expiry period for the shared access.",
+            "name": "fireflies_share_meeting"
+          },
+          {
+            "description": "Revokes a previously shared meeting access for a specific email address. The authenticated user must be the owner of the meeting or a team admin.",
+            "name": "fireflies_revoke_meeting_access"
+          },
+          {
+            "description": "Moves one or more meeting transcripts to a specified channel/folder. The authenticated user must be the owner of the meetings or a team admin. Up to 5 meeting IDs can be provided.",
+            "name": "fireflies_move_meeting"
+          },
+          {
+            "description": "Updates the privacy setting of a meeting transcript. The authenticated user must be the owner of the meeting or a team admin. Privacy options: \"owner\" (only the owner can view), \"participants\" (only meeting participants can view), \"participatingteammates\" (only participants who are teammates can view; beta, API/MCP only, not yet available in the dashboard), \"teammates\" (all teammates can view), \"teammatesandparticipants\" (teammates and participants can view), \"link\" (teammates and anyone with the link can view).",
+            "name": "fireflies_update_meeting_privacy"
+          },
+          {
+            "description": "Lists all channels/folders available to the authenticated user. Returns channel details including ID, title, privacy setting, and members.",
+            "name": "fireflies_list_channels"
+          },
+          {
+            "description": "Retrieves details of a specific channel/folder by its ID. Returns channel title, privacy setting, and member list.",
+            "name": "fireflies_get_channel"
+          },
+          {
+            "description": "Retrieves team and per-user meeting and conversation analytics from Fireflies.ai. Returns meeting counts, durations, conversation metrics (filler words, questions, monologues, sentiment, talk-listen ratio, words per minute), and comparison data against previous periods. Accepts optional start_time and end_time filters in ISO 8601 format. [REDACTED] analytics require admin privileges.",
+            "name": "fireflies_get_analytics"
+          },
+          {
+            "description": "Retrieves rule execution logs grouped by meeting. Shows which automation rules were triggered on meetings, including the actions taken (sharing, moving to channels, changing privacy). Requires Enterprise tier access. Results are paginated.",
+            "name": "fireflies_get_rule_executions"
+          },
+          {
+            "description": "Creates a soundbite (clip) from a meeting transcript. A soundbite is a short audio/video segment extracted from a meeting. The authenticated user must have write access to the meeting. Requires the transcript ID and start/end times (in seconds).",
+            "name": "fireflies_create_soundbite"
+          },
+          {
+            "description": "Updates the title of a meeting transcript. The authenticated user must be the owner of the meeting or a team admin. The title must be between 5 and 256 characters.",
+            "name": "fireflies_update_meeting_title"
+          },
+          {
+            "description": "Fetches soundbites (short shareable audio/transcript clips from meetings). Can filter by transcript, ownership, or team. At least one of mine, transcript_id, or my_team must be provided.",
+            "name": "fireflies_get_soundbites"
+          },
+          {
+            "description": "Advanced search for meeting transcripts using a mini grammar. Supports complex queries with multiple filters.\n\nGRAMMAR SYNTAX:\n- keyword:\"search term\" - Search for keywords in the content (max 255 characters). If no scope is specified, the default scope is 'all'.\n- scope:title|sentences|all - Define the search scope. Options are 'title', 'sentences', or 'all'. The default is 'all'.\n- from:YYYY-MM-DD - Filter meetings from this date (ISO format)\n- to:YYYY-MM-DD - Filter meetings until this date (ISO format)\n- limit:N - Limit results (max 50)\n- skip:N - Skip N results for pagination\n- organizers:[REDACTED],[REDACTED] - Filter by organizer emails (comma-separated, max 50; extra entries are dropped and reported in a warning)\n- participants:[REDACTED],[REDACTED] - Filter by participant emails (comma-separated, max 50; extra entries are dropped and reported in a warning)\n- mine:true|false - Filter to only include user's own meetings\n- channel:CHANNEL_ID - Filter meetings by channel/folder ID (use fireflies_list_channels() to find channel IDs)\n\nEXAMPLES:\n- \"engineering standup\" (simple keyword search)\n- \"keyword:\\\"performance\\\" scope:sentences limit:20\"\n- \"channel:[REDACTED] from:2026-01-01 limit:20\"",
+            "name": "fireflies_search"
+          },
+          {
+            "description": "Retrieve complete meeting transcript with full conversation, metadata, and insights for a specific meeting ID. Use this after search to get detailed content.",
+            "name": "fireflies_fetch"
+          },
+          {
+            "description": "Step 1 of uploading a local audio or video file to Fireflies for transcription. Requires a paid Fireflies plan, the meetings.upload scope, and file uploads enabled for the user's organization. Creates an empty meeting and returns a pre-signed upload_url valid for 1 hour, with the form fields it was signed with. Then: (2) upload the file with an HTTP multipart form POST to upload_url, sending every upload.fields entry as a form field and the file last as the field \"file\" (the response includes upload.curl, a curl command for a POSIX shell such as bash, zsh or Git Bash that reads the file path from the shell variable FILE; in PowerShell or another shell, send the same form from upload.fields with any HTTP client instead); the storage rejects a file over the size limit (400.00 MB for audio, 2.00 GB for video); (3) call fireflies_confirm_upload with the returned meeting_id to start transcription. Use this when the file is on the user's machine; the file content is never sent through this tool. At most 50 upload URLs per user per UTC day.",
+            "name": "fireflies_create_upload_url"
+          },
+          {
+            "description": "Step 3 of uploading a file to Fireflies: call after the form POST to the upload_url from fireflies_create_upload_url has succeeded. Verifies the file arrived, starts transcription and returns the meeting link (url), which opens right away. Fails with \"not found\" if the file was not uploaded yet or the upload session expired (1 hour). Call it once per upload: until the upload URL expires (1 hour after fireflies_create_upload_url), a second call answers that the upload was already confirmed, with the meeting link, and the file is not transcribed twice. If it answers that processing may already have started, check that link before uploading the file again. Transcription takes a few minutes; the transcript then appears at that url and via fireflies_get_transcript with the same meeting_id. Requires a paid Fireflies plan, the meetings.upload scope, and file uploads enabled for the user's organization.",
+            "name": "fireflies_confirm_upload"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Fireflies.ai": {
+        "type": "http",
+        "url": "https://api.fireflies.ai/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_aeb9fb78ed500b4ee7013beaeba65de2edc15de4f0bbeefe92e9584ee5c02b4e"
+      }
+    }
+  }
+}

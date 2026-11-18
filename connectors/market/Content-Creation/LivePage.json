@@ -1,0 +1,434 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.420Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Content-Creation",
+  "categoryCode": "Content Creation",
+  "connector_id": "livepage",
+  "connector_name": "LivePage",
+  "connector_name_cn": "活页",
+  "description": "LivePage turns daily reports, weekly recaps, industry briefings, presentations and invitations that an AI has already drafted into links and mini-program cards that open directly inside WeChat, ready to share to groups and Moments. Once your account is authorized, an agent can publish and update pages for you: the link stays the same while the content changes, so readers always see the latest version, and generation can be scheduled and pushed to your WeChat. Shared cards carry their own title, summary and cover, with a mobile-fitted layout and a QR code that moves desktop work into WeChat. After publishing you can see who visited and how far they read, replay a page with form input masked, run a slide deck with speaker notes on your phone, and collect sign-ups, votes, feedback and orders from invitations. Pages are private by default, can be limited with a passcode, and become public only when you ask. A LivePage account is required.",
+  "description_cn": "活页（LivePage）把 AI 已经做好的日报、周报、行业动态、演示稿和邀请函，一键发布成微信里点开就能看的链接和小程序卡片，可直接分享到微信群和朋友圈。授权账号后，Agent 可以帮你发布和更新页面：内容改了链接不变，看的人始终看到最新版，还能定时生成并推送到你的微信。转发卡片自带标题、摘要和封面，手机版式自动适配，电脑上可扫码转到微信。发布后能查看谁访问过、读到哪一步，网页可回放且表单输入已遮罩；演示稿支持手机扫码看讲稿、电脑翻页、手机同步；邀请函和页面还能收集报名、投票、反馈和订单。页面默认仅自己可见，可用口令分享给指定的人，只在你明确要求时才公开。使用前需先注册活页账号。",
+  "version": "1.0.0",
+  "category": "Content Creation",
+  "tags": [
+    "wechat",
+    "publishing",
+    "report",
+    "mcp",
+    "qoder-vibe-new",
+    "qoder-pro-new"
+  ],
+  "provider_name": "二四网络",
+  "author": {
+    "name": "二四网络",
+    "display_name": "二四网络"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "livepage",
+        "url": "https://space.24haowan.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "Publish AI-drafted reports, pages, decks and invitations as WeChat-openable links through LivePage.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f8f2f246714a88a2f8e967c286379f4dd3284719323910f0801b12570504f3df",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_f8f2f246714a88a2f8e967c286379f4dd3284719323910f0801b12570504f3df",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create a folder to organize related pages and optionally share it through one link. Folders are optional: leave folder_id out of create_proposal for a one-off page that is not in any folder. Check list_folders first to avoid duplicates.",
+            "name": "create_folder"
+          },
+          {
+            "description": "List this workspace’s folders, item counts, sharing exclusions, introductions, covers, visibility, existing URLs and passcodes, and management URLs. Use list_proposals with a folder_id for its contents, or null for pages not in any folder.",
+            "name": "list_folders"
+          },
+          {
+            "description": "Turn the workspace home page https://<workspace>.24hw.cn/ into one link that holds everything (for a social-media bio, a WeChat signature or a business-card QR code): 1–3 pinned large cards, section headings, external link cards (website, shop, social accounts…) and contact buttons (add-on-WeChat QR code, phone, email, or one item). Call with no arguments to read the current state (layout, links, contact buttons, clicks in the last 7 days).\nItems are refs: p:<page id>, f:<folder id>, l:<link id> (add links first with links_add; with section they go straight into that section).\n- layout replaces the whole layout {pinned, sections:[{title, items}], rest:\"auto\"|\"none\", hidden}; null restores the automatic layout. Or pass only sections / rest, or use pin / unpin / hide / show.\n- rest=auto: public pages not placed anywhere follow, newest first; none: only pinned and sectioned items show.\n- hide: do not list a page / folder on the home page without changing its own visibility (its link still works); show undoes it.\n★ The home page is a showcase, not a key: it only shows content that is itself public or passcode-protected; private items placed in the layout stay invisible to readers (the result names them). The home page is members-only by default; to share it, ask the user and then use set_visibility(home: true).\n★ External links accept https / tel / mailto only; readers first see a “leaving LivePage” page, which also counts the click.\n★ Free: pinning, sections, external links, contact buttons. Premium (workspace owner): theme colour and banner image.\nEditors and owners can call it.",
+            "name": "set_home"
+          },
+          {
+            "description": "Change a folder’s name, introduction or cover. A cover must be a page inside this folder that is shared through the folder link. Set cover_proposal_id to null to restore the generated index. The cover uses the page’s live version.\nFolder page layout: layout {pinned, sections:[{title, items}], rest, hidden} with items p:<page id> or l:<link id> (add links with set_home links_add); or pass only sections / rest, or pin / unpin / hide / show; layout=null restores newest-first.\n★ hide is not set_internal: a hidden page is just not listed on the folder page — the folder link still opens it and its own link is unchanged; internal means the folder link does not include it at all.",
+            "name": "set_folder"
+          },
+          {
+            "description": "Move a page into a folder, or set folder_id to null to take it out of any folder. Moving a folder’s cover out also removes that cover. Moving a page into a shared folder can grant access to its live version unless it is set to not be shared through the folder link.",
+            "name": "move_proposal"
+          },
+          {
+            "description": "Choose whether a page is shared through its folder link. A page that is not shared through the folder link is absent from the folder page and cannot be opened through the folder link. Its own link retains its separate visibility. This does not make a public link private.",
+            "name": "set_internal"
+          },
+          {
+            "description": "Rename a page (keywords: rename, change title, retitle). The page name is what the web console list, list_proposals and folder page pages show.\n★ The page name is separate from each version’s manifest title (the title readers see and the WeChat card title): publishing a new version never changes the page name. If the page title changed but lists still show the old name, rename it with this tool.\n- Changes only the name: links, versions, visibility and analytics stay the same, and no version’s content is modified. Every rename is audited.",
+            "name": "rename_proposal"
+          },
+          {
+            "description": "Create a page for a report, proposal, deck or interactive page. Returns proposal_id; uploads become versions of this page. Folders are optional. Use list_proposals first when updating existing pages instead of creating a duplicate.\nKeywords: publish · web page · webpage · link · share · share to WeChat · WeChat link · html · pdf · markdown · upload · LivePage · proposal.",
+            "name": "create_proposal"
+          },
+          {
+            "description": "Use this when the user pastes a LivePage link and says “copy it to my space / I want to edit it / rewrite it”: copies the version readers currently see into a **new page in your own workspace** (keywords: copy, duplicate, save as, edit a copy).\n- Requires that the publisher allowed copying (allow_copy) and that the link opens without a passcode right now. Not allowed → 403 `copy_not_allowed`; relay the plain-language reason to the user, don't work around it. Link revoked / expired / page deleted → 410.\n- The copy is an **unpublished draft** (visible only to your workspace) and independent from the source from then on: later edits or deletion of the source don't affect it. It counts toward your storage quota.\n- Then: read_version(version_id) to read the content, edit it as the user asks, and publish_file(proposal_id=…) as a new version; to publish it unchanged, finalize_upload(version_id, manifest). Publishing goes through moderation as usual and is visible only to you by default.",
+            "name": "copy_proposal"
+          },
+          {
+            "description": "Publish an HTML / Markdown page or document straight to a WeChat-ready LivePage link; no terminal needed.\nWhich upload route: terminal ⇒ SPACE CLI (create_cli_token first); no terminal and text files up to 2 MB in total ⇒ publish_file; anything else or unsure ⇒ create_upload_link.\nThe link opens and forwards inside WeChat (links from WorkBuddy's built-in site publishing, `*.app.workbuddy.host`, cannot be opened inside WeChat); use this when the user wants it in WeChat.\nUse this when you have no terminal and the page is text files — HTML or Markdown pages and documents (no upload session to open first): pass the complete text content and the platform uploads it for you. Validation, content moderation (never released while moderation is unavailable), automatic release after approval or hold, and the result are exactly the same as finalize_upload. To add a version to existing pages pass proposal_id (find it with list_proposals first); to create new pages pass title (optional folder_id). One file: pass filename + content (.html / .htm / .md). When the page, styles and scripts are separate files, pass files: [{ path, content }] instead (one or the other): paths may include directories (e.g. css/style.css) and pages reference each other with relative paths; text files only (html / htm / md / css / js / mjs / json / svg / txt / csv), at most 50; the entry is manifest.entry, else index.html, else the only page. When a file is already at a public https URL (a cloud-drive public download link, a PDF link produced by another tool), pass { path, url } in files instead (e.g. [{ path: 'report.pdf', url: '[REDACTED]' }]) and the platform fetches it — PDF, PPTX and images work: up to 50 MB each and 50 MB in total, at most 5 URLs, fetched within 30 seconds; only public addresses, and links that need a login cannot be fetched (fetch_failed, with fetch_* details in issues). UTF-8 text, up to 2 MB in total — anything larger is rejected with too_large and never truncated. The contents of images, PDF, PPTX and other binary files cannot be sent here: use a URL if there is one; otherwise without a terminal, use create_upload_link to give the user an upload page; with a terminal, use the SPACE CLI with create_cli_token. IMPORTANT: when the page already has readers outside the workspace, set hold=true whenever the user has not explicitly approved releasing this version, then show them the author link (preview_url, author only, never forward it to readers) before publish_version. Hold only matters once the page has readers outside the workspace (passcode, public, a folder link or a named link); on a page only workspace members can open — every new page starts that way — hold is ignored and the approved version becomes current directly without notifying anyone. For a small edit (a typo fix) that should not notify anyone, pass quiet=true: workspace people and subscribers are not notified this time, and subscribers are notified on the next update.\nKeywords: publish · web page · webpage · link · share · share to WeChat · WeChat link · html · pdf · markdown · upload · LivePage · proposal.",
+            "name": "publish_file"
+          },
+          {
+            "description": "Get an upload page for the user, who picks the files on their phone or computer (PDF / PPTX / images / large files).\nWhich upload route: terminal ⇒ SPACE CLI (create_cli_token first); no terminal and text files up to 2 MB in total ⇒ publish_file; anything else or unsure ⇒ create_upload_link.\nUse this when you have NO terminal and the page is not text files within 2 MB (PDF, PPTX, images, large files), or when you are not sure: the platform creates an upload page link; give it to the user and they pick the files on their phone (WeChat works) or computer. The link is valid for 2 hours, succeeds only once, uploads only into this one page, and needs no login. To add a version to existing pages pass proposal_id (find it with list_proposals first); to create new pages pass title (optional folder_id). hold defaults to true: on a page others can already open, the approved version is NOT released until the user confirms the preview and you call publish_version; on a page only workspace members can open, it becomes current directly. After calling, hand the url to the user unchanged, say exactly which file to upload and ask them to come back and say “uploaded” when done; then call get_version with version_id every 15–30 seconds until it is no longer uploading: preview_ready or approved ⇒ show the user the receipt's preview_url to confirm (the live link once current; before publishing a single-use author link, never forward it to readers); converting ⇒ keep polling; review ⇒ tell the user it is under manual review. After upload, the page also links to the page details for preview and sharing; keep following up through get_version and do not publish a version that is waiting to publish before the user confirms. For a single HTML or Markdown file whose content you already have, use publish_file instead — the user does not need to do anything.\nKeywords: publish · web page · webpage · link · share · share to WeChat · WeChat link · html · pdf · markdown · upload · LivePage · proposal.",
+            "name": "create_upload_link"
+          },
+          {
+            "description": "Read a version’s download switch, original file, ordered attachments, display labels, descriptions, optional filenames, real formats and sizes, and uploaded file candidates. Pass its `revision` back unchanged when calling set_downloads.",
+            "name": "get_downloads"
+          },
+          {
+            "description": "Replace an approved version’s download settings without reuploading its content. Read get_downloads first for its `revision` and candidates. Select source (or null) and ordered attachments. Each item needs a label; description and downloadName are optional; showFilename defaults to false. Keep the filename extension. enabled=false disables all download URLs while preserving the list. Changes to a live version apply immediately. On conflict, read and review again; do not overwrite blindly. A download button drawn in your own page body is marked data-space=\"download:<package path>\" and only works for files in this list.",
+            "name": "set_downloads"
+          },
+          {
+            "description": "After creating an upload session, compare the proposed manifest with the current version before finalizing. Returns added, removed, replaced and missing files, the full list and a basis token. Omitted downloads inherit explicit current settings; a first version defaults to none; [] clears the list. Resolve missing files explicitly. Pass basis as download_basis to finalize_upload to detect concurrent changes. The CLI handles this step.",
+            "name": "preview_downloads"
+          },
+          {
+            "description": "Call after all file PUTs finish. Verifies size, SHA-256, signatures, archive and HTML safety, manifest and content moderation. PDF/PPTX conversion may take 1–3 minutes; poll get_version every 15–30 seconds. Validation failures include file/line/fix issues; correct and upload the affected files. Review status blocks publishing. Moderation outages never release content. IMPORTANT: by default an approved update may immediately replace the live version. When the page already has readers outside the workspace, set hold=true whenever the user has not explicitly approved releasing this version, then show them its author link (preview_url, author only, never forward it to readers) for review. Hold only matters once the page has readers outside the workspace (passcode, public, a folder link or a named link); on a page only workspace members can open — every new page starts that way — hold is ignored and the approved version becomes current directly without notifying anyone.\nKeywords: publish · web page · webpage · link · share · share to WeChat · WeChat link · html · pdf · markdown · upload · LivePage · proposal.",
+            "name": "finalize_upload"
+          },
+          {
+            "description": "Read a version’s status, page count, validation or review issues, and the files this version contains (artifacts: each path, type, size, whether it is the entry file and whether readers can download it). After finalize_upload returns converting, poll no faster than every 15–30 seconds. Show the preview to the user once ready. To read the rendered body of a file listed here, use read_version.",
+            "name": "get_version"
+          },
+          {
+            "description": "Read back the rendered body of a version: the same bytes a reader receives in the browser, which differ from the uploaded file only by the one platform line <script data-space-sdk> — not a rewritten copy. This is how an agent confirms for itself that what went live is what it made: no browser, no screenshot, no human login, and no need to hand the link to the user to look at for you. Reads the entry file by default; pass file with a package-relative path to read one text file (.html, .md, .txt, .json, .svg and the like). To see which files a version has, and which one is the entry, read get_version artifacts. Two things it cannot read: PDF and PPTX content, which is page images (use preview_url, or the page count from get_version), and versions still uploading or converting, which have no body yet. A version in another workspace is not_found. A long body is returned up to a limit, and the reply states the full character count and whether it was cut.",
+            "name": "read_version"
+          },
+          {
+            "description": "Make an approved version that is waiting to publish live, or roll back to an earlier approved version. Existing versions and comments remain. Call only after the user explicitly approves publishing or rolling back. Approved uploads without hold may already have become live. quiet=true makes this switch notify no one (workspace people or subscribers); releasing a held version keeps the quiet choice made at upload unless you pass it.\nKeywords: publish · web page · webpage · link · share · share to WeChat · WeChat link · html · pdf · markdown · upload · LivePage · proposal.",
+            "name": "publish_version"
+          },
+          {
+            "description": "List pages in the current workspace, including title, proposal_id, version state, current_version_id (the version clients see now), visibility, URL and recent activity. Use this to find existing pages rather than asking the user to copy IDs. Omit folder_id for all pages, use a folder ID for that folder, or null for pages not in any folder. In a new session, take current_version_id straight to preview_version or get_version: a proposal_id is not a version_id, and get_version on a proposal_id returns not_found. Use list_versions for earlier versions or a rollback. Existing legacy links are reported with their counts and link_ids: those links remain valid independently of default-link visibility, and revoke_share_link takes one of those link_ids to stop it. This is the only place a link_id is available. Each row also flags versions that exist but clients cannot see: pending_version is a version that never finished publishing (still uploading, converting or under moderation), and held_version is an approved version waiting to publish. When either is present, continue with that version (list_versions or get_version to see its state, publish_version to publish one that is waiting) instead of treating the page as unpublished and creating another one. When the result carries notices (the LivePage team has replied to feedback the user sent earlier; shown only once), pass them on to the user in a sentence or two before anything else.\nKeywords: publish · web page · webpage · link · share · share to WeChat · WeChat link · html · pdf · markdown · upload · LivePage · proposal.",
+            "name": "list_proposals"
+          },
+          {
+            "description": "The version table of one page, newest first: version_id, sequence number, status, whether it is the version clients see now, whether it is waiting to publish, when it went live, and a preview link. Use this when a new session has only a proposal_id: preview_version, publish_version and get_version all take a version_id, and a proposal_id is not one. To preview what clients see now you do not need to scan the rows: list_proposals already returns current_version_id. Rows with status published and is_current false are either waiting to publish or older versions superseded by a newer one, which publish_version can roll back to.",
+            "name": "list_versions"
+          },
+          {
+            "description": "Give one version of a page a tag (a date like 2026-10-28, or a short name like \"v2 final\"). Rules: (1) a page that has never been tagged shows readers its newest version (today's behaviour); (2) once a page has tags, readers see the newest tagged version (by version order, not by when the tag was added) and can browse every tagged version from the reading page (\"past issues\" for daily reports, \"version history\" otherwise), each tag at its own fixed address; (3) giving an existing tag name to another version moves it there.\n- Tagging a held version makes it live. Tagging an older version does not pull readers back to it.\n- On a tagged page subscribers are reminded only when a new tag lands on the version readers see; moving a tag, edits and held versions remind no one.\n- New versions can carry a tag directly: the tag parameter of publish_file / finalize_upload / publish_version. Daily reports use the day's date.",
+            "name": "tag_version"
+          },
+          {
+            "description": "Delete one tag from a page: only the name goes, the version stays (still in list_versions, can be rolled back to). If other tags remain, readers see the newest remaining tagged version; once every tag is gone the page behaves as if it was never tagged (readers see the newest live version). Reminds no one.",
+            "name": "delete_tag"
+          },
+          {
+            "description": "Set visibility for exactly one proposal_id or folder_id. private means only the publisher (and signed-in workspace members) can open it — everyone else sees a blocked page; passcode requires a passcode (generated or retained when omitted); public allows anyone with the URL. Confirm external sharing with the user first. Changes take effect immediately. A shared folder grants access to its included live pages even when an item’s link is private. Excluded items and legacy link permissions remain separate. One stable URL per page; reset_default_link replaces it. Reading records identify devices, not named people. For a page, allow_copy turns copying with copy_proposal on or off (omit it to leave it unchanged). Pass home: true (and no proposal_id / folder_id) to set the workspace home page at https://<workspace>.24hw.cn/ — every workspace has one, members-only by default, owner only. The home page lists only pages and folders that are themselves public or passcode-protected, so opening it never exposes a private page. When a folder is opened, the result names pages that are private on their own but will be seen through the folder; pass that on to the user.",
+            "name": "set_visibility"
+          },
+          {
+            "description": "Delete a page: its link stops working immediately and it disappears from the page list, analytics and folder pages — readers who open it get a 404. You can restore it within 30 days with restore_proposal; after that the platform erases it automatically and for good (content, versions, page images, reading records and viewer-appended rows all cease to exist; not reversible). Pages with unresolved reports cannot be deleted — resolve the report first. confirm must repeat the page's title exactly, to guard against deleting the wrong one: check with list_proposals first.",
+            "name": "delete_proposal"
+          },
+          {
+            "description": "Bring back a page you deleted — only within 30 days of deletion; a page already erased cannot be restored, because by then the platform no longer holds it. After restoring, the link works again with the visibility it had before.",
+            "name": "restore_proposal"
+          },
+          {
+            "description": "Delete a folder (the folder only, never its pages): its pages move to \"not in any folder\" and keep their own links and who-can-view; the folder link and folder page stop working at once, and the folder no longer shows on the home page. Restore within 30 days with restore_folder; pages that were not moved elsewhere since go back into it. confirm must repeat the folder name exactly: check with list_folders first, and confirm with the user. To delete the pages too, delete_proposal them one by one first.",
+            "name": "delete_folder"
+          },
+          {
+            "description": "Bring back a folder you deleted — only within 30 days. The folder link works again with the visibility it had before; pages moved out when it was deleted and not put in another folder since go back into it. Get folder_id from list_deleted.",
+            "name": "restore_folder"
+          },
+          {
+            "description": "List pages and folders deleted in the last 30 days that can still be restored (newest first): each item has kind (page / folder), id, name, when it was deleted and when it will be erased. Restore a page with restore_proposal (proposal_id = id), a folder with restore_folder (folder_id = id).",
+            "name": "list_deleted"
+          },
+          {
+            "description": "Use this when storage is full (quota_exceeded): revoke a page's older versions to free storage right away. **The current version is untouched** (what readers see and the link stay as they are); revoked versions are marked revoked in the version list, their version preview addresses stop working, and they cannot be switched back to. By default revokes every version before the current one; pass up_to_seq to revoke versions 1 through up_to_seq only. Versions still in review / conversion / upload and versions pinned by a dedicated link are skipped. An identical file counts toward storage only once across versions, so how much is freed depends on how much old-version content the current version does not reuse — the receipt says how much was freed and how much is now used. confirm must repeat the page's title exactly: check which versions go with list_versions first, and confirm with the user.",
+            "name": "revoke_versions"
+          },
+          {
+            "description": "Allow or disallow indexing of public pages. Default false. Requires public visibility and publishing eligibility. Explicitly confirm before enabling: cached search results and crawler copies may persist after disabling. Never expose confidential client content. Making the link private or passcode-protected disables indexing.",
+            "name": "set_indexable"
+          },
+          {
+            "description": "Read the reader side back: follow updates is always on, the entry is always the labelled capsule in the bottom-right corner in the platform colour, and the brand row and “Make one” are fixed; the one thing that can be set is the premium feature that hides the reader capsule. Returns the account plan (plan: free / premium as pro), the workspace default ([REDACTED]), this page’s setting (page_capsule), the live version’s manifest (manifest_capsule) and the value in effect (effective_capsule: show / hide). With proposal_id it also returns the page style: this page’s setting (page_style), the style written at publish (manifest_style) and what readers see now (effective_style: livepage = LivePage style / website = Website style); and whether the owner bar (the bar at the top when a member opens their own page) shows by default: this page’s setting (owner_bar), this version’s manifest (manifest_owner_bar) and the value in effect (effective_owner_bar: show / hide). Omit proposal_id to read only the workspace. The other thing the author controls is who can view (set_visibility).",
+            "name": "get_reader_view"
+          },
+          {
+            "description": "[Premium feature — the workspace owner must have a premium account] Remove the bottom-right reader capsule and its panel entirely (capsule:\"hide\"), or show it again (\"show\").\n- Omit proposal_id for the workspace default (owner only); pass it for one page, effective immediately with no new version; capsule:null on a page clears its setting so it follows the workspace.\n- Precedence: this page’s setting > this version’s manifest (chrome.default:\"hidden\") > workspace default > shown.\n- With it hidden, readers do not see follow updates, fill in, or the LivePage promotion (the desktop “send to WeChat” button is not part of the capsule and stays); buttons in the page body marked data-space=\"subscribe\" (follow) or data-space=\"form\" (fill in) still work.\n- On a free account hide is refused (pro_required) and nothing changes; show is always allowed.\n- Page style page_style (per page, needs proposal_id): \"livepage\" = LivePage style (default; comments, subscribe, share and reading stats: reports, dailies, proposals, sign-up pages) · \"website\" = Website style (Pro; opens full-screen like your own website, no LivePage badge: product or brand sites, mini games, tools, landing pages) · null clears it and follows what this version was published with. Immediate, no new version; a free account can set website too, readers keep seeing LivePage style and it switches automatically once the owner upgrades to Pro.\n- Owner bar owner_bar (per page, needs proposal_id): the bar at the top when a workspace member opens this page themselves (who can view, copy link, history); readers never see it. \"hide\" = hidden by default (see the page as readers do) · \"show\" = shown (default) · null clears it and follows this version’s manifest (chrome.owner_bar: \"hidden\" / \"shown\"). Immediate, no new version; free accounts can set it too.\n- Follow, position, style, colour and brand are fixed: passing those keys is not an error and has no effect. Without capsule it only returns the explanation. To control who can view, use set_visibility.",
+            "name": "set_reader_view"
+          },
+          {
+            "description": "Change the card a page shows when its link is forwarded or pasted in WeChat: title, description (desc) and cover. Stored per page, takes effect immediately, no new version needed: the next time the link is fetched the card is new.\n- Precedence (per item): set here > the live version’s manifest.share > the default (page name / first paragraph / LivePage brand image).\n- cover is a path inside the package (e.g. img/cover.png) and must be in the live version; keep that image in the package when you publish later versions, or the card falls back to no image.\n- Two cards: cover is the link card (opening the page in WeChat and forwarding via the top-right “···”, a 1:1 thumbnail on the right); mini_cover is only the mini-program card (5:4 large image, sent with “Send to friend” in the mini program). Omit mini_cover and the mini-program card uses the same image as cover; mini_cover=\"auto\" uses the automatic card (page 1 for PDF/PPT, otherwise a text title card).\n- Pass only what changes; null for an item clears the per-page value and falls back to manifest.share / the default.\n- The result gives the card’s actual title / description / cover after the change (the same one WeChat fetches).",
+            "name": "set_share_card"
+          },
+          {
+            "description": "Make one legacy per-recipient link stop working immediately: anyone holding it gets 403. Use it when a link reached the wrong person or was forwarded somewhere it should not go. These links are unaffected by visibility — making the page private does not stop them, and revoking is the only action that does. Get link_id from list_proposals, which reports it for pages that still carry such links; it is available nowhere else on this surface. Revoking cannot be undone (there is no restore tool) and affects only that one link: the URL and other legacy links keep working. To replace the URL instead, use reset_default_link. Confirm which link with the user first.",
+            "name": "revoke_share_link"
+          },
+          {
+            "description": "Replace the URL for exactly one proposal_id or folder_id, for example after a leak. ALL old URLs stop working immediately, including URLs sent to intended viewers. Confirm this consequence before proceeding and provide the replacement URL afterward. Visibility and reading statistics are retained.",
+            "name": "reset_default_link"
+          },
+          {
+            "description": "Read recent device activity: pages reached or skipped, time spent, downloads, demos, comments and possible forwarding. These are observations, not intent scores or verified identities. Three devices do not establish three people. Read the returned evidence level (none/thin/usable) and limitations before drawing conclusions; explain insufficient evidence when it is not usable. WHO SUBSCRIBED to this page (followed updates, or subscribed by scanning a subscribe code): the end of the text lists one line per person, grouped by source (the subscribe code’s note, or “tapped on the page”) — a row number, the day they subscribed, and whether reminders reach them (reachable / not following the service account / unknown). WeChat names are never shown; the row number is the person’s only identifier (`subscribers.groups`). To remove someone or revoke a code, use `remove_subscriber` / `revoke_subscribe_code` on `set_publish_notify`.",
+            "name": "get_engagement_summary"
+          },
+          {
+            "description": "Read the actual order, time spent and interactions as the same browser moves through a shared folder’s pages. Thirty minutes without activity starts a new visit. Devices are not people. Older visits that did not come through the folder link are not added.",
+            "name": "get_folder_analytics"
+          },
+          {
+            "description": "Read the workspace recording switch, used storage, separate capacity, per-visit limit and retention. Basic reading activity is independent of this switch.",
+            "name": "get_replay_settings"
+          },
+          {
+            "description": "Owner only. Disable to stop recording across all pages and legacy links. Re-enabling preserves explicit per-page opt-outs. Existing recordings follow their 30-day retention schedule. Changes affect future collection only.",
+            "name": "set_replay_settings"
+          },
+          {
+            "description": "Enable or disable HTML session recording through this page’s link and folder visits. Off by default — recording starts only after you turn it on (until then readers load no recorder); the choice survives updates and URL resets. The [REDACTED] off switch takes precedence. Future visits only; inputs are masked, recording pauses in the background, each visit is capped at 8 MB, and each workspace has 1 GB with 30-day retention. Basic events and PDF/PPTX page replay are unaffected.",
+            "name": "set_replay"
+          },
+          {
+            "description": "List visits to this page in a date range, including device, start, duration, entry and furthest page, steps and source. Optionally filter by link or include internal visits. Use get_session_timeline for individual steps.",
+            "name": "list_sessions"
+          },
+          {
+            "description": "Read a visit’s ordered events: opening, page changes, time spent, scrolling, clicks, QR codes, downloads and comments. Get session_id from list_sessions. replay_url is returned only when an HTML recording or usable PDF/PPTX page replay exists; otherwise the event timeline remains available.",
+            "name": "get_session_timeline"
+          },
+          {
+            "description": "Read this page’s feedback threads: page comments and text anchors, feedback captured from meetings or messages, internal notes and open/confirmed/disputed/resolved status. Anchors stay attached to the version the viewer actually saw. Original feedback is returned unchanged.",
+            "name": "list_feedback"
+          },
+          {
+            "description": "Save feedback the user explicitly supplies from a meeting, WeChat, call or email to the relevant page and version. Optional page/text anchors. visibility=internal keeps the note hidden from clients; the default all is client-visible. Do not collect unrelated conversation history. Feedback fields and statuses are documented at [REDACTED]",
+            "name": "add_external_feedback"
+          },
+          {
+            "description": "Mark a feedback thread open, confirmed, disputed or resolved. Changes its workflow status; the original comments remain.",
+            "name": "set_feedback_status"
+          },
+          {
+            "description": "Write a reply under one feedback thread. The reader sees it on the page they are already looking at — this is the same path and the same rendering as pressing “reply” in the web console. Get thread_id from list_feedback. Threads whose visibility is internal can also be replied to, but that thread was never visible to the reader, so only workspace members will see it. Until this existed an agent could read a customer's question and change its status but could not answer it, which to the customer looks like being ignored. Read-only members cannot call it.",
+            "name": "reply_feedback"
+          },
+          {
+            "description": "Mark one visiting device as “one of us”, so its visits stop counting towards the outward-facing numbers: views, visitor counts and the funnel are all recomputed, history included, because the judgement is made at read time rather than stored per event. Use it for the user's own phone and laptop, for colleagues, and for the opens made while demoing the page to someone — otherwise “how many outside people actually read this” is inflated by the people who made it. The operations view prints how many were excluded, so the number stays auditable rather than silently shrinking. Get visitor_id from list_sessions. Pass internal=false to undo, which puts the visitor back into the outward-facing numbers.",
+            "name": "set_visitor_internal"
+          },
+          {
+            "description": "List the example packages LivePage ships with and say which one to copy. Call this BEFORE writing anything you intend to publish: weekly reports, client proposals, stage decks, sign-up / poll collection, trips to send to family, and read-write mini apps each have a real, publishable package to adapt, and writing one from scratch usually misses the platform features (passcode access, in-page forms that land in the feedback thread, reader write-back to data tables, deck speaker notes on a phone). No arguments returns the catalogue: purpose, when to pick it, which features it uses, page structure. With key it returns that package’s manifest, README (which feature it shows / what to change / how to publish it) and entry source. Add file for one specific file inside the package. Read-only: creates nothing, uploads nothing, and is independent of the current workspace. Every customer name, figure, case study and price in an example is fictional: copy the structure, replace the content.",
+            "name": "list_examples"
+          },
+          {
+            "description": "Read data tables attached to a page. Tables are independent of versions: changing data never requires republishing the page. Without table, list every table with name, `revision`, columns, row count, size, reader write-back switch and collected row counts, plus the three limits. With table, return the full table: columns, rows (only the base rows you wrote with set_data) and `revision`; format=csv adds CSV text. Rows readers appended through the page are not in rows; read them with list_data_rows. Always call this before set_data to obtain the current `revision`. Readable only within the current workspace; viewers’ pages read tables with fetch('./_data/<table>.json') (or the optional SDK space.data.get) according to the page’s visibility, not through this tool.",
+            "name": "get_data"
+          },
+          {
+            "description": "Attach a data table to a page, replace it entirely, delete it, or open/close reader write-back. Tables are independent of versions: editing data never republishes the page and pushing a new version never changes tables. Call get_data first and pass the `revision` back unchanged: 0 creates, the current value updates; a mismatch is rejected (409) and requires re-reading, never blind overwrites. Provide rows (array of objects, optional columns for order) or csv (text, first line headers), not both; delete=true removes the table and its appended rows. append_open=true lets viewers append one row from the page with a plain form or POST ./_data/<table> (or the optional SDK space.data.append) (sign-ups, check-ins, votes, feedback): off by default, per table; passing append_open alone only flips the switch. Appended rows are rate-limited, moderated before other viewers see them, and readable only through list_data_rows; rows the author or another workspace member submits while signed in on the live page carry by=member. members_only=true accepts rows from workspace members only (visitors get 403) and, like append_open, can be passed on its own. In the page read (fetch('./_data/<table>.json') / space.data.get) every viewer row carries _row_id, _at (submission time) and _status (approved / held); rows the current viewer submitted carry _mine: true and submitters can read their own held rows (never other people's); when the viewer is a member, member rows add _by (nickname). A submitter can withdraw their own row within 24 hours with DELETE ./_data/<table>/<row_id>. Columns the table does not have are accepted but not stored, and the receipt carries warnings (unknown_columns). Table names start with a lowercase letter and contain only letters, digits and underscores. The receipt states the per-table, per-page and workspace limits with current usage.",
+            "name": "set_data"
+          },
+          {
+            "description": "Attach a form viewers can fill in (sign-ups, orders, bookings, leads) to a page: you only define the fields; the platform renders the form in the reading page (mobile-friendly, validated), and each submission lands as a row in this data table, readable with list_data_rows. No form code needed (a plain <form> posting to ./_data/<table> works too). Idempotent: creates the table when absent, otherwise replaces the whole field definition (rows already collected are kept). fields: at most 20 items of { key, label, type, required?, options?, min?, max?, visibility?, fence? … }; nine types: text (single line), textarea, select (options), multiselect (options, stored joined with 、), number (min / max), phone (11-digit mobile), email (by default only you and the submitter can see these two; add visibility: all to show them to every reader), image (check-in photos / collected material; max = how many images, 1–9, default 1; visibility = author — only you and the submitter see the images (default) — or all — shown with the row to every reader, for a check-in wall; viewers pick photos on their phone, the platform compresses them, strips location metadata and runs image moderation, and a row with a flagged image is visible only to you; list_data_rows gives each image a one-hour URL under images), location (location check-in; at most one per table; fence = { lat, lng, radius_m, name? } sets the check-in point, coordinates in GCJ-02 (as picked on Tencent / Amap maps), radius 20–5000 m; without fence there is no range limit and the field just records where viewers checked in (they pick a nearby place and the field stores its name); max_accuracy_m is the accuracy requirement, default 100 m (1000 without fence); out_of_range = reject — out-of-range check-ins are refused (default) — or hold — kept for you to confirm; window = { start, end } is the check-in time window; require_identity defaults to true, meaning viewers check in with their WeChat identity and the table first needs set_data identity=wechat. The page calls space.location({ table }) to get a ticket, puts it in this field and then appends; the row stores the distance in metres plus _loc_in_range / _loc_accuracy_m / _loc_source, never the coordinates; if you really need coordinates pass keep_coords=true — they then appear only to you under location in list_data_rows and are cleared automatically after 30 days). amount is optional and only displays a price: { unit_price_cents, qty_field? (which number field holds the quantity) }; the platform computes the total as unit price × quantity and writes it into each row as _amount_cents — no money is collected (payment guidance and real payment are separate tools). Each row also carries _form_rev (the table version at submission time). Viewer write-back is open by default (append_open=true); pass false to close it. Submissions remain rate-limited and text is moderated first: approved rows appear for viewers on refresh, flagged rows are visible only to you in list_data_rows. Preview and presenter sessions never submit; the author and other workspace members can submit on the live page while signed in, and their rows record which member (by) without counting as a visitor. With members_only=true only members can submit and visitors do not see the form. Page read-back, withdrawal and unknown-column warnings work as described under set_data (_row_id / _at / _status / _mine / _by). Optional notify_emails sends an email for every new approved submission (up to 3 addresses; each new address first gets a confirmation email and only receives notifications after confirming; with an email field, replying reaches the submitter). Share the page after defining the form; the page does not need republishing.",
+            "name": "set_form"
+          },
+          {
+            "description": "Read rows viewers appended to a data table from the page (plain form, POST ./_data/<table> or the SDK space.data.append; sign-ups, check-ins, votes, feedback), newest first. Each row carries its status (approved: passed moderation, visible to viewers; held: flagged by moderation, visible only to the publisher), who submitted it (by: a member is {kind:member, user_id, role, nickname}, a visitor is {kind:visitor}), device, time, and the page version and data version at write time. These rows are not in get_data rows and are never overwritten by set_data; to merge them into the base table, read them back and replace the table with set_data. Visitor rows have device and time only: they do not identify people and must not be read as intent. Filter by table or status; limit defaults to 100, at most 500. Pass since (the next_since from the last reply, a row_id, or an ISO time) to get only newer rows, oldest first. Rows a submitter withdrew from the page are still listed, with withdrawn_at (the page read no longer shows them; the content stays with you). When the form has image fields each row also carries images: { field: [{ id, url, thumb_url, width, height, blocked }] } — url works for one hour and opens the image directly; blocked = image moderation flagged it (so the row is held). Act on a held row with set_data_row_status. On location check-in tables with keep_coords, each row also carries location: { lat, lng, coord: gcj02, located_at, expires_at } (null once 30 days after the check-in have passed).",
+            "name": "list_data_rows"
+          },
+          {
+            "description": "Decide what happens to one row a viewer appended: approve makes it visible to viewers, hold takes it back so only you can see it, delete removes it for good. Rows flagged by moderation land in held, where only you can see them and the page does not show them to viewers — until now there was nothing you could do about such a row. approve and hold are reversible, so a misjudgement can be corrected; delete is not — the row disappears from the page, exports and counts, and only an audit entry records that a row was deleted, never its contents. Get row_id from list_data_rows. Approving also marks that row's moderation hit as a false positive, recorded separately as a publisher release so it is not mixed with operator labelling. Every decision bumps the page's data_revision, because the set of rows the page can show has changed.",
+            "name": "set_data_row_status"
+          },
+          {
+            "description": "Insert, update or delete a single row of a data table without replacing the whole table (move a kanban card, change one status, remove one record). op=insert takes row (a new row, attributed to you; works even when viewer write-back is closed); op=update takes patch (only the named cells change); op=delete removes one row. Which row: for a row viewers appended pass row_id (from list_data_rows, or `_row_id` in the page readback) — the original submitter is kept and the page readback marks it with `_edited: true` and `_edited_at`; for a row of the base table (the one set_data writes) pass base (0-based row index) and `revision` (the current value from get_data; a stale value is refused with 409 revision_conflict, so call get_data first). Base edits bump the table's `revision`. Keys that are not columns are ignored and reported in warnings. Text in the change is moderated first: an appended row that hits becomes held (members only), a base row that hits is refused with 422 moderation_hit. Needs editor role or above (viewers get 403 editor_required). Editors can also do this from the page: space.data.insert / update / remove, or POST ./_data/<table>/_edit.",
+            "name": "edit_data_row"
+          },
+          {
+            "description": "No money moves through LivePage: the viewer pays by scanning your own collection QR code straight into your own account, and the platform never places an order, collects or transfers funds. This tool only records a “payment confirmed by the publisher” timestamp on one row. Mark one viewer submission as “payment confirmed by the publisher”. When a form carries an amount (set_form with amount), the viewer sees your business collection QR code after submitting, plus an “I have paid” button — that is only the viewer saying so, never a payment result. Once you have checked the money in your own WeChat Pay / Alipay statement, confirm it here; next time that viewer opens the page they see “the publisher confirmed receiving your payment”, visible only on their own row and to no other visitor. Get row_id from list_data_rows, which prints the amount and payment state for every row. The viewer does not have to press “I have paid” first: confirming straight from your statement is fine. This records a timestamp only — it does not change the row's moderation status (use set_data_row_status for approved / held) and does not change the amount.",
+            "name": "confirm_payment"
+          },
+          {
+            "description": "Read existing weekly insights without generating new ones. Free includes three metrics and a summary for the last four weeks; Pro includes all facts, recommendations, consented WeChat readers and follow-up signals, with pagination through all history. Pass the previous next_cursor as before.",
+            "name": "get_reader_insights"
+          },
+          {
+            "description": "Create a [REDACTED] credential for the SPACE CLI only when the host supports a local terminal and the user requests an upload. It expires within 30 minutes and never outlives the parent token. Pass it to the CLI process environment, never a file, log, [REDACTED] message or unrelated service. This is not needed for browsing or feedback, and does not give a chat-only host a terminal. Revoking the parent does not cascade to an already derived token; revoke the temporary token separately if needed.",
+            "name": "create_cli_token"
+          },
+          {
+            "description": "Owner only. Create a time-limited link for a teammate to sign in with WeChat and join this workspace as editor or viewer. Cannot grant owner through a shareable invitation. Returns a URL, QR URL and share_text the user may forward. This tool creates the invitation; it does not message anyone. Existing invitations can be revoked in Members.",
+            "name": "invite_teammate"
+          },
+          {
+            "description": "Owner only. Add a known user ID to this workspace with the specified role. Owner manages pages and members; editor organizes, publishes and shares; viewer is read-only. If the teammate’s 26-character user_id is unknown, use invite_teammate instead.",
+            "name": "add_member"
+          },
+          {
+            "description": "List this workspace’s members and roles, plus every invitation link that has not expired. Use it to identify collaborators and understand who created pages and versions. The invite_id it returns for each live invitation is the argument for revoke_invite and is available nowhere else once the invitation has been created.",
+            "name": "list_members"
+          },
+          {
+            "description": "Owner only. Change one member’s role in this workspace to editor or viewer. The workspace creator cannot be changed — they are permanently owner, which is what guarantees a workspace always has at least one. You cannot change your own role either: demotion is a one-way door, because afterwards you no longer hold the permission to change it back; hand over by having another owner do it. The change takes effect immediately, including for tokens the member is already using, because a token acts with its owner’s current role rather than the role held when it was created. Get user_id from list_members.",
+            "name": "set_member_role"
+          },
+          {
+            "name": "remove_member"
+          },
+          {
+            "description": "Owner only. Make one unexpired invitation link stop working immediately — the only way to stop the bleeding when an invitation was forwarded somewhere it should not go. People who already joined through it are NOT removed; that is remove_member. Get invite_id from list_members, which lists every live invitation (invite_teammate also returns it once, at creation). Anyone opening the link afterwards is told it was revoked and to ask for a new one.",
+            "name": "revoke_invite"
+          },
+          {
+            "description": "Owner only. Control the three notifications this workspace sends after publishing, all sent to WeChat through the LivePage WeChat service account (people who messaged the service account in the last 48 hours get an article card, everyone else a reminder message), only to people in the workspace and never to clients — reader subscription reminders are not governed by these three switches, see ONE page and SUBSCRIBE CODES below: auto_push sends each new live version to WeChat automatically, one personal link per person; include_me decides whether that automatic push also reaches whoever triggered the publish; unread_remind tells the author once when a page has been published for seven days without anyone opening it (once per page). Pass only the switches you want to change; the others keep their current value. With auto_push off you can still send a specific page with push_to_wechat; with it on, publishing already sends it — no need to call push_to_wechat as well (each person gets a version once; repeat calls are deduplicated automatically). People who have not followed the service account cannot receive these: the switch being on does not mean delivery — the receipt from push_to_wechat is what tells you. When YOU have no WeChat binding or have not followed the service account, the receipt includes a binding QR code (an image plus `bind_qr_image_url`): the user scans it in WeChat, which follows the service account and links that WeChat to the current account in one step. Never tell the user to “sign in by scanning in WeChat” — that creates a separate account. Calling it with no arguments only reports the current state and hands out the code when needed; when the user says they have scanned, call it again to confirm. For ONE page only, also pass proposal_id: auto_push then sets that page (true = notify for this page even when the workspace is off; false = do not notify for this page, neither people nor subscribers; null = follow the workspace again); proposal_id alone reports whether the page is notified. include_me and unread_remind are [REDACTED] and cannot be combined with proposal_id. For a single small edit, leave the switches alone and pass quiet: true to publish_file / finalize_upload / publish_version. SUBSCRIBE CODES (for clients, managers or family — not workspace members): whenever `proposal_id` is passed, the result also carries that page’s subscribe code (an image plus `subscribe_code.qr_image_url`). One WeChat scan follows the service account and subscribes that person to the page, so new versions reach them as WeChat reminders. The default code is the same one as in the publish receipt; for a code with a note for one person add `subscribe_code_label` (such as “for Mr. Wang”; the same label returns the same code). Passing `proposal_id` + `subscribe_code_label` without `auto_push` only issues the code, without reading or changing switches, and needs editor rather than owner. Pages that are private, suspended or published without signing in get no code, and the result says why. SUBSCRIBER LIST (who subscribed to the page, shown by get_engagement_summary as one line per person with a row number, grouped by source code): `revoke_subscribe_code` (a code_id) revokes a code — scanning it no longer subscribes anyone, and everyone who subscribed through it is unsubscribed; `remove_subscriber` (a row number) removes one person. Both need `proposal_id` and editor rather than owner; passing only them (without `auto_push` / `subscribe_code_label`) only edits the list and issues no code. Confirm with the user which code or row before doing either. SUBSCRIBE TO A FOLDER (for weekly or daily issues — no new code for every issue): pass `folder_id` (optionally with `subscribe_code_label`) to get that folder’s subscribe code. One scan subscribes the person to the whole folder: any page in it getting a new version, or a new page being added, sends a reminder (at most one a day per subscription); pages marked internal do not notify. `folder_id` cannot be combined with `proposal_id` or the switches; folders visible only to you get no code.",
+            "name": "set_publish_notify"
+          },
+          {
+            "description": "Send this page’s CURRENT LIVE version to WeChat as a service-account template message. By default (`to` omitted or `\"self\"`) it goes to YOU ONLY — the account calling this tool — whether or not the workspace has other members; nobody else receives anything. `to: \"members\"` sends it to the people in this workspace instead (the creator plus every member; you are excluded when “also send to me” is off). It is never sent to clients — forward them the link instead. Pass `include_subscribers: true` to also send it to this page’s subscribers (each person gets a version once, and at most one reminder a day). The receipt’s first line is the same sentence the publish receipt uses — “This time it will notify: you, 2 teammate(s), 5 subscriber(s) (4 reachable)” — relay it to the user as is. Each person receives their own personal link, created on first send and reused afterwards, so reading activity shows who opened it. This ignores the workspace’s automatic-push switch: it is a manual send. AUTOMATIC DEDUPLICATION: each person gets a given version once — automatic push, publishing, this tool and subscriber reminders share one ledger. When automatic push is on, publishing has already sent it, so there is no need to call this tool; a repeat call sends nothing and the receipt says “already sent (automatic push · 14:03), not sent again”. Pass `force: true` only when the user really wants it again (only with `to: \"self\"`, at most 5 times a day). People who have not followed the service account do not receive it, and the receipt reports those separately (not followed / refused / no WeChat binding) — that is not an error. A page with no live version is rejected with a clear 409 rather than silently doing nothing. When YOU did not receive it (no WeChat binding or not following), the receipt includes a binding QR code (an image plus `bind_qr_image_url`): once the user scans it in WeChat, the binding completes within seconds and this page is re-sent to them only — no second call needed. Never tell the user to “sign in by scanning in WeChat” — that creates a separate account. When the user says “send it to my WeChat”, call this tool; when the user is on a computer and only wants the page just published in their own phone’s WeChat, the publish receipt’s `push_qr_url` code also works — one WeChat scan, no account linking.",
+            "name": "push_to_wechat"
+          },
+          {
+            "description": "★ Display name only: the <workspace> part of https://<workspace>.24hw.cn stays the same (change that with set_workspace_slug), and links, pages and members are unchanged.\n★ The company name on WeChat share cards comes from set_workspace_profile’s company_name, not from this name.\n⚠️ Workspace owner only.",
+            "name": "rename_workspace"
+          },
+          {
+            "description": "Record who this workspace is: company or organization name, industry, who the page is mainly shared with, and one sentence on what it is used for. The web form for this was retired; this is the only way to write it. company_name is the sole source of the company name on WeChat share cards — without it recipients see a generated workspace name. Fields passed are merged into the existing profile and omitted fields are left unchanged, so changing only the company name needs only company_name. A first-time profile must supply the required fields: with usage=work, company name and industry are required; customer_type and use_case are required in both modes. Validation matches the retired web form exactly: placeholder names such as “personal”, “test” or “my company” are rejected (pass usage=\"personal\" for personal use, which does not ask for company or industry), phone numbers and messaging handles are not allowed in the name, and industry must be one of the listed values. The profile is used for compliance and support and is not shown to viewers, except that the company name appears on share cards. embed_origins (owner only) is the embed allowlist: the parent origins ([REDACTED] that may frame this workspace’s pages through an embed link (preview_version with embed_origin); it replaces the whole list, [] clears it, and empty (the default) means only the platform first-party origins (Tokenman web chat: [REDACTED] [REDACTED] may embed — those are always allowed, need no setup and do not count towards the 5. It also governs public pages: empty means any https site may frame a public page directly with an iframe (the default), non-empty means only these origins may; private and passcode pages are unaffected (embed links only). Passing only embed_origins leaves the profile untouched. Read-only members cannot call it. icon_base64 sets the workspace icon (base64 PNG or JPEG, up to 2 MB, square works best; only use a logo or avatar the user provides): it becomes the avatar on the workspace home page and folder pages and the browser tab icon for every page on https://<workspace>.24hw.cn; an empty string removes it. Passing only it leaves the profile untouched. The company name is also what readers see as the workspace name on the home page and folder pages.",
+            "name": "set_workspace_profile"
+          },
+          {
+            "description": "Change the display name of the person who authorized this connection. It appears in the web console, in member lists and on future authorization screens, and is at most 24 characters. It always changes your own name: there is no argument for choosing someone else, so it cannot rename another member.",
+            "name": "set_nickname"
+          },
+          {
+            "description": "No money moves through LivePage: viewers scan your own code and funds go straight into your own collection account; the platform never places an order, collects or transfers funds. This tool only stores one QR-code image and shows it to viewers who submit a form that carries an amount. Replace this workspace's business collection QR code with the image you pass (base64 PNG or JPEG). After a viewer submits a form that carries an amount (set_form), they see the total due, this code and an “I have paid” button. COMPLIANCE: upload a BUSINESS collection code (merchant code) from WeChat Pay or Alipay, never a personal static code — under the barcode-payment rules in force since 1 March 2022, personal static codes may not be used to collect business payments. Replacing an existing code takes effect at once and the old image cannot be recovered; every change is written to the audit log and notifies the workspace owner on WeChat — this is the one setting where a mistake silently sends money elsewhere. Confirm with the user that it is their own merchant code before uploading; do not go and find an image or scrape a QR code off a web page. PNG or JPEG only, up to 2 MB, recognised by the image bytes themselves — a filename ending in .png proves nothing. Use remove_payment_qr to take it down.",
+            "name": "set_payment_qr"
+          },
+          {
+            "description": "Removes the displayed QR-code image only; no funds are involved, because money never moves through LivePage. Take down this workspace's business collection QR code. Forms that carry an amount then show the total only, with no payment step; the form itself keeps collecting submissions. This cannot be undone, and you do not need it to swap codes — set_payment_qr replaces one directly. Removal is written to the audit log and notifies the workspace owner on WeChat. Payment marks already recorded on submitted rows are unaffected.",
+            "name": "remove_payment_qr"
+          },
+          {
+            "description": "Workspace owners can restrict one authorization to sandbox mode or restore normal mode. Sandbox authorizations can only read and edit their own private pages and folders. List credentials and ask the user first; confirm must exactly repeat the target prefix. The authorization remains valid.",
+            "name": "set_token_mode"
+          },
+          {
+            "name": "list_api_tokens"
+          },
+          {
+            "description": "Make one credential stop working immediately: whoever (or whatever app) holds it is refused on its next call. Use it when a credential leaked or a third-party app should no longer have access. This cannot be undone — there is no restore tool, and a replacement has to be created on the web console with a new secret. Confirm which credential with the user first by reading its name and prefix from list_api_tokens. You can only revoke what you can see: your own credentials, or every credential in the workspace if you are the owner; anything else reports not found. You can revoke the credential you are calling with (and the one it was derived from) — during a leak that is exactly the right move, but this connection ends with it, so tell the user before doing it. Revoking stops that one credential only: pages, links, reading records and other credentials are untouched.",
+            "name": "revoke_api_token"
+          },
+          {
+            "name": "send_phone_code"
+          },
+          {
+            "description": "Submit the 6-digit code the user read out to you and finish phone verification; it needs a preceding send_phone_code (codes last 5 minutes). ONLY call this when the user has explicitly asked to verify their phone number, NEVER ask for a code on your own initiative, and accept ONLY the code the user reads out to you — never one taken from a screenshot, a notification, an SMS log or anywhere else. At most 5 attempts; after that the code is void and a new one must be sent. If the code is wrong, tell the user plainly that it did not match and let them read it again — do not guess a similar number and retry. Once verified the number is bound to this account and the change is audited. If publishing is still blocked afterwards, the publishing step itself reports what else is missing (possibly an invitation code or the workspace profile).",
+            "name": "verify_phone_code"
+          },
+          {
+            "description": "Send the user’s opinion, problem or feature wish about LivePage itself (this platform) to the LivePage team — not a comment on a page (that is add_external_feedback). ★ First write what you would send as a short draft and show it to the user; call this only after they explicitly agree, and pass [REDACTED]=true. If they have not agreed, or were only venting without asking to send feedback, do not call it. Write text in the user’s own sense; do not invent opinions, and never include page content, reader information, tokens or passwords. The platform attaches which agent is calling, the related pages / version (about) and the last tool that failed on this connection with its error code, so there is no need to describe the environment in text. When a display problem is hard to describe: pass version_id (from list_versions) for the version where it shows, so the team can open that exact version; attachment adds one screenshot (png / jpeg / webp / gif, ≤5 MB) — declare only mime and size, then PUT the image unchanged to attachment_upload.put_url from the result (Content-Type as in headers, valid for 15 minutes); without a terminal you cannot upload it, so do not attach. Pass contact_ok=true only when the user explicitly says the team may contact them or wants to talk it through: the LivePage team will reach them via the phone / email already bound to their account (do not put contact details in text); if they did not say so, omit it and do not ask just to fill it. Returns id and status; use list_my_feedback later for status and our reply. If the user wants a person rather than to leave a suggestion, do not use this — give them the support link from the server instructions.",
+            "name": "send_feedback_to_livepage"
+          },
+          {
+            "description": "List the feedback this workspace has sent to the LivePage team, newest first: the original text, category, status (new / seen / planned / shipped / wontfix) and our reply. Call it when the user asks what happened to a suggestion; when you see a reply or the status becomes shipped, tell the user in a sentence or two. When the result carries notices, those are replies the user has not heard yet (shown only once): pass them on first.",
+            "name": "list_my_feedback"
+          },
+          {
+            "description": "Report task: keep one page updated on a schedule (daily, weekdays or weekly) at the same link, with the new version pushed to the author's own WeChat — use it for a daily report, a scheduled morning industry brief, or \"put it together every morning and push it to my WeChat\". When the author says what to cover, what time, who can view and who to notify, call action=create (add trial=true to run one trial right away; without proposal_id a new page is created, so pass title). A trial usually takes 5–15 minutes; the author is notified in WeChat and only the author can see the result. When the author has looked and says to switch it on, call action=enable — a successful trial is required first, and by default that trial becomes the page’s first version. Afterwards use update for the time, the request, an extra line (request_append), who can view or who is notified — pass only what changes; pause (optionally until=a date, resuming that day), resume, delete, list, trial to run another trial, and runs when the author asks whether it went out on time or why one did not. Every action returns say: a sentence to relay to the author as-is; do not invent facts. Ask the author before switching to passcode or public. Speak times in the author’s local clock.",
+            "name": "report_task"
+          },
+          {
+            "description": "Bind LivePage to the user’s own domain (such as go.acme.com, acme.com or a.b.acme.com) so readers who open it see a chosen page. **This is a premium feature**: only workspaces whose owner has a premium account can bind new domains, 3 per workspace (a root domain that redirects to www counts as one together with www); on a free account a new request returns quota_reached (domains already bound keep working). Every workspace already has its default address <workspace>.24hw.cn — use set_page_path to put pages there. Only the workspace owner can request one.\nOne call returns every record to add at the DNS provider in records (type / name = host / value / why), the DNS provider dns_provider, notes and say (relay it to the user as it is). **If you have tools for the user’s DNS provider, add the records yourself**; otherwise give records to the user as they are and ask them to tell you when done. We never take the user’s DNS provider keys.\nAfter the records are in, call verify_domain to check progress (each call also moves it forward one step) and call again after retry_after_s until state=active; then use set_domain_route to choose which name opens which page.\nIdempotent: calling again with the same domain returns the same record and its current progress. A domain with an ICP filing (with any provider) is served from mainland China; one without a filing can still be bound and is served from overseas nodes (slower inside mainland China) — once it is filed, switch it with set_domain_region. Root domains, **flattening first**: if the DNS provider can flatten (Cloudflare and DNSPod Enterprise / Exclusive are recognised automatically; for Alibaba Cloud DNS Flagship / Exclusive or DNSPod Enterprise, pass apex_mode=\"flatten\" once the user confirms their edition) it opens in place — served straight from the acceleration network, no redirect, fast in mainland China, and the first note recommends it; only otherwise does it redirect to www (a 301 through our US redirect host, about 1 extra second in mainland China), and www is requested together with it.",
+            "name": "bind_domain"
+          },
+          {
+            "description": "Check how far a custom domain has got, and move it forward one step right away (no waiting for the background pass). Returns state, step / of, done, what it is waiting for (waiting), why it is stuck (reason), retry_after_s (when to check again; null = no need to poll), the records to add, what we see on public DNS when records are not live yet (seen), plus next, can_do (what you can do now) and say (one sentence to relay to the user as it is).\nPoll after retry_after_s until state=active; when next=[REDACTED], tell the user can_do and check again once they are done; when next=contact_us, ask the user to contact us. Also call it when the user asks “is it ready” or “why does it not open”. Read-only workspace members can check too.",
+            "name": "verify_domain"
+          },
+          {
+            "description": "Choose which page or folder each name opens on the user’s own domain: path=\"/\" is the home page, path=\"/autumn-plan\" is [REDACTED] Pass proposal_id or folder_id; remove=true deletes the path.\nA page always shows its current version (no need to set it again after a new version). The domain does not have to be live yet: set paths first and they open the moment it goes live. Whether readers can see the page is decided by that page’s own visibility (set_visibility). Names are 1–64 lowercase letters, digits and hyphens.",
+            "name": "set_domain_route"
+          },
+          {
+            "name": "list_domains"
+          },
+          {
+            "description": "Change the region a custom domain is served from on the acceleration network. A domain without an ICP filing is automatically served from overseas nodes (worldwide excluding mainland China) when it goes live, so it opens in mainland China but more slowly; once the user has filed it, use this to set region to domestic (mainland China) or global (worldwide).\nIt takes effect at once and takes a few minutes to reach every node; the domain keeps opening meanwhile. Switching to domestic / global while no filing can be found yet is refused with the reason (a fresh filing can take a while to sync from the MIIT records); region=overseas needs no filing. Workspace owner only. Confirm with the user before calling.",
+            "name": "set_domain_region"
+          },
+          {
+            "description": "Unbind a custom domain: it no longer opens LivePage pages, its paths are cleared and its slot is freed. Workspace owner only. confirm must be the domain typed exactly (guards against unbinding the wrong one). Afterwards the user may delete the two records at the DNS provider. Confirm with the user before calling.",
+            "name": "unbind_domain"
+          },
+          {
+            "description": "Put any page or folder at a name on the workspace’s own address: path=\"/autumn-plan\" is https://<workspace>.24hw.cn/autumn-plan, path=\"/\" is the workspace home page. Pass proposal_id or folder_id; remove=true deletes the path; omit path to list the current paths.\nWorks out of the box: no domain to bind and no DNS records (that is bind_domain / set_domain_route, for the user’s own domain). Setting an existing name again points it at the new page, so an address already sent out now opens the new page. The page always shows its current version; whether readers can see it is decided by the page’s own visibility (set_visibility).\nOnce set, this page’s link (url in list_proposals, the share card, copy link) is this tidy address. Names are 1–64 lowercase letters, digits and hyphens. Change the <workspace> part with set_workspace_slug.",
+            "name": "set_page_path"
+          },
+          {
+            "description": "Change the name in the workspace address https://<name>.24hw.cn (workspace owner only). 3–32 lowercase letters, digits or hyphens, at least one letter.\nThe old address keeps working: every link on it redirects to the same path on the new address (links already sent and printed QR codes still open), and the old name stays reserved for this workspace forever.\nOnce every 30 days (the first change is not limited). Confirm the name with the user before changing it.",
+            "name": "set_workspace_slug"
+          },
+          {
+            "description": "Hold the call open until a page gets new feedback: rows viewers submit (forms, votes, sign-ups), comments and replies. Returns as soon as something new arrives; otherwise returns timed_out: true after timeout_s seconds (default and maximum 300). Pass the returned cursor as since on the next call to keep waiting with nothing missed or repeated; without since it starts from now and does not replay older feedback. kinds narrows it to row (data rows) or thread (comments and replies). At most 3 waits at once per credential. To watch continuously, use the CLI command space watch.",
+            "name": "wait_for_feedback"
+          },
+          {
+            "description": "Post a request on LivePage's public template request wall: kind=new asks for a new template, kind=improve suggests an improvement to an existing one (template_key is the key from list_examples). Use it when list_examples has nothing that fits what the user wants to make, or a template lacks something the user needs, and only after the user agrees to submit it. Write text in the user's own sense: what they want, who reads it and where; no phone numbers, emails, WeChat IDs or real client names. The wall is public and anonymous by default (it shows only the industry from the workspace profile); show_name=true shows the user's nickname. At most 5 requests per person per day; the text is moderated first. The template factory triages requests daily and replies publicly, and the user is notified when the status changes. Returns the request's public URL; show it to the user.",
+            "name": "request_template"
+          },
+          {
+            "description": "Returns interactive_url. Screenshots are disabled on this server: no images are returned and screenshot_status is disabled. Show interactive_url to the author only: it is the live link when this version is current; otherwise a single-use link for the author (open within 2 minutes) that opens this version on the live link, where likes, forms and cards work as on the real page and the author's actions are not counted as reader stats. Never forward it to readers; they get the live link after publishing. Does not publish or edit access. Device emulation does not verify real phones, WeChat or cross-device remote control. Pass embed_origin to also get embed.url: an embed link only that parent origin (a platform first-party origin such as [REDACTED] or one on the workspace embed allowlist) may frame, read-only, no login, no visit tracking, no feedback or form submissions, valid at most 60 minutes; call again to refresh. Author links are for the author only; never forward them to readers.\nKeywords: publish · web page · webpage · link · share · share to WeChat · WeChat link · html · pdf · markdown · upload · LivePage · proposal.",
+            "name": "preview_version"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "livepage": {
+        "type": "http",
+        "url": "https://space.24haowan.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f8f2f246714a88a2f8e967c286379f4dd3284719323910f0801b12570504f3df"
+      }
+    }
+  }
+}

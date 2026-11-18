@@ -1,0 +1,139 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.595Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Marketing-and-Sales",
+  "categoryCode": "Marketing & Sales",
+  "connector_id": "common-room",
+  "connector_name": "Common Room",
+  "connector_name_cn": "Common Room",
+  "description": "Use Common Room MCP to explore authorized GTM customer intelligence, including people, organizations, activity, signals, and related account context.",
+  "description_cn": "通过 Common Room MCP 获取已授权的 GTM 客户情报，包括联系人、组织、活动、信号及相关账户上下文。",
+  "version": "1.0.0",
+  "category": "Marketing & Sales",
+  "tags": [],
+  "provider_name": "Common Room",
+  "author": {
+    "name": "之东",
+    "display_name": "Common Room"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Common Room",
+        "url": "https://mcp.commonroom.io/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c8a46c8977f7950650e47a6e95ff7aa128ccaa6fa7a915fa6b0497dcd33f1e2a",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_c8a46c8977f7950650e47a6e95ff7aa128ccaa6fa7a915fa6b0497dcd33f1e2a",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Reports which object types this workspace exposes and, for each, the fields it can be filtered by, the properties it can return, the fields it can be sorted by, and the other objects it is associated with. Call it before commonroom_list_objects, commonroom_create_object or commonroom_update_object: field names vary by workspace, so building a filter or a write from guessed names fails.",
+            "name": "commonroom_get_catalog"
+          },
+          {
+            "description": "Reads Common Room records — contacts, organizations, activities, segments and custom objects — as a filtered, sorted, paginated list, or fetches one record by ID. Call commonroom_get_catalog first: it reports which object types exist and which fields each one can be filtered, sorted and returned by. Also use this tool to look up the values other filters expect, such as role names, Bombora topics and location IDs. Use commonroom_create_object or commonroom_update_object to write records; this tool only reads.",
+            "name": "commonroom_list_objects"
+          },
+          {
+            "description": "Records the user's verdict on results returned by a previous Common Room query. Call it after presenting data, when the user says the results were helpful, says they were wrong or incomplete, or comments on the data quality. It stores feedback only — it neither re-runs the query nor changes any record.",
+            "name": "commonroom_submit_feedback"
+          },
+          {
+            "description": "Writes a new contact, organization, activity, note or tag to Common Room; use commonroom_create_segment for a segment. Contacts and organizations are upserts, so this both creates and merges into an existing record; use commonroom_update_object instead when editing a record you have already identified. Look up the IDs and existing values it needs with commonroom_list_objects; custom fields are writable only when their \"CustomField\" record has \"modifiable\": true. By type: \"Contact\" and \"Organization\" upsert, so a match on the identifiers given updates the existing record instead of adding one. \"Tag\" returns the existing tag when one of that name already covers the requested entity type, so retrying is safe. \"Activity\" and \"Note\" always add a new record. Accepted \"activityType\" values: UserInputAcceptedMeetingAdded, UserInputActivityFeatureIdeaAdded, UserInputAnsweredCallAdded, UserInputAnsweredFormSurveyAdded, UserInputAppliedChampionProgramAdded, UserInputArticleAdded, UserInputAttendedDemoAdded, UserInputAttendedGatheringAdded, UserInputAttendedMeetingAdded, UserInputAttendedProductDiscoveryCallAdded, UserInputAttendedRoadmapCallAdded, UserInputAttendedWebinarAdded, UserInputBookedMeetingAdded, UserInputCalledInAdded, UserInputCommentedRepliedAdded, UserInputCommentedTicketAdded, UserInputCompletedOnboardingAdded, UserInputCompletedTrainingAdded, UserInputCompletedTransactionAdded, UserInputCreatedAnAccountAdded, UserInputCreatedTicketAdded, UserInputCreatedTrainingMaterialAdded, UserInputDealClosedAdded, UserInputDealCreatedAdded, UserInputDeclinedRewardAdded, UserInputEligibleRewardAdded, UserInputEnrolledInChampionProgramAdded, UserInputEnrolledInTrainingAdded, UserInputGraduatedFromChampionProgramAdded, UserInputHostedGatheringAdded, UserInputHostedMeetingAdded, UserInputHostedWebinarAdded, UserInputIdentifiedPowerUserAdded, ApiUserImported, UserInputJoined, UserInputJoinedAdvisoryBoardAdded, UserInputJoinedGroupAdded, UserInputLikedReactedAdded, UserInputLinkAdded, UserInputLoggedInAdded, UserInputMadeCommitAdded, UserInputMadeMergeRequestAdded, UserInputMadePostTopicAdded, UserInputMadeReferralAdded, UserInputMergeRequestMerged, UserInputOtherAdded, UserInputParticipatedEarlyAccessProgramAdded, UserInputPresentedAtGatheringAdded, UserInputPresentedAtWebinarAdded, UserInputProvidedCaseStudyAdded, UserInputProvidedProductFeedbackAdded, UserInputReceivedAMessageAdded, UserInputReceivedCallNoAnswerAdded, UserInputReceivedEmailAdded, UserInputReceivedFormSurveyAdded, UserInputReceivedGiftAdded, UserInputReceivedLiMessageAdded, UserInputReceivedSmsAdded, UserInputReceivedTagBadgeAdded, UserInputReceivedWhatsappAdded, UserInputRedeemedRewardAdded, UserInputRegisteredForGatheringAdded, UserInputRegisteredForWebinarAdded, UserInputRegisteredSpeakerForGatheringAdded, UserInputRequestedDemoAdded, UserInputRequestedEarlyAccessProgramAdded, UserInputSentAMessageAdded, UserInputSentEmailAdded, UserInputSentGiftAdded, UserInputSentLiMessageAdded, UserInputSentSmsAdded, UserInputSentWhatsappAdded, UserInputSignedUpForProductAdded, UserInputSignedUpForTrialAdded, UserInputStartedGroupChatAdded, UserInputStartedSession, UserInputStartedTrainingAdded, UserInputStickerOrderAdded, UserInputStickerReceivedAdded, UserInputStickerRequestAdded, UserInputSubmittedFeatureRequestAdded, UserInputSubmittedFormAdded, UserInputSubmittedIdeaAdded, UserInputSubscribedNewsletterAdded, UserInputSwagOrderAdded, UserInputSwagReceivedAdded, UserInputSwagRequestAdded, UserInputTaggedInMediaAdded, UserInputUpdatedTicketAdded, UserInputUploadedPhotoAdded, UserInputUploadedVideoAdded, UserInputViewedPageAdded.",
+            "name": "commonroom_create_object"
+          },
+          {
+            "description": "Creates a segment: a named set of contacts, organizations or custom-object records, with optional filters, the teams it is assigned to, and its match rules (how its records are matched to each rep). Look up filterable fields and object IDs with commonroom_get_catalog first, and the IDs of custom fields and teams (objectType \"Persona\") with commonroom_list_objects. A segment assigned to teams must also set assignment (its match rules); when the user has not said how its records are matched to reps, ask them, offering the workspace's owner fields as options. Use commonroom_update_segment to change an existing segment, and commonroom_update_object to add records to it.",
+            "name": "commonroom_create_segment"
+          },
+          {
+            "description": "Changes an existing segment's name, description, teams, match rules (\"assignment\"), or whether it is pinned to the Home and \"My segments\" views. Only the fields sent change; the rest stay as they are. Teams and match rules are replaced as a whole. Its filters cannot be changed here. Read the segment's current values with commonroom_list_objects before changing it. It replies with the segment as it is after the change, so tell the user what it now is from that reply. Never guess: when it is unclear which segment, team or owner field is meant, or what the new value should be, ask the user rather than overwrite anything on an assumption.",
+            "name": "commonroom_update_segment"
+          },
+          {
+            "description": "Edits an existing contact, organization, custom-object record or segment, identified by its ID. Every change is a partial update: omitted fields keep their current values and tag changes apply only to the tags listed. When the same segment, tag or custom-field change applies to many records, update them all in one call instead of one call per record. Use commonroom_create_object when the record may not exist yet, since that upserts contacts and organizations; use commonroom_list_objects to find the ID to pass here, and only set custom fields whose \"CustomField\" record has \"modifiable\": true.",
+            "name": "commonroom_update_object"
+          },
+          {
+            "description": "Reports on reps' work from the analytics catalog, such as tasks completed or contacts sent to a sequence: one total row, or one row per group of the groupBy dimensions. With groupBy [action], lists the actions behind those numbers instead, one page at a time: which rep did what to which record, and when. Use commonroom_list_action_logs instead to check whether a contact action succeeded or why it failed, or to see every action on one contact, run or workflow. Use commonroom_list_objects for the records themselves.",
+            "name": "commonroom_query_analytics"
+          },
+          {
+            "description": "Looks up stored firmographics (about, employees, revenue range, sub-industry, technologies, LinkedIn URL, location) for up to 25 companies by domain or LinkedIn company URL, with a found, not_found or failed outcome per record. Nothing is added to the workspace. Use commonroom_list_objects instead for organizations already in the workspace.",
+            "name": "commonroom_enrich_organizations"
+          },
+          {
+            "description": "Looks up stored person data for up to 25 people by email or LinkedIn profile URL, with a found, not_found or failed outcome per record. Nothing is added to the workspace. Use commonroom_list_objects instead for contacts already in the workspace.",
+            "name": "commonroom_enrich_contacts"
+          },
+          {
+            "description": "Lists where a contact action can go: the connected providers (signals and integrations), their sequences, cadences, flows, campaigns or call lists, and the senders who can send for them, along with whether the workspace allows that action category. Call it before commonroom_enroll_in_sequence or commonroom_push_contacts to get the IDs they need.",
+            "name": "commonroom_list_action_destinations"
+          },
+          {
+            "description": "Enrolls contacts in a sales-engagement sequence, cadence or flow, or adds them to a Salesforce campaign; enrolling can send emails and create calls or tasks now and on the sequence's schedule, and a campaign can start the customer's own automation. Get the destination and sender IDs from commonroom_list_action_destinations; when the destination has prompts, present the RoomieAI snippets from commonroom_get_message_drafts for approval, explain that they are not full-email previews, and pass the approved snippets as messages. Check the outcomes, which arrive later, with commonroom_list_action_logs. Use commonroom_push_contacts instead to add contacts to a call list or the CRM without messaging them.",
+            "name": "commonroom_enroll_in_sequence"
+          },
+          {
+            "description": "Returns one RoomieAI snippet per contact and prompt mapped to the destination for review or editing before commonroom_enroll_in_sequence. These snippets fill provider fields; they are not complete email previews and exclude the provider template, subject and other merge fields. Saved manual edits are reused; otherwise a current saved AI snippet is returned or a new one is generated and saved on the contact. Salesloft cadences have no snippets here because they rewrite the email at send time.",
+            "name": "commonroom_get_message_drafts"
+          },
+          {
+            "description": "Reads the logs of actions taken by workflows and by commonroom_enroll_in_sequence or commonroom_push_contacts: whether each contact in a run succeeded, what one workflow did, what was done to one contact, or what the caller started. Call it after an action tool to check outcomes, which arrive later, or to debug a workflow; find a workflow's ID by name with commonroom_list_workflows.",
+            "name": "commonroom_list_action_logs"
+          },
+          {
+            "description": "Adds contacts to a dialer call list, or creates or updates them in the CRM. It sends no messages; use commonroom_enroll_in_sequence for outreach. Get the destination IDs from commonroom_list_action_destinations, and check outcomes with commonroom_list_action_logs.",
+            "name": "commonroom_push_contacts"
+          },
+          {
+            "description": "Lists the workspace's workflows (automations), searchable by name, to find the workflowId that commonroom_list_action_logs takes.",
+            "name": "commonroom_list_workflows"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Common Room": {
+        "type": "http",
+        "url": "https://mcp.commonroom.io/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c8a46c8977f7950650e47a6e95ff7aa128ccaa6fa7a915fa6b0497dcd33f1e2a"
+      }
+    }
+  }
+}

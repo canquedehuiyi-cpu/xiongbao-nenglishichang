@@ -1,0 +1,239 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.643Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Product-Management",
+  "categoryCode": "Product Management",
+  "connector_id": "asana",
+  "connector_name": "Asana",
+  "connector_name_cn": "Asana",
+  "description": "Connect to Asana to query projects, tasks, teams, and users, create, update, or delete tasks, and add comments. Read portfolios, use project templates, and update project status to track work and team coordination.",
+  "description_cn": "连接 Asana，查询项目、任务、团队和成员，创建、更新或删除任务并添加评论。支持读取项目组合、使用项目模板和更新项目状态，帮助跟踪工作进度与协作事项。",
+  "version": "1.0.1",
+  "category": "Product Management",
+  "tags": [
+    "1",
+    "2"
+  ],
+  "provider_name": "Asana",
+  "author": {
+    "name": "",
+    "display_name": "Asana"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Asana",
+        "url": "https://mcp.asana.com/v2/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_b259dfb8499b33348f757c1a1e4daca14b555a5c37b917e7850b48db284e77fb",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_b259dfb8499b33348f757c1a1e4daca14b555a5c37b917e7850b48db284e77fb",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Returns a list of AI Teammate agents (automated agents, not human users) configured in a workspace. AI Teammates are Asana-specific automation agents — they are distinct from human coworkers, teammates, or workspace members. Do NOT use this tool when the user asks about people, users, teammates, or team members; use get_users or search_objects instead. If you have a name or description to search against, use search_objects with resource_type='agent' instead. Each agent record includes GID, name, resource_type, and resource_subtype. Use to discover available AI Teammate agents before fetching full details with get_agent. Supports pagination for workspaces with many agents.",
+            "name": "get_workspace_agents"
+          },
+          {
+            "description": "Returns the full record for a single AI Teammate agent by GID. Includes name, description, behavior_guidance, workspace, and photo URLs. Use get_workspace_agents first to discover agent GIDs, then call this tool for full details.",
+            "name": "get_agent"
+          },
+          {
+            "description": "List all attachments for a project, project brief, or task. By default, returns attachment names, IDs, and URLs (download_url, permanent_url, view_url). To expose other attachment fields use opt_fields. Use for accessing files attached to Asana objects. Supports pagination for objects with many attachments.",
+            "name": "get_attachments"
+          },
+          {
+            "description": "List a project's task templates or create a task from one. Provide project_id alone to return all templates without creating. To create, provide either task_template_id, or template_name with project_id. When given a name, this tool searches that project's task templates and creates only when one case-insensitive exact match exists. Task instantiation starts asynchronously. Tell the user it has started and may still be in progress, then ask what they want to do next.",
+            "name": "create_task_from_template"
+          },
+          {
+            "name": "create_project_from_template"
+          },
+          {
+            "description": "List Inbox notifications for the authenticated user in a workspace. Use when the user asks things like \"what needs my attention\", \"what happened while I was away\", or \"what did <person> say or ask\". By default this already includes who triggered each notification (created_by.name) and what it relates to (work_objects.name, work_objects.resource_type). Request opt_fields for additional nested detail as needed, e.g. story.text for the underlying comment or activity text. story_resource_subtype names the underlying activity (e.g. assigned, at_mention, liked, added_to_project) and can help separate directly-actionable notifications (assignments, mentions) from passive ones (likes, status changes), but it is a free-form string with no fixed enum. When summarizing or explaining a notification, request story.text rather than pattern-matching the subtype alone. priority_classification is not yet differentiated (always unclassified); do not use it to infer urgency until that changes. Returns notification GIDs, which can be passed to update_notifications.",
+            "name": "get_notifications"
+          },
+          {
+            "description": "Mark one or more Inbox notifications as read or unread for the authenticated user. Accepts 1-50 notification GIDs, typically obtained from get_notifications. is_read: true marks them read, false marks them unread. Useful for bulk-triaging the Inbox, e.g. marking passive notifications as read while leaving directly-actionable ones (assignments, mentions) unread.",
+            "name": "update_notifications"
+          },
+          {
+            "description": "Get detailed portfolio data by ID including name, owner, and projects. Use after finding portfolio ID via search_objects. Returns complete portfolio configuration. Essential for understanding portfolio context and content.",
+            "name": "get_portfolio"
+          },
+          {
+            "description": "List portfolios in workspace owned by the current user. REQUIRES workspace parameter. Returns portfolio names and IDs for portfolios you own. Use for portfolio discovery and management. Supports pagination for workspaces with many portfolios.",
+            "name": "get_portfolios"
+          },
+          {
+            "description": "List projects, goals, and other items in a portfolio. Returns item names, IDs, and types. Use for portfolio content exploration and management. Supports pagination for portfolios with many items.",
+            "name": "get_items_for_portfolio"
+          },
+          {
+            "description": "Get detailed project data including name, description, owner, members, and current status. Also returns task counts (num_tasks, num_incomplete_tasks, num_completed_tasks) and optionally sections. A null task_counts or sections value means the data could not be retrieved and should not be interpreted as zero or empty.",
+            "name": "get_project"
+          },
+          {
+            "description": "List projects in a workspace, optionally filtered by team. Returns project names, IDs, and task counts (num_tasks, num_incomplete_tasks, num_completed_tasks) by default. To expose other project fields, such as members or owner, use opt_fields. Prefer using search_objects with resource_type='project' for name-based searches instead of get_projects and filtering through the results. A null task_counts value means counts could not be retrieved and should not be interpreted as zero.",
+            "name": "get_projects"
+          },
+          {
+            "description": "Post a status update to a project or portfolio. Use for project health updates, milestone documentation, or blocker reporting. Returns created status with gid, parent, title, status_type, author, created_at, permalink_url. Exactly one of text or html_text must be provided (omit the other in the request).",
+            "name": "create_project_status_update"
+          },
+          {
+            "description": "Create a new project with optional sections and tasks in a single operation. Use this as the default whenever the user wants a project created or set up, including with sections and tasks. Do not choose create_project_preview unless the user explicitly asks to preview or confirm the plan before creation, or to delay creating the project until they approve. Optionally pass sections, each with a sectionName and an optional list of tasks (with name, assignee, due_on, etc.), to set up the full project structure at creation time. Tasks are nested within their sections and will be assigned to the corresponding section automatically. If a team is not provided, the new project will be associated with a default team. Returns the created project ID, permalink, and results for any sections and tasks created.",
+            "name": "create_project"
+          },
+          {
+            "description": "Update one existing project. Use get_project with include_sections=true first when changing sections or when the current project configuration is not already known. Supports project details, dates, ownership, appearance, access, archival, project custom-field values, sections, members, and custom-field settings for tasks in the project. Adding members, making the project public, and changing default access require explicit user confirmation. Call the tool without confirmation first to receive the exact effects, then retry with confirmation only after the user agrees. Returns whether every requested change succeeded and reports errors when a change fails. Some changes may still be applied when another requested change fails.",
+            "name": "update_project"
+          },
+          {
+            "description": "Get status overview and progress reports for initiatives/projects. Use this tool as a standalone when users ask for: status updates, status reports, project status, work overview, progress overview, initiative status, identified blockers, or any status-related queries. This tool searches projects and portfolios, extracts tasks and status updates, and returns aggregated project details, tasks, and status information. IMPORTANT: Call this tool directly with keywords - do NOT call other search tools first. This tool handles all searching and aggregation internally.",
+            "name": "get_status_overview"
+          },
+          {
+            "description": "Premium accounts only. Advanced task search with full-text and complex filters. DEFAULT tool for searching tasks: Use by default any time the user asks to search for tasks. Searches task names, descriptions, and comments. Returns tasks with gid, name, assignee, due_on, completed. When the user uses possessive language like 'my' (e.g., 'my tasks', 'my overdue tasks', 'my high-priority tasks'), you MUST always set assignee_any='me', in addition to any other applicable filters. Unless the user explicitly asks for completed tasks or all tasks, always set completed=false to filter to incomplete tasks only. Use get_tasks for non-Premium workspaces.",
+            "name": "search_tasks"
+          },
+          {
+            "description": "Get full task details by ID. Returns name, description, assignee, due dates, custom fields, projects, dependencies, followers, parent, memberships (project and section), and acknowledgements (hearts and likes). Essential before updating tasks. Use opt_fields for custom field values. Comments and subtasks are included by default. Set include_comments or include_subtasks to false to exclude them. The most recent comments are returned (up to comment_limit), in ascending chronological order so the thread reads oldest-to-newest. Required for understanding task context.",
+            "name": "get_task"
+          },
+          {
+            "description": "Get the activity feed (stories) for one or many tasks. Reading more than one task? Pass all of them in task_ids (up to 50) in a single call rather than calling this tool once per task, which is dramatically slower. Use task_id for a single task. Returns every story by default, not just comments: comments plus system activity such as assignments, status/completion changes, due date changes, and added-to-project events. Narrow the result with resource_subtype='comment_added' for comments only, created_after to get just what is new, and sort_ascending=false with limit to read only the latest activity. To find recent comments across a project, list its tasks and pass them all as task_ids with resource_subtype='comment_added' and created_after set, rather than looping over get_task. Stories are oldest-first unless sort_ascending=false. limit applies per task and defaults to 20 when task_ids is used, and is reduced when task_ids is large so the total stays bounded -- the response summary reports the per-task limit actually used. With task_ids, an unset sort_ascending defaults to newest-first, since that read can never be paged further. With task_id, it defaults to newest-first only when created_after is also set and the result is bounded (an explicit limit, or offset alone -- continuing a page implicitly bounds it too) -- otherwise limit would cut to the oldest of the new stories instead of the newest. offset paginates a single task_id and cannot be combined with task_ids. With task_id the response is the stories array itself; with task_ids it is one entry per task, { task_id, stories }, or { task_id, error } for a task that could not be read. Use for auditing what happened on a task or summarizing its history.",
+            "name": "get_task_stories"
+          },
+          {
+            "description": "Creates tasks immediately without visual preview or asking for confirmation. DEFAULT tool for task creation: Use by default any time the user asks to create any number of tasks. Do not use when the user explicitly opts in with visually previewing, reviewing, or confirming a task before creation, or when the user implies they want to check or verify before the task is saved. Requires default_project (for all tasks) or default_assignee for My Tasks. When the user indicates the task is for themselves — e.g. 'remind me', 'my', 'I need to', ALWAYS set assignee='me' (or default_assignee='me' when it applies to every task). If the user names a different assignee, use that person instead; resolve their GID with search_objects first. Each task can specify project_id, parent, section_id, assignee, notes, html_notes, due_on, start_on, followers, custom_fields; omitted fields use the defaults. Returns succeeded (created tasks), failed (with errors), and summary.",
+            "name": "create_tasks"
+          },
+          {
+            "description": "Update one or more tasks in a single operation. Supports changing name, assignee, due_on, start_on, notes, html_notes, completed, parent, dependencies (add/remove), dependents (add/remove), followers (add/remove), and custom_fields. Returns succeeded (tasks where all updates applied), failed (at least one update failed; some updates may have succeeded), and summary. succeeded = all actions for that task succeeded; failed = partial or total failure, with errors array listing all failed actions for that task.",
+            "name": "update_tasks"
+          },
+          {
+            "description": "Add a comment to a task. Use ONLY for human-authored discussion, feedback, questions, or additional context. Exactly one of text or html_text must be provided. Do NOT use for actions that are automatically logged (assignments, status changes, completion, field updates). Returns the created story with ID, content, author, and timestamp.",
+            "name": "add_comment"
+          },
+          {
+            "description": "List tasks filtered by context (workspace/project/tag/section/user list). One context required. Supports assignee, date filters. Returns task names and IDs. Use for filtered task views and bulk operations. If the user's request includes words like 'preview', 'visual', 'visualize', or 'render' in reference to seeing their tasks, you MUST use search_tasks_preview instead of this tool, even if the request is scoped to a specific project.",
+            "name": "get_tasks"
+          },
+          {
+            "description": "Get the current user's tasks. Shortcut for common \"what's on my plate\" queries. Returns tasks assigned to the user. Use when the user asks about their tasks, workload, or what they need to do. If the user's request includes words like 'preview', 'visualization', or 'rendered view' in reference to seeing their tasks, you MUST use search_tasks_preview with assignee_any='me' instead. Do not use this to answer questions about project membership or ownership. Use get_me plus get_projects or search_objects instead.",
+            "name": "get_my_tasks"
+          },
+          {
+            "description": "Delete task from Asana. Use with extreme caution as recovery is challenging. Deletes the task and any subtasks that are not also in another project. Returns success confirmation. Requires task ID. Essential for removing duplicate or obsolete tasks.",
+            "name": "delete_task"
+          },
+          {
+            "description": "List teams in workspace. Returns team names and GIDs. Optionally filter to only teams a specific user belongs to by providing a user GID. Use to discover teams for project context or check user team membership.",
+            "name": "get_teams"
+          },
+          {
+            "description": "Quick search across Asana objects. ALWAYS use this FIRST before specialized search. Returns most relevant items based on recency and usage. Faster than dedicated search tools for finding specific items. Use query to search by name or description/role. More efficient than listing all objects and scanning manually. If the user provides a project template name, search with resource_type 'project_template'. If that search requires workspace_gid and the user did not specify a workspace, call get_me to discover their workspaces. Use the only workspace automatically. If there are multiple workspaces, ask the user to choose by name; never ask them for a workspace GID. If the user is not specific about which objects to search, use the following priority order: project + task > portfolio > goal + others (user, team, agent, actor, tag, custom_field).",
+            "name": "search_objects"
+          },
+          {
+            "description": "Get user details by ID, email, or \"me\". Returns name, email, workspaces. Use to find user IDs for task assignment. \"me\" returns authenticated user info. Essential before assigning tasks. When no user_id is provided, defaults to \"me\" (authenticated user) - equivalent to the former asana_get_user_info tool. Prefer using search_objects when searching for users/agents by name.",
+            "name": "get_user"
+          },
+          {
+            "description": "Get details of current authenticated user. Tools accept 'me' as a user identifier, so you rarely need to call this just to get the user's GID. Only call this when you need specific user details (e.g., name, email), when tools such as get_projects or search_objects require filtering results by user GID, or when tools do not accept 'me' as a user identifier.",
+            "name": "get_me"
+          },
+          {
+            "description": "List users in a workspace, or list members of a specified team. Prefer using search_objects when searching for users/agents by name. Returns users sorted by name and does not support pagination. Requests that match more than 2,000 users fail. For paginated results, use the separate REST API GET /users with a workspace or team filter. See [REDACTED] That API sorts by user ID.",
+            "name": "get_users"
+          },
+          {
+            "description": "Search for records in a workspace. At least one filter besides sort options is required, or the request will be rejected. Scope to specific tables with tables_any/tables_not/tables_all; otherwise the search spans every table in the workspace.",
+            "name": "search_records"
+          },
+          {
+            "description": "Get a single record by its GID. Includes the record's comment/activity history by default, as a paginated comments object ({ data, next_page }); set include_comments to false to omit it. The most recent comments are returned first (up to comment_limit, default 10); use comment_offset to page through the rest.",
+            "name": "get_record"
+          },
+          {
+            "description": "Create 1-50 records in one call. Each requires name and table. Set unique_fingerprint on an item to prevent duplicates: that item fails rather than creating a duplicate if a record with that fingerprint already exists on its table. Other items still succeed.",
+            "name": "create_records"
+          },
+          {
+            "description": "Update 1-50 records in one call. Each requires record, plus name and/or custom_fields. Items with neither name nor custom_fields are skipped.",
+            "name": "update_records"
+          },
+          {
+            "description": "Add a comment to a record.",
+            "name": "add_record_comment"
+          },
+          {
+            "description": "List records in a table. Requires the table GID — records are not listed across a whole workspace. Supports filtering by modified_since and sorting by created_at.",
+            "name": "get_records"
+          },
+          {
+            "description": "Permanently delete (trash) a record. This cannot be undone through this tool.",
+            "name": "delete_record"
+          },
+          {
+            "description": "Get a single table by its GID. Set include_custom_field_settings to also return the table's current custom-field schema in one call, as a paginated custom_field_settings object ({ data, next_page }); use custom_field_settings_limit/custom_field_settings_offset to page through it.",
+            "name": "get_table"
+          },
+          {
+            "description": "List tables in a workspace.",
+            "name": "get_tables"
+          },
+          {
+            "description": "Create a table in a workspace. Requires name. Optionally set the table's initial custom field schema via custom_field_settings: the table is created first, then each entry is added with its own addCustomFieldSetting call, in order. The table is still created even if some entries fail; check the response's failed/custom_fields_added fields.",
+            "name": "create_table"
+          },
+          {
+            "description": "Update a table's name, and/or add or remove individual custom fields from its schema. At least one of name, add_custom_fields, or remove_custom_fields must be provided. add_custom_fields and remove_custom_fields each change only the fields they name — unlike the table's underlying PUT endpoint, this never replaces the whole schema.",
+            "name": "update_table"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Asana": {
+        "type": "http",
+        "url": "https://mcp.asana.com/v2/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_b259dfb8499b33348f757c1a1e4daca14b555a5c37b917e7850b48db284e77fb"
+      }
+    }
+  }
+}

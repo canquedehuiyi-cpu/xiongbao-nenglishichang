@@ -1,0 +1,256 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.489Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Developer-Tools",
+  "categoryCode": "Developer Tools",
+  "connector_id": "doppler",
+  "connector_name": "Doppler",
+  "connector_name_cn": "Doppler",
+  "description": "Inspect secrets and configuration metadata used by development and deployment workflows. Review configuration context required by project environments for deployment preparation and troubleshooting, handling sensitive values with least-privilege access. For developers and technical researchers, organize the available information or results around a concrete problem. Use this material as input to implementation and investigation, connecting the service with an existing development workflow. Available data and operations depend on the current connection configuration, account permissions, and service plan.",
+  "description_cn": "通过 Doppler 查看开发与部署工作流中的密钥和配置元数据。适合核对项目环境所依赖的配置背景，为部署准备和配置问题排查提供上下文；敏感值应按最小权限处理。面向开发者与技术研究人员，可围绕具体问题组织接口信息、资料或执行结果，将其作为方案实现与问题分析的输入，便于把工具能力衔接到已有开发流程。",
+  "version": "1.0.0",
+  "category": "Developer Tools",
+  "tags": [
+    "secrets",
+    "configuration",
+    "devops"
+  ],
+  "provider_name": "Doppler",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "doppler",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ec1f88683a24b3f62173b27b889d71a946a8d3f3518bbb0538fdb7420a0acc6a",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Inspect secrets and configuration metadata used by development and deployment workflows.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ec1f88683a24b3f62173b27b889d71a946a8d3f3518bbb0538fdb7420a0acc6a",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "doppler",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_ec1f88683a24b3f62173b27b889d71a946a8d3f3518bbb0538fdb7420a0acc6a",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Clone a Doppler config.",
+            "name": "clone_config"
+          },
+          {
+            "description": "Create a Doppler change request.",
+            "name": "create_change_request"
+          },
+          {
+            "description": "Create a Doppler config.",
+            "name": "create_config"
+          },
+          {
+            "description": "Create a Doppler environment.",
+            "name": "create_environment"
+          },
+          {
+            "description": "Create a Doppler project.",
+            "name": "create_project"
+          },
+          {
+            "description": "Create a Doppler service token.",
+            "name": "create_service_token"
+          },
+          {
+            "description": "Create a Doppler sync.",
+            "name": "create_sync"
+          },
+          {
+            "description": "Delete a Doppler config.",
+            "name": "delete_config"
+          },
+          {
+            "description": "Delete a Doppler environment.",
+            "name": "delete_environment"
+          },
+          {
+            "description": "Delete a Doppler project.",
+            "name": "delete_project"
+          },
+          {
+            "description": "Delete a Doppler secret.",
+            "name": "delete_secret"
+          },
+          {
+            "description": "Delete a Doppler service token.",
+            "name": "delete_service_token"
+          },
+          {
+            "description": "Delete a Doppler sync.",
+            "name": "delete_sync"
+          },
+          {
+            "description": "Download Doppler secrets.",
+            "name": "download_secrets"
+          },
+          {
+            "description": "Get metadata for the current Doppler token.",
+            "name": "get_auth_me"
+          },
+          {
+            "description": "Get a Doppler change request.",
+            "name": "get_change_request"
+          },
+          {
+            "description": "Get a Doppler config.",
+            "name": "get_config"
+          },
+          {
+            "description": "Get a Doppler config change log.",
+            "name": "get_config_log"
+          },
+          {
+            "description": "Get a Doppler environment.",
+            "name": "get_environment"
+          },
+          {
+            "description": "Get a Doppler integration.",
+            "name": "get_integration"
+          },
+          {
+            "description": "Get a Doppler project.",
+            "name": "get_project"
+          },
+          {
+            "description": "Get a Doppler secret.",
+            "name": "get_secret"
+          },
+          {
+            "description": "Get a Doppler sync.",
+            "name": "get_sync"
+          },
+          {
+            "description": "Issue a Doppler dynamic secret lease.",
+            "name": "issue_dynamic_secret_lease"
+          },
+          {
+            "description": "List Doppler change requests.",
+            "name": "list_change_requests"
+          },
+          {
+            "description": "List Doppler config change logs.",
+            "name": "list_config_logs"
+          },
+          {
+            "description": "List Doppler configs.",
+            "name": "list_configs"
+          },
+          {
+            "description": "List Doppler environments.",
+            "name": "list_environments"
+          },
+          {
+            "description": "List Doppler integrations.",
+            "name": "list_integrations"
+          },
+          {
+            "description": "List Doppler projects.",
+            "name": "list_projects"
+          },
+          {
+            "description": "List Doppler secret names.",
+            "name": "list_secret_names"
+          },
+          {
+            "description": "List Doppler secrets.",
+            "name": "list_secrets"
+          },
+          {
+            "description": "List Doppler service tokens.",
+            "name": "list_service_tokens"
+          },
+          {
+            "description": "Review a Doppler change request unit.",
+            "name": "review_change_request_unit"
+          },
+          {
+            "description": "Revoke a Doppler dynamic secret lease.",
+            "name": "revoke_dynamic_secret_lease"
+          },
+          {
+            "description": "Set whether a Doppler config can be inherited.",
+            "name": "set_config_inheritable"
+          },
+          {
+            "description": "Update a Doppler change request.",
+            "name": "update_change_request"
+          },
+          {
+            "description": "Update Doppler change request assignees.",
+            "name": "update_change_request_assignees"
+          },
+          {
+            "description": "Update a Doppler change request unit status.",
+            "name": "update_change_request_unit_status"
+          },
+          {
+            "description": "Update a Doppler config.",
+            "name": "update_config"
+          },
+          {
+            "description": "Update a Doppler environment.",
+            "name": "update_environment"
+          },
+          {
+            "description": "Update a Doppler project.",
+            "name": "update_project"
+          },
+          {
+            "description": "Update a Doppler secret note.",
+            "name": "update_secret_note"
+          },
+          {
+            "description": "Update Doppler secrets.",
+            "name": "update_secrets"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "doppler": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ec1f88683a24b3f62173b27b889d71a946a8d3f3518bbb0538fdb7420a0acc6a",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ec1f88683a24b3f62173b27b889d71a946a8d3f3518bbb0538fdb7420a0acc6a"
+      }
+    }
+  }
+}

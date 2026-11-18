@@ -1,0 +1,82 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.536Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Finance",
+  "categoryCode": "Finance",
+  "connector_id": "ningmengyun",
+  "connector_name": "ningmengyun",
+  "connector_name_cn": "柠檬云·财务进销存ERP",
+  "description": "Lemon Cloud (Ningmengyun) connects its finance, inventory/ERP, cloud bookkeeping and invoicing systems to Qoder through the official LemonClaw MCP server. With a single natural-language request you can query vouchers and ledgers, verify and de-duplicate invoices, issue invoices, look up business documents, and get operating and tax-risk analysis, all inside your existing workflow. Data access follows the permissions of the Ningmengyun account you authorize.",
+  "description_cn": "柠檬云（柠檬云财税）通过官方 LemonClaw MCP 服务，把财务、进销存、业财ERP、云代账与发票系统接入 Qoder。一句自然语言指令即可完成查账查凭证、发票查验查重与台账、全场景开票、业务单据查询、经营与税务风险分析等企业经营场景。官方开放平台将发票查验查重及台账、发票整理查验及报销、企业发票核验与征信分析、发票获取及风险分析、全场景开票、AI 财税专家咨询等能力封装为可调用的技能。返回结果为结构化字段，可直接回流到报表或业务流程；财税咨询回答可追溯政策出处。可访问范围取决于所授权柠檬云账号的权限。",
+  "version": "1.0.0",
+  "category": "Finance",
+  "tags": [
+    "财务",
+    "发票",
+    "进销存",
+    "ERP",
+    "代账",
+    "财税咨询"
+  ],
+  "provider_name": "柠檬云AI财税平台",
+  "author": {
+    "name": "柠檬云AI财税平台",
+    "display_name": "柠檬云AI财税平台"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoder",
+    "qodercli",
+    "qoderapp",
+    "cloudagent"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "ningmengyun-mcp",
+        "url": "https://mcpapi.ningmengyun.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "柠檬云 LemonClaw MCP（finance, inventory/ERP, invoicing）",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_e7c6eda2475584cc3a5f430441bb8433857fa37e6ddb3e1c373ad94b07af99d3",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_e7c6eda2475584cc3a5f430441bb8433857fa37e6ddb3e1c373ad94b07af99d3",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "ningmengyun-mcp": {
+        "type": "http",
+        "url": "https://mcpapi.ningmengyun.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_e7c6eda2475584cc3a5f430441bb8433857fa37e6ddb3e1c373ad94b07af99d3"
+      }
+    }
+  }
+}

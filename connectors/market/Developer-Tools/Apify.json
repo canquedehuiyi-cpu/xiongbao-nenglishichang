@@ -1,0 +1,135 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.483Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Developer-Tools",
+  "categoryCode": "Developer Tools",
+  "connector_id": "c45ead5f-8062-48f3-82f3-31615cb94aa6",
+  "connector_name": "Apify",
+  "connector_name_cn": "Apify",
+  "description": "Apify MCP retrieves structured data from supported websites using Actors for scraping, crawling, extraction, and web automation. Select Actors for a particular site or task and use their output in research, information aggregation, and data-processing workflows. Available capabilities depend on the chosen Actor. For developers and technical researchers, organize the available information or results around a concrete problem. Use this material as input to implementation and investigation, connecting the service with an existing development workflow. Available data and operations depend on the current connection configuration, account permissions, and service plan.",
+  "description_cn": "Apify MCP 通过 Actor 提取支持站点的结构化数据，覆盖网页抓取、爬取、数据提取和网页自动化场景。适合根据具体站点和任务选择 Actor，将提取结果用于信息汇总、内容研究或数据处理工作流；可用能力取决于所选 Actor。面向开发者与技术研究人员，可围绕具体问题组织接口信息、资料或执行结果，将其作为方案实现与问题分析的输入，便于把工具能力衔接到已有开发流程。",
+  "version": "1.0.1",
+  "category": "Developer Tools",
+  "tags": [
+    "qoder-vibe"
+  ],
+  "provider_name": "Apify",
+  "author": {
+    "name": "",
+    "display_name": "Apify"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Apify",
+        "url": "https://mcp.apify.com",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f8c7e6f306ba97275419068b01a4751dd4f2f4b560963d23f9b06e5e2ac344cb",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_f8c7e6f306ba97275419068b01a4751dd4f2f4b560963d23f9b06e5e2ac344cb",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Search the Apify Store to FIND and DISCOVER what scraping tools/Actors exist for specific platforms or use cases.\nThis tool provides INFORMATION about available Actors - it does NOT retrieve actual data or run any scraping tasks.\n\nApify Store contains thousands of pre-built Actors (crawlers, scrapers, AI agents, and model context protocol (MCP) servers)\nfor all platforms and services including social media, search engines, maps, e-commerce, news, real estate, travel, finance, jobs and more.\nApify Store lists Actors published by Apify and by independent developers.\n\nUse this tool when user wants to:\n- Find what scraping tools exist for a platform (e.g., \"What tools can scrape Instagram?\")\n- Discover available Actors for a use case (e.g., \"Find an Actor for Amazon products\")\n- Browse existing solutions (e.g., \"Show me scrapers for news sites\")\n- Learn about MCP servers or AI agents available in the Store\n\nThis tool discovers Actors; it does not retrieve their output.\nIMPORTANT: When the user wants detailed data from a specific platform or is looking for scraping tools, prefer searching the Store first — a relevant Actor often already exists. When the user names a specific Actor, look up that Actor directly instead of searching.\n\nUsage:\n- Use 1-3 simple terms from the platform and/or data type the user named (e.g. \"Instagram posts\", \"Twitter\", \"Amazon products\"). With neither named, empty keywords return the Store's default ordering. A platform-only query is an option if more specific results do not fit.\n\nImportant limitations: This tool does not return full Actor documentation or detailed usage instructions - only summary information.\nEach result lists the Actor's input fields with their types (e.g. `url: string, maxResults?: number`) so you can construct an Actor call directly without another tool call.\nFor complete Actor details (per-field descriptions, defaults, README), use the fetch-actor-details tool.\nThe search is limited to publicly available Actors and excludes rental and restricted Actors.\n\nReturns list of Actor cards with the following info:\n- **Title:** Markdown header linked to the Store page, followed by the full Actor name in code format\n- **URL:** Direct Store link\n- **Description:** Actor description or fallback\n- **Pricing:** Details with pricing link\n- **Stats:** Total and monthly users\n- **Rating:** Out of 5 (if available)\n- **Categories:** Formatted or \"Uncategorized\"\n- **Last modified:** Date (if available)\n- **Input fields:** Inline list of input field names and types (e.g. `url: string, maxResults?: number`); `?` marks optional fields, `... (+N more)` marks a truncated list",
+            "name": "search-actors"
+          },
+          {
+            "description": "Get detailed information about an Actor by its ID or full name (format: \"username/name\", e.g., \"apify/rag-web-browser\").\n\nRequires the exact ID or full name — do not construct a plausible-looking name and call this tool with it. If you only have a description, a partial name, or a name you have not seen in this conversation, find it with search-actors first.\n\nUse 'output' to control returned information:\n- Default: all fields except outputSchema and serverInterface. Server Actors always get a one-line server interface summary unless serverInterface is true or a selector.\n- Selective: set only the fields you need to true, e.g. output: { inputSchema: true }\n- Common patterns: inputSchema only, description + readme, serverInterface: true (every operation in full when they fit, an index of them otherwise) or \"GET /search\" (one operation in full) for Server Actors\n\nThe 'readme' field returns the summary when available, full README otherwise.\nUse when querying Actor details, documentation, or input requirements.\nIt does not connect to an MCP server Actor; fetch-actor-mcp-tool-list lists its MCP tools.\n\nEXAMPLES:\n- What does apify/web-fetch do?\n- What is the input schema for apify/web-scraper?\n- What HTTP operations does this Server Actor expose?",
+            "name": "fetch-actor-details"
+          },
+          {
+            "description": "Call any Actor from the Apify Store.\n\nWORKFLOW:\n1. Use fetch-actor-details to get the Actor's input schema\n2. Call this tool with the actor name and proper input based on the schema\n\nIf the actor name is not in \"username/name\" format, use search-actors to resolve the correct Actor first.\n\nAn MCP server Actor with no input schema is not run here; call-actor-mcp-tool calls its MCP tools.\n\nFor Server Actors (Actors with an HTTP API):\n- This tool starts a batch run and stores the results in a dataset; use it when you need batch results\n- For one or a few results, send-server-actor-request returns them in the HTTP response, without a batch run\n- fetch-actor-details with output={ serverInterface: true } lists its HTTP operations\n\nIMPORTANT:\n- Waits up to waitSecs (default 30s) for completion; returns run status and storage IDs, and with waitSecs > 0 also reports dataset field metadata\n- Use get-dataset-items with the datasetId to fetch results; non-terminal runs include a nextStep with polling instructions\n\nThere are two ways to use an Actor:\n1. Its dedicated tool, when the session has one: a Server Actor's tool sends one HTTP request to its API, an MCP server Actor's tools call its MCP server, and any other Actor's tool starts a run.\n2. The generic call-actor tool: starts a run of any Actor and stores the results in a dataset.\n\nUSAGE:\n- Prefer the dedicated tool when the session has one for the Actor\n- call-actor runs an Actor that has no dedicated tool, and batch work whose results belong in a dataset.\n\n- Use `waitSecs` (0–45) to control how long to wait. Default 30s returns results for fast actors. Use `waitSecs: 0` to start and return immediately for long-running actors.\n\nEXAMPLES:\n- [REDACTED]: Get instagram posts using apify/instagram-scraper",
+            "name": "call-actor"
+          },
+          {
+            "description": "Get detailed information about a specific Actor run.\n\nReturns run result: status, storages (datasets/keyValueStores alias map), stats, summary, nextStep.\n- summary describes the past (e.g. \"SUCCEEDED in 22s. 47 items; 3 fields available.\").\n- nextStep prescribes one primary follow-up action with identifiers interpolated (e.g. \"Use get-dataset-items with datasetId=...\").\n- waitSecs (0–45, default 30) waits up to that many seconds for terminal status before returning.\n\nUSAGE:\n- Use to check the status of a run started by any Actor-running tool.\n- Pass waitSecs > 0 to block until terminal (or until the cap elapses).\n\nUSAGE EXAMPLES:\n- [REDACTED]: Show details of run y2h7sK3Wc\n- [REDACTED]: Wait for run y2h7sK3Wc to finish",
+            "name": "get-actor-run"
+          },
+          {
+            "description": "Get items (rows) from a dataset — the output/results produced by an Actor run.\nReturns the rows themselves, not dataset metadata, counts, or a schema.\nWhen the user provides a datasetId and asks to retrieve results, output, data, or rows, call this tool directly.\nDefault limit is 20. Use clean=true to skip empty items and hidden fields.\n\nUSAGE:\n- Use when you need to read data from a dataset (all items or only selected fields).\n\nUSAGE EXAMPLES:\n- [REDACTED]: Retrieve results from dataset abc123\n- [REDACTED]: Get only metadata.url and title from dataset username~my-dataset",
+            "name": "get-dataset-items"
+          },
+          {
+            "description": "Get the value stored under a specific key in a key-value store — a single record, not a listing of all keys.\nRequires the exact key name.\nThe response preserves the original Content-Encoding; most clients handle decompression automatically.\nA record over 262144 bytes is returned as a link to download it, not as its value.\n\nUSAGE:\n- Use when you need to retrieve a specific record (JSON, text, or binary) from a store.\n\nUSAGE EXAMPLES:\n- [REDACTED]: Get record INPUT from store abc123\n- [REDACTED]: Get record data.json from store username~my-store",
+            "name": "get-key-value-store-record"
+          },
+          {
+            "description": "Abort an Actor run that is currently starting or running.\nFor runs with status SUCCEEDED, FAILED, ABORTING, ABORTED, or TIMED-OUT, this call has no effect.\nThe results will include the updated run details after the abort request.\n\nUSAGE:\n- Use when you need to stop a run that is taking too long or misconfigured.\n\nUSAGE EXAMPLES:\n- [REDACTED]: Abort run y2h7sK3Wc\n- [REDACTED]: Gracefully abort run y2h7sK3Wc",
+            "name": "abort-actor-run"
+          },
+          {
+            "description": "List an Actor's MCP tools with each tool's name, description, input schema, annotations, and metadata, as the server reports them. call-actor-mcp-tool calls one of them by name.\nEach call asks the server again; nothing is cached. It connects with your Apify API token. Connecting can start a Server Actor run in your account, kept until its idle timeout; a multi-tenant Server Actor charges per event.\n\nUSAGE:\n- Use when the user asks which MCP tools an Actor provides, or before calling one of them.\n\nUSAGE EXAMPLES:\n- [REDACTED]: What tools does username/name provide?",
+            "name": "fetch-actor-mcp-tool-list"
+          },
+          {
+            "description": "Call one tool on an Actor's MCP server and return its result.\nfetch-actor-mcp-tool-list lists the Actor's MCP tools and their input schemas.\nIt connects with your Apify API token. Connecting can start a Server Actor run in your account, kept until its idle timeout; a multi-tenant Server Actor charges per event. What the tool itself does depends on the Actor.\n\nExample call: {\"actor\": \"username/name\", \"tool\": \"search\", \"arguments\": {\"query\": \"apify\"}}\n\nUSAGE:\n- Use when the user asks to call a tool on an Actor's MCP server.\n\nUSAGE EXAMPLES:\n- [REDACTED]: Use the search tool of username/name to look up apify",
+            "name": "call-actor-mcp-tool"
+          },
+          {
+            "description": "Send one HTTP request to an Actor Server: the HTTP API of a Server Actor, documented in its API schema (OpenAPI) and README. fetch-actor-details with output.serverInterface returns the documented operations with their parameters.\nGive the method, the path, and optionally query parameters and a JSON body; the Actor Server's host and your Apify API token are added for you.\nOnly an Actor with an Actor Server and an API schema takes requests here; the Actor accepts or rejects the method and path.\nA request to a single-tenant Actor Server can start a run of the Actor in your account, kept until its idle timeout; a multi-tenant Actor Server charges per event.\nThe request is sent once, with no retries and without following redirects. A JSON, text, or XML response body is returned as text, cut at 262144 bytes; other content types are not returned.\n\nExample call: {\"actor\": \"apify/rag-web-browser\", \"method\": \"GET\", \"path\": \"/search\", \"query\": {\"query\": \"AI news\", \"maxResults\": 3}}\n\nUSAGE:\n- Use when the Actor that fits the user's request has an Actor Server, and its API schema or README names the endpoint for the task.\n- Fits requests for one or a few results returned in the HTTP response. Larger batches depend on the endpoint and the response size and time limits.\n\nUSAGE EXAMPLES:\n- [REDACTED]: Search the web for the latest AI news and read the top pages with apify/rag-web-browser\n- [REDACTED]: Read [REDACTED] as Markdown with apify/rag-web-browser",
+            "name": "send-server-actor-request"
+          },
+          {
+            "description": "Search Apify and Crawlee documentation using full-text search.\nDo not also search the Apify Store unless the user asks to find Actors.\n\nYou must explicitly select which documentation source to search using the docSource parameter:\n\n• docSource=\"apify\" - Apify:\n  Apify Platform documentation including: Platform features, SDKs (JS, Python), CLI, REST API, Academy (web scraping fundamentals), Actor development and deployment\n\n• docSource=\"crawlee-js\" - Crawlee (JavaScript):\n  Crawlee is a web scraping library for JavaScript. It handles blocking, crawling, proxies, and browsers for you.\n\n• docSource=\"crawlee-py\" - Crawlee (Python):\n  Crawlee is a web scraping library for Python. It handles blocking, crawling, proxies, and browsers for you.\n\nThe results will include the URL of the documentation page (which may include an anchor),\nand a limited piece of content that matches the search query.\n\nFetch the full content of the document using the fetch-apify-docs tool by providing the URL.\n\nWhen results contain both platform documentation (`docs.apify.com/platform`) and Academy content (`docs.apify.com/academy`) on the same topic, prefer the platform documentation.",
+            "name": "search-apify-docs"
+          },
+          {
+            "description": "Fetch the full content of an Apify or Crawlee documentation page by its URL.\nUse this after finding a relevant page with the search-apify-docs tool.\n\nUSAGE:\n- Use when you need the complete content of a specific docs page for detailed answers.\n\nUSAGE EXAMPLES:\n- [REDACTED]: Fetch [REDACTED]\n- [REDACTED]: Fetch [REDACTED]\n- [REDACTED]: Fetch [REDACTED]",
+            "name": "fetch-apify-docs"
+          },
+          {
+            "description": "Report a problem with Apify's MCP tools or Actors to the Apify team.\n\nReports can describe missing tools or Actors, errors, timeouts, confusing results, steps that took several attempts, or tasks that the available tools could not complete. Reports help fix the problem for other users.\n\nPut what you were doing and what went wrong in \"message\". Do NOT include personal data, credentials, secrets, or verbatim private conversation content — describe the issue in your own words.",
+            "name": "report-problem"
+          },
+          {
+            "description": "Runs one web search and returns one page of organic results as JSON: title, URL, snippet and position of each result, with publication date, publisher and sublinks when the search engine provides them.\nprovider picks google (the default) or duckduckgo; maxResults caps the results, and omitting it returns the whole page, about 10; countryCode and languageCode localize the ranking; dateFrom and dateTo (YYYY-MM-DD) bound the publication date; allowedDomains and blockedDomains (up to 10 hostnames each, subdomains included) restrict or exclude sites.\nUse it when the user wants links to choose from, wants to know which pages exist for a topic, or asks a question that a result title or snippet answers.\nIt does not fetch page content; it returns links and snippets only. To read a result page, use apify--web-fetch.\nExample: {\"method\":\"GET\",\"path\":\"/\",\"query\":{\"query\":\"latest AI agent payment protocols\",\"maxResults\":5}}\n\nThe request is sent once, with no retries and without following redirects. A JSON, text, or XML response body is returned as text, cut at 262144 bytes; other content types are not returned.\nUse this tool instead of the \"send-server-actor-request\" if user requests this specific Actor.\n\nOperations:\n- GET / [query:string required, provider:string, maxResults:integer, languageCode:string, countryCode:string, +5 more]: Run a search.\n- POST / {query:string required, provider:string, maxResults:integer, languageCode:string, countryCode:string, +5 more}: Run a search.\nfetch-actor-details with {\"actor\":\"apify/web-search\",\"output\":{\"serverInterface\":\"GET /\"}} returns one operation in full.",
+            "name": "apify--web-search"
+          },
+          {
+            "description": "Fetches one URL and returns its content as a JSON object with a field per requested format, plus metadata such as the final URL, HTTP status, content type and page title.\nformats selects markdown, html, text, links (a deduplicated list) or raw (the original bytes); when omitted, an HTML or PDF page comes back as markdown, other text as text and binary content as raw.\nThe page is fetched without running JavaScript unless wait is set, which renders it in a real browser and waits the given milliseconds for late-loaded content; a rendered request is slower. The Actor handles common bot protection and rate limits, so it also retrieves pages where a plain HTTP fetch is blocked.\nUse it when the user gives a URL and wants its content, data or links, or an answer that requires reading that page.\nIt does not search the web; it needs a URL. To find pages by query, use apify--web-search.\nExample: {\"method\":\"GET\",\"path\":\"/\",\"query\":{\"url\":\"[REDACTED]\",\"formats\":[\"markdown\"]}}\n\nThe request is sent once, with no retries and without following redirects. A JSON, text, or XML response body is returned as text, cut at 262144 bytes; other content types are not returned.\nUse this tool instead of the \"send-server-actor-request\" if user requests this specific Actor.\n\nOperations:\n- GET / [url:string required, formats:array, unwrap:boolean, headers:string, wait:integer]: Fetch a URL.\n- POST / {url:string required, formats:array, unwrap:boolean, headers:object, wait:integer}: Fetch a URL.\nfetch-actor-details with {\"actor\":\"apify/web-fetch\",\"output\":{\"serverInterface\":\"GET /\"}} returns one operation in full.",
+            "name": "apify--web-fetch"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Apify": {
+        "type": "http",
+        "url": "https://mcp.apify.com",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f8c7e6f306ba97275419068b01a4751dd4f2f4b560963d23f9b06e5e2ac344cb"
+      }
+    }
+  }
+}

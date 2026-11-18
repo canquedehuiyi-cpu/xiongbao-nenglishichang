@@ -1,0 +1,104 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.448Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "hex",
+  "connector_name": "Hex",
+  "connector_name_cn": "Hex",
+  "description": "Explore data, collaborate on analyses, and manage data projects in Hex. Organize analysis work and run results around data projects, preserving context for collaboration, analytical reviews, and result handoffs. For data analysts and application developers, this context helps organize work around data objects, structures, and projects. Use the available information to prepare analysis or maintenance work and connect data understanding with development and result review. Available data and operations depend on the current connection configuration, account permissions, and service plan.",
+  "description_cn": "通过 Hex 管理数据项目、运行结果和分析工作区。适合围绕数据项目整理分析过程和运行结果，为团队协作、分析复查与结果交接保留项目背景。面向数据分析与应用开发团队，可围绕数据对象、结构和项目背景组织工作，将相关信息整理为分析或维护依据，衔接数据理解、开发准备与结果复核。具体可用的数据与操作范围以当前连接配置、账号权限及服务套餐为准。",
+  "version": "1.0.0",
+  "category": "Database & Analytics",
+  "tags": [
+    "analytics",
+    "data",
+    "projects"
+  ],
+  "provider_name": "Hex",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "hex",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7f4e0622ac59068fb162f56c86e68ecfa9f4d756d705f56bf1083218931a9e99",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Explore data, collaborate on analyses, and manage data projects in Hex.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7f4e0622ac59068fb162f56c86e68ecfa9f4d756d705f56bf1083218931a9e99",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "hex",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_7f4e0622ac59068fb162f56c86e68ecfa9f4d756d705f56bf1083218931a9e99",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Cancel an in-progress Hex project run.",
+            "name": "cancel_run"
+          },
+          {
+            "description": "Get metadata for a single Hex project by project ID.",
+            "name": "get_project"
+          },
+          {
+            "description": "Get the status and metadata for a specific Hex project run.",
+            "name": "get_run_status"
+          },
+          {
+            "description": "List API-triggered runs for a Hex project, optionally filtered by status.",
+            "name": "list_project_runs"
+          },
+          {
+            "description": "List Hex projects visible to the connected token, with pagination and common project filters.",
+            "name": "list_projects"
+          },
+          {
+            "description": "Trigger a run of the latest published version of a Hex project.",
+            "name": "run_project"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "hex": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7f4e0622ac59068fb162f56c86e68ecfa9f4d756d705f56bf1083218931a9e99",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_7f4e0622ac59068fb162f56c86e68ecfa9f4d756d705f56bf1083218931a9e99"
+      }
+    }
+  }
+}

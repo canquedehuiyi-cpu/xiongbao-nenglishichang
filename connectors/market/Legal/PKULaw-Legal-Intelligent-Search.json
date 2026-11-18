@@ -1,0 +1,163 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.564Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Legal",
+  "categoryCode": "Legal",
+  "connector_id": "3f15b6ed-d171-4bb2-b294-3b58f93b3574",
+  "connector_name": "PKULaw Legal Intelligent Search",
+  "connector_name_cn": "北大法宝·法律智能检索",
+  "description": "PKULaw Legal Intelligent Search provides laws, regulations, judicial cases, legal scholarship, and intelligent legal research.",
+  "description_cn": "提供法律法规、司法案例、法学资料和智能法律检索服务。",
+  "version": "1.0.4",
+  "category": "Legal",
+  "tags": [],
+  "provider_name": "北大法宝·法律智能检索",
+  "author": {
+    "name": "",
+    "display_name": "PKULaw Legal Intelligent Search"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "PKULaw Legal Intelligent Search",
+        "url": "https://apim-gateway.pkulaw.com/mcp-law-agg/1.0.0/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_def459d601434c38f31de7ae93e61f39c8ba301e0e552db65efad4c347f7011f",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_def459d601434c38f31de7ae93e61f39c8ba301e0e552db65efad4c347f7011f",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "给已有正文里写明的法规名称、条号、款、项加上北大法宝 Markdown 链接。返回的是加链后的正文，不检索新法规，不判断是否现行，不核对引用是否写错。\n\n何时使用\n- 段落、文书或回答已经写好，需要「加上法规链接 / 插超链接」\n- 正文里有法规名，或「第X条」「第X条之一」「第X款」「第X项」\n\n何时不要使用\n- 还没有正文、需要先找法规或案例 → 「检索法律法规-关键词」（search_laws_by_keyword）或「检索司法案例-关键词」（search_cases_by_keyword）\n- 只有一个法律概念，没有写出法规名或条号 → 本服务通常不会加链\n- 某年某月的版本 → 「法规与法条沿革」（list_law_versions）；这一条改过没有 → 「法规与法条沿革」（get_law_article_history）\n- 核对引用是否编造、是否引错条 → 「修正生成幻觉-法条」（verify_law_citations）\n- 给案号补链接 → 「案号识别与溯源」（recognize_case_numbers）\n\n结果可信级别\n- B。链接由法宝按文本自动匹配生成，原样保留，不要自己拼写或改动链接；匹配到的法规是否就是作者本意，仍需核对。\n- 结构化 links 按 gid 去重，供后续联查；正文仍以 linked_content 为准。\n- 没有识别到可加链的法规名或条号时 has_links=false，links 为空数组，正文原样返回，这也是成功的结果。\n- 本结果用于文档编辑与引用辅助，不构成法律意见；引用前请打开链接核对原文。",
+            "name": "add_law_links"
+          },
+          {
+            "description": "比较某部法同一条在两个版本里的原文差异（按今天的条号追溯，中间改过条号也能对上），按 format 返回增删短语、逐行增删或左右对照。\n\n何时使用\n- 「公司法第 1 条 2018 修正和 2023 修订改了什么」\n- 制作修法对比表、客户风险提示，需要逐条差异作为人工复核的输入\n\n何时不要使用\n- 还不知道有哪些版本可比 → 先用 list_law_versions 或 get_law_article_history\n- 想看这一条所有版本的演变 → get_law_article_history\n- 只要现行原文 → 「精准查找法条-关键词」（get_law_article）\n- 整法逐条对比：本工具一次只比一条\n\n怎么填\n- article_number 写今天的条号；只知道旧版条号时，先用 get_law_article_history 查清今天是第几条。\n- from_version、to_version 用 list_law_versions 返回的版本标签，或日期 YYYY-MM-DD；两者不能指向同一版。\n\n结果可信级别\n- 两版都有这一条的原文、链上没有换名前身或后继为 A；一侧缺原文、已被其他法吸收、链上有换名时，结果文本会写明「可信级别：B」。\n- 一侧缺原文时不能把空文本说成整条新增或删除；被吸收后没有现行版，不要把最后一版当现行。\n- 增删短语按标点切分，可能同一句两侧都出现；实质改动以 unified 或 side_by_side 为准。\n- 差异级别基于文本相似度的启发式判断，不代表法律效果是否实质变化；请结合规范强度词、上下文与专业判断复核。",
+            "name": "diff_law_article_versions"
+          },
+          {
+            "description": "按一部法的名称和一条的条号，取这一条的原文、发文字号、时效和法宝链接。不是法规列表，也不是这一条历年怎么改。\n\n取哪一版\n- 法名不写版本：取现行有效版上的这一条。现行版没有这一条时报查无，不会拿旧版顶替。\n- 整部法已废止、没有现行有效版：取最新的一版，timeliness 会写明「废止或失效」等。\n- 法名后写明版本，如「刑法(2011修正)」：只取那一版。\n\n何时使用\n- 已经知道法名和条号，要把这一条原文写进回答或文书（法名可用简称，如「刑法」「民法典」）\n\n何时不要使用\n- 只有案情、还不知道是哪一条 → 「检索法律法规-语义」（search_law_articles）\n- 按标题或发文字号列出若干部法规 → 「检索法律法规-关键词」（search_laws_by_keyword）\n- 某年某月适用的那一版，或这一条改过没有 → 「法规与法条沿革」（get_law_article_history）\n- 要单独取某一款、某一项 → 本服务不做，本工具只按条返回\n\n结果可信级别\n- 有这一条原文时为 A，是法宝库里的条文，可以引用，仍请打开链接核对；没取到这一条时为 B。\n- 查无这一条也是成功的查询，article_content 为 null；不能据此说这一条不存在于其他版本。\n- 命中的标题与 law_title 对不上时会报错并给出候选名称，不会把另一部文件的正文当作这一条；按候选重试即可。\n- 判断适用时点看 implement_date，不看公布日期。\n- 本结果用于检索与引用辅助，不构成法律意见；引用前请打开链接核对原文与现行效力。",
+            "name": "get_law_article"
+          },
+          {
+            "description": "返回某部法某一条的历次文本（按今天的条号追溯，含当年条号不同的旧版），并逐版用原文核对这一条有没有真的改动；传 as_of 时同时标出那个时点或那一版的文本。\n\n何时使用\n- 「第 N 条历次怎么改的 / 什么时候加进来的 / 这些年动过没有 / 最近一次改是哪版」\n- 「这一条在 2018 年是什么样、当时是第几条」→ 传 as_of\n- 调 diff_law_article_versions 之前，先看有哪几版可比\n\n何时不要使用\n- 只要现行原文 → 「精准查找法条-关键词」（get_law_article）\n- 整法有哪些版本 → list_law_versions；两版逐字差异 → diff_law_article_versions\n- 司法解释、下位法、草案 → list_related_legal_materials\n\n怎么填\n- article_number 写今天的条号，第十七条之一写 17.1。带款、项、目时按整条返回。\n- as_of 可写日期 YYYY-MM-DD（按施行日期定位）、版本标签（如「2018修正」）或 current。\n- article_number 一律按今天的条号解释。问「2018 修正第 142 条现在是哪条」时传 article_number=142、as_of=2018修正：当年第 142 条若是另一条规定，结果会另附 cited_as_of_alternate，两者不要合成一条时间线。\n\n结果可信级别\n- 该条在本法各版都收录、原文都核对过为 A；缺版、缺原文、法宝原始变化标记与原文冲突、链上有换名前身或后继时，结果文本会写明「可信级别：B」。\n- 「改没改」看每版的 text_comparison，不看 change_type（法宝原始标记，可能与原文不符）。\n- timeline 为空也是成功：表示法宝没有这一条的沿革记录，不能写成「没改过」；看现行原文改用精准查找法条。\n- 时间线条数不等于修订次数；引用旧版要用该版 article_label 上的条号。\n- 本结果按版本施行日期定位历史文本，不直接代表案件法律适用结论；案件适用应以司法机关认定的事实与法律为准。",
+            "name": "get_law_article_history"
+          },
+          {
+            "description": "按一部法的名称和起止条号，一次取连续的若干条原文，含范围内的「之一」「之二」等条。选版规则与 get_law_article 相同：不写版本取现行有效版（现行版没有的条号列入 missing，不拿旧版顶替）；整部法已废止取最新一版；写明「刑法(2011修正)」只取那一版。\n\n何时使用\n- 已经知道法名，要连续读几条，例如民法典第五百七十七条至第五百八十四条\n- 要读某一节、某一章的若干条，或核对相邻几条的衔接\n\n何时不要使用\n- 只要一条 → get_law_article\n- 还不知道是哪几条，要按条文用词找 → 「检索法律法规-关键词」（search_law_articles_by_keyword）\n- 只有案情 → 「检索法律法规-语义」（search_law_articles）\n- 某年某月适用的那一版，或这几条改过没有 → 「法规与法条沿革」（get_law_article_history）\n\n怎么填\n- start_article_number 和 end_article_number 都要填，含两端；一次最多跨 10 个条号，例如 577 到 586。\n- 第一百二十条之一写 120.1，不是款。只取一条时两个都填同一个条号即可。\n\n结果可信级别\n- 有条文返回时为 A，是法宝库里的条文，可以引用，仍请打开链接核对；一条都没取到时为 B。\n- 范围内取不到的条号列在 missing_article_numbers；一条都没取到也是成功，items 为空。\n- 命中的标题与 law_title 对不上时会报错并给出候选名称；按候选重试即可。\n- 判断适用时点看 implement_date。本结果用于检索与引用辅助，不构成法律意见；引用前请打开链接核对原文与现行效力。",
+            "name": "get_law_articles_by_range"
+          },
+          {
+            "description": "查询当前 Token 对应积分账户的可用余额，以及指定天数窗口内即将过期的积分数。数据来自法宝积分账本的查询时刻快照。\n\n何时使用\n- 「还剩多少积分 / 额度够不够 / 有没有积分要过期」\n- 业务工具提示积分不足、用尽、配额不够或调用被拒后，需要向用户说明是不是没分了；把返回里的 portal_points_url 原样展示，引导去充值，不要自己编网址\n- 用户问「再调几次够不够」时，先看余额，再对照 list_entitlements 的每次积分\n\n何时不要使用\n- 问开启了哪些 MCP、一次扣几分 → list_entitlements\n- 查法规、案例、法条、沿革、检察文书、行政执法 → 本服务不做，改用对应业务服务\n- 查流水明细、开票、改提醒 → 本服务不做；充值与流水把返回里的 portal_points_url 原样给用户\n- 每次法律检索前都先查一遍 → 不要；余额不是法律依据\n\n结果可信级别\n账本读取成功为 A，只表示查询时刻的可用积分，禁止写入法律文书。账户冻结或关闭时 available_points 仍可能大于 0，但不能调用计费业务工具，结果文本会写明下一步。\n本结果是当前 Token 对应账户的积分或开启状态快照，不构成法律意见，也不能替代法规或案例原文。",
+            "name": "get_points_balance"
+          },
+          {
+            "description": "按服务、按日汇总当前 Token 对应积分账户近 N 天（最多 30 天，北京时间，含今天）扣掉的积分与计费调用次数。数据来自法宝积分账本。\n\n何时使用\n- 「这个月 / 这周 / 最近用了多少积分」「哪个服务最费积分」「积分怎么掉得这么快」\n- 用户想核对扣分是否正常，先看按服务汇总，再把 portal_points_url 给用户查逐笔流水\n- 问「这个月」时按今天是几号传 days（例如今天 18 号传 18）；不知道今天几号就传 30，并按返回的 start_date / end_date 说明统计区间\n\n何时不要使用\n- 问还剩多少、会不会过期 → get_points_balance\n- 问开启了哪些、一次多少分 → list_entitlements\n- 要 30 天以前、逐笔流水、发票 → 本服务不做，把 portal_points_url 原样给用户\n- 同一问题已经查过 → 不要重复调用；两分钟内重复查询返回的是同一份结果，频繁调用会被限流\n\n结果可信级别\n账本读取成功为 A。只统计扣过积分的调用，已减去退回的积分；失败未扣分的调用不计入。数字是查询时刻的统计，禁止写入法律文书。\n本结果是当前 Token 对应账户的积分或开启状态快照，不构成法律意见，也不能替代法规或案例原文。",
+            "name": "get_points_usage"
+          },
+          {
+            "description": "按一项服务列出当前 Token 的开启状态与每次调用积分。一行一个服务，不返回工具入参或文档。列表、开关和单价以控制台为准；自定义 MCP 也会出现。\n\n何时使用\n- 「我开启了哪些 MCP / 关了什么 / 这一次多少积分」\n- 业务工具返回未开启或 403，需要告诉用户该去控制台开启哪一个服务；把返回里的 portal_apps_url 原样展示，不要自己编网址\n- 只要看某一类的开关与标价，例如只要案例或只要检察文书\n\n何时不要使用\n- 查当前积分余额或会不会过期 → get_points_balance\n- 想看某个工具怎么填参数、返回什么字段 → 看该工具自己的说明，本工具不返回文档\n- 查法规、案例、法条或文书原文 → 本服务不做\n\n结果可信级别\n读取成功为 A，是账户快照，不是法律事实。turned_on=false 是「已关闭」，不是查询失败。过滤后 0 行是成功。回答用户用中文 title，不要念 server_id。要调用须 turned_on=true 且 enabled=true，并且账户有积分。\n本结果是当前 Token 对应账户的积分或开启状态快照，不构成法律意见，也不能替代法规或案例原文。",
+            "name": "list_entitlements"
+          },
+          {
+            "description": "列出一部法规（含司法解释）自己的历次版本，每版给出公布日期、施行日期、被下一版取代的日期和法宝正文链接。不含配套的司法解释、下位法、草案。\n\n何时使用\n- 「公司法改过几次」「历次版本是哪些、什么时候施行」「哪一版现行」\n- 「2016 年 5 月施行的是哪一版」：按施行日期区间定位版本\n- 调 get_law_article_history 或 diff_law_article_versions 之前，先看有哪些版本标签可选\n\n何时不要使用\n- 某一条历次怎么改 → get_law_article_history；两版逐字差异 → diff_law_article_versions\n- 这部法有哪些司法解释、下位法、草案，或被什么修改、废止 → list_related_legal_materials\n\n怎么填\n- law_title 直接用用户的说法，简称也可以。同名有多部时会报错并列出候选，按候选重试。\n\n结果可信级别\n- 本法版本链完整为 A，可附法宝链接引用；只定位到法规库、链上有换名前身或后继、有废止依据或缺版本时，结果文本会写明「可信级别：B」，需复核。\n- chain_coverage=catalog：法宝没有这部法的版本链，只定位到法规库里的这一版。不能说「只有 1 个版本」「没修订过」，也不能据此判断历史适用版本。\n- 换了名称的前身或后继法（如被法典吸收）、废止依据，分别列在 preceded_by、succeeded_by、repealed_by，不算本法的版本，也不能写进本法引注。\n- 判断某天适用哪一版看 implement_date，不看 issue_date；施行日期未知不等于没有施行日期。\n- 本结果按版本施行日期定位历史文本，不直接代表案件法律适用结论；案件适用应以司法机关认定的事实与法律为准。",
+            "name": "list_law_versions"
+          },
+          {
+            "description": "列出法宝法规图谱里与某部法直接关联的法规，按 10 类关系分组：废止或失效依据、被本法废止、修改依据、被本法修改、草案、法规解读、法律解释、司法解释、上位法、下位法。每条给出标题、日期、时效和法宝正文链接。不含本法自身的历次版本。\n\n何时使用\n- 「公司法有哪些司法解释 / 下位法 / 草案」\n- 「这部法被什么废止、依据哪个决定修改、上位法是什么」\n\n何时不要使用\n- 这部法自己改过几版、哪天施行 → list_law_versions\n- 某一条历次原文或两版差异 → get_law_article_history / diff_law_article_versions\n\n怎么填\n- 不传 relation 时 10 类都返回，每类最多 20 条；只关心一类时传 relation（英文 key），该类最多 50 条。\n- 修改依据、废止依据记在被修改的那一版上：查现行版常为空，可在 law_title 里写明上一版（如「公司法 2005修订」）再查。\n\n结果可信级别\n- 图谱覆盖、条目齐全且未截断为 A；有截断、缺卡或图谱未覆盖这部法时，结果文本会写明「可信级别：B」。\n- 只列图谱已收录的关联，不是全库穷尽。空组表示「未收录」，不能写成法律上没有这类关系；图谱未覆盖时不能说「没有相关法规」。\n- 指定 relation 后，其他类只给件数、不展开条目，不要读成没有。",
+            "name": "list_related_legal_materials"
+          },
+          {
+            "description": "从自然语言文本中智能识别裁判文书案号，与北大法宝案例库对应，返回标准案号、案例标题、审理法院、审结日期与来源链接。\n\n何时使用：\n- 用户给出判决书、裁定书、律师函等文书段落，要求提取其中所有案号\n- 需要把含多余空格、缺字、格式不规范的案号转为标准写法（对比 matched_text 与 case_number）\n- 需要查询案号在北大法宝案例库中对应的案例标题、审理法院、审结日期\n- 需要为案号引用补充 pkulaw 案例原文链接（url）\n- 一段文本中可能含多个案号，工具会逐条返回\n\n何时不要使用：\n- 不要用当事人姓名、案由、关键词做「类案检索」「找类似判决」（本工具不是案例搜索引擎）\n- 不要传入仅一个案号字符串并期望检索全文裁判要旨（应传入含该案号的完整段落以完成识别与标准化）\n- 不要用本工具验证案号是否真实存在或裁判内容是否正确，仅能匹配法宝库中已有案例记录\n- 不要处理非中国大陆法院案号格式或明显非案号的编号（如合同编号、行政文号）\n- 不要假设返回空数组 [] 一定表示「文中无案号」——网络异常、上游故障时也会返回空数组，需结合上下文判断\n\n结果可信级别：\n- 高：返回非空结果，且 case_number、title、court、url 均有值，表示已在法宝案例库命中对应案例\n- 中：matched_text 与 case_number 不一致，表示已对不规范写法完成校正，可采信 case_number 与 url\n- 中：case_number、url 有值但 title 或 last_instance_date 为空，案号与链接可信，案件元数据不完整\n- 低：仅识别到 matched_text（案号片段）但 case_number 为空或未匹配到 url，表示识别到写法但未在库中命中\n- 不可区分：返回 [] 可能表示文中无案号，也可能表示调用失败，不能单凭空结果下结论",
+            "name": "recognize_case_numbers"
+          },
+          {
+            "description": "从自然语言文本中智能识别法规名称与条款，与北大法宝标准法规库对应，返回标准名称、时效状态、条文全文与来源链接。\n\n何时使用：\n- 用户给出判决书说理段、合同依据条款、论文引注段等含法规引用的段落，要求找出引用了哪些法规\n- 需要把简称、旧称、非标准写法转为北大法宝标准法规全称（对比 matched_text 与 law_title）\n- 需要回答「该法规是否现行有效」（看 timeliness）\n- 需要为法条引用补充 pkulaw 原文链接（url）或获取条/款/项正文（article_content 等）\n- 一段文本中可能含多条法规引用，工具会逐条返回\n\n何时不要使用：\n- 不要用单个法规名称或关键词做「主题检索」「找所有相关法规」（本工具不是法宝检索引擎）\n- 不要传入极短且无上下文的一个词（如仅「民法典」）并期望获得全面解读或法律意见\n- 不要用本工具替代律师对法规适用、冲突、解释的专业判断\n- 不要假设返回空数组 [] 一定表示「文中无法条」——网络异常、上游故障时也会返回空数组，需结合上下文判断\n- 不要对超长全文一次性识别而不分段；建议按段落或引用块分批调用\n\n结果可信级别：\n- 高：返回非空结果，且 law_title、url 均有值；timeliness 可直接用于效力判断\n- 中：matched_text 与 law_title 不一致，表示已对非标准写法完成标准化，可采信 law_title 与 url\n- 中：识别到条/款/项但 article_content/paragraph_content/item_content 为空，条号可信、正文需用户点开 url 核对\n- 低：仅识别到法规名称（仅有 top5_text 或 top5_text 亦为空），未定位到具体条/款/项\n- 不可区分：返回 [] 可能表示文中无匹配，也可能表示调用失败，不能单凭空结果下结论",
+            "name": "recognize_law_citations"
+          },
+          {
+            "description": "围绕争议问题、关键事实做类案语义检索，返回候选案例列表。\n\n何时使用\n- 「找类案 / 相似案例 / 权威案例有哪些」\n\n何时不要使用\n- 已知案号查全文 → 案例关键词检索 MCP\n- 法条沿革、法规检索 → 法规类 MCP\n\n如何使用\n1.省份传 courthouse_province，用全称。把「近 N 年」「至今」按当天换成 decision_date_start、decision_date_end（YYYY-MM-DD）。案件类型传 case_type。\n2.text 写一个争议焦点，空格并列：行为 客体或标的 案由或罪名 裁判用语。罪名、案由、判决结果、本院认为中的定性和当事人身份写入 text。\n3.同一争点/事实在涉及定性、裁量时按裁判方向各检索一次。比较两种立场时，分别检索支持与不支持；锁定某一结果时，两个方向都围绕该结果，分别写支持它的事实和相对事实。\n4.多个罪名/案由/争点分开检索。\n\n类案语义检索结果仅作参考，引用前请核对案号/北大法宝正文链接；不构成法律意见。",
+            "name": "search_cases"
+          },
+          {
+            "description": "按案号、标题、案由、当事人、裁判要点、罪名和筛选项，从北大法宝司法案例库检索案例列表。返回题录、法宝链接，以及库里已拆好的本院查明、本院认为、诉讼请求、争议焦点、裁判依据和裁判结果。不含整篇裁判文书正文。\n\n何时使用\n- 已经有案号、标题、案由、当事人、裁判要点或罪名，要找出能引用的案例\n- 要用参照级别（如指导性案例）、法院、法院级别、文书类型、审理程序、审结日期、法官、刑罚或标的额把范围收窄\n\n何时不要使用\n- 只有一段案情、要找相似案例 → 「检索司法案例-语义」（search_cases）\n- 法规条文 → 「精准查找法条-关键词」（get_law_article）；法条沿革 → 「法规与法条沿革」（get_law_article_history）\n- 检察文书、行政处罚决定 → 「检索检察文书」（search_procuratorate）、「检索行政执法」（search_enforcement）\n- 要读整篇裁判文书 → 「获取案例正文」（get_case_content）。本服务不返回整篇正文\n\n怎么填\n- 不同字段之间是并且；同一个列表参数里的多个值是或者。\n- 至少要有一项检索条件：标题、正文词、案号、案由、裁判要点、当事人、罪名，或普通案例以外的参照级别。法院、日期、法官、文书类型、刑罚、标的额等其余筛选只能用来收窄。\n- 普通案例不能和其他参照级别一起传。\n- 法院级别用 court_level，具体某家法院用 court。\n- 要原文表述用 fulltext_match=exact；要几个词在同一句、同一段用 fulltext_scope；要排除某些词用 fulltext_exclude。不用时都不传。\n\n结果可信级别\n- B。这是一页召回，不是库内全部命中，不能当成穷尽检索，也不构成法律意见。\n- 查无结果也是成功，不要改条件悄悄再查。\n- 默认只看第 1 页；用户要更多时再按结果里的 next_cursor 翻页，一次最多翻到 50 条、5 页，再多就收窄条件。\n- 引用只使用返回的链接，引用前请打开核对原文。",
+            "name": "search_cases_by_keyword"
+          },
+          {
+            "description": "检索北大法宝的行政执法文书（行政处罚决定书、行政处理、市场禁入等），返回一页可核对的文书题录和法宝链接，不返回文书全文。\n\n何时使用\n- 已有发文案号或标题，要找到这份处罚决定 → search_type=keyword（默认），填 document_no 或 title\n- 只有一段违法事实，要找类似的处罚 → search_type=semantic，填 query_text\n- 按执法地域、执法类型、处罚种类（罚款、吊销等）、处罚对象、日期收集公开材料\n\n何时不要使用\n- 起诉书、抗诉书等检察文书 → 「检索检察文书」（search_procuratorate）\n- 法院判决、裁定 → 「检索司法案例-关键词」（search_cases_by_keyword）或「检索司法案例-语义」（search_cases）\n- 某部法改过几版 → 「法规与法条沿革」（list_law_versions）；某条怎么改 → 「法规与法条沿革」（get_law_article_history）\n- 涉密或未公开材料、需要保护当事人身份的检索 → 本服务不做，库内只有公开文书\n\n怎么填\n- 主题分类、执法机关、依据法律不能作为筛选项，把这些词放进 query_text 或 title。\n- semantic 下 title、document_no 会被忽略，其余筛选照常生效。\n- keyword 下标题和正文：空格和逗号是并且，| 是或者。\n- 正文要按原文连续出现、几个词要在同一句、或要排除某些词时，用 query_text_match、query_text_scope、query_text_exclude，只在 keyword 下生效。\n\n结果可信级别\n- B。这是一页按相关度排序的召回，不是库内全部命中；引用前请打开法宝链接核对原文。\n- 行政执法检索结果仅作办案参考，不构成法律意见。\n- 查无结果也是成功的查询，不要换条件悄悄重查。\n- 默认只看第 1 页；用户要更多时再按结果里的 next_cursor 翻页。\n- 回答时附上每条文书的 citation.url。引用可用 citation.format_chinese。",
+            "name": "search_enforcement"
+          },
+          {
+            "description": "【工具功能】根据用户输入的案情、法律问题或一段自然语言，对北大法宝法规库按法条正文级别进行语义检索，返回语义相关的法条原文，及法规标题、法条编号、发文字号、时效性、效力位阶、制定机关、公布日期、施行日期、北大法宝链接等结构化信息，并支持按法规库、时效性、制定机关、施行日期范围进行筛选过滤。\n            【何时使用】当用户提出与法条内容相关的任何问题时应优先使用，包括但不限于：查询某一法律问题违反的法条依据、核实某部法规某条的具体内容、检索特定日期之后发布的法条正文、需要根据权威法条内容支撑法律分析、合规判断和文书撰写等。\n            【何时不要使用】不要使用本工具查询法规的基本信息，此时应该优先使用\"search_laws\"工具。不要使用本工具查询法律法规之外的内容，如司法案例、裁判文书、法学期刊、学术论文、新闻资讯、企业内部制度或地方政策文件解读等非法规库收录的内容。\n            【结果可信级别】结果可信级别为高，数据来源于北大法宝权威法规数据库。返回结果是空列表表示「这组查询条件下没有命中」，是有效查询结果。每条结果请一并给出citation，便于用户核对。该工具为语义检索，返回结果与查询意图可能存在偏差，涉及正式法律意见或对外引用时，请人工复核法规内容。",
+            "name": "search_law_articles"
+          },
+          {
+            "description": "按条文里的关键词，从北大法宝中央法规和地方法规中检索具体法条，返回条号、完整条文、命中片段、所属法规的时效和效力位阶，以及定位到这一条的法宝链接。\n\n何时使用\n- 要找哪些条文写了某个法律概念或表述，例如「敏感个人信息」「格式条款」\n- 要在某部或某类法规里找写到某个词的条文：fulltext 填词，title 填法规标题收窄\n\n何时不要使用\n- 已知法名和条号，要这一条原文 → 「精准查找法条-关键词」（get_law_article）\n- 要读某部法连续几条 → 「精准查找法条-关键词」（get_law_articles_by_range）\n- 只要列出相关法规、不需要条文 → search_laws_by_keyword\n- 只有一段案情、写不出条文用词 → 「检索法律法规-语义」（search_law_articles）\n- 某一条改过几版 → 「法规与法条沿革」（get_law_article_history）\n\n怎么填\n- fulltext 必填。空格和逗号是并且，| 是或者。title、document_no 和其余筛选只用来收窄。\n- 不会默认只查现行有效；只要现行条文请传 timeliness=[\"现行有效\"]。本工具不按省份筛选。\n\n结果可信级别\n- B。这是一页关键词召回，不是全部命中，也不构成法律意见。\n- 查无结果也是成功，不要改条件悄悄再查。\n- 默认只看第 1 页；每页最多 10 条，一次最多 50 条、5 页，用户要更多时再按 next_cursor 翻页。\n- 引用使用 citation.format_chinese 和 citation.url，判断适用时点看 implement_date。",
+            "name": "search_law_articles_by_keyword"
+          },
+          {
+            "description": "【工具功能】根据用户输入的法规名称、主题或法律问题，对北大法宝法规库按法规标题级别进行语义检索，返回语义相关的法规文献，及发文字号、时效性、效力位阶、制定机关、公布日期、施行日期、北大法宝链接等结构化信息，并支持按法规库、时效性、制定机关、施行日期范围进行筛选过滤，不返回具体法条正文。\n        【何时使用】当用户提出与法规标题相关的任何问题时应优先使用，包括但不限于：查询某一法律问题对应的法规依据、查找一部法律的司法解释、根据发文字号查找相应法规、检索特定领域的现行有效法规、比较中央与地方的规定差异、确认法规的时效状态与效力位阶等。\n        【何时不要使用】不要使用本工具查询法条的具体内容，此情景下应该优先使用\"search_law_articles\"工具。不要使用本工具查询法律法规之外的内容，如司法案例、裁判文书、法学期刊、学术论文、新闻资讯、企业内部制度或地方政策文件解读等非法规库收录的内容。\n        【结果可信级别】结果可信级别为高，数据来源于北大法宝权威法规数据库。返回结果是空列表表示「这组查询条件下没有命中」，是有效查询结果。每条结果请一并给出citation，便于用户核对。该工具为语义检索，返回结果与查询意图可能存在偏差，涉及正式法律意见或对外引用时，请人工复核法规内容。",
+            "name": "search_laws"
+          },
+          {
+            "description": "按标题、正文用词、发文字号和筛选项，从北大法宝法规库检索法规列表，返回一页可直接引用的法规题录、中文引注和法宝链接，不含法规正文。\n\n何时使用\n- 已经有法规标题、正文用词或发文字号，要找出能引用的法规\n- 要用效力位阶、时效性、制定机关、法规类别、中央或地方、省级地域、公布或施行日期把范围收窄\n\n何时不要使用\n- 某一条的原文 → 「精准查找法条-关键词」（get_law_article）\n- 某部法改过几版 → 「法规与法条沿革」（list_law_versions）；某条怎么改 → 「法规与法条沿革」（get_law_article_history）\n- 只有一段事实、要按语义找相关法规 → 「检索法律法规-语义」（search_laws）\n- 司法案例、检察文书、行政处罚 → 「检索司法案例-关键词」（search_cases_by_keyword）、「检索检察文书」（search_procuratorate）、「检索行政执法」（search_enforcement）\n\n怎么填\n- 标题、正文词、发文字号至少填一个；其余筛选只能用来收窄。不同字段之间是并且，同一个列表参数里的多个值是或者。\n- 不会默认只查现行有效，同名旧文本可能排在前面；只要现行文本请传 timeliness=[\"现行有效\"]。\n- 要几个正文词在同一句、同一段用 fulltext_scope，中央法规和地方法规都支持。不用时不传。\n\n结果可信级别\n- B。这是一页召回，不是库内全部命中，也不构成法律意见。\n- 查无结果也是成功，不要改条件悄悄再查。\n- 默认只看第 1 页；用户要更多时再按结果里的 next_cursor 翻页，一次最多翻到 50 条、5 页。\n- 引用使用 citation.format_chinese 和 citation.url，引用前请打开链接核对原文。",
+            "name": "search_laws_by_keyword"
+          },
+          {
+            "description": "检索北大法宝的正式检察文书（起诉书、不起诉决定书、抗诉书、刑事申诉复查决定书等，不含典型案例），返回一页可核对的文书题录和法宝链接，不返回文书全文。\n\n何时使用\n- 已有案号或标题，要找到这份检察文书 → 填 case_number 或 title\n- 只有一段案情，要找类似的检察文书 → 填 query_text\n- 按文书类型、检察业务、检察院级别、日期收集公开文书\n\n何时不要使用\n- 法院判决、裁定、执行文书 → 「检索司法案例-关键词」（search_cases_by_keyword）或「检索司法案例-语义」（search_cases）\n- 行政处罚、行政处理、市场禁入 → 「检索行政执法」（search_enforcement）\n- 某部法改过几版 → 「法规与法条沿革」（list_law_versions）；某条怎么改 → 「法规与法条沿革」（get_law_article_history）\n- 涉密或未公开材料、需要保护当事人身份的检索 → 本服务不做，库内只有公开文书\n\n怎么填\n- search_type 可以不传：填了 query_text 按案情语义检索（semantic），没填按关键词检索（keyword）。\n- semantic 下 title、case_number 会被忽略，其余筛选照常生效；案号、标题要和案情一起用时，传 search_type=keyword，此时 query_text 作正文检索。\n- keyword 下标题和正文：空格和逗号是并且，| 是或者。\n- 正文要按原文连续出现、几个词要在同一句、或要排除某些词时，用 query_text_match、query_text_scope、query_text_exclude。只在 keyword 下生效；不传 search_type 时，传了这三个参数就按 keyword 检索。\n- 日期筛选用 start_formation_date、end_formation_date，指文书尾部的成文日期，即批准人签发的日期。起诉书、不起诉决定书的落款日期就是这一天。不是审结日期，也不是公布日期 issue_date。\n- 检察建议没有单独的文书类型：用 title 搜「检察建议」，或选「其他法律文书」。\n\n结果可信级别\n- B。这是一页按相关度排序的召回，不是库内全部命中；引用前请打开法宝链接核对原文。\n- 检察文书检索结果仅作办案参考，不构成法律意见。\n- 查无结果也是成功的查询，不要换条件悄悄重查。\n- 默认只看第 1 页；用户要更多时再按结果里的 next_cursor 翻页。\n- 回答时附上每条文书的 citation.url。引用可用 citation.format_chinese。",
+            "name": "search_procuratorate"
+          },
+          {
+            "description": "把用户发现的北大法宝 MCP 问题（数据错误、数据缺失、工具报错、结果不相关）或产品建议提交给北大法宝，返回反馈编号和查看处理进度的地址。\n\n何时使用\n- 用户明确说「反馈一下 / 报个错 / 这条数据不对 / 告诉北大法宝」，或你提出提交、用户同意之后\n- 把出问题那次调用的 service_id、tool_name、request_id 从原调用返回里原样抄进来；没有 request_id 就留空，不要编造\n- 一条反馈只写一次调用；同一问题涉及多次调用时，其余调用的 request_id 放进 related_request_ids\n\n何时不要使用\n- 用户没要求、也没同意 → 不要主动提交\n- 只是「没找到想要的结果」→ 先换检索条件或换工具再试，不是反馈\n- 积分扣多了、余额不对 → 先用 get_points_balance / get_points_usage 核对；核对后仍不对再反馈\n- 不要上传完整聊天记录、他人个人信息、Token；[REDACTED] 只放用户这一次的原话\n- 同一问题已经提交过 → 不要换个说法再提交\n\n结果可信级别\n门户受理成功为 A，只表示「已收到」，不表示问题已被确认。status=duplicate 或 declined 都不是失败。把 feedback_id 和 portal_feedback_url 原样告诉用户。\n提交反馈不会改变任何检索结果或积分，也不构成对数据正确性的确认；以北大法宝审核结论为准。",
+            "name": "submit_feedback"
+          },
+          {
+            "description": "核验草稿或回答里的法规名称、条号和疑似法条文本是否与北大法宝原文一致，对不上时给出候选法规和条号。本工具不修改法规，不作法律适用判断，不直接输出最终法律意见。\n\n何时使用\n- 已有法规名和条号：放入 user_law 或 answer_law，精确核验该条。120.1 是第一百二十条之一。\n- 只有法规名：放入 user_law[].law_title，定位法规记录及历史版本；laws 是法规记录，articles 只放实际法条。\n- 有疑似法条语句、未知出处：放入 answer_law[].text，反查候选法规和条号。\n- 只有法律问题、尚无引用：先提炼法律含义摘要或关键词，放入 answer_law[].text 找候选；不得编造法名或条号。\n\n何时不要使用\n- 不要把候选当成已核对的适用依据，引用前仍须核对。\n- 只要某一条原文、不需要和草稿对照 → 「精准查找法条-关键词」（get_law_article）\n- 只要给正文里的法规名加上链接 → 「法宝超链」（add_law_links）\n- 某年某月的版本 → 「法规与法条沿革」（list_law_versions）；这一条改过没有 → 「法规与法条沿革」（get_law_article_history）\n- 核对案号 → 「案号识别与溯源」（recognize_case_numbers）\n\n怎么填\n- 不要只传 prompt；prompt 仅保留问题上下文，不参与检索。\n\n结果可信级别\n有精确命中的法条、且本次没有 recall、也没有只按法名查找时为 A；只查到法规、含 candidate 或 recall、或没有精确命中时为 B。checks 逐项对应 user_law/answer_law 的原始下标。matched 是条号及正文核对成功；paragraph_limited 只取得整条，不是指定款项原文。candidate/recall 的正文已回源核验，但相关性和法律适用尚未判定。无法核验来源的向量结果不进入 articles。查无或失败看对应 check。",
+            "name": "verify_law_citations"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "PKULaw Legal Intelligent Search": {
+        "type": "http",
+        "url": "https://apim-gateway.pkulaw.com/mcp-law-agg/1.0.0/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_def459d601434c38f31de7ae93e61f39c8ba301e0e552db65efad4c347f7011f"
+      }
+    }
+  }
+}

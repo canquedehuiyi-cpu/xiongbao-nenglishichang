@@ -1,0 +1,239 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.478Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Developer-Tools",
+  "categoryCode": "Developer Tools",
+  "connector_id": "67fbf3f3-2629-46b1-b8ba-8ebd2f63785d",
+  "connector_name": "Postman",
+  "connector_name_cn": "Postman",
+  "description": "Postman provides API development and collaboration for designing, testing, documenting, and managing APIs.",
+  "description_cn": "提供 API 开发与协作平台，用于设计、测试、文档化和管理 API。",
+  "version": "1.0.1",
+  "category": "Developer Tools",
+  "tags": [],
+  "provider_name": "Postman",
+  "author": {
+    "name": "",
+    "display_name": "Postman"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Postman",
+        "url": "https://mcp.postman.com/minimal",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ed74774de099c0f425e06a759af099cba1477f560049e878815803fa492ec414",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_ed74774de099c0f425e06a759af099cba1477f560049e878815803fa492ec414",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Creates a collection using the [Postman Collection v2.1.0 schema format]([REDACTED]\n\n**Note:**\n\nIf you do not include the \\`workspace\\` query parameter, the system creates the collection in the oldest personal Internal workspace you own.",
+            "name": "createCollection"
+          },
+          {
+            "description": "Creates a request in a collection. For a complete list of properties, refer to the **Request** entry in the [Postman Collection Format documentation]([REDACTED]\n\n**Note:**\n\nIt is recommended that you pass the \\`name\\` property in the request body. If you do not, the system uses a null value. As a result, this creates a request with a blank name.",
+            "name": "createCollectionRequest"
+          },
+          {
+            "description": "Creates a request response in a collection. For a complete list of request body properties, refer to the **Response** entry in the [Postman Collection Format documentation]([REDACTED]\n\n**Note:**\n\nIt is recommended that you pass the \\`name\\` property in the request body. If you do not, the system uses a null value. As a result, this creates a response with a blank name.",
+            "name": "createCollectionResponse"
+          },
+          {
+            "description": "Creates an environment.\n\n**Note:**\n\n- The request body size cannot exceed the maximum allowed size of 30MB.\n- If you receive an HTTP \\`411 Length Required\\` error response, manually pass the \\`Content-Length\\` header and its value in the request header.\n- If you do not include the \\`workspace\\` query parameter, the system creates the environment in the oldest personal Internal workspace you own.",
+            "name": "createEnvironment"
+          },
+          {
+            "description": "Creates a mock server in a collection.\n\n- Pass the collection UID (ownerId-collectionId), not the bare collection ID.\n- If you only have a \\`collectionId\\`, resolve the UID first:\n  1) Prefer GET \\`/collections/{collectionId}\\` and read \\`uid\\`, or\n  2) Construct \\`{ownerId}-{collectionId}\\` using ownerId from GET \\`/me\\`:\n- Use the \\`workspace\\` query to place the mock in a specific workspace. Prefer explicit workspace scoping.",
+            "name": "createMock"
+          },
+          {
+            "description": "Creates an API specification in Postman's [Spec Hub]([REDACTED] Specifications can be single or multi-file.\n\n**Note:**\n- Postman supports OpenAPI (2.0, 3.0, and 3.1), AsyncAPI (2.0 and 3.0), protobuf (2 and 3), GraphQL, and Smithy specifications.\n- If the file path contains a \\`/\\` (forward slash) character, then a folder is created. For example, if the path is the \\`components/schemas.json\\` value, then a \\`components\\` folder is created with the \\`schemas.json\\` file inside.\n- Multi-file specifications can only have one root file.\n- Files cannot exceed a maximum of 12 MB in size.",
+            "name": "createSpec"
+          },
+          {
+            "description": "Creates a file for an OpenAPI or a protobuf 2 or 3 specification.\n\n**Note:**\n\n- If the file path contains a \\`/\\` (forward slash) character, then a folder is created. For example, if the path is the \\`components/schemas.json\\` value, then a \\`components\\` folder is created with the \\`schemas.json\\` file inside.\n- Creating a spec file assigns it the \\`DEFAULT\\` file type.\n- Multi-file specifications can only have one root file.\n- Files cannot exceed a maximum of 10 MB in size.",
+            "name": "createSpecFile"
+          },
+          {
+            "description": "Creates a new [workspace]([REDACTED]\n\n**Note:**\n\n- This endpoint returns a 403 \\`Forbidden\\` response if the user does not have permission to create workspaces. [Admins and Super Admins]([REDACTED] can configure workspace permissions to restrict users and/or user groups from creating workspaces or require approvals for the creation of team workspaces.\n- Private and [Partner Workspaces]([REDACTED] are available on Postman [**Team** and **Enterprise** plans]([REDACTED]\n- There are rate limits when publishing public workspaces.\n- Public team workspace names must be unique.\n- The \\`teamId\\` property must be passed in the request body if [Postman Organizations]([REDACTED] is enabled.",
+            "name": "createWorkspace"
+          },
+          {
+            "description": "Creates a duplicate of the given collection in another workspace.\n\nUse the GET \\`/collection-duplicate-tasks/{taskId}\\` endpoint to get the duplication task's current status.",
+            "name": "duplicateCollection"
+          },
+          {
+            "description": "Creates a collection from the given API specification.\nThe specification must already exist or be created before it can be used to generate a collection.\nThe response contains a polling link to the task status.",
+            "name": "generateCollection"
+          },
+          {
+            "description": "Generates an OpenAPI 2.0, 3.0, or 3.1 specification for the given collection. The response contains a polling link to the task status.",
+            "name": "generateSpecFromCollection"
+          },
+          {
+            "description": "Gets all API specifications in a workspace.",
+            "name": "getAllSpecs"
+          },
+          {
+            "description": "Gets information about the authenticated user.\n- This endpoint provides “current user” context (\\`user.id\\`, \\`username\\`, \\`teamId\\`, roles).\n- When a user asks for “my …” (e.g., “my workspaces, my information, etc.”), call this first to resolve the user ID.",
+            "name": "getAuthenticatedUser"
+          },
+          {
+            "description": "Get information about a collection. By default this tool returns the lightweight collection map (metadata + recursive itemRefs).\nUse the model parameter to opt in to Postman's full API responses:\n- model=minimal — root-level folder/request IDs only\n- model=full — full Postman collection payload.",
+            "name": "getCollection"
+          },
+          {
+            "description": "The workspace ID query is required for this endpoint. If not provided, the LLM should ask the user to provide it.",
+            "name": "getCollections"
+          },
+          {
+            "description": "Gets the status of a collection duplication task.",
+            "name": "getDuplicateCollectionTaskStatus"
+          },
+          {
+            "description": "IMPORTANT: Run this tool first when a requested tool is unavailable. Returns information about which tools are enabled in the full and minimal tool sets, helping you identify available alternatives.",
+            "name": "getEnabledTools"
+          },
+          {
+            "description": "Gets information about an environment.",
+            "name": "getEnvironment"
+          },
+          {
+            "description": "Gets information about all of your [environments]([REDACTED]",
+            "name": "getEnvironments"
+          },
+          {
+            "description": "Gets the API specification generated for the given collection.",
+            "name": "getGeneratedCollectionSpecs"
+          },
+          {
+            "description": "Gets information about a mock server.\n- Resource: Mock server entity. Response includes the associated \\`collection\\` UID and \\`mockUrl\\`.\n- Use the \\`collection\\` UID to navigate back to the source collection.",
+            "name": "getMock"
+          },
+          {
+            "description": "Gets all active mock servers. By default, returns only mock servers you created across all workspaces.\n\n- Always pass either the \\`workspace\\` or \\`teamId\\` query to scope results. Prefer \\`workspace\\` when known.\n- If both \\`teamId\\` and \\`workspace\\` are passed, only \\`workspace\\` is used.",
+            "name": "getMocks"
+          },
+          {
+            "description": "Gets information about an API specification.",
+            "name": "getSpec"
+          },
+          {
+            "description": "Gets all of an API specification's generated collections.",
+            "name": "getSpecCollections"
+          },
+          {
+            "description": "Gets the complete contents of an OpenAPI or AsyncAPI specification's definition.",
+            "name": "getSpecDefinition"
+          },
+          {
+            "description": "Gets the contents of an API specification's file.",
+            "name": "getSpecFile"
+          },
+          {
+            "description": "Gets all the files in an API specification.",
+            "name": "getSpecFiles"
+          },
+          {
+            "description": "**Requires an Enterprise plan.** Tagging is only available on Postman Enterprise plans. This tool returns a 404 error on Free, Basic, and Professional accounts.\n\nGets Postman elements (entities) by a given tag. Tags enable you to organize and search workspaces, APIs, and collections that contain shared tags.",
+            "name": "getTaggedEntities"
+          },
+          {
+            "description": "Gets information about a workspace.\n\n**Note:**",
+            "name": "getWorkspace"
+          },
+          {
+            "description": "Gets all workspaces you have access to.\n- For “my …” requests, first call GET \\`/me\\` and pass \\`createdBy={me.user.id}\\`.",
+            "name": "getWorkspaces"
+          },
+          {
+            "description": "Publishes a mock server. Publishing a mock server sets its **Access Control** configuration setting to public.",
+            "name": "publishMock"
+          },
+          {
+            "description": "Replaces the contents of a collection using the [Postman Collection v2.1.0 schema format]([REDACTED] Include the collection's ID values in the request body. If you do not, the endpoint removes the existing items and creates new items.\n\n- To perform an update asynchronously, use the \\`Prefer\\` header with the \\`respond-async\\` value. When performing an async update, this endpoint returns a HTTP \\`202 Accepted\\` response.\n- For a complete list of properties and information, see the [Postman Collection Format documentation]([REDACTED]\n- For protocol profile behavior, refer to Postman's [Protocol Profile Behavior documentation]([REDACTED]\n\n**Note:**\n\n- The maximum collection size this endpoint accepts cannot exceed 100 MB.\n- Use the GET \\`/collection-updates-tasks/{taskId}\\` endpoint to get the collection's update status when performing an asynchronous update.\n- If you don't include the collection items' ID values from the request body, the endpoint **removes** the existing items and recreates the items with new ID values.\n- To copy another collection's contents to the given collection, remove all ID values before you pass it in this endpoint. If you do not, this endpoint returns an error. These values include the \\`id\\`, \\`uid\\`, and \\`postman_id\\` values.",
+            "name": "putCollection"
+          },
+          {
+            "description": "Replaces all the contents of an environment with the given information.\n\n**Note:**\n\n- The request body size cannot exceed the maximum allowed size of 30MB.\n- If you receive an HTTP \\`411 Length Required\\` error response, manually pass the \\`Content-Length\\` header and its value in the request header.",
+            "name": "putEnvironment"
+          },
+          {
+            "description": "Search for Postman entities (requests, collections, workspaces, specs, flows, environments, mocks, and documents).\n\n**Ownership:**\n- `organization` — Search within all resources owned by your organization (default).\n- `external` — Search within the public Postman network (third-party and community APIs).\n- `all` — Search across all scopes.\n\n**When to use each ownership value and filters:**\n\n| Goal | Recommended approach |\n|------|----------------------|\n| Find an internal API (e.g. \"our notification service\") | `ownership: organization` |\n| Find a trusted API published to the Private Network | `ownership: organization` + `privateNetwork: true` filter |\n| Find an internal API in all resources of organization and are visible to the organization only | `ownership: organization` + `visibility: internal` filter |\n| Find an API by your organization that is made publicly visible | `ownership: organization` + `visibility: public` filter |\n| Find a third party publicly visible API (e.g. \"Stripe API\", \"Twilio API\") | `ownership: external` + `visibility: public` filter |\n| User says \"our APIs\", \"internal\", \"team\" | `ownership: organization` |\n| Search across all scopes | `ownership: all` |\n\n**Element Types:**\n- `requests`: Search for individual API requests.\n- `collections`: Search for API collections.\n- `workspaces`: Search for Postman workspaces.\n- `specs`: Search for API specifications.\n- `flows`: Search for Postman Flows.\n- `environments`: Search for Postman Environments.\n- `mocks`: Search for Postman Mock Servers.\n- `documents`: Search for Postman workspace documents.\n\n**Filters:**\n\nUse the `filters` parameter to narrow results. The top-level key must be `$and` with an array of condition objects. Each condition object must contain exactly one field key.\n\nSupported filter fields:\n| Field | Operators | Notes |\n|-------|-----------|-------|\n| `workspaceId` | `$eq`, `$ne`, `$in`, `$nin` | All element types. `$in`/`$nin` accept arrays. |\n| `collectionId` | `$eq`, `$ne`, `$in`, `$nin` | Requests and collections only. |\n| `visibility` | `$eq`, `$ne` | Values: `public`, `partner`, `internal`. All element types. |\n| `privateNetwork` | `$eq`, `$ne` | Boolean. All element types. |\n| `publisherIsVerified` | `$eq`, `$ne` | Boolean. All element types. |\n| `method` | `$eq`, `$ne`, `$in`, `$nin` | HTTP methods (GET, POST, etc.). Requests only. |\n| `tags` | `$eq`, `$ne`, `$in`, `$nin` | Workspaces and collections only. |\n| `requestId` | `$eq`, `$ne`, `$in`, `$nin` | Requests only. |\n| `specificationId` | `$eq`, `$ne`, `$in`, `$nin` | Specs only. |\n| `flowId` | `$eq`, `$ne`, `$in`, `$nin` | Flows only. |\n| `documentId` | `$eq`, `$ne`, `$in`, `$nin` | Documents only. |\n| `createdBy` | `$eq`, `$ne`, `$in`, `$nin` | All element types. |\n| `organizationId` | `$eq`, `$ne`, `$in`, `$nin` | All element types. |\n| `teamId` | `$eq`, `$ne`, `$in`, `$nin` | All element types. |\n| `isGitConnected` | `$eq`, `$ne` | Boolean. Workspaces, collections, requests, specs, flows, environments, mocks, documents. |\n| `type` | `$eq`, `$ne`, `$in`, `$nin` | Requests only. |\n\n**Filter examples:**\n- Private API Network only: `{\"$and\":[{\"privateNetwork\":{\"$eq\":true}}]}`\n- Multiple workspaces: `{\"$and\":[{\"workspaceId\":{\"$in\":[\"ws-1\",\"ws-2\"]}}]}`\n- Public visibility: `{\"$and\":[{\"visibility\":{\"$eq\":\"public\"}}]}`\n- GET requests only: `{\"$and\":[{\"method\":{\"$eq\":\"GET\"}}]}`\n- Combine conditions: `{\"$and\":[{\"visibility\":{\"$eq\":\"public\"}},{\"workspaceId\":{\"$eq\":\"ws-abc123\"}}]}`",
+            "name": "searchPostmanElements"
+          },
+          {
+            "description": "Syncs a collection generated from an API specification. This is an asynchronous endpoint that returns an HTTP \\`202 Accepted\\` response.\n\n**Note:**\n\n- This endpoint only supports the OpenAPI 2.0, 3.0, and 3.1 specification types.\n- You can only sync collections generated from the given spec ID.",
+            "name": "syncCollectionWithSpec"
+          },
+          {
+            "description": "Syncs an API specification linked to a collection. This is an asynchronous endpoint that returns an HTTP \\`202 Accepted\\` response.\n\n**Note:**\n\n- This endpoint only supports the OpenAPI 2.0, 3.0, and 3.1 specification types.\n- You can only sync collections generated from the given specification ID.",
+            "name": "syncSpecWithCollection"
+          },
+          {
+            "description": "Updates a request in a collection. For a complete list of properties, refer to the **Request** entry in the [Postman Collection Format documentation]([REDACTED]\n\n**Note:**\n\n- You must pass a collection ID (\\`[REDACTED]\\`), not a collection(\\`[REDACTED]-[REDACTED]\\`), in this endpoint.\n- This endpoint does not support changing the folder of a request.\n- This endpoint acts like a PATCH method. It only updates the values that you pass in the request body.\n- **Events (\\`events\\`).** Events are merged by \\`listen\\` type, so you only need to send the event you are changing. A \\`listen\\` type you omit keeps its stored script. To empty a script, send its event with \\`script.exec\\` set to \\`[]\\` — sending \\`events: []\\` changes nothing.",
+            "name": "updateCollectionRequest"
+          },
+          {
+            "description": "Updates a mock server.\n- Resource: Mock server entity associated with a collection UID.\n- Use this to change name, environment, privacy, or default server response.\n- To activate a server response, set \\`config.serverResponseId\\` to the server response's \\`id\\`. Pass \\`null\\` to deactivate.",
+            "name": "updateMock"
+          },
+          {
+            "description": "Updates a file for an OpenAPI or protobuf 2 or 3 specification.\n\n**Note:**\n\n- This endpoint does not accept an empty request body. You must pass one of the accepted values.\n- This endpoint does not accept multiple request body properties in a single call. For example, you cannot pass both the \\`content\\` and \\`type\\` property at the same time.\n- Multi-file specifications can only have one root file.\n- When updating a file type to \\`ROOT\\`, the previous root file is updated to the \\`DEFAULT\\` file type.\n- Files cannot exceed a maximum of 10 MB in size.",
+            "name": "updateSpecFile"
+          },
+          {
+            "description": "Updates an API specification's properties, such as its name.",
+            "name": "updateSpecProperties"
+          },
+          {
+            "description": "Updates a workspace's property, such as its name or visibility.\n\n**Note:**\n\n- This endpoint does not support the following visibility changes:\n  - \\`private\\` to \\`public\\`, \\`public\\` to \\`private\\`, and \\`private\\` to \\`personal\\` for **Free** and **Solo** [plans]([REDACTED]\n  - \\`public\\` to \\`personal\\` for team users only.\n- There are rate limits when publishing public workspaces.\n- Public team workspace names must be unique.",
+            "name": "updateWorkspace"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Postman": {
+        "type": "http",
+        "url": "https://mcp.postman.com/minimal",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ed74774de099c0f425e06a759af099cba1477f560049e878815803fa492ec414"
+      }
+    }
+  }
+}

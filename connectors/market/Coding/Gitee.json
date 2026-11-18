@@ -1,0 +1,114 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.394Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Coding",
+  "categoryCode": "Coding",
+  "connector_id": "gitee",
+  "connector_name": "Gitee",
+  "connector_name_cn": "Gitee",
+  "description": "Work with the authenticated user's Gitee profile and repositories.",
+  "description_cn": "访问已授权用户的 Gitee 资料和代码仓库。",
+  "version": "1.0.0",
+  "category": "Coding",
+  "tags": [
+    "developer_tools",
+    "source_code"
+  ],
+  "provider_name": "Gitee",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {
+    "en-US": [
+      "Show my authenticated Gitee user profile.",
+      "List all Gitee repositories visible to me.",
+      "Show details for Gitee repository owner/repo."
+    ],
+    "zh-CN": [
+      "查看我当前的 Gitee 用户资料",
+      "列出我有权访问的 Gitee 仓库",
+      "查看 Gitee 仓库 owner/repo 详情"
+    ]
+  },
+  "config": {
+    "servers": [
+      {
+        "name": "gitee",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ff71d88e2c5ef3923a4a5526da364e2da4824bd83b742f2ca0cc631df12eb9f8",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "Work with the authenticated user's Gitee profile and repositories.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ff71d88e2c5ef3923a4a5526da364e2da4824bd83b742f2ca0cc631df12eb9f8",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "gitee",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_ff71d88e2c5ef3923a4a5526da364e2da4824bd83b742f2ca0cc631df12eb9f8",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [
+      {
+        "name": "get_current_user",
+        "description": "Get the current authenticated Gitee user profile.",
+        "server_name": "gitee",
+        "input_schema": "{\"$schema\":\"https://json-schema.org/draft/2020-12/schema\",\"additionalProperties\":false,\"properties\":{},\"type\":\"object\"}",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "list_my_repositories",
+        "description": "List repositories visible to the authenticated Gitee user.",
+        "server_name": "gitee",
+        "input_schema": "{\"$schema\":\"https://json-schema.org/draft/2020-12/schema\",\"additionalProperties\":false,\"properties\":{\"direction\":{\"enum\":[\"asc\",\"desc\"],\"type\":\"string\"},\"page\":{\"minimum\":1,\"type\":\"integer\"},\"perPage\":{\"maximum\":100,\"minimum\":1,\"type\":\"integer\"},\"q\":{\"minLength\":1,\"type\":\"string\"},\"sort\":{\"enum\":[\"created\",\"updated\",\"pushed\",\"full_name\"],\"type\":\"string\"},\"visibility\":{\"enum\":[\"private\",\"public\",\"all\"],\"type\":\"string\"}},\"type\":\"object\"}",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "get_repository",
+        "description": "Get a Gitee repository by namespace owner and repository path.",
+        "server_name": "gitee",
+        "input_schema": "{\"$schema\":\"https://json-schema.org/draft/2020-12/schema\",\"additionalProperties\":false,\"properties\":{\"owner\":{\"minLength\":1,\"type\":\"string\"},\"repo\":{\"minLength\":1,\"type\":\"string\"}},\"required\":[\"owner\",\"repo\"],\"type\":\"object\"}",
+        "title": "",
+        "annotations": null
+      }
+    ],
+    "mcp_servers": {
+      "gitee": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ff71d88e2c5ef3923a4a5526da364e2da4824bd83b742f2ca0cc631df12eb9f8",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ff71d88e2c5ef3923a4a5526da364e2da4824bd83b742f2ca0cc631df12eb9f8"
+      }
+    }
+  }
+}

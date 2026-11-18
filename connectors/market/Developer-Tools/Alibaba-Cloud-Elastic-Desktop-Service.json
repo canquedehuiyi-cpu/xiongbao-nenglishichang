@@ -1,0 +1,106 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.481Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Developer-Tools",
+  "categoryCode": "Developer Tools",
+  "connector_id": "wuying",
+  "connector_name": "Alibaba Cloud Elastic Desktop Service",
+  "connector_name_cn": "无影云电脑",
+  "description": "Manage and use your Wuying cloud desktops through MCP, with capabilities including browser automation, desktop GUI automation (keyboard and mouse control, screen capture), file reading and writing, and command execution. Connect custom MCP services to give your agents an extensible desktop execution environment.",
+  "description_cn": "通过 MCP 管理和使用您的无影云桌面，提供浏览器自动化、桌面 GUI 自动化（键鼠操作、截屏）、文件读写、命令执行等能力，支持接入自定义 MCP 服务，为 Agent 提供可扩展的桌面执行环境。",
+  "version": "1.0.0",
+  "category": "Developer Tools",
+  "tags": [
+    "qoder-vibe-new",
+    "qoder-pro-new"
+  ],
+  "provider_name": "Alibaba Cloud",
+  "author": {
+    "name": "Alibaba Cloud",
+    "display_name": "Alibaba Cloud"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "wuying-gw",
+        "url": "https://mcp.wuying.aliyun.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "Manage Wuying cloud desktops through browser and desktop automation, file access, command execution, and custom MCP services.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f2ca71daf01c6b0d55b4982378563a97eac2b0d826718ceb09467e61efc798b0",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_f2ca71daf01c6b0d55b4982378563a97eac2b0d826718ceb09467e61efc798b0",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Execute a cloud-side tool for the current user. Discover tools and their argument schemas with list_control_tools, then pass the declared parameters in args. Destructive actions require two calls with confirm_token. accepted means request acceptance only; unknown means check state before retrying.",
+            "name": "call_control_tool"
+          },
+          {
+            "description": "Execute a tool inside an authorized resource (cloud desktop or cloud browser) through its MCP tunnel. Use call_control_tool for cloud-side power operations. Requires resource_id ∈ the token's authorized resource set; arguments are validated against the tool schema before forwarding. Destructive tools require a two-step confirmation (the first call returns a summary + confirm_token).",
+            "name": "call_resource_tool"
+          },
+          {
+            "description": "Liveness probe returning gateway version and the caller identity (aliUid, authorized resource count, protocol era). Read-only.",
+            "name": "common_ping"
+          },
+          {
+            "description": "List the resources (e.g. cloud desktops, cloud browsers) authorized by this token, with per-resource attributes (region, type) when available. Read-only.",
+            "name": "list_authorised_resources"
+          },
+          {
+            "description": "List enabled cloud-side tools for the current user, including resource operations and [REDACTED] queries. Each tool declares its own arguments. Does not require desktop MCP or a tunnel to be online. Use list_resource_tools for tools running inside a resource.",
+            "name": "list_control_tools"
+          },
+          {
+            "description": "List tools running inside one authorized resource through its MCP tunnel (names, descriptions, input schemas, annotations). For cloud-side power operations use list_control_tools. Read-only; cached on the gateway.",
+            "name": "list_resource_tools"
+          },
+          {
+            "description": "Search tool names/descriptions by keyword across all authorized resources. Read-only; supports picking a resource that offers a given tool. Unreachable resources (powered off, or no MCP gateway sharing enabled) are skipped and reported in unavailable_resources; the fan-out runs with a bounded time budget, so resources that do not answer in time are reported as unavailable (kind \"timeout\") and partial matches are returned.",
+            "name": "search_resource_tools"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "wuying-gw": {
+        "type": "http",
+        "url": "https://mcp.wuying.aliyun.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f2ca71daf01c6b0d55b4982378563a97eac2b0d826718ceb09467e61efc798b0"
+      }
+    }
+  }
+}

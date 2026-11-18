@@ -1,0 +1,92 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.519Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "DevOps",
+  "categoryCode": "DevOps",
+  "connector_id": "bunnycdn",
+  "connector_name": "BunnyCDN",
+  "connector_name_cn": "BunnyCDN",
+  "description": "List and inspect BunnyCDN Pull Zones and purge a zone's cache, optionally restricted to a cache tag. Review CDN delivery settings and refresh cached content.",
+  "description_cn": "查询 BunnyCDN Pull Zone 列表和详情，并清除指定 Pull Zone 的缓存，也可按缓存标签限定清理范围。适合核对 CDN 分发配置和刷新缓存内容。",
+  "version": "1.0.0",
+  "category": "DevOps",
+  "tags": [
+    "cdn",
+    "storage",
+    "devops"
+  ],
+  "provider_name": "BunnyCDN",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "bunnycdn",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f0e4b36a049c7737d669abaf40faabf17a34ca14b1bdd3d6946754a32668ac68",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Manage CDN delivery zones, storage, caching, and edge infrastructure with BunnyCDN.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f0e4b36a049c7737d669abaf40faabf17a34ca14b1bdd3d6946754a32668ac68",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "bunnycdn",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_f0e4b36a049c7737d669abaf40faabf17a34ca14b1bdd3d6946754a32668ac68",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Get one Bunny Pull Zone by ID.",
+            "name": "get_pull_zone"
+          },
+          {
+            "description": "List Bunny Pull Zones with optional pagination, search, and certificate expansion.",
+            "name": "list_pull_zones"
+          },
+          {
+            "description": "Purge the cache for a Bunny Pull Zone, optionally restricted to one cache tag.",
+            "name": "purge_pull_zone_cache"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "bunnycdn": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f0e4b36a049c7737d669abaf40faabf17a34ca14b1bdd3d6946754a32668ac68",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f0e4b36a049c7737d669abaf40faabf17a34ca14b1bdd3d6946754a32668ac68"
+      }
+    }
+  }
+}

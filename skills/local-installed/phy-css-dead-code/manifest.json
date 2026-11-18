@@ -1,0 +1,11 @@
+{
+  "source": "local-installed(~/.qoder-cn/skills)",
+  "name": "phy-css-dead-code",
+  "canonicalName": "phy-css-dead-code",
+  "version": "UNKNOWN",
+  "publisher": "UNKNOWN",
+  "license": "UNKNOWN",
+  "marketId": "UNKNOWN",
+  "sha256": "UNKNOWN",
+  "note": "本机已安装副本；_meta.json 字段有限，未核到市场 id 时写 UNKNOWN"
+}

@@ -1,0 +1,104 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.645Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Security-and-Testing",
+  "categoryCode": "Security & Testing",
+  "connector_id": "semgrep",
+  "connector_name": "Semgrep",
+  "connector_name_cn": "Semgrep",
+  "description": "Use Semgrep MCP to inspect authorized application security findings, projects, scans, rules, and remediation context.",
+  "description_cn": "通过 Semgrep MCP 查看已授权的应用安全发现、项目、扫描、规则及修复上下文。",
+  "version": "1.0.1",
+  "category": "Security & Testing",
+  "tags": [
+    "qoder-pro"
+  ],
+  "provider_name": "Semgrep",
+  "author": {
+    "name": "之东",
+    "display_name": "Semgrep"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "qoderapp",
+    "qoder"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Semgrep",
+        "url": "https://mcp.semgrep.ai/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_b56977bf93acd55ebe1b41e74e0537bce61bec4d759e3ac809b7c7328c9fbd8a",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_b56977bf93acd55ebe1b41e74e0537bce61bec4d759e3ac809b7c7328c9fbd8a",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Fetches findings from the Semgrep AppSec Platform Findings API.\n\n    This function retrieves security, code quality, and supply chain findings that have already been\n    identified by previous Semgrep scans and uploaded to the Semgrep AppSec platform. It does NOT\n    perform a new scan or analyze code directly. Instead, it queries the Semgrep API to access\n    historical scan results for a given repository or set of repositories.\n\n    DEFAULT BEHAVIOR: By default, this tool should filter by the current repository. The model\n    should determine the current repository name and pass it in the 'repos' parameter to ensure\n    findings are scoped to the relevant codebase. However, users may explicitly request findings\n    from other repositories, in which case the model should respect that request.\n\n    Use this function when a prompt requests a summary, list, or analysis of existing findings,\n    such as:\n        - \"Please list the top 10 security findings and propose solutions for them.\"\n        - \"Show all open critical vulnerabilities in this repository.\"\n        - \"Summarize the most recent Semgrep scan results.\"\n        - \"Get findings from repository X\" (explicitly requesting different repo)\n\n    This function is ideal for:\n    - Reviewing, listing, or summarizing findings from past scans.\n    - Providing actionable insights or remediation advice based on existing scan data.\n\n    Do NOT use this function to perform a new scan or check code that has not yet been analyzed by\n    Semgrep.\n\n    PRIORITY-INBOX FILTERS: The following filters narrow results to the higher-signal findings\n    that are eligible for the priority inbox. They are exposed independently so combinations can\n    be evaluated and tuned:\n        - SAST: severities=['SEVERITY_CRITICAL', 'SEVERITY_HIGH'] and\n          confidence=['CONFIDENCE_HIGH', 'CONFIDENCE_MEDIUM']; optionally source=['SOURCE_PRO']\n          (Pro engine only), dataflow_only=True (taint-mode only), or interfile_only=True\n          (cross-file taint only).\n        - SCA (supply chain): reachabilities=['REACHABILITY_REACHABLE'].\n        - Secrets: issue_type='ISSUE_TYPE_SECRETS' with\n          validation_states=['VALIDATION_STATE_CONFIRMED_VALID'].\n    dataflow_only/interfile_only require an extra lookup per returned finding and are applied to\n    the returned page after fetching, so total_findings reflects only the server-side filters.",
+            "name": "semgrep_findings"
+          },
+          {
+            "description": "Get the schema for a Semgrep rule\n\n    Use this tool when you need to:\n      - get the schema required to write a Semgrep rule\n      - need to see what fields are available for a Semgrep rule\n      - verify what fields are available for a Semgrep rule\n      - verify the syntax for a Semgrep rule is correct",
+            "name": "semgrep_rule_schema"
+          },
+          {
+            "description": "[DEPRECATED] Returns a list of supported languages by Semgrep.",
+            "name": "get_supported_languages"
+          },
+          {
+            "description": "[DEPRECATED] Runs a Semgrep scan with a custom rule on provided code.",
+            "name": "semgrep_scan_with_custom_rule"
+          },
+          {
+            "description": "[DEPRECATED] Runs a Semgrep scan on provided code content.",
+            "name": "semgrep_scan_remote"
+          },
+          {
+            "description": "[DEPRECATED] Returns the Abstract Syntax Tree (AST) for the provided code.",
+            "name": "get_abstract_syntax_tree"
+          },
+          {
+            "description": "Returns the identity of the current user.\n\n    Use this tool when you need to get the identity of the current user.",
+            "name": "semgrep_whoami"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Semgrep": {
+        "type": "http",
+        "url": "https://mcp.semgrep.ai/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_b56977bf93acd55ebe1b41e74e0537bce61bec4d759e3ac809b7c7328c9fbd8a"
+      }
+    }
+  }
+}

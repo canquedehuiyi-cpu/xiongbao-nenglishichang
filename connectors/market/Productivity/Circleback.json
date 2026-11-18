@@ -1,0 +1,206 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.627Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "Circleback",
+  "connector_name": "Circleback",
+  "connector_name_cn": "Circleback",
+  "description": "Circleback automatically organizes meeting transcripts, summaries, and action items to reduce post-meeting work.",
+  "description_cn": "Circleback 自动整理会议转录、摘要和行动项，帮助团队减少会后记录与跟进工作。",
+  "version": "1.0.0",
+  "category": "Productivity",
+  "tags": [],
+  "provider_name": "Circleback",
+  "author": {
+    "name": "",
+    "display_name": "Circleback"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Circleback",
+        "url": "https://circleback.ai/api/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_09f9130d27ddbf01dad8d824c0ffbb41e80809fbb1371ac69f33e4ca8429574c",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_09f9130d27ddbf01dad8d824c0ffbb41e80809fbb1371ac69f33e4ca8429574c",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Find meetings that match a given search term or filter.\n\n      Searches match every keyword, in any order, within the meeting name or within its notes. Matching ignores case and treats punctuation between query words as separators. Partial words are supported; misspellings are not corrected.\n      Prefer a few distinctive keywords; omit searchTerm for filter-only searches.\n      Include date, tag, attendee, domain, or ownership filters when they are supplied by the user or established in the conversation. Do not invent a date range to narrow the search.\n      Returns an array of meeting summaries with relevant source excerpts based on intent. Use ReadMeetings for details about selected results.\n      Returns up to 20 meetings per page. Request the next pageIndex only when the page contains 20 meetings and more results are needed. For exhaustive requests, continue until a page contains fewer; otherwise stop when the user's request is satisfied.\n      Keep all other search parameters identical when changing pageIndex.\n       Whenever you answer from these meetings, also call DisplayMeetings with their IDs so people see them as cards.",
+            "name": "SearchMeetings"
+          },
+          {
+            "description": "Search meeting transcripts to find transcript chunks that match a given search term.\n\n       If the user's question requires searching for multiple distinct search terms, you should call this function multiple times.\n       The data returned will be an array of objects, with each containing the meeting ID, name, creator user ID, when it was created, the chunk matching the search term, and the start and end timestamps of the matching chunk.\n       Search results can be further filtered by including tags, profiles (attendees), or domains.\n       This function is useful to find relevant meetings where a search term was mentioned. Use ReadMeetings for more details about those meetings.",
+            "name": "SearchTranscripts"
+          },
+          {
+            "description": "Get the full transcripts for given meeting IDs.\n       Use string IDs like abcDEF123ghiJKL456mno.\n       The data returned will be an array of objects, each representing a full transcript for a meeting.\n       Each transcript object will contain the meeting's ID, its name, and its transcript segments.\n       Each segment has the speaker, the text, and the time in seconds when the segment starts, like: {speaker: 'John Doe', text: 'This is a test.', timestamp: 123.45}\n       This should be used to get detailed transcript information for one or many meetings at once.",
+            "name": "GetTranscriptsForMeetings"
+          },
+          {
+            "description": "Given up to 50 meeting IDs, fetch detailed information for each meeting.\n      Use string IDs like abcDEF123ghiJKL456mno.\n      The data returned will be an array of objects, with each containing the meeting ID, name, notes, your private notes, attendees, action items, AI-generated insights, creator, tags, status, duration, and creation date. Whenever you answer from these meetings, also call DisplayMeetings with their IDs so people see them as cards.",
+            "name": "ReadMeetings"
+          },
+          {
+            "description": "Find profiles matching the given names.\n      The data returned will be an array of objects representing each of the matching profiles.",
+            "name": "FindProfiles"
+          },
+          {
+            "description": "Find companies matching the given search terms.\n      Searches match company names and company domains.\n      The data returned will be an array of objects with each company's domain and name when available.",
+            "name": "FindCompanies"
+          },
+          {
+            "description": "Search for support articles about Circleback to find relevant documentation and help content.",
+            "name": "SearchSupportArticles"
+          },
+          {
+            "description": "Returns upcoming calendar events from the authenticated user's connected calendars, with pagination and a configurable time window. When searching for calendar events, the tool will extract relevant excerpts based on the intent instead of returning the entire data.\n       Each calendar event excerpt includes comprehensive details: event title, date (in the user's timezone), organizer email, attendees (with names, emails, and status), calendar description (if present), meeting platform (Zoom, Google Meet, Microsoft Teams, etc.), meeting platform link, whether it's a recurring event, Circleback join status, and any associated meeting data from Circleback (meeting ID, status, tag IDs, your private notes).\n       You can filter events by providing a date range using startDate and endDate parameters.\n       This is useful for finding upcoming meetings, scheduled calls, or calendar events that the user has.\n       Note: This should be primarily used for searching calendar events happening in the future. Past calendar events have a meeting record if they were captured with Circleback. The only reason to use this to search past calendar events is if searching for the meeting with SearchMeetings yielded no relevant results.\n      Returns up to 50 calendar events per page. Request the next pageIndex only when the page contains 50 events and more results are needed. For exhaustive requests, continue until a page contains fewer; otherwise stop when the user's request is satisfied. Whenever you answer about these events, also call DisplayCalendarEvents with their IDs so people see them as cards.",
+            "name": "SearchCalendarEvents"
+          },
+          {
+            "description": "Search the user's connected email accounts for email threads matching a query. This should be used when the user asks questions about their emails or needs to find specific email conversations.\n       This function queries across all connected email services and retrieves up to 20 matching email threads per service per page.\n       The data returned will be an array of objects, with each containing the email thread ID, subject line, and relevant excerpts.\n       Each email thread object includes metadata such as the sender email, received date, and the fromEmailAddress of the connected account the thread belongs to (if available).\n       Only 20 email threads are returned per page, so this function may need to be called multiple times if there are more than that many results.",
+            "name": "SearchEmails"
+          },
+          {
+            "description": "Find action items that match a given search term or filter. Returns action items with their title, description, status, assignee, and related meeting details.\n       Action items can have zero, one, or multiple related meetings. The meetings array contains all related meetings you can access and is empty when there are none. The nullable meeting field is retained as a representative meeting for compatibility.\n       By default, only action items assigned to the user are returned. To find action items assigned to someone else, use FindProfiles to resolve their name to a profile ID and pass it as `assigneeProfileId`. To search more widely, set `assigneeType` or `assigneeTeamId`.\n       Action items can be filtered by search terms, status (PENDING or DONE), tags, attendee domains, and meeting date range (`startDate`/`endDate`).\n       Returns up to 25 action items per page. Request the next pageIndex only when the page contains 25 action items and more results are needed. For exhaustive requests, continue until a page contains fewer; otherwise stop when the user's request is satisfied.",
+            "name": "SearchActionItems"
+          },
+          {
+            "description": "Display selected existing action items as interactive cards in the chat. Users can check, uncheck, and edit the cards according to their permissions. This does not create or update action items. Display all related results in one call. Use actionItemIds for a flat list, or an ordered groups array with headings and IDs for any requested grouping. Choose group membership from the returned records. Provide either actionItemIds or groups, not both. Do not write separate group headings, repeat card contents in prose, or refer to first/last cards. Search and mutation tools do not display cards themselves. Only display items relevant to the request. Use this when someone asks about their action items or tasks, and after searching, creating, or updating them when the items are worth showing. In terminals and other text-only clients there are no cards, so list the returned items instead.",
+            "name": "DisplayActionItems"
+          },
+          {
+            "description": "Returns every tag available to the authenticated user. Each tag has its ID and name. Use the IDs to filter meetings, transcripts, or action items by tag.",
+            "name": "ListTags"
+          },
+          {
+            "description": "Returns the user's workspace and its teams with their IDs, or null if the user has no workspace.",
+            "name": "ListTeams"
+          },
+          {
+            "description": "Returns the folders the authenticated user can see, including closed folders they haven't joined and, for workspace admins, their workspace's hidden folders. Use the folder IDs to read folders with ReadFolders or to find their meetings with SearchMeetings.",
+            "name": "ListFolders"
+          },
+          {
+            "description": "Returns folders with their members, teams, and rules. Pending invitations are only listed to people who manage the folder. People who open a folder by its link get no members, teams, or rules. Use ListFolders to find folder IDs.",
+            "name": "ReadFolders"
+          },
+          {
+            "description": "Creates an action item owned by the authenticated user. Pass meetingId to link it to a meeting the user can edit; omit it for a standalone action item. Assigns it to the user unless you pass another assignee or null. Use FindProfiles to resolve an assignee. Only create when the user asks.",
+            "name": "CreateActionItem"
+          },
+          {
+            "description": "Updates the title, description, status, or assignee of an action item. Returns the updated action item. Provide at least one field. Omitted fields stay unchanged; use null to unassign. For an item created in this conversation, use the ID CreateActionItem returned; otherwise use SearchActionItems to find it. Use FindProfiles to resolve an assignee. Only update when the user requests a change.",
+            "name": "UpdateActionItem"
+          },
+          {
+            "description": "Permanently deletes an action item. Returns the deleted action item. For an item created in this conversation, use the ID CreateActionItem returned; otherwise use SearchActionItems to find it. Only delete when the user explicitly asks.",
+            "name": "DeleteActionItem"
+          },
+          {
+            "description": "Creates a new tag. If a tag with the same name already exists, a conflict error is returned. Only create when the user asks.",
+            "name": "CreateTag"
+          },
+          {
+            "description": "Updates a tag's name or description. Pass color to change its color. Omitted fields stay unchanged. Use ListTags to find the tag. Only update when the user requests a change.",
+            "name": "UpdateTag"
+          },
+          {
+            "description": "Permanently deletes a tag and removes it from every meeting it was applied to. Use ListTags to find it. Only delete when the user explicitly asks.",
+            "name": "DeleteTag"
+          },
+          {
+            "description": "Creates a shared folder in a workspace, with optional rules that file new meetings into it. Use ListFolders or ListTeams to find the workspace ID. Only create when the user asks.",
+            "name": "CreateFolder"
+          },
+          {
+            "description": "Updates a folder's name, description, icon, icon color, visibility, or rules. Fields you leave out stay the same, and ruleGroups replaces all of the folder's rules. Returns the folder. To keep existing rules, include them in ruleGroups from ReadFolders. For Tags conditions, the value is a tag ID from ListTags. Only update when the user asks.",
+            "name": "UpdateFolder"
+          },
+          {
+            "description": "Deletes a shared folder. Its meetings stay with their owners. Meetings that were only in this folder go back to their creators' Private. Only delete when the user explicitly asks.",
+            "name": "DeleteFolder"
+          },
+          {
+            "name": "ShareFolder"
+          },
+          {
+            "description": "Shares a meeting with people, teams, workspaces, or the link, or removes their access. Returns the updated meeting. Each share sets exactly one target: email, profileId, workspaceId, teamId, or linkAccess. Set access to null to remove a person, team, or workspace, or linkAccess to null to turn off the meeting's own link. The returned linkAccess is what anyone with the link gets, which can come from a folder the meeting is in. Use FindProfiles to find profile IDs and ListTeams to find workspace and team IDs. Only change sharing when the user asks, and only set sendEmail when the user wants recipients notified.",
+            "name": "ShareMeeting"
+          },
+          {
+            "description": "Updates a meeting's name, notes, private notes, tags, or folders. Each field you provide replaces its current value, and fields you leave out stay the same. To add to notes, tags, or folders, get the meeting first and include what's already there. Returns the meeting. Start from the current values in ReadMeetings. For tagIds and privateNotes, the meetingData from SearchCalendarEvents also works. tagIds: [] removes all tags. Use ListTags to find tag IDs. Only update when the user asks.",
+            "name": "UpdateMeeting"
+          },
+          {
+            "description": "Sets your private notes or tags on the Circleback meeting for a calendar event, creating the meeting if needed. Each field you provide replaces its current value, and fields you leave out stay the same. Returns the meeting. Use this for a SearchCalendarEvents result without meetingData.meetingId, and UpdateMeeting otherwise. Only update when the user asks.",
+            "name": "UpdateCalendarEvent"
+          },
+          {
+            "description": "Sends feedback, a bug report, or a feature request to the Circleback team. The team does not reply to it. Only submit when the user asks to send feedback to the Circleback team. Never guess the use case: if the user hasn't said what they were trying to do, ask them before submitting.",
+            "name": "SubmitFeedback"
+          },
+          {
+            "description": "List the people the action items checklist offers as assignees.",
+            "name": "ListAssigneeOptions"
+          },
+          {
+            "description": "Show meetings as cards with each name, attendees, tags, and date, which people can click to open in Circleback. Use it whenever your answer draws on specific meetings: when someone asks what was said or decided, asks for a recap or summary, or is preparing for a meeting, and when a message has a Circleback meeting link (circleback.ai/meetings/<id>). Takes IDs from SearchMeetings, another tool that returns them, or such a link, most relevant first. Show only the meetings you used, usually one. The cards only identify the meetings, so still read them with ReadMeetings and answer the question in your reply. In chat apps the cards appear in the conversation, so do not list the meetings again or mention IDs or this tool. In terminals and other text-only clients, name the meetings in your answer instead.",
+            "name": "DisplayMeetings"
+          },
+          {
+            "description": "Show upcoming calendar events as cards with each title and time, a switch for whether Circleback joins, and a click through to Circleback. Use it whenever your answer is about specific upcoming meetings or calendar events: when someone asks what is next, what is on their calendar, when a meeting is, or is preparing for a meeting. Takes IDs from SearchCalendarEvents, soonest first. Show only the events you mention, usually one, and at most 20. The cards only identify the events, so still answer the question in your reply. In chat apps the cards appear in the conversation, so do not list the events again or mention IDs or this tool. In terminals and other text-only clients, name the events in your answer instead.",
+            "name": "DisplayCalendarEvents"
+          },
+          {
+            "description": "Set whether Circleback joins a calendar event, or every occurrence of a recurring event, from the upcoming meetings cards.",
+            "name": "SetCalendarEventRecording"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Circleback": {
+        "type": "http",
+        "url": "https://circleback.ai/api/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_09f9130d27ddbf01dad8d824c0ffbb41e80809fbb1371ac69f33e4ca8429574c"
+      }
+    }
+  }
+}

@@ -1,0 +1,267 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.560Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Legal",
+  "categoryCode": "Legal",
+  "connector_id": "9c2f9491-8754-404b-ae03-1965b9f90f1d",
+  "connector_name": "Yuandian Legal Data",
+  "connector_name_cn": "华宇元典法律数据",
+  "description": "Huayu Yuandian Legal Data provides agents with MCP tool capabilities for laws and regulations, case documents, and enterprise information.",
+  "description_cn": "华宇元典法律数据为智能体提供法律法规、案例文书、企业信息 MCP 工具能力。",
+  "version": "1.0.2",
+  "category": "Legal",
+  "tags": [],
+  "provider_name": "Yuandian Legal Data",
+  "author": {
+    "name": "",
+    "display_name": "Yuandian Legal Data"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "qoder",
+    "qoderapp",
+    "dashboard"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Yuandian Legal Data",
+        "url": "https://open.chineselaw.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_0f5a867f68d7a2e80c5b9082bc95668754444d7319cb04c02125723edc12935d",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_0f5a867f68d7a2e80c5b9082bc95668754444d7319cb04c02125723edc12935d",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "证券合规：检索上市公司公告列表。支持按标题、公司全称、股票简称、交易所、地区、中上协分类、公告发布时间和全文关键词过滤；请求体不能为空。除 top_k 外至少填写一个检索字段。返回命中公告列表，content为命中片段。工具曾用名：yuandian_rh_ssgsgg_search",
+            "name": "yuandian_search_listed_company_announcements"
+          },
+          {
+            "description": "证券合规：检索监管案例列表。支持按标题、公司全称、被处罚主体名称、处罚机构、监管类型、处罚时间和全文关键词过滤；请求体不能为空。返回命中总数和案例列表，content为正文内容。工具曾用名：yuandian_rh_zqcfws_search",
+            "name": "yuandian_search_securities_regulatory_cases"
+          },
+          {
+            "description": "证券合规：检索证券行业法规列表。请求体不能为空，但keyword可不传；不传关键词时主要按法规名称、时效性、地域、效力级别、发布日期、实施日期等过滤条件返回列表。返回项中的content仅在传入关键词且命中高亮时出现，是片段不是法规全文；全文需调用法规详情接口。本工具返回的 url 需登录，且不附带分享凭证。用户需要可直接打开或转交他人的原文链接时，请调用 yuandian_get_law_or_regulation_detail，按返回的 share_access 说明是否免登录；不要在检索结果上自行拼接 shareCode。未传时效性时默认只检索现行有效的法规和法条。工具曾用名：yuandian_rh_fg_zq_search",
+            "name": "yuandian_search_securities_regulations"
+          },
+          {
+            "description": "证券合规：按必填 keyword 检索证券行业相关法条内容，支持按所属法规名称、效力级别、时效性、地域、发布部门和日期条件过滤。返回法条内容及所属法规元数据。本工具返回的 url 需登录，且不附带分享凭证。用户需要可直接打开或转交他人的原文链接时，请调用 yuandian_get_legal_article_detail，按返回的 share_access 说明是否免登录；不要在检索结果上自行拼接 shareCode。未传时效性时默认只检索现行有效的法规和法条。工具曾用名：yuandian_rh_ft_zq_search",
+            "name": "yuandian_search_securities_articles"
+          },
+          {
+            "description": "证券合规：按自然语言query做证券行业相关法条级语义检索，可按时效性、一级效力级别和实施日期范围过滤。返回结果在results.articles，每条主要是法条内容及所属法规信息，不是整部法规全文列表；如需法规详情需再用法规 ID 调详情接口。本工具返回的 url 需登录，且不附带分享凭证。用户需要可直接打开或转交他人的原文链接时，请调用 yuandian_get_legal_article_detail，按返回的 share_access 说明是否免登录；不要在检索结果上自行拼接 shareCode。未传时效性时默认只检索现行有效的法条。工具曾用名：yuandian_law_vector_zq_search",
+            "name": "yuandian_semantic_search_securities_articles"
+          },
+          {
+            "description": "幻觉校验：自动校验文本内容中的法律引用是否正确，系统自动抽取文中引用的法规/法条和案号，与智库比对语义一致性，核验法规时效性，输出一致/不一致/未命中判定及权威原文。。HTTP POST /open/hall_detect",
+            "name": "yuandian_hall_detect"
+          },
+          {
+            "description": "根据企业 ID（company_id）或统一社会信用代码（uscc），查询指定年份的企业年报详情。company_id 与 uscc 至少提供一个，year 为必填的年报年份。返回内容包括企业基本信息、股东及出资、网站或网店、资产、对外投资和对外担保等年报信息。工具曾用名：yuandian_rh_enterpriseAnnualReport",
+            "name": "yuandian_get_company_annual_report"
+          },
+          {
+            "description": "企业信息：按企业 ID 或统一社会信用代码返回企业多模块统计总览；company_id与uscc至少传一个。结果是各类信息的聚合统计和 Top 20 摘要，不是各模块完整明细；如需完整分页明细，应调用对应的商标、专利、开庭公告、法院公告、行政处罚等列表接口。工具曾用名：yuandian_rh_enterpriseAggregationSummary",
+            "name": "yuandian_get_company_statistics_overview"
+          },
+          {
+            "description": "企业信息：按企业名称关键词检索企业候选，用于先获取企业 ID 和统一社会信用代码；company_name必填，top_k默认 10，范围 1 到 50，越界按默认值处理。返回候选企业基础标识，不是企业完整详情。工具曾用名：yuandian_rh_enterpriseSearch",
+            "name": "yuandian_search_companies"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业扁平详情（基本信息+股东+十大股东+十大流通股东+核心成员+分支机构）。工具曾用名：yuandian_rh_enterpriseBaseInfo",
+            "name": "yuandian_get_company_basic_profile"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业对外投资信息列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseOutInvest",
+            "name": "yuandian_list_company_external_investments"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业商标信息列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseBrand",
+            "name": "yuandian_list_company_trademarks"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业专利信息列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterprisePatent",
+            "name": "yuandian_list_company_patents"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业软件著作权信息列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseSoftRight",
+            "name": "yuandian_list_company_software_copyrights"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业作品著作权信息列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseWorksRight",
+            "name": "yuandian_list_company_work_copyrights"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业网站备案信息列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseIcp",
+            "name": "yuandian_list_company_website_filings"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业变更记录列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseChangeInfo",
+            "name": "yuandian_list_company_registration_changes"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码针对企业涉诉信息，统计不同维度的分布情况（案件类别、案由、文书种类、审判程序、法院层级、结案方式、结案年份、地域、诉讼身份、对手当事人身份）。工具曾用名：yuandian_rh_enterpriseWritAgg",
+            "name": "yuandian_get_company_litigation_statistics"
+          },
+          {
+            "description": "企业信息：按企业 ID 或统一社会信用代码分页查询该企业相关涉诉文书列表；company_id 与 uscc 至少传一个；page_number 选填，默认 1，每页默认 30 条。返回分页对象，列表项是涉诉文书摘要，不是文书全文；全文需根据文书信息再调案例/文书详情类接口。工具曾用名：yuandian_rh_enterpriseWritList",
+            "name": "yuandian_list_company_litigation_document_summaries"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业开庭公告列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseCourtSessionNotice",
+            "name": "yuandian_list_company_court_hearing_notices"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业法院公告列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseCourtNotice",
+            "name": "yuandian_list_company_court_announcements"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业失信被执行人列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseExecutions",
+            "name": "yuandian_list_company_judgment_defaulter_records"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业被执行人列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseExecutedPerson",
+            "name": "yuandian_list_company_judicial_enforcement_records"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业股权冻结列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseFrozenEquity",
+            "name": "yuandian_list_company_equity_freezes"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业行政处罚列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterprisePunishment",
+            "name": "yuandian_list_company_administrative_penalties"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业股权出质列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterprisePledge",
+            "name": "yuandian_list_company_equity_pledges"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业对外担保列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseGuaranty",
+            "name": "yuandian_list_company_external_guarantees"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业经营异常列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseAbnormalOperation",
+            "name": "yuandian_list_company_abnormal_operations"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业欠税公告列表，分页查询，每页默认30条。工具曾用名：yuandian_rh_enterpriseCorporateTax",
+            "name": "yuandian_list_company_tax_arrears"
+          },
+          {
+            "description": "企业信息：根据企业ID或统一社会信用代码查询企业严重违法列表。工具曾用名：yuandian_rh_enterpriseSeriousIllegal",
+            "name": "yuandian_list_company_serious_violations"
+          },
+          {
+            "description": "法律法规：根据自然语言 query 检索语义相关的法条，支持按地域、时效性、一级效力级别和实施日期范围过滤。结果位于 results.law_article_list，包含法条内容及所属法规信息。limit 控制返回结果条目数，同一部法规的不同法条分别计数。需要单条法条详情时，可将结果中的 article_id 传入法条详情工具；需要所属法规详情时，可将 regulation_id 传入法规详情工具。未传时效性时默认只检索现行有效的法条。工具曾用名：yuandian_law_vector_search",
+            "name": "yuandian_semantic_search_legal_articles"
+          },
+          {
+            "description": "案例文书：根据自然语言 query 在案例库中进行语义相似度检索，默认同时覆盖普通案例和权威案例，支持通过 case_document_filter 按案件类别、案由、文书类型、法院、地域、结案日期及典型案例等条件过滤，并返回整理后的完整案例内容（不等同于原始裁判文书逐字全文）及相似度评分。本工具返回的 url 需登录，且不附带分享凭证。用户需要可直接打开或转交他人的原文链接时，请调用 yuandian_get_case_detail，按返回的 share_access 说明是否免登录；不要在检索结果上自行拼接 shareCode。工具曾用名：yuandian_case_vector_search",
+            "name": "yuandian_semantic_search_cases"
+          },
+          {
+            "description": "企业信息：按企业 ID 或统一社会信用代码精确查询单个企业聚合详情；company_id与uscc至少传一个，二者同时传入时优先按 company_id 查询，并只取第一条命中。返回工商登记、成员、分支机构、变更/投资、知识产权、涉诉摘要和风险信息。工具曾用名：yuandian_rh_company_detail",
+            "name": "yuandian_get_company_profile"
+          },
+          {
+            "description": "企业信息：用企业名称、曾用名或股票简称检索企业并返回候选企业详情列表；name必填，num默认 2，超过 50 或小于 0 会按 10 处理。该接口适合从名称找到企业候选及其聚合详情，不适合用作严格的唯一企业 ID 查询。工具曾用名：yuandian_rh_company_info",
+            "name": "yuandian_search_company_profiles_by_name"
+          },
+          {
+            "description": "法律法规：查询法条或法规详情。优先按 article_id 定位：传入法条 ID 返回单条法条，传入法规 ID 返回法规详情。未提供 ID 时，使用 regulation_name 查询；同时提供 article_number 可定位具体法条，省略条号则返回法规详情。按名称查询时，reference_date 用于选择指定日期有效的版本，未传则查询当前有效版本；按 ID 查询时返回该 ID 对应版本，不随参考日期切换。返回内容包括正文及法规元数据，应根据 data.type 区分法条与法规。success 为 true 不代表查到内容，未命中时可能不返回 data。返回原文链接，并在同级标注 share_access（login_free 为免登录分享，login_required 为需登录）与 share_expires_at（免登录凭证到期时间，ISO 8601 UTC）。用户要转交他人时给出带分享凭证的链接并说明到期时间；要长期引用时说明免登录授权会过期。工具曾用名：yuandian_rh_ft_detail",
+            "name": "yuandian_get_legal_article_detail"
+          },
+          {
+            "description": "法律法规：查询法规详情，包括法规正文、基础信息、时效性、发布日期、实施日期、发布部门及附件。regulation_id 与 regulation_name 至少提供一个，同时提供时优先按 regulation_id 查询。按 ID 查询时返回该 ID 对应版本；按名称查询时，可通过 reference_date 选择指定日期有效的版本，未传则查询当前有效版本。返回原文链接，并在同级标注 share_access（login_free 为免登录分享，login_required 为需登录）与 share_expires_at（免登录凭证到期时间，ISO 8601 UTC）。用户要转交他人时给出带分享凭证的链接并说明到期时间；要长期引用时说明免登录授权会过期。工具曾用名：yuandian_rh_fg_detail",
+            "name": "yuandian_get_law_or_regulation_detail"
+          },
+          {
+            "description": "法律法规：按必填keyword检索法条内容，支持按所属法规名称、效力级别、时效性、地域、发布日期和实施日期过滤。返回的是法条列表，每条包含法条内容、法条编号、所属法规 ID/名称和法规元数据；不是法规整部文本列表。本工具返回的 url 需登录，且不附带分享凭证。用户需要可直接打开或转交他人的原文链接时，请调用 yuandian_get_legal_article_detail，按返回的 share_access 说明是否免登录；不要在检索结果上自行拼接 shareCode。未传时效性时默认只检索现行有效的法规和法条。工具曾用名：yuandian_rh_ft_search",
+            "name": "yuandian_search_legal_articles"
+          },
+          {
+            "description": "法律法规：检索法规列表。请求体不能为空，但keyword可不传；不传关键词时主要按法规名称、时效性、地域、效力级别、发布日期、实施日期等过滤条件返回列表。返回项中的content仅在传入关键词且命中高亮时出现，是片段不是法规全文；全文需调用法规详情接口。本工具返回的 url 需登录，且不附带分享凭证。用户需要可直接打开或转交他人的原文链接时，请调用 yuandian_get_law_or_regulation_detail，按返回的 share_access 说明是否免登录；不要在检索结果上自行拼接 shareCode。未传时效性时默认只检索现行有效的法规和法条。工具曾用名：yuandian_rh_fg_search",
+            "name": "yuandian_search_laws_and_regulations"
+          },
+          {
+            "description": "案例文书：查询单类案例详情。case_id 与case_number至少传一个，case_kind 非必填；返回data为列表，最多 10 条。普通案例和权威案例字段不同，详情 URL 也分别指向普通案例与权威案例路径。返回原文链接，并在同级标注 share_access（login_free 为免登录分享，login_required 为需登录）与 share_expires_at（免登录凭证到期时间，ISO 8601 UTC）。用户要转交他人时给出带分享凭证的链接并说明到期时间；要长期引用时说明免登录授权会过期。工具曾用名：yuandian_rh_case_details",
+            "name": "yuandian_get_case_detail"
+          },
+          {
+            "description": "案例文书：检索权威/典型/参考类案例列表。支持按案号、标题、案由、法院、地域、文书种类、案件类别、裁判日期和全文关键词过滤；请求体不能为空。返回命中总数和案例列表，content优先为裁判要旨、摘要或案例说明，缺失时才回退正文内容，不保证是完整裁判文书全文；需要全文时应再调用案例详情接口。本工具返回的 url 需登录，且不附带分享凭证。用户需要可直接打开或转交他人的原文链接时，请调用 yuandian_get_case_detail，按返回的 share_access 说明是否免登录；不要在检索结果上自行拼接 shareCode。工具曾用名：yuandian_rh_qwal_search",
+            "name": "yuandian_search_authoritative_cases"
+          },
+          {
+            "description": "案例文书：检索普通裁判案例列表。支持按案号、标题、涉诉企业、案由、法院、地域、文书种类、案件类别、裁判/结案日期、全文关键词、分析过程关键词、援引法条等条件过滤；请求体不能为空。返回命中总数和案例列表，content是命中高亮片段或摘要/分析过程片段，不等同于完整正文；需要全文时应再调用案例详情接口。本工具返回的 url 需登录，且不附带分享凭证。用户需要可直接打开或转交他人的原文链接时，请调用 yuandian_get_case_detail，按返回的 share_access 说明是否免登录；不要在检索结果上自行拼接 shareCode。工具曾用名：yuandian_rh_ptal_search",
+            "name": "yuandian_search_judicial_cases"
+          },
+          {
+            "description": "用户要求审查合同时优先调用：校验参数并返回本地 CLI 执行命令；本工具不读取文件或启动审查，调用方须有本地进程能力。用户提供多份文件但未明确主合同及其他文件角色时，必须先确认；不得按顺序、文件名、正文或历史任务自行推断。按返回的 executionProfile 执行：Windows 策略使用 WorkBuddy Bash 原样执行 POSIX shellCommand（run）；其他策略执行 program/arguments（start）并轮询。执行前检查 launcherCheckArguments；shellCommand 已内置检查。不预查授权；仅在程序缺失或需升级时调用准备工具，CLI 明确要求授权时调用授权工具。",
+            "name": "yuandian_stream_contract_review"
+          },
+          {
+            "description": "需要了解合同审查流程或材料到 CLI 参数的映射时调用；返回适配调用环境的执行、安装、授权、进度跟踪及结果处理指引。发起审查用 yuandian_stream_contract_review。",
+            "name": "yuandian_get_contract_review_guide"
+          },
+          {
+            "description": "仅在 program_not_found 或 cli_update_required（含主程序版本过旧或无效、启动器不兼容、版本检查或升级失败）时调用；返回各平台下载、校验和安装动作。须升级主程序，不能只更新 worker；目录权限错误先由宿主解决，不重复申请授权码。",
+            "name": "yuandian_prepare_cli"
+          },
+          {
+            "description": "仅在 CLI 明确要求授权时调用，为当前 MCP 用户签发短时单次授权码。立即执行返回的 loginCommand；长期凭证仅由 CLI 在本地保存。登录前须解决存储权限；兑换后保存失败须申请新码，不能复用旧码。登录命令含授权码，执行后不得再次传播。",
+            "name": "yuandian_authorize_cli"
+          },
+          {
+            "description": "查询当前 API Key 绑定用户的剩余积分和权益余额。无需传参，服务端会复用当前 MCP 请求的 API Key。",
+            "name": "yuandian_get_user_balance"
+          },
+          {
+            "description": "查询元典免费积分的赠送额度、发放时间、有效期、适用范围，以及幻觉检测的 VIP 要求和合同审查的积分消耗提示。无需参数，查询不扣积分。",
+            "name": "yuandian_get_free_policy"
+          },
+          {
+            "description": "提交数据错误、缺失或工具调用问题，不扣积分。用户要求反馈时使用；带入用户本次诉求、涉及工具及实际调用上下文，不要猜测。返回反馈编号，可在开放平台“我的反馈”查看进度；奖励积分由后台审核决定。",
+            "name": "yuandian_report_issue"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Yuandian Legal Data": {
+        "type": "http",
+        "url": "https://open.chineselaw.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_0f5a867f68d7a2e80c5b9082bc95668754444d7319cb04c02125723edc12935d"
+      }
+    }
+  }
+}

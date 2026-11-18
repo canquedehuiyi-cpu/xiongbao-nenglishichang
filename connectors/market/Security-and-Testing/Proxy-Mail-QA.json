@@ -1,0 +1,366 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.651Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Security-and-Testing",
+  "categoryCode": "Security & Testing",
+  "connector_id": "proxymail-qa",
+  "connector_name": "Proxy Mail QA",
+  "connector_name_cn": "Proxy Mail QA",
+  "description": "Give your agent disposable, receive-only email addresses to test the messages your application sends. Create test addresses with fictional identities and optional form values, then wait for verification codes, sign-in links, invitations or password-reset links. Inspect email authentication checks such as SPF, DKIM and DMARC, identify localhost links and stated expiry information, and diagnose what reached an address when delivery fails. Manage test addresses, reusable test-account checkouts and run notes, and finish a test run with a Markdown report. MCP results do not return the email body, reducing exposure to untrusted sender content, and the service does not open links, preserving single-use links for your test. Connect through OAuth and select one project; no API key is required. Addresses last up to 30 days, subject to account limits. Marketing and offer checks require the relevant Labs features and project settings. In mainland China, use email sign-in rather than Google sign-in; access may be slower.",
+  "description_cn": "为 Agent 提供只收信的一次性测试邮箱，用于验证自有或已获授权应用的注册、登录、邀请和密码重置邮件。可创建带虚构身份及可选表单值的测试地址，等待验证码或操作链接；检查 SPF、DKIM、DMARC、localhost 链接和邮件中注明的有效期，并在邮件未到达时排查收件情况。还支持管理测试地址、借还测试账号、记录测试过程并生成 Markdown 报告。MCP 不返回邮件正文，减少不可信发件内容的暴露；服务不会打开链接，便于继续验证一次性链接。通过 OAuth 登录并选择一个项目，无需 API Key；地址最长保留 30 天，使用受账号额度限制。营销与优惠检查需开启相应 Labs 功能和项目设置。中国大陆建议使用邮箱登录，Google 登录不可用，访问速度可能较慢。",
+  "version": "1.0.0",
+  "category": "Security & Testing",
+  "tags": [
+    "email-testing",
+    "qa",
+    "verification",
+    "test-automation",
+    "proxymail",
+    "qoder-vibe-new",
+    "qoder-pro-new"
+  ],
+  "provider_name": "Sidequest Explorers Inc",
+  "author": {
+    "name": "Sidequest Explorers Inc",
+    "display_name": "Sidequest Explorers Inc"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {
+    "en-US": [
+      "Create a test email address for sign-up testing.",
+      "Count the emails a test address has received.",
+      "Wait for a test address's verification code."
+    ],
+    "zh-CN": [
+      "创建一个用于注册测试的测试邮箱地址。",
+      "统计测试地址收到的邮件数量。",
+      "等待测试地址收取的验证码。"
+    ]
+  },
+  "config": {
+    "servers": [
+      {
+        "name": "proxymail-qa",
+        "url": "https://api.proxymail.qa/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "在已授权项目中创建只收信的测试邮箱、获取验证码和链接、检查邮件投递、管理测试账号并记录 QA 测试报告。",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_9d53c6b5c3758aab9087e7bc7d18176c20673be1716d6a9d0bf3aba023b0a75d",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_9d53c6b5c3758aab9087e7bc7d18176c20673be1716d6a9d0bf3aba023b0a75d",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [
+      {
+        "name": "create_address",
+        "description": "Create a receive-only test address with fictional identity information.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "form_values",
+        "description": "Generate values for a test sign-up form.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "list_addresses",
+        "description": "List or find test addresses in the authorized project.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "update_address",
+        "description": "Update a test address's label, notes, tags or persona; modifies stored data.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "delete_address",
+        "description": "Delete a test address and its mail; destructive operation.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "set_password",
+        "description": "Save or update the password used by a test account; modifies stored data.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "get_saved_password",
+        "description": "Read a saved test-account password when permitted; earlier saved passwords are restricted by OAuth access.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "get_sign_in",
+        "description": "Retrieve sign-in information for a test account within the permitted project.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "get_address_variants",
+        "description": "Generate email-address variants for form validation testing.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "get_name_variants",
+        "description": "Generate name variants for form validation testing.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "get_password_variants",
+        "description": "Generate password variants for testing form rules.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "wait_for_code",
+        "description": "Wait for a verification or sign-in code without returning the email body.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "wait_for_link",
+        "description": "Wait for a verification, sign-in, invitation or reset link without opening it.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "count_emails",
+        "description": "Count emails received by a test address.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "expect_no_email",
+        "description": "Check that no email arrives for a test scenario.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "check_delivery",
+        "description": "Inspect received mail and diagnose delivery problems.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "check_email",
+        "description": "Inspect SPF, DKIM, DMARC, links, stated expiry and mobile-display checks for a test email.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "get_project",
+        "description": "Read the authorized project's mail domains, prefix and limits.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "update_project",
+        "description": "Update the authorized project's settings; modifies stored data.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "mark_dev_host",
+        "description": "Mark a development host for the authorized project's tests.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "start_run",
+        "description": "Start a QA test-run record.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "add_run_note",
+        "description": "Add a note to a QA test run.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "finish_run",
+        "description": "Finish a QA test run and generate its Markdown report.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "check_out_account",
+        "description": "Check out an account from the test-account pool.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "extend_checkout",
+        "description": "Extend a test-account checkout.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "return_account",
+        "description": "Return a checked-out test account to the pool.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "search_docs",
+        "description": "Search Proxy Mail QA documentation.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "mark_unsubscribed",
+        "description": "Record an unsubscribe state; requires the relevant Labs and project features.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "mark_resubscribed",
+        "description": "Record a resubscribe state; requires the relevant Labs and project features.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "record_consent",
+        "description": "Record marketing-consent test information; requires the relevant Labs and project features.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "record_coupon_result",
+        "description": "Record a coupon-test result; requires the relevant Labs and project features.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "check_offers",
+        "description": "Check offer emails; requires the relevant Labs and project features.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "check_sequence",
+        "description": "Check a marketing-email sequence; requires the relevant Labs and project features.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "check_unsubscribe",
+        "description": "Check unsubscribe behavior; requires the relevant Labs and project features.",
+        "server_name": "proxymail-qa",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      }
+    ],
+    "mcp_servers": {
+      "proxymail-qa": {
+        "type": "http",
+        "url": "https://api.proxymail.qa/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_9d53c6b5c3758aab9087e7bc7d18176c20673be1716d6a9d0bf3aba023b0a75d"
+      }
+    }
+  }
+}

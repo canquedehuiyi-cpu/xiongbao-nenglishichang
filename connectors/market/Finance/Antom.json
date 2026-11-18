@@ -1,0 +1,142 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.533Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Finance",
+  "categoryCode": "Finance",
+  "connector_id": "antom",
+  "connector_name": "Antom",
+  "connector_name_cn": "Antom",
+  "description": "Connect your AI agent to Antom through OAuth to support payment integration development and troubleshooting. Query merchant information and onboarding status, retrieve transaction details and integration logs, diagnose failed requests, check diagnostic results, and obtain billing statement download links. Use these tools to review onboarding progress, investigate integration errors, correlate transaction information with logs, and retrieve billing materials without copying merchant secret keys into your agent. Antom MCP is currently in a limited rollout for allowlisted merchants only. Users need an Antom merchant account and must contact pub_antom_integration_service@antom.com to request MCP access, then authorize the connection through Antom OAuth. MCP access permissions are managed separately for Test and Live modes in Antom Dashboard; an administrator may need to enable access. Authorized client sessions can be reviewed and revoked in Antom Dashboard.",
+  "description_cn": "面向支付集成开发者，通过 Antom OAuth 授权为 Agent 提供商户信息与入驻状态查询、交易详情查询、集成日志查询、失败请求诊断、诊断结果查询，以及账单下载链接获取能力。可用于核对商户入驻进度、排查集成错误、结合交易详情与日志定位问题，并获取账单材料，无需将商户 Secret Key 复制给 Agent。Antom MCP 目前处于灰度阶段，仅对白名单商户开放：使用者需拥有 Antom 商户账号，并联系 pub_antom_integration_service@antom.com 申请 MCP 使用白名单；获批后通过 Antom OAuth 授权连接。测试模式与生产模式的 MCP 访问权限分别管理，可能需要管理员在 Antom Dashboard 中开启；已授权客户端会话可在 Dashboard 中查看和撤销。",
+  "version": "1.0.0",
+  "category": "Finance",
+  "tags": [
+    "payments",
+    "integration",
+    "diagnostics",
+    "billing",
+    "antom",
+    "qoder-vibe-new",
+    "qoder-pro-new"
+  ],
+  "provider_name": "Antom",
+  "author": {
+    "name": "Antom",
+    "display_name": "Antom"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {
+    "en-US": [
+      "Check my merchant profile and onboarding status",
+      "Look up the transaction details for this order",
+      "Get the download URL for this billing statement"
+    ],
+    "zh-CN": [
+      "帮我查询商户资料和入驻状态",
+      "帮我查询这笔订单的交易详情",
+      "帮我获取本期账单的下载链接"
+    ]
+  },
+  "config": {
+    "servers": [
+      {
+        "name": "antom",
+        "url": "https://mcp.antom.com",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "查询 Antom 商户与入驻状态、交易详情和集成日志，诊断失败请求、查询诊断结果并获取账单下载链接；需白名单商户账号及 OAuth 授权。",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_023b7d0dd058e8f885c400fa329e8eea9a08a73761265a15fb8f53a296c62fa6",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_023b7d0dd058e8f885c400fa329e8eea9a08a73761265a15fb8f53a296c62fa6",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [
+      {
+        "name": "antom_inquire_merchant_profile",
+        "description": "Query merchant profile and onboarding status.",
+        "server_name": "antom",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "antom_query_transaction_detail",
+        "description": "Query transaction details.",
+        "server_name": "antom",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "antom_diagnose_error",
+        "description": "Diagnose a failed request.",
+        "server_name": "antom",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "antom_inquire_diagnosis_result",
+        "description": "Query diagnosis results.",
+        "server_name": "antom",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "antom_inquire_integration_logs",
+        "description": "Query integration logs.",
+        "server_name": "antom",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      },
+      {
+        "name": "antom_fetch_bill_download_url",
+        "description": "Get a billing statement download URL.",
+        "server_name": "antom",
+        "input_schema": "",
+        "title": "",
+        "annotations": null
+      }
+    ],
+    "mcp_servers": {
+      "antom": {
+        "type": "http",
+        "url": "https://mcp.antom.com",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_023b7d0dd058e8f885c400fa329e8eea9a08a73761265a15fb8f53a296c62fa6"
+      }
+    }
+  }
+}

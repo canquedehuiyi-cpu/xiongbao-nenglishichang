@@ -1,0 +1,297 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.618Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "b4540f0b-39f1-4350-8875-ecaa112133e6",
+  "connector_name": "Airtable",
+  "connector_name_cn": "Airtable",
+  "description": "Airtable provides customizable online databases and collaborative apps to centralize business data, workflows, and projects.",
+  "description_cn": "用于搭建可自定义的在线数据库和协作应用，帮助团队集中管理业务数据、流程与项目。",
+  "version": "1.0.4",
+  "category": "Productivity",
+  "tags": [
+    "qoder-vibe"
+  ],
+  "provider_name": "Airtable",
+  "author": {
+    "name": "",
+    "display_name": "Airtable"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Airtable",
+        "url": "https://mcp.airtable.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_201f760e46261e79ed2ebaa9e278759537b1a6f4b8984926709a0898ab989c9c",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_201f760e46261e79ed2ebaa9e278759537b1a6f4b8984926709a0898ab989c9c",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Ping the MCP server to check if it is running",
+            "name": "ping"
+          },
+          {
+            "description": "Lists all bases that you have access to in your Airtable account.\nUse this to get the baseId of the base you want to use.\nFavorited and recently viewed bases are generally more relevant.\nIf the response includes an offset, pass it in a subsequent call to retrieve the next page of results.",
+            "name": "list_bases"
+          },
+          {
+            "description": "Lists all workspaces the current user has access to, along with their permission level in each.\nNo dependencies. This is typically the first tool to call when you need a workspaceId.",
+            "name": "list_workspaces"
+          },
+          {
+            "description": "Searches for bases by name.\nThis is useful when you need to find a specific base quickly by a partial name-based match.\nReturns bases sorted by their relevance score, as well as a recommended base ID and a hint on whether\nwe need to ask the user to explicitly select the base they want to use.",
+            "name": "search_bases"
+          },
+          {
+            "description": "Gets the summary of a specific base. This includes the schemas of all tables in the\nbase, including field name and type.\nIf the base is not found or returns a permission error, the user may have interface-only access. Try list_pages_for_base instead.",
+            "name": "list_tables_for_base"
+          },
+          {
+            "description": "Gets the detailed schema information for specified tables and fields in a base.\nThis returns the field ID, type, and config for the specified fields of the specified tables.\nExample: get schema for two fields in a table:\n{\"baseId\": \"appZfrNIUEip5MazD\", \"tables\": [{\"tableId\": \"tblGlReoTNWfYnXIG\", \"fieldIds\": [\"fld8WsrpLHHevsnW8\", \"fldgD18XtsueoiguT\"]}]}",
+            "name": "get_table_schema"
+          },
+          {
+            "description": "Lists records queried from an Airtable table.\nDo not assume baseId and tableId. Obtain these from search_bases → list_tables_for_base.\nDo not attempt to pass filterByFormula. Look carefully at the filters parameter.\nPre-requisite: If filtering on singleSelect/multipleSelects fields, and the choice name is not provided, you must call get_table_schema first to get the choice IDs.\nAim to provide at least 6 relevant fields via the 'fieldIds' parameter.\nNote: singleSelect and multipleSelects field values are returned as objects (e.g., {\"id\": \"sel...\", \"name\": \"Option\", \"color\": \"blue\"}) or arrays of such objects. When writing these values back via create_records_for_table or update_records_for_table, use the plain string name (e.g., \"Option\") instead of the object.\nIf the base is not found or returns a permission error, the user may have interface-only access. Try list_records_for_page instead.",
+            "name": "list_records_for_table"
+          },
+          {
+            "description": "Lists comments on a specific Airtable record, ordered from newest to oldest.\nDo not assume baseId, tableId, or recordId. Obtain these from search_bases → list_tables_for_base → list_records_for_table.\nComments may contain user mentions in @[userId] or @[userGroupId] format. The mentioned field maps these IDs to display names and emails.\nSupports pagination via pageSize and offset parameters.",
+            "name": "list_record_comments"
+          },
+          {
+            "description": "Creates a comment on a specific Airtable record.\nDo not assume baseId, tableId, or recordId. Obtain these from search_bases → list_tables_for_base → list_records_for_table.\nTo mention a user or group in the comment, include @[userId] or @[userGroupId] tokens in the text. Obtain user IDs from collaborator fields in list_records_for_table results.\nSupports threaded replies via the optional parentCommentId parameter.",
+            "name": "create_record_comment"
+          },
+          {
+            "description": "Creates new records in an Airtable table.\nTo get baseId and tableId, use the search_bases and list_tables_for_base tools first.\nWhen writing to a linked-record (multipleRecordLinks) field through an interface page, get the\nrecord IDs from search_candidate_linked_records, passing a pageId that exposes\nthe field for editing — it also applies the field's record-selection filters. It only works\nwithin interfaces; for base-level writes, use record IDs from the linked table.\nFor singleSelect/multipleSelects fields, provide the option name as a plain string (e.g., \"In progress\") or array of strings, not the object format returned by list_records_for_table.\nBy default the response includes only the fields you wrote. To also include fields you did not write (e.g. the primary field or formula results), pass their IDs in fieldIds.\nYou can create up to 50 records per request. To create more than 50 records, make multiple requests.\nExample: create a record with singleLineText, number, singleSelect, and multipleSelects fields:\n{\"baseId\": \"appZfrNIUEip5MazD\", \"tableId\": \"tblGlReoTNWfYnXIG\", \"records\": [{\"fields\": {\"fldGlRtkBNWfYnPOV\": \"Launch meeting\", \"fldulcCPDVz87Bmnw\": 42, \"fld8WsrpLHHevsnW8\": \"In progress\", \"fldgD18XtsueoiguT\": [\"Urgent\", \"Q1\"]}}]}",
+            "name": "create_records_for_table"
+          },
+          {
+            "description": "Updates records in an Airtable table.\nThe fields you specify will be updated, and all other fields will be left unchanged.\nTo get baseId and tableId, consider using the search_bases and list_tables_for_base tools first.\nWhen writing to a linked-record (multipleRecordLinks) field through an interface page, get the\nrecord IDs from search_candidate_linked_records, passing a pageId that exposes\nthe field for editing — it also applies the field's record-selection filters. It only works\nwithin interfaces; for base-level writes, use record IDs from the linked table.\nFor singleSelect/multipleSelects fields, provide the option name as a plain string (e.g., \"In progress\") or array of strings, not the object format returned by list_records_for_table.\nBy default the response includes only the fields you wrote. To also include fields you did not write (e.g. the primary field or formula results), pass their IDs in fieldIds.\nYou can update up to 50 records per request. To update more than 50 records, make multiple requests.\nExample: update a record's fields:\n{\"baseId\": \"appZfrNIUEip5MazD\", \"tableId\": \"tblGlReoTNWfYnXIG\", \"records\": [{\"id\": \"recZOTa3BDHxlJNzf\", \"fields\": {\"fldGlRtkBNWfYnPOV\": \"Updated name\", \"fld8WsrpLHHevsnW8\": \"Done\"}}]}",
+            "name": "update_records_for_table"
+          },
+          {
+            "description": "Deletes records from an Airtable table.\nTo get record IDs, use the list_records_for_table or search_records tools first.\nYou can delete up to 50 records per request. To delete more than 50 records, make multiple requests.\nExample: delete selected records returned by a preceding list or search call, using the request shape advertised for this endpoint.",
+            "name": "delete_records_for_table"
+          },
+          {
+            "description": "Reverts a previous eligible Airtable mutation by performing the inverse write, using the actionId it returned. Record updates are not revertible.\nUse the actionId returned by an eligible mutating tool result. A tool result is eligible only if it explicitly returns an actionId. Examples include create_records_for_table or delete_records_for_table.\nReverts one actionId per call (a multi-action revert is not atomic). To revert several, call once per actionId in reverse completion order, stopping on the first error.\nExample: revert an eligible mutation:\n{\"baseId\": \"appZfrNIUEip5MazD\", \"actionId\": \"actZOTa3BDHxlJNzf\"}",
+            "name": "revert_action"
+          },
+          {
+            "description": "Creates a new Airtable base with the specified tables and fields.\nRequires a workspaceId. To find workspace IDs, use list_workspaces.\nWhen tables are provided, the first field in each table's fields array becomes that table's primary field\nand must be a supported primary field type.\nExample: create a base called \"Project Tracker\" with a \"Tasks\" table:",
+            "name": "create_base"
+          },
+          {
+            "description": "Creates a new table in an Airtable base.\nTo get baseId, use the search_bases or list_bases tools first.\nThe first field in the fields array becomes the primary field of the table.\nExample: create a table called \"Projects\" with singleLineText (Title), number (Priority), singleSelect (Status), and multipleSelects (Tags) fields:\n{\"baseId\": \"appZfrNIUEip5MazD\", \"name\": \"Projects\", \"fields\": [{\"name\": \"Title\", \"type\": \"singleLineText\"}, {\"name\": \"Priority\", \"type\": \"number\", \"options\": {\"precision\": 0}}, {\"name\": \"Status\", \"type\": \"singleSelect\", \"options\": {\"choices\": [{\"name\": \"Todo\"}, {\"name\": \"In progress\"}, {\"name\": \"Done\"}]}}, {\"name\": \"Tags\", \"type\": \"multipleSelects\", \"options\": {\"choices\": [{\"name\": \"Urgent\"}, {\"name\": \"Q1\"}]}}]}",
+            "name": "create_table"
+          },
+          {
+            "description": "Updates an existing table's name and/or description in an Airtable base.\nTo get baseId and tableId, use the search_bases and list_tables_for_base tools first.\nAt least one of name or description must be provided.\nExample: update a table's name and description:\n{\"baseId\": \"appZfrNIUEip5MazD\", \"tableId\": \"tblGlReoTNWfYnXIG\", \"name\": \"Updated Name\", \"description\": \"New description\"}",
+            "name": "update_table"
+          },
+          {
+            "description": "Update properties of an existing non-form view.\nConfigure Grid, Gallery, Kanban, Calendar, Timeline, and Gantt views.\nList views support name and description updates only.\nSupply at least one change. Omitted properties remain unchanged.\nPersonal views, locked views, and base restrictions follow ordinary Airtable permissions.\nReturns a compact acknowledgement and an actionId for revert_action when available.\nUse list_views_for_table to discover view IDs. The view must belong to the\nsupplied base and table.\n{\"baseId\":\"appZfrNIUEip5MazD\",\"tableId\":\"tblABCDEFGHIJKLMN\",\"viewId\":\"viwABCDEFGHIJKLMN\",\"name\":\"Active projects\"}",
+            "name": "update_view"
+          },
+          {
+            "description": "Deletes an entire table from a base, including all of its records, fields, and views.\nUse list_tables_for_base to find the appropriate tableId.\nA base must always have at least one table, so the last remaining table in a base cannot be\ndeleted; attempting to do so returns an error.\n\nOn success, the response includes an actionId that can be passed to\nrevert_action to undo the deletion, restoring the table with its records,\nfields, and views. Reverting is best-effort: it may fail if the base's schema changed after\nthe deletion (for example, another table took the deleted table's former position), so treat\nthe deletion as permanent unless a revert succeeds.\nExample: delete the table tblABCDEFGHIJKLMN in base appZfrNIUEip5MazD:\n{\"baseId\": \"appZfrNIUEip5MazD\", \"tableId\": \"tblABCDEFGHIJKLMN\"}",
+            "name": "delete_table"
+          },
+          {
+            "description": "Creates a new field in an existing Airtable table.\nTo get baseId and tableId, use the search_bases and list_tables_for_base tools first.\nExample: create a singleSelect \"Status\" field:\n{\"baseId\": \"appZfrNIUEip5MazD\", \"tableId\": \"tblGlReoTNWfYnXIG\", \"field\": {\"name\": \"Status\", \"type\": \"singleSelect\", \"options\": {\"choices\": [{\"name\": \"Todo\"}, {\"name\": \"In progress\"}, {\"name\": \"Done\"}]}}}\nExample: create a number \"Priority\" field:\n{\"baseId\": \"appZfrNIUEip5MazD\", \"tableId\": \"tblGlReoTNWfYnXIG\", \"field\": {\"name\": \"Priority\", \"type\": \"number\", \"options\": {\"precision\": 0}}}\nExample: create a formula field (reference other fields by name or ID):\n{\"baseId\": \"appZfrNIUEip5MazD\", \"tableId\": \"tblGlReoTNWfYnXIG\", \"field\": {\"name\": \"Total\", \"type\": \"formula\", \"options\": {\"formula\": \"{Quantity} * {Price}\"}}}",
+            "name": "create_field"
+          },
+          {
+            "description": "Updates the name, description, and/or options of a field in an existing Airtable table.\nAt least one of name, description, or options must be specified.\nTo get baseId and tableId, use the search_bases and list_tables_for_base tools first.\nTo get the fieldId, use the list_tables_for_base tool.\nExample: update a field's name and description:\n{\"baseId\": \"appZfrNIUEip5MazD\", \"tableId\": \"tblGlReoTNWfYnXIG\", \"fieldId\": \"fldGlRtkBNWfYnPOV\", \"name\": \"Updated Name\", \"description\": \"Updated description\"}\nExample: update a formula field's expression:\n{\"baseId\": \"appZfrNIUEip5MazD\", \"tableId\": \"tblGlReoTNWfYnXIG\", \"fieldId\": \"fldGlRtkBNWfYnPOV\", \"options\": {\"formula\": \"{Quantity} * {Price}\"}}",
+            "name": "update_field"
+          },
+          {
+            "description": "Lists records from an interface page. Pages may display data from one table (simple pages)\nor multiple related tables (hierarchy pages, e.g. projects → tasks).\n\nThe response contains recordsByTableId, a map from table ID to the records from that table.\nFor simple pages this has one entry; for hierarchy pages it has one entry per configured level.\nUse the table IDs from list_pages_for_base to identify which table is which.\n\nUse this for bases with permissionLevel \"interfaceOnly\" or \"none\" (interface-only access), or when the user asks about interface/page data.\nDo not assume baseId. Obtain it from search_bases or list_bases.\nUse list_pages_for_base to find the pageId or interfaceId if needed.\nIf filtering or selecting specific fields, use list_pages_for_base if needed to find the field IDs and select choice IDs for the fieldIds and filters params.",
+            "name": "list_records_for_page"
+          },
+          {
+            "description": "Lists all interfaces and their pages for a base.\nReturns metadata about each interface and the pages within it, including page IDs, names,\nand page-type-specific fields describing the page's data model or content.\n\nPages have a pageType: \"list\" pages support listing records directly,\n\"dashboard\" pages contain visualization elements (charts, big numbers, etc.)\nthat aggregate data from source tables, \"overview\" pages contain static authored\ncontent (text, links) with no record data, and \"form\" pages create records in a single table.\n\nFor record list pages, use sourceTableId and tablesByTableId to understand the data model.\nFor dashboard pages, use dashboardElements to understand what each element visualizes.\nEach element's config describes the aggregation (e.g., a BigNumber with summaryFunction \"sum\"\nmeans \"sum the values of the referenced field\"). To compute these values, call\nlist_records_for_page with the element's id as elementId to fetch\nthe underlying records, then aggregate them according to the config.\nOverview pages are not backed by record data and cannot be used with\nlist_records_for_page; read their content field directly.\nFor form pages, use name, description, and sourceTableName to identify the relevant\nform. Call get_form_schema for the full form structure.\nForms appear in interfaces (pageType \"form\"), in standaloneForms (interfaceId null),\nor in embeddedForms — record-creation modals opened from page buttons, not navigable\nthemselves; pass any one of the form's interfaceIds as the interfaceId.\nNote that the server may choose to omit form pages depending on the configuration.\n\nUse this when the user asks about interfaces, pages, dashboards, or forms, or when a base has permissionLevel \"interfaceOnly\" or \"none\" (interface-only access).\n\nDraft pages are pages with no published layout (never published or since unpublished). They are\nomitted by default; set shouldIncludeDraftPages to return them in a top-level draftPages array.\nWhen shouldIncludeRecordDetailPages is also set, draftPages additionally includes record detail\npages not reachable via a published page. Check draftPages before concluding no requested\ndashboard exists or creating a destination, even when the user did not name the dashboard.\nIf the target remains missing or ambiguous, ask for its page URL instead of choosing another page.\n\nThis tool describes each page's published version. To read a page's working draft, including\nchanges that are not published yet, use get_page_layout. Read the draft that way\nbefore editing a page, including a dashboard.\nDo not assume baseId. Obtain it from search_bases or list_bases.\n{\"baseId\": \"appZfrNIUEip5MazD\"}",
+            "name": "list_pages_for_base"
+          },
+          {
+            "description": "Lists the views in a table, returning each view's ID, name, and type.\nUse this to discover viewId values needed by other tools, such as an automation\ntrigger that fires on records entering a view.\n\nSet includeConfiguration to true to read settings without records; optionally select viewIds.\nSelecting viewIds or setting includeConfiguration to true requires the feature enabled for the base.\nFor metadata-only listing, omit viewIds and omit includeConfiguration or set it to false.\n\nGrid, Gallery, Kanban, Calendar, Timeline, and Gantt support filters, sorts, autoSort,\nand visible fields. Only Grid, Timeline, and Gantt support grouping.\nList returns metadata and configuration type only; forms return metadata only.\nType-specific settings (e.g. date fields, Kanban stacking) and presentation settings are omitted.\n\nOmitted settings are unavailable: do not infer them or assume a complete view definition.\nnull filters means none; empty sorts/groups means none; false autoSort means disabled.\nReadable settings may not be writable; follow mutation tool schemas and descriptions,\nchanging only requested settings.\n\nConfiguration reads are limited to 100 views and never silently truncated.\nFor larger tables, discover IDs first, then request viewIds in batches of at most 100.\nDo not assume baseId. Obtain it from search_bases or list_bases. Use get_table_schema to inspect fields referenced by view configuration.\n{\"baseId\": \"appZfrNIUEip5MazD\", \"tableId\": \"Orders\"}",
+            "name": "list_views_for_table"
+          },
+          {
+            "description": "Gets a single record's details from an interface page element.\nTakes a navigation path with a root record and edges representing linked record relationships.\nWith no edges, returns the root record. With edges, returns the last edge's linkedRecordId.\nFor each edge, fieldId is the linked record field to follow, and linkedRecordId is the record it points to.\n\nExample: record A on page P has linked record field F pointing to record B.\n- Fetch A: path = {root: {pageId: P, recordId: A}, edges: []}\n- Fetch B: path = {root: {pageId: P, recordId: A}, edges: [{fieldId: F, linkedRecordId: B}]}\nEach subsequent call appends to the same path without changing root.\n\nFor dashboard pages, include elementId in the root to identify the dashboard element.\nObtain element IDs from the dashboardElements array in the list_pages_for_base response.\n\nThe response includes navigationTargets listing which fieldIds can be expanded further.\nTo navigate deeper, append a new edge.\n\nRequires baseId and path.\nUse this for bases with permissionLevel \"interfaceOnly\" or \"none\" (interface-only access), or when the user asks about interface/page data.\nDo not assume baseId. Obtain it from search_bases or list_bases.\nUse list_pages_for_base to find the pageId or interfaceId if needed.",
+            "name": "get_record_for_page"
+          },
+          {
+            "description": "Submits a form, creating a new record in the form's source table.\nCall get_form_schema first on the form's pageId to discover which fields the\nform collects, their fieldIds, types, required/read-only flags, select-field choices,\nand any prefilled values and visibility filters — do not assume every column on the\nsource table is on the form. The schema response includes the interfaceId (null for\nstandalone forms) to pass back here.\nFor linked-record fields, use search_candidate_linked_records to find the\nrecord IDs to submit. Always include that tool's fields param with the other values you\nplan to submit here, so its results respect the linked field's dynamic record-selection\nfilters.\nUse list_pages_for_base to find the pageId if needed.\nPass the baseId and pageId of the form, the interfaceId if the form lives inside\nan interface (otherwise omit it), and a fields object mapping field IDs to cell\nvalues (same shape as the create_records_for_table tool).\n\nFor singleSelect and multipleSelects fields, the value must be a choice name from\nthe field's options.choices in the get_form_schema response, exactly as\nwritten there — do not invent or reword option names.\n\nSupports entry-level form pages and record-creation row forms (forms embedded in other\ninterface page types).\n\nRespect the visibility filters from get_form_schema: do not submit a value\nfor any field hidden by its own visibilityFilters or its section's visibilityFilters.\n\nA field is visible only when the submitted values satisfy its filter and the filters of\nany fields it depends on. Do not set a field that wasn't requested just to make another\nvisible. If a hidden field is requested to be filled but the values don't reveal it, confirm\nhow to proceed before submitting.\n{\"baseId\": \"appXxx...\", \"pageId\": \"pagXxx...\", \"interfaceId\": \"pbdXxx...\", \"fields\": {\"fldXxx...\": \"Hello world\"}}",
+            "name": "submit_form"
+          },
+          {
+            "description": "Returns the schema of a form page — its structure, not the submitted-record data.\n\nReturns the form's source table, submission action (create or update), and a hierarchical\nbreakdown of sections, rows, and field elements. Sections are the visual groups inside the\nform (each with an optional title), rows are the columns-of-fields layout within a section,\nand elements describe each individual field — its label, helper text, field type,\nrequired/read-only status, any prefilled value, and any conditional visibility filter.\nSingle-select and multi-select field elements also list their valid choices.\n\nUse this when the user asks how a form is organized, what fields it collects, or which\nfields are required. visibilityFilters specifies the conditions under which a field or\nsection is shown, not a resolved shown/hidden state. Required fields are required only when\nvisible. Fields inside hidden sections are not visible. Do not call this on non-form pages.\n\nSupports entry-level form pages (in an interface or standalone) and record-creation row\nforms, forms embedded in other interface page types.\nDo not assume baseId. Obtain it from search_bases or list_bases.\nUse list_pages_for_base to find the pageId if needed.\nRecord-creation row forms appear in that tool's embeddedForms array; pass any one of the\nform's interfaceIds as the interfaceId here.\n{\"baseId\": \"appZfrNIUEip5MazD\", \"pageId\": \"pagXxYyZzAaBbCcDd\"}",
+            "name": "get_form_schema"
+          },
+          {
+            "description": "Searches for records in a table using a free-text query. Uses an optimized full-text index that supports fuzzy matching (handles typos) and token-based search (matches individual words regardless of order). When available, returns full record cell values and supports filtering and sorting of results.\nCall list_tables_for_base first to discover available tables and fields if needed.\nPrefer this over list_records_for_table when performing free-text search on large tables. Use list_records_for_table instead when filtering by exact field values or structured filters. Not all field types are searchable. Date, rating, checkbox, and button fields are not indexed. Formula, rollup, and lookup fields are only searchable if their result type is searchable. If you need to query by unsearchable field types, use list_records_for_table with filters instead.",
+            "name": "search_records"
+          },
+          {
+            "description": "Searches for records that are valid candidates for a linked-record (foreign-key) field,\nreturning each candidate's record ID along with the fields the linked-record field is\nconfigured to display (the same fields shown on the in-product card). Use this to find the\nrecord ID to put in a linked-record field when calling submit_form or\nupdate_records_for_table.\nUse list_pages_for_base to find the pageId if needed.\nUse get_form_schema (for forms) to discover the linked field's fieldId.\nPass the fieldId of the linked-record field you are filling (not the table it links to —\nthe foreign table is resolved automatically). The pageId must be a page that surfaces the\nlinked field: for submit_form this is the form's pageId; for\nupdate_records_for_table pass the interface page that shows the record/field\nbeing edited. Pass interfaceId when the page lives inside an interface; omit it for a\nstandalone form.\n\nA linked-record field's candidates can be restricted by dynamic filters that reference the\nrecord's OTHER field values, so you must supply those values for the filters to apply:\nwhen filling a NEW record (e.g. for submit_form), always pass fields with\nthe other values you have so far or plan to submit; when editing an EXISTING record, pass\nrecordId, plus fields for any other values you are changing in the same update (a value in\nfields takes precedence over the record's stored value; anything not in fields falls back\nto the stored value). If you pass neither, the filters are evaluated against blank values\nand the results may include records that are not actually selectable, or miss ones that\nare.",
+            "name": "search_candidate_linked_records"
+          },
+          {
+            "description": "Creates a new interface within a base.\nUse list_bases or search_bases to find the appropriate baseId.\nIf requested to do so, use create_page to create a new page within the interface.\nUse publish_interface to publish the pages in the interface to their live\nversions.",
+            "name": "create_interface"
+          },
+          {
+            "description": "Deletes an interface from a base, including all of its pages. The published version, if\nany, immediately stops being available to end users.\nUse list_pages_for_base to find the appropriate interfaceId.\nTo delete a single page within an interface instead, use delete_page.\n\nOn success of delete_interface, the response includes an actionId that can be\npassed to revert_action to undo the deletion, restoring the interface with its\npages.",
+            "name": "delete_interface"
+          },
+          {
+            "description": "Creates a new page. Pass interfaceId for interface pages; omit it for standalone pages\nsuch as \"recordDetail\".\nSupported page types: visualization, dashboard, customElement, recordDetail, and form.\nSupported visualization types for \"visualization\" pages: kanban, list, calendar, gallery, grid, timeline, and recordReview.\nUse list_bases or search_bases to find the appropriate baseId.\nUse create_interface to create a new interface to house an interface page;\nstandalone pages need none.\nUse list_pages_for_base to find the interfaceId if needed.\nUse describe_page_type to discover the config shape for the chosen pageType, and\ndescribe_page_element for element-specific config.\nThe publish_interface tool can be used to publish a new interface page to\nthe live version of the interface.",
+            "name": "create_page"
+          },
+          {
+            "description": "Deletes a page from an interface, given its pageId.\nStandalone forms, and pages that have no published version yet, are removed immediately. A\npage that has its own published version is instead staged for removal in the working draft,\nstaying visible to end users until the interface is published.\nAn immediate removal cannot be undone with these tools; a staged removal becomes permanent\nonce the interface is published.\nUse list_pages_for_base to find the pageId if needed.\nAfter deleting, only offer to run publish_interface when the removal was\nstaged — i.e. the page had its own published version. If it was removed immediately (a\nstandalone form, or a page with no published version), the deletion already took effect for\nend users, so do not suggest publishing.",
+            "name": "delete_page"
+          },
+          {
+            "description": "Returns the current layout of a page's working draft, including changes that are not\npublished yet, close to the configuration format create_page accepts. To\nrebuild a page from it, drop each elementId and each tab and dropdown id, and pass a\nvisualization page's single entry in visualizationElements as create_page's\nvisualizationElement. A field create_page requires, such as a kanban's\ngroupingFieldId or a calendar's dateFieldId, is absent when the page leaves it unset, so\nset it before rebuilding.\nSupported page types: visualization, dashboard, form, and customElement.\nA visualization page is the one list_pages_for_base lists as a\n\"list\" page. Dashboard elements are grouped as displayed: numbers, then charts, then\nvisualizations. Unreadable elements are omitted and reported in unsupportedConfigurations as\n\"elementNotSupported\".\nFor a form, this is the builder draft, including unpublished edits;\nget_form_schema only reads a form once it's published.\nA custom element page returns only the elementId of each Custom Element on it, not a\nconfiguration to rebuild the page from. Read a Custom Element with\ndescribe_custom_element and change it with\nupdate_custom_element_config, passing its elementId as pageElementId.\nDashboard custom elements are omitted with\n\"customElementNotSupported\"; the returned\nconfiguration is incomplete. Do not rebuild a page from this incomplete configuration. Use\ndescribe_custom_element to inspect them and\nupdate_custom_element_config for supported settings.\nFor any other page it returns an error that says how to read or change that page instead.\nUse list_bases or search_bases to find the appropriate baseId.\nUse list_pages_for_base to find the pageId if needed.",
+            "name": "get_page_layout"
+          },
+          {
+            "description": "Applies partial edits to an existing interface page's unpublished working draft. Publishing\nstays a separate step. Use this tool to change an existing page instead of recreating it. On\na visualization page it edits the elements it has.\nUse list_pages_for_base to find the pageId to edit, and\nget_page_layout to read the layout of the page's working draft before making edits.\nTo learn the settings a page or element type supports, call describe_page_type or\ndescribe_page_element. Send one operation per call. A single operation can\nchange many properties at once for its target.\nTo edit tabs or dropdowns, send the full list: keep each existing one by the id\nget_page_layout returned so links to it keep working, add new ones without\nan id, and omit any to remove.\n\nOn dashboards, target a sectionId or elementId from get_page_layout;\n\"page\" edits accept only name. A section accepts title, recordScopeFilters,\ntabs and dropdowns, the same way a page does.\n\nElements cannot be added to, removed from, or reordered on a dashboard.\n\nOn a standalone \"form\" page, target a field by field ID and a section by\nsectionId. A field takes isRequired, label (reword a question here, not by renaming the field),\ndescription, and isReadOnly; a section, title and description; \"page\", title,\nname, description, submitButtonLabel, and isPdfExportEnabled. ADD_ELEMENT adds a \"field\" to a\nsectionId, or a \"section\" as in create (an empty one needs a title) to\n\"page\". REMOVE_ELEMENT and MOVE_ELEMENT take either; a removed section takes\nits fields. A field goes after a field, or first in a sectionId; a section after a section; null\nis first. isInSameRow keeps a field in its after field's row.",
+            "name": "update_page"
+          },
+          {
+            "description": "Returns the JSON schema for a page type config.\nUse describe_page_element to discover any element-specific config required\nfor the chosen page type.\nThe returned schema describes the pageConfiguration shape required by create_page.",
+            "name": "describe_page_type"
+          },
+          {
+            "description": "Returns the JSON schema for a page element of the specified type.\nThe returned schema describes the element config within the pageConfiguration required by\ncreate_page.",
+            "name": "describe_page_element"
+          },
+          {
+            "description": "Lists the external accounts (integrations) accessible to the current user, including accounts they own and accounts shared with them.\nEach account includes its type (e.g. Google Sheets, Slack, Salesforce), a human-readable label, and an account configuration ID that can be used to reference the account in other tool calls.\nOnly [REDACTED] integration accounts are returned.",
+            "name": "list_external_accounts"
+          },
+          {
+            "description": "Lists the secrets accessible to the current user, including secrets they own and secrets shared with them via user groups.\nUse the returned IDs when configuring custom script automation actions that need secret access.",
+            "name": "list_secrets"
+          },
+          {
+            "description": "Fetches dynamic input options for an automation action or trigger's input field (e.g. Slack\nchannels, Jira projects, calendars). Requires an `externalAccountId` from\nlist_external_accounts.\nUse get_create_automation_instructions to discover which `inputKey`\nvalues each action or trigger type expects.",
+            "name": "fetch_automation_input_data"
+          },
+          {
+            "description": "Creates and validates one automation in a base: a trigger plus ordered nodes —\naction nodes, `repeatingGroup` (run inner nodes once per item), and `conditionalGroup`\n(if/else-if/else branches). Many trigger and action types are supported;\nget_create_automation_instructions has the full catalog. Saves the draft\nconfiguration only — it is off until the user reviews and turns it on in the Airtable UI.\nPrefer get_create_automation_instructions once per session for the full catalog.\nBefore building IDs, call list_tables_for_base(baseId). Call\nget_table_schema(baseId, tables) before filtering on select /\nmultiSelect fields.\nEvery trigger and node input is an expression (literal, $ref, template, fn, or a plain\nobject/array) — not raw JSON. Field shapes, typed {obj}/{tuple} wrappers, write modes, and\nan error index are in get_create_automation_instructions.\n\nFlow:\n1. create_automation(baseId, name, trigger, nodes). If isValid is false,\n   nothing was saved: use errors to fix the inputs and call again. After a couple of failed\n   attempts, report the errors to the user instead of looping.\n2. On success only the draft configuration is saved; the automation is off. Tell the user to open the automationUrl in the Airtable UI to review and turn it on.\n{\"trigger\":{\"type\":\"recordCreated\",\"inputs\":{\"tableId\":\"tbl...\"}},\"nodes\":[{\"key\":\"node1\",\"type\":\"updateRecord\",\"inputs\":{\"tableId\":\"tbl...\",\"rowId\":{\"template\":[{\"$ref\":\"trigger\",\"path\":[\"id\"]}]},\"updateRecordMethod\":\"customFields\",\"fields\":{\"fldStatus\":{\"template\":[\"In Progress\"]}}}}]}",
+            "name": "create_automation"
+          },
+          {
+            "description": "Replaces the entire draft configuration (trigger, graph, name, description) of an existing\nautomation. If the automation is on, live behavior is unchanged until unpublished changes\nare applied with Update in the Airtable UI.\nUse list_automations to find the automationId, then call\nget_automation to retrieve the current trigger, nodes, and description\nbefore updating — list_automations returns node summaries without their inputs. Call\nget_create_automation_instructions once per session for the full catalog\nof trigger types, action types, and expression shapes.\nThis is a full replacement — all fields (trigger, nodes, name, description) must be\nprovided, even if only one changed. The previous configuration is discarded entirely.\n\nOn success, the response includes an actionId that can be passed to\nrevert_action to undo the update and restore the previous configuration.",
+            "name": "update_automation"
+          },
+          {
+            "description": "Deletes an existing automation from a base. The automation must be off before it can be deleted.\nThe target automation must be off. If it is on, the user must turn it off in the\nAirtable UI before it can be deleted.",
+            "name": "delete_automation"
+          },
+          {
+            "description": "Returns the full spec for create_automation — expression language, wrappers, function catalog, trigger and action input catalogs, pitfalls, and a complete example. Call once per session before building an automation payload.",
+            "name": "get_create_automation_instructions"
+          },
+          {
+            "description": "Lists automations in an Airtable base.\nReturns metadata about each automation including its ID, name, deployment status, trigger info, and graph nodes.\nUse this when the user asks about automations configured in a base.\nOptionally filter by trigger type (e.g., 'agentTriggerReceived').\nThe returned configuration is the draft (the working copy the user edits). Set\nincludeDeployedVersion to true to also see each automation's most recently published\nconfiguration when it differs from the draft — useful for debugging deployed behavior.\nEdits always apply to the draft.\nDo not assume baseId. Obtain it from search_bases or list_bases.\n{\"baseId\": \"appZfrNIUEip5MazD\"}",
+            "name": "list_automations"
+          },
+          {
+            "description": "Lists past runs of a published automation, newest first, with the failing step and error category\nfor any run that failed. This is the tool for any question about whether an automation is \nworking: why it failed, whether it is still failing, when it started failing, or how often.\n\nCross-reference failure.nodeKey with the node keys from get_automation to see\nthe configuration of the step that broke.\nRun history does not go back indefinitely. The oldest run returned is not necessarily the first one.\nDo not assume baseId or automationId. Obtain the base from search_bases or list_bases, and the automation from list_automations.\n{\"baseId\": \"appZfrNIUEip5MazD\", \"automationId\": \"wflGlRtkBNWfYnPOV\", \"status\": \"failure\"}",
+            "name": "list_automation_runs"
+          },
+          {
+            "description": "Gets the full configuration of a single automation in an Airtable base, including trigger\nconfiguration, action nodes with their input expressions, and deployment status.\nThe returned configuration is the draft (the working copy the user edits). Set\nincludeDeployedVersion to true to also see the most recently published configuration\nwhen it differs from the draft — useful for debugging deployed behavior. Edits always\napply to the draft.\nRequires an automationId, which can be obtained from list_automations.\n{\"baseId\": \"appZfrNIUEip5MazD\", \"automationId\": \"wflGlRtkBNWfYnPOV\"}",
+            "name": "get_automation"
+          },
+          {
+            "description": "Re-runs the trigger test for a genericWebhookReceived automation and waits briefly for a\nnewly captured payload schema. This is an automation trigger operation, not an Airtable\nWebhooks API operation.\nCall get_automation first. The external system must POST a representative\nobject payload to the returned webhookUrl before this tool can capture its schema.\nFor a deployed automation, posting the sample also runs the live automation and may cause\nside effects. This tool does not send the sample or deploy or undeploy the automation.\n{\"baseId\": \"appZfrNIUEip5MazD\", \"automationId\": \"wflGlRtkBNWfYnPOV\"}",
+            "name": "test_automation_webhook_trigger"
+          },
+          {
+            "description": "Publishes an interface, promoting each page's working draft to the live version\nthat end users see. This includes any draft edits made outside this conversation,\nso publishing may make more changes live than just the ones made here.\nPages whose publishing state is \"disabled\" are skipped and remain as drafts.\nPublishing is idempotent: re-publishing an already-published interface with no\nnew changes is a no-op.\nUse search_bases or list_bases to find the appropriate baseId.\nUse list_pages_for_base to find the interfaceId if needed.\nUse create_interface and create_page to create a new\ninterface to publish.",
+            "name": "publish_interface"
+          },
+          {
+            "description": "Publishes a standalone form, making its working draft the live version people fill in.\nThis includes any draft edits made outside this conversation, so publishing may make more\nchanges live than just the ones made here. Only publish when the user asks to.\nUse list_pages_for_base to find the pageId if needed. A form that has never\nbeen published is only in its draftPages. Forms inside an interface are published with\npublish_interface.\nThis tool does not report who can fill in the form, so do not tell the user who can submit.\nWhen you share formUrl, also share shareSettingsUrl so the user can check who can fill\nit in.",
+            "name": "publish_form"
+          },
+          {
+            "description": "Run statistical operations (count, sum, average, min, max, etc.) on an Airtable table, optionally grouped by columns and filtered.",
+            "name": "analyze_table"
+          },
+          {
+            "description": "Creates a new Custom Element and returns a permanent blockId. The blockId\nwill be used to identify the custom element when building code and installing the element\ninto an interface page.\nRequires a valid baseId. After creation, pass the blockId to\nbuild_custom_element to compile code. For a new full-page element, pass\nthe built blockId to create_page with pageType \"customElement\".\nBuilding the element does not install it or add it to the manual Custom Element picker.\nFor a request to add the element to an existing page, resolve that page before creating\nor building. For \"this page\" or \"this dashboard\", match both the selected page and interface;\nhonor an explicitly different destination. When list_pages_for_base offers\nshouldIncludeDraftPages, set it to true before concluding no dashboard exists or creating\na destination. If the target is still missing or ambiguous, ask for its URL.\nDo not substitute the only published result. If adding to the existing dashboard is unavailable,\nexplain the limitation; do not create a full-page element or rebuild an existing element instead.\nCall this exactly once per new custom element. The returned blockId has a permanent\n1-to-1 correspondence with a page element after installation, and cannot be used in multiple\npage elements.\nDo NOT call this again for the same element. If a build fails in build_custom_element,\ntry again with the same blockId.\nTo edit an existing element, use describe_custom_element to retrieve its blockId.",
+            "name": "create_custom_element"
+          },
+          {
+            "description": "Builds, validates, and bundles source code for a Custom Element into a block release. Caller\nis responsible for writing the source code.\nRequires a blockId from create_custom_element or describe_custom_element.\nSource code must be TypeScript/JSX written with the @airtable/blocks SDK. Call get_custom_element_documentation\nfor instructions on how to write a Custom Element, such as using the SDK, including dependencies,\nreading/rendering/editing data, and [REDACTED] custom properties.\nIf a build fails, you can try this again with the same blockId, rather than creating a new one.\nBuilding a new element does not install it. For a new full-page element, pass the built\nblockId to create_page with pageType \"customElement\".\nRebuilding an installed block changes that element's code. Do not rebuild it to satisfy a\nrequest for an additional widget. If dashboard placement is unavailable, explain the\nlimitation rather than substituting a full-page element. For a code edit, reuse the element.",
+            "name": "build_custom_element"
+          },
+          {
+            "description": "Updates the configuration of an existing Custom Element (block) page element.\nUse this when the block's visible fields need to change without rebuilding\nthe block code.\nTo find existing Custom Elements, use get_application_schema or\nlist_pages_for_base to locate pageElementIds. To get the blockId and current\nconfig, call describe_custom_element first. To update the element's code\n(not just config), use build_custom_element with the same blockId —\nthe installation automatically picks up the new release.",
+            "name": "update_custom_element_config"
+          },
+          {
+            "description": "Returns documentation for writing Airtable Custom Element source code.\nCheck this before writing code for build_custom_element.\nCall with no topics to get the quickStart docs, which have\neverything you need to write a basic Custom Element. Choose one or more of the following topics\nfor more detailed docs.\n\n**Available topics:**\n- quickStart: SDK basics, how to read/write data, user\n  configuration via custom properties, how to include npm dependencies, expected response\n  format, and a minimal example. Start here.\n- blocksSdk: full SDK imports, hooks, components, FieldType enum\n- readingData: accessing tables, records, and fields\n- editingData: CRUD operations and permission checks\n- renderingCells: CellRenderer usage (required for most field types)\n- appearance: Tailwind styling, dark mode, icons, design language\n- tailwindConfig: the custom Tailwind tokens Airtable adds\n  (color, font, shadow, radius, and font-size class names) and when to use them\n- customProperties: configurable properties and credential handling\n- dependencies: required and recommended packages\n- configFormat: configByTableId structure for build_custom_element input\n- sourceCodeFormat: TypeScript/JSX structure, initializeBlock entry point\n- multiTablePatterns: working with multiple tables\n- examples: complete working examples (hello-world, multi-table dashboard)",
+            "name": "get_custom_element_documentation"
+          },
+          {
+            "description": "Retrieves source code and per-table page element configuration for a custom element. Use\nthis to inspect a custom element before updating it.\nRequires a valid baseId, pageId, and pageElementId. These are generated when creating a new\ncustom element, or returned in list_pages_for_base for existing custom elements.\nsourceCodeDownloadUrl is a short-lived signed URL for the custom element's source code. The\ndownload is a zip file containing a source.tsx and package.json. Call build_custom_element\nwith the updated source code to update the custom element in the page's working draft.\n\nCall update_custom_element_config to make non-code changes to the element's\nconfiguration.\n\nBoth of these tools update the interface's working draft. The live version of the interface\nwill not be updated until publish_interface is called.\n\nCustom elements built through MCP have a 1-to-1 correspondence with their page element. You\ncannot use the retrieved blockId for other custom elements, and you cannot update an existing\ncustom element with a new blockId.",
+            "name": "describe_custom_element"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Airtable": {
+        "type": "http",
+        "url": "https://mcp.airtable.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_201f760e46261e79ed2ebaa9e278759537b1a6f4b8984926709a0898ab989c9c"
+      }
+    }
+  }
+}

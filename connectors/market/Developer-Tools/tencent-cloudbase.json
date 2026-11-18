@@ -1,0 +1,82 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.497Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Developer-Tools",
+  "categoryCode": "Developer Tools",
+  "connector_id": "tencent-cloudbase",
+  "connector_name": "tencent-cloudbase",
+  "connector_name_cn": "腾讯云 CloudBase",
+  "description": "Tencent CloudBase (TCB) connects your cloud development environment to Qoder through the official CloudBase MCP server. Manage databases (NoSQL, MySQL, PostgreSQL), cloud functions, static hosting, storage, cloud run services, authentication and security rules, and query logs with natural language. Deploy apps end-to-end via presigned uploads and cloud pipelines, call Cloud API, and manage agents. Remote mode includes all server-side tools; destructive actions ask for confirmation. Access follows the Tencent Cloud account and environment you authorize.",
+  "description_cn": "腾讯云开发 CloudBase 通过官方 MCP 服务接入 Qoder，可对云开发环境执行操作：管理 NoSQL/MySQL/PostgreSQL 数据库、云函数、静态托管、云存储、云托管、身份认证与安全规则、日志检索，并支持取预签名地址上传代码走云端流水线完成部署、调用云 API、管理 Agent 等。覆盖从「看下我环境里的云函数」到「把这个应用部署上线」的完整开发场景。危险操作（删库、删函数、删存储等）会触发二次确认。远端模式不依赖本地 Node 环境，可访问范围取决于所授权的腾讯云账号与环境。",
+  "version": "1.0.0",
+  "category": "Developer Tools",
+  "tags": [
+    "云开发",
+    "Serverless",
+    "数据库",
+    "云函数",
+    "部署",
+    "腾讯云"
+  ],
+  "provider_name": "腾讯云",
+  "author": {
+    "name": "Tencent CloudBase",
+    "display_name": "腾讯云 CloudBase"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoder",
+    "qodercli",
+    "qoderapp",
+    "cloudagent"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "cloudbase-mcp",
+        "url": "https://tcb-api.cloud.tencent.com/mcp/v1",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "CloudBase MCP（数据库、云函数、托管、存储、部署、云API）",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_e62c92980ae2430073d4be4af75edcb7a0d97fc508177b8e15742cac79813dff",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_e62c92980ae2430073d4be4af75edcb7a0d97fc508177b8e15742cac79813dff",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "cloudbase-mcp": {
+        "type": "http",
+        "url": "https://tcb-api.cloud.tencent.com/mcp/v1",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_e62c92980ae2430073d4be4af75edcb7a0d97fc508177b8e15742cac79813dff"
+      }
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.545Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Knowledge",
+  "categoryCode": "Knowledge",
+  "connector_id": "cb601b76-4be5-48f5-9706-850d07bfcf0e",
+  "connector_name": "Tianyancha",
+  "connector_name_cn": "天眼查",
+  "description": "Tianyancha MCP provides enterprise business information for AI agents through the standard MCP protocol, covering company registration, ownership structures, beneficial owners, executives, operating disclosures, litigation risks, intellectual property, listed companies, bidding, and asset disposal.",
+  "description_cn": "天眼查 MCP 是天眼查官方推出的，面向智能体的企业商业信息连接服务，可通过标准 MCP 接口调用天眼查企业数据能力，覆盖企业主体检索、工商登记、股权结构、受益所有人、董监高、经营公示、风险诉讼、知识产权、上市公司信息、招投标与资产处置等维度。为企业核验、客户尽调、风险排查、供应商评估、投资研究、法务合规和经营分析等场景提供可信数据支撑。",
+  "version": "1.0.1",
+  "category": "Knowledge",
+  "tags": [],
+  "provider_name": "天眼查MCP",
+  "author": {
+    "name": "",
+    "display_name": ""
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwork",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Tianyancha MCP",
+        "url": "https://mcp.tianyancha.com/v1",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "天眼查 MCP 是天眼查官方推出的，面向智能体的企业商业信息连接服务，可通过标准 MCP 接口调用天眼查企业数据能力，覆盖企业主体检索、工商登记、股权结构、受益所有人、董监高、经营公示、风险诉讼、知识产权、上市公司信息、招投标与资产处置等维度。为企业核验、客户尽调、风险排查、供应商评估、投资研究、法务合规和经营分析等场景提供可信数据支撑。",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c89f3f24b8d1807c110f2606ae704bc78890ce9383810647243e918e7e5efe7d",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_c89f3f24b8d1807c110f2606ae704bc78890ce9383810647243e918e7e5efe7d",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "单次调用指定公司的内部业务工具，用于获取某个公司维度数据。从目录取得真实 tool_name 后直接调用本工具，不需要再到平台搜索该内部工具名。主体参数优先传 company_name；不要仅因为 search_companies 返回了 id 就改用 company_id，company_id 仅在没有准确企业名称时使用。tool_name 必须逐字复制 get_company_capabilities 返回表格 `tool_name` 列中的真实工具名；不要翻译、改写、猜测或使用其他系统工具名。必须传入 company_name 或 company_id、tool_name；同时提供 company_name 和 company_id 时默认使用 company_name 调用内部接口。代理调用必填参数：列表工具须在 arguments 中显式传 page/page_size；参数表另列建议值，特殊工具按参数表传 person_name、id 等字段。详情工具必须先从前置列表拿到 id/编号，不能用 page/page_size 代替。投资机构类工具（get_invest_agency_*）须在顶层 company_name 传投资机构库收录的机构名称，例如“深创投”；使用工商全称可能返回空结果。 权益说明：具体要求以 tool_name 为准；受限工具会明确提示需 VIP 或 SVIP。 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "call_tool"
+          },
+          {
+            "description": "并行调用指定公司的内部业务工具，最多 3 个。顶层主体参数优先传 company_name；不要仅因为 search_companies 返回了 id 就改用 company_id，company_id 仅在没有准确企业名称时使用。每个子调用的 tool_name 必须逐字复制 get_company_capabilities 返回表格 `tool_name` 列中的真实工具名；不要翻译、改写、猜测或使用其他系统工具名。必须传入 company_name 或 company_id；同时提供时默认使用 company_name 调用内部接口。代理调用必填参数：列表工具须在每个子调用 arguments 中显式传 page/page_size；参数表另列建议值，特殊工具按参数表传 person_name、id 等字段。仅用于互相没有依赖、不会决定下一步查询路径的非探索性质维度数据补齐；探索式追踪、详情下钻、主体/人员/关系路径发现应改用 call_tool 或对应画像工具单步调用。投资机构类工具（get_invest_agency_*）须在顶层 company_name 传投资机构库收录的机构名称，例如“深创投”；使用工商全称可能返回空结果。 （需SVIP） 调用额度：按实际执行的任务数量计次，单次最多执行并计 3 次；整批报错、全部无结果和系统异常计 0 次。",
+            "name": "call_tools_batch"
+          },
+          {
+            "description": "获取公司基础画像，聚合基础登记、简介、标签、规模和 Logo，返回 Markdown；联系方式、历史曾用名、地址坐标和所在园区按会员权益返回，正式期需 VIP。优先传 company_name；company_id 仅在没有准确企业名称时使用。 （免费会员可用） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "get_company_basic_profile"
+          },
+          {
+            "description": "发现某公司可进一步查询的专项能力，覆盖：工商年报、变更与历史沿革；股东、受益人、疑似实际控制人、股权结构、质押冻结及投资关系；诉讼案件、裁判文书、开庭和法院公告、执行失信、限制消费、终本与破产重整；行政和环保处罚、经营异常、税务违法、担保抵押、违约与司法询价评估；该企业参与的招投标及资产处置公告、许可抽查、产品竞品、客户供应商、荣誉榜单与新闻舆情；融资记录、上市财务及三表、债券与投资机构或基金；专利、商标、著作权、网站备案及建筑等资质；以及已支持的历史记录。输入 company_id，返回该企业公司维度可通过 call_tool/call_tools_batch 调用的内部工具清单。company_id 必须来自 search_companies 候选表 items[*].id，用于查询可用工具/dimcount；company_name 可同时传入，仅用于形成 Markdown、调用示例和后续主体参数。不要只传 company_name 调用本工具。后续 tool_name 必须逐字复制返回表格 `tool_name` 列中的真实工具名，不要按中文含义、其他系统工具名或经验自行改写。返回的是含用途、权益、参数与示例的 Markdown 目录，不是上述业务数据；具体项以本公司的“可用工具”和“按需可调用工具”为准，目录出现不保证有数据或具备执行权益。取得真实工具名后直接通过代理执行，不需要到平台再次搜索该内部名；优先用 call_tool 单步查询。同一公司的任务在工具与参数已确定、互不依赖且不决定后续查询路径时，可在 call_tools_batch 当前可用时批量补齐，每批最多 3 项。按项目、公告标题、采购人或供应商关键词检索公告时直接用 search_bids；按关键词或申请人检索专利、商标时直接用 search_patents、search_trademarks。基础画像、集团和人员查询使用各自一级入口。 （免费会员可用） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "get_company_capabilities"
+          },
+          {
+            "description": "获取公司集团画像：先识别所属集团及 groupUUID，再基于 groupUUID 查询集团成员、集团对外投资和集团投资方。适合控制链、VIE、关联方、集团结构和二跳主体发现；若未识别 groupUUID，会明确说明未继续下钻。 （需VIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "get_company_group_profile"
+          },
+          {
+            "description": "获取公司人员列表，聚合主要人员、上市公司董监高、核心团队、建筑注册人员、私募基金高管，适合创始人、高管、核心团队和人员关系追踪，返回 Markdown。 （需VIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "get_company_people"
+          },
+          {
+            "description": "轻量识别公司所属集团，返回集团基本信息、groupUUID、主公司和疑似实际控制人。输入 company_name、company_id 或 group_id 三选一；同时提供 company_name 和 company_id 时默认使用 company_name 调用内部接口。若要继续查询集团成员、集团对外投资和集团投资方，请用 get_company_group_profile。 （需VIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "get_group_info"
+          },
+          {
+            "description": "获取某公司某人员的基础画像，聚合人员画像、控制企业、合作伙伴及其相关公司，返回 Markdown。调用必填条件：提供 person_name，并至少提供 company_name 或 company_id 中的一项，用于定位该企业关联的人员。不支持仅凭姓名查询。推荐传准确企业名称；同时提供企业名称和企业 ID 时，优先使用 company_name。 （需SVIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "get_person_profile"
+          },
+          {
+            "description": "获取某公司某人员的风险画像，聚合风险总览、当前及历史失信、当前及历史被执行、当前及历史限制消费、终本案件、司法协助等信息，返回 Markdown。调用必填条件：提供 person_name，并至少提供 company_name 或 company_id 中的一项，用于定位该企业关联的人员。不支持仅凭姓名查询。推荐传准确企业名称；同时提供企业名称和企业 ID 时，优先使用 company_name。 （需SVIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "get_person_risk_profile"
+          },
+          {
+            "description": "当 MCP 查询或回答存在实际问题时，上报问题及必要上下文；本工具不消耗查询次数。",
+            "name": "report_mcp_issue"
+          },
+          {
+            "description": "跨公司搜索招投标和资产处置信息，返回 Markdown 候选列表；也适用于破产重整招募公告、重整投资人资格拍卖、司法拍卖、管理人公告、资产处置公告。 （免费会员可用） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "search_bids"
+          },
+          {
+            "description": "搜索公司候选列表，用于从企业名称、简称、统一社会信用代码等关键词中锚定目标企业，返回 Markdown 候选表。确认目标后，基础工商、简介、标签、规模和 Logo 等简单基础信息直接用 get_company_basic_profile，联系方式、曾用名、地址坐标和园区按会员权益返回；优先复制候选表企业名称传 company_name；集团/关联结构用 get_group_info 或 get_company_group_profile；高管、创始人、核心团队等人员问题用 get_company_people，指定人员后用 get_person_profile 或 get_person_risk_profile。股权、司法诉讼、风险、经营公示、知识产权、历史、财务/上市、招投标、舆情等其他专项维度，先用 get_company_capabilities 获取真实 tool_name；调用 get_company_capabilities 时必须传候选表中的 company_id，建议同时传 company_name 用于展示和后续主体参数；拿到真实 tool_name 后，根据用户需求和工具描述充分调用必要工具，优先用 call_tool 单步查询，低依赖事实补齐才用 call_tools_batch，后续公司维度调用仍优先复制候选表企业名称传 company_name。 （免费会员可用） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "search_companies"
+          },
+          {
+            "description": "按关键词、国标行业代码、地区代码搜索公司，返回 Markdown 候选列表。适合尚未确定具体企业、需要寻找某行业或某地区企业候选，以及潜在客户或供应商线索的场景。需要按成立日期筛选时，本工具不直接支持该条件，可用 get_company_basic_profile 核验候选的成立日期与经营范围。 （需VIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "search_companies_by_industry_region"
+          },
+          {
+            "description": "按公司名称、注册号、统一社会信用代码或天眼查企业 ID 查询该公司的上榜榜单，返回 Markdown 候选列表。 （需VIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "search_companies_by_ranking"
+          },
+          {
+            "description": "按标签名称、行业代码和地区代码搜索公司，返回 Markdown 候选列表；未传 tag 时使用 query 作为标签名称，industry/region 至少提供一个。 （需VIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "search_companies_by_tag"
+          },
+          {
+            "description": "按作品名称关键词或完整登记号跨公司搜索作品著作权登记，返回作品、日期和关联公司。 （需VIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "search_copyright_works"
+          },
+          {
+            "description": "按公司名称、统一社会信用代码或天眼查企业 ID 搜索上市公司，返回 Markdown 候选列表。 （需VIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "search_listed_companies"
+          },
+          {
+            "description": "跨公司搜索专利，返回 Markdown 候选列表。适用于按技术或产品关键词、申请人检索专利线索，可直接使用本工具。需要按企业主体查询其专利记录时，可在确认主体后经 get_company_capabilities 和 call_tool 查询。本工具不直接支持申请日期筛选，候选记录不等于完整、有效的专利清单。 （需VIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "search_patents"
+          },
+          {
+            "description": "跨公司搜索商标，返回 Markdown 候选列表。status 为商标状态，category 为流程类别，不等于当前状态或已确认的最新流程。 （需VIP） 调用额度：成功且返回有效结果计 1 次；报错、全部无结果和系统异常计 0 次。一次 AI 提问可能触发多次工具调用。",
+            "name": "search_trademarks"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Tianyancha MCP": {
+        "type": "http",
+        "url": "https://mcp.tianyancha.com/v1",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c89f3f24b8d1807c110f2606ae704bc78890ce9383810647243e918e7e5efe7d"
+      }
+    }
+  }
+}

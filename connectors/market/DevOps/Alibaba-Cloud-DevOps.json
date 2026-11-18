@@ -1,0 +1,887 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.500Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "DevOps",
+  "categoryCode": "DevOps",
+  "connector_id": "e1721dfc-7e13-4fdc-9723-65f2ce23e380",
+  "connector_name": "Alibaba Cloud DevOps",
+  "connector_name_cn": "云效 DevOps",
+  "description": "Alibaba Cloud DevOps provides requirements collaboration, source management, continuous delivery, testing, and development management.",
+  "description_cn": "提供阿里云 DevOps 平台，用于需求协作、代码管理、持续交付、测试和研发管理。",
+  "version": "1.0.2",
+  "category": "DevOps",
+  "tags": [],
+  "provider_name": "云效 DevOps",
+  "author": {
+    "name": "",
+    "display_name": "Alibaba Cloud DevOps"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Alibaba Cloud DevOps",
+        "url": "https://openapi-rdc.aliyuncs.com/ai/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ade1cdaf384024721eed9b1d6471e3ae655b87fbef13546ce226849f1aea9bbe",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_ade1cdaf384024721eed9b1d6471e3ae655b87fbef13546ce226849f1aea9bbe",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Get information about the current user and organization based on the token. In the absence of an explicitly specified organization ID, this result will take precedence.",
+            "name": "get_current_organization_info"
+          },
+          {
+            "description": "Get the list of organizations the current user belongs to",
+            "name": "get_user_organizations"
+          },
+          {
+            "description": "Get information about the current user based on the token. In the absence of an explicitly specified user ID, this result will take precedence.",
+            "name": "get_current_user"
+          },
+          {
+            "description": "[Code Management] Create a new branch in a Codeup repository",
+            "name": "create_branch"
+          },
+          {
+            "description": "[Code Management] Get information about a branch in a Codeup repository",
+            "name": "get_branch"
+          },
+          {
+            "description": "[Code Management] Delete a branch from a Codeup repository",
+            "name": "delete_branch"
+          },
+          {
+            "description": "[Code Management] List branches in a Codeup repository",
+            "name": "list_branches"
+          },
+          {
+            "description": "[Code Management] Get file content from a Codeup repository",
+            "name": "get_file_blobs"
+          },
+          {
+            "description": "[Code Management] Create a new file in a Codeup repository",
+            "name": "create_file"
+          },
+          {
+            "description": "[Code Management] Update an existing file in a Codeup repository",
+            "name": "update_file"
+          },
+          {
+            "description": "[Code Management] Delete a file from a Codeup repository",
+            "name": "delete_file"
+          },
+          {
+            "description": "[Code Management] List file tree from a Codeup repository",
+            "name": "list_files"
+          },
+          {
+            "description": "[Code Management] Query code to compare content",
+            "name": "compare"
+          },
+          {
+            "description": "[Code Management] Get information about a Codeup repository",
+            "name": "get_repository"
+          },
+          {
+            "description": "[Code Management] Get the CodeUp Repository List.\n\nA Repository serves as a unit for managing source code and is distinct from a Project.\n\nUse Case:\n\nView my repositories",
+            "name": "list_repositories"
+          },
+          {
+            "description": "[Code Management] Create a new Codeup repository.\n\nCreates an empty code repository that can then be pushed to via git.\n\nUse Cases:\n\nCreate a new repository for a project",
+            "name": "create_repository"
+          },
+          {
+            "description": "[Code Management] Get detailed information about a specific change request (merge request) by its local ID.",
+            "name": "get_change_request"
+          },
+          {
+            "description": "[Code Management] List change requests with multi-condition filtering, pagination and sorting. Supports filtering by repository, author, reviewer, state (opened/merged/closed), search keywords, and creation time range.",
+            "name": "list_change_requests"
+          },
+          {
+            "description": "[Code Management] Create a new change request (merge request). Supports specifying source/target branches, reviewers, associated work items, and optional AI review trigger.",
+            "name": "create_change_request"
+          },
+          {
+            "description": "[Code Management] Update an existing change request (merge request) title and/or description. At least one field is required.",
+            "name": "update_change_request"
+          },
+          {
+            "description": "[Code Management] Review a change request (merge request): submit a PASS / NOT_PASS opinion, optionally with a comment, and optionally submit pending draft comments at the same time.",
+            "name": "review_change_request"
+          },
+          {
+            "description": "[Code Management] Merge a change request (merge request) using a specific merge type (ff-only / no-fast-forward / squash / rebase), with an optional merge message and optional source-branch deletion. This rewrites the target branch and is not reversible.",
+            "name": "merge_change_request"
+          },
+          {
+            "description": "[Code Management] Create a comment on a change request. Supports two types: GLOBAL_COMMENT (global comment on the entire merge request) and INLINE_COMMENT (inline comment on specific code lines). For INLINE_COMMENT, you must provide file_path, line_number, from_patchset_biz_id, and to_patchset_biz_id parameters.",
+            "name": "create_change_request_comment"
+          },
+          {
+            "description": "[Code Management] List comments on a change request. Supports filtering by comment type (GLOBAL_COMMENT or INLINE_COMMENT), state (OPENED or DRAFT), resolved status, and file path (for inline comments).",
+            "name": "list_change_request_comments"
+          },
+          {
+            "description": "[Code Management] Update a comment on a change request. Can update the comment content and/or resolved status.",
+            "name": "update_change_request_comment"
+          },
+          {
+            "description": "[Code Management] List patch sets (versions) for a change request. Patch sets represent different versions of the merge request as it evolves.",
+            "name": "list_change_request_patch_sets"
+          },
+          {
+            "description": "[Code Management] List commits in a Codeup repository",
+            "name": "list_commits"
+          },
+          {
+            "description": "[Code Management] Get information about a commit",
+            "name": "get_commit"
+          },
+          {
+            "description": "[Code Management] Create a comment on a commit",
+            "name": "create_commit_comment"
+          },
+          {
+            "description": "Get the list of departments in an organization",
+            "name": "list_organization_departments"
+          },
+          {
+            "description": "Get information about a department in an organization",
+            "name": "get_organization_department_info"
+          },
+          {
+            "description": "Get the ancestors of a department in an organization",
+            "name": "get_organization_department_ancestors"
+          },
+          {
+            "description": "list user members in an organization",
+            "name": "list_organization_members"
+          },
+          {
+            "description": "Get information about a member in an organization",
+            "name": "get_organization_member_info"
+          },
+          {
+            "description": "Get information about a member in an organization by user ID",
+            "name": "get_organization_member_info_by_user_id"
+          },
+          {
+            "description": "[Organization Management] Search for organization members",
+            "name": "search_organization_members"
+          },
+          {
+            "description": "[Organization Management] List organization roles",
+            "name": "list_organization_roles"
+          },
+          {
+            "description": "[Organization Management] Get information about an organization role",
+            "name": "get_organization_role"
+          },
+          {
+            "description": "[Project Management] Get information about a Yunxiao project",
+            "name": "get_project"
+          },
+          {
+            "description": "[Project Management] Search for Yunxiao Project List. A Project is a project management unit that includes work items and sprints, and it is different from a code repository (Repository).\n\nUse Cases:\n\nQuery projects I am involved in\nQuery projects I have created",
+            "name": "search_projects"
+          },
+          {
+            "description": "[Project Management] Search for Yunxiao Program (Project Set) List. A Program is a collection of multiple related projects, used for unified management and coordination of large projects.\n\nUse Cases:\n\nQuery programs by name\nQuery programs by status\nQuery programs by creator",
+            "name": "search_programs"
+          },
+          {
+            "description": "[Project Management] List versions for a Yunxiao Program (Project Set). Versions are used to manage release plans and track delivery progress.\n\nUse Cases:\n\nList all versions in a program\nFilter versions by status (TODO, DOING, ARCHIVED)\nSearch versions by name",
+            "name": "list_program_versions"
+          },
+          {
+            "description": "[Project Management] List versions for a Yunxiao Project or Program. Versions are used to manage release plans and track delivery progress.\n\nUse Cases:\n\nList all versions in a project\nFilter versions by status (TODO, DOING, ARCHIVED)\nSearch versions by name",
+            "name": "list_versions"
+          },
+          {
+            "description": "[Project Management] Create a new version in a Yunxiao Project. Versions are used to manage release plans and track delivery progress.\n\nUse Cases:\n\nCreate a new release version\nPlan project milestones\nSet version owners and dates",
+            "name": "create_version"
+          },
+          {
+            "description": "[Project Management] Update an existing version in a Yunxiao Project. Can update version name, owners, start date, and publish date.\n\nUse Cases:\n\nUpdate version name\nChange version owners\nModify version dates",
+            "name": "update_version"
+          },
+          {
+            "description": "[Project Management] Delete a version from a Yunxiao Project.\n\nUse Cases:\n\nRemove obsolete versions\nClean up project versions",
+            "name": "delete_version"
+          },
+          {
+            "description": "[Project Management] Get information about a sprint",
+            "name": "get_sprint"
+          },
+          {
+            "description": "[Project Management] List sprints in a project",
+            "name": "list_sprints"
+          },
+          {
+            "description": "[Project Management] Create a new sprint",
+            "name": "create_sprint"
+          },
+          {
+            "description": "[Project Management] Update an existing sprint",
+            "name": "update_sprint"
+          },
+          {
+            "description": "[Project Management] Get information about a work item",
+            "name": "get_work_item"
+          },
+          {
+            "description": "[Project Management] Create a work item. \n描述字段使用提示：\n- description 支持 Markdown / 富文本，需配合 formatType（\"MARKDOWN\" 或 \"RICHTEXT\"）。\n- 描述中插入图片三步法：① 先建工作项（本工具， description 可先为空或占位）；② 调 create_workitem_attachment 上传图片拿到返回值中的 embedMarkdown 或 embedHtml；③ 调 update_work_item 把拼好的 description 写回。✅ 报错点：不要使用 create_workitem_attachment 返回的 url 字段，那是 30 秒过期的 OSS 临时签名。\n- 实际工时（fieldId 101587）与预计工时（fieldId 101586）为云效受控系统字段，不能通过本工具的 customFieldValues 修改；请改用 `create_effort_record` / `create_estimated_effort` 。",
+            "name": "create_work_item"
+          },
+          {
+            "description": "[Project Management] Search work items with various filter conditions. Paging is capped: page * perPage must not exceed 10000, otherwise the API returns 400 — narrow the filters to reach more results",
+            "name": "search_workitems"
+          },
+          {
+            "description": "[Project Management] Get the list of work item types for a project",
+            "name": "get_work_item_types"
+          },
+          {
+            "description": "[Project Management] Delete a work item. This operation is irreversible.",
+            "name": "delete_work_item"
+          },
+          {
+            "description": "[Project Management] Update a work item. \n调用参数结构：除 organizationId / workItemId 外，所有要更新的字段必须放在 updateWorkItemFields 对象中（包括 subject / description / formatType / status / assignedTo / priority / labels / sprint / trackers / verifier / participants / versions / customFieldValues）。\n描述中插入图片：先调 create_workitem_attachment 拿到返回值的 embedMarkdown（formatType=\"MARKDOWN\"）或 embedHtml（formatType=\"RICHTEXT\"），拼进 updateWorkItemFields.description，同时 updateWorkItemFields.formatType 设为对应值。⚠️ 不要把 create_workitem_attachment 返回的 url 嵌入 description，那是 30 秒过期的 OSS 临时签名。\n受控字段提醒：实际工时（fieldId 101587）与预计工时（fieldId 101586）为云效受控系统字段，不能通过 updateWorkItemFields.customFieldValues 修改；请改用 `create_effort_record`/`update_effort_record` 与 `create_estimated_effort`/`update_estimated_effort`。",
+            "name": "update_work_item"
+          },
+          {
+            "description": "[Project Management] List all work item types in an organization",
+            "name": "list_all_work_item_types"
+          },
+          {
+            "description": "[Project Management] List work item types in a project space",
+            "name": "list_work_item_types"
+          },
+          {
+            "description": "[Project Management] Get details of a specific work item type",
+            "name": "get_work_item_type"
+          },
+          {
+            "description": "[Project Management] List work item types that can be related to a specific work item",
+            "name": "list_work_item_relation_work_item_types"
+          },
+          {
+            "description": "[Project Management] List relation records of the requested relation type for a work item.",
+            "name": "list_workitem_relation_records"
+          },
+          {
+            "description": "[Project Management] Relate one work item to another. Use ASSOCIATED for a normal related item without a parent-child hierarchy.",
+            "name": "create_workitem_relation_record"
+          },
+          {
+            "description": "[Project Management] Delete a relation between two work items without deleting either work item.",
+            "name": "delete_workitem_relation_record"
+          },
+          {
+            "description": "[Project Management] Get field configuration for a specific work item type",
+            "name": "get_work_item_type_field_config"
+          },
+          {
+            "description": "[Project Management] Get workflow information for a specific work item type",
+            "name": "get_work_item_workflow"
+          },
+          {
+            "description": "[Project Management] List comments for a specific work item",
+            "name": "list_work_item_comments"
+          },
+          {
+            "description": "[Project Management] Create a comment for a specific work item. Set formatType to MARKDOWN for Markdown content or RICHTEXT for rich text. When omitted, the API defaults to RICHTEXT.",
+            "name": "create_work_item_comment"
+          },
+          {
+            "description": "[Project Management] List test cases related to a work item. Returns relation records including relationRecordId (used for deletion), testcaseId, subject and owner.",
+            "name": "list_workitem_testcase_relations"
+          },
+          {
+            "description": "[Project Management] Relate a test case to a work item. Returns the created relation record id.",
+            "name": "create_workitem_testcase_relation"
+          },
+          {
+            "description": "[Project Management] Remove a test case relation from a work item by relationRecordId (obtained from list_workitem_testcase_relations).",
+            "name": "delete_workitem_testcase_relation"
+          },
+          {
+            "description": "[Project Management] List attachments for a specific work item. Returns attachment information including file name, size, suffix, download URL, and creator/modifier details.",
+            "name": "list_workitem_attachments"
+          },
+          {
+            "description": "[Project Management] Get file information for a specific work item. Supports both file IDs (long hex for description-embedded images) and attachment IDs (numeric like [REDACTED]). Returns file details including name, size, suffix, and a temporary download URL.",
+            "name": "get_workitem_file"
+          },
+          {
+            "description": "[Project Management] Upload a file as an attachment to a work item via multipart/form-data. Supports any file type (单文件 ≤ 10MB，云效不支持 svg/tiff)。\n文件来源二选一：\n- 远程（streamable HTTP）部署：传 fileContent（文件内容的 base64 编码）+ fileName（含扩展名）。此时 server 与调用方通常不同机，server 读不到调用方本地文件，必须走 base64 内联。\n- 同机 / stdio 本地运行：传 filePath（绝对路径），server 直接读该文件；fileName 可省略（默认取路径 basename）。⚠️ 远程部署下 filePath 已被禁用(指向服务器文件系统,存在任意文件读取风险),只能用 fileContent。\n返回 WorkitemFile 含以下关键字段：\n- `id`/`name`/`size`/`suffix`：文件基础信息\n- `url`：OSS 临时下载地址，约 30 秒过期。⚠️ 仅用于下载，不要嵌入工作项描述/评论\n- `embedUrl`：永久代理 URL，适用于在工作项描述/评论中嵌入图片\n- `embedMarkdown`：预拼好的 Markdown 图片标签，formatType=MARKDOWN 时拼接进 description 即可\n- `embedHtml`：预拼好的 HTML <img> 标签，formatType=RICHTEXT 时拼接进 description 即可\n在工作项描述中插入图片的标准三步法：① 创建工作项（如已有则跳过）；② 调本工具上传图片、读出 embedMarkdown / embedHtml；③ 调 update_work_item，在 updateWorkItemFields.description 中拼入该 embed* 字段，同时设置 updateWorkItemFields.formatType 为 \"MARKDOWN\" 或 \"RICHTEXT\"。\n应用 token 场景必传 operatorId，个人 token 必传可省略。",
+            "name": "create_workitem_attachment"
+          },
+          {
+            "description": "[Project Management] List activity history for a specific work item. Returns changes including field updates, status transitions, association changes, and attachment changes, with operator and timestamp details.",
+            "name": "list_workitem_activities"
+          },
+          {
+            "description": "[Project Management] 获取用户的实际工时明细，结束时间和开始时间的间隔不能大于6个月",
+            "name": "list_current_user_effort_records"
+          },
+          {
+            "description": "[Project Management] 获取实际工时明细",
+            "name": "list_effort_records"
+          },
+          {
+            "description": "[Project Management] 登记实际工时。云效中实际工时（fieldId 101587）为受控字段，不能通过 update_work_item 的 customFieldValues 修改，必须调用本工具。",
+            "name": "create_effort_record"
+          },
+          {
+            "description": "[Project Management] 获取预计工时明细",
+            "name": "list_estimated_efforts"
+          },
+          {
+            "description": "[Project Management] 登记预计工时。云效中预计工时（fieldId 101586）为受控字段，不能通过 update_work_item 的 customFieldValues 修改，必须调用本工具。",
+            "name": "create_estimated_effort"
+          },
+          {
+            "description": "[Project Management] 更新已登记的实际工时（云效实际工时受控字段，不能走 update_work_item.customFieldValues）。",
+            "name": "update_effort_record"
+          },
+          {
+            "description": "[Project Management] 更新已登记的预计工时（云效预计工时受控字段，不能走 update_work_item.customFieldValues）。",
+            "name": "update_estimated_effort"
+          },
+          {
+            "description": "[Pipeline Management] Get details of a specific pipeline in an organization",
+            "name": "get_pipeline"
+          },
+          {
+            "description": "[Pipeline Management] Get a list of pipelines in an organization with filtering options",
+            "name": "list_pipelines"
+          },
+          {
+            "description": "[Pipeline Management] Generate the pipeline YAML without creating the pipeline — a dry run of create_pipeline_from_description, for previewing the config or debugging a generation problem. Takes the same parameters and follows the same guidelines.",
+            "name": "generate_pipeline_yaml"
+          },
+          {
+            "description": "[Pipeline Management] Create a pipeline from structured parameters.\n\nWorkflow: take the parameters the user stated explicitly, fill the rest by inspecting the local project (each parameter's description says which file or git command to read), then call this tool.\n\nGuidelines:\n- Prefer local detection over API calls. Do NOT call list_repositories / list_service_connections first; only do so when the user explicitly wants to pick from the available options.\n- Omit serviceConnectionId to have the default resolved internally. serviceName is derived from repoUrl (git@host:org/repo.git → repo) when omitted.",
+            "name": "create_pipeline_from_description"
+          },
+          {
+            "description": "[Pipeline Management] Intelligently search pipelines with natural language time references (e.g., 'today', 'this week')",
+            "name": "smart_list_pipelines"
+          },
+          {
+            "description": "[Pipeline Management] Run a pipeline.\n\nUse the simplified parameters (branch, tag, branches, repositories, environmentVariables). Do NOT hand-craft the 'params' JSON — it is only for a raw JSON string the user supplies verbatim, and it overrides everything else.\n\nBehavior: passing branch or tag alone resolves the repository URLs from the pipeline config automatically; passing branches enables branch mode.",
+            "name": "create_pipeline_run"
+          },
+          {
+            "description": "[Pipeline Management] Get information about the latest pipeline run",
+            "name": "get_latest_pipeline_run"
+          },
+          {
+            "description": "[Pipeline Management] Get details of a specific pipeline run instance",
+            "name": "get_pipeline_run"
+          },
+          {
+            "description": "[Pipeline Management] Get a list of pipeline run instances with filtering options",
+            "name": "list_pipeline_runs"
+          },
+          {
+            "description": "[Pipeline Management] Get pipeline execution tasks by category. Currently only supports DEPLOY category.",
+            "name": "list_pipeline_jobs_by_category"
+          },
+          {
+            "description": "[Pipeline Management] Get the execution history of a pipeline task. Retrieve all execution records for a specific task in a pipeline.",
+            "name": "list_pipeline_job_historys"
+          },
+          {
+            "description": "[Pipeline Management] Manually run a pipeline task. Start a specific job in a pipeline run instance.",
+            "name": "execute_pipeline_job_run"
+          },
+          {
+            "description": "[Pipeline Management] Get the execution logs of a pipeline job. Retrieve the log content for a specific job in a pipeline run.",
+            "name": "get_pipeline_job_run_log"
+          },
+          {
+            "description": "[Pipeline Management] Stop/terminate a running pipeline job.",
+            "name": "stop_pipeline_job_run"
+          },
+          {
+            "description": "[Pipeline Management] Retry a failed pipeline job run.",
+            "name": "retry_pipeline_job_run"
+          },
+          {
+            "description": "[Pipeline Management] Rerun a pipeline job. Only deploy-type jobs are supported. You can set a job as deploy type in its configuration.",
+            "name": "rerun_pipeline_job_run"
+          },
+          {
+            "description": "[Pipeline Management] Skip a pipeline job run.",
+            "name": "skip_pipeline_job_run"
+          },
+          {
+            "description": "[Pipeline Management] Approve/pass a manual checkpoint (human validation gate) in a pipeline run.",
+            "name": "pass_pipeline_validate"
+          },
+          {
+            "description": "[Pipeline Management] Refuse/reject a manual checkpoint (human validation gate) in a pipeline run.",
+            "name": "refuse_pipeline_validate"
+          },
+          {
+            "description": "[Pipeline Management] Execute a subsequent action of a pipeline job.",
+            "name": "execute_pipeline_job_action"
+          },
+          {
+            "description": "[Pipeline Management] Get the list of steps for a pipeline job. Returns step details including stepIndex and buildId needed for log retrieval.",
+            "name": "get_pipeline_job_steps"
+          },
+          {
+            "description": "[Pipeline Management] Get the log content for a specific step of a pipeline job. Use GetPipelineJobSteps first to get stepIndex and buildId.",
+            "name": "get_pipeline_job_step_log"
+          },
+          {
+            "description": "[Pipeline Management] Get the download URL for a pipeline job step log. Use GetPipelineJobSteps first to get stepIndex and buildId.",
+            "name": "get_pipeline_job_step_log_url"
+          },
+          {
+            "description": "[Pipeline Management] Update an existing pipeline in Yunxiao by pipelineId. Use this to update pipeline YAML, stages, jobs, etc.",
+            "name": "update_pipeline"
+          },
+          {
+            "description": "[Service Connection Management] List service connections in an organization with filtering options",
+            "name": "list_service_connections"
+          },
+          {
+            "description": "[Resource Member Management] Delete a resource member",
+            "name": "delete_resource_member"
+          },
+          {
+            "description": "[Resource Member Management] Get a list of resource members",
+            "name": "list_resource_members"
+          },
+          {
+            "description": "[Resource Member Management] Update a resource member",
+            "name": "update_resource_member"
+          },
+          {
+            "description": "[Resource Member Management] Create a resource member",
+            "name": "create_resource_member"
+          },
+          {
+            "description": "[Resource Member Management] Transfer resource owner",
+            "name": "update_resource_owner"
+          },
+          {
+            "description": "[VM Deploy Order Management] Stop VM deploy order",
+            "name": "stop_vm_deploy_order"
+          },
+          {
+            "description": "[VM Deploy Order Management] Skip VM deploy machine",
+            "name": "skip_vm_deploy_machine"
+          },
+          {
+            "description": "[VM Deploy Order Management] Retry VM deploy machine",
+            "name": "retry_vm_deploy_machine"
+          },
+          {
+            "description": "[VM Deploy Order Management] Resume VM deploy order",
+            "name": "resume_vm_deploy_order"
+          },
+          {
+            "description": "[VM Deploy Order Management] Get VM deploy order details",
+            "name": "get_vm_deploy_order"
+          },
+          {
+            "description": "[VM Deploy Order Management] Get VM deploy machine log",
+            "name": "get_vm_deploy_machine_log"
+          },
+          {
+            "description": "[Pipeline Management] Create an organization-level variable group for Flow (pipeline).",
+            "name": "create_flow_variable_group"
+          },
+          {
+            "description": "[Pipeline Management] List organization-level Flow (pipeline) variable groups with pagination.",
+            "name": "list_flow_variable_groups"
+          },
+          {
+            "description": "[Pipeline Management] Get a Flow (pipeline) variable group by numeric id.",
+            "name": "get_flow_variable_group"
+          },
+          {
+            "description": "[Pipeline Management] Update a Flow (pipeline) variable group by numeric id.",
+            "name": "update_flow_variable_group"
+          },
+          {
+            "description": "[Pipeline Management] Delete a Flow (pipeline) variable group by numeric id.",
+            "name": "delete_flow_variable_group"
+          },
+          {
+            "description": "[Packages Management] List package repositories in an organization with filtering options",
+            "name": "list_package_repositories"
+          },
+          {
+            "description": "[Packages Management] List artifacts in a package repository with filtering options",
+            "name": "list_artifacts"
+          },
+          {
+            "description": "[Packages Management] Get information about a single artifact in a package repository",
+            "name": "get_artifact"
+          },
+          {
+            "description": "[application delivery] List applications in an organization with pagination",
+            "name": "list_applications"
+          },
+          {
+            "description": "[application delivery] Get application details by name",
+            "name": "get_application"
+          },
+          {
+            "description": "[application delivery] Create a new application",
+            "name": "create_application"
+          },
+          {
+            "description": "[application delivery] Update an existing application",
+            "name": "update_application"
+          },
+          {
+            "description": "[application delivery] List application sources with pagination",
+            "name": "list_application_sources"
+          },
+          {
+            "description": "[application delivery] Create an application tag",
+            "name": "create_app_tag"
+          },
+          {
+            "description": "[application delivery] Update an application tag",
+            "name": "update_app_tag"
+          },
+          {
+            "description": "[application delivery] Search application tags",
+            "name": "search_app_tags"
+          },
+          {
+            "description": "[application delivery] Update application tag bindings",
+            "name": "update_app_tag_bind"
+          },
+          {
+            "description": "[application delivery] Search application templates",
+            "name": "search_app_templates"
+          },
+          {
+            "description": "[application delivery] Create a global variable group",
+            "name": "create_global_var"
+          },
+          {
+            "description": "[application delivery] Get a global variable group",
+            "name": "get_global_var"
+          },
+          {
+            "description": "[application delivery] Update a global variable group",
+            "name": "update_global_var"
+          },
+          {
+            "description": "[application delivery] List global variable groups",
+            "name": "list_global_vars"
+          },
+          {
+            "description": "[application delivery] Get variable groups for an environment",
+            "name": "get_env_variable_groups"
+          },
+          {
+            "description": "[application delivery] Create a variable group",
+            "name": "create_variable_group"
+          },
+          {
+            "description": "[application delivery] Delete a variable group",
+            "name": "delete_variable_group"
+          },
+          {
+            "description": "[application delivery] Get a variable group",
+            "name": "get_variable_group"
+          },
+          {
+            "description": "[application delivery] Update a variable group",
+            "name": "update_variable_group"
+          },
+          {
+            "description": "[application delivery] Get variable groups for an application",
+            "name": "get_app_variable_groups"
+          },
+          {
+            "description": "[application delivery] Get the revision of variable groups for an application",
+            "name": "get_app_variable_groups_revision"
+          },
+          {
+            "description": "[application delivery] Get the latest orchestration for an environment",
+            "name": "get_latest_orchestration"
+          },
+          {
+            "description": "[application delivery] List application orchestrations",
+            "name": "list_app_orchestration"
+          },
+          {
+            "description": "[application delivery] Create an application orchestration",
+            "name": "create_app_orchestration"
+          },
+          {
+            "description": "[application delivery] Delete an application orchestration",
+            "name": "delete_app_orchestration"
+          },
+          {
+            "description": "[application delivery] Get an application orchestration",
+            "name": "get_app_orchestration"
+          },
+          {
+            "description": "[application delivery] Update an application orchestration. This is a full replacement — include all existing spec fields (componentList, labels, placeholderList, groupNameMap) to avoid data loss. Call get_app_orchestration first to retrieve the current state.",
+            "name": "update_app_orchestration"
+          },
+          {
+            "description": "[application delivery] Create a change request",
+            "name": "create_appstack_change_request"
+          },
+          {
+            "description": "[application delivery] Get audit items for a change request",
+            "name": "get_appstack_change_request_audit_items"
+          },
+          {
+            "description": "[application delivery] List change request executions",
+            "name": "list_appstack_change_request_executions"
+          },
+          {
+            "description": "[application delivery] List work items for a change request",
+            "name": "list_appstack_change_request_work_items"
+          },
+          {
+            "description": "[application delivery] Cancel a change request",
+            "name": "cancel_appstack_change_request"
+          },
+          {
+            "description": "[application delivery] Close a change request",
+            "name": "close_appstack_change_request"
+          },
+          {
+            "description": "[application delivery] Search change requests in an application with pagination and filtering",
+            "name": "list_appstack_change_requests"
+          },
+          {
+            "description": "[application delivery] List change requests attached to a release",
+            "name": "list_attached_change_requests"
+          },
+          {
+            "description": "[application delivery] Get machine deployment log",
+            "name": "get_machine_deploy_log"
+          },
+          {
+            "description": "[application delivery] Add host list to host group",
+            "name": "add_host_list_to_host_group"
+          },
+          {
+            "description": "[application delivery] Add host list to deploy group",
+            "name": "add_host_list_to_deploy_group"
+          },
+          {
+            "description": "[application delivery] 创建部署单",
+            "name": "create_change_order"
+          },
+          {
+            "description": "[application delivery] 查看部署单版本列表",
+            "name": "list_change_order_versions"
+          },
+          {
+            "description": "[application delivery] 读取部署单使用的物料和工单状态",
+            "name": "get_change_order"
+          },
+          {
+            "description": "[application delivery] 查询环境部署单日志",
+            "name": "list_change_order_job_logs"
+          },
+          {
+            "description": "[application delivery] 查询部署任务执行日志，其中通常包含下游部署引擎的调度细节信息",
+            "name": "find_task_operation_log"
+          },
+          {
+            "description": "[application delivery] 操作环境部署单",
+            "name": "execute_job_action"
+          },
+          {
+            "description": "[application delivery] 根据创建来源查询部署单",
+            "name": "list_change_orders_by_origin"
+          },
+          {
+            "description": "[application delivery] 查询应用下所有发布流程",
+            "name": "list_app_release_workflows"
+          },
+          {
+            "description": "[application delivery] 查询应用下所有发布流程摘要",
+            "name": "list_app_release_workflow_briefs"
+          },
+          {
+            "description": "[application delivery] 获取发布流程阶段详情",
+            "name": "get_app_release_workflow_stage"
+          },
+          {
+            "description": "[application delivery] 查询发布流程阶段摘要列表",
+            "name": "list_app_release_stage_briefs"
+          },
+          {
+            "description": "[application delivery] 更新应用发布流程阶段",
+            "name": "update_app_release_stage"
+          },
+          {
+            "description": "[application delivery] 查询发布流程阶段执行记录列表",
+            "name": "list_app_release_stage_runs"
+          },
+          {
+            "description": "[application delivery] 执行变更请求的发布流程阶段",
+            "name": "execute_app_release_stage"
+          },
+          {
+            "description": "[application delivery] 取消发布流程阶段执行",
+            "name": "cancel_app_release_stage_execution"
+          },
+          {
+            "description": "[application delivery] 重试变更请求的发布流程阶段流水线",
+            "name": "retry_app_release_stage_pipeline"
+          },
+          {
+            "description": "[application delivery] 跳过变更请求的发布流程阶段流水线",
+            "name": "skip_app_release_stage_pipeline"
+          },
+          {
+            "description": "[application delivery] 查询研发阶段执行记录集成变更信息",
+            "name": "list_app_release_stage_metadata"
+          },
+          {
+            "description": "[application delivery] 获取研发阶段流水线运行实例",
+            "name": "get_app_release_stage_pipeline_run"
+          },
+          {
+            "description": "[application delivery] 通过发布流程阶段验证",
+            "name": "pass_app_release_stage_validate"
+          },
+          {
+            "description": "[application delivery] 查询研发阶段流水线任务运行日志",
+            "name": "get_app_release_stage_job_log"
+          },
+          {
+            "description": "[application delivery] 拒绝发布流程阶段验证",
+            "name": "refuse_app_release_stage_validate"
+          },
+          {
+            "description": "[test management] 获取测试用例目录列表",
+            "name": "list_testcase_directories"
+          },
+          {
+            "description": "[test management] 创建测试用例目录",
+            "name": "create_testcase_directory"
+          },
+          {
+            "description": "[test management] 获取测试用例字段配置",
+            "name": "get_testcase_field_config"
+          },
+          {
+            "description": "[test management] 创建测试用例",
+            "name": "create_testcase"
+          },
+          {
+            "description": "[test management] 搜索测试用例。分页有上限:page * perPage 不能超过 10000,超出会返回 400,需要更多结果时用 directoryId 或 conditions 缩小范围",
+            "name": "search_testcases"
+          },
+          {
+            "description": "[test management] 获取测试用例信息",
+            "name": "get_testcase"
+          },
+          {
+            "description": "[test management] 删除测试用例",
+            "name": "delete_testcase"
+          },
+          {
+            "description": "[test management] 获取测试计划列表，支持分页及按项目、迭代、状态、名称筛选",
+            "name": "list_test_plans"
+          },
+          {
+            "description": "[test management] 获取测试计划中测试用例列表",
+            "name": "get_test_result_list"
+          },
+          {
+            "description": "[test management] 更新测试结果",
+            "name": "update_test_result"
+          },
+          {
+            "description": "[test management] 获取测试计划用例执行进度统计（通过/失败/延后/待执行）",
+            "name": "get_test_plan_progress"
+          },
+          {
+            "description": "[test management] 获取测试计划结果目录列表，按用例库分组返回目录树及每个目录下的用例数量",
+            "name": "list_test_plan_result_directories"
+          },
+          {
+            "description": "[test management] 获取测试用例库标签列表，支持分页与按名称关键词过滤",
+            "name": "list_test_repo_tags"
+          },
+          {
+            "description": "[test management] 获取用例库列表，支持分页与按名称模糊筛选",
+            "name": "list_test_repos"
+          },
+          {
+            "description": "[test management] 获取测试用例评论列表",
+            "name": "list_testcase_comments"
+          },
+          {
+            "description": "[test management] 创建测试用例评论，支持回复（通过parentId）",
+            "name": "create_testcase_comment"
+          },
+          {
+            "description": "[test management] 获取测试计划中测试用例的评论列表（与用例库中的用例评论不同，这里是测试计划上下文）",
+            "name": "list_test_plan_testcase_comments"
+          },
+          {
+            "description": "[test management] 创建测试计划中测试用例的评论，支持回复（通过parentId）。与用例库中的用例评论不同，这里是测试计划上下文",
+            "name": "create_test_plan_testcase_comment"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Alibaba Cloud DevOps": {
+        "type": "http",
+        "url": "https://openapi-rdc.aliyuncs.com/ai/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ade1cdaf384024721eed9b1d6471e3ae655b87fbef13546ce226849f1aea9bbe"
+      }
+    }
+  }
+}

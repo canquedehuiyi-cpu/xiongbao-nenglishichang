@@ -1,0 +1,128 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.517Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "DevOps",
+  "categoryCode": "DevOps",
+  "connector_id": "buildkite",
+  "connector_name": "Buildkite",
+  "connector_name_cn": "Buildkite",
+  "description": "View Buildkite organizations, pipelines, and builds; create builds for existing pipelines; and cancel or rebuild builds. Inspect the current user and access token to support CI tracking and build investigations.",
+  "description_cn": "查询 Buildkite 组织、流水线和构建记录，为已有流水线创建构建，并取消或重新运行构建。还可查看当前用户与访问令牌信息，适合跟进持续集成任务和排查构建问题。",
+  "version": "1.0.0",
+  "category": "DevOps",
+  "tags": [
+    "cicd",
+    "builds",
+    "devops"
+  ],
+  "provider_name": "Buildkite",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "buildkite",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_61599bdf1b21a0d56dc79e71975298f9971a2e0ae67bdbeb4bcdc1a93d8aeffa",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Manage CI/CD pipelines, builds, agents, and deployment automation in Buildkite.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_61599bdf1b21a0d56dc79e71975298f9971a2e0ae67bdbeb4bcdc1a93d8aeffa",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "buildkite",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_61599bdf1b21a0d56dc79e71975298f9971a2e0ae67bdbeb4bcdc1a93d8aeffa",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Cancel a Buildkite build by build number.",
+            "name": "cancel_build"
+          },
+          {
+            "description": "Create a new Buildkite build for a pipeline.",
+            "name": "create_build"
+          },
+          {
+            "description": "Get a single Buildkite build by organization, pipeline slug, and build number.",
+            "name": "get_build"
+          },
+          {
+            "description": "Inspect the current Buildkite API access token, including scopes and owner summary.",
+            "name": "get_current_access_token"
+          },
+          {
+            "description": "Get the Buildkite user account that owns the current API access token.",
+            "name": "get_current_user"
+          },
+          {
+            "description": "Get a single Buildkite organization by slug.",
+            "name": "get_organization"
+          },
+          {
+            "description": "Get a single Buildkite pipeline by organization and pipeline slug.",
+            "name": "get_pipeline"
+          },
+          {
+            "description": "List builds across all pipelines in a Buildkite organization.",
+            "name": "list_builds_for_organization"
+          },
+          {
+            "description": "List builds for a single Buildkite pipeline.",
+            "name": "list_builds_for_pipeline"
+          },
+          {
+            "description": "List Buildkite organizations accessible to the current API token.",
+            "name": "list_organizations"
+          },
+          {
+            "description": "List Buildkite pipelines for an organization.",
+            "name": "list_pipelines"
+          },
+          {
+            "description": "Rebuild a Buildkite build by build number.",
+            "name": "rebuild_build"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "buildkite": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_61599bdf1b21a0d56dc79e71975298f9971a2e0ae67bdbeb4bcdc1a93d8aeffa",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_61599bdf1b21a0d56dc79e71975298f9971a2e0ae67bdbeb4bcdc1a93d8aeffa"
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+# 第三方运行时依赖（不入仓，减膨胀；office-docx/runtime 等）
+node_modules/
+
+# macOS zip 打包垃圾（资源叉/元数据，非正文）
+__MACOSX/
+.DS_Store
+
+# 内容包 zip 不入仓（只留 sha256 + size + 下载 URL，正文已解包）
+*.zip
+
+# leader 侧抓取快照与临时目录（本就在 repo/ 外，兜底）
+.tmp-dl/
+market-api/

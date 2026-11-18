@@ -1,0 +1,241 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.633Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Product-Management",
+  "categoryCode": "Product Management",
+  "connector_id": "9a160492-ca5d-4942-86e1-fe6941e81d4b",
+  "connector_name": "Atlassian",
+  "connector_name_cn": "Atlassian",
+  "description": "Atlassian provides collaboration and software-development tools such as Jira and Confluence for project management, knowledge sharing, and DevOps.",
+  "description_cn": "提供 Jira、Confluence 等团队协作与软件研发工具，用于项目管理、知识沉淀和 DevOps 协作。",
+  "version": "1.0.4",
+  "category": "Product Management",
+  "tags": [
+    "qoder-pro"
+  ],
+  "provider_name": "Atlassian",
+  "author": {
+    "name": "",
+    "display_name": "Atlassian"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Atlassian",
+        "url": "https://mcp.atlassian.com/v1/mcp/authv2",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_276f170b54ca612e90fdcf941e03d158356fd1d35808ce3afd6643a061828068",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_276f170b54ca612e90fdcf941e03d158356fd1d35808ce3afd6643a061828068",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Get current user info",
+            "name": "atlassianUserInfo"
+          },
+          {
+            "description": "Get cloudId to make tool calls. When a link is provided (e.g. [REDACTED] try passing the site hostname (e.g. site.atlassian.net) as cloudId to other tools first; if that fails, use this tool to list accessible resources.",
+            "name": "getAccessibleAtlassianResources"
+          },
+          {
+            "description": "Get the canonical Confluence HTML-format guidance for `createConfluencePage` or `updateConfluencePage`. Use this tool before authoring HTML/default page bodies or fine-grained HTML edits. First call with only `toolName`; if the returned guidance references a follow-up document, call this tool again with the same `toolName` and `reference` set to that single referenced path. Fetch one document per call. Valid `toolName` values: createConfluencePage, updateConfluencePage.",
+            "name": "getContentFormatGuide"
+          },
+          {
+            "description": "Get a Confluence page or blog post by ID, including body content. Use getTeamworkGraphContext with objectType ConfluencePage, ConfluenceBlogPost, ConfluenceWhiteboard, or ConfluenceSpace to get linked comments, child pages, shared users, and page owners.",
+            "name": "getConfluencePage"
+          },
+          {
+            "description": "Search Confluence content (pages, blog posts, comments, attachments) using CQL (Confluence Query Language). CQL is specific to Confluence and is not interchangeable with JQL.",
+            "name": "searchConfluenceUsingCql"
+          },
+          {
+            "description": "Get spaces",
+            "name": "getConfluenceSpaces"
+          },
+          {
+            "description": "Get pages or blog posts in a space",
+            "name": "getPagesInConfluenceSpace"
+          },
+          {
+            "description": "Get footer comments for a page or blog post",
+            "name": "getConfluencePageFooterComments"
+          },
+          {
+            "description": "Get inline comments for a page or blog post",
+            "name": "getConfluencePageInlineComments"
+          },
+          {
+            "description": "Get reply(child) comments for a comment",
+            "name": "getConfluenceCommentChildren"
+          },
+          {
+            "description": "Get child pages of specified page",
+            "name": "getConfluencePageDescendants"
+          },
+          {
+            "description": "Create a Confluence page, live doc, or blog post. Prefer live docs for page/doc requests (contentType=\"page\", subtype=\"live\"). Use classic pages for explicit requests, space requirements, knowledge bases/customer-facing help, or page-only workflows such as unpublished drafts. When contentFormat is \"html\" or omitted because HTML is the default, first call the getContentFormatGuide tool with { toolName: \"createConfluencePage\" } and follow the returned HTML-format guidance. Do not call it when contentFormat is \"markdown\".",
+            "name": "createConfluencePage"
+          },
+          {
+            "description": "Update a Confluence page or blog post. When contentFormat is \"html\" or omitted because HTML is the default, first call the getContentFormatGuide tool with { toolName: \"updateConfluencePage\" } and follow the returned HTML-format guidance. Do not call it when contentFormat is \"markdown\".",
+            "name": "updateConfluencePage"
+          },
+          {
+            "description": "Create a footer comment on a page or blog post",
+            "name": "createConfluenceFooterComment"
+          },
+          {
+            "description": "Create an inline comment on specific text in a page or blog post. For top-level comments, provide pageId and inlineCommentProperties (text selection + match counts). For replies, provide parentCommentId only (no pageId or inlineCommentProperties). You must first fetch the page content (e.g. using getConfluencePage) to find the exact text and count how many times it appears. Incorrect or missing inlineCommentProperties can result in a 400 error from the Confluence API.",
+            "name": "createConfluenceInlineComment"
+          },
+          {
+            "description": "Get issue details. Use getTeamworkGraphContext to get linked deployments, PRs, builds, branches, commits, designs, issues, confluence whiteboards, feature flags, vulnerabilities, sprints and remote links to Jira Issues.",
+            "name": "getJiraIssue"
+          },
+          {
+            "description": "Update issue. After updating, returns the issue using the same default read fields as getJiraIssue (summary, description, status, issuetype, priority, labels, components, assignee, reporter, created, updated, resolution, project). Use getJiraIssue with fields [\"*all\"] or a custom list if you need more.",
+            "name": "editJiraIssue"
+          },
+          {
+            "description": "Create a Jira issue. Use additional_fields to set any Jira field that does not have its own parameter (e.g. custom fields, priority, components).",
+            "name": "createJiraIssue"
+          },
+          {
+            "description": "Get transitions",
+            "name": "getTransitionsForJiraIssue"
+          },
+          {
+            "description": "Get remote links",
+            "name": "getJiraIssueRemoteIssueLinks"
+          },
+          {
+            "description": "Get projects",
+            "name": "getVisibleJiraProjects"
+          },
+          {
+            "description": "Get issue types",
+            "name": "getJiraProjectIssueTypesMetadata"
+          },
+          {
+            "description": "Get field metadata",
+            "name": "getJiraIssueTypeMetaWithFields"
+          },
+          {
+            "description": "Add or update a comment on a Jira issue",
+            "name": "addCommentToJiraIssue"
+          },
+          {
+            "description": "Transition issue status",
+            "name": "transitionJiraIssue"
+          },
+          {
+            "description": "Search issues with JQL, total counts only when explicitly requested.",
+            "name": "searchJiraIssuesUsingJql"
+          },
+          {
+            "description": "Lookup user IDs",
+            "name": "lookupJiraAccountId"
+          },
+          {
+            "description": "Add or update a worklog on a Jira issue. When worklogId is provided, updates that worklog;",
+            "name": "addWorklogToJiraIssue"
+          },
+          {
+            "description": "Get available Jira issue link types (e.g. Blocks, Duplicate, Clones, Relates). For createIssueLink: inwardIssue = blocker, outwardIssue = blocked (e.g. \"A is blocked by B\" → inwardIssue: B, outwardIssue: A).",
+            "name": "getIssueLinkTypes"
+          },
+          {
+            "description": "Create a link between two Jira issues. For directional link types (e.g. Blocks): inwardIssue = issue that blocks, outwardIssue = issue that is blocked (e.g. \"A is blocked by B\" → inwardIssue: B, outwardIssue: A). Use getIssueLinkTypes if link type is unknown.",
+            "name": "createIssueLink"
+          },
+          {
+            "description": "Get a list of Compass components",
+            "name": "getCompassComponents"
+          },
+          {
+            "description": "Get a Compass component by ID",
+            "name": "getCompassComponent"
+          },
+          {
+            "description": "Get a list of Compass custom field definitions",
+            "name": "getCompassCustomFieldDefinitions"
+          },
+          {
+            "description": "Create a custom field definition in Compass",
+            "name": "createCompassCustomFieldDefinition"
+          },
+          {
+            "description": "Create a new Compass component",
+            "name": "createCompassComponent"
+          },
+          {
+            "description": "Create a relationship between Compass components",
+            "name": "createCompassComponentRelationship"
+          },
+          {
+            "description": "Retrieves connected context from Teamwork Graph for any Atlassian entity. Returns all relationships and linked objects within one traversal – including cross-product and third-party connections. Use when the answer requires connections between entities, not just a single entity's fields.\n\nSupported entry points:\n\nJira: issues, projects, sprints, versions, comments\n\nConfluence: pages, blogposts, whiteboards, databases, spaces\n\nGoals, Projects, Focus Areas, Tags and updates\n\nPeople: users, teams, organisations\n\nDevOps: PRs, repos, deployments, services, builds, designs\n\nLoom: videos, meetings\n\nCompass: components\n\nAssets: objects\n\nIncidents, conversations, calendar events, external documents\n\nAfter calling this tool, call getTeamworkGraphObject on returned ARIs to get full content.\n\nThe utilisation of this tool may consume up to 10 Rovo Credits. If the user or organization does not have any Rovo Credits available, the tool call will fail.",
+            "name": "getTeamworkGraphContext"
+          },
+          {
+            "description": "Fetches the entire available data for one or more objects (Atlassian or third-party) using their ARIs or URLs. Use for the objects gathered from getTeamworkGraphContext tool.",
+            "name": "getTeamworkGraphObject"
+          },
+          {
+            "description": "Adds a relationship between two entities in the Teamwork Graph (e.g. linking two Jira work items, marking one as blocking another, attaching a remote link, or connecting a Jira work item to an Atlas project or goal).",
+            "name": "addTeamworkGraphContext"
+          },
+          {
+            "description": "Search Jira, Confluence and linked 3P data using Rovo Search, ALWAYS use this tool to search for Jira and Confluence content unless the word CQL or JQL is used in the context. The utilisation of this tool may consume up to 10 Rovo Credits. If the user or organization does not have any Rovo Credits available, the tool call will fail.",
+            "name": "search"
+          },
+          {
+            "description": "Get a Jira issue or Confluence page by its ARI (Atlassian Resource Identifier). Only call this tool if your id is an ARI of the form \"ari:cloud:jira:{cloudId}:issue/{id}\" or \"ari:cloud:confluence:{cloudId}:page/{id}\". If it is not, do not call this tool — use another tool that accepts the identifier you have",
+            "name": "fetch"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Atlassian": {
+        "type": "http",
+        "url": "https://mcp.atlassian.com/v1/mcp/authv2",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_276f170b54ca612e90fdcf941e03d158356fd1d35808ce3afd6643a061828068"
+      }
+    }
+  }
+}

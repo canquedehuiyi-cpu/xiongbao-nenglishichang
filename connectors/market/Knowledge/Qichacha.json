@@ -1,0 +1,139 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.538Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Knowledge",
+  "categoryCode": "Knowledge",
+  "connector_id": "qichacha",
+  "connector_name": "Qichacha",
+  "connector_name_cn": "企查查",
+  "description": "Use Qichacha MCP to research company registrations, ownership structures, affiliated companies, and business-risk information.",
+  "description_cn": "通过企查查 MCP 查询企业工商登记、股权结构、关联企业和经营风险信息，辅助企业调研与商业尽职调查。",
+  "version": "1.0.8",
+  "category": "Knowledge",
+  "tags": [],
+  "provider_name": "企查查",
+  "author": {
+    "name": "企查查",
+    "display_name": "企查查"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Qichacha",
+        "url": "https://agent.qcc.com/mcp/company/stream",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "查询企业工商、股权、关联关系及风险信息。",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_0d6d6f24f1a342eb1e5ff510e018e747bebee29c5dd5869bb216339f23d40e45",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_0d6d6f24f1a342eb1e5ff510e018e747bebee29c5dd5869bb216339f23d40e45",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "查询企业的实际控制人详情（已完成股权穿透分析的最终控制人结果）。 \n \n【适用场景】 \n- 企业风险评估、关联交易识别及商业竞争分析场景 \n- 用户问\"实际控制人\"/\"实控人\"/\"谁控制这家公司\"等问题时优先使用本工具（系统已将\"实控人\"等口语化表述映射到本工具） \n- 已返回穿透分析结果，无需再调 get_shareholder_info / get_beneficial_owners 重复穿透 \n \n【不适用场景】 \n- 查询一层直接股东（如有限合伙人 / 法人股东），请使用 get_shareholder_info \n- 查询持股 ≥ 25% 的自然人受益所有人（AML 合规口径），请使用 get_beneficial_owners \n \n数据更新频率：T+0。\n\n【AI 数据纪律 · 防自算/臆测】本工具返回的「总持股比例/表决权比例/最终受益股份」为服务端股权穿透引擎已聚合的终值，AI 须逐字引用：① 禁止用各层持股比例相乘自行重构穿透路径百分比（大模型多位小数乘法不可靠，已实测算错：曾把 79.8674%×11.5446% 算成 9.2145%，正确 9.2204%）；② 禁止臆测/编造中间层主体（如「通过 X 间接持股」的 X）——本工具不返回逐路径中间层；③ 返回的聚合值与任何自算分项不一致时，以本工具返回值为准，禁止用「四舍五入」措辞圆场。",
+            "name": "get_actual_controller"
+          },
+          {
+            "description": "查询企业年度报告信息，包括报告年度、统一社会信用代码、注册号、企业经营状态、从业人数、股东股权转让情况、投资信息等。数据更新频率：每年更新，通常在企业完成工商年报公示后同步（一般集中于每年6月前）。",
+            "name": "get_annual_reports"
+          },
+          {
+            "description": "查询企业的受益所有人（UBO）信息。严格依据中国人民银行3、12号令，穿透识别至最终受益自然人。支持反洗钱（AML）合规审查及穿透式监管分析。 \n \n【适用场景】 \n- 反洗钱合规、尽职调查及穿透式监管分析场景 \n- 用户问\"UBO\"/\"受益所有人\"/\"最终受益自然人\"等 AML 合规口径问题时优先使用本工具 \n- KYB / AML 反洗钱穿透核查 \n \n【不适用场景】 \n- 查询企业完整的实际控制人结果（可能是企业法人，非自然人），请使用 get_actual_controller \n- 查询一层直接股东（含法人股东 / LP），请使用 get_shareholder_info \n \n数据更新频率：T+0（国家企业信用信息公示系统）。\n\n【AI 数据纪律 · 防自算/臆测】本工具返回的「总持股比例/表决权比例/最终受益股份」为服务端股权穿透引擎已聚合的终值，AI 须逐字引用：① 禁止用各层持股比例相乘自行重构穿透路径百分比（大模型多位小数乘法不可靠，已实测算错：曾把 79.8674%×11.5446% 算成 9.2145%，正确 9.2204%）；② 禁止臆测/编造中间层主体（如「通过 X 间接持股」的 X）——本工具不返回逐路径中间层；③ 返回的聚合值与任何自算分项不一致时，以本工具返回值为准，禁止用「四舍五入」措辞圆场。",
+            "name": "get_beneficial_owners"
+          },
+          {
+            "description": "查询企业的分支机构信息，包括分支机构名称、负责人、地区、成立日期、登记状态。适用于了解企业组织架构的场景。数据更新频率：T+0（国家企业信用信息公示系统）。",
+            "name": "get_branches"
+          },
+          {
+            "description": "用于查询企业工商变更记录的聚合入口，覆盖各类变更事项、变更前后内容、变更日期等企业发展变化信息。\n\n【适用场景】\n- 用户问\"工商变更\"/\"变更记录\"/\"变更历史\"/\"什么时候改的\"等聚合查询时优先使用本工具\n- 一次调用即可覆盖多类变更（名称/地址/资本/经营范围/法定代表人/股东等），比逐个调 historical_* 减少 4-5 次工具调用\n- 股权变更跟踪、经营范围调整、重要事项变更历史查询\n\n【不适用场景】\n- 仅需深查某一历史维度（如仅历史股东请使用 get_historical_shareholders / 仅历史法定代表人请使用 get_historical_legal_rep）\n\n【数据语义】\n- 数据性质：企业工商变更聚合记录\n- 客观事实：为历史变更记录集合；包含变更前后值与变更日期，反映已发生的登记状态变动事实\n- 调用语义：默认 · 用户查「工商变更/变更记录」时优先\n- 可能用于：企业沿革分析、风控核查等场景（业务决策由客户系统定义）\n\n数据更新频率：T+0。",
+            "name": "get_change_records"
+          },
+          {
+            "description": "根据用户输入的搜索关键词，对企业当前名称、企业简称、品牌名称、股票简称等维度进行模糊搜索，返回唯一精确匹配、单候选待确认、多候选或未匹配；最多展示 5 个候选主体。适用场景：KYB / AML / IC Memo 等风控/尽调 SKILL 的实体锚定前置环节、简称等模糊关键词的主体确认、业务工具未匹配时先识别主体再重试。\n【结果处理】\n- 唯一精确匹配：仅返回 1 个候选，工具已按企业名称精确命中规则完成主体识别，并仅返回该主体。直接使用返回的统一社会信用代码调用下游工具。\n- 单候选待确认：仅有 1 个非精确候选。展示企业名称、统一社会信用代码和登记状态，询问“您要查询的是【企业全称】吗？”，必须等待用户回复。确认后使用该统一社会信用代码调用下游工具，不重复检索；否认则请其补充完整企业名称或统一社会信用代码。不得描述为多个候选，不得自行默认。\n- 多候选：无精确命中且返回 2 个及以上候选，完整展示企业名称、统一社会信用代码和登记状态，等待用户明确选择；禁止自动选择第一条。\n- 未匹配：提示用户检查关键词拼写后重试。\n【不适用场景】\n- 已有完整企业名称 + 统一社会信用代码，需校验二要素是否匹配，请使用 verify_company_accuracy。\n- 已锁定企业、需了解业务简介与行业归类，请使用 get_company_profile。",
+            "name": "get_company_by_query"
+          },
+          {
+            "description": "查询企业的简介信息，包括企业名称、简介、企查查行业、企业规模、主营产品、产业链概览，适用于企业画像构建、企业业务、产业链分析场景。",
+            "name": "get_company_profile"
+          },
+          {
+            "description": "查询企业的核心登记信息，当用户需要验证企业身份、了解基本概况（如法定代表人、注册资本、成立时间等）时调用。可提供企业名称、统一社会信用代码、法定代表人、注册资本、成立日期、登记状态、注册地址等关键工商登记信息，支持通过企业名称或统一社会信用代码精确查询。适用于深入了解企业工商背景的场景。数据更新频率：T+0（国家企业信用信息公示系统）。",
+            "name": "get_company_registration_info"
+          },
+          {
+            "description": "查询企业的联系方式信息，包括电话号码、用途标签、邮箱、企业网站、是否是官网、ICP备案。适用于拓客、获取企业联系方式的场景。数据更新频率：基于公开信息定期更新，部分联系方式可能存在滞后。",
+            "name": "get_contact_info"
+          },
+          {
+            "description": "查询企业对外投资信息，包括被投资企业名称、状态、成立日期、持股比例、认缴出资额/持股数。适用于分析企业投资布局的场景。数据更新频率：T+0（国家企业信用信息公示系统）。\n\n【AI 数据纪律】本工具返回的持股/投资比例为「一层直接」比例，AI 须逐字引用，禁止据此相乘/推断穿透或间接持股关系、禁止把任一股东臆断为实控人的持股平台；穿透/受益的聚合结果以 get_actual_controller / get_beneficial_owners 为准。",
+            "name": "get_external_investments"
+          },
+          {
+            "description": "用于检索指定企业的核心财务数据，涵盖资产负债、利润表现、营运能力、偿还能力、成长能力及关键财务比率。适用于企业尽调、偿债能力分析、经营效率评估及成长性研判，企业财务快速扫描、信贷初筛、投资快筛、供应商财务健康度核查、多期财务趋势对比分析。\n\n【AI 数据纪律】本工具返回的净利率/毛利率/资产负债率/流动比率/营收同比/总资产同比等比率与增速，均为服务端已精算字段，AI 须逐字引用，禁止用营收/净利润等原始数自行重算或估算。",
+            "name": "get_financial_data"
+          },
+          {
+            "description": "用于查询企业主要管理人员信息，包括姓名、职务等高管构成情况。适用于企业管理团队了解、核心人员识别、公司治理结构分析等场景。数据更新频率：T+0（国家企业信用信息公示系统）。",
+            "name": "get_key_personnel"
+          },
+          {
+            "description": "查询企业当前的上市信息（在市），包括上市日期、股票简称、股票代码、上市交易所、总市值、总股本、发行日期、发行量。 \n \n【适用场景】 \n- 投资分析场景 \n- 本工具仅覆盖当前在市记录 \n \n【不适用场景】 \n- 查询企业历史上市挂牌信息（已退市 / 已摘牌），请使用 get_historical_listing \n \n【数据语义】\n- 数据性质：企业当前在市上市信息\n- 客观事实：在市 · 交易所数据生效\n- 调用语义：默认 · 用户查「上市/股票」无历史限定时优先\n- 可能用于：资本市场核查、合规审查等场景（业务决策由客户系统定义）\n\n数据更新频率：T+0（交易所公开数据）。\n\n【AI 数据纪律】本工具返回的金额/市值/股本/评估结果为客观记录值，AI 须逐字引用，禁止自行累加历轮估值或据股本自估市值。",
+            "name": "get_listing_info"
+          },
+          {
+            "description": "用于查询企业一层直接股东构成信息，包括投资人姓名、持股比例、认缴出资额、出资时间等股权结构情况 \n \n【适用场景】 \n- 企业股权结构分析、股东背景调查等场景 \n- 用户问\"股东\"/\"投资人\"/\"谁持股\"等一层股权问题时使用 \n- 适用于股权结构分析、出资变更核查 \n \n【不适用场景】 \n- 查询穿透到底的实际控制人，请使用 get_actual_controller（已完成穿透分析） \n- 查询持股 ≥ 25% 的自然人受益所有人（AML 合规口径），请使用 get_beneficial_owners \n \n数据更新频率：T+0（国家企业信用信息公示系统）。\n\n【AI 数据纪律】本工具返回的持股/投资比例为「一层直接」比例，AI 须逐字引用，禁止据此相乘/推断穿透或间接持股关系、禁止把任一股东臆断为实控人的持股平台；穿透/受益的聚合结果以 get_actual_controller / get_beneficial_owners 为准。",
+            "name": "get_shareholder_info"
+          },
+          {
+            "description": "查询企业的税号开票信息，包括纳税人识别号、企业名称、企业类型、地址、联系电话、开户行、开户行账号。适用于财务开票场景。数据更新频率：定期更新，以工商登记信息为准。",
+            "name": "get_tax_invoice_info"
+          },
+          {
+            "description": "用于核实二要素匹配性：以统一社会信用代码为锚定 · 验证传入的 name 参数（企业名称）与该统一社会信用代码下的企业是否一致\n\n【适用场景】\n- 企业实名认证、准入资质初审及基础信息准确性校验场景\n- 用户已提供「统一社会信用代码 + 企业名称」· 需快速校验一致性时使用\n- 实名认证 / KYB 准入资质初审 / 客户信息系统校验\n\n【不适用场景】\n- 仅有企业名称 / 简称 / 英文名 · 需要模糊搜索匹配主体，请使用 get_company_by_query\n- 已锁定企业、需了解业务简介与行业归类，请使用 get_company_profile\n\n数据更新频率：T+0（国家企业信用信息公示系统）。",
+            "name": "verify_company_accuracy"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Qichacha": {
+        "type": "http",
+        "url": "https://agent.qcc.com/mcp/company/stream",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_0d6d6f24f1a342eb1e5ff510e018e747bebee29c5dd5869bb216339f23d40e45"
+      }
+    }
+  }
+}

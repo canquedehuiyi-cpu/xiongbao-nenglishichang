@@ -1,0 +1,100 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.553Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Knowledge",
+  "categoryCode": "Knowledge",
+  "connector_id": "accuweather",
+  "connector_name": "AccuWeather",
+  "connector_name_cn": "AccuWeather",
+  "description": "Search locations or resolve coordinates to AccuWeather location keys, then retrieve current conditions and hourly or daily forecasts. Supply weather data for displays, travel planning, and location lookups, with forecast availability determined by the API plan.",
+  "description_cn": "搜索地点或按经纬度解析 AccuWeather 位置，查询实时天气以及逐小时、逐日预报。适合为天气展示、出行规划和地点信息查询提供数据，可用预报范围取决于 API 套餐。",
+  "version": "1.0.0",
+  "category": "Knowledge",
+  "tags": [
+    "weather",
+    "forecast",
+    "locations"
+  ],
+  "provider_name": "AccuWeather",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "accuweather",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_d8c4e230a5f0d210a0b5a80ea33a417ff8e9ac710566c2f4a3de6824cf329aee",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Search locations and retrieve current conditions and hourly or daily forecasts from AccuWeather. Availability depends on the API permissions and plan associated with your key.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_d8c4e230a5f0d210a0b5a80ea33a417ff8e9ac710566c2f4a3de6824cf329aee",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "accuweather",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_d8c4e230a5f0d210a0b5a80ea33a417ff8e9ac710566c2f4a3de6824cf329aee",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Retrieve current weather conditions for an AccuWeather location key.",
+            "name": "get_current_conditions"
+          },
+          {
+            "description": "Retrieve a daily forecast for an AccuWeather location key using an official duration endpoint.",
+            "name": "get_daily_forecast"
+          },
+          {
+            "description": "Retrieve an hourly forecast for an AccuWeather location key using an official duration endpoint.",
+            "name": "get_hourly_forecast"
+          },
+          {
+            "description": "Resolve latitude and longitude coordinates to a single AccuWeather location key.",
+            "name": "get_location_by_geoposition"
+          },
+          {
+            "description": "Search AccuWeather locations by text and return normalized location keys for weather requests.",
+            "name": "search_locations"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "accuweather": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_d8c4e230a5f0d210a0b5a80ea33a417ff8e9ac710566c2f4a3de6824cf329aee",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_d8c4e230a5f0d210a0b5a80ea33a417ff8e9ac710566c2f4a3de6824cf329aee"
+      }
+    }
+  }
+}

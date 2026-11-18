@@ -1,0 +1,123 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.511Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "DevOps",
+  "categoryCode": "DevOps",
+  "connector_id": "healthchecks_io",
+  "connector_name": "Healthchecks.io",
+  "connector_name_cn": "Healthchecks.io",
+  "description": "Inspect Healthchecks.io checks and monitoring information for scheduled jobs. Use status and monitoring information to prepare incident reviews, on-call handoffs, and follow-up work. Relate returned states to event timing, affected resources, and your own monitoring records to identify areas that need further investigation. A status result generally covers a particular check or component and should not replace end-to-end validation of the business service.",
+  "description_cn": "查询 Healthchecks.io 检查项及定时任务监控信息。适合集中整理可用性事件、监控检查和处理进展，辅助值班交接及问题复盘。可将返回状态与事件时间、受影响对象和自身监控记录关联，判断需要进一步检查的环节。状态信息通常只反映特定检查范围，不能替代端到端的业务可用性验证。",
+  "version": "1.0.0",
+  "category": "DevOps",
+  "tags": [
+    "monitoring",
+    "cron"
+  ],
+  "provider_name": "Healthchecks.io",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "healthchecks_io",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a0ae7eccb3884523468a326cc435cfa7af26e5e93fe229bd567d0ba58c619909",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Inspect Healthchecks.io checks and monitoring information for scheduled jobs.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a0ae7eccb3884523468a326cc435cfa7af26e5e93fe229bd567d0ba58c619909",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "healthchecks_io",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_a0ae7eccb3884523468a326cc435cfa7af26e5e93fe229bd567d0ba58c619909",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create a Healthchecks.io simple or cron check.",
+            "name": "create_check"
+          },
+          {
+            "description": "Delete a Healthchecks.io check by UUID.",
+            "name": "delete_check"
+          },
+          {
+            "description": "Get a Healthchecks.io check by UUID or unique key.",
+            "name": "get_check"
+          },
+          {
+            "description": "List badge metadata in the current Healthchecks.io project.",
+            "name": "list_badges"
+          },
+          {
+            "description": "List notification integrations in the current Healthchecks.io project.",
+            "name": "list_channels"
+          },
+          {
+            "description": "List Healthchecks.io checks in the current project.",
+            "name": "list_checks"
+          },
+          {
+            "description": "List Healthchecks.io status flips for a check by UUID or unique key.",
+            "name": "list_flips"
+          },
+          {
+            "description": "List recent Healthchecks.io pings for a check by UUID.",
+            "name": "list_pings"
+          },
+          {
+            "description": "Pause monitoring for a Healthchecks.io check by UUID.",
+            "name": "pause_check"
+          },
+          {
+            "description": "Resume monitoring for a Healthchecks.io check by UUID.",
+            "name": "resume_check"
+          },
+          {
+            "description": "Update a Healthchecks.io check by UUID.",
+            "name": "update_check"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "healthchecks_io": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a0ae7eccb3884523468a326cc435cfa7af26e5e93fe229bd567d0ba58c619909",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a0ae7eccb3884523468a326cc435cfa7af26e5e93fe229bd567d0ba58c619909"
+      }
+    }
+  }
+}

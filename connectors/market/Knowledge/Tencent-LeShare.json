@@ -1,0 +1,103 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.548Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Knowledge",
+  "categoryCode": "Knowledge",
+  "connector_id": "tencent-lexiang",
+  "connector_name": "Tencent LeShare",
+  "connector_name_cn": "腾讯乐享",
+  "description": "Tencent LeShare unifies enterprise knowledge bases, internal communities, and learning content for organizational knowledge sharing.",
+  "description_cn": "腾讯乐享整合企业知识库、内部社区和学习内容，帮助组织沉淀、检索和共享知识。",
+  "version": "1.0.6",
+  "category": "Knowledge",
+  "tags": [],
+  "provider_name": "腾讯",
+  "author": {
+    "name": "",
+    "display_name": "Tencent LeShare"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Tencent LeShare",
+        "url": "https://mcp.lexiang-app.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_d135b4a7935fa2080ab1591b9b4556509e933b772203c056c7ce9c2667e7ff5d",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_d135b4a7935fa2080ab1591b9b4556509e933b772203c056c7ce9c2667e7ff5d",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Call a registered tool by name with the provided arguments. Use this to invoke any tool discovered via search_tools or list_tool_categories.\n\nWorkflow:\n1. Use search_tools or list_tool_categories to find the tool name\n2. Use get_tool_schema to get the exact parameter schema\n3. Call this tool with the tool_name and arguments\n\nIMPORTANT:\n- For native MCP call_tool, arguments is the target tool argument object matching get_tool_schema\n- If your client or IDE exposes a wrapper that requires tool-call arguments as a string,\n  follow that client schema and JSON-encode the wrapper payload there\n- If the target tool has no parameters, omit arguments or pass an empty object\n\nReturns: The result from the called tool (format depends on the specific tool).",
+            "name": "call_tool"
+          },
+          {
+            "description": "Get one tool's input parameters. Use after search_tools/list_tool_categories to inspect the exact arguments.\n\nformat: markdown(default), json(full schema), text(compact). Some tools include _mcp_fields for excluding known large response fields with negative paths such as \"-staffs\".",
+            "name": "get_tool_schema"
+          },
+          {
+            "description": "按资源类型读取单个乐享资源。\nresource=entry：id 填 entry_id，返回知识条目详情(不含正文)。\nresource=space：id 填 space_id，返回知识库详情。\nresource=team：id 填 team_id，返回团队详情。\nresource=file：id 填 file_id，返回文件详情。\nresource=block：id 填 block_id，同时传 entry_id，返回块详情。\nresource=smartsheet：id 填 smartsheet_id，同时传 entry_id，返回智能表格结构。\nresource=record：id 填 record_id，同时传 entry_id 和 smartsheet_id，返回记录详情。",
+            "name": "lexiang_fetch"
+          },
+          {
+            "description": "搜索乐享资源。\nquery 填关键词。\ntype=doc 返回知识条目结果。\ntype=space 返回知识库结果。\ntype=team 返回团队结果。\ntype=all 返回综合结果。",
+            "name": "lexiang_search"
+          },
+          {
+            "description": "List all available tool categories and their tool counts. Use this to understand what capabilities are available before searching for specific tools.\n\nReturns: Array of categories, each containing:\n- name: Category identifier (e.g., 'knowledge.entry', 'knowledge.space')\n- description: What tools in this category do\n- tool_count: Number of tools in this category\n- tools: List of tool names and descriptions\n- preset_options: Configured preset choices sourced from gateway config",
+            "name": "list_tool_categories"
+          },
+          {
+            "description": "Search for tools by keyword or category. Returns tool names and descriptions only (no input/output schema) to help you find the right tool.\n\nUsage:\n- Use 'query' to search by keyword in tool names/descriptions (supports semantic matching when available)\n- Use 'category' to filter by category (call list_tool_categories first to get valid categories)\n- Combine both for more precise results\n- Use get_tool_schema after search_tools to inspect input parameters\n\nReturns: Array of matching tools with name, description, and category.\nIf no tools match, returns available_tool_names to help retry with a valid tool name or call get_tool_schema.",
+            "name": "search_tools"
+          },
+          {
+            "description": "MCP 获取当前员工的身份信息的工具",
+            "name": "whoami"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Tencent LeShare": {
+        "type": "http",
+        "url": "https://mcp.lexiang-app.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_d135b4a7935fa2080ab1591b9b4556509e933b772203c056c7ce9c2667e7ff5d"
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.461Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "amplitude",
+  "connector_name": "Amplitude",
+  "connector_name_cn": "Amplitude",
+  "description": "Query Amplitude user behavior, events, funnels, and retention, and read, generate, and save analytics charts. Manage dashboards, cohorts, notebooks, feature flags, and experiments, and inspect event definitions and session replay information for product analysis and experiment evaluation.",
+  "description_cn": "查询 Amplitude 用户行为、事件、漏斗和留存数据，读取、生成和保存分析图表。支持管理仪表盘、用户群组、笔记、功能开关和实验，并查看事件定义与会话回放信息，辅助产品分析与实验评估。",
+  "version": "1.0.0",
+  "category": "Database & Analytics",
+  "tags": [],
+  "provider_name": "Amplitude",
+  "author": {
+    "name": "之东",
+    "display_name": "Amplitude"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Amplitude",
+        "url": "https://mcp.amplitude.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f62215a8ade32463296e516138a59e18425479c672d1f67689ae15b412512b6a",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_f62215a8ade32463296e516138a59e18425479c672d1f67689ae15b412512b6a",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Amplitude": {
+        "type": "http",
+        "url": "https://mcp.amplitude.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f62215a8ade32463296e516138a59e18425479c672d1f67689ae15b412512b6a"
+      }
+    }
+  }
+}

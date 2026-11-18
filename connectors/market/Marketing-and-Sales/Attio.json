@@ -1,0 +1,74 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.593Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Marketing-and-Sales",
+  "categoryCode": "Marketing & Sales",
+  "connector_id": "Attio",
+  "connector_name": "Attio",
+  "connector_name_cn": "Attio",
+  "description": "Attio manages people, companies, and deals around relationship data for a flexible, collaborative CRM.",
+  "description_cn": "Attio 以客户关系数据为核心管理联系人、公司和交易，帮助团队构建灵活、协作式的 CRM。",
+  "version": "1.0.0",
+  "category": "Marketing & Sales",
+  "tags": [],
+  "provider_name": "Attio",
+  "author": {
+    "name": "",
+    "display_name": "Attio"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "qoderapp",
+    "dashboard",
+    "qoder"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Attio",
+        "url": "https://mcp.attio.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_e1be4593f01635f2151e550774ce15bb3406f6f0c44245e530e336fdf7cf0573",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_e1be4593f01635f2151e550774ce15bb3406f6f0c44245e530e336fdf7cf0573",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Attio": {
+        "type": "http",
+        "url": "https://mcp.attio.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_e1be4593f01635f2151e550774ce15bb3406f6f0c44245e530e336fdf7cf0573"
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+{"at":"2026-11-18T10:19:01.985Z","id":"selftest_sha_mismatch","kind":"skill","name":"selftest-sha-target","categoryDir":"Coding","reason":"sha256_mismatch","err":null,"expected":"0000000000000000","got":"dcba81fb59ed32d0","urlHost":null}
+{"at":"2026-11-18T10:19:03.617Z","id":"selftest_404","kind":"skill","name":"selftest-404","categoryDir":"Coding","reason":"fetch_failed","err":"HTTP_403","expected":null,"got":null,"urlHost":"qoder-cn-mind.oss-accelerate.aliyuncs.com"}

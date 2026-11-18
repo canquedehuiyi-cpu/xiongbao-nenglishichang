@@ -1,0 +1,91 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.542Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Knowledge",
+  "categoryCode": "Knowledge",
+  "connector_id": "chatpdf",
+  "connector_name": "ChatPDF",
+  "connector_name_cn": "ChatPDF",
+  "description": "Import PDF documents and ask questions about their contents with ChatPDF. Use document outputs in reporting, information extraction, or document-review workflows. Start with a clearly identified source file or template, then check whether the generated, parsed, or question-answering result matches the intended task. Tables, complex layouts, and scanned material may require additional review. Verify important numbers and quotations against the source document before incorporating them into a final report or operational decision.",
+  "description_cn": "导入 PDF 文档并针对文档内容进行问答。适合把文档内容与业务流程连接起来，辅助准备报告、提取资料或核对文档信息。可围绕明确的输入文件或模板组织处理过程，并检查生成、解析或问答结果是否符合预期。表格、复杂版式和扫描内容可能需要额外复核，关键数字与引用应回到原始文档确认。",
+  "version": "1.0.0",
+  "category": "Knowledge",
+  "tags": [
+    "pdf",
+    "research"
+  ],
+  "provider_name": "ChatPDF",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "chatpdf",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_bef20742af8582e6385d5a48c797e357efb777830afe36bcf10378e4e9018f1b",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Import PDF documents and ask questions about their contents with ChatPDF.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_bef20742af8582e6385d5a48c797e357efb777830afe36bcf10378e4e9018f1b",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "chatpdf",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_bef20742af8582e6385d5a48c797e357efb777830afe36bcf10378e4e9018f1b",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Import a publicly reachable PDF URL into ChatPDF and return its source ID.",
+            "name": "add_source_url"
+          },
+          {
+            "description": "Ask ChatPDF one or more stateless questions about an imported PDF source.",
+            "name": "chat"
+          },
+          {
+            "description": "Delete one or more imported PDF sources from ChatPDF.",
+            "name": "delete_sources"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "chatpdf": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_bef20742af8582e6385d5a48c797e357efb777830afe36bcf10378e4e9018f1b",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_bef20742af8582e6385d5a48c797e357efb777830afe36bcf10378e4e9018f1b"
+      }
+    }
+  }
+}

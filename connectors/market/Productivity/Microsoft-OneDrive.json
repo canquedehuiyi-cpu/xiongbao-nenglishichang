@@ -1,0 +1,95 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.612Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "microsoft_onedrive",
+  "connector_name": "Microsoft OneDrive",
+  "connector_name_cn": "微软 OneDrive",
+  "description": "Browse and delete OneDrive cloud files",
+  "description_cn": "浏览和删除 OneDrive 云端文件",
+  "version": "1.0.3",
+  "category": "Productivity",
+  "tags": [
+    "qoder-vibe-new",
+    "qoder-pro-new"
+  ],
+  "provider_name": "Microsoft OneDrive",
+  "author": {
+    "name": "",
+    "display_name": ""
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "microsoft_onedrive",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_0bf984960f93a8f95b41cc225fc69bd07e8f73792b60de0d18e81737a8892cff",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_0bf984960f93a8f95b41cc225fc69bd07e8f73792b60de0d18e81737a8892cff",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "microsoft_onedrive",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_0bf984960f93a8f95b41cc225fc69bd07e8f73792b60de0d18e81737a8892cff",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Delete a cloud item from OneDrive. This does not access a local path.",
+            "name": "delete_onedrive_file"
+          },
+          {
+            "description": "Get the root item of a Microsoft drive.",
+            "name": "get_drive_root_item"
+          },
+          {
+            "description": "List drives available to the authenticated Microsoft user.",
+            "name": "list_drives"
+          },
+          {
+            "description": "List cloud items in a OneDrive folder. This tool does not download file content.",
+            "name": "list_folder_files"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "microsoft_onedrive": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_0bf984960f93a8f95b41cc225fc69bd07e8f73792b60de0d18e81737a8892cff",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_0bf984960f93a8f95b41cc225fc69bd07e8f73792b60de0d18e81737a8892cff"
+      }
+    }
+  }
+}

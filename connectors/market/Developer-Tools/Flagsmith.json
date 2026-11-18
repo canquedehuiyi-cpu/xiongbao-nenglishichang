@@ -1,0 +1,96 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.494Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Developer-Tools",
+  "categoryCode": "Developer Tools",
+  "connector_id": "flagsmith",
+  "connector_name": "Flagsmith",
+  "connector_name_cn": "Flagsmith",
+  "description": "Read feature flags and manage identity-based configuration in Flagsmith. Use identity, tenant, or environment context to review configuration and access boundaries. Check the relevant objects for a specific use case and compare them with the application’s expected behavior. Before changing permissions or configuration, confirm the target and scope. Validate the effect in the application rather than assuming that the presence of a configuration record proves the intended behavior is working.",
+  "description_cn": "读取 Flagsmith 功能开关并管理按身份划分的配置。适合核对用户、租户、身份或环境对应的配置与访问边界。可围绕具体使用场景检查相关对象，结合应用自身规则确认预期行为。涉及配置或权限调整时，应先明确目标对象与作用范围，并通过应用侧验证实际效果，避免只检查配置存在就认为业务行为已经正确。",
+  "version": "1.0.0",
+  "category": "Developer Tools",
+  "tags": [
+    "feature-flags",
+    "configuration",
+    "developer-tools"
+  ],
+  "provider_name": "Flagsmith",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "flagsmith",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_802a4e5c1165c34f7e532632e556c9b69cd1d1511c697af832f6a94220e7febd",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Flagsmith API connector for feature flags and identity configuration.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_802a4e5c1165c34f7e532632e556c9b69cd1d1511c697af832f6a94220e7febd",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "flagsmith",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_802a4e5c1165c34f7e532632e556c9b69cd1d1511c697af832f6a94220e7febd",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Retrieve one feature flag by feature name from the connected environment.",
+            "name": "get_feature_flag"
+          },
+          {
+            "description": "Retrieve evaluated flags and traits for a Flagsmith identity.",
+            "name": "get_identity_flags"
+          },
+          {
+            "description": "Identify a Flagsmith user, optionally set traits, and return evaluated flags.",
+            "name": "identify_identity"
+          },
+          {
+            "description": "List feature flags for the connected Flagsmith environment.",
+            "name": "list_flags"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "flagsmith": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_802a4e5c1165c34f7e532632e556c9b69cd1d1511c697af832f6a94220e7febd",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_802a4e5c1165c34f7e532632e556c9b69cd1d1511c697af832f6a94220e7febd"
+      }
+    }
+  }
+}

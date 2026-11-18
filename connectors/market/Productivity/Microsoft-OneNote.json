@@ -1,0 +1,103 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.609Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "microsoft_onenote",
+  "connector_name": "Microsoft OneNote",
+  "connector_name_cn": "微软 OneNote",
+  "description": "Manage OneNote notebooks, sections, and pages.",
+  "description_cn": "管理 OneNote 笔记本、分区和页面。",
+  "version": "1.0.2",
+  "category": "Productivity",
+  "tags": [
+    "qoder-vibe-new",
+    "qoder-pro-new"
+  ],
+  "provider_name": "Microsoft OneNote",
+  "author": {
+    "name": "",
+    "display_name": ""
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "microsoft_onenote",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4050dfde29f37573775f9f2dd31f1fc017c7d4c21e5461083c150aa713b52791",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4050dfde29f37573775f9f2dd31f1fc017c7d4c21e5461083c150aa713b52791",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "microsoft_onenote",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_4050dfde29f37573775f9f2dd31f1fc017c7d4c21e5461083c150aa713b52791",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create a OneNote page from well-formed UTF-8 HTML. Binary and multipart attachments are not supported.",
+            "name": "create_onenote_page"
+          },
+          {
+            "description": "Create a page in a OneNote section from well-formed UTF-8 HTML. Binary and multipart attachments are not supported.",
+            "name": "create_onenote_section_page"
+          },
+          {
+            "description": "Get the HTML content of a OneNote page.",
+            "name": "get_onenote_page_content"
+          },
+          {
+            "description": "List sections in a OneNote notebook.",
+            "name": "list_onenote_notebook_sections"
+          },
+          {
+            "description": "List OneNote notebooks for the authenticated Microsoft user.",
+            "name": "list_onenote_notebooks"
+          },
+          {
+            "description": "List pages in a OneNote section.",
+            "name": "list_onenote_section_pages"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "microsoft_onenote": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4050dfde29f37573775f9f2dd31f1fc017c7d4c21e5461083c150aa713b52791",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4050dfde29f37573775f9f2dd31f1fc017c7d4c21e5461083c150aa713b52791"
+      }
+    }
+  }
+}

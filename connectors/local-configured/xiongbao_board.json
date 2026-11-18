@@ -1,0 +1,10 @@
+{
+  "command": "C:\\Program Files\\nodejs\\node.exe",
+  "args": [
+    "<HOME>\\Documents\\ChatGPT\\熊宝数字员工\\agent-collab-board\\bridge\\mcp.mjs",
+    "--agent",
+    "qoder",
+    "--runtime",
+    "<HOME>\\Documents\\ChatGPT\\熊宝数字员工\\agent-collab-board\\.local\\runtime.json"
+  ]
+}

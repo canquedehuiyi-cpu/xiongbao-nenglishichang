@@ -1,0 +1,100 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.454Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "axiom",
+  "connector_name": "Axiom",
+  "connector_name_cn": "Axiom",
+  "description": "Manage datasets and query logs, events, and observability data with Axiom and APL. Use the returned resources and metrics to prepare data investigations and business analysis. Begin with a specific question, check the data scope, fields, and time conditions, and organize results for downstream analysis. Retain the query context and source information. Review missing values, aggregation level, and update timing before interpreting a partial result as evidence of a business change.",
+  "description_cn": "通过 Axiom 和 APL 管理数据集并查询日志、事件和可观测性数据。适合在数据排查和业务分析前收集所需的资源与指标信息。可围绕明确的问题检查数据范围、字段和时间条件，再将返回结果整理为后续分析输入。使用数据时应保留查询条件及来源，先核对缺失值、统计粒度和更新时点，避免将不完整结果误解为业务变化。",
+  "version": "1.0.0",
+  "category": "Database & Analytics",
+  "tags": [
+    "observability",
+    "logs",
+    "analytics"
+  ],
+  "provider_name": "Axiom",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "axiom",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a56999cdda151d2f1e08871802308cc8b27d57a4caa90363c4da925634b01526",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Manage datasets and query logs, events, and observability data with Axiom and APL.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a56999cdda151d2f1e08871802308cc8b27d57a4caa90363c4da925634b01526",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "axiom",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_a56999cdda151d2f1e08871802308cc8b27d57a4caa90363c4da925634b01526",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create an Axiom dataset.",
+            "name": "create_dataset"
+          },
+          {
+            "description": "Delete an Axiom dataset by ID or unique name.",
+            "name": "delete_dataset"
+          },
+          {
+            "description": "Get an Axiom dataset by ID or unique name.",
+            "name": "get_dataset"
+          },
+          {
+            "description": "List Axiom datasets visible to the current token.",
+            "name": "list_datasets"
+          },
+          {
+            "description": "Run an Axiom Processing Language query through the global API endpoint.",
+            "name": "run_apl_query"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "axiom": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a56999cdda151d2f1e08871802308cc8b27d57a4caa90363c4da925634b01526",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a56999cdda151d2f1e08871802308cc8b27d57a4caa90363c4da925634b01526"
+      }
+    }
+  }
+}

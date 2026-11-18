@@ -1,0 +1,108 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.462Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "databox",
+  "connector_name": "Databox",
+  "connector_name_cn": "Databox",
+  "description": "View accessible Databox accounts, create or delete ingestion data sources and datasets, push JSON records into datasets, and check ingestion status. Prepare data feeds and monitor their processing progress.",
+  "description_cn": "查看可访问的 Databox 账号，创建或删除数据源和数据集，向数据集推送 JSON 记录，并查询数据接入处理状态。适合将业务数据送入 Databox，并核对接入进度。",
+  "version": "1.0.0",
+  "category": "Database & Analytics",
+  "tags": [
+    "analytics",
+    "metrics",
+    "dashboards"
+  ],
+  "provider_name": "Databox",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "databox",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a43177e509b01f3076d77675a296818cf42725a9d2fc0e331d6cfa56d327e75a",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Access accounts, data sources, and business metrics.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a43177e509b01f3076d77675a296818cf42725a9d2fc0e331d6cfa56d327e75a",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "databox",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_a43177e509b01f3076d77675a296818cf42725a9d2fc0e331d6cfa56d327e75a",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create a Databox ingestion data source in an account.",
+            "name": "create_data_source"
+          },
+          {
+            "description": "Create a Databox dataset within an ingestion data source.",
+            "name": "create_dataset"
+          },
+          {
+            "description": "Delete a Databox data source by ID.",
+            "name": "delete_data_source"
+          },
+          {
+            "description": "Delete a Databox dataset by ID.",
+            "name": "delete_dataset"
+          },
+          {
+            "description": "Get the processing status of a Databox dataset ingestion.",
+            "name": "get_dataset_ingestion_status"
+          },
+          {
+            "description": "List Databox accounts accessible to the API key.",
+            "name": "list_accounts"
+          },
+          {
+            "description": "Push JSON records into a Databox dataset.",
+            "name": "push_dataset_data"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "databox": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a43177e509b01f3076d77675a296818cf42725a9d2fc0e331d6cfa56d327e75a",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a43177e509b01f3076d77675a296818cf42725a9d2fc0e331d6cfa56d327e75a"
+      }
+    }
+  }
+}

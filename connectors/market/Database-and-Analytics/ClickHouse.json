@@ -1,0 +1,146 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.438Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "eda186f2-0d22-4f2f-a603-5ff1f425cdfd",
+  "connector_name": "ClickHouse",
+  "connector_name_cn": "ClickHouse",
+  "description": "ClickHouse provides a high-performance columnar database for large-scale real-time analytics and OLAP queries.",
+  "description_cn": "提供高性能列式分析数据库，用于处理大规模实时数据分析和 OLAP 查询。",
+  "version": "1.0.1",
+  "category": "Database & Analytics",
+  "tags": [],
+  "provider_name": "ClickHouse",
+  "author": {
+    "name": "",
+    "display_name": "ClickHouse"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "ClickHouse",
+        "url": "https://mcp.clickhouse.cloud/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ed6118a528bb2c3dedb85909c33fc99bafcaf863a8f55866ab2fa65b89d4bbc1",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_ed6118a528bb2c3dedb85909c33fc99bafcaf863a8f55866ab2fa65b89d4bbc1",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Returns the full definition of one ClickPipe on a ClickHouse service: name, description, state, replica scaling, source settings (Kafka, object storage, Kinesis, or Postgres), destination database and table definition, field mappings, and creation and update times. If the lookup fails, result is an error object with status \"error\" and a message.",
+            "name": "get_clickpipe"
+          },
+          {
+            "description": "Retrieves all accessible ClickHouse Cloud organizations.",
+            "name": "get_organizations"
+          },
+          {
+            "description": "Executes a SELECT query against a ClickHouse service. Runs a read-only SELECT query on the specified ClickHouse service via the Query API endpoint. This function provides direct access to database content through SQL queries while ensuring that only read operations are permitted. The result size is limited (see maxResultBytes). Prefer aggregations (COUNT, SUM, GROUP BY) and selecting only the columns you need. To read many rows, fetch them in pages with LIMIT and OFFSET, or by a key range such as WHERE id > <last id> ORDER BY id LIMIT n.",
+            "name": "run_select_query"
+          },
+          {
+            "description": "Executes a read-only SELECT query against a Postgres service. The query is routed through the Postgres query endpoint with the read-only role and only read-style statements are permitted.",
+            "name": "run_postgres_select_query"
+          },
+          {
+            "description": "Lists the slowest query patterns observed on a Postgres service in a time window, with aggregate metrics per pattern (call count, total/avg/p50/p95/p99/max duration, rows, shared buffer cache hits and reads, CPU time, WAL bytes, error count). Durations are in microseconds. Use this first to find which queries dominate execution time, CPU, I/O, or WAL, then pass a selected pattern queryId, dbName, dbUser, dbOperation, and app exactly as returned to get_postgres_slow_query_pattern_details for its recent executions. Pass app as an empty string when the selected pattern has no application_name; omit the app filter only when intentionally querying across all applications. The queryText is normalized with $1-style placeholders.",
+            "name": "list_postgres_slow_query_patterns"
+          },
+          {
+            "description": "Returns up to the 10 most recent individual executions for a single Postgres slow query pattern from the last 24 hours, plus aggregate metrics for the pattern when available. For exact drill-down from list_postgres_slow_query_patterns, pass queryId, dbName, dbUser, dbOperation, and app exactly as returned; pass app as an empty string when the selected pattern has no application_name. Omit app only when intentionally querying across all applications. Each execution includes duration, rows, buffer/temp/WAL/JIT/CPU counters, and the error message and SQLSTATE if it failed. Durations are in microseconds. The execution sample is capped at 10 rows, so when aggregate is present rely on its fields for totals.",
+            "name": "get_postgres_slow_query_pattern_details"
+          },
+          {
+            "description": "Returns bucketed time-series metrics for a Postgres service over a time window (CPU, memory, disk, network, connections, cache hit ratio, throughput, transactions, wait events, lock waits, and more). Wait metrics are active_sessions_by_wait (one series per wait event, such as Lock:relation, or None when a session is not waiting), lock_wait_time (p50, p95, and Max series, in seconds), and blocked_sessions. Each metric has a key, name, unit, description, and one series per label dimension, where each series is a list of (timestamp, value) data points. Timestamps are Unix seconds at the bucket start. Provide fromDate and toDate to bound the window; omit bucketSizeSeconds to let the server pick a bucket granularity for the window. Use this to chart or analyze how a service behaved over time.",
+            "name": "get_postgres_metrics"
+          },
+          {
+            "description": "Returns PostgreSQL server log entries for a Postgres service in a time window, most recent first unless sortOrder is asc. Each entry has a timestamp (RFC 3339), a severity, and the raw body; structured bodies are returned as a JSON-encoded string. Filter with severity (exact match, so ERROR does not include FATAL or PANIC) and bodyContains (case-sensitive substring). The window must not exceed 30 days, and toDate must be after fromDate. Results are paginated: omit limit for 50 entries per page (up to 2000) and advance offset until a page returns fewer than limit entries. Use this to investigate errors, failed connections, crashes, and other server events.",
+            "name": "get_postgres_logs"
+          },
+          {
+            "description": "Lists the databases in a ClickHouse Cloud service by running SHOW DATABASES as the authenticated identity. Returns only database names as an array of strings, with no tables, sizes, or other metadata; call list_tables with one of these names to see its tables and columns. If the query fails or the user lacks passwordless access to the service, result is an error object instead. Idle services are woken automatically and the call returns an error asking you to retry shortly; stopped services are never started automatically and must be started manually.",
+            "name": "list_databases"
+          },
+          {
+            "description": "Lists the tables of one database on a ClickHouse service by querying system.tables and system.columns as the authenticated identity, optionally narrowed with the like and notLike name patterns. Each table includes its engine and full engine definition, CREATE TABLE statement, sorting and primary keys, view dependencies, row, byte, part, and mark counts, comment, and its columns with type, default kind and expression, and comment. Returns an empty array when nothing matches. If the query fails or the user lacks passwordless access to the service, result is an error object instead. Idle services are woken automatically and the call returns an error asking you to retry shortly; stopped services are never started automatically and must be started manually.",
+            "name": "list_tables"
+          },
+          {
+            "description": "Lists every ClickHouse and Managed Postgres service in an organization. Each entry has serviceType (\"clickhouse\" or \"postgres\"), id, name, provider, region, state, and createdAt; ClickHouse services add version, endpoints, replica and memory settings, idle scaling, IP access list, private endpoints, and encryption fields, while Postgres services add version, VM size, storage size, and HA type. Use the id values with the service-scoped tools. If one service kind cannot be listed, result holds the other kind and partialResults and warning explain what is missing; if both fail, result is an error object.",
+            "name": "get_services_list"
+          },
+          {
+            "name": "get_organization_details"
+          },
+          {
+            "description": "Returns a service that belongs to the organization. Supports both ClickHouse services and Managed Postgres services; the service type is detected automatically from the service id and is reported in the `serviceType` field of the response.",
+            "name": "get_service_details"
+          },
+          {
+            "description": "Lists the ClickPipes of a ClickHouse service. Each entry has id, name, description, state, scaling, source and destination configuration, field mappings, and creation and update times; returns an empty array when the service has none. Pass an id to get_clickpipe for the fully typed definition of one pipe. If the lookup fails, result is an error object.",
+            "name": "list_clickpipes"
+          },
+          {
+            "description": "Lists the backups of a ClickHouse service, most recent first. Each backup has id, status, start and finish times, size in bytes, duration in seconds, type, and, for backups exported to a customer bucket, the backup name and bucket details. On success result has status \"success\" and a backups array; on failure it is an error object with status \"error\" and a message.",
+            "name": "list_service_backups"
+          },
+          {
+            "description": "Returns usage costs for an organization over an inclusive range of UTC calendar days from from_date to to_date (both required, at most 31 days). result has grandTotalCHC, the total in ClickHouse Credits (CHC), and costs, one record per day per billed entity (data warehouse, service, or ClickPipe) with the entity id and name, a per-metric CHC breakdown, the day total, and whether the record is final. On failure result is an error object with status \"error\" and a message.",
+            "name": "get_organization_cost"
+          },
+          {
+            "description": "Returns one backup of a ClickHouse service: its status, start and finish times, size in bytes, duration in seconds, type, and, when the backup was exported to a customer bucket, its name and bucket details. Use list_service_backups to find backup ids. On failure result is an error object with status \"error\" and a message.",
+            "name": "get_service_backup_details"
+          },
+          {
+            "description": "Returns the backup schedule of a ClickHouse service: backupPeriodInHours (interval between backups), backupRetentionPeriodInHours (how long backups stay available), and backupStartTime (UTC HH:MM, present only when a custom start time is set). On failure result is an error object with status \"error\" and a message.",
+            "name": "get_service_backup_configuration"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "ClickHouse": {
+        "type": "http",
+        "url": "https://mcp.clickhouse.cloud/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ed6118a528bb2c3dedb85909c33fc99bafcaf863a8f55866ab2fa65b89d4bbc1"
+      }
+    }
+  }
+}

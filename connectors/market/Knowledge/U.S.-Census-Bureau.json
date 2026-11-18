@@ -1,0 +1,100 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.556Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Knowledge",
+  "categoryCode": "Knowledge",
+  "connector_id": "census_bureau",
+  "connector_name": "U.S. Census Bureau",
+  "connector_name_cn": "U.S. Census Bureau",
+  "description": "Query U.S. Census datasets and statistical indicators. Use returned records during research preparation to find relevant material and check factual context. Organize results around a research question and retain identifiers, sources, and search conditions for further reading and cross-checking. Summaries and statistics are not substitutes for the underlying material. For important conclusions, review source definitions, publication dates, and scope before incorporating findings into the analysis.",
+  "description_cn": "查询美国人口普查数据集及统计指标。适合在研究准备阶段查找资料、梳理相关主题并核对事实背景。可围绕研究问题组织返回条目，保留标识、出处与检索条件，方便继续阅读和交叉验证。摘要或统计结果不应替代原始资料，涉及重要结论时需检查来源定义、发布日期及适用范围。",
+  "version": "1.0.0",
+  "category": "Knowledge",
+  "tags": [
+    "statistics",
+    "census",
+    "public-data"
+  ],
+  "provider_name": "U.S. Census Bureau",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "census_bureau",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_6c5b2cf90a1d43a6e469f52163dcf8c052e771dcdead388915af8f82b37929ea",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Query U.S. Census datasets and statistical indicators.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_6c5b2cf90a1d43a6e469f52163dcf8c052e771dcdead388915af8f82b37929ea",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "census_bureau",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_6c5b2cf90a1d43a6e469f52163dcf8c052e771dcdead388915af8f82b37929ea",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Get one Census Data API variable group and its variables.",
+            "name": "get_group"
+          },
+          {
+            "description": "List Census Data API datasets with optional client-side search, vintage, and pagination filters.",
+            "name": "list_datasets"
+          },
+          {
+            "description": "List variable groups for a Census Data API dataset.",
+            "name": "list_groups"
+          },
+          {
+            "description": "List variables for a Census Data API dataset.",
+            "name": "list_variables"
+          },
+          {
+            "description": "Query a Census Data API dataset with variables, geography predicates, and optional filters.",
+            "name": "query_dataset"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "census_bureau": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_6c5b2cf90a1d43a6e469f52163dcf8c052e771dcdead388915af8f82b37929ea",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_6c5b2cf90a1d43a6e469f52163dcf8c052e771dcdead388915af8f82b37929ea"
+      }
+    }
+  }
+}

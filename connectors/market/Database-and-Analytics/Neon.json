@@ -1,0 +1,640 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.441Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "0f893636-0b30-4c7f-8454-572d177c4aac",
+  "connector_name": "Neon",
+  "connector_name_cn": "Neon",
+  "description": "Manage Neon serverless Postgres databases, branches, and projects",
+  "description_cn": "管理 Neon Serverless Postgres 数据库、分支和项目",
+  "version": "1.0.4",
+  "category": "Database & Analytics",
+  "tags": [
+    "qoder-pro"
+  ],
+  "provider_name": "Neon",
+  "author": {
+    "name": "",
+    "display_name": "Neon"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "qoder",
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Neon",
+        "url": "https://mcp.neon.tech/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_e89f165475dbf19a34c76dfda7956bc69228447d65b32963c7d226a64d2915c0",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_e89f165475dbf19a34c76dfda7956bc69228447d65b32963c7d226a64d2915c0",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Lists the organizations the user belongs to; an organization API key gets its own organization. search filters by name or id.",
+            "name": "list_organizations"
+          },
+          {
+            "description": "Runs one SQL statement on a branch's database and returns its rows. After a prepare step, pass its temporary branch_id. NEVER run destructive SQL autonomously; always ask the user first.",
+            "name": "run_sql"
+          },
+          {
+            "description": "Runs several SQL statements in one transaction and returns each one's rows. After a prepare step, pass its temporary branch_id. NEVER run destructive SQL autonomously; always ask the user first.",
+            "name": "run_sql_transaction"
+          },
+          {
+            "description": "Returns a table's columns, indexes, constraints, and sizes. For every table, use get_database_tables.",
+            "name": "describe_table_schema"
+          },
+          {
+            "description": "Lists a database's tables and views outside the system schemas. For one table's columns, use describe_table_schema.",
+            "name": "get_database_tables"
+          },
+          {
+            "description": "Applies a schema change on a new temporary branch and returns a migration_id. Test it there with run_sql, ask the user, then always call complete_database_migration with the response's complete object so the branch is deleted.",
+            "name": "prepare_database_migration"
+          },
+          {
+            "description": "Applies or discards a prepared migration and deletes the temporary branch. NEVER run autonomously; always ask the user first. Pass the complete object from prepare_database_migration; apply_changes false discards.",
+            "name": "complete_database_migration"
+          },
+          {
+            "description": "Returns a branch summary, its database names, and a tree of one database's schemas, tables, views, indexes, sequences, and functions. Starts a suspended compute. Branch record only: get_branch; table names: get_database_tables; columns: describe_table_schema.",
+            "name": "describe_branch"
+          },
+          {
+            "description": "Returns a Postgres connection string with a role password; the branch needs a compute. Omitted inputs resolve like the SQL tools: default branch, neondb or the first database, and its owner. Call it after create_project or create_branch, which return none. `project_id` follows the connection scope. Requires write access: the connection string carries a privileged role password, so it is unavailable in read-only mode. A read-only caller who needs a DATABASE_URL must copy it from [REDACTED] manually.",
+            "name": "get_connection_string"
+          },
+          {
+            "description": "Returns a branch's Neon Auth integration and settings: trusted origins, localhost, email and password, OAuth and email providers, plugins, webhook, and logs export, with secrets redacted. Needs Neon Auth on the branch (provision_neon_auth).",
+            "name": "get_neon_auth_config"
+          },
+          {
+            "description": "Returns a statement's execution plan as JSON. analyze true executes it, side effects included, so never analyze potentially destructive SQL autonomously. For rows, use run_sql.",
+            "name": "explain_sql_statement"
+          },
+          {
+            "description": "Runs EXPLAIN ANALYZE for a slow query on a new temporary branch; returns the plan, table schemas, and a tuning_id. Try changes there with run_sql and explain_sql_statement, then always call complete_query_tuning with the complete object so the branch is deleted. Not prepare_database_migration.",
+            "name": "prepare_query_tuning"
+          },
+          {
+            "description": "Applies or discards query-tuning changes and deletes the temporary branch. NEVER run autonomously. Pass the complete object from prepare_query_tuning and suggested_sql_statements; apply_changes true applies, omitted discards. Call it even when the user rejects.",
+            "name": "complete_query_tuning"
+          },
+          {
+            "description": "Lists queries from pg_stat_statements, slowest mean execution time first. For sizes, indexes, locks, cache, bloat, or replication, use inspect_database.",
+            "name": "list_slow_queries"
+          },
+          {
+            "description": "Runs one read-only neon inspect db check; some are compute-wide. outliers ranks queries by total time and calls by count, both via pg_stat_statements; lfc-hit-rate and working-set need the neon extension. If one is missing, the error gives the CREATE EXTENSION; ask before running it. Other SQL: run_sql; one plan: explain_sql_statement; new indexes: prepare_query_tuning.",
+            "name": "inspect_database"
+          },
+          {
+            "description": "Finds organizations, projects (including shared ones), branches, computes, and snapshots whose name or id contains query, with ids for fetch. To list projects, use list_projects; for docs, search_docs.",
+            "name": "search"
+          },
+          {
+            "description": "Returns an organization, project, branch, compute, or snapshot by an id from search: markdown text, console URL, and records in metadata.",
+            "name": "fetch"
+          },
+          {
+            "description": "Searches neon.com docs, API reference, PostgreSQL tutorial, guides, FAQs, changelog, and blog for ranked pages with the slug get_doc reads.",
+            "name": "search_docs"
+          },
+          {
+            "description": "Returns one neon.com page as markdown, by the slug of a search_docs hit.",
+            "name": "get_doc"
+          },
+          {
+            "description": "Sends anonymous feedback text to the Neon team, with no account, project, or connection details. Only call it when the user asks to give feedback.",
+            "name": "send_feedback"
+          },
+          {
+            "description": "Lists open Neon incidents and maintenance from neonstatus.com and the affected components and regions. Needs no credentials. Call it when Neon requests fail unexpectedly or the user asks whether Neon is down.",
+            "name": "list_incidents"
+          },
+          {
+            "description": "Lists the projects in an organization; search filters by name or id. To also find branches, computes, or snapshots, use search. Returns every page. Pass limit to cap how many. `org_id` is optional: organization API keys use their organization; personal API keys auto-select when unambiguous and otherwise return the IDs to choose from.",
+            "name": "list_projects"
+          },
+          {
+            "description": "Counts an organization's active projects without listing them; ones being created or deleted are not counted. `org_id` is optional: organization API keys use their organization; personal API keys auto-select when unambiguous and otherwise return the IDs to choose from.",
+            "name": "count_projects"
+          },
+          {
+            "description": "Gets a project's settings, owner, and usage. For branches, use list_branches.",
+            "name": "describe_project"
+          },
+          {
+            "description": "Creates a project with a default branch and read-write compute and waits until it is ready. Returns no connection string; use get_connection_string. `org_id` is optional: organization API keys use their organization; personal API keys auto-select when unambiguous and otherwise return the IDs to choose from.",
+            "name": "create_project"
+          },
+          {
+            "description": "Updates a project's name, settings, default compute settings, or history retention.",
+            "name": "update_project"
+          },
+          {
+            "description": "Deletes a project with all its branches, computes, databases, and roles. NEVER run autonomously; always ask the user first. recover_project undoes it within 7 days. For one branch, use delete_branch.",
+            "name": "delete_project"
+          },
+          {
+            "description": "Recovers a project deleted in the last 7 days; list_projects with recoverable true finds them. Some integrations need setting up again.",
+            "name": "recover_project"
+          },
+          {
+            "name": "list_project_permissions"
+          },
+          {
+            "description": "Lists organization members and their roles on an [REDACTED] project; 404 when the project is not [REDACTED] or per-project roles are off. Returns every page. Pass limit to cap how many.",
+            "name": "list_project_members"
+          },
+          {
+            "description": "Lists the regions you can create projects in. An organization API key gets 404.",
+            "name": "list_regions"
+          },
+          {
+            "description": "Lists a project's operations; ones older than six months may be gone. Returns every page. Pass limit to cap how many.",
+            "name": "list_operations"
+          },
+          {
+            "description": "Gets one operation and its status.",
+            "name": "get_operation"
+          },
+          {
+            "description": "Returns per-project consumption in an organization. metrics: every name get_branch_consumption takes, plus extra_branches_month and snapshot_storage_bytes_month. Launch, Scale, Agent, Business, or Enterprise plans; others get 403. Returns every page. Pass limit to cap how many.",
+            "name": "get_project_consumption"
+          },
+          {
+            "description": "Returns per-branch consumption for project_ids. metrics: compute_unit_seconds, root_branch_bytes_month, child_branch_bytes_month, instant_restore_bytes_month, public_network_transfer_bytes, private_network_transfer_bytes, functions_active_capacity_microseconds, functions_waiting_capacity_microseconds, functions_invocations, functions_egress_bytes. Usage-based Launch, Scale, Agent, or Enterprise plans only. Returns every page. Pass limit to cap how many.",
+            "name": "get_branch_consumption"
+          },
+          {
+            "description": "Lists a project's branches with id (br-...), name, parent, and default flag; search finds a branch's id by name. Returns every page. Pass limit to cap how many.",
+            "name": "list_branches"
+          },
+          {
+            "description": "Gets a branch record: name, parent, state, protection, size, and timestamps. For its databases and tables, use describe_branch.",
+            "name": "get_branch"
+          },
+          {
+            "description": "Creates a branch from its parent's current data, with a read-write compute unless no_compute, and waits until it is ready. Returns no connection string; use get_connection_string.",
+            "name": "create_branch"
+          },
+          {
+            "description": "Renames a branch, protects or unprotects it, or sets when it expires.",
+            "name": "update_branch"
+          },
+          {
+            "description": "Deletes a branch with all its data and disconnects its clients. NEVER run autonomously; always ask the user first. The root, the default, and a branch with children cannot be deleted. For the whole project, use delete_project.",
+            "name": "delete_branch"
+          },
+          {
+            "description": "Gets the project's default branch by its default flag, not its name.",
+            "name": "get_default_branch"
+          },
+          {
+            "description": "Makes a branch the project's default; the previous default loses the flag.",
+            "name": "set_default_branch"
+          },
+          {
+            "description": "Resets a branch to its parent's current state, discarding the branch's own changes. NEVER run autonomously; always ask the user first. preserve_under_name first saves the current state as a new branch. To restore a snapshot, use restore_snapshot.",
+            "name": "reset_from_parent"
+          },
+          {
+            "description": "Diffs one database's SQL schema on a branch against another branch, by default its parent. lsn, timestamp, base_lsn, and base_timestamp are only for point-in-time comparisons.",
+            "name": "compare_database_schema"
+          },
+          {
+            "description": "Finalizes a branch restored with finalize false: moves the original branch's computes onto it, restarting them, and takes over its name.",
+            "name": "finalize_branch_restore"
+          },
+          {
+            "description": "Lists a branch's Postgres roles.",
+            "name": "list_postgres_roles"
+          },
+          {
+            "description": "Gets a Postgres role on a branch.",
+            "name": "get_postgres_role"
+          },
+          {
+            "description": "Creates a Postgres role on a branch and returns its password. The default access, admin, joins neon_superuser: every database, creating databases and roles, bypassing row-level security, and it cannot be narrowed later. For least privilege pass read_only or read_write with database_name and schemas, covering the tables the database owner owns, now and later.",
+            "name": "create_postgres_role"
+          },
+          {
+            "description": "Deletes a Postgres role from a branch.",
+            "name": "delete_postgres_role"
+          },
+          {
+            "description": "Sets a new random password for a Postgres role and returns it. Drops the compute's connections.",
+            "name": "reset_postgres_role_password"
+          },
+          {
+            "description": "Lists a branch's databases and their owners.",
+            "name": "list_postgres_databases"
+          },
+          {
+            "description": "Gets a database on a branch and its owner.",
+            "name": "get_postgres_database"
+          },
+          {
+            "description": "Creates a database on a branch, owned by owner_name.",
+            "name": "create_postgres_database"
+          },
+          {
+            "description": "Renames a database or changes its owner.",
+            "name": "update_postgres_database"
+          },
+          {
+            "description": "Deletes a database and its data from a branch.",
+            "name": "delete_postgres_database"
+          },
+          {
+            "description": "Lists the compute endpoints of every branch in a project. For one branch, use list_branch_computes.",
+            "name": "list_postgres_endpoints"
+          },
+          {
+            "description": "Lists a branch's compute endpoints. For every branch in the project, use list_postgres_endpoints.",
+            "name": "list_branch_computes"
+          },
+          {
+            "description": "Gets a compute endpoint (ep-...), including its host and state.",
+            "name": "get_postgres_endpoint"
+          },
+          {
+            "description": "Creates a compute endpoint on a branch; a branch takes one read-write endpoint and any number of read-only. Returns no connection string; use get_connection_string.",
+            "name": "create_postgres_endpoint"
+          },
+          {
+            "description": "Updates a compute endpoint's settings.",
+            "name": "update_postgres_endpoint"
+          },
+          {
+            "description": "Deletes a compute endpoint and drops its connections.",
+            "name": "delete_postgres_endpoint"
+          },
+          {
+            "description": "Starts a suspended compute endpoint.",
+            "name": "start_postgres_endpoint"
+          },
+          {
+            "description": "Suspends a compute endpoint, dropping its connections.",
+            "name": "suspend_postgres_endpoint"
+          },
+          {
+            "description": "Restarts a compute endpoint by suspending and starting it, dropping its connections.",
+            "name": "restart_postgres_endpoint"
+          },
+          {
+            "description": "Lists a project's snapshots.",
+            "name": "list_snapshots"
+          },
+          {
+            "description": "Gets a branch's automatic snapshot schedule.",
+            "name": "get_snapshot_schedule"
+          },
+          {
+            "description": "Replaces a branch's automatic snapshot schedule.",
+            "name": "set_snapshot_schedule"
+          },
+          {
+            "description": "Creates a snapshot of a branch.",
+            "name": "create_snapshot"
+          },
+          {
+            "description": "Renames a snapshot or changes when it expires.",
+            "name": "update_snapshot"
+          },
+          {
+            "description": "Deletes a snapshot.",
+            "name": "delete_snapshot"
+          },
+          {
+            "description": "Restores a snapshot onto a new branch or onto target_branch_id and waits until it is ready. With finalize false, swap it in later with finalize_branch_restore.",
+            "name": "restore_snapshot"
+          },
+          {
+            "description": "Gets a branch's Neon Auth integration record: provider, base URL, JWKS URL, and database. Prefer get_neon_auth_config, which adds the auth settings, unless you only need the record.",
+            "name": "get_auth"
+          },
+          {
+            "description": "Enables Neon Auth on a branch and creates the neon_auth schema in its database.",
+            "name": "provision_neon_auth"
+          },
+          {
+            "description": "Disables Neon Auth on a branch. delete_data also drops the neon_auth schema and its tables.",
+            "name": "disable_auth"
+          },
+          {
+            "description": "Sets the application name Neon Auth uses in its emails.",
+            "name": "update_auth_config"
+          },
+          {
+            "description": "Lists the social login providers (Google, GitHub, Microsoft, Vercel, Apple, Discord) of a branch's Neon Auth. For Neon Auth as an OAuth server, use get_auth_oauth_server.",
+            "name": "list_auth_oauth_providers"
+          },
+          {
+            "description": "Adds a social login provider (Google, GitHub, Microsoft, Vercel, Apple, Discord) to a branch's Neon Auth. Microsoft, Apple, and Discord have no shared app, so they need your own `client_id` and `client_secret`. Apple and Discord work only on Better Auth projects, not legacy Stack Auth. For Apple, `client_id` is the Services ID, `client_secret` is the `.p8` private key, and `apple_team_id` and `apple_key_id` are required. For Neon Auth as an OAuth server, use update_auth_oauth_server.",
+            "name": "add_auth_oauth_provider"
+          },
+          {
+            "description": "Updates a social login provider (Google, GitHub, Microsoft, Vercel, Apple, Discord) on a branch's Neon Auth. For Apple, a new `client_secret` (`.p8` key) must be sent with its `apple_key_id`. For Neon Auth as an OAuth server, use update_auth_oauth_server.",
+            "name": "update_auth_oauth_provider"
+          },
+          {
+            "description": "Deletes a social login provider (Google, GitHub, Microsoft, Vercel, Apple, Discord) from a branch's Neon Auth. For Neon Auth as an OAuth server, use update_auth_oauth_server.",
+            "name": "delete_auth_oauth_provider"
+          },
+          {
+            "description": "Lists the domains a branch's Neon Auth may redirect to after sign-in.",
+            "name": "list_auth_trusted_domains"
+          },
+          {
+            "description": "Adds a domain a branch's Neon Auth may redirect to after sign-in.",
+            "name": "add_auth_trusted_domain"
+          },
+          {
+            "description": "Removes a domain from the ones a branch's Neon Auth may redirect to.",
+            "name": "delete_auth_trusted_domain"
+          },
+          {
+            "description": "Creates a Neon Auth user on a branch who can sign in right away.",
+            "name": "create_auth_user"
+          },
+          {
+            "description": "Deletes a Neon Auth user from a branch. Irreversible.",
+            "name": "delete_auth_user"
+          },
+          {
+            "description": "Sets the roles of a Neon Auth user on a branch.",
+            "name": "update_auth_user_role"
+          },
+          {
+            "description": "Gets a branch's Neon Auth OAuth 2.1 server settings (oauth_provider plugin), for example for MCP clients. For social login, use list_auth_oauth_providers.",
+            "name": "get_auth_oauth_server"
+          },
+          {
+            "description": "Configures a branch's Neon Auth as an OAuth 2.1 server (oauth_provider plugin); root branch only. Enabling needs login_page, consent_page, and a resource or MCP resource. resources replaces the stored list, so send the full list from get_auth_oauth_server.",
+            "name": "update_auth_oauth_server"
+          },
+          {
+            "description": "Lists the OAuth clients (apps, MCP clients) of a branch's Neon Auth OAuth server, without secrets; not social login providers.",
+            "name": "list_auth_oauth_clients"
+          },
+          {
+            "description": "Gets an OAuth client of a branch's Neon Auth OAuth server, without its secret.",
+            "name": "get_auth_oauth_client"
+          },
+          {
+            "description": "Registers an OAuth client with a branch's Neon Auth OAuth server. A confidential client's client_secret is returned once: show it to the user and tell them to store it. resources must already be on the server, or be its MCP resource (get_auth_oauth_server). type is permanent.",
+            "name": "create_auth_oauth_client"
+          },
+          {
+            "description": "Updates an OAuth client of Neon Auth's OAuth server; redirect_uris and resources replace the stored lists, and type cannot change.",
+            "name": "update_auth_oauth_client"
+          },
+          {
+            "description": "Deletes an OAuth client from Neon Auth's OAuth server, irreversibly; tokens already issued stay valid.",
+            "name": "delete_auth_oauth_client"
+          },
+          {
+            "description": "Issues a new secret for a confidential OAuth client; the old one stops working at once. The new client_secret is returned once: show it to the user and tell them to store it.",
+            "name": "rotate_auth_oauth_client_secret"
+          },
+          {
+            "description": "Sets whether a branch's Neon Auth accepts localhost origins; turn it off for production. Current value: get_neon_auth_config.",
+            "name": "update_auth_allow_localhost"
+          },
+          {
+            "description": "Updates a branch's Neon Auth email and password sign-in; omitted fields keep their value. Current values: get_neon_auth_config.",
+            "name": "update_auth_email_and_password"
+          },
+          {
+            "description": "Sets the email provider for Neon Auth's emails: body.type \"shared\" for Neon's sender, or \"standard\" with your SMTP details. Test it with send_auth_test_email.",
+            "name": "update_auth_email_provider"
+          },
+          {
+            "description": "Sends a test email through the branch's saved standard SMTP provider to recipient_email. Only send to an address the user gave you. A failed send returns success false with error_message, not an error.",
+            "name": "send_auth_test_email"
+          },
+          {
+            "description": "Updates the Neon Auth magic link plugin; omitted fields keep their value. Current values: get_neon_auth_config.",
+            "name": "update_auth_plugins_magic_link"
+          },
+          {
+            "description": "Updates the Neon Auth organization plugin, which lets your app's users form organizations (not Neon organizations). Omitted fields keep their value. Current values: get_neon_auth_config.",
+            "name": "update_auth_plugins_organization"
+          },
+          {
+            "description": "Updates the Neon Auth SMS OTP plugin; omitted fields keep their value. SMS needs a webhook with the send.otp event (update_auth_webhooks). Current values: get_neon_auth_config.",
+            "name": "update_auth_plugins_phone_number"
+          },
+          {
+            "description": "Replaces a branch's Neon Auth webhook configuration; omitted fields reset, so { enabled: false } alone clears webhook_url and enabled_events. Send every field to keep, read from get_neon_auth_config.",
+            "name": "update_auth_webhooks"
+          },
+          {
+            "description": "Turns the export of a branch's Neon Auth events to Neon Platform logs on or off. A project without logs export accepts only enabled: false; enabling there returns 404 feature not available. get_neon_auth_config reports the current value as logs_export, or null where logs export is not available.",
+            "name": "update_auth_logs_export"
+          },
+          {
+            "description": "Gets the Neon Data API configuration for one database on a branch.",
+            "name": "get_data_api"
+          },
+          {
+            "description": "Creates the Neon Data API, a REST interface over database_name, on a branch.",
+            "name": "provision_neon_data_api"
+          },
+          {
+            "description": "Updates the Neon Data API settings for a database and refreshes its schema cache.",
+            "name": "update_data_api"
+          },
+          {
+            "description": "Deletes the Neon Data API for a database; requests to its endpoint start failing.",
+            "name": "delete_data_api"
+          },
+          {
+            "description": "Returns a branch's log records. Filters combine with AND; pass logql or structured filters, not both. Pass since or start_time, not both; default last hour, max seven days. Private beta: a branch without logs returns 404 telemetry_not_enabled. Stream labels: query_loki_logs. Returns every page. Pass limit to cap how many.",
+            "name": "query_logs"
+          },
+          {
+            "description": "Lists the low-cardinality log fields seen on a branch, for list_log_field_values.",
+            "name": "list_log_fields"
+          },
+          {
+            "description": "Lists the distinct values of one log field; a field the branch never emitted returns unknown_field. Pass since or start_time, not both; default last six hours, max seven days.",
+            "name": "list_log_field_values"
+          },
+          {
+            "description": "Runs a LogQL range query on a branch's logs and returns Loki's response: data.result groups lines by stream label as [nanosecond timestamp, line]. query_logs has structured filters; list_log_fields and list_log_field_values list labels. No cursor: limit lines, or the silent 10,000 cap, may mean more exist; narrow the window.",
+            "name": "query_loki_logs"
+          },
+          {
+            "description": "Gets a branch's AI Gateway host; a 404 says why it is unavailable.",
+            "name": "get_ai_gateway"
+          },
+          {
+            "description": "Lists the functions on a branch. Returns every page. Pass limit to cap how many.",
+            "name": "list_functions"
+          },
+          {
+            "description": "Gets a function on a branch by slug.",
+            "name": "get_function"
+          },
+          {
+            "description": "Sets a function's display name; null resets it to the slug. Only the branch that owns the function can rename it.",
+            "name": "update_function"
+          },
+          {
+            "description": "Deletes a function from a branch.",
+            "name": "delete_function"
+          },
+          {
+            "description": "Deploys a function version from any of zip, environment, and runtime; omitted ones keep the latest value, and the first deployment needs zip. It can return while still pending.",
+            "name": "deploy_function"
+          },
+          {
+            "description": "Lists a branch's custom domains and their targets. Returns every page. Pass limit to cap how many.",
+            "name": "list_functions_custom_domains"
+          },
+          {
+            "description": "Routes a domain you own to a function: entity_type function, entity_id the slug from list_functions. It goes live once a CNAME to the returned cname_target resolves.",
+            "name": "register_functions_custom_domain"
+          },
+          {
+            "description": "Removes a custom domain from a branch and stops routing it.",
+            "name": "delete_functions_custom_domain"
+          },
+          {
+            "description": "Lists a branch's function triggers, including inherited ones, which stay disabled on this branch until enabled.",
+            "name": "list_triggers"
+          },
+          {
+            "description": "Gets a function trigger on a branch.",
+            "name": "get_trigger"
+          },
+          {
+            "description": "Creates a trigger that calls a function on a five-field UTC cron schedule, or after an upload to one bucket, optionally under a key prefix. Names are unique on the branch.",
+            "name": "create_trigger"
+          },
+          {
+            "description": "Updates a function trigger; body.type must match its kind. Editing an inherited trigger makes a local copy, disabled unless this request enables it.",
+            "name": "update_trigger"
+          },
+          {
+            "description": "Deletes a function trigger, or hides an inherited one on this branch. Invocations already queued still run.",
+            "name": "delete_trigger"
+          },
+          {
+            "description": "Lists the scoped credentials issued on a branch, without secrets.",
+            "name": "list_credentials"
+          },
+          {
+            "description": "Issues a scoped credential on a branch. api_token and s3_secret_access_key are returned once: show them to the user and tell them to store them.",
+            "name": "create_credential"
+          },
+          {
+            "description": "Revokes a scoped credential. Idempotent.",
+            "name": "revoke_credential"
+          },
+          {
+            "description": "Replaces a scoped credential's secrets in place and returns them once; token_id stays. Not idempotent: if the response is lost, create a new credential (create_credential) and revoke this one instead of retrying.",
+            "name": "rotate_credential"
+          },
+          {
+            "description": "Checks whether object storage is available on a branch; a 404 says why not.",
+            "name": "get_storage"
+          },
+          {
+            "description": "Lists a branch's object storage buckets, inherited ones included.",
+            "name": "list_storage_buckets"
+          },
+          {
+            "description": "Creates an object storage bucket on a branch.",
+            "name": "create_storage_bucket"
+          },
+          {
+            "description": "Deletes a bucket from a branch.",
+            "name": "delete_storage_bucket"
+          },
+          {
+            "description": "Lists a bucket's objects on a branch, inherited ones included. Returns every page. Pass limit to cap how many.",
+            "name": "list_storage_objects"
+          },
+          {
+            "description": "Deletes one object from a bucket on a branch.",
+            "name": "delete_storage_object"
+          },
+          {
+            "description": "Soft-deletes every object on this branch whose key starts with prefix and returns the count; inherited objects stay.",
+            "name": "delete_storage_objects_by_prefix"
+          },
+          {
+            "description": "Returns a short-lived presigned PUT or GET URL for one object, with the headers to send; no S3 credentials needed.",
+            "name": "presign_storage_object"
+          },
+          {
+            "description": "Gets a branch's Realtime state, URL, and allowed origins; the secret comes from get_realtime_secret.",
+            "name": "get_realtime"
+          },
+          {
+            "description": "Enables Realtime on a branch, or changes its allowed origins, and waits until it is applied.",
+            "name": "enable_realtime"
+          },
+          {
+            "description": "Disables Realtime on a branch, discarding its secret, and waits until it is applied.",
+            "name": "disable_realtime"
+          },
+          {
+            "description": "Gets the secret the application backend issues Realtime tokens with; 404 until enable_realtime has run. Requires write access: the secret lets its holder issue Realtime tokens for the branch, so it is unavailable in read-only mode.",
+            "name": "get_realtime_secret"
+          },
+          {
+            "description": "Replaces a branch's Realtime secret and waits until the old one stops working. NEVER run autonomously; always ask the user first. Then update the application backend from get_realtime_secret.",
+            "name": "rotate_realtime_secret"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Neon": {
+        "type": "http",
+        "url": "https://mcp.neon.tech/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_e89f165475dbf19a34c76dfda7956bc69228447d65b32963c7d226a64d2915c0"
+      }
+    }
+  }
+}

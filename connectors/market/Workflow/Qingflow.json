@@ -1,0 +1,426 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.667Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Workflow",
+  "categoryCode": "Workflow",
+  "connector_id": "qingflow",
+  "connector_name": "Qingflow",
+  "connector_name_cn": "轻流",
+  "description": "Connect Qingflow to your AI assistant through MCP. Query and manage no-code apps, data records, forms, and workflow processes within your existing account permissions. Use it to look up app structures, read or update entries, start or track approval flows, and keep business data in sync across CRM, production, inventory, and project-management scenarios.",
+  "description_cn": "通过 MCP 将轻流接入 AI 助手。在当前账号权限内查询和管理无代码应用、表单、数据记录与审批流程，可用于查看应用结构、读写数据、发起或跟踪流程，让 CRM、生产、库存、项目管理等业务数据在对话中同步。",
+  "version": "1.0.0",
+  "category": "Workflow",
+  "tags": [
+    "qoder-pro"
+  ],
+  "provider_name": "Qingflow",
+  "author": {
+    "name": "",
+    "display_name": "Qingflow"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Qingflow",
+        "url": "https://mcp.qingflow.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c00bfed0d642a46f3f38fac377bdacd7c2a440753363615a795921a690ca3bfe",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_c00bfed0d642a46f3f38fac377bdacd7c2a440753363615a795921a690ca3bfe",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "name": "auth_use_credential"
+          },
+          {
+            "name": "auth_whoami"
+          },
+          {
+            "description": "轻流页面入口：查看页面、继续编辑、处理业务、查看结果或进入工作区（open/view/visit page in browser，login）。从 AI 对话进入页面时，使用当前 MCP 身份和工作区生成短时（约 5 分钟）一次性免登录链接。redirect_path 可选：传已确认的站内业务路径，可带 query/hash；省略进入首页，不接受外部地址或认证入口。用户指定页面但路径未知时先定位，不猜路径或静默改为首页。返回 url 和毫秒整数 expires_at；必要安全验证及原有页面权限仍然生效。创建、修改或安装轻流资源后，最终回复主动提供主要结果的可点击页面入口，无需等待用户再次索要；采用“完成结果 + 查看入口”，文案使用“在轻流中查看应用／应用包／视图”，不默认称为“继续编辑”。安装方案默认提供应用包入口；直接创建或修改应用、视图时提供对应入口；用户明确要求多个主要对象时分别提供。使用业务结果中的稳定 `uri`，按 URI 去重，不为全部子资源预签票据；主要对象没有可靠 URI 时说明限制，不猜地址或替换为不相关页面。部分成功时仅交付已确认成功且可定位的主要结果，保留失败或未验证说明；纯数据问答、中间读取、失败资源和删除操作不自动签发，用户明确要求不提供链接时遵从。目标浏览器登录态未知时，临近交付用资源 URI 的同源 pathname 为每个实际展示的入口分别签发，使用返回的完整 URL，不额外追问登录态。只有已有用户确认同一浏览器、网页域名、账号和工作区已登录且无失效信号的事实时，才直接交付稳定 URI；调用过本工具或 Agent 自动化浏览器已登录不等于用户浏览器已登录，已消费链接不可复用。用户未要求打开时不提前打开或消费链接；要求打开时才用浏览器打开返回的完整链接。签发失败时说明免登录链接未生成，提供标注“需登录”的稳定 URI 作为备用入口，不重做业务操作。机器结果继续保留稳定 URI，临时登录链接仅用于面向用户交付。",
+            "name": "get_login_link"
+          },
+          {
+            "name": "auth_logout"
+          },
+          {
+            "name": "record_export_start"
+          },
+          {
+            "name": "record_export_status_get"
+          },
+          {
+            "name": "record_export_get"
+          },
+          {
+            "name": "record_export_direct"
+          },
+          {
+            "name": "workspace_list"
+          },
+          {
+            "name": "workspace_get"
+          },
+          {
+            "name": "workspace_select"
+          },
+          {
+            "name": "app_list"
+          },
+          {
+            "name": "app_get"
+          },
+          {
+            "description": "按字段 ID 查询应用数据；先读取 field_capabilities 再构造 where 和 sort。\n\n查询不下载附件；需要下载时对目标 app_key、record_id 调用\ndata_get(download_attachments=true)，使用 file_assets.items[].local_path。",
+            "name": "data_query"
+          },
+          {
+            "description": "读取单条应用数据；需要下载附件或图片时设置 download_attachments=true，\n保留 include_schema=true，并使用 file_assets.items[].local_path。\n下载复用当前登录身份，通过数据面刷新链接；不需要 view_id，也不调用 record_get。\n默认只读取字段；file_assets.status=partial 表示部分附件下载失败，请读取 warnings。",
+            "name": "data_get"
+          },
+          {
+            "description": "新增应用数据；每项形如 {\"fields\": {\"字段ID\": 值}}。",
+            "name": "data_insert"
+          },
+          {
+            "name": "data_update"
+          },
+          {
+            "name": "data_delete"
+          },
+          {
+            "name": "portal_list"
+          },
+          {
+            "name": "portal_get"
+          },
+          {
+            "name": "view_get"
+          },
+          {
+            "name": "chart_get"
+          },
+          {
+            "name": "file_get_upload_info"
+          },
+          {
+            "name": "file_upload_local"
+          },
+          {
+            "name": "record_import_schema_get"
+          },
+          {
+            "description": "Get the official app import template and the expected applicant import columns.",
+            "name": "record_import_template_get"
+          },
+          {
+            "description": "Verify a local Excel import file and produce the only verification_id allowed for import start.",
+            "name": "record_import_verify"
+          },
+          {
+            "description": "Repair a local .xlsx import file after explicit user authorization, then re-verify it.",
+            "name": "record_import_repair_local"
+          },
+          {
+            "description": "Start import from a successful verification_id. being_enter_auditing must be passed explicitly.",
+            "name": "record_import_start"
+          },
+          {
+            "description": "Get import status by process_id_str, import_id, or the latest remembered import in the current app.",
+            "name": "record_import_status_get"
+          },
+          {
+            "name": "feedback_submit"
+          },
+          {
+            "name": "record_insert_schema_get"
+          },
+          {
+            "description": "List current-user candidate members for a member field. When record_id/workflow_node_id/fields are provided, this tool uses the backend runtime candidate scope that matches writes. Without runtime context it only returns a static applicant-node preview scope. Use record_insert_schema_get or record_update_schema_get with output_profile='verbose' first, then pass the member field_id.",
+            "name": "record_member_candidates"
+          },
+          {
+            "description": "List current-user candidate departments for a department field. When record_id/workflow_node_id/fields are provided, this tool uses the backend runtime candidate scope that matches writes. Without runtime context it only returns a static applicant-node preview scope. Use record_insert_schema_get or record_update_schema_get with output_profile='verbose' first, then pass the department field_id.",
+            "name": "record_department_candidates"
+          },
+          {
+            "description": "Browse Qingflow records with a schema-first list DSL. Use record_browse_schema_get first, then pass field_id-only columns, where, and order_by clauses. This route returns one page (10 rows by default) plus total counts for browse, sample inspection, and fuzzy record lookup; it is not for analysis.",
+            "name": "record_list"
+          },
+          {
+            "description": "Access Qingflow records for analysis by writing local CSV shard files. Use app_get -> record_browse_schema_get first, then pass field_id-only columns, where, and order_by. This tool hides pagination and row limits from the caller and returns file metadata instead of record items.",
+            "name": "record_access"
+          },
+          {
+            "description": "Read one Qingflow record as frontend detail-page context, including visible fields, references, first-page logs, associated resources, and semantic_context.",
+            "name": "record_get"
+          },
+          {
+            "description": "Read all visible data logs and workflow logs for one Qingflow record into local JSONL files. Requires the same view_id as the frontend record context. This tool hides pagination and returns file paths plus completeness metadata.",
+            "name": "record_logs_get"
+          },
+          {
+            "name": "record_browse_schema_get"
+          },
+          {
+            "name": "record_update_schema_get"
+          },
+          {
+            "description": "Insert Qingflow records using applicant-node field maps. Use record_insert_schema_get first. Prefer items=[{'fields': {...}}]; a single insert is one item. Each item performs internal preflight validation before that item is written.",
+            "name": "record_insert"
+          },
+          {
+            "description": "Update one Qingflow record using a field map. For simple field changes, call this tool directly after the target record is clear. Pass view_id when the frontend detail view is known; the tool will try that view first. It first tries the data-manager direct route, then falls back to the frontend custom-view edit route when available. Use record_update_schema_get for diagnostics or complex field-scope inspection.",
+            "name": "record_update"
+          },
+          {
+            "description": "Delete Qingflow records by record_id or record_ids. Pass view_id when deleting from a known system list route; custom view deletion is not supported by this backend route.",
+            "name": "record_delete"
+          },
+          {
+            "name": "record_code_block_schema_get"
+          },
+          {
+            "description": "Run a form code-block field against the current record data, parse alias results, and optionally reuse Qingflow's existing relation-calculation chain to compute bound outputs and write them back. Use record_code_block_schema_get when field selection or binding diagnostics are unclear; if the exact code-block field id is known from record/task detail, run directly. For safe debugging, pass apply_writeback=false to inspect parsed results without writing back.",
+            "name": "record_code_block_run"
+          },
+          {
+            "description": "List workflow tasks. `query` first uses backend task search; if the backend returns zero rows, public task_list falls back to local matching on app_name, workflow_node_name, app_key, and record_id.",
+            "name": "task_list"
+          },
+          {
+            "description": "Read one workflow task. Prefer task_id from task_list.data.items[].task_id; task_id is not a row number, list index, record id, or workflow node id.",
+            "name": "task_get"
+          },
+          {
+            "description": "High-risk execute operation for workflow task action. Read the current state first, confirm the exact target IDs and intended diff with a human, and avoid running against production without explicit approval. Pass task_id from task_list.data.items[].task_id. Do not pass a row number, list index, record id, or workflow node id as task_id.",
+            "name": "task_action_execute"
+          },
+          {
+            "description": "Read a task-associated report. Pass task_id from task_list.data.items[].task_id; task_id is not a row number, list index, record id, or workflow node id.",
+            "name": "task_associated_report_detail_get"
+          },
+          {
+            "description": "Read workflow log for one task context. Pass task_id from task_list.data.items[].task_id; task_id is not a row number, list index, record id, or workflow node id.",
+            "name": "task_workflow_log_get"
+          },
+          {
+            "description": "Search internal workspace members/departments by keyword via the frontend directory search route. Do not use for record member/department field candidates; use record_member_candidates or record_department_candidates instead.",
+            "name": "directory_search"
+          },
+          {
+            "name": "builder_auth_use_credential"
+          },
+          {
+            "name": "builder_auth_whoami"
+          },
+          {
+            "name": "builder_auth_logout"
+          },
+          {
+            "description": "轻流页面入口：查看页面、继续编辑、处理业务、查看结果或进入工作区（open/view/visit page in browser，login）。从 AI 对话进入页面时，使用当前 MCP 身份和工作区生成短时（约 5 分钟）一次性免登录链接。redirect_path 可选：传已确认的站内业务路径，可带 query/hash；省略进入首页，不接受外部地址或认证入口。用户指定页面但路径未知时先定位，不猜路径或静默改为首页。返回 url 和毫秒整数 expires_at；必要安全验证及原有页面权限仍然生效。创建、修改或安装轻流资源后，最终回复主动提供主要结果的可点击页面入口，无需等待用户再次索要；采用“完成结果 + 查看入口”，文案使用“在轻流中查看应用／应用包／视图”，不默认称为“继续编辑”。安装方案默认提供应用包入口；直接创建或修改应用、视图时提供对应入口；用户明确要求多个主要对象时分别提供。使用业务结果中的稳定 `uri`，按 URI 去重，不为全部子资源预签票据；主要对象没有可靠 URI 时说明限制，不猜地址或替换为不相关页面。部分成功时仅交付已确认成功且可定位的主要结果，保留失败或未验证说明；纯数据问答、中间读取、失败资源和删除操作不自动签发，用户明确要求不提供链接时遵从。目标浏览器登录态未知时，临近交付用资源 URI 的同源 pathname 为每个实际展示的入口分别签发，使用返回的完整 URL，不额外追问登录态。只有已有用户确认同一浏览器、网页域名、账号和工作区已登录且无失效信号的事实时，才直接交付稳定 URI；调用过本工具或 Agent 自动化浏览器已登录不等于用户浏览器已登录，已消费链接不可复用。用户未要求打开时不提前打开或消费链接；要求打开时才用浏览器打开返回的完整链接。签发失败时说明免登录链接未生成，提供标注“需登录”的稳定 URI 作为备用入口，不重做业务操作。机器结果继续保留稳定 URI，临时登录链接仅用于面向用户交付。",
+            "name": "builder_get_login_link"
+          },
+          {
+            "name": "builder_workspace_list"
+          },
+          {
+            "name": "builder_workspace_get"
+          },
+          {
+            "name": "builder_file_upload_local"
+          },
+          {
+            "name": "builder_feedback_submit"
+          },
+          {
+            "name": "builder_builder_tool_contract"
+          },
+          {
+            "name": "builder_app_form_schema"
+          },
+          {
+            "name": "builder_app_form_get"
+          },
+          {
+            "name": "builder_app_form_apply"
+          },
+          {
+            "description": "Get a complete views schema or a focused detail schema such as display or button-config.",
+            "name": "builder_app_views_schema"
+          },
+          {
+            "name": "builder_app_views_get"
+          },
+          {
+            "name": "builder_app_views_validate"
+          },
+          {
+            "description": "High-risk delete operation for app configuration. Read the current state first, confirm the exact target IDs and intended diff with a human, and avoid running against production without explicit approval.",
+            "name": "builder_app_delete"
+          },
+          {
+            "name": "builder_workspace_icon_catalog_get"
+          },
+          {
+            "name": "builder_package_list"
+          },
+          {
+            "name": "builder_package_get"
+          },
+          {
+            "name": "builder_package_apply"
+          },
+          {
+            "name": "builder_solution_install"
+          },
+          {
+            "name": "builder_member_search"
+          },
+          {
+            "name": "builder_role_search"
+          },
+          {
+            "name": "builder_role_create"
+          },
+          {
+            "name": "builder_app_release_edit_lock_if_mine"
+          },
+          {
+            "name": "builder_app_resolve"
+          },
+          {
+            "name": "builder_button_style_catalog_get"
+          },
+          {
+            "name": "builder_app_custom_buttons_apply"
+          },
+          {
+            "name": "builder_app_associated_resources_apply"
+          },
+          {
+            "name": "builder_app_get"
+          },
+          {
+            "name": "builder_app_get_fields"
+          },
+          {
+            "name": "builder_app_repair_code_blocks"
+          },
+          {
+            "name": "builder_app_get_layout"
+          },
+          {
+            "name": "builder_app_get_views"
+          },
+          {
+            "name": "builder_app_get_flow"
+          },
+          {
+            "name": "builder_app_get_charts"
+          },
+          {
+            "name": "builder_app_get_buttons"
+          },
+          {
+            "name": "builder_app_get_associated_resources"
+          },
+          {
+            "name": "builder_portal_list"
+          },
+          {
+            "description": "Get a complete portals schema or a focused component schema such as chart, view, grid, or carousel.",
+            "name": "builder_portal_schema"
+          },
+          {
+            "name": "builder_portal_validate"
+          },
+          {
+            "name": "builder_portal_get"
+          },
+          {
+            "name": "builder_view_get"
+          },
+          {
+            "name": "builder_chart_get"
+          },
+          {
+            "name": "builder_app_flow_get"
+          },
+          {
+            "name": "builder_app_flow_get_schema"
+          },
+          {
+            "name": "builder_app_flow_validate"
+          },
+          {
+            "name": "builder_app_flow_list_versions"
+          },
+          {
+            "name": "builder_app_flow_restore_version"
+          },
+          {
+            "name": "builder_app_flow_apply"
+          },
+          {
+            "name": "builder_app_views_apply"
+          },
+          {
+            "name": "builder_app_charts_apply"
+          },
+          {
+            "description": "High-risk update operation for portal configuration. Read the current state first, confirm the exact target IDs and intended diff with a human, and avoid running against production without explicit approval.",
+            "name": "builder_portal_apply"
+          },
+          {
+            "description": "High-risk delete operation for portal configuration. Read the current state first, confirm the exact target IDs and intended diff with a human, and avoid running against production without explicit approval.",
+            "name": "builder_portal_delete"
+          },
+          {
+            "name": "builder_app_publish_verify"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Qingflow": {
+        "type": "http",
+        "url": "https://mcp.qingflow.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c00bfed0d642a46f3f38fac377bdacd7c2a440753363615a795921a690ca3bfe"
+      }
+    }
+  }
+}

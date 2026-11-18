@@ -1,0 +1,74 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.597Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Marketing-and-Sales",
+  "categoryCode": "Marketing & Sales",
+  "connector_id": "crossbeam",
+  "connector_name": "Crossbeam",
+  "connector_name_cn": "Crossbeam",
+  "description": "Use Crossbeam MCP to analyze authorized partner ecosystem data, account overlaps, opportunities, and relationship context.",
+  "description_cn": "通过 Crossbeam MCP 分析已授权的合作伙伴生态数据、账户重叠、商机及关系上下文。",
+  "version": "1.0.0",
+  "category": "Marketing & Sales",
+  "tags": [],
+  "provider_name": "Crossbeam",
+  "author": {
+    "name": "之东",
+    "display_name": "Crossbeam"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Crossbeam",
+        "url": "https://mcp.crossbeam.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_e5e7f978d080789ce94eca3ca8ada256f6176f5f7a77f8fd715781fa8e208a7b",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_e5e7f978d080789ce94eca3ca8ada256f6176f5f7a77f8fd715781fa8e208a7b",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Crossbeam": {
+        "type": "http",
+        "url": "https://mcp.crossbeam.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_e5e7f978d080789ce94eca3ca8ada256f6176f5f7a77f8fd715781fa8e208a7b"
+      }
+    }
+  }
+}

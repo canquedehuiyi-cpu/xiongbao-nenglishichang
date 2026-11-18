@@ -1,0 +1,155 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.550Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Knowledge",
+  "categoryCode": "Knowledge",
+  "connector_id": "qibook",
+  "connector_name": "Qi Baike",
+  "connector_name_cn": "企百科",
+  "description": "Use Qi Baike MCP to search company profiles, operating information, ownership relationships, and business networks for enterprise research.",
+  "description_cn": "通过企百科 MCP 检索企业档案、经营信息、股权关系和商业关系网络，辅助企业调研与商业分析。",
+  "version": "1.0.3",
+  "category": "Knowledge",
+  "tags": [],
+  "provider_name": "企百科",
+  "author": {
+    "name": "企百科",
+    "display_name": "企百科"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Qi Baike",
+        "url": "https://datamcp.qibook.com/mcp/basic-ent-tools",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "查询企业档案、经营信息、股权关系及商业网络。",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_9ad203b085ad7667665943a5e4e882b9d0d56c52f508aede39066f2bcd6ccc6b",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_9ad203b085ad7667665943a5e4e882b9d0d56c52f508aede39066f2bcd6ccc6b",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "查询上市公司的公开披露股东名单，包括股东名称、股东机构类型、股东股权性质、持股比例、股份类型等。适用于上市公司股东结构分析、大股东识别场景。",
+            "name": "get_pub_shareholder"
+          },
+          {
+            "description": "查询企业的股东名册，返回每个股东姓名/名称、股东类型、出资额、出资比例和出资日期。适用于股权结构分析、股东背景调查、投资关系梳理场景。当用户问\"XX公司股东是谁\"、\"XX公司股权结构\"、\"XX公司股东名单\"、\"XX公司投资人\"、\"XX公司出资方\"、\"XX公司某某股东出资比例\"、\"XX公司某某股东占多少股份\"都应调用本工具。入参可以指定股东名称（支持模糊匹配）。",
+            "name": "get_company_partner"
+          },
+          {
+            "description": "根据企业名称关键词模糊搜索匹配企业，返回公司名称, 统一社会信用代码, 经营状态, 注册资本, 成立日期，是否上市。适用于用户仅提供企业简称或部分名称时的企业定位场景。当用户说“查一下XX公司”、“搜索XX”且无法确定完整企业名称时优先调用。支持输入董监高名称，传入后优先返回检索范围为该人员担任法定代表人、高管或股东的企业。",
+            "name": "fuzzy_search"
+          },
+          {
+            "description": "查询上市公司的高管信息，包括姓名、职位、职位类型名称、简历、当前状态、在职起始日期等。适用于上市公司管理层背景调查场景。",
+            "name": "get_pub_executive"
+          },
+          {
+            "description": "查询企业基础工商信息如法定代表人、经营状态变更等动态记录，涵盖变更时间、事项、新旧内容及事项编码，用于追踪企业信息变动、经营沿革核查。",
+            "name": "get_history_dynamic"
+          },
+          {
+            "description": "查询指定企业的工商变更记录，返回变更日期、中数变更事项、变更前内容、变更后内容。适用于追踪企业历史变更情况，如法定代表人变更、注册资本变更、经营范围调整等场景。",
+            "name": "get_company_changes"
+          },
+          {
+            "description": "支持查询在营企业的疑似实际控制人信息，包括疑似实控人名称，疑似实控人类型，适用于企业实控人判定、企业风险评估、KYC等场景。",
+            "name": "get_actual_controller"
+          },
+          {
+            "description": "查询企业的董监高（董事、监事、高管）人员名单，返回姓名、职位名称和任职日期。用于快速了解企业当前管理团队构成。当用户只要问\"某公司+任何职位名+是谁/叫什么/谁担任\"，如\"XX公司总经理是谁\"、\"XX公司董事长\"、\"XX公司财务总监\"，职位名称可以是任意表述（总经理/CEO/董事长/总监/监事/经理等），都应调用本工具。入参可以指定筛选高管姓名、职位名称（职位名模糊匹配）。",
+            "name": "get_company_employee"
+          },
+          {
+            "description": "查询企业的受益所有人(UBO)信息，适用于反洗钱合规(AML)、尽职调查及穿透式监管分析场景。",
+            "name": "get_beneficial_owners"
+          },
+          {
+            "description": "查询企业所属总公司信息，包含企业ENTID、各类编码、名称等核心标识字段。适用于分支机构获取总公司信息。",
+            "name": "get_head_company"
+          },
+          {
+            "description": "查询指定企业的工商基本信息，包括企业名称、统一社会信用代码、企业简称、法定代表人/负责人/执行事务合伙人、注册资本、经营状态、成立日期等。适用于企业主体身份核验、工商登记信息查询场景。当用户需要了解一家公司的注册资本、经营状态、法定代表人、经营范围等基础信息时调用。",
+            "name": "get_company_info"
+          },
+          {
+            "description": "查询指定企业的年度报告基本信息，包括年报年份、从业人数、经营状态、企业主营业务活动、是否有投资信息等。适用于企业年报信息核查场景。",
+            "name": "get_annual_reports"
+          },
+          {
+            "description": "查询指定企业的对外投资信息，包括企业名称、企业类型、投资数额、投资比例、投资方式、是否上市等。适用于了解企业投资版图、控股参股情况场景。",
+            "name": "get_external_investments"
+          },
+          {
+            "description": "查询企业的上市股票信息，包括股票代码、证券简称、证券类型、总股本、上市日期、上市状态、上市交易市场、上市板块等。适用于确认企业上市状态、股票代码、上市板块等信息场景。",
+            "name": "get_listed_stock"
+          },
+          {
+            "description": "查询指定企业的联系方式，包括联系邮箱列表、联系电话列表。适用于获取企业电话、邮箱等联络信息场景。",
+            "name": "get_company_contact"
+          },
+          {
+            "description": "查询指定企业的分支机构信息，返回分支机构名称、成立日期、负责人名称、经营状态、省份名称。适用于了解企业组织架构和分支机构分布场景。",
+            "name": "get_branches"
+          },
+          {
+            "description": "查询企业规模结果及规模划分依据字段信息。",
+            "name": "scale_classification"
+          },
+          {
+            "description": "查询企业自主公示的股东详情，包含认缴、实缴出资及股东类型、出资合计等数据，适用于股权结构梳理、出资情况排查。",
+            "name": "get_self_disclose_share"
+          },
+          {
+            "description": "查询上市企业完整基础资料，含名称、资质、人员、资本、地址、经营范围、存续状态等内容，用于上市主体信息采集。",
+            "name": "get_listed_compinfo"
+          },
+          {
+            "description": "查询指定企业的简介文本内容。适用于快速了解企业主营业务和发展概况场景。",
+            "name": "get_company_introduction"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Qi Baike": {
+        "type": "http",
+        "url": "https://datamcp.qibook.com/mcp/basic-ent-tools",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_9ad203b085ad7667665943a5e4e882b9d0d56c52f508aede39066f2bcd6ccc6b"
+      }
+    }
+  }
+}

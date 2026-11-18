@@ -1,0 +1,240 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.507Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "DevOps",
+  "categoryCode": "DevOps",
+  "connector_id": "jihu-gitlab-mcp",
+  "connector_name": "Jihu GitLab",
+  "connector_name_cn": "极狐 GitLab",
+  "description": "Connect to Jihu GitLab through its official MCP server to inspect projects, repositories, commits, issues, merge requests, members, and CI/CD pipelines and jobs, and perform permitted review, branch, merge, and pipeline actions.",
+  "description_cn": "通过官方 MCP 服务器连接极狐 GitLab，查询项目、代码仓库、提交、议题、合并请求、成员及 CI/CD 流水线和作业，并按账号权限执行评论、分支、合并与流水线操作。",
+  "version": "1.0.0",
+  "category": "DevOps",
+  "tags": [
+    "gitlab",
+    "source-code",
+    "devops",
+    "mcp"
+  ],
+  "provider_name": "Jihu GitLab",
+  "author": {
+    "name": "jihu-gitlab",
+    "display_name": "极狐 GitLab"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "gitlab",
+        "url": "https://jihulab.com/api/v4/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "Official Jihu GitLab remote MCP server with OAuth authentication.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_189855bdd70c90287170f07c8dd4868dc824bb2a0685524289615353718ad7a7",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_189855bdd70c90287170f07c8dd4868dc824bb2a0685524289615353718ad7a7",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Read a file from the artifacts of a CI/CD job as text: a file inside the artifacts archive, or a report artifact such as junit or sast that is stored as its own file (set file_type). To discover what a job or pipeline produced, use get_job or get_pipeline with include: artifacts. For large files, page through with byte_offset and byte_limit.",
+            "name": "get_artifact_file"
+          },
+          {
+            "description": "Get a CI/CD job in a GitLab project. Add include: log to also get the job's trace/log, which you can page through with byte_offset and byte_limit. Use from: end with a small byte_limit to read only the tail of the log. Add include: artifacts to also list the artifacts the job produced (name, size, file type); read one with the get_artifact_file tool.",
+            "name": "get_job"
+          },
+          {
+            "description": "Get the current version of MCP server.",
+            "name": "get_mcp_server_version"
+          },
+          {
+            "description": "Read the content published at a GitLab Pages URL as text, including private Pages sites the authenticated user may view. The URL is resolved against the Pages sites of this GitLab instance and the file is read from the current deployment, so the result is what visitors see, not the repository source. A directory URL reads its index.html. For large files, page through with byte_offset and byte_limit.",
+            "name": "get_pages_content"
+          },
+          {
+            "description": "List releases in a GitLab project, most recently released first. Identify the project with exactly one of url or project_id. Returns release metadata and asset links, not release assets themselves. Releases scheduled for a future date are omitted unless state is upcoming or all, and carry upcoming true when returned.",
+            "name": "list_releases"
+          },
+          {
+            "description": "List tags in a GitLab project, most recently updated first. Identify the project with exactly one of url or project_id. When search is given, a tag whose name matches it exactly is listed first. Returns each tag name and its tip commit, not the tag message, commit diff, or file contents. When metadata.has_next_page is true, pass metadata.end_cursor as after to fetch the next page.",
+            "name": "list_tags"
+          },
+          {
+            "description": "Merge a merge request, or schedule it to merge automatically. Without strategy the merge starts immediately and completes asynchronously; with strategy, auto-merge is armed and the merge request merges once its checks pass. Identify the merge request by url, or by project_id and merge_request_iid. To approve a merge request instead, use save_merge_request_review.",
+            "name": "accept_merge_request"
+          },
+          {
+            "description": "Add a branch to a GitLab project from a source ref.\n\nExamples:\n- Use branch and ref to create a new branch from an existing branch or commit SHA",
+            "name": "add_branch"
+          },
+          {
+            "description": "Add a commit with one or more file actions to a project branch.",
+            "name": "add_commit"
+          },
+          {
+            "description": "Get a single commit's metadata, optionally including its diff or notes. Identify the commit with either url, or project_id and commit_sha.",
+            "name": "get_commit"
+          },
+          {
+            "description": "Get a merge request and optionally its diffs, commits, notes, pipelines, discussions, approvals, or conflicts. Without `include`, only the base merge request metadata is returned; request associated data through the `include` parameter so nothing extra is fetched unless asked for.",
+            "name": "get_merge_request"
+          },
+          {
+            "description": "Read a file from a GitLab repository at a given ref. Reads from GitLab, not the local filesystem: use it for a project you have not checked out, or a specific branch, tag, or commit — not your local working copy. Returns the file as committed at ref. For large files, use offset and limit to read in windows; when the response is partial, system_instruction gives the next offset.",
+            "name": "get_repository_file"
+          },
+          {
+            "description": "Get a CI/CD pipeline in a GitLab project, and optionally its jobs, downstream pipelines,\nbridge (trigger) jobs, or the artifacts its jobs produced. The pipeline can be a child\npipeline: pass the id of a downstream pipeline to inspect its jobs, and its\nproject_full_path as id when it belongs to another project. A bridge job's downstream\npipeline is omitted if you do not have access to it. The artifacts facet pages over the\npipeline's jobs; read one artifact file with the get_artifact_file tool. To list\npipelines, use the list_pipelines tool instead.",
+            "name": "get_pipeline"
+          },
+          {
+            "name": "get_project"
+          },
+          {
+            "description": "Fetch a saved view and its work items list from a namespace",
+            "name": "get_saved_view_work_items"
+          },
+          {
+            "description": "Get a single GitLab user. Use me: true to look up the authenticated user, for example to find your own user id before setting assignee_ids or reviewer_ids. Provide exactly one of username, id, or me. Returns the numeric id, username, name, state, and web URL.",
+            "name": "get_user"
+          },
+          {
+            "description": "Get a single work item (issue, epic, task, incident, objective, key result) with its type, dates, assignees, labels, milestone, and parent. Optionally include its notes, its discussions, or the merge requests related to it. Identify the work item by url, or by work_item_iid plus group_id or project_id. Widgets the work item type does not support are omitted.",
+            "name": "get_work_item"
+          },
+          {
+            "description": "List the work item types available in a namespace (group or project), including system-defined types (Issue, Epic, Task, etc.) and custom types. Each returned type includes its global ID, name, icon, and the widget types enabled on it so the agent can avoid setting fields the type does not support.",
+            "name": "get_work_item_types"
+          },
+          {
+            "description": "Link a work item to other work items with a relationship type (relates_to, blocks, blocked_by)",
+            "name": "link_work_items"
+          },
+          {
+            "description": "List commits in a GitLab project, filtered by ref, author, path, or date. Identify the project with exactly one of url or project_id. Returns compact commit metadata; use get_commit for a single commit's diff or notes.",
+            "name": "list_commits"
+          },
+          {
+            "description": "List GitLab groups. Without group_id, lists top-level groups where you are a member. With group_id, lists the direct subgroups of that group, regardless of membership. Set include_subgroups to true to recurse into all descendant subgroups (with no group_id, this lists your groups at any depth). Archived groups and groups pending deletion are excluded. Useful for discovering group IDs and full paths for other tools.",
+            "name": "list_groups"
+          },
+          {
+            "description": "List or search merge requests in a GitLab project or group by author, assignee, reviewer, state, milestone, labels, or text. Identify the project or group with exactly one of url, project_id, or group_id. Group results always include merge requests from subgroups. Returns compact merge request metadata; use get_merge_request for the full detail of a single merge request, or search for full-text search across resource types.",
+            "name": "list_merge_requests"
+          },
+          {
+            "description": "List GitLab projects. Without group_id, lists projects you have at least guest access to; pass min_access_level to raise the threshold. With group_id, lists every project in that group and its subgroups regardless of access level; adding min_access_level or visibility narrows the listing to that group only, not its subgroups. When group_id is given, the response includes subgroupsIncluded so you know which case applied.",
+            "name": "list_projects"
+          },
+          {
+            "description": "List files and directories in a GitLab repository at a given path and ref. Identify the project with exactly one of url or project_id. Returns entry metadata only, never file contents; use get_repository_file to read a file. Each call returns up to 100 entries; when pageInfo.hasNextPage is true, pass pageInfo.endCursor as after to fetch the next page.",
+            "name": "list_repository_tree"
+          },
+          {
+            "description": "List the members of a GitLab project with their role and access level. Direct members only, unless include_inherited is true.",
+            "name": "list_project_members"
+          },
+          {
+            "description": "List the to-do items of the authenticated user, such as review requests, assignments, and mentions. Returns pending to-do items unless state is set. Each to-do item includes its numeric id, action, target type, target URL, and the name and iid of its target.",
+            "name": "list_todos"
+          },
+          {
+            "name": "list_work_item_saved_views"
+          },
+          {
+            "description": "List or search work items (ISSUE, INCIDENT, TEST_CASE, REQUIREMENT, TASK, TICKET, OBJECTIVE, KEY_RESULT, EPIC) in a group or project. Filter by state, author, assignees, labels, milestone, dates, parent, type, or free text. Group scope includes work items of descendant projects and subgroups. Each row carries only compact identifying fields: id, iid, title, state, web URL, reference, created and updated timestamps, and work item type. Use get_work_item for full details of one work item, including description, assignees, labels, and milestone.",
+            "name": "list_work_items"
+          },
+          {
+            "description": "Write merge request review artifacts as the authenticated user. Exactly one method per call: create_note adds a top-level comment; reply_discussion replies within an existing discussion; create_diff_note comments on a specific diff line; resolve_discussion resolves or unresolves a discussion; submit_review posts multiple diff comments plus an optional summary in one call; post_duo_review asks GitLab Duo to review the merge request; approve records your approval (pass sha to avoid approving stale content); unapprove removes your approval. Identify the merge request by url, or by project_id and merge_request_iid. Each parameter below names the methods that use it.",
+            "name": "save_merge_request_review"
+          },
+          {
+            "description": "Add a comment to a GitLab merge request or work item, reply to an existing discussion thread, or resolve or unresolve a discussion thread. Identify the target with url, or with merge_request_iid or work_item_iid plus its project_id or group_id",
+            "name": "save_note"
+          },
+          {
+            "description": "Run, retry, cancel, or rename a CI/CD pipeline in a GitLab project. Omit pipeline_id and pass ref to run a new pipeline, or pass merge_request_iid to create a pipeline linked to a merge request. Identify the project with exactly one of url or project_id. Pass pipeline_id with action to retry, cancel, or update an existing pipeline; update renames it and requires name.",
+            "name": "save_pipeline"
+          },
+          {
+            "description": "Create or update a GitLab work item, such as an issue, task, or epic.\nOmit work_item_iid to create a new work item; provide work_item_iid or a\nwork item URL to update an existing one. Send only the fields you intend\nto set, and omit the rest.",
+            "name": "save_work_item"
+          },
+          {
+            "description": "Search labels in a GitLab project or group by multiple terms",
+            "name": "search_labels"
+          },
+          {
+            "description": "Create a fork of a project",
+            "name": "fork_repository"
+          },
+          {
+            "description": "Retrieve contribution events for a user",
+            "name": "list_user_events"
+          },
+          {
+            "description": "List all project pipelines",
+            "name": "list_pipelines"
+          },
+          {
+            "description": "List all repository branches",
+            "name": "list_branches"
+          },
+          {
+            "description": "Semantic (meaning-based) search over different types of content.\n\nSearches indexed project content using embedding-based similarity rather than\nkeyword matching. Use this when you do not know the exact symbol or file name,\nor to discover how a behavior is implemented across the codebase.\n\nPrimary use cases:\n- When you do not know the exact symbol or file path\n- To see how a behavior or feature is implemented across the codebase\n- To discover related implementations (clients, jobs, workers)\n\nHow to use:\n- Provide a concise, specific query with concrete keywords\n- Use directory_path to narrow scope when scope is \"code\"\n- Prefer precise intent over broad terms\n\nResults are grouped by file. Each file includes merged line ranges with content\nand a relevance score (0.0-1.0). The response includes an overall confidence\nlevel (high/medium/low/unknown) based on score distribution.\n\nRequires semantic search to be enabled and indexed for the project namespace.",
+            "name": "semantic_search"
+          },
+          {
+            "description": "Search across GitLab with automatic selection of the best available search method.\nRequires `scope` and `search` (for example, `{\"scope\": \"work_items\", \"search\": \"rate limit\"}`).\n\n**Capabilities:** basic (keywords, file filters), advanced (boolean operators), exact code (exact match, regex, symbols)\n\n**Syntax Examples:**\n- Basic: \"bug fix\", \"filename:*.rb\", \"extension:js\"\n- Advanced: \"bug AND critical\", \"display | banner\", \"#23456\"\n- Exact code: \"class User\", \"foo lang:ruby\", \"sym:initialize\"",
+            "name": "search"
+          },
+          {
+            "description": "Create a new GitLab project.\n\nCreates a project in the specified namespace (group or user). If no namespace is\nprovided, the project is created in the authenticated user's personal namespace.",
+            "name": "save_project"
+          },
+          {
+            "description": "Create or update a merge request in a GitLab project.\n\nmerge_request_iid alone decides the operation. Omitting it always creates a new\nmerge request; provide it to update an existing one.\n- Create: omit merge_request_iid. title, source_branch, and target_branch are required.\n- Update: provide merge_request_iid.\n\nUse state_event (close or reopen) to change an existing merge request's state.",
+            "name": "save_merge_request"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "gitlab": {
+        "type": "http",
+        "url": "https://jihulab.com/api/v4/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_189855bdd70c90287170f07c8dd4868dc824bb2a0685524289615353718ad7a7"
+      }
+    }
+  }
+}

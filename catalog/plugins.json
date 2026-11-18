@@ -1,0 +1,3406 @@
+[
+  {
+    "id": "0b7a3a1d-9627-4d8b-9370-858ba4010799",
+    "kind": "plugin",
+    "name": "神火运营海报",
+    "canonicalName": "Shenhuo Operations Posters",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "朋友圈海报",
+      "活动推广",
+      "产品介绍"
+    ],
+    "description": "设计活动推广与产品介绍海报",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "0bb2a4ac-48df-4d76-b11e-906fe7a12c7f",
+    "kind": "plugin",
+    "name": "PPT 内容核对",
+    "canonicalName": "PPT Content Fact Check",
+    "publisher": "linksass",
+    "version": "0.3.0",
+    "category": "Productivity",
+    "tags": [
+      "PPT"
+    ],
+    "description": "逐项核对PPT数字与源数据出处",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "0d358b7d-ad4d-46d8-b5d6-862dae3dc742",
+    "kind": "plugin",
+    "name": "代码图谱可视化",
+    "canonicalName": "QGraphFlow",
+    "publisher": "Max",
+    "version": "0.0.7",
+    "category": "Coding",
+    "tags": [
+      "diagram",
+      "architecture",
+      "sequence-diagram",
+      "visualization",
+      "documentation"
+    ],
+    "description": "从代码生成可追溯的架构图与流程图",
+    "installed": true,
+    "installedVersion": "0.0.7",
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "0faf478f-ac9a-4618-8868-575adca358a4",
+    "kind": "plugin",
+    "name": "ContextDB",
+    "canonicalName": "ContextDB",
+    "publisher": "ContextDB",
+    "version": "0.1.1",
+    "category": "Workflow",
+    "tags": [
+      "alibabacloud",
+      "memory",
+      "knowledge-base"
+    ],
+    "description": "连接云端知识库并自动召回对话记忆",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 2
+    },
+    "source": "official"
+  },
+  {
+    "id": "135a8d3e-294f-4ffe-9e38-5bec8d11899a",
+    "kind": "plugin",
+    "name": "神火简历图片设计",
+    "canonicalName": "Shenhuo Resume Image Design",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "简历图片",
+      "职业简介",
+      "自我介绍"
+    ],
+    "description": "将真实经历排版为简历介绍图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "1400bd7b-4efb-4a38-9241-e1bd0f49fcd9",
+    "kind": "plugin",
+    "name": "神火横版海报",
+    "canonicalName": "Shenhuo Landscape Posters",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "横版推广",
+      "活动预告",
+      "直播海报"
+    ],
+    "description": "制作适合社群分享的活动横版海报",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "15d61de0-5e4c-4f8e-8bd9-eb43a93a26c7",
+    "kind": "plugin",
+    "name": "奖状证书图片设计",
+    "canonicalName": "Award Certificate Design",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "荣誉表彰",
+      "儿童奖状",
+      "组织聘书"
+    ],
+    "description": "根据表彰与聘任信息制作证书图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "187311d5-0a91-45b9-a8c7-19b6d42ae6f8",
+    "kind": "plugin",
+    "name": "MeituHub AI影像创作",
+    "canonicalName": "MeituHub AI Media Creation",
+    "publisher": "MeituHub",
+    "version": "0.1.9",
+    "category": "Content Creation",
+    "tags": [
+      "qoder-pro-new",
+      "qoder-vibe-new"
+    ],
+    "description": "批量修图、选片、制作海报与视频",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "1b558926-05fa-4e8f-89ec-59d1991de6bc",
+    "kind": "plugin",
+    "name": "小红书封面",
+    "canonicalName": "Xiaohongshu Cover Design",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "种草封面",
+      "生活分享",
+      "系列封面"
+    ],
+    "description": "根据内容与商品素材设计小红书封面",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "1b65c83c-9238-4f41-9a17-d5c9c98be0a1",
+    "kind": "plugin",
+    "name": "电商 LOGO",
+    "canonicalName": "Ecommerce Logo Images",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "店铺标志",
+      "原标修改",
+      "同标适配"
+    ],
+    "description": "设计与修改电商店铺标志图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "1b69a031-e493-4936-b474-5cea9dfa24ee",
+    "kind": "plugin",
+    "name": "恰恰账本",
+    "canonicalName": "MoneyPal",
+    "publisher": "mengzai",
+    "version": "1.0.9",
+    "category": "Finance",
+    "tags": [
+      "beancount",
+      "ledger",
+      "bookkeeping",
+      "finance"
+    ],
+    "description": "导入账单、分类记账与生成收支报表",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "1d347cc0-859e-4f9c-a523-81c5bcaff282",
+    "kind": "plugin",
+    "name": "站点审查",
+    "canonicalName": "site-audit",
+    "publisher": "八方旅客",
+    "version": "1.0.0",
+    "category": "Security & Testing",
+    "tags": [
+      "security",
+      "code-review",
+      "accessibility",
+      "seo"
+    ],
+    "description": "检查静态站点源码、产物与线上页面",
+    "installed": true,
+    "installedVersion": "1.0.0",
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "1e5b63aa-d95d-4bd0-88d0-c7ab98214e8f",
+    "kind": "plugin",
+    "name": "PolarDB-PG 记忆管理",
+    "canonicalName": "PolarDB Memory Management",
+    "publisher": "PolarDB-PG产品团队",
+    "version": "0.1.0",
+    "category": "Workflow",
+    "tags": [
+      "memory",
+      "记忆",
+      "polardb",
+      "mem0"
+    ],
+    "description": "连接云端记忆服务，记录与召回上下文",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 1
+    },
+    "source": "official"
+  },
+  {
+    "id": "20c35808-6251-46ef-9577-1cd6ca400b59",
+    "kind": "plugin",
+    "name": "Qoder桌面端Credits消耗解析 V2.6.0",
+    "canonicalName": "Ocean's Credits Inspector",
+    "publisher": "Ocean",
+    "version": "2.7.4",
+    "category": "Workflow",
+    "tags": [
+      "token-usage",
+      "credits",
+      "visualization",
+      "canvas-report"
+    ],
+    "description": "拆解会话用量与文件、工具消耗",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "2193adc2-e324-4e95-bef1-a87140a5994c",
+    "kind": "plugin",
+    "name": "技术文档编辑",
+    "canonicalName": "Technical Documentation Editor",
+    "publisher": "tulink",
+    "version": "0.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "技术文档",
+      "操作指南",
+      "FAQ",
+      "产品说明",
+      "文档更新"
+    ],
+    "description": "根据已确认的软件产品资料编写任务指南和 FAQ，并按版本变化同步维护说明。",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "22a91a27-bc8f-4c24-8595-071d5703ced6",
+    "kind": "plugin",
+    "name": "神火招聘海报",
+    "canonicalName": "Shenhuo Recruitment Posters",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "门店招聘",
+      "企业招聘",
+      "多岗位海报"
+    ],
+    "description": "根据岗位要求与投递方式制作招聘海报",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "247808d0-5ec0-4692-88ec-77bbac0194ae",
+    "kind": "plugin",
+    "name": "Tencent CloudBase",
+    "canonicalName": "Tencent CloudBase",
+    "publisher": "Tencent CloudBase",
+    "version": "0.2.0",
+    "category": "DevOps",
+    "tags": [
+      "cloudbase",
+      "tencent-cloud",
+      "baas",
+      "claude-code",
+      "codebuddy"
+    ],
+    "description": "管理云数据库、开发云函数与部署应用",
+    "installed": true,
+    "installedVersion": "0.2.0",
+    "components": {
+      "skills": 28,
+      "mcpServers": 1,
+      "commands": 4
+    },
+    "source": "official"
+  },
+  {
+    "id": "29a6ea3d-a026-4a08-8024-d98fef4e20e7",
+    "kind": "plugin",
+    "name": "Qoder Token 用量统计",
+    "canonicalName": "token-usage",
+    "publisher": "ccfer.dgjin@gmail.com",
+    "version": "0.4.0",
+    "category": "Workflow",
+    "tags": [
+      "skill",
+      "analytics"
+    ],
+    "description": "统计模型用量、估算费用并生成看板",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 2
+    },
+    "source": "official"
+  },
+  {
+    "id": "29dc3022-dcd3-4553-991e-d223ab9f0c94",
+    "kind": "plugin",
+    "name": "superun 演示设计师",
+    "canonicalName": "superun-prototype-expert",
+    "publisher": "杭州知擎信息科技有限公司",
+    "version": "0.1.15",
+    "category": "Content Creation",
+    "tags": [],
+    "description": "从需求生成和修改交互演示",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "2a6ddcee-3f7b-46be-8c41-b4c8966d4645",
+    "kind": "plugin",
+    "name": "打卡计划表",
+    "canonicalName": "Check-in Planner",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "习惯打卡",
+      "每日计划",
+      "阅读记录"
+    ],
+    "description": "制作任务计划、习惯打卡与记录图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "2b3f5fc0-f6e2-4aa1-96cf-1f55373e1548",
+    "kind": "plugin",
+    "name": "超级产品经理 · 数据武器",
+    "canonicalName": "Super PM · Data Weapon",
+    "publisher": "陈圳濠",
+    "version": "1.0.0",
+    "category": "Database & Analytics",
+    "tags": [
+      "data-analysis",
+      "product-management",
+      "odps",
+      "funnel",
+      "monitoring"
+    ],
+    "description": "设计埋点、分析漏斗与监控产品效果",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 5,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "2be88c2a-a5b6-4eb4-8b66-8cd313e0fd00",
+    "kind": "plugin",
+    "name": "超级设计工坊",
+    "canonicalName": "Super Design Studio",
+    "publisher": "由斐",
+    "version": "1.0.0",
+    "category": "Content Creation",
+    "tags": [
+      "ux-design",
+      "e-commerce",
+      "ui-production",
+      "design-system",
+      "motion",
+      "graphic",
+      "competitor-analysis",
+      "design-delivery"
+    ],
+    "description": "电商界面设计、动效制作与设计交付",
+    "installed": true,
+    "installedVersion": "1.0.0",
+    "components": {
+      "skills": 7,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "2e296549-f7b7-4559-9bd1-f08f0f0e363a",
+    "kind": "plugin",
+    "name": "商品推广图专家",
+    "canonicalName": "Product Promotion Images",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "商品推广图",
+      "原图优化",
+      "购买理由"
+    ],
+    "description": "制作与优化电商商品推广图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "3280ffd4-efff-4ce8-ac5d-541967969c97",
+    "kind": "plugin",
+    "name": "公众号发文前错字核对",
+    "canonicalName": "WeChat Article Proofreading Before Publishing",
+    "publisher": "linksass",
+    "version": "0.4.0",
+    "category": "cat_57b3c6ce1b64470c86b91f456099accf",
+    "tags": [
+      "公众号"
+    ],
+    "description": "核对推文错字、标点与广告极限词",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "34b1a454-2840-49a1-b71e-0f071f8f85d4",
+    "kind": "plugin",
+    "name": "智能体设计工坊",
+    "canonicalName": "Agent Design Studio",
+    "publisher": "WFL Intelligence Education AI Application Research Institute",
+    "version": "1.1.0",
+    "category": "Knowledge",
+    "tags": [
+      "skill",
+      "education",
+      "教学智能体",
+      "智能体工坊"
+    ],
+    "description": "引导教师设计和测试教学智能体",
+    "installed": true,
+    "installedVersion": "1.1.0",
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "36a0e4a2-da5e-48e5-82ea-3e9841bfd882",
+    "kind": "plugin",
+    "name": "神火手抄报",
+    "canonicalName": "Shenhuo Learning Posters",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "主题手抄报",
+      "填写底稿",
+      "黑白涂色"
+    ],
+    "description": "制作学习主题手抄报与填色图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "3826ee7b-c4d0-48ea-8e05-1dd5a9c712d7",
+    "kind": "plugin",
+    "name": "superun 创作",
+    "canonicalName": "superun",
+    "publisher": "杭州知擎信息科技有限公司",
+    "version": "0.8.30",
+    "category": "Coding",
+    "tags": [],
+    "description": "通过CLI协作完成产品设计与开发",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 1
+    },
+    "source": "official"
+  },
+  {
+    "id": "39087009-83a6-4cd0-9b9f-f32d6b5e69b5",
+    "kind": "plugin",
+    "name": "提示词产品化产线",
+    "canonicalName": "prompt-skill",
+    "publisher": "linking996",
+    "version": "0.2.0",
+    "category": "Coding",
+    "tags": [
+      "prompt-qa",
+      "skill-packaging",
+      "certification-gate"
+    ],
+    "description": "优化提示词并封装、校验技能包",
+    "installed": true,
+    "installedVersion": "0.2.0",
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "3e1aec9b-4c7f-403c-ba00-e7997f28855c",
+    "kind": "plugin",
+    "name": "神火设计",
+    "canonicalName": "Shenhuo Visual Design",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "创意图片",
+      "图文设计",
+      "图片修改"
+    ],
+    "description": "根据需求生成与修改海报、配图",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "4037a3ee-378d-4cba-9edf-2685b68350d5",
+    "kind": "plugin",
+    "name": "图片修复与精修",
+    "canonicalName": "Image Restoration and Retouching",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "老照修复",
+      "局部去物",
+      "自然精修"
+    ],
+    "description": "修复照片、清理杂物并调整光色",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "4056d201-7838-47ea-a151-df4ee7217472",
+    "kind": "plugin",
+    "name": "演示视频制作 Agent",
+    "canonicalName": "demo-video-agent",
+    "publisher": "ccfer.dgjin@gmail.com",
+    "version": "0.5.0",
+    "category": "cat_57b3c6ce1b64470c86b91f456099accf",
+    "tags": [
+      "demo-video",
+      "screencast",
+      "storyboard",
+      "voiceover",
+      "tts",
+      "edge-tts",
+      "playwright",
+      "ffmpeg",
+      "演示视频",
+      "录屏"
+    ],
+    "description": "将分幕文稿合成为配音演示视频",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 2,
+      "mcpServers": 0,
+      "commands": 1
+    },
+    "source": "official"
+  },
+  {
+    "id": "4248c719-380b-4da4-9f32-5032c8329260",
+    "kind": "plugin",
+    "name": "superun 安卓开发专家",
+    "canonicalName": "superun-android-expert",
+    "publisher": "杭州知擎信息科技有限公司",
+    "version": "0.1.3",
+    "category": "Coding",
+    "tags": [],
+    "description": "在云端创建安卓应用并交付安装包",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "43615d8b-4265-4ba8-b0d4-23e873b9ec7d",
+    "kind": "plugin",
+    "name": "公众号首图",
+    "canonicalName": "WeChat Article Covers",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "文章封面",
+      "活动推广",
+      "通知公告"
+    ],
+    "description": "根据文章或活动内容设计公众号首图",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "47adf351-d2d8-4e27-b915-a5c8738609e6",
+    "kind": "plugin",
+    "name": "插件发布前核对质检团",
+    "canonicalName": "Plugin Pre-Publish Check",
+    "publisher": "LinkSaaS",
+    "version": "1.0.0",
+    "category": "Security & Testing",
+    "tags": [
+      "release-check",
+      "verification",
+      "qa",
+      "plugin-review",
+      "compliance",
+      "evidence-chain",
+      "pre-release",
+      "team"
+    ],
+    "description": "核对插件结构、功能、文档与合规项",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "487d39ee-0c94-44de-ae1f-d73bc704e558",
+    "kind": "plugin",
+    "name": "Qoder 会话 credits 消耗分析",
+    "canonicalName": "Qoder Session Credits Report",
+    "publisher": "遨游云的海洋",
+    "version": "0.1.6",
+    "category": "Workflow",
+    "tags": [
+      "qoder-plugin",
+      "credits",
+      "token",
+      "usage",
+      "hooks"
+    ],
+    "description": "在会话中汇报积分消耗与耗时",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "4adac1c4-9132-4997-8a43-029cac4556cc",
+    "kind": "plugin",
+    "name": "周报体检",
+    "canonicalName": "Weekly Report Health Check",
+    "publisher": "linksass",
+    "version": "0.3.0",
+    "category": "Productivity",
+    "tags": [
+      "周报"
+    ],
+    "description": "检查周报待办要素与进展数据缺漏",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "4f169a92-10aa-4516-9f05-b09f1954c474",
+    "kind": "plugin",
+    "name": "DevEco CLI 鸿蒙应用开发",
+    "canonicalName": "DevEco CLI",
+    "publisher": "8713251421",
+    "version": "0.0.2",
+    "category": "Coding",
+    "tags": [
+      "harmonyos",
+      "deveco",
+      "arkts",
+      "arkui",
+      "鸿蒙",
+      "qoder-pro-new",
+      "qoder-vibe-new"
+    ],
+    "description": "通过CLI构建、运行与调试鸿蒙应用",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "59b91ed4-cb2b-4ca5-9b11-d0d802d6d722",
+    "kind": "plugin",
+    "name": "超级数仓工程师",
+    "canonicalName": "Super Data Warehouse Engineer",
+    "publisher": "蒋璐煜",
+    "version": "1.0.0",
+    "category": "Database & Analytics",
+    "tags": [
+      "data-warehouse",
+      "dataworks",
+      "etl",
+      "odps",
+      "sql-optimization"
+    ],
+    "description": "辅助数仓开发、SQL优化与运维诊断",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 5,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "5d4c10a8-ef0b-4bed-906a-151fe74a0f44",
+    "kind": "plugin",
+    "name": "公众号图片",
+    "canonicalName": "WeChat Article Image Design",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "正文配图",
+      "知识图解",
+      "栏目套图"
+    ],
+    "description": "为公众号文章设计配图与知识图解",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "5e31dde8-0b5e-486a-9a7e-07fc28c345c8",
+    "kind": "plugin",
+    "name": "需求分析师",
+    "canonicalName": "Requirements Analyst",
+    "publisher": "tulink",
+    "version": "0.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "需求分析",
+      "用户反馈",
+      "需求简报",
+      "用户故事",
+      "验收条件"
+    ],
+    "description": "将用户反馈整理为可追溯证据，形成需求简报和验收条件草案。",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "620c6ecc-3274-4bc1-b3d1-8f3e771053e1",
+    "kind": "plugin",
+    "name": "外贸单证核对",
+    "canonicalName": "Foreign Trade Document Crosscheck",
+    "publisher": "linksass",
+    "version": "0.1.0",
+    "category": "Marketing & Sales",
+    "tags": [
+      "doc-crosscheck",
+      "trade-compliance",
+      "numeric-normalization"
+    ],
+    "description": "交叉核对订单、发票与外贸单证字段",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "62437975-a8fa-4db7-b073-f4ffdbbc90ef",
+    "kind": "plugin",
+    "name": "公众号次图",
+    "canonicalName": "WeChat Secondary Covers",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "次条封面",
+      "文章入口",
+      "栏目系列"
+    ],
+    "description": "为公众号次条文章设计方形封面",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "66e2cb62-d7e5-4e18-b0af-f1345651282d",
+    "kind": "plugin",
+    "name": "废标条款自查",
+    "canonicalName": "Bid Disqualification Terms Check",
+    "publisher": "linking996",
+    "version": "0.1.0",
+    "category": "Marketing & Sales",
+    "tags": [
+      "disqualification-terms",
+      "requirements-check",
+      "bid-compliance"
+    ],
+    "description": "核对投标材料完整性与废标条款要求",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "6ab10503-614b-4d87-bed5-0c260c975c3b",
+    "kind": "plugin",
+    "name": "电商主图营销包装",
+    "canonicalName": "Ecommerce Main Image Marketing",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "主图加字",
+      "价格优惠",
+      "卖点包装"
+    ],
+    "description": "为商品主图添加卖点与促销信息",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "6eadca8b-959d-4522-a595-448470e5d362",
+    "kind": "plugin",
+    "name": "旅行规划师",
+    "canonicalName": "WorldsTip Travel Planner (Expert Pack)",
+    "publisher": "天选打工人就是我了",
+    "version": "0.1.16",
+    "category": "Content Creation",
+    "tags": [
+      "旅行",
+      "行程规划",
+      "自驾游",
+      "摩旅",
+      "房车",
+      "出境游",
+      "小册子"
+    ],
+    "description": "WorldsTip旅行指南小册子：国内+出境双模式旅行规划，生成 A5 紧凑卡册风格 HTML/PDF 行程小册子；含交通族系、摩旅门禁自检、房车后勤自检、出境门禁卡与散心模式。",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "70ed38f4-2cc1-43b6-8c42-ce97956ec725",
+    "kind": "plugin",
+    "name": "全栈开发专家",
+    "canonicalName": "全栈开发专家",
+    "publisher": "aliyun0140084244",
+    "version": "1.0.0",
+    "category": "Coding",
+    "tags": [
+      "java",
+      "vue",
+      "spring-boot",
+      "fullstack",
+      "code-review",
+      "testing"
+    ],
+    "description": "辅助Java与Vue全栈开发",
+    "installed": true,
+    "installedVersion": "1.0.0",
+    "components": {
+      "skills": 8,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "73656e4d-5a51-49ce-831d-0d33419879e4",
+    "kind": "plugin",
+    "name": "Team Grill · 团队研发协作技能集",
+    "canonicalName": "Team Grill · Engineering Collaboration Skills for Teams",
+    "publisher": "开心一本",
+    "version": "0.1.0",
+    "category": "Coding",
+    "tags": [
+      "qoder-plugin",
+      "skills",
+      "team",
+      "engineering",
+      "qoder-vibe-new",
+      "qoder-pro-new"
+    ],
+    "description": "团队需求拆解、测试开发与代码审查",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 39,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "74de5e22-7121-4054-910c-2935e1c5b47f",
+    "kind": "plugin",
+    "name": "跨境电商详情图",
+    "canonicalName": "Cross-border Product Detail Images",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "海外详情图片",
+      "A+静态素材",
+      "独立站配图"
+    ],
+    "description": "为跨境商品生成英文详情图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "78610176-9680-493c-a9a4-9ce7f458795e",
+    "kind": "plugin",
+    "name": "神火PPT图片设计",
+    "canonicalName": "Shenhuo Presentation Images",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "PPT封面",
+      "演示页面图片",
+      "系列配图"
+    ],
+    "description": "将汇报与课程资料制成演示页图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "800d2f56-5cf7-4d7f-a9e4-9143bb1c7af8",
+    "kind": "plugin",
+    "name": "superun 界面设计师",
+    "canonicalName": "superun-ui-expert",
+    "publisher": "杭州知擎信息科技有限公司",
+    "version": "0.1.27",
+    "category": "Content Creation",
+    "tags": [],
+    "description": "通过云端平台创建和优化应用界面",
+    "installed": true,
+    "installedVersion": "0.1.27",
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "81cde955-25ce-421b-9fcb-1458b9d673b4",
+    "kind": "plugin",
+    "name": "方形LOGO",
+    "canonicalName": "Square Logo Images",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "店铺标志",
+      "品牌字标",
+      "旧标修改"
+    ],
+    "description": "设计或修改方形品牌标志图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "8547d138-4e14-4aec-ab15-0aad5d697c8c",
+    "kind": "plugin",
+    "name": "神火品牌视觉",
+    "canonicalName": "Shenhuo Brand Visual",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "Logo设计",
+      "产品包装",
+      "品牌应用"
+    ],
+    "description": "设计品牌标志、包装与统一视觉物料",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "862358b1-d2a0-4b7d-bec9-de8f0970e174",
+    "kind": "plugin",
+    "name": "抖音图文带货",
+    "canonicalName": "Douyin Product Graphics",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "cat_57b3c6ce1b64470c86b91f456099accf",
+    "tags": [
+      "单品封面",
+      "穿搭分享",
+      "多页图文"
+    ],
+    "description": "将商品素材制作成抖音封面与图文",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "89544f5f-8e3d-4e91-ab65-7437f33aeb3b",
+    "kind": "plugin",
+    "name": "实时数据工程师",
+    "canonicalName": "Real-time Data Engineer",
+    "publisher": "戚道海",
+    "version": "1.0.0",
+    "category": "Database & Analytics",
+    "tags": [],
+    "description": "辅助Flink开发与数据质量排查",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 6,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "8a303b52-8274-4eb3-a916-619dbeddeb09",
+    "kind": "plugin",
+    "name": "证件照设计师",
+    "canonicalName": "ID Photo Designer",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "报名换底",
+      "简历形象",
+      "头肩照整理"
+    ],
+    "description": "按用途处理证件照背景、裁切与光线",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "8b490074-875c-40f8-a916-508b248c150e",
+    "kind": "plugin",
+    "name": "字幕视频制作",
+    "canonicalName": "Subtitle Video Studio",
+    "publisher": "tulink",
+    "version": "0.1.0",
+    "category": "Content Creation",
+    "tags": [],
+    "description": "根据视频与字幕制作预览及带字幕的 MP4。",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "8c83d21f-88ad-4cb0-aab4-d09d5834b6a7",
+    "kind": "plugin",
+    "name": "Tauri 调试专家",
+    "canonicalName": "Tauri Debug Expert",
+    "publisher": "wuwenzhan",
+    "version": "1.0.0",
+    "category": "Security & Testing",
+    "tags": [
+      "tauri",
+      "debugging",
+      "desktop",
+      "event-chain",
+      "rust",
+      "javascript"
+    ],
+    "description": "定位Tauri桌面应用事件链路故障",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "8c866e61-b575-43b3-845a-b607d3c3b079",
+    "kind": "plugin",
+    "name": "Grill Me — 拷问式开发工作流",
+    "canonicalName": "Grill Me",
+    "publisher": "aliyun9988649033",
+    "version": "0.1.0",
+    "category": "Coding",
+    "tags": [
+      "skill",
+      "workflow"
+    ],
+    "description": "需求追问、任务拆解与测试驱动开发",
+    "installed": true,
+    "installedVersion": "0.1.0",
+    "components": {
+      "skills": 8,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "8d07dc21-0702-4acb-88d5-d5989713376e",
+    "kind": "plugin",
+    "name": "简历制作",
+    "canonicalName": "Resume Builder",
+    "publisher": "linksass",
+    "version": "0.3.0",
+    "category": "Productivity",
+    "tags": [
+      "简历"
+    ],
+    "description": "根据真实经历与岗位要求制作简历",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "8d6ac27a-425d-4da3-b599-1f0b8c1170ef",
+    "kind": "plugin",
+    "name": "电商横版海报",
+    "canonicalName": "Ecommerce Landscape Posters",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "商品上新",
+      "活动推广",
+      "店铺通知"
+    ],
+    "description": "制作电商活动与商品推广横版海报",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "91ebad7e-49b4-4984-8bd7-83d48a3e59d2",
+    "kind": "plugin",
+    "name": "神火电商工作台",
+    "canonicalName": "Shenhuo E-commerce Workbench",
+    "publisher": "神火AI",
+    "version": "1.0.0",
+    "category": "Marketing & Sales",
+    "tags": [
+      "ecommerce",
+      "cross-border",
+      "product-research",
+      "product-images",
+      "campaigns",
+      "神火",
+      "qoder-pro-new",
+      "qoder-vibe-new"
+    ],
+    "description": "电商选品研究、文案撰写与图片设计",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "9396f867-3fb0-4349-a19a-c2ba9cf876e7",
+    "kind": "plugin",
+    "name": "碳阻迹企业碳管理与产品碳足迹顾问",
+    "canonicalName": "Carbonstop Carbon Management & Product Footprint Advisor",
+    "publisher": "碳阻迹（北京）科技有限公司",
+    "version": "1.0.0",
+    "category": "Other",
+    "tags": [
+      "carbon-management",
+      "carbon-footprint",
+      "emission-factor",
+      "creos",
+      "carbonstop",
+      "ccdb",
+      "qoder-pro-new",
+      "qoder-vibe-new"
+    ],
+    "description": "规划企业碳管理并查询碳排放因子",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 2,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "95e13fcf-e6c4-4647-8614-f87a486530cf",
+    "kind": "plugin",
+    "name": "神火发型预览",
+    "canonicalName": "Shenhuo Hairstyle Preview",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "发型试戴",
+      "刘海对比",
+      "发色预览"
+    ],
+    "description": "在本人照片上预览发型与发色",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "990a71f5-43c9-442d-9990-372d04099abf",
+    "kind": "plugin",
+    "name": "Matt Pocock 工程技能",
+    "canonicalName": "Matt Pocock Skills",
+    "publisher": "liush",
+    "version": "1.2.3",
+    "category": "Coding",
+    "tags": [
+      "engineering",
+      "tdd",
+      "code-review",
+      "grilling",
+      "domain-modeling",
+      "productivity",
+      "spec",
+      "tickets"
+    ],
+    "description": "需求澄清、测试驱动开发与代码评审",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 25,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "9a98583c-7588-40d4-b166-f2c9d61e3085",
+    "kind": "plugin",
+    "name": "superun 鸿蒙开发专家",
+    "canonicalName": "superun-harmony-expert",
+    "publisher": "杭州知擎信息科技有限公司",
+    "version": "0.1.3",
+    "category": "Coding",
+    "tags": [],
+    "description": "在云端创建鸿蒙应用并交付安装包",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "a02a2a54-9f04-44ef-9b4c-938a8952349e",
+    "kind": "plugin",
+    "name": "超级产品经理 · 产出引擎",
+    "canonicalName": "Super PM · Output Engine",
+    "publisher": "陈圳濠",
+    "version": "1.0.0",
+    "category": "Other",
+    "tags": [
+      "prd",
+      "reporting",
+      "research",
+      "patent",
+      "product-management"
+    ],
+    "description": "撰写需求文档、调研报告与汇报材料",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 5,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "a1d711c5-9acd-42d2-bff8-d2b01a7764cc",
+    "kind": "plugin",
+    "name": "支付宝AI开放平台",
+    "canonicalName": "Alipay Onboarding",
+    "publisher": "支付宝AI开放平台",
+    "version": "0.0.7",
+    "category": "Coding",
+    "tags": [
+      "skill",
+      "alipay"
+    ],
+    "description": "接入支付宝支付、小程序与开放能力",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "a3adc47d-a470-454c-976a-766bf010d91c",
+    "kind": "plugin",
+    "name": "神火电商主图",
+    "canonicalName": "Shenhuo Product Images",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "商品主图",
+      "轮播辅图",
+      "场景展示"
+    ],
+    "description": "根据商品素材生成方形电商主图",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "a4822109-45ed-4ba9-8728-d3bbe2584e5b",
+    "kind": "plugin",
+    "name": "Flova AI",
+    "canonicalName": "Flova AI",
+    "publisher": "Flova",
+    "version": "0.0.4",
+    "category": "cat_57b3c6ce1b64470c86b91f456099accf",
+    "tags": [
+      "flova",
+      "video creation",
+      "image generation",
+      "product ads",
+      "brand videos"
+    ],
+    "description": "生成图片、视频、配音与音乐",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "a6fbb105-fb79-42e6-9eca-08bf4ffa3ac3",
+    "kind": "plugin",
+    "name": "全栈开发组",
+    "canonicalName": "fullstack-dev-group",
+    "publisher": "OPVZ",
+    "version": "0.2.0",
+    "category": "Coding",
+    "tags": [
+      "qoder-plugin",
+      "team",
+      "delivery",
+      "fullstack",
+      "ops",
+      "dispatch",
+      "consultation"
+    ],
+    "description": "多角色协作完成软硬件开发与测试",
+    "installed": true,
+    "installedVersion": "0.2.0",
+    "components": {
+      "skills": 15,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "a7109c95-847b-4cb8-9e38-60206bc58fa4",
+    "kind": "plugin",
+    "name": "电商竖版海报",
+    "canonicalName": "Ecommerce Portrait Posters",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "新品上新",
+      "商品促销",
+      "品牌主题"
+    ],
+    "description": "制作商品上新与促销竖版海报",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "aad36cb2-ef4e-4bf9-a38a-bb0f044bf84b",
+    "kind": "plugin",
+    "name": "课程设计师",
+    "canonicalName": "Course Designer",
+    "publisher": "tulink",
+    "version": "0.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "课程设计",
+      "内部培训",
+      "备课",
+      "教学活动",
+      "学员演练",
+      "讲师提纲"
+    ],
+    "description": "依据岗位任务和业务资料设计学习目标、课程安排、讲师提纲及学员演练，并按反馈修订课程；练习答案保留业务依据。",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "ab1332e3-e600-4911-8a95-7d369265272e",
+    "kind": "plugin",
+    "name": "神火设计师",
+    "canonicalName": "Shenhuo Designers",
+    "publisher": "神火 AI",
+    "version": "1.0.5",
+    "category": "Content Creation",
+    "tags": [
+      "AI设计",
+      "图片设计",
+      "电商设计",
+      "海报",
+      "品牌视觉",
+      "小红书"
+    ],
+    "description": "连接神火设计师制作和修改图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "ab5ccb28-8eb3-4f29-b5d1-da95f6cbcd03",
+    "kind": "plugin",
+    "name": "软件原型设计",
+    "canonicalName": "Software Prototype Design",
+    "publisher": "神火AI",
+    "version": "1.0.0",
+    "category": "Content Creation",
+    "tags": [
+      "software-prototype",
+      "ui-design",
+      "html",
+      "mobile",
+      "mini-program",
+      "软件原型",
+      "qoder-vibe-new",
+      "qoder-pro-new"
+    ],
+    "description": "从需求生成界面设计与交互原型",
+    "installed": true,
+    "installedVersion": "1.0.0",
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "ac4751de-82a8-42d1-8f45-9753c3d1b3c6",
+    "kind": "plugin",
+    "name": "ESP-Vision 嵌入式 AI 视觉开发",
+    "canonicalName": "ESP-Vision Embedded AI Vision Development",
+    "publisher": "esp-vision",
+    "version": "0.1.1",
+    "category": "cat_68c7c3393dca4123a7860771196d3bb5",
+    "tags": [
+      "esp-vision",
+      "MicroPython",
+      "ESP32",
+      "MCP"
+    ],
+    "description": "辅助ESP32视觉设备开发与验证",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "add10796-630f-4656-80a0-3350abc87aad",
+    "kind": "plugin",
+    "name": "域名运营专家",
+    "canonicalName": "Domain Operations Specialist",
+    "publisher": "shenyue",
+    "version": "1.0.0",
+    "category": "DevOps",
+    "tags": [],
+    "description": "查询注册域名、管理解析与备案建站",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 5,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "af436644-5feb-4e21-a970-19a7a529a6ca",
+    "kind": "plugin",
+    "name": "神火电商详情",
+    "canonicalName": "Shenhuo Product Details",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "详情设计",
+      "卖点表达",
+      "选购说明"
+    ],
+    "description": "根据商品图片与资料生成电商详情图",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "alibabacloud-core",
+    "kind": "plugin",
+    "name": "AlibabaCloud Core",
+    "canonicalName": "AlibabaCloud Core",
+    "publisher": "Alibaba Cloud",
+    "version": "1.0.37",
+    "category": "DevOps",
+    "tags": [
+      "alibabacloud",
+      "aliyun",
+      "qoder-pro"
+    ],
+    "description": "阿里云API查询、代码生成与运维",
+    "installed": true,
+    "installedVersion": "1.0.37",
+    "components": {
+      "skills": 10,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "alibabacloud-spec-ops",
+    "kind": "plugin",
+    "name": "AlibabaCloud Spec Ops",
+    "canonicalName": "AlibabaCloud Spec Ops",
+    "publisher": "Alibaba Cloud",
+    "version": "0.1.8",
+    "category": "DevOps",
+    "tags": [
+      "alibabacloud",
+      "aliyun",
+      "cloud",
+      "infrastructure",
+      "terraform",
+      "iac",
+      "ops",
+      "devops"
+    ],
+    "description": "按规范规划、创建与验证云基础设施",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 6,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "alibabacloud-workbench",
+    "kind": "plugin",
+    "name": "AlibabaCloud Workbench",
+    "canonicalName": "AlibabaCloud Workbench",
+    "publisher": "Alibaba Cloud",
+    "version": "1.0.1",
+    "category": "DevOps",
+    "tags": [
+      "alibabacloud",
+      "ecs",
+      "devops"
+    ],
+    "description": "通过CLI执行ECS命令与传输文件",
+    "installed": true,
+    "installedVersion": "1.0.1",
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "apollo-graphql",
+    "kind": "plugin",
+    "name": "Apollo GraphQL",
+    "canonicalName": "Apollo GraphQL",
+    "publisher": "Apollo GraphQL",
+    "version": "1.0.0",
+    "category": "Coding",
+    "tags": [
+      "graphql",
+      "apollo",
+      "apollo-client",
+      "apollo-connectors",
+      "apollo-federation",
+      "apollo-ios"
+    ],
+    "description": "辅助GraphQL开发与服务集成",
+    "installed": true,
+    "installedVersion": "1.0.0",
+    "components": {
+      "skills": 14,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "architecture-visualization",
+    "kind": "plugin",
+    "name": "架构可视化",
+    "canonicalName": "Architecture Visualization",
+    "publisher": "Qoder",
+    "version": "0.1.0",
+    "category": "Coding",
+    "tags": [
+      "canvas",
+      "architecture",
+      "architecture-review",
+      "c4",
+      "qoder-pro"
+    ],
+    "description": "软件架构建模、绘图与风险评审",
+    "installed": true,
+    "installedVersion": "0.1.0",
+    "components": {
+      "skills": 13,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "b38f6fd8-4f92-456d-924f-5c07ed407628",
+    "kind": "plugin",
+    "name": "superun 智能体搭建专家",
+    "canonicalName": "superun-agent-creation",
+    "publisher": "杭州知擎信息科技有限公司",
+    "version": "0.1.11",
+    "category": "Coding",
+    "tags": [],
+    "description": "在云端创建、配置与验证智能体应用",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "b406b093-9f54-45b5-9bc8-a894f0256440",
+    "kind": "plugin",
+    "name": "Qoder 多账号 Credits 余量监控",
+    "canonicalName": "Qoder Multi-Account Credits Monitor",
+    "publisher": "Ocean",
+    "version": "1.0.0",
+    "category": "Workflow",
+    "tags": [
+      "credits",
+      "quota",
+      "usage",
+      "multi-account"
+    ],
+    "description": "查看多账号积分余量与签到状态",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "b4404ad0-2575-4b4b-8f5d-656abd4cc020",
+    "kind": "plugin",
+    "name": "工牌工作证",
+    "canonicalName": "Employee Badge Images",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "员工工牌",
+      "部门身份牌",
+      "活动工作牌"
+    ],
+    "description": "根据机构与人员信息制作工牌图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "b51c164f-b5cb-449f-a110-2e2a655114ee",
+    "kind": "plugin",
+    "name": "物料齐套核对",
+    "canonicalName": "Material Kitting Check",
+    "publisher": "linking996",
+    "version": "0.1.0",
+    "category": "cat_68c7c3393dca4123a7860771196d3bb5",
+    "tags": [
+      "material-kitting",
+      "gap-calculation",
+      "production-planning"
+    ],
+    "description": "比对订单、物料与库存，核对缺料",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "b7797221-ad3a-4e04-b147-5148bbce2229",
+    "kind": "plugin",
+    "name": "电商主图与详情",
+    "canonicalName": "Ecommerce Main and Detail Images",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "商品套图",
+      "使用场景",
+      "规格展示"
+    ],
+    "description": "根据商品素材生成主图与详情套图",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "be27edca-cdcd-4b8e-909c-b9a59ee06c4f",
+    "kind": "plugin",
+    "name": "提示词设计工坊",
+    "canonicalName": "Prompt Design Studio",
+    "publisher": "Zhanganren",
+    "version": "1.1.0",
+    "category": "Knowledge",
+    "tags": [],
+    "description": "将教学需求整理为可复用提示词",
+    "installed": true,
+    "installedVersion": "1.1.0",
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "better-harness",
+    "kind": "plugin",
+    "name": "Better Harness",
+    "canonicalName": "Better Harness",
+    "publisher": "Qoder",
+    "version": "0.2.20",
+    "category": "Coding",
+    "tags": [
+      "qoder-vibe",
+      "qoder-pro"
+    ],
+    "description": "规范智能体编码、评审与变更验证",
+    "installed": true,
+    "installedVersion": "0.2.20",
+    "components": {
+      "skills": 2,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "bio-research-guided",
+    "kind": "plugin",
+    "name": "生物科研助手",
+    "canonicalName": "生物科研助手",
+    "publisher": "Qwen&DT",
+    "version": "0.1.0",
+    "category": "Knowledge",
+    "tags": [
+      "qoder-vibe",
+      "qoder-pro"
+    ],
+    "description": "辅助生物文献检索、实验与数据分析",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 21,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "c0aba6af-910e-4a55-885b-8d80b98b04a6",
+    "kind": "plugin",
+    "name": "神火姓名牌",
+    "canonicalName": "Shenhuo Nameplate Design",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "会议桌牌",
+      "课堂姓名牌",
+      "折叠展开图"
+    ],
+    "description": "制作会议桌牌与课堂姓名标签图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "cangjie-skills",
+    "kind": "plugin",
+    "name": "Cangjie",
+    "canonicalName": "Cangjie",
+    "publisher": "Cangjie-SIG",
+    "version": "1.0.0",
+    "category": "Coding",
+    "tags": [
+      "cangjie",
+      "compiler",
+      "stdlib",
+      "toolchain"
+    ],
+    "description": "辅助仓颉项目开发、构建与测试",
+    "installed": true,
+    "installedVersion": "1.0.0",
+    "components": {
+      "skills": 6,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "chrome-devtools-mcp",
+    "kind": "plugin",
+    "name": "Chrome DevTools",
+    "canonicalName": "Chrome DevTools",
+    "publisher": "Google Chrome",
+    "version": "1.9.0",
+    "category": "Security & Testing",
+    "tags": [
+      "chrome",
+      "devtools",
+      "mcp",
+      "browser-automation",
+      "debugging",
+      "performance",
+      "accessibility",
+      "qoder-vibe"
+    ],
+    "description": "浏览器自动化、调试与性能分析",
+    "installed": true,
+    "installedVersion": "1.9.0",
+    "components": {
+      "skills": 7,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "context7",
+    "kind": "plugin",
+    "name": "Context7",
+    "canonicalName": "Context7",
+    "publisher": "Upstash",
+    "version": "1.0.0",
+    "category": "Coding",
+    "tags": [
+      "qoder-vibe",
+      "qoder-pro"
+    ],
+    "description": "按开发库版本检索最新文档、API用法与代码示例",
+    "installed": true,
+    "installedVersion": "1.0.0",
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 1
+    },
+    "source": "official"
+  },
+  {
+    "id": "d26e2cdb-0118-45d1-a357-5bb3e01cdac4",
+    "kind": "plugin",
+    "name": "家庭生活核对套件",
+    "canonicalName": "Family Life Check Suite",
+    "publisher": "LinkSaaS",
+    "version": "0.1.1",
+    "category": "Other",
+    "tags": [
+      "家庭核对",
+      "育儿",
+      "亲子",
+      "宠物",
+      "账单",
+      "出行",
+      "装修",
+      "订阅"
+    ],
+    "description": "核对家庭账单、排期与生活记录",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 11,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "d4113cc0-28a5-4925-900f-92a4f8917550",
+    "kind": "plugin",
+    "name": "投标偏离核对",
+    "canonicalName": "Bid Deviation Cross-Check",
+    "publisher": "linking996",
+    "version": "0.1.0",
+    "category": "Marketing & Sales",
+    "tags": [
+      "deviation-check",
+      "bid-documents",
+      "contradiction-detection"
+    ],
+    "description": "核对投标偏离声明与方案正文矛盾",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "d8fc4228-06d1-4596-bd66-d5dbaf023792",
+    "kind": "plugin",
+    "name": "神火信息解读图",
+    "canonicalName": "Shenhuo Information Explainers",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "新闻图解",
+      "知识科普",
+      "产品说明"
+    ],
+    "description": "将资料重点与关系整理为解释性图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "dab57f35-ed77-428c-8aec-56429d5513f4",
+    "kind": "plugin",
+    "name": "社交媒体头像",
+    "canonicalName": "Social Media Avatars",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "人像头像",
+      "漫画风格",
+      "人宠合照"
+    ],
+    "description": "根据照片或设定制作社交头像",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "dbac8a05-58ed-416f-8789-a6220dcdde57",
+    "kind": "plugin",
+    "name": "superun 全托管开发",
+    "canonicalName": "Superun Autopilot",
+    "publisher": "杭州知擎信息科技有限公司",
+    "version": "0.1.2",
+    "category": "Coding",
+    "tags": [],
+    "description": "多角色协作完成云端应用开发",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "dd168b9a-5bce-4c9f-8552-cd5a4f8a34b0",
+    "kind": "plugin",
+    "name": "神火图文分层",
+    "canonicalName": "Shenhuo Image Layering",
+    "publisher": "神火AI",
+    "version": "1.0.2",
+    "category": "Content Creation",
+    "tags": [],
+    "description": "将图片文字转为可编辑图层",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "dd4ad96c-aea9-41c5-81be-8a347ae5985d",
+    "kind": "plugin",
+    "name": "文枢",
+    "canonicalName": "Wenshu",
+    "publisher": "项丰",
+    "version": "1.0.0",
+    "category": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+    "tags": [
+      "长文档生成",
+      "规范合规",
+      "多智能体团队"
+    ],
+    "description": "分角色协作撰写、校审与整合长文档",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "de5b0ff6-d28b-450c-8e52-0dcc77a0810b",
+    "kind": "plugin",
+    "name": "CrownCAD ReGen智能体",
+    "canonicalName": "CrownCAD ReGen Agent",
+    "publisher": "华天软件",
+    "version": "1.0.3",
+    "category": "cat_68c7c3393dca4123a7860771196d3bb5",
+    "tags": [
+      "skill",
+      "cad"
+    ],
+    "description": "根据图纸或文字创建和修改机械模型",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 8,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "design-review",
+    "kind": "plugin",
+    "name": "Design Review",
+    "canonicalName": "Design Review",
+    "publisher": "Qoder",
+    "version": "0.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "design",
+      "frontend",
+      "design-qa",
+      "accessibility",
+      "responsive",
+      "ui-design"
+    ],
+    "description": "审查界面设计、无障碍与组件规范",
+    "installed": true,
+    "installedVersion": "0.1.0",
+    "components": {
+      "skills": 10,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "diagram-design",
+    "kind": "plugin",
+    "name": "图表设计方案",
+    "canonicalName": "diagram-design",
+    "publisher": "Cathryn Lavery",
+    "version": "2.6.131",
+    "category": "Content Creation",
+    "tags": [
+      "diagrams",
+      "svg",
+      "architecture",
+      "flowchart",
+      "visualization",
+      "editorial",
+      "drawio",
+      "mermaid"
+    ],
+    "description": "绘制架构图、流程图与数据图表",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 6
+    },
+    "source": "official"
+  },
+  {
+    "id": "dingtalk",
+    "kind": "plugin",
+    "name": "钉钉",
+    "canonicalName": "钉钉",
+    "publisher": "DingTalk",
+    "version": "0.1.0",
+    "category": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+    "tags": [
+      "dingtalk",
+      "dws",
+      "productivity"
+    ],
+    "description": "钉钉官方CLI，管理日程、文档、消息与待办",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 14,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "e23117cf-8905-4cf2-8d7a-711bb798d255",
+    "kind": "plugin",
+    "name": "superun 网站复刻专家",
+    "canonicalName": "superun Site Clone Expert",
+    "publisher": "杭州知擎信息科技有限公司",
+    "version": "0.1.10",
+    "category": "Coding",
+    "tags": [],
+    "description": "输入网址搬家，持续查看进度，完成后修改网站样式或开发真实功能。",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "e324d86f-8eff-4942-b9a7-7816c88b76bb",
+    "kind": "plugin",
+    "name": "小红书图文笔记",
+    "canonicalName": "Xiaohongshu Visual Notes",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "cat_57b3c6ce1b64470c86b91f456099accf",
+    "tags": [
+      "生活分享",
+      "知识干货",
+      "产品介绍"
+    ],
+    "description": "将内容与商品素材制成小红书图文",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "e36166e4-9894-4be7-aea3-a2b68e89b736",
+    "kind": "plugin",
+    "name": "名片设计",
+    "canonicalName": "Business Card Design",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "电子名片",
+      "人物介绍",
+      "正反面设计"
+    ],
+    "description": "根据身份与联系方式制作名片图片",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "e5b763e5-9b62-4dda-88de-fff92dd8c3ac",
+    "kind": "plugin",
+    "name": "跨境电商横版海报",
+    "canonicalName": "Cross-border Landscape Posters",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "海外店铺横图",
+      "新品促销",
+      "多语言海报"
+    ],
+    "description": "制作跨境店铺英文横版促销海报",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "e7de27b0-f08c-4893-8144-4419ae1aad42",
+    "kind": "plugin",
+    "name": "Dify 画布编排师",
+    "canonicalName": "dify-canvas",
+    "publisher": "elegant01",
+    "version": "0.1.0",
+    "category": "Workflow",
+    "tags": [
+      "qoder-plugin",
+      "dify",
+      "workflow",
+      "canvas",
+      "mcp",
+      "qoder-pro-new",
+      "qoder-vibe-new"
+    ],
+    "description": "在浏览器中编辑和试运行Dify流程",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "e830da1b-8d75-4b40-ad52-aa103f780eea",
+    "kind": "plugin",
+    "name": "银行流水勾兑",
+    "canonicalName": "Bank Statement Reconciliation",
+    "publisher": "linksass",
+    "version": "0.1.0",
+    "category": "Finance",
+    "tags": [
+      "reconciliation",
+      "write-off-detection",
+      "finance-audit"
+    ],
+    "description": "匹配银行流水与订单，列出对账差异",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "e8921b94-938b-4bf1-942e-38eada35b2d9",
+    "kind": "plugin",
+    "name": "Zion 无代码开发套件",
+    "canonicalName": "Zion 无代码开发套件",
+    "publisher": "Zion",
+    "version": "2.7.5",
+    "category": "Coding",
+    "tags": [
+      "zion",
+      "no-code",
+      "mcp",
+      "app-builder"
+    ],
+    "description": "无代码创建应用、数据模型与业务流程",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "ea5a230f-0f86-43aa-8ee9-50288e78c2ab",
+    "kind": "plugin",
+    "name": "跨境电商主图",
+    "canonicalName": "Cross-border Product Images",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "海外商品首图",
+      "场景细节",
+      "多语言副图"
+    ],
+    "description": "制作跨境商品主图、场景与规格副图",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "eac24ede-df7c-40ef-8a38-9d7f2cbe2a40",
+    "kind": "plugin",
+    "name": "神火AI写真",
+    "canonicalName": "Shenhuo AI Portrait",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "主题写真",
+      "个人形象",
+      "宠物写真"
+    ],
+    "description": "根据人物或宠物照片生成主题写真",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "ee5e7c80-e0d5-40b0-8d84-9af11fdfe8e3",
+    "kind": "plugin",
+    "name": "公众号二维码关注图",
+    "canonicalName": "WeChat Follow Card Design",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "文末关注图",
+      "账号介绍",
+      "二维码排版"
+    ],
+    "description": "根据账号与二维码设计公众号关注图",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "efea1f57-3e84-4025-a6e2-28b95c67d897",
+    "kind": "plugin",
+    "name": "数据清洗标准化",
+    "canonicalName": "Data Cleaning & Standardization",
+    "publisher": "linking996",
+    "version": "0.1.0",
+    "category": "Database & Analytics",
+    "tags": [
+      "data-normalization",
+      "column-mapping",
+      "format-cleansing"
+    ],
+    "description": "清洗多格式数据并输出标准表格",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "f22e7696-514b-4ff6-a4cb-7f1fef73b2cf",
+    "kind": "plugin",
+    "name": "多格式报价拉平预审",
+    "canonicalName": "Quote Normalization Preview",
+    "publisher": "linksass",
+    "version": "0.1.0",
+    "category": "Marketing & Sales",
+    "tags": [
+      "quote-normalization",
+      "deviation-preview",
+      "procurement-comparison"
+    ],
+    "description": "统一报价口径并标记供应商报价差异",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "f3b3f0dc-3a31-4071-9019-a3b883f85a69",
+    "kind": "plugin",
+    "name": "会话同步助手",
+    "canonicalName": "Qoder CLI Session Sync",
+    "publisher": "lixr873@163.com",
+    "version": "0.2.0",
+    "category": "Workflow",
+    "tags": [
+      "qoder-plugin",
+      "qodercli",
+      "session",
+      "sync"
+    ],
+    "description": "将CLI会话同步到Qoder应用",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "f4a404cf-4032-4009-9174-984e1a4b761e",
+    "kind": "plugin",
+    "name": "纹身图案设计",
+    "canonicalName": "Tattoo Concept Design",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "原创图案",
+      "上身预览",
+      "线稿参考"
+    ],
+    "description": "设计纹身图案、线稿与上身预览",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "f4ef699a-313a-4f82-8d69-3b928da270a5",
+    "kind": "plugin",
+    "name": "superun IOS开发专家",
+    "canonicalName": "superun-ios-expert",
+    "publisher": "杭州知擎信息科技有限公司",
+    "version": "0.1.4",
+    "category": "Coding",
+    "tags": [],
+    "description": "在云端创建iOS应用并交付安装包",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "f76c692d-68fc-4fd2-b94b-cd2f638e006c",
+    "kind": "plugin",
+    "name": "跨境电商竖版海报",
+    "canonicalName": "Cross-border Portrait Posters",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "海外上新",
+      "竖版促销",
+      "礼赠系列"
+    ],
+    "description": "制作跨境商品英文竖版促销海报",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "f874d166-8ea6-4f6b-9daf-dd61c3dbd3a8",
+    "kind": "plugin",
+    "name": "供应商主体一致性核验",
+    "canonicalName": "Supplier Entity Verification",
+    "publisher": "linksass",
+    "version": "0.1.0",
+    "category": "Marketing & Sales",
+    "tags": [
+      "supplier-vetting",
+      "identity-consistency",
+      "compliance-audit"
+    ],
+    "description": "核对供应商证照与台账主体一致性",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "feishu-channel",
+    "kind": "plugin",
+    "name": "飞书 IM",
+    "canonicalName": "Feishu IM",
+    "publisher": "Qoder",
+    "version": "0.0.8",
+    "category": "IM",
+    "tags": [
+      "communication",
+      "feishu",
+      "qoder",
+      "qoder-pro-new",
+      "qoder-vibe-new"
+    ],
+    "description": "在飞书中向Qoder发消息、发起任务",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "ff6b3135-49d4-469c-bede-404341680561",
+    "kind": "plugin",
+    "name": "神火方形海报",
+    "canonicalName": "Shenhuo Square Posters",
+    "publisher": "神火AI",
+    "version": "1.1.0",
+    "category": "Content Creation",
+    "tags": [
+      "朋友圈方图",
+      "活动推广",
+      "营业通知"
+    ],
+    "description": "制作适合朋友圈与社群的方形海报",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 3,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "if-Studio-AI-Creation",
+    "kind": "plugin",
+    "name": "if Studio AI 智能创作",
+    "canonicalName": "if Studio AI 智能创作",
+    "publisher": "if-studio",
+    "version": "1.0.0",
+    "category": "cat_57b3c6ce1b64470c86b91f456099accf",
+    "tags": [
+      "if-studio",
+      "image-generation",
+      "video-generation",
+      "design",
+      "workflow",
+      "qoder-pro-new",
+      "qoder-vibe-new",
+      "partner",
+      "qoder-vibe",
+      "qoder-pro"
+    ],
+    "description": "生成与编辑图片、视频及音频素材",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 27,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "lark",
+    "kind": "plugin",
+    "name": "Lark / 飞书",
+    "canonicalName": "Lark",
+    "publisher": "Lark Technologies Pte. Ltd.",
+    "version": "0.1.1",
+    "category": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+    "tags": [
+      "lark",
+      "feishu",
+      "lark-cli",
+      "productivity"
+    ],
+    "description": "飞书官方CLI，管理消息、文档、日程与多维表格",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 28,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "meoo",
+    "kind": "plugin",
+    "name": "Meoo",
+    "canonicalName": "Meoo",
+    "publisher": "Meoo Team",
+    "version": "0.1.0",
+    "category": "DevOps",
+    "tags": [
+      "qoder-vibe",
+      "qoder-pro"
+    ],
+    "description": "通过CLI构建和部署全栈应用",
+    "installed": true,
+    "installedVersion": "0.1.0",
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "miaoda-app-builder",
+    "kind": "plugin",
+    "name": "秒哒",
+    "canonicalName": "Miaoda",
+    "publisher": "百度秒哒",
+    "version": "1.1.5",
+    "category": "Coding",
+    "tags": [
+      "Miaoda",
+      "app builder",
+      "website",
+      "low-code"
+    ],
+    "description": "通过百度秒哒创建和发布应用",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "mobile-use",
+    "kind": "plugin",
+    "name": "Phone Use",
+    "canonicalName": "Phone Use",
+    "publisher": "Qoder",
+    "version": "0.7.6",
+    "category": "Workflow",
+    "tags": [
+      "qoder-vibe",
+      "qoder-pro"
+    ],
+    "description": "构建、运行与测试手机应用",
+    "installed": true,
+    "installedVersion": "0.7.5",
+    "components": {
+      "skills": 2,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "oceanbase-skills",
+    "kind": "plugin",
+    "name": "OceanBase",
+    "canonicalName": "OceanBase",
+    "publisher": "OceanBase",
+    "version": "2.0.1",
+    "category": "Database & Analytics",
+    "tags": [
+      "oceanbase",
+      "seekdb",
+      "database",
+      "obd"
+    ],
+    "description": "管理数据库集群、租户与性能测试",
+    "installed": true,
+    "installedVersion": "2.0.1",
+    "components": {
+      "skills": 2,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "office-docx",
+    "kind": "plugin",
+    "name": "Word",
+    "canonicalName": "Word",
+    "publisher": "Qoder",
+    "version": "0.4.0",
+    "category": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+    "tags": [
+      "qoder-pro-new",
+      "qoder-vibe-new",
+      "qoder",
+      "qoder-vibe",
+      "qoder-pro"
+    ],
+    "description": "Qoder原生文档工具，撰写、编辑与排版",
+    "installed": true,
+    "installedVersion": "0.4.0",
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "office-excel",
+    "kind": "plugin",
+    "name": "Excel",
+    "canonicalName": "Excel",
+    "publisher": "Qoder",
+    "version": "0.1.2",
+    "category": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+    "tags": [
+      "qoder",
+      "qoder-vibe",
+      "qoder-pro"
+    ],
+    "description": "Qoder原生表格工具，编辑、计算与分析",
+    "installed": true,
+    "installedVersion": "0.1.2",
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "postman",
+    "kind": "plugin",
+    "name": "Postman",
+    "canonicalName": "Postman",
+    "publisher": "Postman DevRel",
+    "version": "1.3.1",
+    "category": "Coding",
+    "tags": [
+      "api",
+      "postman",
+      "mcp",
+      "openapi",
+      "qoder-pro"
+    ],
+    "description": "管理API集合、生成代码、运行测试与模拟服务",
+    "installed": true,
+    "installedVersion": "1.3.1",
+    "components": {
+      "skills": 3,
+      "mcpServers": 1,
+      "commands": 18
+    },
+    "source": "official"
+  },
+  {
+    "id": "Presentations",
+    "kind": "plugin",
+    "name": "PPT",
+    "canonicalName": "PPT",
+    "publisher": "Qoder",
+    "version": "0.1.4",
+    "category": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+    "tags": [
+      "qoder-vibe",
+      "qoder-pro"
+    ],
+    "description": "Qoder原生演示工具，创建与排版幻灯片",
+    "installed": true,
+    "installedVersion": "0.1.4",
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "product-design",
+    "kind": "plugin",
+    "name": "产品设计",
+    "canonicalName": "Product Design",
+    "publisher": "QoderWork",
+    "version": "0.5.10",
+    "category": "Content Creation",
+    "tags": [
+      "设计师",
+      "designer",
+      "产品设计",
+      "design",
+      "UX",
+      "UI",
+      "视觉设计",
+      "体验设计",
+      "qoder-vibe"
+    ],
+    "description": "用户研究、交互设计与设计交付",
+    "installed": true,
+    "installedVersion": "0.5.10",
+    "components": {
+      "skills": 28,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "product-management",
+    "kind": "plugin",
+    "name": "产品管理",
+    "canonicalName": "Product Management",
+    "publisher": "QoderWork",
+    "version": "1.1.1",
+    "category": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+    "tags": [
+      "产品",
+      "PRD",
+      "用户故事",
+      "竞品分析",
+      "需求管理",
+      "用户反馈",
+      "qoder-vibe"
+    ],
+    "description": "撰写需求、规划路线图与分析反馈",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 8,
+      "mcpServers": 3,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "qoder-cloud-agents",
+    "kind": "plugin",
+    "name": "Qoder Cloud Agents",
+    "canonicalName": "Qoder Cloud Agents",
+    "publisher": "Qoder",
+    "version": "1.3.1",
+    "category": "DevOps",
+    "tags": [
+      "skill",
+      "mcp",
+      "qoder-vibe",
+      "qoder-pro"
+    ],
+    "description": "创建和管理云端智能体、环境与会话",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "redis",
+    "kind": "plugin",
+    "name": "Redis",
+    "canonicalName": "Redis",
+    "publisher": "Redis",
+    "version": "1.0.0",
+    "category": "Database & Analytics",
+    "tags": [
+      "redis",
+      "database",
+      "caching",
+      "vector-search",
+      "performance",
+      "best-practices"
+    ],
+    "description": "指导Redis开发、缓存与性能优化",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "research-copilot",
+    "kind": "plugin",
+    "name": "科研助手",
+    "canonicalName": "Research Copilot",
+    "publisher": "TaShan & Giiisp",
+    "version": "1.0.0",
+    "category": "Knowledge",
+    "tags": [
+      "research",
+      "academic-writing",
+      "literature",
+      "experiment-design",
+      "visualization",
+      "peer-review"
+    ],
+    "description": "辅助文献检索、实验设计与论文写作",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 18,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "starops-qoder",
+    "kind": "plugin",
+    "name": "STAROps",
+    "canonicalName": "STAROps",
+    "publisher": "Alibaba Cloud STAROps",
+    "version": "0.1.4",
+    "category": "DevOps",
+    "tags": [
+      "starops",
+      "aiops",
+      "observability",
+      "alibabacloud"
+    ],
+    "description": "运维数据查询、故障诊断与防护",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 2
+    },
+    "source": "official"
+  },
+  {
+    "id": "superpowers",
+    "kind": "plugin",
+    "name": "Superpowers",
+    "canonicalName": "Superpowers",
+    "publisher": "Jesse Vincent",
+    "version": "6.3.0",
+    "category": "Coding",
+    "tags": [
+      "tdd",
+      "workflow",
+      "code-review",
+      "debugging",
+      "skills",
+      "qoder-vibe",
+      "qoder-pro"
+    ],
+    "description": "需求拆解、测试驱动开发与代码评审",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 14,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "wecom",
+    "kind": "plugin",
+    "name": "企业微信",
+    "canonicalName": "WeCom",
+    "publisher": "WeCom",
+    "version": "0.1.1",
+    "category": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+    "tags": [
+      "wecom",
+      "企业微信",
+      "wecom-cli",
+      "productivity",
+      "qoder-pro-new",
+      "qoder-vibe-new"
+    ],
+    "description": "企业微信官方CLI，管理消息、文档、日程与待办",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 15,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "wecom-channel",
+    "kind": "plugin",
+    "name": "企业微信IM",
+    "canonicalName": "WeCom IM",
+    "publisher": "Qoder",
+    "version": "0.0.5",
+    "category": "IM",
+    "tags": [
+      "communication",
+      "wecom",
+      "qoder-pro-new",
+      "qoder-vibe-new"
+    ],
+    "description": "在企业微信中给Qoder发送消息与文件",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 1,
+      "commands": 0
+    },
+    "source": "official"
+  },
+  {
+    "id": "wxz-cli",
+    "kind": "plugin",
+    "name": "万小智 CLI",
+    "canonicalName": "WXZ CLI",
+    "publisher": "Wanxiaozhi Team",
+    "version": "1.0.10",
+    "category": "Coding",
+    "tags": [
+      "wxz",
+      "website-builder",
+      "cli",
+      "skill"
+    ],
+    "description": "通过CLI创建、预览与部署网站",
+    "installed": false,
+    "installedVersion": null,
+    "components": {
+      "skills": 1,
+      "mcpServers": 0,
+      "commands": 0
+    },
+    "source": "official"
+  }
+]

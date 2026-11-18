@@ -1,0 +1,96 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.451Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "geocodio",
+  "connector_name": "Geocodio",
+  "connector_name_cn": "Geocodio",
+  "description": "Geocode addresses and reverse-geocode coordinates individually or in batches with Geocodio. Use the returned location information for address cleanup, place research, and matching records across datasets. Prepare the address, coordinates, or place inputs first, then retain a link between the original record and the returned normalized information. This supports checks for duplicate places and location discrepancies. Preserve ambiguous inputs and review uncertain matches before relying on them in an operational workflow.",
+  "description_cn": "通过 Geocodio 对地址和坐标执行单条或批量正向、反向地理编码。适合处理地址清洗、地点检索和跨数据集的位置关联。可先整理地址、坐标或地点输入，再将返回的标准化信息与原始记录对应，辅助核对重复地点、位置偏差和数据匹配结果。对存在歧义的地址应保留原始输入，并根据业务需要进行人工确认。",
+  "version": "1.0.0",
+  "category": "Database & Analytics",
+  "tags": [
+    "geocoding",
+    "location",
+    "data"
+  ],
+  "provider_name": "Geocodio",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "geocodio",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5db49471d5a047bb90248eae5ffb14991a3127db0b74b59623bdc7b4756b7dcc",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Geocode addresses and reverse-geocode coordinates individually or in batches with Geocodio.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5db49471d5a047bb90248eae5ffb14991a3127db0b74b59623bdc7b4756b7dcc",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "geocodio",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_5db49471d5a047bb90248eae5ffb14991a3127db0b74b59623bdc7b4756b7dcc",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Reverse geocode multiple coordinate pairs in one batch request and return Geocodio batch results.",
+            "name": "batch_reverse_geocode"
+          },
+          {
+            "description": "Geocode multiple addresses in one batch request and return Geocodio batch results.",
+            "name": "geocode_batch"
+          },
+          {
+            "description": "Geocode a single address and return the official Geocodio response payload.",
+            "name": "single_geocode"
+          },
+          {
+            "description": "Reverse geocode a single latitude and longitude pair and return the official Geocodio response payload.",
+            "name": "single_reverse_geocode"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "geocodio": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5db49471d5a047bb90248eae5ffb14991a3127db0b74b59623bdc7b4756b7dcc",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_5db49471d5a047bb90248eae5ffb14991a3127db0b74b59623bdc7b4756b7dcc"
+      }
+    }
+  }
+}

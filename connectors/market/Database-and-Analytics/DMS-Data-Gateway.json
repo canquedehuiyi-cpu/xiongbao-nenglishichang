@@ -1,0 +1,142 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.437Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "8a3d7492-064d-459c-8f07-ac4fa9f079e4",
+  "connector_name": "DMS Data Gateway",
+  "connector_name_cn": "DMS Agent 数据网关",
+  "description": "The DMS Agent Data Gateway (DGATE) provides AI Agents with a secure, unified data access entry point via MCP, supporting data source discovery, viewing database and table structures and metadata, and executing SQL queries, helping users perform data retrieval and analysis using natural language. Combined with agent identity authentication, fine-grained permission control, security policies, and operation auditing, it enables agents to access enterprise data within authorized scopes, achieving controllable and traceable data usage.",
+  "description_cn": "DMS Agent 数据网关（DGATE）通过 MCP 为 AI Agent 提供安全、统一的数据访问入口，支持发现数据源、查看库表结构与元数据、执行 SQL 查询，帮助用户以自然语言完成数据检索与分析。结合 Agent 身份认证、细粒度权限控制、安全策略与操作审计，让 Agent 在授权范围内访问企业数据，实现可控、可追溯的数据使用。",
+  "version": "1.0.2",
+  "category": "Database & Analytics",
+  "tags": [],
+  "provider_name": "DMS Agent 数据网关",
+  "author": {
+    "name": "Alibaba",
+    "display_name": "Alibaba"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoderwork",
+    "qoder",
+    "cloudagent",
+    "qodercli",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "dms_data_gateway",
+        "url": "https://dgate-mcp.aliyuncs.com/mcp/dgate",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_bc5fa36a854f499513611162c72ea1c941bceee2b82899777f2edb7c74bca85a",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_bc5fa36a854f499513611162c72ea1c941bceee2b82899777f2edb7c74bca85a",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "列出当前身份已获得的实例级数据权限；回答“我有哪些实例权限”时使用。",
+            "name": "acl_my_permissions"
+          },
+          {
+            "description": "查询当前身份的平台角色和管理员标记；不代表实例查询权限。",
+            "name": "acl_whoami"
+          },
+          {
+            "description": "列出当前身份可见的数据源管控记录；不可作为实例查询授权清单。",
+            "name": "datasource_list"
+          },
+          {
+            "description": "执行单个 SQL 或 statement 并返回结果，不支持批量多语句。至少提供 databaseUuid、catalogUuid 或 catalogName 之一；命中 ASK 门禁时，经人工审查后携带 confirm 重试。",
+            "name": "exec_sql"
+          },
+          {
+            "description": "调用长尾管控 Action；先用 gateway_describe 查询开放状态、路由和参数。主表允许的读写操作默认开放；不开放项及未知 Action 拒绝。form 接口使用 params，JSON 接口使用 body；后端身份、ACL、Owner 和审批仍生效。",
+            "name": "gateway_call"
+          },
+          {
+            "description": "发现管控 OpenAPI：空参返回领域概览；query/route 搜索候选（默认开放项，20条/页，最多50条），nextToken 翻页；指定 action 查看参数、编码与开放策略，再 gateway_call。",
+            "name": "gateway_describe"
+          },
+          {
+            "description": "按 catalogUuid 查看指定数据实例详情；先通过 meta_catalog_list 或 meta_catalog_search 发现 UUID。",
+            "name": "meta_catalog_get"
+          },
+          {
+            "description": "列出当前身份可见的数据实例（Catalog）。仅表示元数据可见，不代表具备 SQL 查询权限。",
+            "name": "meta_catalog_list"
+          },
+          {
+            "description": "按名称关键词、Catalog 类型或数据库类型搜索数据实例。",
+            "name": "meta_catalog_search"
+          },
+          {
+            "description": "按 databaseUuid 查看指定数据库详情；先通过 meta_database_list 或 meta_database_search 发现 UUID。",
+            "name": "meta_database_get"
+          },
+          {
+            "description": "列出指定 Catalog 下的数据库。",
+            "name": "meta_database_list"
+          },
+          {
+            "description": "跨实例搜索数据库，可按实例、数据库类型或环境类型筛选。",
+            "name": "meta_database_search"
+          },
+          {
+            "description": "查看指定表的字段名称、类型和注释。",
+            "name": "meta_table_columns"
+          },
+          {
+            "description": "查看指定表的索引定义。",
+            "name": "meta_table_indexes"
+          },
+          {
+            "description": "列出指定数据库下的表。",
+            "name": "meta_table_list"
+          },
+          {
+            "description": "检索 DataWiki 中的表含义、业务口径和样例 SQL，支持元数据过滤和混合检索。",
+            "name": "wiki_search"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "dms_data_gateway": {
+        "type": "http",
+        "url": "https://dgate-mcp.aliyuncs.com/mcp/dgate",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_bc5fa36a854f499513611162c72ea1c941bceee2b82899777f2edb7c74bca85a"
+      }
+    }
+  }
+}

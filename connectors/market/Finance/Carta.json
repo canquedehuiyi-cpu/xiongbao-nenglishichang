@@ -1,0 +1,74 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.528Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Finance",
+  "categoryCode": "Finance",
+  "connector_id": "Carta",
+  "connector_name": "Carta",
+  "connector_name_cn": "Carta",
+  "description": "Carta manages cap tables, equity plans, valuations, and fundraising information for companies and investors.",
+  "description_cn": "Carta 管理股权结构、期权、估值和融资信息，帮助企业和投资者统一维护股权数据。",
+  "version": "1.0.5",
+  "category": "Finance",
+  "tags": [],
+  "provider_name": "Carta",
+  "author": {
+    "name": "",
+    "display_name": "Carta"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Carta",
+        "url": "https://mcp.app.carta.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ab6c252eda934ca2edc77dbba4a034e1fb1dfc48989d9260a4368a3d10ea258c",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_ab6c252eda934ca2edc77dbba4a034e1fb1dfc48989d9260a4368a3d10ea258c",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Carta": {
+        "type": "http",
+        "url": "https://mcp.app.carta.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ab6c252eda934ca2edc77dbba4a034e1fb1dfc48989d9260a4368a3d10ea258c"
+      }
+    }
+  }
+}

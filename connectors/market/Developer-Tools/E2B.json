@@ -1,0 +1,96 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.488Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Developer-Tools",
+  "categoryCode": "Developer Tools",
+  "connector_id": "e2b",
+  "connector_name": "E2B",
+  "connector_name_cn": "E2B",
+  "description": "Create and manage secure cloud sandboxes for running code and AI workloads. Organize code-execution tasks in isolated environments, using sandboxes for agent experiments, script validation, and result inspection. For developers and technical researchers, organize the available information or results around a concrete problem. Use this material as input to implementation and investigation, connecting the service with an existing development workflow. Available data and operations depend on the current connection configuration, account permissions, and service plan.",
+  "description_cn": "创建和管理安全的云端代码沙箱，用于执行代码与 AI 工作负载。适合在隔离环境中组织代码执行任务，将沙箱作为智能体实验、脚本验证和结果检查的运行载体。面向开发者与技术研究人员，可围绕具体问题组织接口信息、资料或执行结果，将其作为方案实现与问题分析的输入，便于把工具能力衔接到已有开发流程。具体可用的数据与操作范围以当前连接配置、账号权限及服务套餐为准。",
+  "version": "1.0.0",
+  "category": "Developer Tools",
+  "tags": [
+    "sandbox",
+    "code_execution",
+    "ai"
+  ],
+  "provider_name": "E2B",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "e2b",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_05adf10ceab1f42749ed286f45fe18b8f321648d07bcc21e0b34342d249388e2",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Create and manage secure cloud sandboxes for running code and AI workloads.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_05adf10ceab1f42749ed286f45fe18b8f321648d07bcc21e0b34342d249388e2",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "e2b",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_05adf10ceab1f42749ed286f45fe18b8f321648d07bcc21e0b34342d249388e2",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create an E2B sandbox from a template.",
+            "name": "create_sandbox"
+          },
+          {
+            "description": "Kill an E2B sandbox by sandbox identifier.",
+            "name": "delete_sandbox"
+          },
+          {
+            "description": "Get one E2B sandbox by sandbox identifier.",
+            "name": "get_sandbox"
+          },
+          {
+            "description": "List E2B sandboxes visible to the current API key.",
+            "name": "list_sandboxes"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "e2b": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_05adf10ceab1f42749ed286f45fe18b8f321648d07bcc21e0b34342d249388e2",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_05adf10ceab1f42749ed286f45fe18b8f321648d07bcc21e0b34342d249388e2"
+      }
+    }
+  }
+}

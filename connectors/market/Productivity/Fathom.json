@@ -1,0 +1,74 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.631Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "fathom",
+  "connector_name": "Fathom",
+  "connector_name_cn": "Fathom",
+  "description": "Use Fathom MCP to search authorized meetings and retrieve recordings, transcripts, summaries, highlights, and action items.",
+  "description_cn": "通过 Fathom MCP 检索已授权会议，获取录音、转录文本、摘要、重点和行动项。",
+  "version": "1.0.0",
+  "category": "Productivity",
+  "tags": [],
+  "provider_name": "Fathom",
+  "author": {
+    "name": "之东",
+    "display_name": "Fathom"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Fathom",
+        "url": "https://api.fathom.ai/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_78d0bb26bcc257c2586b29a52c956402fa5c172cfd718bbf9bbd5778cfd67389",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_78d0bb26bcc257c2586b29a52c956402fa5c172cfd718bbf9bbd5778cfd67389",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Fathom": {
+        "type": "http",
+        "url": "https://api.fathom.ai/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_78d0bb26bcc257c2586b29a52c956402fa5c172cfd718bbf9bbd5778cfd67389"
+      }
+    }
+  }
+}

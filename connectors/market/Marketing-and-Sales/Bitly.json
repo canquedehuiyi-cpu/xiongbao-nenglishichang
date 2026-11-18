@@ -1,0 +1,309 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.591Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Marketing-and-Sales",
+  "categoryCode": "Marketing & Sales",
+  "connector_id": "bitly",
+  "connector_name": "Bitly",
+  "connector_name_cn": "Bitly",
+  "description": "Bitly creates and manages short links and QR codes while tracking link reach and click performance.",
+  "description_cn": "Bitly 创建并管理短链接与二维码，帮助团队追踪链接传播效果和用户点击表现。",
+  "version": "1.0.3",
+  "category": "Marketing & Sales",
+  "tags": [],
+  "provider_name": "Bitly",
+  "author": {
+    "name": "",
+    "display_name": "Bitly"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Bitly",
+        "url": "https://api-ssl.bitly.com/v4/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4802a7cbfabae4ad15847bc55ade24ea0c15e25e4aa5cc4369347e4db335d6a2",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_4802a7cbfabae4ad15847bc55ade24ea0c15e25e4aa5cc4369347e4db335d6a2",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create a compact, shareable Bitly link from a long URL, with optional title, tags, a custom back-half keyword, and dynamic routing rules. Use this when the user wants a short link only. If they also want a QR code for the same new link, use bitly_create_short_link_with_qr instead so one approval covers both. To choose the short domain: use the domain the user specified; otherwise check the group's preferred domain with bitly_get_group_preferences, then its available domains with bitly_get_group_details; if none apply, the link is unbranded (bit.ly). Set dynamic_routing here to send visitors to different destinations by country, region, device, or OS.",
+            "name": "bitly_create_short_link"
+          },
+          {
+            "description": "Create a new short link and a QR code that encodes that link in one step. Use this when the user wants both a bitlink and a QR code for the same destination, so a single approval covers both operations. The QR code is tied to the newly created short link (bitlink_id from the create response). If QR creation fails, the short link remains created. For link-only or QR-only workflows, use bitly_create_short_link or bitly_create_qr_code instead.",
+            "name": "bitly_create_short_link_with_qr"
+          },
+          {
+            "description": "Look up where a short link points: returns its destination long URL plus basic fields (creation time, link ID, and any dynamic-routing destination URLs). Works for any bitlink, including links you don't own. Use this when the user just wants a short link's destination or to verify where it redirects. For full owned-link metadata (tags, creator, campaigns, QR codes, routing rule conditions), use bitly_get_short_link_details instead.",
+            "name": "bitly_get_link_destination"
+          },
+          {
+            "description": "Get authenticated user information including profile details, email addresses, 2FA status, and default group. Provides user context for other operations.",
+            "name": "bitly_get_user"
+          },
+          {
+            "description": "Get all organizations that the authenticated user has access to. Returns organization details including organization ID, name, tier information, role, creation/modification dates, and associated custom domains, also known as branded short domains (BSDs). Use this to understand organizational context and access permissions.",
+            "name": "bitly_get_organizations"
+          },
+          {
+            "description": "Get an organization's plan limits and how much of each is used. Use this to answer whether the organization can still create links, QR codes, custom domains, or other plan-limited resources.",
+            "name": "bitly_get_plan_limits"
+          },
+          {
+            "description": "Get analytics for a single short link. Use this when the user asks how one specific link is performing. The dimension selects the report: a breakdown by countries, cities, devices (form factor), referrers, or referring_domains; 'over_time' for a click time series; 'summary' for total click counts; 'engagements'/'engagements_summary' for the same reports with a clicks/scans/button-clicks breakdown; or 'agentic_traffic' for a breakdown of clicks from AI agents and assistants (ChatGPT, Claude, ...) by agent. Agentic traffic is counted separately from clicks, so it is not a subset of the click totals. For analytics across every link in a group, or top-performing links, use bitly_get_group_analytics. For a single QR code's scans, use bitly_get_qr_code_analytics.",
+            "name": "bitly_get_link_analytics"
+          },
+          {
+            "description": "Get analytics across all links and QR codes in a group. Use this when the user asks about overall performance, or wants the top links or QR codes by clicks, engagements, or scans (top, best, most), rather than one specific item. Do not loop over bitly_get_link_analytics or bitly_get_qr_code_analytics per item to rank or total a group; use this tool. For a specific subset of links (e.g. links pointing to a destination, carrying a tag, or created in a date range), list them with bitly_get_group_short_links and call bitly_get_link_analytics for each. For a single link use bitly_get_link_analytics; for a single QR code's scans use bitly_get_qr_code_analytics. For a single link's total use bitly_get_link_analytics with dimension 'summary'. Choose a dataset (what to measure) and a dimension (which report); see the parameter descriptions for the valid combinations.",
+            "name": "bitly_get_group_analytics"
+          },
+          {
+            "description": "Get scan analytics for a single QR code. Use this when the user asks how one specific QR code is performing. The dimension selects the report: a breakdown by countries, cities, device_os (operating system), or browsers; 'over_time' for a time series of scans; or 'summary' for total scan counts. For a single link's clicks/engagements use bitly_get_link_analytics; for QR scans across a whole group use bitly_get_group_analytics with dataset 'qr_scans'.",
+            "name": "bitly_get_qr_code_analytics"
+          },
+          {
+            "name": "bitly_get_short_link_details"
+          },
+          {
+            "description": "Update an existing short link's destination URL, title, tags, or archived status, or set its dynamic routing rules. Use this to change where a link points, rename it, add or remove tags, archive/unarchive it, or configure routing by country, region, device, or OS. For a QR code that is backed by an existing short link (coupled), set the QR's routing here on the link — not on the QR via bitly_update_qr_code. Dynamic routing rules you send replace all existing rules; send an empty array to clear them.",
+            "name": "bitly_update_short_link"
+          },
+          {
+            "description": "Delete a short link permanently. This operation removes unedited short links (non-customized links only) and cannot be undone. The short link must not have overrides, be part of campaigns, have deeplinks, or be used in a page. Only group administrators can delete short links.",
+            "name": "bitly_delete_short_link"
+          },
+          {
+            "description": "Get specific group information and details by group GUID. Returns comprehensive group metadata including name, organization, role, creation dates, custom domains (BSDs), and status. Use this to get detailed information about a specific group rather than listing all groups. Its custom-domain list is also used to pick a short domain when creating links (see bitly_get_group_preferences for the group's preferred domain).",
+            "name": "bitly_get_group_details"
+          },
+          {
+            "description": "Get all groups that the authenticated user has access to across all organizations. Groups are collections of links and users within an organization. This tool shows group names, IDs, roles, custom domains, and organization associations.",
+            "name": "bitly_get_groups"
+          },
+          {
+            "description": "Get links in a specific group with filtering and pagination. Returns a list of links belonging to the specified group, with support for search, filtering by tags, and pagination. Use this to browse, search, or manage links within a group. For links ranked by click performance instead, use bitly_get_group_short_links_sorted.",
+            "name": "bitly_get_group_short_links"
+          },
+          {
+            "description": "Get a group's links ranked by click performance, with per-link metrics and time-series data. Use this when the user wants their best-performing links in a group, e.g. 'show my top links this month'. To browse or search a group's links without ranking them, use bitly_get_group_short_links instead.",
+            "name": "bitly_get_group_short_links_sorted"
+          },
+          {
+            "description": "Get a group's preferences, including its default (preferred) short domain. Use this when deciding which domain to shorten a link to: check the group's preferred domain here first, then fall back to bitly_get_group_details for the group's full list of available custom domains.",
+            "name": "bitly_get_group_preferences"
+          },
+          {
+            "description": "Update the archive state or tags on up to 100 short links in a group at once. For one link, use bitly_update_short_link. Changes apply asynchronously.",
+            "name": "bitly_update_group_short_links"
+          },
+          {
+            "description": "Gets a list of custom domains that can be used for link shortening.  This is the member view: only verified domains, across every organization and group, with no setup state. To see an organization's domains with their verification status and settings (including domains still being set up), use bitly_get_organization_custom_domains.",
+            "name": "bitly_get_custom_domains"
+          },
+          {
+            "description": "List the custom domains of an organization with their setup state: verification status ('pending', 'ok', or 'error'), attached groups, and, once verified, HTTPS/HSTS and redirect settings. Includes domains still being set up. Requires an organization admin; without organization_guid it lists the domains of every organization the caller administers. Use this to check on a domain setup or to review an organization's domain configuration. For the plain list of domains the user can shorten with, use bitly_get_custom_domains instead.",
+            "name": "bitly_get_organization_custom_domains"
+          },
+          {
+            "description": "Get one custom domain's setup state and settings: verification status ('pending', 'ok', or 'error') with any verification error, attached groups, and, once verified, HTTPS/HSTS, redirect, and SSL certificate details. Works for domains still being set up, so use it to check whether a domain added with bitly_create_custom_domain has verified yet. Requires membership in a group the domain is attached to, or an admin role in the owning organization.",
+            "name": "bitly_get_custom_domain_details"
+          },
+          {
+            "description": "Get the DNS records a custom domain needs at its registrar, the records currently resolving, and whether they match. Use this right after bitly_create_custom_domain to tell the user exactly which records to create (a subdomain needs one CNAME; a root domain needs two A records), and again when a domain stays 'pending' or reports 'error'. Only answers for a domain already added to the organization (pending counts), so call bitly_create_custom_domain first. A fresh record can take time to propagate; empty current records do not mean the records are wrong.",
+            "name": "bitly_get_custom_domain_dns"
+          },
+          {
+            "description": "Check whether a domain the user already owns can be connected to an organization as a custom domain, without creating anything. Catches a malformed, reserved, or blocklisted domain, one held by another Bitly account, and an organization at its custom domain limit. Use this before bitly_create_custom_domain to confirm the domain with the user; it is safe to call repeatedly. Requires an organization admin.",
+            "name": "bitly_prevalidate_custom_domain"
+          },
+          {
+            "description": "Connect a domain the user already owns to an organization as a custom domain and queue its DNS verification. Requires an organization admin. Run bitly_prevalidate_custom_domain first to confirm the domain. After this call, use bitly_get_custom_domain_dns to give the user the DNS records to create at their registrar; verification is asynchronous (up to 24-48 hours after the records propagate), no tool waits for it, and the domain reads 'pending' in bitly_get_custom_domain_details until it completes. Calling this again for a domain already verified in the organization re-requests verification (use it after fixing DNS records on a domain in 'error'). Each organization has a single pending slot: adding a second domain before the first verifies replaces the first claim.",
+            "name": "bitly_create_custom_domain"
+          },
+          {
+            "description": "Update a verified custom domain's settings: where the bare domain and unknown paths redirect, and HTTPS/HSTS behavior. Only the fields you send change; omitted fields are left as-is. Requires an admin of the owning organization; a domain that is not yet verified returns CUSTOM_DOMAIN_NOT_VERIFIED, so wait for verification rather than retrying. To attach the domain to a group use bitly_update_group; to make it a group's default use bitly_update_group_preferences.",
+            "name": "bitly_update_custom_domain"
+          },
+          {
+            "description": "Search for new domains that Bitly can register for an organization as its complimentary custom domain, at no cost to the user. Takes a keyword ('acme') or a full domain ('acme.link') and returns up to 25 available root domains; a full domain also gets its own availability. Every result was available to register when the search ran. Use this when the user wants a new branded domain and does not own one; for a domain the user already owns, use bitly_prevalidate_custom_domain instead. Next steps: bitly_get_domain_agreements for the chosen domain, then bitly_create_complimentary_domain.",
+            "name": "bitly_search_available_domains"
+          },
+          {
+            "description": "Get Bitly's Domain Name Use Agreement ([REDACTED] which the user must accept before Bitly registers a domain for them, and the agreement keys to send with the registration. Show the user the title and link of the agreement and get an explicit acceptance, then pass all of the agreement keys to bitly_create_complimentary_domain. The keys are internal IDs, not agreements: never show or describe them to the user. Never accept the agreement for the user.",
+            "name": "bitly_get_domain_agreements"
+          },
+          {
+            "description": "Register a new domain as the organization's complimentary custom domain, at no cost to the user. Bitly sets up its DNS, so there are no records to create. Before calling: pick the domain with bitly_search_available_domains, confirm the exact domain with the user, and get the user's acceptance of Bitly's Domain Name Use Agreement from bitly_get_domain_agreements. This cannot be undone and uses the organization's complimentary allowance. It also replaces any domain the organization is still connecting, so check bitly_get_organization_custom_domains for one that never verified ('pending', or 'error' with verification failed) and warn the user. Requires an organization admin. Afterwards the domain stays pending for up to 24-48 hours and cannot shorten links or be attached to groups until it is verified. Nothing attaches it or notifies the user automatically, so ask the user to come back once it is verified, then attach it with bitly_update_group and bitly_update_group_preferences. Errors: ALREADY_RECEIVED_COMPLIMENTARY_DOMAIN means the allowance is used or the plan has none. DOMAIN_UNAVAILABLE means the domain was taken, so search again and confirm a new one with the user. INVALID_ARG_AGREEMENT_KEYS means the keys are stale, so call bitly_get_domain_agreements again. After a timeout, check bitly_get_organization_custom_domains before retrying, because the registration may have completed.",
+            "name": "bitly_create_complimentary_domain"
+          },
+          {
+            "name": "bitly_update_group"
+          },
+          {
+            "description": "Set a group's default (preferred) short domain, used when a link is created for the group without an explicit domain. The domain must be 'bit.ly' or a custom domain already attached to the group (see bitly_get_group_details; attach one with bitly_update_group). Requires a group admin. Use this as the last step of a custom domain setup once the domain is verified.",
+            "name": "bitly_update_group_preferences"
+          },
+          {
+            "description": "Get full details and destination-override history for a custom-keyword short link — a link with a custom back-half such as 'bit.ly/summer-sale'. Returns the underlying link's metadata plus each destination the keyword has pointed to over time. Use this when the link has a custom keyword and you need its override history. The link MUST be a custom-keyword link — a plain auto-generated link fails with NOT_CUSTOM_BITLINK; for those, use bitly_get_short_link_details instead.",
+            "name": "bitly_get_custom_link_details"
+          },
+          {
+            "description": "Get full details for a QR code by its ID: title, destination URL, group, type, archived status, and dynamic routing rules. Use this when you have a QR code ID and need its metadata or current routing. To find QR codes when you don't have an ID, list them with bitly_get_group_qr_codes.",
+            "name": "bitly_get_qr_code"
+          },
+          {
+            "description": "Create a QR code for either an existing short link (pass bitlink_id) or a long URL (pass long_url), with optional title and visual customizations. Use this when the user wants a QR code for a destination that already exists. If they want a brand-new short link AND a QR code for it, use bitly_create_short_link_with_qr instead so one approval covers both. The group's default domain is not applied automatically here as it is by bitly_create_short_link: to brand the auto-generated short link, pass the domain parameter explicitly, or create the link first with bitly_create_short_link and pass its bitlink_id. Dynamic routing is only supported on QR codes with a long_url destination (decoupled); for a QR backed by an existing short link (coupled), set routing on the link via bitly_update_short_link instead. If the QR code has a long_url destination, do not reveal the serialized content to the user.",
+            "name": "bitly_create_qr_code"
+          },
+          {
+            "description": "Update an existing QR code's title, visual customizations, archived status, expiration, or dynamic routing rules. Use this to restyle a QR code, archive/unarchive it, or change its routing. Dynamic routing is only supported on QR codes with a long_url destination (decoupled); for a QR backed by an existing short link (coupled), set routing on the link via bitly_update_short_link instead. Rules you send replace all existing rules.",
+            "name": "bitly_update_qr_code"
+          },
+          {
+            "description": "List the QR codes in a group, with search, archived-status and dynamic-routing filters, and pagination. Use this to browse a group's QR codes or to find one by title or destination when you don't have its ID. Note: QR codes backed by an existing short link (coupled) appear here. bitly_update_qr_code can still change their title, archived status and visual customizations, and dynamic routing must be set on the underlying link with bitly_update_short_link instead. Expiration is not supported on coupled QR codes at all.",
+            "name": "bitly_get_group_qr_codes"
+          },
+          {
+            "description": "Return a QR code's image as a base64 data URI (SVG default, or PNG). Most agent UIs cannot render raw image data, so prefer directing the user to the QR code's details page (included in bitly_get_qr_code and bitly_create_qr_code responses) to download the image. Only call this tool if you are certain you can process raw base64 image data.",
+            "name": "bitly_get_qr_code_image"
+          },
+          {
+            "description": "Create links, QR codes, or both from a CSV or XLSX file in one step. The tool creates the bulk upload and uploads the file. Processing continues in the background, and Bitly sends an email with a report when it is complete.\n\nUpload types:\n- \"link\": Bulk create shortened links only\n- \"qr_code\": Bulk create QR codes only (requires template_id)\n- \"coupled_link\": Bulk create both QR codes AND shortened links for each URL (requires template_id)\n\nTemplate ID requirements:\n- Required for \"qr_code\" and \"coupled_link\" upload types\n- Use \"QTDTmplWLogo\" to include Bitly logo on QR codes\n- Use \"QTDTmplNLogo\" to exclude Bitly logo from QR codes\n\nRows whose \"Current Bitly Short Link\" column references an existing link update that link's destination, title, tags, and expiration instead of creating a new one.",
+            "name": "bitly_create_bulk_upload"
+          },
+          {
+            "description": "Get the status of one bulk upload. Use the id that bitly_create_bulk_upload returned. If you do not have the id, use bitly_get_bulk_uploads.\n\nStatuses:\n- \"pending\": the file is uploaded and waits for processing\n- \"in_progress\": the file is being processed\n- \"success\": every row was processed\n- \"partial_success\": some rows failed; the report lists them\n- \"failure\": no rows were processed\n\nWhen processing is complete, report_url links to the report with the result of each row.",
+            "name": "bitly_get_bulk_upload"
+          },
+          {
+            "description": "List the organization's bulk uploads with their status, newest first. Use this to answer questions about recent bulk uploads when you do not have an id. A bulk upload appears in this list when processing starts; for an upload that still waits for processing, use bitly_get_bulk_upload with its id.",
+            "name": "bitly_get_bulk_uploads"
+          },
+          {
+            "description": "Export link or QR data as a CSV file for the user to download. Use this ONLY when the user explicitly asks for a file, CSV, spreadsheet, export, or download. Never use it to look up data in order to answer a question in chat: for performance, totals, rankings, comparisons, or \"which links ...\" questions use bitly_get_group_analytics, bitly_get_group_short_links, bitly_get_group_short_links_sorted, and bitly_get_group_qr_codes instead, even if that takes several calls. Always use response_format=\"json\". Returns a download-card payload (filename, row_count, truncated, columns) plus data_uri. The CSV content is for the user's download only: do not read, decode, summarize, or paste CSV, base64, or data_uri into chat; tell the user the file is ready to download. Dates: use unix_from_date and unix_to_date as YYYY-MM-DD (UTC); the server converts to timestamps. For relative ranges (e.g. \"last 30 days\", \"this month\"), derive dates from system context. Choose export_type by what the user asked for: link_engagements_timeseries — one CSV row per calendar day (never monthly). REQUIRED when the user says daily, by day, each day, per day, time series, engagements over time, or any daily metrics export — even without an explicit date range. Never use link_engagements_batch for those. One known link: bitlinks=[\"domain.com/backhalf\"] (fully qualified short URL). Multiple links: filter (tags, destination, domain, query, etc.) for dashboard link-performance columns (Date, Short Link, Destination, Clicks, QR Scans, Button Clicks, Total Engagements) — one row per link per day. For link_engagements_timeseries always set unix_from_date and unix_to_date: use the user's range if given; otherwise default to the last 30 days from system context. link_engagements_batch — one row per link with period totals (Link, Title, clicks/scans/button_clicks for the whole range). Use only for summary tables with no daily breakdown (e.g. \"total engagements per link\"). links_list — link metadata CSV (filter required; optional include_metrics). qr_codes_list — QR metadata CSV (filter required; optional include_metrics). For link_engagements_timeseries and link_engagements_batch: provide bitlinks OR filter, not both. For link_engagements_timeseries, always pass unix_from_date/unix_to_date (default last 30 days if the user did not specify a range). For link_engagements_batch and list exports, omitting dates falls back to the tier max-history window. Filter tips (for scoping an export the user asked for): filter.destination (hostname, hostname/path, or path) to limit the file to links pointing at a destination — prefer over filter.query; filter.tags for tag-based sets; filter.query for free-text search on title/tags/URLs. Row caps: up to 200 matched links for engagement exports (bitlinks list or filter resolution); if truncated is true, only the first 200 links were included — say the export is partial and ask the user to narrow filter (tags, destination, domain, dates, campaign, query) or split bitlinks into batches of 200 or fewer. If the API returns EXPORT_TOO_LARGE, the link×day grid exceeds the inline limit — ask the user to narrow the date range or filter to fewer links. Do not state or infer a total match count. For links_list/qr_codes_list with include_metrics, cap is 200 rows; without metrics, 1000. Do not auto-retry bitly_export_data — wait for the user.",
+            "name": "bitly_export_data"
+          },
+          {
+            "description": "List the Bitly Sites (link-in-bio pages / microsites) in a group, with URL filtering and pagination. Use this to browse a group's sites or find one by URL when you don't have its site ID. A Bitly Site is a landing page of buttons/links reachable at a short URL; manage an individual site with bitly_get_site, bitly_create_site, and bitly_update_site.",
+            "name": "bitly_get_group_sites"
+          },
+          {
+            "description": "Get a Bitly Site's full configuration by its site ID: URL, status, display name, description, button count, attached QR code, and whether it has unpublished changes. Set include_blocks to also return the site's draft content blocks (ID, type, container nesting, visibility); the text response lists up to 20, so set response_format to json for all of them. To find a site ID, list a group's sites with bitly_get_group_sites.",
+            "name": "bitly_get_site"
+          },
+          {
+            "description": "Create a new, empty Bitly Site (link-in-bio page) for a group at a short URL, using default appearance. The new site is a draft with no buttons; add content with bitly_create_site_block and bitly_create_site_container, style it with bitly_update_site_appearance, then make it live with bitly_publish_site.",
+            "name": "bitly_create_site"
+          },
+          {
+            "description": "Update a Bitly Site's URI, display name, description, or attach a QR code. Only the fields you send change; omitted fields are left as-is, and a present empty string ('') clears display_name/description. Changing the URI creates a redirect from the old one. To attach a QR code: create it first with bitly_create_qr_code, then pass its qr_code_id here (a site can only be attached to one QR code).",
+            "name": "bitly_update_site"
+          },
+          {
+            "description": "Deactivate (delete) a Bitly Site. This takes the live site down. To only throw away unpublished edits while keeping the live site, use bitly_discard_site_draft instead.",
+            "name": "bitly_delete_site"
+          },
+          {
+            "description": "Discard a Bitly Site's unpublished draft, reverting in-progress edits back to the currently published version. The live site is unaffected. To take the whole site down, use bitly_delete_site.",
+            "name": "bitly_discard_site_draft"
+          },
+          {
+            "description": "Publish a Bitly Site's draft so the current edits go live. Newly created sites and edits are drafts until published. Use bitly_get_site to check whether a site has unpublished changes.",
+            "name": "bitly_publish_site"
+          },
+          {
+            "description": "Clone a live Bitly Site into a new site at a different URI, copying its content and appearance. Requires a plan with the site-cloning feature. The new site is a draft; publish it with bitly_publish_site.",
+            "name": "bitly_clone_site"
+          },
+          {
+            "description": "List Bitly Site templates that can be applied to a site, optionally filtered by category. Use this to discover a template_guid, then apply it with bitly_apply_site_template.",
+            "name": "bitly_get_site_templates"
+          },
+          {
+            "description": "Apply a template's content, appearance, and blocks to a Bitly Site, replacing the site's current content and styling. Find a template_guid with bitly_get_site_templates. The change is a draft; publish it with bitly_publish_site.",
+            "name": "bitly_apply_site_template"
+          },
+          {
+            "description": "Replace a Bitly Site's appearance: theme, layout, fonts, and colors. This is a full replacement (PUT) of the appearance object, so include every field you want set. Fetch the current appearance with bitly_get_site (response_format 'json') first to see the existing values. The change is a draft; publish it with bitly_publish_site.",
+            "name": "bitly_update_site_appearance"
+          },
+          {
+            "description": "Create a container (a grid or carousel) on a Bitly Site to group content blocks. Requires a plan with the corresponding feature. After creating it, add child blocks with bitly_create_site_block, passing the returned container's block ID as the 'parent'.",
+            "name": "bitly_create_site_container"
+          },
+          {
+            "description": "Add a content block to a Bitly Site: a bitlink button, social icon, YouTube video, image, digital business card, or text block. New blocks are active (visible) by default. The change is a draft; publish it with bitly_publish_site. For a YouTube block, call bitly_prevalidate_site_button first to resolve the video. To nest the block in a grid/carousel, create the container first with bitly_create_site_container and pass its ID as 'parent'.",
+            "name": "bitly_create_site_block"
+          },
+          {
+            "description": "Update an existing block on a Bitly Site, replacing its content (and appearance for text blocks). For a bitlink button, the content object can change its destination, title, or description; for other blocks it depends on the block type. The block type is taken from the stored block, so it cannot be changed. Get the block's ID from bitly_get_site with include_blocks set to true. The change is a draft; publish it with bitly_publish_site.",
+            "name": "bitly_update_site_block"
+          },
+          {
+            "description": "Delete a block of any type from a Bitly Site: a bitlink button, social icon, YouTube video, image, digital business card, text block, or a grid/carousel container (which also deletes the blocks inside it). Get the block's ID from bitly_get_site with include_blocks set to true. The change is a draft; publish it with bitly_publish_site.",
+            "name": "bitly_delete_site_block"
+          },
+          {
+            "description": "Prevalidate button content before adding it to a Bitly Site. Currently supports YouTube videos: given a video_id, it returns the resolved video URL, title, and thumbnail to use when creating a 'youtubeVideo' content block with bitly_create_site_block.",
+            "name": "bitly_prevalidate_site_button"
+          },
+          {
+            "description": "Delete a redirect from a Bitly Site. Redirects are created automatically when a site's URI changes (see bitly_update_site); this removes one, identified by its old domain and keyword. Inspect a site's redirects with bitly_get_site (response_format 'json').",
+            "name": "bitly_delete_site_redirect"
+          },
+          {
+            "description": "Register an already-uploaded image for use on a Bitly Site (e.g. as an avatar, background, or image block). You must upload the image and obtain its image_guid and URL first; this associates it with the site for a given use. Returns the image's URL and GUID to reference in appearance or content updates.",
+            "name": "bitly_create_site_image"
+          },
+          {
+            "description": "Get analytics for a single Bitly Site (link-in-bio page). Use this when the user asks how a site is performing. Choose a dataset — 'page_views' (visits to the site), 'button_clicks' (clicks on the site's buttons/links), 'dbc_downloads' (digital business card downloads), 'overview' (a page-views + button-clicks rollup), or 'link_performance' (per-button click totals) — and a dimension: a facet breakdown (countries, cities, devices, referrers), 'over_time' (time series), 'summary' (a total), or 'top' (most-clicked buttons). Valid dimensions per dataset — button_clicks: cities, countries, devices, over_time, top; dbc_downloads: over_time; link_performance: summary; overview: summary; page_views: cities, countries, devices, over_time, referrers, summary. For a single short link's clicks use bitly_get_link_analytics; for a whole group use bitly_get_group_analytics.",
+            "name": "bitly_get_site_analytics"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Bitly": {
+        "type": "http",
+        "url": "https://api-ssl.bitly.com/v4/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4802a7cbfabae4ad15847bc55ade24ea0c15e25e4aa5cc4369347e4db335d6a2"
+      }
+    }
+  }
+}

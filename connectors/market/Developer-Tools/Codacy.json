@@ -1,0 +1,112 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.486Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Developer-Tools",
+  "categoryCode": "Developer Tools",
+  "connector_id": "codacy",
+  "connector_name": "Codacy",
+  "connector_name_cn": "Codacy",
+  "description": "Inspect code quality, security findings, repositories, and engineering standards in Codacy. Prepare review context around repository quality and security findings, helping teams identify improvement priorities and follow engineering standards. For developers and technical researchers, organize the available information or results around a concrete problem. Use this material as input to implementation and investigation, connecting the service with an existing development workflow. Available data and operations depend on the current connection configuration, account permissions, and service plan.",
+  "description_cn": "在 Codacy 中查看代码质量、安全发现、仓库和工程规范。适合围绕仓库质量与安全问题准备代码评审材料，辅助团队识别改进重点并跟进工程规范执行。面向开发者与技术研究人员，可围绕具体问题组织接口信息、资料或执行结果，将其作为方案实现与问题分析的输入，便于把工具能力衔接到已有开发流程。具体可用的数据与操作范围以当前连接配置、账号权限及服务套餐为准。",
+  "version": "1.0.0",
+  "category": "Developer Tools",
+  "tags": [
+    "code_quality",
+    "security",
+    "repositories"
+  ],
+  "provider_name": "Codacy",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "codacy",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ac7298aedb2b1cbecedbf3fada582e5861ef001281d68b0d0657b27dd7e179c9",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Inspect code quality, security findings, repositories, and engineering standards in Codacy.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ac7298aedb2b1cbecedbf3fada582e5861ef001281d68b0d0657b27dd7e179c9",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "codacy",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_ac7298aedb2b1cbecedbf3fada582e5861ef001281d68b0d0657b27dd7e179c9",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Retrieve the Codacy user associated with the connected API token.",
+            "name": "get_current_user"
+          },
+          {
+            "description": "Retrieve one Codacy repository analysis summary.",
+            "name": "get_repository_analysis"
+          },
+          {
+            "description": "Retrieve one code pattern for a Codacy analysis tool.",
+            "name": "get_tool_pattern"
+          },
+          {
+            "description": "List programming languages supported by Codacy analysis tools.",
+            "name": "list_languages"
+          },
+          {
+            "description": "List repository analysis summaries for a Codacy organization on a Git provider.",
+            "name": "list_repository_analyses"
+          },
+          {
+            "description": "List code patterns available for a Codacy analysis tool.",
+            "name": "list_tool_patterns"
+          },
+          {
+            "description": "List Codacy code analysis tools.",
+            "name": "list_tools"
+          },
+          {
+            "description": "List Codacy organizations accessible to the connected API token, optionally scoped to one Git provider.",
+            "name": "list_user_organizations"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "codacy": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ac7298aedb2b1cbecedbf3fada582e5861ef001281d68b0d0657b27dd7e179c9",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ac7298aedb2b1cbecedbf3fada582e5861ef001281d68b0d0657b27dd7e179c9"
+      }
+    }
+  }
+}

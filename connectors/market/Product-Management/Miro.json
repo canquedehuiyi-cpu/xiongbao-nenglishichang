@@ -1,0 +1,74 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.639Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Product-Management",
+  "categoryCode": "Product Management",
+  "connector_id": "93c7b8f0-235c-461d-9dee-75febd858089",
+  "connector_name": "Miro",
+  "connector_name_cn": "Miro",
+  "description": "Miro provides an online collaborative whiteboard for brainstorming, process mapping, meetings, and project planning. Organize ideas, processes, and project discussions into visual collaboration material for solution reviews, meeting preparation, and documenting team decisions. For product and engineering teams, organize requirements and execution context around project goals. Use the available records in planning discussions, priority reviews, and progress assessments so participants can understand how individual work items relate. Available data and operations depend on the current connection configuration, account permissions, and service plan.",
+  "description_cn": "提供在线协作白板，用于头脑风暴、流程梳理、会议协作和项目规划。适合把想法、流程和项目讨论组织为可视化协作内容，支持方案讨论、会议准备和团队共识整理。面向产品与研发团队，可围绕项目目标整理需求背景和执行信息，将相关记录用于计划讨论、优先级核对与进展复盘，帮助参与者理解事项之间的关联。具体可用的数据与操作范围以当前连接配置、账号权限及服务套餐为准。",
+  "version": "1.0.4",
+  "category": "Product Management",
+  "tags": [
+    "qoder-vibe"
+  ],
+  "provider_name": "Miro",
+  "author": {
+    "name": "",
+    "display_name": "Miro"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Miro",
+        "url": "https://mcp.miro.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_2d442779b50d6d2bf7ffcb2dec8e0535dbe68cbecb6400ac28e94dff31e6f45a",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_2d442779b50d6d2bf7ffcb2dec8e0535dbe68cbecb6400ac28e94dff31e6f45a",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Miro": {
+        "type": "http",
+        "url": "https://mcp.miro.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_2d442779b50d6d2bf7ffcb2dec8e0535dbe68cbecb6400ac28e94dff31e6f45a"
+      }
+    }
+  }
+}

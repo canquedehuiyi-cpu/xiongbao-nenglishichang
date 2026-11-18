@@ -1,0 +1,87 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.434Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "8ea8ca40-ed5f-4ce9-a221-4c80d7602fc7",
+  "connector_name": "PolarDB",
+  "connector_name_cn": "PolarDB",
+  "description": "PolarDB provides the Agentic Database form factor for large-scale AI Agent scenarios. Built on an agile serverless architecture, Agentic Database supports extreme elasticity with Scale to Zero, switching between branches in seconds, in-database multimodal fusion retrieval and inference, and native MCP/CLI interaction. This provides a highly cost-effective database service for AI Agent applications.",
+  "description_cn": "PolarDB 面向海量 AI Agent 智能体场景，提供 Agentic Database 形态，100% 兼容 MySQL 协议，支持 Serverless Scale to Zero 极致弹性、秒级 Branch 分支穿梭、Agent Context 上下文记录、记忆动态实时抽取、企业级知识管理协作、多模融合检索，提供 MCP 统一适配接入层，为 AI Agent 智能体提供极致性价比的 AI-Native 数据服务。",
+  "version": "1.0.1",
+  "category": "Database & Analytics",
+  "tags": [],
+  "provider_name": "PolarDB",
+  "author": {
+    "name": "",
+    "display_name": ""
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "qoderwork",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "PolarDB",
+        "url": "https://mcp-polardb.cn-hangzhou.aliyuncs.com/mcp/",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "PolarDB 面向海量 AI Agent 智能体场景，提供 Agentic Database 形态，100% 兼容 MySQL 协议，支持 Serverless Scale to Zero 极致弹性、秒级 Branch 分支穿梭、Agent Context 上下文记录、记忆动态实时抽取、企业级知识管理协作、多模融合检索，提供 MCP 统一适配接入层，为 AI Agent 智能体提供极致性价比的 AI-Native 数据服务。",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ff65c60b446087636f3dd89c3d084daec3ae34e74919c0ed52b20fb6e53416b6",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_ff65c60b446087636f3dd89c3d084daec3ae34e74919c0ed52b20fb6e53416b6",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Execute a single SQL statement on your AgenticDB instance. Returns {columns, rows, row_count, truncated, next_cursor?}. Binary values are {type: 'bytes', encoding: 'hex', value: '<hex>'}. If truncated=true, pass next_cursor as cursor to fetch the next page. Destructive operations (DROP/TRUNCATE/DELETE without WHERE) require confirm=true; blocked statements are rejected outright. For multiple statements, use run_sql_transaction.",
+            "name": "run_sql"
+          },
+          {
+            "description": "Execute multiple SQL statements with BEGIN/COMMIT and rollback on error. Atomic rollback applies to transactional DML only. MySQL DDL and other implicit-commit statements may persist changes even if a later statement fails. Returns {results: [{columns, rows, row_count, truncated}, ...]}. Binary values are {type: 'bytes', encoding: 'hex', value: '<hex>'}.",
+            "name": "run_sql_transaction"
+          },
+          {
+            "description": "Inspect the structure of your AgenticDB. Without 'table': lists tables in the database (with columns unless include_columns=false), paginated via cursor. With 'table': returns that table's columns and indexes. database is optional and defaults to your provisioned database.",
+            "name": "describe_schema"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "PolarDB": {
+        "type": "http",
+        "url": "https://mcp-polardb.cn-hangzhou.aliyuncs.com/mcp/",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ff65c60b446087636f3dd89c3d084daec3ae34e74919c0ed52b20fb6e53416b6"
+      }
+    }
+  }
+}

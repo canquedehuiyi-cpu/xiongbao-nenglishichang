@@ -1,0 +1,319 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.414Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Content-Creation",
+  "categoryCode": "Content Creation",
+  "connector_id": "Sanity",
+  "connector_name": "Sanity",
+  "connector_name_cn": "Sanity",
+  "description": "Sanity provides structured content and asset management through a headless CMS for flexible multichannel experiences.",
+  "description_cn": "Sanity 提供结构化内容与数字资产管理能力，帮助团队通过无头 CMS 灵活构建多渠道内容体验。",
+  "version": "1.0.0",
+  "category": "Content Creation",
+  "tags": [],
+  "provider_name": "Sanity",
+  "author": {
+    "name": "",
+    "display_name": "Sanity"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Sanity",
+        "url": "https://mcp.sanity.io/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_435e97ab041b456d24ebd1afbe8c9e30f3382184fb5a3bdee0240ac19aa61a48",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_435e97ab041b456d24ebd1afbe8c9e30f3382184fb5a3bdee0240ac19aa61a48",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Upload a ChatGPT web attachment or generated file to a Content Lake dataset. Pass the file through ChatGPT web file input; ChatGPT web supplies a temporary download URL that Sanity fetches. Works when the ChatGPT web sandbox cannot make HTTP requests. Choose image or file as assetType. Returns an operationId; use assets_upload_status to retrieve the asset and document field reference. Attach the reference with patch_documents, preserving existing field values. If the download URL expires, pass the file again for a fresh URL and a new requestKey. Check the destination before repeating an upload whose outcome is unknown. Source size and fetch time limits apply; processing may take several minutes.",
+            "name": "dataset_assets_upload_from_web_chatgpt"
+          },
+          {
+            "description": "Start an image or file upload from a public HTTPS URL to a Content Lake dataset. Returns an operationId immediately; use assets_upload_status to retrieve the asset and document field reference. Attach the returned reference with patch_documents, preserving existing field values. Submit uploads individually and check their operation IDs together with assets_upload_status. Honor HTTP Retry-After when rate limited. If a request is interrupted before an operationId is returned, check the destination before repeating the upload. Source size and fetch time limits apply; processing may take several minutes. For a local or private file, use `dataset_assets_upload_from_file`. For files in ChatGPT web, use `dataset_assets_upload_from_web_chatgpt`.",
+            "name": "dataset_assets_upload_from_url"
+          },
+          {
+            "description": "Start an image, video, or file upload from a public HTTPS URL to a Media Library. Optionally add a version to an existing asset. Returns an operationId immediately; use assets_upload_status to retrieve the asset, assetInstance, and uploadSession. Submit uploads individually and check their operation IDs together with assets_upload_status. Honor HTTP Retry-After when rate limited. If a request is interrupted before an operationId is returned, check the destination before repeating the upload. Source size and fetch time limits apply; processing may take several minutes. If a duplicate conflict returns error.existingAssetId, follow the error message to inspect the existing asset before retrying. For a local or private file, use `media_library_upload_from_file`.",
+            "name": "media_library_upload_from_url"
+          },
+          {
+            "description": "Deprecated. Use media_library_upload_from_url with the same arguments. This tool does not start an upload.",
+            "name": "media_assets_upload_from_url"
+          },
+          {
+            "description": "Check one to 20 asset uploads using operationIds. Wait at least pollAfterMs between checks and group running uploads in one call. Honor HTTP Retry-After when rate limited. A status lookup error does not mean the upload failed. Results include asset IDs, URLs, and references; set includeMetadata for full metadata. Results are available for up to 24 hours. If an upload outcome is unknown, check the destination before repeating it.",
+            "name": "assets_upload_status"
+          },
+          {
+            "description": "Prepare a one-use URL to upload a local or private image, video, or file up to 50 MiB to a Media Library, or add a version to an existing asset. Requires access to the file bytes and the ability to make an HTTP POST. Follow the returned upload instructions.",
+            "name": "media_library_upload_from_file"
+          },
+          {
+            "description": "Prepare a one-use URL for uploading an image or file up to 50 MiB to a Content Lake dataset. Works with browser-selected files, readable chat attachments, generated files, and local files. The client needs access to the bytes and HTTP POST capability; no shell or CLI is required. Prepare after the file is available. POST the raw bytes to uploadUrl before uploadExpiresAt. The HTTP response returns the document reference and an asset summary with its ID, type, URL, filename, MIME type, size, title, description, and image dimensions. Set includeMetadata to return the full asset document with all extracted metadata. If the upload response is lost, prepare a new upload URL and resend the same file bytes and upload parameters. For files in ChatGPT web, use `dataset_assets_upload_from_web_chatgpt`.",
+            "name": "dataset_assets_upload_from_file"
+          },
+          {
+            "description": "Fetch the deployed schema for a project and dataset. Deprecated workspaceName and schemaId selectors remain temporarily available for legacy multi-schema datasets.",
+            "name": "get_schema"
+          },
+          {
+            "description": "Deprecation notice: list_workspace_schemas is deprecated. Use get_schema to inspect the authoritative schema for a dataset. This tool temporarily remains available to list every deployed schema for a project and dataset, grouped by source (MCP-managed, Studio-deployed, or legacy). Duplicate workspace names and multiple Studio applications are expected; each entry includes a schemaId for exact reads with get_schema.",
+            "name": "list_workspace_schemas"
+          },
+          {
+            "description": "Only use `deploy_schema` when no local Sanity Studio project exists. Coding agents must inspect the current working directory for `sanity.config.*` or `sanity.cli.*` and confirm none exist; an empty remote schema is not confirmation. MCP-only agents may use it when the task provides no local Studio context. When local Studio files exist, edit them and use the CLI only on explicit request — never use this tool as a fallback.\n\nDeploys an MCP-managed schema for a workspace. Writes to MCP-managed workspaces and adopts legacy `system.schema` workspaces into MCP management on first call. Refuses Studio-deployed workspaces. Can add new types or overwrite existing types iteratively.\n\nWhen called on a legacy workspace, the existing types become the baseline; pass an empty `schemaDeclaration` to adopt the legacy types as-is, or pass new types to add them on top.\n\n`preview` configuration is not currently supported. Requests containing `preview` fail before deployment; use a local Studio project when custom document previews are required.\n\nIf a Studio-deployed schema already exists at the target workspaceName, this tool refuses. Either update the Studio source and deploy via CLI, or choose a different `workspaceName` for a new MCP-managed schema.\n\nThe separation goes both ways for writes: once a workspace is MCP-managed, schemas deployed to the same workspaceName via `npx sanity@latest schema deploy` are not selected by the default MCP resolver. Use `list_workspace_schemas` and exact `schemaId` reads to inspect both records before changing source.",
+            "name": "deploy_schema"
+          },
+          {
+            "description": "Remove a legacy MCP-managed schema from an explicitly named workspace. Inspect list_workspace_schemas first and provide an explicit workspaceName. Removes the legacy schema document and MCP ownership record. Datasets with an active Schema API binding cannot be undeployed with this tool yet. Documents and hosted Studios are preserved; a hosted Studio can still contain its own schema snapshot. If a Studio deployed outside MCP shares the workspace name, removes only the MCP ownership record and leaves that Studio schema untouched. Refuses schemas managed outside MCP and provides instructions for their source. Use schema_types_delete to remove individual types instead.",
+            "name": "undeploy_schema"
+          },
+          {
+            "description": "Read one type from the current MCP-managed or Studio-deployed schema before calling a granular schema edit tool. Returns the current schemaVersion required for concurrency control and a reconstructed editable definition. Legacy-only and Blueprint-managed schemas cannot be edited with these tools.",
+            "name": "schema_type_get"
+          },
+          {
+            "description": "Remove one or more types from the dataset schema. Read the type with schema_type_get first and pass its current schemaVersion. Types referenced by surviving types cannot be removed. Requires an MCP-managed or Studio-deployed schema descriptor; use deploy_schema to create an MCP-managed schema first. Legacy-only schemas must be migrated before using these tools. Upstream read failures stop the edit and must be retried after recovery. Use a dry run to preview the change before writing. If local Studio files exist, edit those files unless the user explicitly requests remote takeover. Studio takeovers require explicit user confirmation. Blueprint-managed bindings must be updated from their Blueprint source because they do not identify the legacy workspace that MCP must also mirror.",
+            "name": "schema_types_delete"
+          },
+          {
+            "description": "Add, replace, or remove top-level fields on one document or object type. Read the type with schema_type_get first and pass its current schemaVersion. Each fieldDeclaration is one JavaScript object literal using deploy_schema syntax. Requires an MCP-managed or Studio-deployed schema descriptor; use deploy_schema to create an MCP-managed schema first. Legacy-only schemas must be migrated before using these tools. Upstream read failures stop the edit and must be retried after recovery. Use a dry run to preview the change before writing. If local Studio files exist, edit those files unless the user explicitly requests remote takeover. Studio takeovers require explicit user confirmation. Blueprint-managed bindings must be updated from their Blueprint source because they do not identify the legacy workspace that MCP must also mirror.",
+            "name": "schema_fields_patch"
+          },
+          {
+            "description": "Deploy a managed Sanity Studio bound to an MCP-managed schema. Creates a hosted Studio whose URL follows the current environment — `sanity.studio` on production, `studio.sanity.work` on staging — and returns the concrete `studioUrl` in the response.\n\nRequires an existing MCP-managed schema at the same `(projectId, dataset, workspaceName)` address — call `deploy_schema` first if none exists. Re-run after subsequent `deploy_schema` calls so the deployed Studio picks up the latest schema.",
+            "name": "deploy_studio"
+          },
+          {
+            "description": "Create one or more documents by directly providing structured content. Creates drafts (drafts.* prefix), published documents for types with liveEdit enabled, or release versions when releaseId is specified.",
+            "name": "create_documents"
+          },
+          {
+            "description": "Create a version document (versions.{releaseId}.* prefix) for a specific release. Versions are separate from drafts and published documents, and are used for scheduled release workflows. When adding a document to a release with content changes, call create_version before patch_documents, then patch the returned version ID with the same releaseId. Do not patch the published or draft ID first because that creates an unrelated draft.",
+            "name": "create_version"
+          },
+          {
+            "description": "Update existing documents with @sanity/client patch() operations. Set documents to an object keyed by document ID, such as {\"article-1\":{\"patches\":[{\"set\":{\"title\":\"New title\"}}]}}.\n\nEach document’s patches are applied as one transaction. Send at most 25 documents per call; split larger updates into more calls. Edits are saved to the draft or release version, never directly to published content.\n\nFor release edits, create the version first, then patch its versions.{releaseId}.* ID with the same releaseId. Do not patch the published ID before creating the release version.",
+            "name": "patch_documents"
+          },
+          {
+            "description": "Query documents from Sanity using GROQ. Pass only the GROQ string in query. Do not include JavaScript imports, template wrappers, or defineQuery(). When using variables, set params to a JSON object such as {\"type\":\"post\"}.\n\nResults are not truncated. A result larger than 64 KiB is rejected with an error instead. Use field projections and GROQ slices to request only what you need, and fetch large result sets in batches, for example by slicing ordered by _id and filtering with _id > $after.\n\nFor unfamiliar GROQ syntax, functions, or query patterns, fetch get_sanity_rules({rules: [\"groq\"]}) before proceeding.",
+            "name": "query_documents"
+          },
+          {
+            "description": "Generate a new image in a document using AI. When targeting a published document, this creates or updates a draft with the generated image (published document remains unchanged). The draft must be published separately to make changes live. For image arrays, automatically adds a new array item. Note: Image generation is asynchronous and completes in the background.",
+            "name": "generate_image"
+          },
+          {
+            "description": "Transform an existing image in a document using AI. When targeting a published document, this creates or updates a draft with the transformed image (published document remains unchanged). The draft must be published separately to make changes live. Note: Image transformation is asynchronous and completes in the background.",
+            "name": "transform_image"
+          },
+          {
+            "description": "Fetch a single document by its exact ID. This is a direct ID lookup only - it does not search, filter, or query. Use when you have a specific document ID and need its full content.",
+            "name": "get_document"
+          },
+          {
+            "description": "Validate documents against the deployed schema without modifying them. This tool is in beta. Results may be incorrect or incomplete; review them before making changes.",
+            "name": "documents_validate"
+          },
+          {
+            "description": "Publish one or more drafts. Set ids to an array such as [{\"id\":\"article-1\"}]. Use the exact IDs returned by create_documents, query_documents, or get_document.",
+            "name": "publish_documents"
+          },
+          {
+            "description": "Unpublish one or more published documents (moves them back to drafts), or provide releaseId to mark them for unpublishing when that release runs. Cannot immediately unpublish documents that are referenced by other documents.",
+            "name": "unpublish_documents"
+          },
+          {
+            "description": "Discard one or more draft documents. If a document is published and has a draft, this removes the draft while leaving the published version intact. Use unpublish_documents before this tool if you want to remove a published document entirely.",
+            "name": "discard_drafts"
+          },
+          {
+            "description": "Discard one or more document versions from a release",
+            "name": "version_discard"
+          },
+          {
+            "description": "Lists all organizations the user has access to in Sanity",
+            "name": "list_organizations"
+          },
+          {
+            "description": "Lists all Sanity projects associated with your account",
+            "name": "list_projects"
+          },
+          {
+            "description": "Retrieves all studio applications linked to a specific Sanity project",
+            "name": "get_project_studios"
+          },
+          {
+            "description": "Creates a new Sanity project and initializes it with a dataset and API tokens",
+            "name": "create_project"
+          },
+          {
+            "description": "Lists all CORS origins configured for a Sanity project",
+            "name": "cors_origins_list"
+          },
+          {
+            "description": "Adds CORS origin(s) to allow client-side requests to a Sanity project",
+            "name": "add_cors_origin"
+          },
+          {
+            "description": "Deletes a CORS origin from a Sanity project",
+            "name": "cors_origins_delete"
+          },
+          {
+            "description": "Returns the currently authenticated Sanity account. Use it first for access or account troubleshooting and report the returned name, email, provider, and MCP authentication method so the user can verify which identity is active.",
+            "name": "whoami"
+          },
+          {
+            "description": "Lists all datasets in your Sanity project",
+            "name": "list_datasets"
+          },
+          {
+            "description": "Creates a new dataset with specified name and access settings",
+            "name": "create_dataset"
+          },
+          {
+            "description": "Update an existing dataset's visibility (public or private) and description. Public datasets allow unauthenticated reads. Pass null to clear the description. The dataset name identifies the target and cannot be changed by this tool.",
+            "name": "update_dataset"
+          },
+          {
+            "description": "Create a new release for grouping content changes. Optionally provide releaseId; if omitted, one is generated. Does not schedule the release: releaseType and intendedPublishAt are recorded as metadata only. Scheduling, publishing, archiving and deleting a release are not available here and must be done in Sanity Studio or via the HTTP Actions API.",
+            "name": "create_release"
+          },
+          {
+            "description": "List releases in a dataset. By default returns active and scheduled releases. Use the state filter to find published or archived releases.",
+            "name": "list_releases"
+          },
+          {
+            "description": "List all available embeddings indices for a dataset",
+            "name": "list_embeddings_indices"
+          },
+          {
+            "description": "Perform a semantic search on an embeddings index",
+            "name": "semantic_search"
+          },
+          {
+            "description": "Lists the Sanity Media Libraries in an organization. Call `list_organizations` first to get an organization ID. Returns library IDs to pass as `mediaLibraryId` to the other `media_library_*` tools.",
+            "name": "media_library_list"
+          },
+          {
+            "description": "Get the document types of a Media Library, or the full field definitions for one type. Call this before querying or editing: the library schema is fixed (assets, collections, folders, aspects), and the organization's own asset aspects are merged onto `sanity.asset` under `aspects`.",
+            "name": "media_library_get_schema"
+          },
+          {
+            "description": "Query a Media Library using GROQ. Assets, collections, folders, and aspect definitions are all queryable. The result count reflects the query result set, not the library total; use a `count()` query for totals.",
+            "name": "media_library_query_documents"
+          },
+          {
+            "description": "Fetch a single Media Library document by its exact ID. This is a direct ID lookup only - it does not search, filter, or query.",
+            "name": "media_library_get_document"
+          },
+          {
+            "description": "Create documents in a Media Library. Only `sanity.asset.collection` can be created — assets themselves come from uploading a binary, which is not supported here. Documents are created directly, not as drafts.",
+            "name": "media_library_create_documents"
+          },
+          {
+            "description": "Edit Media Library documents. Edits are limited to the safe subset: an asset's `title` and `aspects.*`, its `cdnAccessPolicy`, and collection metadata/membership. Asset `title`/`aspects.*` edits are saved to a draft — publish them with `media_library_publish_documents`. `cdnAccessPolicy` is published-only and takes effect immediately: address it by the published id (a `drafts.` id is refused, since it cannot be staged) and patch it separately from title/aspects. Collections are edited directly. Folder placement, the version graph, and other system fields are rejected and must be managed in the Media Library app; custom metadata belongs in aspects. Every value an edit writes must be valid against the library's schema afterwards, on a draft or a published document alike; the edit is refused with the reasons otherwise. Problems the document already had elsewhere are reported as warnings, not enforced, and will stop publish until fixed. Array items without a `_key` are keyed by Content Lake on write, so re-read before addressing them by key.",
+            "name": "media_library_patch_documents"
+          },
+          {
+            "description": "Publish asset drafts to make unpublished metadata edits (`title`, `aspects.*`) live, preserving published-only and system-managed fields. The draft is validated against the current aspect definitions first, as the Media Library app does: any error in `title` or `aspects` refuses the publish, an aspect whose definition has since been deleted is kept as it stands, and root fields outside the schema are preserved and listed. Only assets have a draft/publish flow. Fails for an asset that has no draft.",
+            "name": "media_library_publish_documents"
+          },
+          {
+            "description": "Discard asset drafts, throwing away unpublished metadata edits and leaving the published asset intact.",
+            "name": "media_library_discard_drafts"
+          },
+          {
+            "description": "Lists documents (across project datasets) that reference a Media Library asset. Use this before replacing an asset to see what depends on it.",
+            "name": "media_library_list_asset_references"
+          },
+          {
+            "description": "Make one or more Media Library assets usable in project documents. For image/file assets this creates a local deliverable copy and returns a field value referencing it, plus a weak `media` global document reference back to the library; for video assets it returns a `sanity.video` value with global document references only (no local copy). Returns per-asset ready-to-use field values to apply with `patch_documents` against the target dataset. Each field type must match its asset type. Pairs with `media_library_list_asset_references`.",
+            "name": "media_library_link_assets"
+          },
+          {
+            "description": "Get metered usage totals, such as API requests, CDN requests, documents and assets, for a project, organization or media library over one billing period. For trends over time, use usage_history_get.",
+            "name": "usage_snapshot_get"
+          },
+          {
+            "description": "Get metered usage for a project, organization or media library as a series of daily, monthly or yearly data points. For the current period total, use usage_snapshot_get.",
+            "name": "usage_history_get"
+          },
+          {
+            "description": "Run a limited subset of Sanity CLI commands and return their output. Prefer dedicated Sanity MCP tools when possible, use CLI as a fallback for special cases. Use `--help` to list available commands or `<command> --help` for command details. Commands run without a shell and cannot access the filesystem, prompt for input, run in the background, or change authentication.",
+            "name": "run_sanity_cli"
+          },
+          {
+            "description": "Search Sanity docs",
+            "name": "search_docs"
+          },
+          {
+            "description": "Read a specific Sanity documentation article",
+            "name": "read_docs"
+          },
+          {
+            "description": "IMPORTANT: Call this FIRST before any Sanity development work. Returns available best practice rules for schemas, queries, frameworks, and visual editing. You MUST load relevant rules before writing Sanity code.",
+            "name": "list_sanity_rules"
+          },
+          {
+            "description": "Load Sanity development rules. ALWAYS call list_sanity_rules first to see available rules, then load all rules relevant to your task in a single call.",
+            "name": "get_sanity_rules"
+          },
+          {
+            "description": "Submit feedback about Sanity when you encounter issues while working with a Sanity codebase or project.\nUse this when:\n- A Sanity MCP tool returned an unexpected error or confusing result\n- You needed a Sanity capability that doesn't exist or is hard to use\n- Sanity docs, MCP tool descriptions, or examples were unclear or incorrect\n- Common Sanity surfaces such as @sanity/client, the HTTP API, schemas, Studio, or deployment were confusing or blocked progress\n- You had to use a workaround for something in Sanity that should be simpler\n\nProvide a specific, detailed message about what you were trying to do,\nwhat happened, and what you expected instead. If the feedback concerns a\nMedia Library, include its `mediaLibraryId` (and `organizationId` if known).",
+            "name": "give_sanity_feedback"
+          },
+          {
+            "description": "Returns UI enrichment data for widgets. When documentId is provided, returns schema fields, deployed Studio URL, and resolved reference previews. When documentId is omitted, returns project-level context only (Studio URL).",
+            "name": "_get_ui_context"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Sanity": {
+        "type": "http",
+        "url": "https://mcp.sanity.io/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_435e97ab041b456d24ebd1afbe8c9e30f3382184fb5a3bdee0240ac19aa61a48"
+      }
+    }
+  }
+}

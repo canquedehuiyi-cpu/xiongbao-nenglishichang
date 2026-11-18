@@ -1,0 +1,29 @@
+{
+  "generatedAt": "2026-11-18T09:54:12.651Z",
+  "method": "HTTP HEAD on public OSS download_url（无鉴权、不落盘内容）",
+  "perKind": {
+    "skill": {
+      "probed": 110,
+      "ok": 107,
+      "failed": 3,
+      "totalBytes": 3474545,
+      "avgBytes": 32472,
+      "medianBytes": 5978,
+      "p90Bytes": 33048,
+      "minBytes": 845,
+      "maxBytes": 1667667
+    },
+    "plugin": {
+      "probed": 110,
+      "ok": 93,
+      "failed": 17,
+      "totalBytes": 48994189,
+      "avgBytes": 526819,
+      "medianBytes": 382822,
+      "p90Bytes": 1092284,
+      "minBytes": 5031,
+      "maxBytes": 6735329
+    }
+  },
+  "note": "manifest/detail 的 sha256 与 file_size 在本快照里不可用（file_hash 被 apphub-client 的 32-64 hex 值级脱敏吃掉，技能详情端点不返 file_size），故用 HEAD 抽样估算"
+}

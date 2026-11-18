@@ -1,0 +1,126 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.485Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Developer-Tools",
+  "categoryCode": "Developer Tools",
+  "connector_id": "circleci",
+  "connector_name": "CircleCI",
+  "connector_name_cn": "CircleCI",
+  "description": "Inspect CircleCI projects, pipelines, workflows, job details, and build artifacts, and read masked project environment variables and Insights summary metrics. Trigger new pipelines to track CI/CD execution and investigate build issues.",
+  "description_cn": "查看 CircleCI 项目、流水线、工作流、任务详情和构建产物，读取脱敏的项目环境变量及 Insights 汇总指标。支持触发新流水线，辅助跟踪 CI/CD 执行状态与排查构建问题。",
+  "version": "1.0.0",
+  "category": "Developer Tools",
+  "tags": [
+    "circleci",
+    "cicd",
+    "devops",
+    "pipelines",
+    "builds"
+  ],
+  "provider_name": "CircleCI",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "circleci",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_73cd54bc7e4c66fa39b95bdd3d6ae370c1972828bd950454865667ae26053785",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "CircleCI API v2 connector for CI/CD pipeline inspection, workflow and job diagnostics, artifacts, project configuration, insights, and permission-controlled pipeline operations.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_73cd54bc7e4c66fa39b95bdd3d6ae370c1972828bd950454865667ae26053785",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "circleci",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_73cd54bc7e4c66fa39b95bdd3d6ae370c1972828bd950454865667ae26053785",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Get the currently authenticated CircleCI user profile.",
+            "name": "get_current_user"
+          },
+          {
+            "description": "List artifacts for a CircleCI job.",
+            "name": "get_job_artifacts"
+          },
+          {
+            "description": "Get CircleCI job details by project slug and job number.",
+            "name": "get_job_details"
+          },
+          {
+            "description": "Get a CircleCI pipeline by pipeline ID.",
+            "name": "get_pipeline"
+          },
+          {
+            "description": "Get CircleCI project details by project slug.",
+            "name": "get_project"
+          },
+          {
+            "description": "Get CircleCI Insights summary metrics for a workflow.",
+            "name": "get_workflow_summary"
+          },
+          {
+            "description": "Get CircleCI Insights summary metrics for an organization.",
+            "name": "list_insights_summary"
+          },
+          {
+            "description": "List CircleCI pipelines for a project.",
+            "name": "list_pipelines_for_project"
+          },
+          {
+            "description": "List masked CircleCI environment variables for a project.",
+            "name": "list_project_env_vars"
+          },
+          {
+            "description": "List workflows for a CircleCI pipeline.",
+            "name": "list_workflows_by_pipeline"
+          },
+          {
+            "description": "Trigger a new CircleCI pipeline for a project.",
+            "name": "trigger_pipeline"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "circleci": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_73cd54bc7e4c66fa39b95bdd3d6ae370c1972828bd950454865667ae26053785",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_73cd54bc7e4c66fa39b95bdd3d6ae370c1972828bd950454865667ae26053785"
+      }
+    }
+  }
+}

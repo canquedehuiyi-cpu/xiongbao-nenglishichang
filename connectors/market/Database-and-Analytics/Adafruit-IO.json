@@ -1,0 +1,99 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.453Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "adafruit_io",
+  "connector_name": "Adafruit IO",
+  "connector_name_cn": "Adafruit IO",
+  "description": "Access Adafruit IO feeds and IoT data. Use feed information and observations to review IoT data and investigate device-related questions. Organize results by feed identifier and time, then compare them with device operating records. Consider sampling intervals, missing observations, and timestamps before interpreting an anomaly. A single observation should not be treated as a complete description of a device’s operating state.",
+  "description_cn": "连接 Adafruit IO，查询数据流和物联网数据。适合整理物联网数据流的背景和观测结果，辅助设备数据查看与问题排查。可按数据流标识和时间顺序对返回信息进行核对，再与设备运行记录关联。判断异常时应关注数据采样间隔、缺失记录和时间戳，避免仅凭一条观测值推断设备状态。",
+  "version": "1.0.0",
+  "category": "Database & Analytics",
+  "tags": [
+    "iot",
+    "data"
+  ],
+  "provider_name": "Adafruit IO",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "adafruit_io",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c5273af70b2e0577124d4fdb421c7e7014e7070722b30c1c43eae6ae47e41541",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "IoT feed and data connector.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c5273af70b2e0577124d4fdb421c7e7014e7070722b30c1c43eae6ae47e41541",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "adafruit_io",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_c5273af70b2e0577124d4fdb421c7e7014e7070722b30c1c43eae6ae47e41541",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create a new data point on an Adafruit IO feed.",
+            "name": "create_feed_data"
+          },
+          {
+            "description": "Get the current Adafruit IO user for the connected API key.",
+            "name": "get_current_user"
+          },
+          {
+            "description": "Get one Adafruit IO feed by feed key.",
+            "name": "get_feed"
+          },
+          {
+            "description": "List data points for an Adafruit IO feed.",
+            "name": "list_feed_data"
+          },
+          {
+            "description": "List Adafruit IO feeds for a username.",
+            "name": "list_feeds"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "adafruit_io": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c5273af70b2e0577124d4fdb421c7e7014e7070722b30c1c43eae6ae47e41541",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c5273af70b2e0577124d4fdb421c7e7014e7070722b30c1c43eae6ae47e41541"
+      }
+    }
+  }
+}

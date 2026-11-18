@@ -1,0 +1,316 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.430Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Content-Creation",
+  "categoryCode": "Content Creation",
+  "connector_id": "flova",
+  "connector_name": "Flova AI",
+  "connector_name_cn": "Flova AI",
+  "description": "Flova AI connects your Flova account to Qoder for AI video and image projects. Browse and read the projects you already have, continue or revise them while keeping the characters and visual style, generate text-to-image, text-to-video and image-to-video assets and references, build storyboards, review progress, and check whether a project is ready to export. Supported work includes scripts, short films, short dramas, animated comics, films, ads and product commercials, plus visual design. Generation runs on Flova's service, so creating and exporting may consume Flova credits and long-running jobs must be tracked by their real status. Access is limited to projects and materials you submit or that your authorized Flova account can reach; sign in through Qoder's connection controls with OAuth and do not paste tokens into chat or plugin files.",
+  "description_cn": "连接 Flova 账号后，可在 Qoder 里创建、继续和修改 AI 视频与图片项目。可读取你已有的项目，在保留角色与视觉风格的前提下继续制作或修改，支持文生图、文生视频、图生视频与素材生成、分镜脚本、修订与评审，并可检查项目是否具备导出条件。适用范围包括脚本、短片、短剧、动态漫画、影片、广告与产品宣传片以及视觉设计。生成由 Flova 服务端完成，创作与导出可能消耗 Flova 积分，长任务需按其真实状态跟踪。仅能访问你提交或已授权 Flova 账号可达的项目与素材；登录授权通过 Qoder 的连接入口完成，不要把令牌写进对话或插件文件。",
+  "version": "1.0.0",
+  "category": "Content Creation",
+  "tags": [
+    "video-creation",
+    "image-generation",
+    "flova",
+    "mcp"
+  ],
+  "provider_name": "Flova",
+  "author": {
+    "name": "Flova",
+    "display_name": "Flova"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "flova",
+        "url": "https://service.flova.ai/api/mcp/",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "Flova remote MCP for AI video and image project workflows; the live tools/list is the source of truth for parameters.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_aa1de06daeb71a8b0a186e473c16bff46894955e42761e0ad160ad74f46fc2c4",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_aa1de06daeb71a8b0a186e473c16bff46894955e42761e0ad160ad74f46fc2c4",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Discover public executable image/video/audio/music models, including member models. Search model by exact ID or partial ID/name; use the returned model ID for generation. If no match, omit model to inspect the directory before concluding a model is unavailable. Use detail=full for parameters and input roles; membership is enforced when generating.",
+            "name": "creation_generation_models"
+          },
+          {
+            "description": "Generate standalone images, video clips, speech/audio or music, or revise prior quick outputs. Use when the user wants media assets directly; no project creation or Agent run is needed. For project-scoped creation or revisions, storyboards, multi-shot planning or timeline assembly, use creation_run. Choose by the delivery goal and project context, not media type or duration. Pass uploaded media as inputs[].file_ref; use creation_generation_models for model parameters. May initialize/import quick history first; follow next_step then retry with the SAME client_request_id. Use a NEW request ID only for a new generation. Historical sources inherit omitted recipe fields.",
+            "name": "creation_quick_generate"
+          },
+          {
+            "description": "Read quick generation tasks and signed media results by batch, task IDs, or original request ID. May initialize/import quick history first. Follow next_step while processing. In Codex, open creation_media_preview once the first item is ready; include the whole batch.",
+            "name": "creation_quick_status"
+          },
+          {
+            "description": "Read paginated quick generation history. First access may initialize/import old history. Reuse task/resource IDs for generation; keep filters unchanged when paging.",
+            "name": "creation_quick_history"
+          },
+          {
+            "description": "Cancel a quick generation batch when possible; completed outputs remain available. Cancellation cannot be undone. May initialize/import history first. Charges follow actual settlement, not cancellation requests.",
+            "name": "creation_quick_cancel"
+          },
+          {
+            "description": "Read preparation status; after success retry the ORIGINAL operation. This call never starts a migration or generation.",
+            "name": "creation_quick_migration_status"
+          },
+          {
+            "description": "Explicitly retry failed/cancelled quick history preparation. Reuse client_request_id if the response is lost; never automatically loop on migration failures.",
+            "name": "creation_quick_migration_retry"
+          },
+          {
+            "description": "Browse published inspiration cards by locale and category. Agent recommendations do not filter cards. Follow next_cursor with unchanged filters. Names can match multiple items; never infer uniqueness from a truncated page.",
+            "name": "creation_inspiration_categor_items"
+          },
+          {
+            "description": "Read current published inspiration instructions by ID, up to 50. Unavailable items return per-item errors. This does not authorize or start generation.",
+            "name": "creation_inspiration_batch_get"
+          },
+          {
+            "description": "List enabled inspiration categories for a locale, including the default category.",
+            "name": "creation_inspiration_categories"
+          },
+          {
+            "description": "Read configured inspiration tools, Agents and localized installation instructions.",
+            "name": "creation_inspiration_config"
+          },
+          {
+            "description": "Resolve an existing project's API version before selecting its tool family. Never migrates.",
+            "name": "creation_project_runtime"
+          },
+          {
+            "description": "Read the account and available credits.",
+            "name": "creation_account_user"
+          },
+          {
+            "description": "Create a Creation project after the goal is clear.",
+            "name": "creation_project_create"
+          },
+          {
+            "description": "List projects across systems, or select scope v2/v3. Use api_version to select the existing project tool family; never migrate implicitly. Follow next_cursor with the same scope. Do not mix page and cursor.",
+            "name": "creation_project_list"
+          },
+          {
+            "description": "Migrate a visible legacy project before reading content or editing. Default reuse returns an existing successful target or starts the first import. Use reimport only when the user explicitly requests a new import after understanding that all earlier projects are preserved. Retry requires the failed job ID. Reuse client_request_id for the same submission; use the returned V3 project_id for subsequent tools.",
+            "name": "creation_project_migrate"
+          },
+          {
+            "description": "Read migration progress. On success use the returned V3 project_id; on failure explicitly retry with project_migrate mode=retry and this migration_job_id.",
+            "name": "creation_project_migration_status"
+          },
+          {
+            "description": "Read a Creation project and its permission context, including project.history_format and project.history_epoch for expected_epoch on writes. This read does not require expected_epoch. After requires_full_sync, also reread affected content before deciding whether to retry the original write.",
+            "name": "creation_project_info"
+          },
+          {
+            "description": "Read a bounded Creation graph outline across all node types. Follow page.continuation with the same root/depth; expand frontier_node_ids with root_node_id. Use project_nodes for details and project_search to locate nodes.",
+            "name": "creation_project_graph"
+          },
+          {
+            "description": "Read Composition settings, tracks, clips and diagnostics. Clips are paged in track order across all tracks; empty clips on a page do not mean an empty track. Follow next_offset with expected_node_revision=node_revision until has_more=false. This is a partial read view, not a body to submit for replacement.",
+            "name": "creation_composition_get"
+          },
+          {
+            "description": "Move one existing Sequence member after another, or to the first position with after_member_id=null. Pass expected_container_revision from project_nodes; on conflict reread before retrying. Changes Sequence order only, not Composition clip timing.",
+            "name": "creation_sequence_move"
+          },
+          {
+            "description": "Inspect exact graph nodes, memberships, default resource, candidate IDs, drafts and runtime. At most 10 nodes; use asset_resources for more candidates.",
+            "name": "creation_project_nodes"
+          },
+          {
+            "description": "Find graph nodes by text, optionally within a container or by node type. Follow page.continuation with the same search parameters.",
+            "name": "creation_project_search"
+          },
+          {
+            "description": "Read an exact Document node with bounded line ranges. Use expected_content_revision when paging; inspect truncation and next_view_range before requesting more.",
+            "name": "creation_project_document"
+          },
+          {
+            "description": "Search Document text for bounded excerpts and exact node IDs, lines and content revisions. Narrow node_ids when the project has many documents.",
+            "name": "creation_document_search"
+          },
+          {
+            "description": "List candidate resources of one Asset, with default selection and visibility. Continue with next_offset and expected_graph_revision=as_of_seq. Each resource's expires_at is Unix seconds for its url; derivative URLs have matching *_expires_at fields. Null means unknown, not permanent.",
+            "name": "creation_asset_resources"
+          },
+          {
+            "description": "Refresh up to 100 media tasks in this project independently of run event cursors. Use task IDs from run progress; these are explicitly selected project tasks.",
+            "name": "creation_resource_status"
+          },
+          {
+            "description": "Read one resource and its permitted media URL. expires_at is Unix seconds for url; derivative URLs have matching *_expires_at fields. Null means unknown, not permanent. Read again to refresh expired links.",
+            "name": "creation_resource_info"
+          },
+          {
+            "description": "Read a bounded history page; validate a restore anchor with restore_preview.",
+            "name": "creation_chat_history"
+          },
+          {
+            "description": "Read only the current valid question or approval of the selected conversation.",
+            "name": "creation_chat_pending_actions"
+          },
+          {
+            "description": "Create a separate conversation in a Creation project.",
+            "name": "creation_conversation_create"
+          },
+          {
+            "description": "Branch at a message into a new conversation in the same project; project_branch instead creates another project.",
+            "name": "creation_conversation_branch"
+          },
+          {
+            "description": "List conversations before choosing which one to continue.",
+            "name": "creation_conversation_list"
+          },
+          {
+            "description": "Prepare a direct upload; retries may create a new upload_id. Files may be validated, moderated or converted; documents may require OCR or model-based parsing, including background processing, even for a deduplicated upload. For video, first probe the actual file (for example with ffprobe) and provide video_metadata: width and height in pixels, duration in seconds, and has_audio (false if no audio stream). Do not guess metadata. Use transport, then call creation_upload_complete.",
+            "name": "creation_upload_ticket"
+          },
+          {
+            "description": "Finish an upload_id and obtain file_ref. Pass media references to creation_quick_generate.inputs[].file_ref for standalone generation, or materials to creation_run.files for project work. Files may be validated, moderated or converted; document OCR or model-based parsing may continue in the background after file_ref is available for referencing. Retry with the same upload_id; processing may repeat until completion is recorded. file_ref_expires_at is a Unix timestamp.",
+            "name": "creation_upload_complete"
+          },
+          {
+            "description": "Delegate a project-scoped creative request or revision to the Creation Agent: planning, storyboards, coordinated shots and audio, timeline assembly, or changes to an existing project's content. For standalone images, video clips, speech/audio or music, including revisions of quick outputs, use creation_quick_generate. Keep revisions to an existing project in that project. If the delivery goal is unclear, clarify whether the user wants a standalone asset or a composed video. Pass uploaded file_refs in files. Reuse client_request_id when retrying the same submission; track the returned conversation and stream IDs. To replace a pending question with a new request, pass its supersede_pause_id. Approval cannot be bypassed.",
+            "name": "creation_run"
+          },
+          {
+            "description": "Request cancellation of the exact stream and its pending work. Cancellation cannot be undone. It may still be in progress; poll run_status until terminal. Completed work is preserved and consumed credits are not refunded by cancellation.",
+            "name": "creation_run_cancel"
+          },
+          {
+            "description": "Read all available progress since from_message_id without pagination. Pass next_event_id as from_message_id on the next poll; keep the same conversation_id and stream_chat_id. Refresh previously observed media tasks using resource_status even after their events have been consumed. In Codex, open media_preview once the first resource succeeds, passing this run identity.",
+            "name": "creation_run_status"
+          },
+          {
+            "description": "Read all available events and resource states for the selected run, plus the latest 100 conversation messages and pending actions. No event pagination is required. In Codex, use media_preview to display successful resources.",
+            "name": "creation_run_result"
+          },
+          {
+            "description": "Answer a server-issued pending question using its action_id; ordinary feedback goes to creation_run.",
+            "name": "creation_run_resume"
+          },
+          {
+            "description": "Submit the user's explicit response to a server-issued interaction_id. Reuse client_request_id for retries.",
+            "name": "creation_interaction_submit"
+          },
+          {
+            "description": "Check and select a composition before final-video export.",
+            "name": "creation_export_readiness"
+          },
+          {
+            "description": "Export the exact composition_node_id and expected_node_revision returned by readiness. Reuse both the revision and client_request_id on retries. expires_at is the export URL's expiry in Unix seconds, or null when unknown.",
+            "name": "creation_export_video"
+          },
+          {
+            "description": "Read by task_id, or recover a lost submission result with client_request_id. Omit both for the latest export. expires_at is the returned export URL's expiry in Unix seconds, or null when unknown. Read again to refresh expired links.",
+            "name": "creation_export_status"
+          },
+          {
+            "description": "Archive visible project media resources and Documents using a frozen submission-time selection; later outputs are excluded. Returns file_count (directories excluded), snapshot_at (UTC), and EMPTY_ARCHIVE in warnings when no files are selected. done means packaging finished, not a complete project backup. Reuse client_request_id for unchanged retries; use a new ID to include new content. expires_at is the download URL's expiry in Unix seconds, or null when unknown. For snapshot_v1 projects, pass expected_epoch from creation_project_info.project.history_epoch.",
+            "name": "creation_download_all"
+          },
+          {
+            "description": "Read by task_id, or recover a lost submission result with client_request_id. Omit both for the latest archive. file_count and snapshot_at describe the frozen submission, not the current project. Check EMPTY_ARCHIVE in warnings; done does not imply a nonempty or complete backup. expires_at is the download URL's expiry in Unix seconds, or null when unknown. Read again to refresh expired links.",
+            "name": "creation_download_status"
+          },
+          {
+            "description": "Preview the effect of restoring a selected message and obtain a preview_token. This does not restore the project.",
+            "name": "creation_project_restore_preview"
+          },
+          {
+            "description": "Restore only after the user requested it, using the matching preview_token.",
+            "name": "creation_project_restore"
+          },
+          {
+            "description": "Copy into a new project at a selected message, with selected/all conversation scope. Use conversation_branch to explore within the same project.",
+            "name": "creation_project_branch"
+          },
+          {
+            "description": "List Skill categories.",
+            "name": "creation_skill_categories"
+          },
+          {
+            "description": "Browse community Skills.",
+            "name": "creation_skill_feed"
+          },
+          {
+            "description": "List the caller's Skills.",
+            "name": "creation_skill_list"
+          },
+          {
+            "description": "Read a Skill, owner draft, or privately shared Skill.",
+            "name": "creation_skill_get"
+          },
+          {
+            "description": "Install an accessible Skill. May disable another Skill when the enabled-Skill quota is full.",
+            "name": "creation_skill_install"
+          },
+          {
+            "description": "Disable a Skill for the caller without deleting its content or removing library membership. This is reversible: use creation_skill_install to enable it again.",
+            "name": "creation_skill_uninstall"
+          },
+          {
+            "description": "List reference summaries of an owned Skill draft. May create its private editing workspace on first access. Read skill_document_get for the current draft revision.",
+            "name": "creation_skill_reference_list"
+          },
+          {
+            "description": "Read an owned draft reference by node_id with content revision. May create its private editing workspace on first access.",
+            "name": "creation_skill_reference_get"
+          },
+          {
+            "description": "Read a live reference by name from an accessible Skill. Use shared_token for private sharing and expected_version to pin the live snapshot.",
+            "name": "creation_skill_reference_read_live"
+          },
+          {
+            "description": "Read an owned Skill's editable Markdown and revision.",
+            "name": "creation_skill_document_get"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "flova": {
+        "type": "http",
+        "url": "https://service.flova.ai/api/mcp/",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_aa1de06daeb71a8b0a186e473c16bff46894955e42761e0ad160ad74f46fc2c4"
+      }
+    }
+  }
+}

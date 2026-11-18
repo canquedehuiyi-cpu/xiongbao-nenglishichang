@@ -1,0 +1,319 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.637Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Product-Management",
+  "categoryCode": "Product Management",
+  "connector_id": "2ed65180-44a2-4b39-be3e-7ce30f035349",
+  "connector_name": "ClickUp",
+  "connector_name_cn": "ClickUp",
+  "description": "ClickUp centralizes tasks, documents, goals, projects, and team collaboration in one workspace.",
+  "description_cn": "用于管理任务、文档、目标和项目协作，将团队工作集中在统一平台。",
+  "version": "1.0.1",
+  "category": "Product Management",
+  "tags": [],
+  "provider_name": "ClickUp",
+  "author": {
+    "name": "",
+    "display_name": "ClickUp"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "ClickUp",
+        "url": "https://mcp.clickup.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_9e1eb7890ede7208c07427c6304fb4b5fa68d642f1219aad1715636871755bd2",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_9e1eb7890ede7208c07427c6304fb4b5fa68d642f1219aad1715636871755bd2",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Attach file to task. Requires task_id. File sources: 1) base64 + filename (small files under ~200KB only), 2) URL (http/https). For files on the local machine, use request_attachment_upload instead.",
+            "name": "clickup_attach_task_file"
+          },
+          {
+            "description": "Get short-lived, structured upload details (upload URL, ticket, HTTP method, and multipart field name) to attach a LOCAL file (any size) to a task; follow the returned instructions to upload it with a native HTTP client. For small base64 payloads or web URLs, use attach_task_file instead.",
+            "name": "clickup_request_attachment_upload"
+          },
+          {
+            "description": "Download a ClickUp task attachment (get attachment IDs from clickup_get_task with include: [\"attachments\"]). Returns a short-lived download URL plus attachment metadata. IMPORTANT: the URL is short-lived and, on workspaces with private attachments enabled, single-use — it expires within ~5 minutes. Fetch it immediately and exactly once; do not preview, HEAD-request, retry, or store it. If a download fails or the URL expired, call this tool again for a fresh URL.",
+            "name": "clickup_download_task_attachment"
+          },
+          {
+            "description": "List chat channels in the workspace with pagination support.",
+            "name": "clickup_get_chat_channels"
+          },
+          {
+            "description": "Send a message or threaded reply to a chat channel. Provide parent_message_id for threaded replies. Supports markdown and post types.",
+            "name": "clickup_send_chat_message"
+          },
+          {
+            "description": "Get messages for a chat channel. Messages with has_replies=true have threads fetchable via clickup_get_chat_message_replies. Supports pagination. Channel URLs look like /<ws>/v/cn/<channel_id> or /<ws>/chat/r/<channel_id>.",
+            "name": "clickup_get_chat_channel_messages"
+          },
+          {
+            "description": "Get threaded replies for a chat message by message_id. Supports pagination. Chat thread URLs (/<ws>/v/cn/<channel_id>/t/<id> or /<ws>/chat/r/<channel_id>/t/<id>) end in a chat message id — pass it here, not to clickup_get_task. That id is usually the thread root but can be a reply inside the thread; if no replies come back, find the thread root via clickup_get_chat_channel_messages on the channel.",
+            "name": "clickup_get_chat_message_replies"
+          },
+          {
+            "description": "Get task comments with reply_count per comment. Use clickup_get_threaded_comments for replies when reply_count > 0. Supports pagination via start/start_id.",
+            "name": "clickup_get_task_comments"
+          },
+          {
+            "description": "Create a comment or threaded reply on a task, list, or view. Supports Markdown (headings, bold, code blocks, tables). Use entity_type + entity_id for the target entity. Provide reply_to_id for a threaded reply.",
+            "name": "clickup_create_comment"
+          },
+          {
+            "description": "[DEPRECATED → clickup_create_comment] Legacy name for creating a task comment, kept for clients with stale tool listings. Prefer the replacement tool; it takes entity_id instead of task_id.",
+            "name": "clickup_create_task_comment"
+          },
+          {
+            "description": "Edit an existing comment in place by comment_id. Replaces the comment text (supports Markdown), and can mark it resolved or reassign it. Use clickup_get_task_comments or clickup_get_threaded_comments to find the comment ID.",
+            "name": "clickup_update_comment"
+          },
+          {
+            "description": "Delete a comment by comment_id. This cannot be undone. Use clickup_get_task_comments or clickup_get_threaded_comments to find the comment ID.",
+            "name": "clickup_delete_comment"
+          },
+          {
+            "description": "Get threaded replies for a comment by comment_id. Use clickup_get_task_comments first to find comments with reply_count > 0.",
+            "name": "clickup_get_threaded_comments"
+          },
+          {
+            "description": "Get custom field definitions at any hierarchy level (list, folder, space, or workspace). Returns field IDs, types, and options for dropdowns/labels. Use this to discover available custom fields before setting values on tasks. Multiple scopes can be queried in a single call.",
+            "name": "clickup_get_custom_fields"
+          },
+          {
+            "description": "Create a document in a ClickUp space, folder, or list. Requires name, parent info, visibility and create_page flag.",
+            "name": "clickup_create_document"
+          },
+          {
+            "description": "List page names and structure of a document (no content). Use get_document_pages to fetch full page content by page ID.",
+            "name": "clickup_list_document_pages"
+          },
+          {
+            "description": "Get the full content of specific pages by page ID. Use list_document_pages first to discover available page IDs.",
+            "name": "clickup_get_document_pages"
+          },
+          {
+            "description": "Create a new page in a ClickUp document.",
+            "name": "clickup_create_document_page"
+          },
+          {
+            "description": "Update a page in a ClickUp document. Use content_edit_mode to control how content is applied: append/prepend merge with the existing page server-side and preserve it exactly — no need to read the page first. The default is 'replace', which overwrites the whole page. If appended content should start on its own line, include a leading newline; if prepended content should end on its own line, include a trailing newline.",
+            "name": "clickup_update_document_page"
+          },
+          {
+            "description": "List metadata for files attached to a ClickUp doc page (images and files embedded in the page content).",
+            "name": "clickup_list_document_page_attachments"
+          },
+          {
+            "description": "Download a ClickUp doc page attachment (get attachment IDs from clickup_list_document_page_attachments). Returns a short-lived download URL plus attachment metadata. IMPORTANT: the URL is short-lived and, on workspaces with private attachments enabled, single-use — it expires within ~5 minutes. Fetch it immediately and exactly once; do not preview, HEAD-request, retry, or store it. If a download fails or the URL expired, call this tool again for a fresh URL.",
+            "name": "clickup_download_document_page_attachment"
+          },
+          {
+            "description": "Create folder in ClickUp space. Use space_id (preferred) or space_name + folder name. Supports override_statuses for folder-specific statuses. Use clickup_create_list_in_folder to add lists after creation.",
+            "name": "clickup_create_folder"
+          },
+          {
+            "description": "Get folder details by folder_id or folder_name (+ space info). Use to resolve folder names to IDs.",
+            "name": "clickup_get_folder"
+          },
+          {
+            "description": "Update a ClickUp folder. Requires folder_id + at least one update field (name/override_statuses). Only specified fields updated. Changes apply to all lists in folder. If you need to get a folder ID from a folder name, use clickup_get_folder first.",
+            "name": "clickup_update_folder"
+          },
+          {
+            "description": "Create a list in a ClickUp space. Requires name and space_name or space_id. For lists in folders, use clickup_create_list_in_folder.",
+            "name": "clickup_create_list"
+          },
+          {
+            "description": "Create a list in a ClickUp folder. Requires folder_id and list name. Supports content and status. If you need to get a folder ID from a folder name, use clickup_get_folder first.",
+            "name": "clickup_create_list_in_folder"
+          },
+          {
+            "description": "Get list details by list_id or list_name. Returns id, name, content, space info, and configured statuses. Use to resolve list names to IDs.",
+            "name": "clickup_get_list"
+          },
+          {
+            "description": "Update a ClickUp list. Requires list_id + at least one update field (name/content/status). Only specified fields updated. If you need to get a list ID from a list name, use clickup_get_list first.",
+            "name": "clickup_update_list"
+          },
+          {
+            "description": "List all members in the workspace. Most tools resolve assignees automatically — use only when you need the full member list.",
+            "name": "clickup_get_workspace_members"
+          },
+          {
+            "description": "Get a member in the ClickUp workspace by name or email. Returns the member object if found, or null if not found.",
+            "name": "clickup_find_member_by_name"
+          },
+          {
+            "description": "Convert names, emails, or \"me\" to numeric ClickUp user IDs. Use when you need IDs for filters (e.g., search, filter_tasks). Most task tools resolve assignees automatically.",
+            "name": "clickup_resolve_assignees"
+          },
+          {
+            "description": "Create a personal reminder in your ClickUp workspace. Requires title and due_date (YYYY-MM-DD or YYYY-MM-DD HH:MM format, uses your timezone).",
+            "name": "clickup_create_reminder"
+          },
+          {
+            "description": "Search and list your reminders. Supports filtering by type, status, completion, and since date. Date filters use YYYY-MM-DD or YYYY-MM-DD HH:MM format (e.g., '2025-01-01') in your timezone. Paginated via cursor.",
+            "name": "clickup_search_reminders"
+          },
+          {
+            "description": "Update a reminder by reminder_id. Supports title, description, due_date (YYYY-MM-DD or YYYY-MM-DD HH:MM, e.g. '2025-12-31'), and is_completed.",
+            "name": "clickup_update_reminder"
+          },
+          {
+            "description": "Add existing tag to task. Tag must exist in space. Note: Will fail if tag doesn't exist.",
+            "name": "clickup_add_tag_to_task"
+          },
+          {
+            "description": "Remove tag from task. Only removes tag-task association, tag remains in space.",
+            "name": "clickup_remove_tag_from_task"
+          },
+          {
+            "description": "Set a directional dependency where one task blocks the other. Use 'waiting_on' when task_id cannot start until depends_on is done, or 'blocking' when task_id is blocking depends_on. For non-blocking associations, use add_task_link instead.",
+            "name": "clickup_add_task_dependency"
+          },
+          {
+            "description": "Remove a dependency between two tasks.",
+            "name": "clickup_remove_task_dependency"
+          },
+          {
+            "description": "Link two tasks together. Creates a bidirectional association with no ordering or blocking. For blocking/dependency relationships, use add_task_dependency instead.",
+            "name": "clickup_add_task_link"
+          },
+          {
+            "description": "Remove a link between two tasks.",
+            "name": "clickup_remove_task_link"
+          },
+          {
+            "description": "Create a task in a ClickUp list. Requires name and list_id — always ask the user which list. Supports assignees (user IDs, emails, usernames, or \"me\") and task_type by name.",
+            "name": "clickup_create_task"
+          },
+          {
+            "description": "Retrieve a ClickUp task by ID (supports custom IDs like 'DEV-1234'). Returns a compact summary by default — core fields are always included, large sections appear as counts only (e.g. custom_fields_count: 3). Use include to fetch full data for specific sections: include: [\"custom_fields\", \"description\"]. Set expand_statuses=true to list valid statuses for update_task. URL disambiguation: a bare /t/<id> or /t/<workspace>/<id> ClickUp URL is a task, but in chat thread URLs (/v/cn/<channel_id>/t/<id> or /chat/r/<channel_id>/t/<id>) the trailing id is a chat MESSAGE id — use clickup_get_chat_message_replies for those.",
+            "name": "clickup_get_task"
+          },
+          {
+            "description": "Retrieve tasks with combined filters (tags, lists, folders, spaces, statuses, assignees, due date range, completion date range, custom field values). Multiple values within a filter use OR logic; across filters, AND logic applies (custom_fields entries also AND together). Best for filtering tasks by structured field values. For text/keyword search across all workspace content, use search instead. Custom field filters need field IDs — discover them with clickup_get_custom_fields. Results are paginated at 100 tasks per page: the response includes has_more and next_page, and when has_more is true you MUST call again with page set to next_page (repeating until has_more is false) to retrieve every matching task — a single call is not guaranteed to be complete. Assignees must be numeric user IDs — use clickup_resolve_assignees to convert names/emails/\"me\". Date filters use YYYY-MM-DD. For a single task by ID, use clickup_get_task.",
+            "name": "clickup_filter_tasks"
+          },
+          {
+            "description": "Update task properties. Requires task_id and at least one field to change. Supports assignees (user IDs, emails, usernames, or \"me\"), custom fields as [{id, value}], and task_type by name (or 'none' to reset).",
+            "name": "clickup_update_task"
+          },
+          {
+            "description": "Delete a task by task_id (supports custom IDs like 'DEV-1234'). Always confirm the task_id with the user before deleting.",
+            "name": "clickup_delete_task"
+          },
+          {
+            "description": "Move a task to a new home list. Requires task_id and list_id (supports custom IDs). Use clickup_get_list to resolve list names.",
+            "name": "clickup_move_task"
+          },
+          {
+            "description": "Add a task to an additional list (keeps current home list). Requires the Tasks in Multiple Lists ClickApp to be enabled.",
+            "name": "clickup_add_task_to_list"
+          },
+          {
+            "description": "Remove a task from an additional list (cannot remove from home list). Requires the Tasks in Multiple Lists ClickApp to be enabled.",
+            "name": "clickup_remove_task_from_list"
+          },
+          {
+            "description": "Merge one or more source tasks into a target task. The target task survives and absorbs content from the source tasks, which are consumed. Destination field values take precedence on conflicts. Works with both regular task IDs and custom IDs (like 'DEV-1234').",
+            "name": "clickup_merge_tasks"
+          },
+          {
+            "description": "Start time tracking on a task. Supports description, billable status, and tags. Only one timer can be running at a time. For best results, omit extra parameters unless specifically needed.",
+            "name": "clickup_start_time_tracking"
+          },
+          {
+            "description": "Stop the currently running time tracker. Supports description and tags. Returns the completed time entry details.",
+            "name": "clickup_stop_time_tracking"
+          },
+          {
+            "description": "Add a manual time entry to a task. You can provide either (start + duration) OR (start + end). The tool will calculate missing values. Requires task_id, start time, and either duration or end time. Supports description, billable flag, and tags.",
+            "name": "clickup_add_time_entry"
+          },
+          {
+            "description": "Get the currently running time entry, if any. No parameters needed.",
+            "name": "clickup_get_current_time_entry"
+          },
+          {
+            "description": "Get time entries with optional filtering by task, date range, assignee, and billable status. Pass task_id to scope to a single task, or omit for [REDACTED] results. IMPORTANT: without assignee, only the authenticated user's entries are returned — pass 'any' to get all users' entries, or specific user IDs (comma-separated) for targeted queries.",
+            "name": "clickup_get_time_entries"
+          },
+          {
+            "description": "Get the time a task has spent in each status. Returns the current status with elapsed time and the full status history with time spent in each status. Requires the \"Total time in Status\" ClickApp to be enabled in the workspace.",
+            "name": "clickup_get_task_time_in_status"
+          },
+          {
+            "description": "Get the time multiple tasks have spent in each status (bulk operation, up to 100 tasks). Returns a map of task IDs to their status history and current status time data. Requires the \"Total time in Status\" ClickApp to be enabled in the workspace.",
+            "name": "clickup_get_bulk_tasks_time_in_status"
+          },
+          {
+            "description": "Run one enabled Unified API operator (a `<model>.<operator>` pair) as the authenticated user, in the session workspace. Only the operators enabled on this server are callable — call clickup_get_operators first: it lists them with each one's parameters and request-body schema. Prefer the dedicated clickup_* tools when one covers the job. workspace_id is taken from the session and cannot be overridden. Errors carry the upstream status, operationId and response body. Do not retry a call that timed out — the operation may have completed.",
+            "name": "clickup_execute_operator"
+          },
+          {
+            "description": "Lists the Unified API operators enabled on this server (`<model>.<operator>` pairs) with each one's HTTP route, parameters and request/response body schema, as Markdown. Call this before clickup_execute_operator to build a correct call. Operators that are not enabled are never shown.",
+            "name": "clickup_get_operators"
+          },
+          {
+            "description": "Returns the entity-relationship schema (Markdown with a Mermaid ER diagram) for the models behind the enabled Unified API operators. Optional background before a clickup_execute_operator call; not needed for the dedicated clickup_* tools.",
+            "name": "clickup_get_schema"
+          },
+          {
+            "description": "Search across all workspace content (tasks, docs, dashboards, attachments, whiteboards, chats, forms). Best for keyword/text matching across all content types. For filtering tasks by field values (status, priority, tags, dates), use filter_tasks instead. Supports filtering by assignees, creators, status, location, asset types, and date ranges. Date filters use YYYY-MM-DD or YYYY-MM-DD HH:MM format in your timezone. Results are paginated: the response includes next_cursor whenever more results exist. When next_cursor is present you MUST call search again with that value in the cursor field (repeating until next_cursor is absent) to retrieve every match — a single call is not guaranteed to be complete.",
+            "name": "clickup_search"
+          },
+          {
+            "description": "Get workspace hierarchy (spaces, folders, lists) with pagination and depth control. Use only when you need the workspace structure — most tools resolve names automatically.",
+            "name": "clickup_get_workspace_hierarchy"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "ClickUp": {
+        "type": "http",
+        "url": "https://mcp.clickup.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_9e1eb7890ede7208c07427c6304fb4b5fa68d642f1219aad1715636871755bd2"
+      }
+    }
+  }
+}

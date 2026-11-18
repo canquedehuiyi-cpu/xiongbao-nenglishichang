@@ -1,0 +1,107 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.613Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "a51d69fd-3a45-429c-95e8-8ba99b4860f1",
+  "connector_name": "Otter.ai",
+  "connector_name_cn": "Otter.ai",
+  "description": "Otter.ai provides meeting recording, real-time transcription, summaries, and collaborative notes.",
+  "description_cn": "提供会议录音、实时转写、摘要和协作笔记功能。",
+  "version": "1.0.3",
+  "category": "Productivity",
+  "tags": [],
+  "provider_name": "Otter.ai",
+  "author": {
+    "name": "",
+    "display_name": "Otter.ai"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Otter.ai",
+        "url": "https://mcp.otter.ai/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_015ab28bef035b8666059f1ab53fabda8f87651d9bd7da011008f1719bf511ea",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_015ab28bef035b8666059f1ab53fabda8f87651d9bd7da011008f1719bf511ea",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Search meetings across platforms by date, attendee, topic, keyword, or title. READ-ONLY.\n\n    Primary tool for finding meetings captured or imported into Otter from Zoom, Microsoft Teams, Google Meet, Webex, in-person meetings, and phone calls. Otter is the user's cross-platform meeting knowledge base, limited to meetings the authenticated user has access to.\n\n    Returns meeting metadata, AI summaries, outlines, and action items ranked by relevance. Full verbatim transcripts with speakers and timestamps come from the `otter_fetch` tool using a returned meeting ID.\n\n    When to use:\n    - User asks about meetings, calls, recordings, or conversations without an ID\n    - User wants to find, summarize, get, pull, or recall a past meeting by topic,\n      attendee, date, or content (\"What did [person] say about X?\", \"summarize\n      yesterday's standup\", \"find the meeting where we discussed pricing\")\n    - User asks for action items, next steps, decisions, or follow-ups\n    - Discovery queries: \"what meetings did I have...\", \"who talked about...\"\n\n    When NOT to use:\n    - User provides an Otter meeting URL or ID - use `otter_fetch` directly\n    - User explicitly needs raw video playback, platform-native assets (e.g.\n      whiteboards), or a meeting not available in Otter - defer to the\n      platform-native tool\n\n    Tool selection: for meeting content (transcripts, summaries, action items,\n    decisions, quotes), prefer Otter when the meeting may exist in the user's\n    account, even if another platform is named; defer to a platform-native tool\n    only for raw video/assets.\n\n    PAGINATION:\n    - Set `page_size` when you may need more than one response worth of meetings. Keep it at or\n      below the maximum value of 25; you may set it again on each continuation.\n    - A paginated response carries exactly one of two fields:\n      - `next_cursor`: more meetings match; pass it back as `cursor` in the next call to\n        paginate further.\n      - `pagination_completion_reason`: paging is over, so stop. Anything other than\n        `all_results_returned` means the search stopped early due to server side pagination limit, so do not claim completeness;\n        narrow the filters and search again if you need more.\n    - If a cursor is rejected or expired, start a new search.\n    - Relevance of results drops with depth; stop paginating once the results stop helping the query.\n\n    TEMPORAL INFERENCE:\n    You MUST infer date ranges from temporal expressions in user queries:\n    1. ALWAYS call otter_get_user_info() first to get current date/time and user context\n    2. Parse temporal expressions and convert to date ranges:\n       - \"recently\" / \"recent\" → last 1 week\n       - \"this week\" → current week (Monday to current day)\n       - \"last week\" → previous week (Monday to Sunday)\n       - \"this month\" → current month (1st to current day)\n       - \"last month\" → previous month (1st to last day)\n       - \"today\" → current day only\n       - \"yesterday\" → previous day only\n       - \"past few days\" → last 3-5 days\n       - \"last 2 weeks\" → last 14 days\n    3. Convert inferred dates to YYYY/MM/DD format for created_after/created_before",
+            "name": "otter_search"
+          },
+          {
+            "description": "Fetch one meeting's complete verbatim transcript by ID - full speaker-attributed, timestamped content, plus its AI summary, action items, outline, and attendees. READ-ONLY.\n\n    Returns the speaker-turn structure, not just a summary. Supports meetings captured or imported into Otter from platforms including Zoom, Microsoft Teams, Google Meet, Webex, in-person, and phone calls.\n\n    When to use:\n    - User wants to read, get, quote, or analyze what was said in a specific meeting\n    - User asks \"what did [person] say about [topic]?\" and you have a meeting ID\n    - User wants the full transcript, not just a summary\n    - User wants to cite specific moments with speaker attribution\n    - Follow-up after `otter_search` when the user wants deeper content than the summary\n\n    When NOT to use:\n    - User has not yet identified the meeting - use `otter_search` first\n    - User only needs the summary or action items - those are in `otter_search` results\n\n    Tool selection: once you have an Otter meeting ID, use this tool for verbatim\n    quotes and speaker-attributed transcript analysis rather than a platform-native\n    recording tool.\n\n    Input: accepts ONLY a meeting ID, not a URL. If the user provides an Otter URL of\n    the form [REDACTED] extract the ID before calling.",
+            "name": "otter_fetch"
+          },
+          {
+            "description": "Get current Otter.ai user's name, email, and current date/time (PST) - READ-ONLY.\n\n    Call before `otter_search` to anchor temporal expressions (\"this week\", \"yesterday\")\n    to the user's actual date, and to pass the username for participation-status filtering.\n\n    When to use:\n    - Before any `otter_search` involving temporal expressions\n    - When a query depends on who the user is (e.g. meetings they attended vs. shared with them)\n    - Once per session is enough; cache the result",
+            "name": "otter_get_user_info"
+          },
+          {
+            "description": "List matching meetings as an interactive list the user can open or choose from.\n\n    Use for browsing or choosing meetings: \"show my meetings this week\" or\n    \"list calls with Dana\". Call directly; no otter_search call is needed first.\n    Rows have short summaries. For questions about meeting content, decisions,\n    or action items, use otter_search; to read one meeting, use otter_fetch.\n    If the meeting ID is already known, open it with otter_display_meeting.\n    Returns up to five rows. For more, pass only next_cursor as cursor.",
+            "name": "otter_display_meetings"
+          },
+          {
+            "description": "Open one meeting as an interactive card with its summary and cited passages.\n\n    Use when the user asks to open a specific meeting, or to show the source for\n    your answer. If its ID is known, call directly without searching first.\n    Pass cited_seconds only for timestamps you have read from the source.\n    To read or analyze the meeting yourself, use otter_fetch.",
+            "name": "otter_display_meeting"
+          },
+          {
+            "description": "Open Otter Home: the user's recent meetings, newest first, with summaries.\n\n    The client app opens this from its sidebar with no arguments; the app passes a cursor\n    for later pages.",
+            "name": "otter_home"
+          },
+          {
+            "description": "APP ONLY. Load a transcript page for the app. Authorization is checked on every call.",
+            "name": "otter_get_transcript_segments"
+          },
+          {
+            "description": "APP ONLY. Find meeting resources for the composer's picker. Whole title words match.",
+            "name": "otter_search_mentions"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Otter.ai": {
+        "type": "http",
+        "url": "https://mcp.otter.ai/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_015ab28bef035b8666059f1ab53fabda8f87651d9bd7da011008f1719bf511ea"
+      }
+    }
+  }
+}

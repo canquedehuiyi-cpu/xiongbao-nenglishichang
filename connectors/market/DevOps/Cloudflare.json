@@ -1,0 +1,93 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.498Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "DevOps",
+  "categoryCode": "DevOps",
+  "connector_id": "0623d853-eda8-4d7a-95d1-cb0e2ea2086c",
+  "connector_name": "Cloudflare",
+  "connector_name_cn": "Cloudflare",
+  "description": "Cloudflare provides network performance and security through CDN, DNS, edge computing, DDoS protection, and zero-trust services.",
+  "description_cn": "提供网络性能与安全服务，包括 CDN、DNS、边缘计算、DDoS 防护和零信任安全。",
+  "version": "1.0.2",
+  "category": "DevOps",
+  "tags": [
+    "qoder-vibe",
+    "qoder-pro"
+  ],
+  "provider_name": "Cloudflare",
+  "author": {
+    "name": "",
+    "display_name": "Cloudflare"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Cloudflare",
+        "url": "https://mcp.cloudflare.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_233781b1f7713ab5e656405249922c9e4ebff93624076aa09fff9cf5180bd7ab",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_233781b1f7713ab5e656405249922c9e4ebff93624076aa09fff9cf5180bd7ab",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Search the Cloudflare documentation.\n\n\t\tThis tool should be used to answer any question about Cloudflare products or features, including:\n\t\t- Workers, Pages, R2, Images, Stream, D1, Durable Objects, KV, Workflows, Hyperdrive, Queues\n\t\t- AI Search, Workers AI, Vectorize, AI Gateway, Browser Rendering\n\t\t- Zero Trust, Access, Tunnel, Gateway, Browser Isolation, WARP, DDOS, Magic Transit, Magic WAN\n\t\t- CDN, Cache, DNS, Zaraz, Argo, Rulesets, Terraform, Account and Billing\n\n\t\tResults are returned as semantically similar chunks to the query.",
+            "name": "docs"
+          },
+          {
+            "description": "Search the Cloudflare OpenAPI spec. All $refs are pre-resolved inline. Response schemas describe the body as the API sends it, usually Cloudflare's envelope: `{ success, errors, messages, result }`, plus `result_info` on paginated lists.\n\nProducts: cloudforce-one, access, workers, magic, dlp, email-security, realtime, email, devices, ai-gateway, data-security, intel, gateway, settings, stream, brand-protection, ai-search, builds, security-center, browser-rendering, addressing, dex, images, logpush, api_gateway, cws, load_balancers, firewall, rulesets, vectorize... (172 total)\n\nTypes:\n\ninterface OperationInfo {\n  summary?: string;\n  \"x-api-token-group\"?: string[]; // API token permissions the endpoint accepts (any one); OAuth scopes have the same names\n  description?: string;\n  tags?: string[];\n  parameters?: Array<{ name: string; in: string; required?: boolean; schema?: unknown; description?: string }>;\n  requestBody?: { required?: boolean; content?: Record<string, { schema?: unknown }> };\n  // Each schema describes the body as the API sends it, usually the envelope { success, errors, messages, result, result_info? }\n  responses?: Record<string, { description?: string; content?: Record<string, { schema?: unknown }> }>;\n}\n\ninterface PathItem {\n  get?: OperationInfo;\n  post?: OperationInfo;\n  put?: OperationInfo;\n  patch?: OperationInfo;\n  delete?: OperationInfo;\n}\n\ndeclare const spec: {\n  paths: Record<string, PathItem>;\n};\n\n\nExamples:\n\n// Find endpoints by product\nasync () => {\n  const results = [];\n  for (const [path, methods] of Object.entries(spec.paths)) {\n    for (const [method, op] of Object.entries(methods)) {\n      if (op.tags?.some(t => t.toLowerCase() === 'workers')) {\n        results.push({ method: method.toUpperCase(), path, summary: op.summary });\n      }\n    }\n  }\n  return results;\n}\n\n// Get endpoint with requestBody schema (refs are resolved)\nasync () => {\n  const op = spec.paths['/accounts/{account_id}/d1/database']?.post;\n  return { summary: op?.summary, requestBody: op?.requestBody };\n}\n\n// Get endpoint parameters\nasync () => {\n  const op = spec.paths['/accounts/{account_id}/workers/scripts']?.get;\n  return op?.parameters;\n}",
+            "name": "search"
+          },
+          {
+            "description": "Execute JavaScript code that can read, create, update, or delete resources through the Cloudflare API. First use the 'search' tool to find the right endpoints, then write code using the cloudflare.request() function.\n\nAvailable in your code:\n\ninterface CloudflareRequestOptions {\n  method: \"GET\" | \"POST\" | \"PUT\" | \"PATCH\" | \"DELETE\";\n  path: string;\n  query?: Record<string, string | number | boolean | undefined>;\n  // Objects and arrays are sent as JSON. Bytes (Uint8Array, ArrayBuffer), Blob, FormData,\n  // URLSearchParams, streams, and strings with a non-JSON contentType are sent as they are. A string\n  // with a JSON contentType, or none, is sent as it is when it is already JSON, else as a JSON string.\n  body?: unknown;\n  // Content-Type header. Defaults to application/json for JSON bodies. Leave it unset for FormData,\n  // whose multipart boundary fetch adds.\n  contentType?: string;\n}\n\n// The response body as the API sends it. Most APIs wrap it in this envelope; a few send their JSON\n// bare (the spec's response schema shows which). Non-JSON responses are text, or a Uint8Array for\n// binary content (images, PDFs, archives). Bytes in the value your code returns appear as\n// { base64, byteLength }. A failed request throws.\ninterface CloudflareEnvelope<T = unknown> {\n  success: boolean;\n  errors: Array<{ code: number; message: string }>;\n  messages: Array<{ code: number; message: string }>;\n  result: T;\n  result_info?: { page: number; per_page: number; total_pages: number; count: number; total_count: number };\n}\n\ndeclare const cloudflare: {\n  request<T = CloudflareEnvelope>(options: CloudflareRequestOptions): Promise<T>;\n};\n\ndeclare const accountId: string;\n\n\nWhen the session has access to multiple accounts, pass account_id. Call GET /accounts to discover available accounts. Paginate as needed, or filter by exact name with GET /accounts?name=<exact account name>.\n\nYour code must be an async arrow function that returns the result.\nA failed request throws an Error naming the method, path, HTTP status and Cloudflare's errors. For HTTP 401/403 it also says which permission the endpoint needs and whether reconnecting will help. Requests slow down by themselves near a rate limit. For HTTP 429 the error says how long Cloudflare asks to wait; until then, requests under the same limit are not sent and throw too, so stop instead of catching and continuing.\n\nExample: Worker with bindings (a multipart/form-data upload):\nasync () => {\n  const code = `export default { async fetch(request, env) { return new Response(await env.MY_KV.get('key') || 'none') } };`;\n  const metadata = { main_module: \"worker.js\", bindings: [{ type: \"kv_namespace\", name: \"MY_KV\", namespace_id: \"your-kv-id\" }] };\n  const form = new FormData();\n  form.append(\"metadata\", new Blob([JSON.stringify(metadata)], { type: \"application/json\" }));\n  form.append(\"worker.js\", new Blob([code], { type: \"application/javascript+module\" }), \"worker.js\");\n  return cloudflare.request({ method: \"PUT\", path: `/accounts/${accountId}/workers/scripts/my-worker`, body: form });\n}",
+            "name": "execute"
+          },
+          {
+            "name": "whoami"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Cloudflare": {
+        "type": "http",
+        "url": "https://mcp.cloudflare.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_233781b1f7713ab5e656405249922c9e4ebff93624076aa09fff9cf5180bd7ab"
+      }
+    }
+  }
+}

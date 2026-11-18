@@ -1,0 +1,11 @@
+{
+  "source": "local-installed(~/.qoder-cn/skills)",
+  "name": "p8-full-stack",
+  "canonicalName": "p8-full-stack",
+  "version": "1.0.1",
+  "publisher": "UNKNOWN",
+  "license": "MIT",
+  "marketId": "UNKNOWN",
+  "sha256": "UNKNOWN",
+  "note": "本机已安装副本；_meta.json 字段有限，未核到市场 id 时写 UNKNOWN"
+}

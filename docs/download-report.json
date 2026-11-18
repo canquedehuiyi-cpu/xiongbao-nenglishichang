@@ -1,0 +1,75 @@
+{
+  "generatedAt": "2026-11-18T10:49:03.769Z",
+  "script": "scripts/download-assets.js",
+  "args": {
+    "manifest": "market-api\\downloads-manifest.ndjson",
+    "kind": "plugin",
+    "ids": 2,
+    "limit": "all",
+    "concurrency": 4,
+    "retries": 2,
+    "maxBytes": 157286400,
+    "top": 200,
+    "force": true
+  },
+  "input": {
+    "manifestLines": 2566,
+    "manifestUnique": 2566,
+    "manifestKinds": {
+      "skill": 2284,
+      "mcp": 128,
+      "plugin": 154
+    },
+    "catalogTopRows": 2566,
+    "resumeIndexLoaded": 2564,
+    "rowsThisRun": 2
+  },
+  "result": {
+    "ok": 2,
+    "resumed": 0,
+    "skipped": 0,
+    "fail": 0,
+    "byKind": {
+      "plugin": {
+        "ok": 2,
+        "resumed": 0,
+        "skipped": 0,
+        "fail": 0
+      }
+    },
+    "downloadedBytesNew": 138189,
+    "filesWrittenNew": 63,
+    "bytesByKind": {
+      "plugin": 138189
+    }
+  },
+  "credentialScanOfDownloaded": {
+    "textFilesScanned": 60,
+    "filesRedacted": 0,
+    "kvRedactions": 0,
+    "jwtRedactions": 0,
+    "prefixedSecretRedactions": 0,
+    "placeholdersKept": 0,
+    "codeishCandidatesKept": 2,
+    "codeishSampleMax": 200
+  },
+  "codeishCandidatesKeptList": [
+    {
+      "file": "plugins/market/Coding/matt-pocock-skills/skills/wizard/template.sh",
+      "key": "_SECRET",
+      "valueLength": 2
+    },
+    {
+      "file": "plugins/market/Coding/matt-pocock-skills/skills/writing-for-agents/SKILL.md",
+      "key": "token",
+      "valueLength": 1
+    }
+  ],
+  "categoryResolution": {
+    "unresolvedRows": 0,
+    "mapWritten": "docs/category-dir-map.json"
+  },
+  "tempDirLeftover": 1,
+  "elapsedMs": 2821,
+  "integrityNote": "上游 sha256 基线在本快照中不可用（apphub-client 的 32-64 位 hex 值级脱敏把 details/*/file_hash 一并替换为 <REDACTED>；技能详情端点不返 file_hash/file_size），故 zip 的 sha256 由本脚本自算后写入资产 manifest.json 与 downloaded-index.ndjson，作为后续复算/续跑基线。"
+}

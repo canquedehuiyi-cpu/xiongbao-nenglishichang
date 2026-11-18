@@ -1,0 +1,81 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.559Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Knowledge",
+  "categoryCode": "Knowledge",
+  "connector_id": "tiktok-for-business",
+  "connector_name": "tiktok-for-business",
+  "connector_name_cn": "TikTok for Business",
+  "description": "TikTok for Business connects its official Ads MCP server to Qoder so you can manage and analyze advertising end to end in natural language. Browse campaigns, ad groups and ads, query performance reports and metrics, explore audience and creative options, and look up advertiser accounts and business assets. Tool calls run with the permissions of the TikTok for Business account you authorize during OAuth.",
+  "description_cn": "TikTok for Business 通过官方 Ads MCP 服务接入 Qoder，用自然语言完成广告投放全流程操作与分析：浏览与管理广告系列、广告组和广告，查询投放报表与效果指标，检索受众与素材信息，查看广告主账户与商务资产。首次连接时在浏览器完成 TikTok for Business 账号授权，可访问范围取决于所授权广告主账号的权限与角色。",
+  "version": "1.0.0",
+  "category": "Knowledge",
+  "tags": [
+    "广告",
+    "营销",
+    "TikTok",
+    "数据分析",
+    "投放"
+  ],
+  "provider_name": "TikTok",
+  "author": {
+    "name": "TikTok for Business",
+    "display_name": "TikTok for Business"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoder",
+    "qodercli",
+    "qoderapp",
+    "cloudagent"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "tiktok-ads-mcp",
+        "url": "https://business-api.tiktok.com/open_mcp/tt-ads-mcp-flat",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "TikTok for Business Ads MCP（广告管理、报表与素材）",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_42713e1ed38d8505fab358c944b6c2517e253547e49df2a14cd406760a40862c",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_42713e1ed38d8505fab358c944b6c2517e253547e49df2a14cd406760a40862c",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "tiktok-ads-mcp": {
+        "type": "http",
+        "url": "https://business-api.tiktok.com/open_mcp/tt-ads-mcp-flat",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_42713e1ed38d8505fab358c944b6c2517e253547e49df2a14cd406760a40862c"
+      }
+    }
+  }
+}

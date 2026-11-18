@@ -1,0 +1,74 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.532Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Finance",
+  "categoryCode": "Finance",
+  "connector_id": "676039c0-aae2-44c2-a7b7-810b42810fe5",
+  "connector_name": "PayPal Business",
+  "connector_name_cn": "PayPal Business",
+  "description": "PayPal Business provides online payments, collections, refunds, and transaction management for businesses.",
+  "description_cn": "提供企业在线支付、收款、退款和交易管理服务。",
+  "version": "1.0.3",
+  "category": "Finance",
+  "tags": [],
+  "provider_name": "PayPal Business",
+  "author": {
+    "name": "",
+    "display_name": "PayPal Business"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "PayPal Business",
+        "url": "https://mcp.paypal.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_19258fbc0993442125b498746fe83b64056c31bcd9a30beeba5014524608d862",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_19258fbc0993442125b498746fe83b64056c31bcd9a30beeba5014524608d862",
+        "api_key_help_url": "<REDACTED>",
+        "tools": []
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "PayPal Business": {
+        "type": "http",
+        "url": "https://mcp.paypal.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_19258fbc0993442125b498746fe83b64056c31bcd9a30beeba5014524608d862"
+      }
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.455Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "baserow",
+  "connector_name": "Baserow",
+  "connector_name_cn": "Baserow",
+  "description": "View Baserow tables and field definitions, and read, create, update, or delete table rows. Search, filter, and sort records to maintain business data in existing tables.",
+  "description_cn": "查看 Baserow 数据表及字段定义，查询、创建、更新和删除表内数据行。支持按搜索条件、排序和筛选条件读取记录，适合维护已有表中的业务数据。",
+  "version": "1.0.0",
+  "category": "Database & Analytics",
+  "tags": [
+    "database",
+    "no_code",
+    "collaboration"
+  ],
+  "provider_name": "Baserow",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "baserow",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_bc08dcb4cc6bbd8cdc89f2324744e529069fbd430757c6481560c05a6406c7be",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Manage Baserow databases, tables, fields, rows, and collaborative data workflows.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_bc08dcb4cc6bbd8cdc89f2324744e529069fbd430757c6481560c05a6406c7be",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "baserow",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_bc08dcb4cc6bbd8cdc89f2324744e529069fbd430757c6481560c05a6406c7be",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Create one row in a Baserow table.",
+            "name": "create_table_row"
+          },
+          {
+            "description": "Delete one Baserow row by row ID.",
+            "name": "delete_table_row"
+          },
+          {
+            "description": "Read one Baserow row by table ID and row ID.",
+            "name": "get_table_row"
+          },
+          {
+            "description": "List the field definitions for one Baserow table.",
+            "name": "list_table_fields"
+          },
+          {
+            "description": "List rows from one Baserow table with optional search, ordering, filters, and pagination.",
+            "name": "list_table_rows"
+          },
+          {
+            "description": "List the Baserow tables accessible to the authenticated database token.",
+            "name": "list_tables"
+          },
+          {
+            "description": "Update one existing Baserow row.",
+            "name": "update_table_row"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "baserow": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_bc08dcb4cc6bbd8cdc89f2324744e529069fbd430757c6481560c05a6406c7be",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_bc08dcb4cc6bbd8cdc89f2324744e529069fbd430757c6481560c05a6406c7be"
+      }
+    }
+  }
+}

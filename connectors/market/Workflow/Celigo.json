@@ -1,0 +1,112 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.664Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Workflow",
+  "categoryCode": "Workflow",
+  "connector_id": "celigo",
+  "connector_name": "Celigo",
+  "connector_name_cn": "Celigo",
+  "description": "Connect to Celigo integrator.io to list and inspect flows, imports, and exports, and retrieve a connection or current token information. Review existing integration resources and configuration without tools for creating or running flows.",
+  "description_cn": "连接 Celigo integrator.io，列出和读取集成流程、导入与导出配置，查询指定连接和当前令牌信息。适合了解已有集成资源与配置，不包含创建或运行流程的工具。",
+  "version": "1.0.0",
+  "category": "Workflow",
+  "tags": [
+    "integration",
+    "automation",
+    "workflow"
+  ],
+  "provider_name": "Celigo",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "celigo",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4d44aa15c7923566fe7f9033f119f3939fa9d8848d378d6b059b25eb0ad6300d",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Connect to Celigo integrator.io to inspect token information and access integration resources exposed by the connector, subject to your token permissions.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4d44aa15c7923566fe7f9033f119f3939fa9d8848d378d6b059b25eb0ad6300d",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "celigo",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_4d44aa15c7923566fe7f9033f119f3939fa9d8848d378d6b059b25eb0ad6300d",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Get one Celigo connection by connection ID.",
+            "name": "get_connection"
+          },
+          {
+            "description": "Get one Celigo export by export ID.",
+            "name": "get_export"
+          },
+          {
+            "description": "Get one Celigo flow by flow ID.",
+            "name": "get_flow"
+          },
+          {
+            "description": "Get one Celigo import by import ID.",
+            "name": "get_import"
+          },
+          {
+            "description": "Get metadata for the current Celigo API token.",
+            "name": "get_token_info"
+          },
+          {
+            "description": "List exports available in the current Celigo account.",
+            "name": "list_exports"
+          },
+          {
+            "description": "List flows available in the current Celigo account.",
+            "name": "list_flows"
+          },
+          {
+            "description": "List imports available in the current Celigo account.",
+            "name": "list_imports"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "celigo": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4d44aa15c7923566fe7f9033f119f3939fa9d8848d378d6b059b25eb0ad6300d",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4d44aa15c7923566fe7f9033f119f3939fa9d8848d378d6b059b25eb0ad6300d"
+      }
+    }
+  }
+}

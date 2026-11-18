@@ -1,0 +1,127 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.598Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Other",
+  "categoryCode": "Other",
+  "connector_id": "a6a08e93-3566-47cb-bc30-0ec07e4191a6",
+  "connector_name": "AMAP Cloud Map",
+  "connector_name_cn": "高德云图",
+  "description": "Provides map data, business insights, site selection, and operations services.",
+  "description_cn": "提供地图数据、商业洞察、选址经营等服务",
+  "version": "1.0.2",
+  "category": "Other",
+  "tags": [],
+  "provider_name": "AMAP Cloud Map",
+  "author": {
+    "name": "",
+    "display_name": "AMAP Cloud Map"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "qoder",
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "AMAP Cloud Map",
+        "url": "https://yt-gateway.amap.com/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_6e343bfe3fc46037598b66a83f2d55d2cf9efaca7821e99087afa72215ceca56",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_6e343bfe3fc46037598b66a83f2d55d2cf9efaca7821e99087afa72215ceca56",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "行政区查询 ### 给定行政区的 adcode（或行政区名称、citycode），返回行政区信息，包含 adcode、名称、中心点、行政区级别等。行政区划级别包括：国家、省/直辖市、市、区/县。",
+            "name": "amap_v3_config_district"
+          },
+          {
+            "description": "POI详情查询 ### 通过 POI ID 查询某个 POI 详情信息，返回包含名称、地址、经纬度、类型、商圈、评分、照片等完整信息。返回结果结构与关键字搜索的POI信息一致。",
+            "name": "amap_v3_place_detail"
+          },
+          {
+            "description": "IP 城市定位 ### 本接口根据 IPv4 地址查询归属城市信息。\n\n#### 关键使用规则\n- ip 必填：仅支持 IPv4（国内 IP）\n- 返回城市级粗略位置（中心点坐标 + 提示文案）\n- district 恒为 null（能力缺口）\n\n#### 无结果契约\n- 局域网 IP：code=0, data=null, msg=\"该 IP 为内网/局域网地址，无法定位\"\n- 国外或无归属 IP：code=0, data=null, msg=\"该 IP 为国外或非法地址，无法定位\"\n- IPv6 或格式非法：code=3001 + 精确指引",
+            "name": "amap_aggregator_ip_city_location"
+          },
+          {
+            "description": "常驻分析-AOI-月级 ### 本接口用于按指定月份（YYYYMM）、指定AOI区域（aoiId）和人群统计口径（statsType），查询目标 AOI 区域内人群的精细化画像标签数据。\n\n【关键使用规则】\n - 所有参数均为必填项。\n - 画像标签（profile）必须由用户显式指定；若未提供，系统不得自动填充默认值（如 uv、age 等），而应主动引导用户从全部78个可用标签中进行选择。\n - 仅当用户明确提供至少一个有效标签后，方可发起查询。 \n - 优先使用交互式表单引导用户选择缺失的必填参数，而非自动填充默认值。",
+            "name": "amap_gapi_month_aoi_pmnt_insight"
+          },
+          {
+            "description": "路线规划 ### 本接口支持驾车、步行、骑行、公交、纯距离测算五种出行模式。\n\n#### 关键使用规则\n- travel_mode 必填：driving/walking/bicycling/transit/distance_only\n- origin 和 destination 必填，格式为 `经度,纬度`\n- distance_only 模式下 origin 支持 `|` 分隔多起点（≤100 个）\n- 驾车模式可指定 strategy（0-45，默认 32）\n- 公交模式可指定 strategy（0-8，默认 0）和 origin_city/destination_city\n- distance_only 可指定 distance_type：0=直线/1=驾车（默认）/3=步行（≤5km）\n\n#### 无结果契约\n- 无可行路线：code=0, data=null, msg=\"未找到可行路线，可尝试其他出行方式\"\n- 无公交方案：code=0, data=null, msg=\"未找到公交方案，可尝试驾车或骑行\"",
+            "name": "amap_aggregator_route_plan"
+          },
+          {
+            "description": "客流分析-行政区-月均天级 ### 本接口用于查询指定月份（YYYYMM）、行政区划（adcode）及时间类型（dayType，如工作日/周末/节假日）下的月均天级人群精细化画像标签数据。\n\n#### 关键使用规则\n - 所有参数均为必填项。\n - 画像标签（profile）必须由用户显式指定，支持以英文逗号分隔的多个标签；若未提供，系统不得自动填充默认值（如 uv、age 等），而应主动引导用户从全部78个可用标签中进行选择。\n - 仅当用户明确提供至少一个有效画像标签后，方可发起查询。 \n - 优先使用交互式表单引导用户选择缺失的必填参数，而非自动填充默认值。\n\n#### 特别提示\n- 若用户未指定具体小时信息，应优先使用本工具进行“月均天级”数据的查询。对于需要小时级别精度的数据，请使用专门的小时级数据查询工具。\n - 返回字段中 chargeCnt 无意义，请勿解读和解释。",
+            "name": "amap_gapi_month_adcode_flow_insight"
+          },
+          {
+            "description": "客流分析-AOI-月均小时级 ### 本工具用于查询指定月份（\"YYYYMM\"）、AOI 区域（\"aoiId\"）、小时段（0–23 点）及时间类型（\"dayType\"，如“工作日”“周末”“节假日”）下，该 AOI 区域在指定时段内的平均到访客流规模及其到访人群的画像标签分布。\n\n### 关键使用规则\n- 所有参数（月份、aoiId、小时段、dayType、画像标签）均为必填项。\n- 画像标签（profile）必须由用户显式提供，支持多个标签（以英文逗号分隔）；  \n  若未提供，不得自动填充默认值（如 \"uv\"、\"age\" 等），而应引导用户从全部 10 个可用标签中选择。\n- 仅当用户提供至少一个有效画像标签后，方可发起查询。\n- 若存在缺失参数，应优先通过交互式表单引导用户补全，禁止自动填充或跳过。\n\n### 使用场景说明\n- 仅当用户明确提及具体小时或小时段（如“18点”“晚高峰”“上午9–11点”等）时，才应调用本工具。  \n- 若用户未指定小时信息，请使用月均天级 AOI 查询工具。\n - 返回字段中 chargeCnt 无意义，请勿解读和解释。",
+            "name": "amap_gapi_month_hour_aoi_flow_insight"
+          },
+          {
+            "description": "客流分析-AOI-月均天级 ### 本接口用于按指定月份（`YYYYMM`）、AOI 区域（`aoiId`）和时间类型（`dayType`，如“工作日”“周末”“节假日”），查询该 AOI 范围内人群的精细化画像标签数据。\n\n#### 关键使用规则\n - 所有参数均为必填项。\n - 画像标签（profile）必须由用户显式指定，支持以英文逗号分隔的多个标签；若未提供，系统不得自动填充默认值（如 uv、age 等），而应主动引导用户从全部78个可用标签中进行选择。\n - 仅当用户明确提供至少一个有效画像标签后，方可发起查询。 \n - 优先使用交互式表单引导用户选择缺失的必填参数，而非自动填充默认值。\n\n#### 特别提示\n- 若用户未指定具体小时信息，应优先使用本工具进行“月均天级”数据的查询。对于需要小时级别精度的数据，请使用专门的小时级数据查询工具。\n - 返回字段中 chargeCnt 无意义，请勿解读和解释。",
+            "name": "amap_gapi_month_aoi_flow_insight"
+          },
+          {
+            "description": "常驻分析-行政区-月级 ### 该工具支持根据指定月份（YYYYMM）和行政区划代码（adcode），按以下任一统计口径圈定目标人群：居住地（home）、工作地（work）、常驻地（permanent）或活跃地（active），并查询该人群的一个或多个画像标签。所有参数（月份、adcode、统计口径 statsType、画像标签 profile）均为必填，其中 profile 支持以英文逗号分隔的多个标签。\n - 返回字段中 chargeCnt 无意义，请勿解读和解释。",
+            "name": "amap_gapi_month_adcode_pmnt_insight"
+          },
+          {
+            "description": "地址坐标互转 ### 本接口支持正向（地址→坐标）与逆向（坐标→地址）两种转换方向。\n\n#### 关键使用规则\n- convert_direction 必填：address_to_coord（正向）或 coord_to_address（逆向）\n- 正向转换时 address 必填，逆向转换时 location 必填\n- 正向可指定 city 限定城市范围（中文/拼音/citycode/adcode）\n- 逆向可指定 radius 搜索半径（0-3000 米，默认 1000）\n\n#### 无结果契约\n- 未匹配到地址：code=0, data=null, msg=\"未匹配到地址，请补充省市区等更详细的信息\"\n- 坐标未解析到地址：code=0, data=null, msg=\"该坐标未解析到地址信息\"",
+            "name": "amap_aggregator_geocode_convert"
+          },
+          {
+            "description": "客流分析-行政区-月均小时级 ### 本接口用于按指定月份（\"YYYYMM\"）、行政区划（\"adcode\"）、小时段（0–23 点）和时间类型（\"dayType\"，如“工作日”“周末”“节假日”），查询该行政区内指定小时段的平均到访客流规模及其到访人群的画像标签分布。\n\n#### 关键使用规则\n- 所有参数（月份、adcode、小时段、dayType、画像标签）均为必填项。\n- 画像标签（profile）必须由用户显式提供，支持多个标签（以英文逗号分隔）；  \n  若未提供，不得自动填充默认值（如 \"uv\"、\"age\" 等），而应引导用户从全部 10 个可用标签中选择。\n- 仅当用户提供至少一个有效画像标签后，方可发起查询。\n- 若存在缺失参数，应优先通过交互式表单引导用户补全，禁止自动填充或跳过。\n\n#### 特别说明\n- 仅当用户明确指定了具体小时（如“上午9点”“18:00”“晚高峰时段”等）时，才应使用本小时级工具。  \n- 若用户未提及小时信息，则应优先使用月均天级数据查询工具（非本工具）。\n - 返回字段中 chargeCnt 无意义，请勿解读和解释。",
+            "name": "amap_gapi_month_hour_adcode_flow_insight"
+          },
+          {
+            "description": "本地天气查询 ### 本接口查询指定城市的实时天气、预报天气或两者合并。中文城市名经内置映射表归一为 adcode。\n\n#### 关键使用规则\n- city 必填：支持中文城市名（如「北京」→110000）或 adcode 直传\n- query_type 可选：live（实时，默认）/ forecast（预报，4 天）/ all（两者合并）\n- 实时天气包含出行建议、户外活动风险、经营提示等业务化文案\n\n#### 错误处理\n- 未识别城市：code=3001, msg=\"未识别城市「X」，请提供城市 adcode（如 110000）\"",
+            "name": "amap_aggregator_local_weather_query"
+          },
+          {
+            "description": "POI关键字搜索 ### 根据用户输入的关键字进行 POI 搜索，并返回相关的信息，包含 poiId、名称、地址、经纬度、类型、商圈、评分等。支持按城市过滤和限制城市范围内搜索。同请求参数翻页查询最多支持获取200条数据。",
+            "name": "amap_v3_place_text"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "AMAP Cloud Map": {
+        "type": "http",
+        "url": "https://yt-gateway.amap.com/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_6e343bfe3fc46037598b66a83f2d55d2cf9efaca7821e99087afa72215ceca56"
+      }
+    }
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.606Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "xmind",
+  "connector_name": "Xmind",
+  "connector_name_cn": "Xmind",
+  "description": "Connect your AI assistant to Xmind to turn conversations, brainstorming, meeting notes and research into structured, editable mind maps. Find recently opened maps, read existing map content as an outline, and use it as context for summaries, planning or follow-up work. Create maps and refine existing ones by adding topics, revising wording, expanding branches and reorganizing ideas. The official MCP service also supports richer map elements and visual adjustments, including notes, labels, relationships, boundaries, summaries and color themes. Use it to organize project ideas, prepare a meeting follow-up or develop a research outline, then open the map in Xmind to review and continue editing. OAuth authorization is required. Accessible files depend on the authorized account and workspace; advanced elements and task features depend on the user's Xmind plan.",
+  "description_cn": "通过官方 MCP 服务连接 Xmind，将对话、头脑风暴、会议纪要和研究笔记整理成结构清晰、可继续编辑的思维导图。支持查找最近打开的导图、读取已有导图内容，并将其用于总结、规划和后续工作；也可创建新导图，添加主题、修改措辞、扩展分支或重新组织思路。服务还支持笔记、标签、关联线、边界、概要及配色等导图元素与样式调整，适合梳理项目想法、整理会议行动项和构建研究提纲。生成或修改后，可在 Xmind 中查看并继续完善。使用前需通过 OAuth 授权；可访问文件受账号和已授权工作空间限制，高级元素与任务功能取决于 Xmind 套餐。",
+  "version": "1.0.0",
+  "category": "Productivity",
+  "tags": [
+    "mind-mapping",
+    "brainstorming",
+    "planning",
+    "notes",
+    "xmind",
+    "qoder-vibe-new",
+    "qoder-pro-new"
+  ],
+  "provider_name": "Xmind",
+  "author": {
+    "name": "Xmind",
+    "display_name": "Xmind"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "xmind",
+        "url": "https://app.xmind.cn/api/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "在已授权工作空间中创建、查找、读取和编辑 Xmind 思维导图，整理思路并调整主题、导图元素和视觉样式。",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_341263c5cacc4f88027b2e37a59b89db3a1a963a870c330a51b82a375ef68d30",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_341263c5cacc4f88027b2e37a59b89db3a1a963a870c330a51b82a375ef68d30",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "name": "xmind_whoami"
+          },
+          {
+            "description": "Load the authoring guide for one kind of map BEFORE building it with xmind_create_mindmap or xmind_add_sheet — how that kind of content is cut, which `design` it takes, and a worked example of the markdown and its marks. Pick by what the user asked for:\n- `mindmap-general`: 没有更贴合的场景时用这个：知识梳理、概念讲解、读书和课程笔记、论证阐述、头脑风暴、目标树（OKR）、待办与日程，任何主题的结构化拆解。\n- `mindmap-travel`: 把一次出行排成能照着走的图：几天怎么安排、去哪住哪怎么去、目的地攻略、多城自驾路线、行前清单。\n- `mindmap-swot`: SWOT 分析、竞争态势评估、战略评估：把一个对象的内部优劣和外部机会威胁摆在一起，看清处境、推出策略。\n- `mindmap-comparison-decision`: 几个选项之间的比较和选择：A vs B、选型、采购、供应商评估、方案取舍，以及\"这个方案做不做\"。不是中立的知识介绍。\n- `mindmap-process-playbook`: 把会反复执行、要交给别人照着做的事写成能执行的流程：SOP、操作手册、故障处置、审批与交接、入职流程、检查清单。\n- `mindmap-timeline-narrative`: 按时间解释一件已发生的事怎么变过来：人物生平、公司或产品演变、技术史、一段历史、事故经过。打乱时期顺序意思就不对的，就是它。\n- `mindmap-meeting-notes`: 把一次会议的产出理成一张图：定了什么、谁去做、什么没定。纪要、周会同步、复盘会、会前议程都在这里。\nNothing fits → `mindmap-general`. Pass the same scenario on as `design.scenario`.",
+            "name": "xmind_get_mindmap_guide"
+          },
+          {
+            "description": "Use this when the user wants to create a mind map, visualize hierarchical ideas, or generate a Xmind file. The content has to be a HIERARCHY; `design.shape` then covers process, timeline, table and matrix layouts of one. Decline only what is not a hierarchy at all — a graph with cycles or arbitrary node-to-node edges.\n\nBefore writing, load the guide for this kind of map with xmind_get_mindmap_guide — how that content is cut, which `design` it takes, and a worked example of the markdown and its marks. Then fill `design` FIRST and write `markdown` to its plan: every field is explained on the parameter. A call whose markdown breaks the rules on the `markdown` parameter, or does not match its own plan, is rejected with every problem listed and nothing written — fix them all and resend.\n\nName no style value anywhere: `design` says what the content IS — its shape, its tone, the subject's own colour — and the server picks the skeleton style and palette that express it. Set it HERE: a follow-up xmind_set_color_theme costs a call and only half-changes the look.\n\nCreating the map is the first half of the task: emphasis, markers, grouping and any per-branch layout follow in the SAME turn (see the connection instructions for the full pass). xmind_set_color_theme acts on the whole sheet and needs no topic id. xmind_set_structure takes one either way — omit it to relayout the WHOLE sheet, pass a non-root topic id to restructure just that branch. xmind_set_topic_style and xmind_set_topic_attrs always need ids, and xmind_read_mindmap returns them.\n\nThis call displays nothing. When the map is finished — after this call and every follow-up — one call to xmind_show_mindmap is what puts it in front of the user.\n\nOptionally pass folderId (a folderId from xmind_list_folders or a spaceId from xmind_list_spaces (a space's root folder id IS its spaceId)) to choose where the file is created; omit it for the default space. Creating the file only produces the outline — refine it before telling the user it is done. The reply already carries the map as anchored markdown, so every topic id you need for refining is in hand — do not call xmind_read_mindmap just to get them.",
+            "name": "xmind_create_mindmap"
+          },
+          {
+            "description": "List mindmap files in the current team. Without folderId: the mindmaps the user recently opened, most recent first. With folderId (a folderId from xmind_list_folders or a spaceId from xmind_list_spaces (a space's root folder id IS its spaceId)): the mindmaps directly inside that folder, newest first, not including subfolders (with nameContains the folder is scanned by name instead, so those results come back in name order, NOT newest-first). Returns file IDs, names, times, and a thumbnailUrl (a preview image of the map you can show the user). Use this to find a mindmap before reading or editing it. Pass nameContains to filter by file name (case-insensitive substring) instead of paging: prefer it whenever the user names the map they want. In recent mode it costs nothing extra. In folder mode it scans the folder by name — bounded, so check scanTruncated; and there it matches only the first 100 characters of a name (recent mode matches the whole name). It searches one folder and does NOT descend into subfolders; when nothing matches you get that folder's subfolders back in `subfolders` so you can look in the right one next. Paginated: pass nextCursor back as cursor for the next page, and raise limit (max 50) when you need more per call. A cursor belongs to the call that produced it — keep nameContains the same when you page. **Do not page through a whole folder to answer a broad question like \"what files do I have\".** Report the first page and ask the user to narrow it down — a large drive would otherwise cost dozens of calls and hit the per-user rate limit. Keep paging only when the user asks for more. Recent mode gives an exact `total`; folder mode gives `folderChildCount`, which counts subfolders and non-mindmap files too, so say \"this folder has a lot in it\", never \"you have N mindmaps\".",
+            "name": "xmind_list_mindmaps"
+          },
+          {
+            "description": "List the spaces (top-level areas) of the current team that the user has access to. Each space's id doubles as its root folder id — pass a spaceId as folderId to xmind_list_folders, xmind_list_mindmaps, or xmind_create_mindmap. The entry marked isDefault is where mindmaps go when folderId is omitted. Typical flow: xmind_list_spaces → xmind_list_folders → xmind_create_folder / xmind_create_mindmap / xmind_move_file.",
+            "name": "xmind_list_spaces"
+          },
+          {
+            "description": "List the direct child folders of a folder or space, plus breadcrumbs back to the space root. Pass a spaceId from xmind_list_spaces or a folderId from a previous call as folderId (a space's root folder id IS its spaceId); omit it for the default space's root. Returns one level only — call again with a child's folderId to go deeper. When the response includes nextCursor, pass it back as cursor (with the same folderId) to fetch more folders at this level.",
+            "name": "xmind_list_folders"
+          },
+          {
+            "description": "Create a folder in the drive. Pass folderId to create it inside an existing folder or space; omit it to create at the root of the default space. The destination must be in the team this connection is authorized for. Returns the new folderId — pass it to xmind_create_mindmap or xmind_move_file to put files in it.",
+            "name": "xmind_create_folder"
+          },
+          {
+            "description": "Move one or more mindmap files into a folder or space. Pass every file you want moved in a single call — moving them one at a time burns the per-user rate limit. Access is checked for every file before any is moved, so an unreachable file rejects the whole call without moving anything. Source files and destination must both be in the team this connection is authorized for; a file from another team cannot be moved here. Files already in the destination come back under alreadyInPlace, not movedFileIds.",
+            "name": "xmind_move_file"
+          },
+          {
+            "description": "Rename an existing file, replacing its current name. The file must be in the team this connection is authorized for.",
+            "name": "xmind_rename_file"
+          },
+          {
+            "description": "Rename an existing folder, replacing its current name. Space roots cannot be renamed. The folder must be in the authorized team.",
+            "name": "xmind_rename_folder"
+          },
+          {
+            "description": "Move a file to the trash, removing it from the active drive and recent files. This is reversible with xmind_restore_file; it does not permanently delete the file. The file must be in the authorized team.",
+            "name": "xmind_trash_file"
+          },
+          {
+            "description": "Restore a file from the trash to the active drive, clearing its trash state. If its original folder no longer exists, its parent location may change. The file must be in the authorized team, and restoring it must fit the current plan’s mind map limit.",
+            "name": "xmind_restore_file"
+          },
+          {
+            "description": "List the members of the team this connection is authorized for, with their xmindId and display name. Use it to turn a person's name into the xmindId that other tools address them by. Read-only: it cannot invite, remove, or change anyone's role. A name may come back empty if the account service is slow — match on xmindId in that case.",
+            "name": "xmind_list_teammates"
+          },
+          {
+            "description": "Read an existing mindmap and return its content as markdown, for you to reason about — it shows the user nothing, so pair it with xmind_show_mindmap when they should see the map. Use this to see the current structure before making edits. A file can have multiple sheets (maps); pass sheetId to read a specific one (from xmind_list_sheets), or omit it to read the first sheet. An anchor like <!--t:id|note,task--> flags rich content the markdown does not show; fetch the values with xmind_get_topic. `task` marks a to-do or scheduled task, and `done` after it means the task shows as complete (a ticked box, a parent whose to-dos are all ticked, or a schedule at 100%), so telling finished from open needs no xmind_get_topic call. Everything below the read-only overview line — relationships, boundaries, summaries, floating topics — is reported for reference only: it is not part of the editable outline, and xmind_edit_mindmap ignores it.",
+            "name": "xmind_read_mindmap"
+          },
+          {
+            "name": "xmind_show_mindmap"
+          },
+          {
+            "description": "Get the full rich content of one topic by its id, plus its direct children's ids and titles. Returns the note (plain text in `note`, rich HTML in `noteHtml`), markers, labels, hyperlink, image and task — the values the read markdown only flags the presence of (a finished task's `done` is the one value it carries). Task comes back in `task` (null when the topic has none): `status` is the xmind_set_todo checkbox, `progress` / `start` / `due` / `duration` / `priority` the xmind_set_planned_task schedule, in the same units those tools take. When `isRolledUp` is true those values are aggregated from the scheduled descendants rather than set on this topic — report them, but do not write them back or you copy the children's schedule onto the parent. Call it on a child id to walk one level deeper. That is cheaper than xmind_read_mindmap when you want one branch of a large map, but NOT when a node has hundreds of children — check childCount first, and read the whole map instead if this node holds most of it. Start from the rootTopicId that xmind_list_sheets returns. Floating topics come back in `detachedChildren` with their rich content; xmind_read_mindmap names them in its overview too, but only by id and title. Each list is capped at 200: `childCount` / `detachedChildCount` carry the true totals, and `childrenTruncated` / `detachedChildrenTruncated` say which was cut. There is no cursor. A cut `children` list can be read in full with xmind_read_mindmap when this topic is part of the outline; a floating topic's own children never appear there, so keep drilling with this tool.",
+            "name": "xmind_get_topic"
+          },
+          {
+            "description": "Update an existing mindmap with new markdown content. Read the mindmap first with xmind_read_mindmap, make your changes to the markdown, then write back the full updated content. Keep the <!--t:...--> anchor comments on each line you want to preserve — they tie your edits to the existing topics so their notes, markers and images are kept. The visual theme and layout settings are preserved. The `{…}` marks belong to xmind_create_mindmap and xmind_add_sheet and do NOTHING here — this call only sets titles and the tree — so reach for xmind_add_boundary / xmind_add_summary / xmind_set_todo / xmind_set_topic_style / xmind_set_topic_attrs / xmind_add_relationship / xmind_set_structure instead. Send the outline only: everything from the read-only overview line onward (relationships, boundaries, summaries, floating topics) is not editable here, and moving one of those lines into the outline is rejected — floating topics in particular stay untouched by this tool. This call displays nothing: the user still sees whatever was last shown to them. One call to xmind_show_mindmap, after the last change, is what puts the edited map in front of them.",
+            "name": "xmind_edit_mindmap"
+          },
+          {
+            "description": "Set attributes on topics by id (from the <!--t:id--> anchor in xmind_read_mindmap output). Supports note, hyperlink (href), labels and markers. Supplied attributes replace their existing values; omitted attributes are preserved. Each item carries its own values, so put every topic you want to edit in one call (up to 200 items) — do NOT call this once per topic. Other topic properties cannot be changed through this tool.\n\nA note supplements what the topic title cannot hold — a figure, a source, an example, an exception. A note that restates its topic means the topic is what needs fixing, and a map should still read without opening any note.\n\nAttach a marker only where the content carries that semantics (a priority, a status, a rating, an alert); markers scattered as decoration make a map noisier, not clearer. The ids themselves are listed on the `markers` field — an id outside that set is written through as-is, so take one from there or from a topic you have read rather than composing one.",
+            "name": "xmind_set_topic_attrs"
+          },
+          {
+            "description": "Attach images to topics by id (from the <!--t:id--> anchor in xmind_read_mindmap output). Provide a public http(s) image URL per item; the server fetches and stores it. Supports png, jpg, webp, gif, svg and bmp. An attached image replaces the topic’s existing image. URLs are fetched on each call and may return different content on retry. Each image is displayed at a size the editor computes automatically. Put every image you are attaching in one call via items (up to 20 — lower than the other batch tools because each one is fetched over the network). An item that cannot be fetched or whose topic is missing is skipped and reported; the rest are still attached.",
+            "name": "xmind_set_topic_image"
+          },
+          {
+            "description": "Add relationships (association lines) between pairs of endpoints. Each endpoint is usually a topic (id from its <!--t:id--> anchor) but may also be a boundary (<!--b:id-->). Both endpoints must already exist; an optional title labels the line. For a multi-sheet file, pass the sheetId the endpoints belong to (from xmind_list_sheets); omit it for the first sheet. Put every line you are drawing in one call via items (up to 200) — do NOT call this once per line. An item with bad arguments is skipped and reported; the rest are still written.",
+            "name": "xmind_add_relationship"
+          },
+          {
+            "description": "Add boundaries to a mindmap. rangeType 'parent' wraps the whole topic; 'children' groups a contiguous range of the topic's attached children (0-based rangeStart..rangeEnd inclusive). The topic is identified by the id in its <!--t:id--> anchor. An optional title labels the boundary — use it to give a run of siblings a collective name (\"MVP scope\") or a status tag (\"done\" / \"TBD\"); omit it for a pure visual highlight. Put every boundary you are adding in one call via items (up to 200) — do NOT call this once per boundary. An item with bad arguments is skipped and reported; the rest are still written.",
+            "name": "xmind_add_boundary"
+          },
+          {
+            "description": "Remove a single topic (and its whole subtree) by its id (from the <!--t:id--> anchor in xmind_read_mindmap output). Use this when you want to delete one known topic. Because deleting a topic also deletes every descendant, a topic that has children requires confirm:true — calling without it returns the descendant count so you can confirm the impact first. To make many structural changes at once (add/move/delete several topics, change the hierarchy), use xmind_edit_mindmap instead.",
+            "name": "xmind_remove_topic"
+          },
+          {
+            "description": "Remove an annotation — a relationship, boundary or summary — by its id (the value inside its <!--r:id-->, <!--b:id--> or <!--s:id--> anchor in the xmind_read_mindmap overview). Annotations are the layer attached to topics; removing one never deletes a topic. To remove a topic, use xmind_remove_topic. To restructure the map, use xmind_edit_mindmap.",
+            "name": "xmind_remove_annotation"
+          },
+          {
+            "description": "Update an existing relationship by its id (the value inside its <!--r:id--> anchor in the xmind_read_mindmap overview). Can change the title and/or re-point its source / target to another element (usually a topic, but a boundary id is also valid). Provide at least one of title, sourceId, targetId.",
+            "name": "xmind_update_relationship"
+          },
+          {
+            "description": "Add summaries over contiguous ranges of a topic's children (a bracket grouping children [rangeStart..rangeEnd] inclusive, with an optional summary note). topicId is the parent topic (from its <!--t:id--> anchor); rangeStart/rangeEnd are zero-based child indices. Put every summary you are adding in one call via items (up to 200) — do NOT call this once per summary. An item with bad arguments is skipped and reported; the rest are still written.",
+            "name": "xmind_add_summary"
+          },
+          {
+            "description": "Link one topic to another topic in the same map (an internal cross-reference / jump). Clicking the source topic navigates to the target. Both ids come from <!--t:id--> anchors. A topic can hold one link, so this replaces any existing hyperlink on the source topic.",
+            "name": "xmind_add_topic_link"
+          },
+          {
+            "description": "Mark topics as todos and set their checkbox state to 'todo' or 'done' (ids come from each topic's <!--t:id--> anchor). Pass every topic you want to set in one call — topicIds accepts up to 200 and they are applied together, so do NOT call this once per topic. This overwrites existing checkbox states and clears crossed-out quick styles. One call sets one status; to mix states, make one call per status. This is the basic task checkbox; for scheduled/gantt fields (start, due, duration, progress) use xmind_set_planned_task.\n\nAttach a checkbox only where the topic is something to DO — an action item, a checklist entry, a next step. A checklist-style map (a weekly plan, a launch checklist) carries one on almost every leaf; a knowledge or explanation map, whose leaves are facts, carries none.",
+            "name": "xmind_set_todo"
+          },
+          {
+            "description": "Set scheduled / gantt task fields on topics: start and due dates (epoch ms), duration (ms), progress (0..1) and priority (0..9). Overwrites supplied fields in existing task data; omitted fields are preserved. Each item carries its own schedule, so put every topic you are scheduling in one call (up to 200 items) — do NOT call this once per topic; a project plan is one call, not one per row. Each item must set at least one field. This is a paid feature — it requires the file's plan to allow gantt editing.",
+            "name": "xmind_set_planned_task"
+          },
+          {
+            "description": "Remove all task data (todo state and any scheduled/gantt fields) from topics, by their <!--t:id--> anchors. Use this to turn tasks back into plain topics. Pass every topic you want to clear in one call — topicIds accepts up to 200 and they are cleared together, so do NOT call this once per topic.",
+            "name": "xmind_clear_task"
+          },
+          {
+            "description": "List all sheets (maps) in a mindmap file, each with its id, title, root topic id and topic count. A file can hold several sheets; pass a sheet's `id` value as the `sheetId` argument to xmind_read_mindmap / xmind_edit_mindmap to work on that sheet.",
+            "name": "xmind_list_sheets"
+          },
+          {
+            "description": "List everything a mindmap file references: attachments, topic images, audio notes, web links and local-file links. Each entry names the topic that carries it, so you can pass topicId to xmind_get_topic to see it in context. Returns the whole file unless you pass sheetId. This lists references, not bytes — use it to answer \"what is in this file\" without reading the map. Returns at most 100 entries by default; `total` always carries the true count and `truncated` says whether the list was cut. When it is cut, either raise limit (up to 500) or narrow with sheetId — do not assume what came back is everything.",
+            "name": "xmind_list_resources"
+          },
+          {
+            "description": "Add a new sheet (a new map) to an existing mindmap file. Pass `markdown` and `design` exactly as xmind_create_mindmap takes them and the map is built in this one call — marks, notes and style included; load the guide for the kind of map first with xmind_get_mindmap_guide. Without `markdown` the sheet starts as a single styled root topic, to fill in with xmind_edit_mindmap. Returns the new sheet id — pass it as sheetId to xmind_edit_mindmap to refine the sheet, and to xmind_show_mindmap to display it after all changes are done. No xmind_list_sheets call is needed.",
+            "name": "xmind_add_sheet"
+          },
+          {
+            "description": "Replace the existing layout (structure) of a mindmap. Scope:\n- Whole-sheet (omit topicId): the sheet's root adopts this structure, re-laying out the entire map.\n- Branch-scoped (pass topicId of a non-root topic): only that topic's subtree uses the structure; siblings and the rest of the sheet are untouched.\n\nStructures:\n- `MindMap` — general brainstorming; the default radial layout, fits most topics\n- `MindMapUnbalanced` — radial map where branches sit on whichever side balances the tree\n- `LogicChartRight` — left-to-right outlines, argument chains, document structure\n- `LogicChartLeft` — right-to-left logic chart (RTL reading or mirrored layout)\n- `BraceMapRight` — part-whole breakdowns shown with braces, left-to-right\n- `BraceMapLeft` — part-whole breakdowns shown with braces, right-to-left\n- `OrgChartDown` — top-down reporting lines, taxonomies, hierarchies with multiple branches\n- `OrgChartUp` — bottom-up org chart (roots-up hierarchy)\n- `TreeChartRight` — single-trunk hierarchical classification, left-to-right (e.g. taxonomy, directory)\n- `TreeChartLeft` — single-trunk hierarchical classification, right-to-left\n- `TreeChartBalanced` — balanced tree chart that splits children to both sides of a vertical trunk\n- `TreeChartBranchAlignedLeft` — tree chart with branch-aligned children, left-to-right\n- `TreeChartBranchAlignedRight` — tree chart with branch-aligned children, right-to-left\n- `TimelineHorizontal` — chronological events, roadmaps, milestones along a horizontal axis\n- `TimelineVertical` — chronological events down a vertical axis\n- `TimelineHorizontalOffAxis` — horizontal timeline with events alternating above/below the axis\n- `FishboneRight` — cause-and-effect / Ishikawa root-cause analysis, head on the right\n- `FishboneLeft` — cause-and-effect / Ishikawa root-cause analysis, head on the left\n- `TreeTable` — hierarchical data viewed as a nested table, title column on the left\n- `TreeTableTopTitle` — hierarchical data as a nested table, title row on top\n- `MatrixRow` — 2D comparison grid laid out row-first (e.g. feature matrix, pros/cons)\n- `MatrixColumn` — 2D comparison grid laid out column-first",
+            "name": "xmind_set_structure"
+          },
+          {
+            "description": "Replace a sheet's existing color palette. ALWAYS whole-sheet — color themes can't be scoped to a branch (there's no per-topic colorThemeId). To emphasize individual topics, use xmind_set_topic_style instead (per-topic overrides sit on top of the theme and survive a theme switch).\n\nHue-continuity rule: when the user asks for a relative tweak (lighter / darker / softer / more vibrant), stay within the SAME hue family — use the hex swatches below to pick the nearest neighbor. Switch hue family only when the user names a different color or vibe. `Dawn` is the default.\n\nGreens & Teals:\n- `Rainforest` — bg #ffffff + #9ceaef #68d8d6 #06AFA9 — bright tropical teal-green\n- `RainforestDark` — bg #046562 + #c4fff9 #9ceaef #68d8d6 #06AFA9 — the same tropical teals on a deep teal ground\n- `Woodland` — bg #F9FFEB + #E1C356 #5B805C #86964F #B3C785 — muted forest green with ochre accent\n- `WoodlandDark` — bg #1F2513 + #E1C356 #5B805C #86964F #B3C785 — the same forest palette on near-black bark\n- `GreenTea` — bg #1F2B1D + #b6ad90 #579360 #656d4a #265834 — deep olive / dark forest, calm\n- `Vanilla` — bg #FFFFFF + #30E3CA #11999E #40514E — cool teal-mint\n- `VanillaDark` — bg #0D4040 + #E4F9F5 #30E3CA #11999E #40514E — mint on a deep pine ground\n- `Quaint` — bg #F9F5DE + #4B9D9D #7884A4 #AA79AA — parchment ground, muted teal / slate / mauve\n- `QuaintDark` — bg #153E5D + #DFDDCE #4B9D9D #7884A4 #AA79AA — the same muted trio on petrol blue\n\nBlues:\n- `Constancy` — bg #ffffff + #3949AB #00897B #EEEEEE — white ground, indigo centre with a teal accent, businesslike\n- `Hawaii` — bg #FFFFFF + #B7D6E8 #4A94C3 #4B9383 #D29F55 — beach blue + sand accent\n- `Space` — bg #0D2F42 + #81c3d7 #3a7ca5 #2f6690 #16425b — deep navy, premium dark\n- `DeepSea` — bg #000D2D + #6EE2FD #3BB6E3 #135CAE — very dark underwater navy + cyan\n- `CyberPunk` — bg #ffffff + #72efdd #56cfe1 #4ea8de #5e60ce — neon teal through indigo, electric\n- `Forid` — bg #EDF3FF + #FFAA39 #D389D5 #1692D2 — pale blue paper, amber / orchid / azure\n- `ForidDark` — bg #0A052E + #C1E554 #FFAA39 #D389D5 #1692D2 — the same trio glowing on midnight indigo\n- `Variety` — bg #F6F5F5 + #FFC947 #E46D57 #1F3C88 — off-white ground, amber / coral / navy\n- `VarietyDark` — bg #070D59 + #9BFFED #FFC947 #E46D57 #1F3C88 — the same on deep navy, with a mint highlight\n- `Pinecone` — bg #1D414B + #64625C #978477 #AA9FA3 #D1BFAF — slate teal ground, warm greys and taupe\n\nPurples & Pinks:\n- `Sakura` — bg #FFE3E8 + #FFB4B6 #D1C3BD #C1CFDE — pale cherry blossom, very light\n- `Roses` — bg #fff0f3 + #ffb3c1 #ff758f #c9184a — warm dusty pink, medium intensity\n- `Cream` — bg #ffe0e5 + #ffebee #2196F3 — blush ground with a single blue pop\n- `Dazzling` — bg #FFFFFF + #EFD7E6 #FF7DC1 #A239EA #5C37E5 — white ground, hot pink → violet\n- `DazzlingDark` — bg #092933 + #EFD7E6 #FF7DC1 #A239EA #5C37E5 — the same neons on near-black teal\n- `Innocence` — bg #FDF8E7 + #FDC9D1 #EA618A #A4D0F9 #4F73BA — cream ground, candy pink and cornflower\n- `Violet` — bg #FFFBEF + #FBD58A #DCBEF4 #b67be6 #9d4edd — ivory ground, amber with orchid and violet\n- `Freshness` — bg #f0f0f0 + #F2BDC7 #5BA683 #B796D9 — light grey ground, pastel rose / jade / lilac\n\nReds / Warm / Earth:\n- `Fire` — bg #FFFFFF + #FDD29A #F9A655 #FC901A #E04B51 #A4564C — red-orange flame, energetic\n- `Dancing` — bg #FFFFFF + #4E60EF #EB4758 #AA0E1D — blue + crimson contrast, dynamic\n- `DancingDark` — bg #363026 + #4E60EF #EB4758 #FFF8E0 #AA0E1D — the same contrast on dark umber\n- `Sophisticated` — bg #FDFBF7 + #7D5A2C #DFCAA4 #C49C64 #D3381D — refined brown with a crimson accent\n- `SophisticatedDark` — bg #1E1D1A + #7D5A2C #DFCAA4 #C49C64 #D3381D — the same browns on near-black\n- `Vintage` — bg #264653 + #F4A261 #DC856F #A4705E #2A9D8F — dark teal + retro warm\n- `Dessert` — bg #F9F8ED + #FFBC9F #D8AC8F #83c5be — warm sand + teal accent\n- `DessertDark` — bg #006d77 + #FFEDD2 #FFBC9F #D8AC8F #83c5be — the same sands on a teal ground\n- `Kimono` — bg #FFFFFF + #FFABAA #FF7B31 #8CB5FF #4A51D9 — vibrant Japanese textile mix\n- `KimonoDark` — bg #191959 + #FFABAA #FF7B31 #8CB5FF #4A51D9 — the same textiles on deep indigo\n- `Champagne` — bg #eee8e6 + #c1aba5 #9eb4b9 — warm off-white ground, rose-grey and slate, elegant and quiet\n- `Islands` — bg #ffe8d6 + #ddbea9 #cb997e #b7b7a4 #a5a58d — apricot ground, clay and driftwood neutrals\n- `Christmas` — bg #101F23 + #F0A346 #E12A37 #BC191E #2D6C65 — holly red / amber / pine on a near-black spruce ground\n- `Dystopia` — bg #F4F5F6 + #BD2828 #A5ACB1 #606466 — cold grey ground with one blood red\n- `DystopiaDark` — bg #2A2C2C + #BD2828 #DFE4E7 #A5ACB1 #606466 — the same red on charcoal\n- `Energy` — bg #FFFFFF + #F22816 #F2B807 #233ED9 — white ground, primary red / yellow / blue, high contrast\n- `EnergyDark` — bg #0D0D0D + #F2F2F2 #F22816 #F2B807 #233ED9 — the same primaries on black\n\nMulti / Bright:\n- `Dawn` — bg #ffffff + #FF6B6B #FF9F69 #97D3B6 #88E2D7 #6FD0F9 #E18BEE — bright sunrise multi (DEFAULT)\n- `Candy` — bg #ffffff + #FF9C72 #f5cd6c #F09E3A #9cc3e4 — playful orange-yellow + blue\n- `Macaron` — bg #ECF6F6 + #CAB08F #FEB58C #AFD4C4 — soft pastel confectionery\n- `Rainbow` — bg #ffffff + #F9423A #F6A04D #F3D321 #00BC7B #486AFF #4D49BE — white ground, bold full spectrum with a near-black centre\n\nDark / Neutral:\n- `Code` — bg #2C2D30 + #FFF0B8 #CBFFB8 #DB8FFF #8ABEFF — terminal neon-on-dark\n- `Zen` — bg #ffffff + #d6d6d6 #bcbcbc #a3a3a3 — white ground, minimalist greyscale",
+            "name": "xmind_set_color_theme"
+          },
+          {
+            "description": "Set per-topic style overrides on topics by id (from each <!--t:id--> anchor): fill/text/line/border color, bold, italic, strike-through, and font size. The style you pass is applied to EVERY topic in topicIds, so put all topics that should share a look in one call (up to 200) — do NOT call this once per topic; use separate calls only for genuinely different styles. These overrides sit ON TOP of the sheet color theme — the topic renders with the override while its siblings keep the theme default, and the override survives a later theme switch. Use this to emphasize specific topics; to recolor the whole map use xmind_set_color_theme instead. Supplied fields overwrite existing overrides; omitted fields stay unchanged. Pass null to clear an override and fall back to the theme, not to restore its previous value. Colors are 6-digit hex (#RRGGBB). Use bold for emphasis — do NOT bump fontSize as an emphasis proxy.",
+            "name": "xmind_set_topic_style"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "xmind": {
+        "type": "http",
+        "url": "https://app.xmind.cn/api/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_341263c5cacc4f88027b2e37a59b89db3a1a963a870c330a51b82a375ef68d30"
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.435Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "browse_ai",
+  "connector_name": "Browse AI",
+  "connector_name_cn": "Browse AI",
+  "description": "Manage web-automation robots, tasks, and results with Browse AI. Organize web-data tasks around configured robots and use their results for information preparation, data checks, and subsequent analysis. For data analysts and application developers, this context helps organize work around data objects, structures, and projects. Use the available information to prepare analysis or maintenance work and connect data understanding with development and result review. Available data and operations depend on the current connection configuration, account permissions, and service plan.",
+  "description_cn": "通过 Browse AI 管理网页自动化机器人、任务和结果。适合围绕已配置的机器人组织网页数据任务，将任务结果用于资料整理、数据核对和后续分析。面向数据分析与应用开发团队，可围绕数据对象、结构和项目背景组织工作，将相关信息整理为分析或维护依据，衔接数据理解、开发准备与结果复核。具体可用的数据与操作范围以当前连接配置、账号权限及服务套餐为准。",
+  "version": "1.0.0",
+  "category": "Database & Analytics",
+  "tags": [
+    "automation",
+    "scraping",
+    "web"
+  ],
+  "provider_name": "Browse AI",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "browse_ai",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4724e483fe8e4bbf2c3ca3d255b68ce06506c5ba1ec03c7d1a7a44964f5acdf5",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Global TEST only: Browse AI embedded Go connector read-only acceptance.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4724e483fe8e4bbf2c3ca3d255b68ce06506c5ba1ec03c7d1a7a44964f5acdf5",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "browse_ai",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_4724e483fe8e4bbf2c3ca3d255b68ce06506c5ba1ec03c7d1a7a44964f5acdf5",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Retrieve one Browse AI robot and its input parameter definitions by robot ID.",
+            "name": "get_robot"
+          },
+          {
+            "description": "Retrieve one Browse AI robot task and its captured data by robot and task IDs.",
+            "name": "get_robot_task"
+          },
+          {
+            "description": "List Browse AI robot tasks with pagination and status filters.",
+            "name": "list_robot_tasks"
+          },
+          {
+            "description": "List the Browse AI robots available to the connected API key.",
+            "name": "list_robots"
+          },
+          {
+            "description": "Start one Browse AI robot task with optional inputParameters overrides.",
+            "name": "run_robot_task"
+          },
+          {
+            "description": "Update the cookies stored on one Browse AI robot.",
+            "name": "update_robot_cookies"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "browse_ai": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4724e483fe8e4bbf2c3ca3d255b68ce06506c5ba1ec03c7d1a7a44964f5acdf5",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_4724e483fe8e4bbf2c3ca3d255b68ce06506c5ba1ec03c7d1a7a44964f5acdf5"
+      }
+    }
+  }
+}

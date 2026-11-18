@@ -1,0 +1,726 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.654Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Workflow",
+  "categoryCode": "Workflow",
+  "connector_id": "9601852f-39f5-4fe4-a5f9-d131ddb4186e",
+  "connector_name": "Make",
+  "connector_name_cn": "Make",
+  "description": "Make provides visual no-code automation for connecting applications and building cross-system workflows.",
+  "description_cn": "提供可视化无代码自动化平台，用于连接不同应用并构建跨系统工作流。",
+  "version": "1.0.3",
+  "category": "Workflow",
+  "tags": [],
+  "provider_name": "Make",
+  "author": {
+    "name": "",
+    "display_name": "Make"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Make",
+        "url": "https://mcp.make.com",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a88d4ccefeaf2ca5cc92e5f5b6cffef9563cd0c3b49d3de91aee09aec554c1f0",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_a88d4ccefeaf2ca5cc92e5f5b6cffef9563cd0c3b49d3de91aee09aec554c1f0",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Lists the Make zone, organizations, and teams reachable through this connection, including private spaces. Most Make resources belong to a team; other tools require the organizationId and teamId returned here. Call this first when you need ids. A private space id is valid wherever a teamId is accepted.",
+            "name": "environment_get"
+          },
+          {
+            "description": "List scenarios (scenarios): List all scenarios for a team. Results can be narrowed to one folder (optionally including its subfolders) and/or to scenarios carrying at least one of the given scenario labels. Returned scenarios include their assigned labels.",
+            "name": "scenarios_list"
+          },
+          {
+            "description": "Get scenario (scenarios): Get a scenario and its blueprint by ID.",
+            "name": "scenarios_get"
+          },
+          {
+            "description": "Create scenario (scenarios): Create a new scenario from a blueprint. Verify every module name in the blueprint via app-modules_list before creating — never invent module identifiers. The created scenario starts INACTIVE: call scenarios_activate before scenarios_run can execute it.",
+            "name": "scenarios_create"
+          },
+          {
+            "description": "Update scenario (scenarios): Update a scenario. The `blueprint` parameter wholesale-REPLACES the existing blueprint (no merging): always fetch the current blueprint with scenarios_get first, edit that JSON, and send the complete result. Tool scenarios (created via tools_create) cannot be blueprint-edited with this tool — use tools_update.",
+            "name": "scenarios_update"
+          },
+          {
+            "description": "Delete scenario (scenarios): Delete a scenario.",
+            "name": "scenarios_delete"
+          },
+          {
+            "description": "Activate scenario (scenarios): Activate a scenario. Required before scenarios_run can execute it. If this fails with 'Scenario is already running', the scenario is already active — treat that as success and do not retry.",
+            "name": "scenarios_activate"
+          },
+          {
+            "description": "Deactivate scenario (scenarios): Deactivate a scenario. If this fails with 'Scenario is not running', the scenario is already inactive — treat that as success and do not retry.",
+            "name": "scenarios_deactivate"
+          },
+          {
+            "description": "Run scenario (scenarios): Execute a scenario with optional input data. The scenario must be ACTIVE — a run of an inactive scenario fails with 'Scenario is not activated', so call scenarios_activate first (newly created scenarios start inactive). Returns an executionId: after a failed or suspicious run, inspect it with executions_get-detail BEFORE retrying or editing the scenario. A scenario cannot run twice concurrently — on 'Scenario is already being executed', wait for the running execution instead of retrying.",
+            "name": "scenarios_run"
+          },
+          {
+            "description": "Replay scenario execution (scenarios): Replay a past execution of a scenario, re-running it with the trigger data the original execution received. Get candidate execution IDs from executions_list. Only executions whose input data is still stored can be replayed — 'Execution is not replayable' means that execution's data has expired or was never stored, so try a MORE RECENT execution instead of retrying the same one. Only the first ID in executionIds is replayed. The scenario must be ACTIVE. A replay starts a real execution and consumes operations exactly like scenarios_run; it returns the executionId of the NEW execution, which you can inspect with executions_get-detail.",
+            "name": "scenarios_replay"
+          },
+          {
+            "description": "Get scenario interface (scenarios): Get the interface for a scenario.",
+            "name": "scenarios_interface"
+          },
+          {
+            "description": "Set scenario interface (scenarios): Update the interface for a scenario.",
+            "name": "scenarios_set-interface"
+          },
+          {
+            "description": "List executions (executions): List executions for a scenario.",
+            "name": "executions_list"
+          },
+          {
+            "description": "Get execution detail (executions): Get the full per-module detail of an execution: the inputs and outputs of each module, the failing module and its error. ALWAYS call this after a failed or suspicious run BEFORE retrying or editing the scenario. For lightweight status/duration metadata only, use executions_get instead.",
+            "name": "executions_get-detail"
+          },
+          {
+            "description": "Get execution (executions): Get execution metadata only: status, duration, operations consumed and error class — NOT per-module inputs/outputs. To see what each module did or why a run failed, use executions_get-detail instead.",
+            "name": "executions_get"
+          },
+          {
+            "description": "Search execution data (executions): Full-text search the input/output data of scenario executions across an organization (all teams you can access, or one team via teamId). Returns matching executions, each with up to 5 matching module IO records and highlighted snippets. Use it to find which runs handled a given value (an order ID, an email, an error text). Wrap the query in double quotes for an exact phrase. from/to apply at UTC-day granularity, so narrow them to keep the search fast. Requires the Pro plan or above.",
+            "name": "executions_search-io-data"
+          },
+          {
+            "description": "Count execution data matches (executions): Count how many scenarios and executions across an organization (all teams you can access, or one team via teamId) have input/output data matching a full-text query, with a per-scenario breakdown. Use it to size a search before calling executions_search-io-data, or to see which scenarios handled a given value. Wrap the query in double quotes for an exact phrase. from/to apply at UTC-day granularity; the last 7 days are searched when both are omitted.",
+            "name": "executions_count-io-data-matches"
+          },
+          {
+            "description": "Search data of one execution (executions): Full-text search the input/output data of a single execution and return every matching module IO record with highlighted snippets, plus the execution metadata. Use it after executions_search-io-data to see all matches in one run (that tool returns at most 5 per execution). Wrap the query in double quotes for an exact phrase. from/to apply at UTC-day granularity and default to the last 7 days, so pass a window that covers the execution for older runs. Requires the Pro plan or above.",
+            "name": "executions_search-io-data-in-execution"
+          },
+          {
+            "description": "Search executions (executions): Search executions across an organization (all teams you can access, or one team via teamId), newest first, by time window, status, scenario, or a substring of the error message (matches are highlighted). Use it to find failed or warning runs across many scenarios at once; for a single scenario, executions_list is enough. from/to apply at UTC-day granularity; the last 7 days are searched by default.",
+            "name": "executions_search"
+          },
+          {
+            "description": "List folders (folders): List scenario folders for a team. If you do not know the teamId, find it via organizations_list (each organization lists its teams) or teams_list, or ask the user — never guess IDs.",
+            "name": "folders_list"
+          },
+          {
+            "description": "Create folder (folders): Create a new folder.",
+            "name": "folders_create"
+          },
+          {
+            "description": "Update folder (folders): Update an existing folder.",
+            "name": "folders_update"
+          },
+          {
+            "description": "Delete folder (folders): Delete a folder.",
+            "name": "folders_delete"
+          },
+          {
+            "description": "List scenario labels (scenario-labels): List a team's scenario label catalog, including how many scenarios carry each label. Scenario labels are [REDACTED] tags that can be assigned to scenarios, independent of folders. If you do not know the teamId, find it via organizations_list (each organization lists its teams) or teams_list, or ask the user — never guess IDs.",
+            "name": "scenario-labels_list"
+          },
+          {
+            "description": "Create scenario label (scenario-labels): Create a new scenario label in a team. Labels are [REDACTED] tags that can be assigned to scenarios. If you do not know the teamId, call users_me to learn it.",
+            "name": "scenario-labels_create"
+          },
+          {
+            "description": "Update scenario label (scenario-labels): Update the name, colour, or description of an existing scenario label. Provide at least one property to change; omitted properties are left unchanged. Changes are reflected on every scenario carrying the label.",
+            "name": "scenario-labels_update"
+          },
+          {
+            "description": "Delete scenario label (scenario-labels): Delete a scenario label. The label is removed from the team catalog and unassigned from every scenario carrying it. This cannot be undone.",
+            "name": "scenario-labels_delete"
+          },
+          {
+            "description": "Assign scenario label (scenario-labels): Assign a scenario label to a scenario. The label and the scenario must belong to the same team. Assigning an already-assigned label succeeds without changes. To label many scenarios, call this tool once per scenario.",
+            "name": "scenario-labels_assign"
+          },
+          {
+            "description": "Unassign scenario label (scenario-labels): Remove a scenario label from a scenario. Removing an already-absent assignment succeeds without changes. The label itself stays in the team catalog.",
+            "name": "scenario-labels_unassign"
+          },
+          {
+            "description": "List webhooks/mailhooks (hooks): List webhooks/mailhooks for a specific team.",
+            "name": "hooks_list"
+          },
+          {
+            "description": "List organization webhooks/mailhooks (hooks): List webhooks/mailhooks across all teams of an organization that you can view, including private spaces, with their team ID and URL. Filter by team, a name substring, type, whether they are assigned to a scenario, or whether they are enabled. Returns 50 hooks by default; use limit and offset to page. Use it to find a hook when you do not know its team; for a single team, hooks_list is enough.",
+            "name": "hooks_list-for-organization"
+          },
+          {
+            "description": "Get webhook/mailhook (hooks): Get details of a specific webhook/mailhook.",
+            "name": "hooks_get"
+          },
+          {
+            "description": "Create webhook/mailhook (hooks): Create a new webhook/mailhook.",
+            "name": "hooks_create"
+          },
+          {
+            "description": "Update webhook/mailhook (hooks): Update an existing webhook/mailhook.",
+            "name": "hooks_update"
+          },
+          {
+            "description": "Delete webhook/mailhook (hooks): Delete a webhook/mailhook.",
+            "name": "hooks_delete"
+          },
+          {
+            "description": "List webhook queue items (hook-incomings): List items currently waiting in a webhook's processing queue — payloads the webhook received but hasn't handed off to a scenario yet (e.g. because the scenario isn't active).",
+            "name": "hook-incomings_list"
+          },
+          {
+            "description": "Get webhook queue stats (hook-incomings): Get the current size and limit of a webhook's processing queue.",
+            "name": "hook-incomings_stats"
+          },
+          {
+            "description": "Get webhook queue item detail (hook-incomings): Get the full detail of a single queued item, including its payload when available. Confidential hooks omit payload data.",
+            "name": "hook-incomings_get"
+          },
+          {
+            "description": "Delete webhook queue items (hook-incomings): Delete items from a webhook's processing queue. Specify `ids` to delete specific items, or `all: true` (with `confirmed: true`) to clear the entire queue. An item currently being processed cannot be deleted.",
+            "name": "hook-incomings_delete"
+          },
+          {
+            "description": "List data structures (data-structures): List data structures for a team.",
+            "name": "data-structures_list"
+          },
+          {
+            "description": "Get data structure (data-structures): Get details of a specific data structure.",
+            "name": "data-structures_get"
+          },
+          {
+            "description": "Create data structure (data-structures): Create a new data structure.",
+            "name": "data-structures_create"
+          },
+          {
+            "description": "Update data structure (data-structures): Update an existing data structure.",
+            "name": "data-structures_update"
+          },
+          {
+            "description": "Delete data structure (data-structures): Delete a data structure.",
+            "name": "data-structures_delete"
+          },
+          {
+            "description": "List connections (connections): List connections for a team.",
+            "name": "connections_list"
+          },
+          {
+            "description": "Get connection (connections): Get details of a specific connection.",
+            "name": "connections_get"
+          },
+          {
+            "description": "List keys (keys): List all keys for a team.",
+            "name": "keys_list"
+          },
+          {
+            "description": "Get key (keys): Get details of a specific key.",
+            "name": "keys_get"
+          },
+          {
+            "description": "Delete key (keys): Delete a key.",
+            "name": "keys_delete"
+          },
+          {
+            "description": "List credential requests (credential-requests): Retrieve a list of credential requests. Each request can contain multiple credentials (connections and API keys). Filter by team, user, provider, status, or name to find specific requests.",
+            "name": "credential-requests_list"
+          },
+          {
+            "description": "Get credential request details (credential-requests): Retrieve detailed information about a specific credential request by its ID. Returns all associated credentials with their authorization status, provider configuration, user details, and authorization URLs for pending credentials. Use this to check the state of credentials within a request.",
+            "name": "credential-requests_get"
+          },
+          {
+            "description": "Delete credential request (credential-requests): Permanently delete a credential request and all associated credentials (connections and API keys) by ID. Any scenarios using connections from this request will lose access to the corresponding services. This action cannot be undone.",
+            "name": "credential-requests_delete"
+          },
+          {
+            "description": "Decline credential (credential-requests): Decline a credential authorization request by ID, setting its status to \"declined\" and preventing it from being authorized. An optional reason can be provided to explain the decision. This operation is idempotent - declining an already-declined credential has no additional effect.",
+            "name": "credential-requests_credential-decline"
+          },
+          {
+            "description": "Delete credential (credential-requests): Delete a credential (e.g., revoke OAuth tokens or remove stored API keys) and reset its state to pending. Use this when a credential needs re-authorization with updated permissions, tokens have become stale, or you want to force re-authentication. After deletion, the credential can be authorized again through the normal flow.",
+            "name": "credential-requests_credential-delete"
+          },
+          {
+            "description": "Create credential request (credential-requests): Create a credential request for the currently authenticated user to set up connections and keys. This will return a URL where the user can authorize the credentials, so that they can be used in scenarios.",
+            "name": "credential-requests_create"
+          },
+          {
+            "description": "Create credential request by connection/key types (credential-requests): Create a credential request for one or more connections (OAuth) and/or keys (API keys) by their type identifiers (e.g. \"google\", \"slack\", \"apikeyauth\"). Use this when you know the exact connection or key types needed. The response includes the created request, an array of credentials associated with the request, and a publicUri where the end-user must go to authorize the requested credentials. At least one connection or one key must be provided.",
+            "name": "credential-requests_create-by-credentials"
+          },
+          {
+            "description": "Extend connection OAuth scopes (credential-requests): Add new OAuth scopes to an existing connection. Use this when a connection exists but lacks the permissions (scopes) needed for a specific operation. Creates a credential request that the end-user must authorize via the returned publicUri to grant the additional scopes. Fails if all requested scopes are already present on the connection — that error means the connection already satisfies the requirement: treat it as success and use the connection as-is; do not retry.",
+            "name": "credential-requests_extend-connection"
+          },
+          {
+            "description": "List app modules with credentials (credential-requests): List all modules of a given Make app (and version) that require credentials, along with the required credential type and OAuth scopes. Use this to discover which modules exist for an app before constructing a credential request — the returned `id` values are what you pass in `credentials[].appModules` for `credential-requests_create`. For custom/SDK apps, prefix the app name with `app#` (e.g. `app#my-custom-app`).",
+            "name": "credential-requests_list-app-modules-with-creds"
+          },
+          {
+            "description": "List data stores (data-stores): List all data stores for a team.",
+            "name": "data-stores_list"
+          },
+          {
+            "description": "Get data store (data-stores): Get data store details by ID.",
+            "name": "data-stores_get"
+          },
+          {
+            "description": "Create data store (data-stores): Create a new data store.",
+            "name": "data-stores_create"
+          },
+          {
+            "description": "Update data store (data-stores): Update a data store.",
+            "name": "data-stores_update"
+          },
+          {
+            "description": "Delete data store (data-stores): Delete a data store.",
+            "name": "data-stores_delete"
+          },
+          {
+            "description": "List data store records (data-store-records): List all records in a data store.",
+            "name": "data-store-records_list"
+          },
+          {
+            "description": "Create data store record (data-store-records): Create a new record in a data store.",
+            "name": "data-store-records_create"
+          },
+          {
+            "description": "Update data store record (data-store-records): Update an existing record in a data store.",
+            "name": "data-store-records_update"
+          },
+          {
+            "description": "Replace data store record (data-store-records): Replace an existing record in a data store or create if it doesn't exist.",
+            "name": "data-store-records_replace"
+          },
+          {
+            "description": "Delete data store records (data-store-records): Delete specific records from a data store by keys.",
+            "name": "data-store-records_delete"
+          },
+          {
+            "description": "List teams (teams): Lists full team records for an organization. For organization and team ids/names to act with, use the always-available `environment_get` first.",
+            "name": "teams_list"
+          },
+          {
+            "description": "Get team (teams): Get details of a specific team.",
+            "name": "teams_get"
+          },
+          {
+            "description": "Create team (teams): Create a new team.",
+            "name": "teams_create"
+          },
+          {
+            "description": "Delete team (teams): Delete a team.",
+            "name": "teams_delete"
+          },
+          {
+            "description": "List organizations (organizations): Lists full organization records. For organization and team ids/names to act with, use the always-available `environment_get` first.",
+            "name": "organizations_list"
+          },
+          {
+            "description": "Get organization (organizations): Get details of a specific organization.",
+            "name": "organizations_get"
+          },
+          {
+            "description": "Create organization (organizations): Create a new organization.",
+            "name": "organizations_create"
+          },
+          {
+            "description": "Update organization (organizations): Update an existing organization.",
+            "name": "organizations_update"
+          },
+          {
+            "description": "Delete organization (organizations): Delete an organization.",
+            "name": "organizations_delete"
+          },
+          {
+            "description": "Get current user (users): Returns the current user profile. For organization and team ids, use the always-available `environment_get`.",
+            "name": "users_me"
+          },
+          {
+            "description": "List countries (enums): List all available countries.",
+            "name": "enums_countries"
+          },
+          {
+            "description": "List regions (enums): List all available regions.",
+            "name": "enums_regions"
+          },
+          {
+            "description": "List timezones (enums): List all available timezones.",
+            "name": "enums_timezones"
+          },
+          {
+            "description": "List public templates (public-templates): Search and list public (approved) templates available for anyone. Supports name-based search for template discovery. Results are sorted by usage by default.",
+            "name": "public-templates_list"
+          },
+          {
+            "description": "Get public template (public-templates): Get details of a public template by its URL slug (e.g. \"12289-add-webhook-data-to-a-google-sheet\"). Use this for templates discovered via public-templates_list.",
+            "name": "public-templates_get"
+          },
+          {
+            "description": "Get public template blueprint (public-templates): Get the full blueprint of a public template including scenario flow, controller configuration, scheduling, and metadata. Use this for templates discovered via public-templates_list.",
+            "name": "public-templates_get-blueprint"
+          },
+          {
+            "description": "List templates (templates): List templates. Omit teamId to list every status the caller can see; provide teamId to scope the list to that team's own templates.",
+            "name": "templates_list"
+          },
+          {
+            "description": "Get template (templates): Get details of a template by its ID. Use this for templates discovered via templates_list.",
+            "name": "templates_get"
+          },
+          {
+            "description": "Get template blueprint (templates): Get the full blueprint of a template including scenario flow, controller configuration, scheduling, and metadata.",
+            "name": "templates_get-blueprint"
+          },
+          {
+            "description": "Create template (templates): Create a new template in a team's library from a blueprint.",
+            "name": "templates_create"
+          },
+          {
+            "description": "List private spaces (private-spaces): List the private spaces of an organization. Requires the organization's private-spaces feature to be enabled (error IM903 otherwise) and the 'personal team manage' permission. Private spaces cannot be created or deleted through the API — they are provisioned automatically by organization settings.",
+            "name": "private-spaces_list"
+          },
+          {
+            "description": "Get private space (private-spaces): Get details of a specific private space, including usage totals (operations, transfer, centicredits). Callers who are not members of the space receive a 404 even when the space exists.",
+            "name": "private-spaces_get"
+          },
+          {
+            "description": "Update private space (private-spaces): Update a private space's operations limit. Set operationsLimit to null to remove the limit (unlimited); the transfer limit is derived automatically. When the new limit is below the space's current consumption the call fails with IM004 unless 'confirmed' is true — confirming pauses the space.",
+            "name": "private-spaces_update"
+          },
+          {
+            "description": "List custom property structures (custom-property-structures): List the custom property structures defined for an organization. Requires the organization's custom-properties feature to be enabled (error IM027 otherwise). At most one structure can exist per combination of associated type, belonger type, and belonger ID — currently 'scenario'/'organization' is the only supported combination — and structures cannot be deleted through the API.",
+            "name": "custom-property-structures_list"
+          },
+          {
+            "description": "Create custom property structure (custom-property-structures): Create a custom property structure for an organization. Only one structure can exist per (associatedType, belongerType, belongerId) combination — creating a second one for the same organization fails with IM005. Once created, a structure cannot be deleted through the API. Use 'scenario' as associatedType and 'organization' as belongerType — these are the only values the API currently accepts.",
+            "name": "custom-property-structures_create"
+          },
+          {
+            "description": "List custom property structure items (custom-property-structure-items): List the items (field definitions) of a custom property structure. Use custom-property-structures_list to find the structure ID.",
+            "name": "custom-property-structure-items_list"
+          },
+          {
+            "description": "Create custom property structure item (custom-property-structure-items): Create an item (field definition) in a custom property structure. The item's name and type cannot be changed after creation. `options` is required for the 'dropdown' and 'multiselect' types and not allowed for any other type.",
+            "name": "custom-property-structure-items_create"
+          },
+          {
+            "description": "Update custom property structure item (custom-property-structure-items): Update a custom property structure item. The item's name and type cannot be changed. When updating `options` of a 'dropdown'/'multiselect' item, the new set fully replaces the current one — existing scenario data referencing removed options is not remapped.",
+            "name": "custom-property-structure-items_update"
+          },
+          {
+            "description": "Delete custom property structure item (custom-property-structure-items): Delete a custom property structure item. Deleting an item also deletes any scenario data filled in for it — this is irreversible. If scenarios already have data for the item, the call fails with IM004 unless 'confirmed' is true.",
+            "name": "custom-property-structure-items_delete"
+          },
+          {
+            "description": "Get scenario custom properties data (scenario-custom-properties): Get the custom properties data filled in for a scenario.",
+            "name": "scenario-custom-properties_get"
+          },
+          {
+            "description": "Fill in scenario custom properties data (scenario-custom-properties): Fill in custom properties data for a scenario for the first time. Fails with IM005 if the scenario already has data — use scenario-custom-properties_update or scenario-custom-properties_replace instead. Every item marked required in the custom property structure must be given a value. Use custom-property-structure-items_list to see the available items.",
+            "name": "scenario-custom-properties_create"
+          },
+          {
+            "description": "Replace scenario custom properties data (scenario-custom-properties): Replace all custom properties data for a scenario. Fails with IM013 if the scenario has no data yet — use scenario-custom-properties_create first. Every item marked required in the structure must be given a value.",
+            "name": "scenario-custom-properties_replace"
+          },
+          {
+            "description": "Update scenario custom properties data (scenario-custom-properties): Merge-update custom properties data for a scenario; only the specified items are changed. Fails with IM013 if the scenario has no data yet — use scenario-custom-properties_create first.",
+            "name": "scenario-custom-properties_update"
+          },
+          {
+            "description": "Delete scenario custom properties data (scenario-custom-properties): Delete all custom properties data for a scenario. This is irreversible.",
+            "name": "scenario-custom-properties_delete"
+          },
+          {
+            "description": "Retrieves a list of Apps available for Scenario Building in the given Organization and Team.",
+            "name": "apps_list"
+          },
+          {
+            "description": "Retrieves a list of Modules available for the given App in the given Organization and Team. Every module of a premium app carries `premiumApp: true` and, when known, `premiumTier` (1 = paid plans only, 3 = Enterprise only); an organization whose plan is below that tier cannot run a scenario containing the app.",
+            "name": "app-modules_list"
+          },
+          {
+            "description": "Retrieves a single Module from the given App in the given Organization. A module of a premium app is annotated `premiumApp: true` and, when known, `premiumTier` (1 = paid plans only, 3 = Enterprise only) — in `_annotations` in JSON format; an organization whose plan is below that tier cannot run a scenario containing the app.",
+            "name": "app-module_get"
+          },
+          {
+            "description": "Retrieves the manifest and form configuration of a hook TYPE (not a hook instance — use hooks_get for that). Use this to understand what fields are required when configuring a hook, e.g. before hooks_create.",
+            "name": "hook-config_get"
+          },
+          {
+            "description": "Retrieves metadata of the given connection, or returns an error when the connection type doesn't exist.",
+            "name": "connection-metadata_get"
+          },
+          {
+            "description": "Retrieves metadata of the given hook TYPE (not a hook instance — use hooks_get for that), or returns an error when the hook type doesn't exist.",
+            "name": "hook-metadata_get"
+          },
+          {
+            "description": "Retrieves metadata of the given key, or returns an error when the key type doesn't exist.",
+            "name": "key-metadata_get"
+          },
+          {
+            "description": "Executes a Make Remote Procedure Call (RPC) with the provided input.\n\tBefore executing an RPC, be sure you know its exact name and the input parameters that should be passed to the 'data' field.\n\tThere is no RPC-listing tool — never guess RPC names. Discover them via 'app-module_get' (requires the\n\t'apps:read' scope): the module's parameter instructions reference the RPCs it uses (e.g. as '[REDACTED]'\n\toption sources). If 'app-module_get' is not available in this conversation, ask the user for the exact RPC name.\n\tYou can also use RPCs to provide answers for simple \"read\" or \"list\" queries, if the corresponding RPC is available,\n\tso it's not needed to create a full Tool to achieve such a thing.",
+            "name": "rpc_execute"
+          },
+          {
+            "description": "Based on the user's intention, recommend applications that can assist in achieving their goals. This tool should provide a list of applications that are relevant to the user's needs, including their names and versions.",
+            "name": "apps_recommend"
+          },
+          {
+            "description": "This tool creates a new Tool in the system based on provided parameters.\nIt allows users to define custom tools that can be used in various scenarios.\nUse it to add new functionalities to the platform by specifying tool details.\n\nUse this tool also when you're tasked to perform a simple action.\nIt's easier to configure a tool rather than a whole Scenario.\n\nImportant! Before creating a tool, call 'app-module_get' to check how the module should actually be mapped,\nthen create the mapping, and only then create the tool with this mapping.\nEven more important is to call 'app-module_get' with the 'instructions' format requested.\nThat way, you'll get perfect instructions for how to fill in the module's configuration.\n\nDon't create unnecessary inputs. Create them only for values that should be dynamic,\nhardcode everything else in the module parameters.\n\nWhen the Module requires a Credential (Connection or Key) to be set,\nlist the existing connections or keys of the corresponding type to see if there are any available.\nIf there are available connections or keys for the Module, ask the user whether they want to use one of the available connections or keys.\nWhen asking this question, also provide the user with an option to not use available connections, and to create a new connection or key instead.\nIn case user chooses an option to create a new connection or key, you should request the User to provide you with a new Connection or Key, for that, use the Credential Request Create Tool.\nIn case there are no available connections or keys of the corresponding type for the Module you are creating,\nyou should also request the User to provide you with a new Connection or Key, for that, use the Credential Request Create Tool.\n\nIf you need to run the Tool, use 'scenarios_run', passing the Tool ID as the scenarioId.\nNote: a Tool's blueprint cannot be edited via 'scenarios_update' — use 'tools_update' instead.",
+            "name": "tools_create"
+          },
+          {
+            "description": "Retrieves details of a specific Tool by its ID.",
+            "name": "tools_get"
+          },
+          {
+            "description": "This tool updates an existing Tool's details based on provided parameters.\nIt allows users to modify the properties of a Tool to keep it up-to-date with changing requirements.\nUse it to refine or correct Tool information as needed.",
+            "name": "tools_update"
+          },
+          {
+            "description": "This tool validates that parameters and mapper collection are correctly configured for a given module in a given app.\nUse this tool before creating a new Make Tool or Make Scenario to verify that the configuration of modules is correct.\nUse this tool to iterate towards a successful validation result.\nBefore generating parameters and mapper objects for the module,\nlearn instructions for filling them in by getting the module detail in the \"instructions\" format.\nRequired fields with declared defaults that you omitted are filled automatically, including fields\nthat only exist after remote resolution; when the result contains \"appliedDefaults\", the\n\"normalizedValues\" object carries the filled configuration. When \"valid\" is true, send\n\"normalizedValues.default\" as \"parameters\" and \"normalizedValues.expect\" as \"mapper\" instead of\ninventing values for fields you did not see in the schema; when \"valid\" is false, fix the reported\nerrors on top of those objects first.",
+            "name": "validate_module_configuration"
+          },
+          {
+            "description": "Validates the Epoch Configuration of particular Trigger Module.",
+            "name": "validate_epoch_configuration"
+          },
+          {
+            "description": "Validates the overall structure of the Scenario Blueprint against the Schema. STRUCTURAL check only — it does NOT verify that module names exist or that module parameters are correct, so a valid blueprint can still fail at scenarios_create with \"Module not found\". Verify module names via app-modules_list and module configurations via validate_module_configuration.",
+            "name": "validate_blueprint_schema"
+          },
+          {
+            "description": "Validates the Scheduling of the Scenario against the Schema.",
+            "name": "validate_scheduling_schema"
+          },
+          {
+            "description": "Retrieves markdown documentation for the specific Make App.\nUse when configuring Make Apps and Modules and when you need to learn more about the available capabilities.",
+            "name": "app_documentation_get"
+          },
+          {
+            "description": "This tool validates that hook configuration values are correctly set for a given hook type.\nUse this tool before creating a hook to verify that the configuration is correct.\nUse this tool to iterate towards a successful validation result.\nBefore generating values, learn instructions by getting the hook config in the \"instructions\" format.",
+            "name": "validate_hook_configuration"
+          },
+          {
+            "description": "Use this tool to validate a typed Scenario Interface before applying changes. Either side (`input`, `output`) may be omitted; only the side(s) supplied are validated.",
+            "name": "validate_scenario_interface"
+          },
+          {
+            "description": "This tool analyzes a given Blueprint and extracts a list of various Connections, Keys, Hooks and other components that are required to be provided in order to map the Blueprint properly.\nUse this tool to identify all necessary components to collect before creating a new Make Scenario based on the Blueprint.\nThe output will help in preparing the Scenario by ensuring all required resources are available.",
+            "name": "extract_blueprint_components"
+          },
+          {
+            "description": "Extracts the list of Components required by the particular Module. Use to identify what Connections, Keys, Hooks and other resources are needed to work with the Module.",
+            "name": "extract_module_components"
+          },
+          {
+            "description": "Reports which connections and API keys a set of planned modules require, and which of the team's existing credentials already satisfy each requirement (with their ids). Each module returns one SLOT per required credential parameter; a slot's `options` are ALTERNATIVE provider types — any one of them satisfies the slot. Use it to verify a build plan before presenting it: pass every module the scenario will contain. Connections of a matching type whose granted scopes do NOT cover the slot's required scopes are listed separately in `existingInsufficientScopes` (re-auth candidates, never counted as satisfying). Modules that do not exist in the catalog for this organization are returned in `notFound`; credential types whose lookups transiently failed are listed in `failedLookups` (with human-readable diagnostics in `errors`) and must be treated as unknown rather than missing.",
+            "name": "connection-requirements_get"
+          },
+          {
+            "description": "Starts learning mode (\"Detect new values\") on a webhook/mailhook: the hook determines its incoming data structure from the next request it receives, without the scenario running. Learning stops automatically once data arrives.",
+            "name": "hooks_learn_start"
+          },
+          {
+            "description": "Stops learning mode (\"Detect new values\") on a webhook/mailhook without waiting for data.",
+            "name": "hooks_learn_stop"
+          },
+          {
+            "description": "Returns the live status of a webhook/mailhook: its address, whether it is attached to a scenario, whether learning mode (\"Detect new values\") is active, and whether it is gone. `learning: false` after a learn-start means the data structure was captured (or learning was stopped).",
+            "name": "hooks_ping"
+          },
+          {
+            "description": "Generates Data Structure Definition in Make Parameters Format from the sample data provided as input.",
+            "name": "data-structures_generate"
+          },
+          {
+            "description": "List existing custom apps or get metadata for a specific app with optional sections and/or docs.\n\nAvailable sections: base, groups, install, installSpec\n\nSections are returned as JSONC strings (JSON with comments), except for 'groups' which is plain JSON. Comments contain useful context — preserve them when updating.\n\n<usage>\n- List all apps: { }\n- Get metadata for a specific app: { appName, appVersion }\n- Get app metadata with sections: { appName, appVersion, sections: [\"base\", \"groups\"] }\n- Get app metadata with docs: { appName, appVersion, includeDocs: true }\n- Get app metadata with sections and docs: { appName, appVersion, sections: [\"base\"], includeDocs: true }\n</usage>",
+            "name": "custom-apps_fetch"
+          },
+          {
+            "description": "Create new custom app. This is is the first step in creating a new custom app for Make.com Note that the \"name\" that you pass in is just a prefix and the \"name\" in the response is  the identifier for the app that needs to be passed in later requests",
+            "name": "custom-apps_create"
+          },
+          {
+            "description": "Update an existing custom app",
+            "name": "custom-apps_update"
+          },
+          {
+            "description": "Delete a custom app by name and version",
+            "name": "custom-apps_delete"
+          },
+          {
+            "description": "Set the base section of a custom app. This is the structure all modules and remote procedures inherit from.",
+            "name": "custom-apps_set-base"
+          },
+          {
+            "description": "Set the groups section of an custom app. This defines module groupings for the app.",
+            "name": "custom-apps_set-groups"
+          },
+          {
+            "description": "Set app documentation (readme)",
+            "name": "custom-apps_set-docs"
+          },
+          {
+            "description": "List pending (uncommitted) changes for a custom app version.\n\nReturns the stack of changes that have been made since the last commit. Each entry includes at least an `id` that can be passed to `custom-apps_changes-fetch` to retrieve the full diff (oldValue/newValue). An empty array means there are no uncommitted changes.\n\nEach entry is decorated with a `label` field that holds the UI-friendly section name as shown in the Make web app — e.g. `code: \"api\"` is exposed to users as \"Communication\". Use `label` when describing changes to a human; use `code` when calling other tools.\n\nOnly meaningful for approved apps — unapproved apps don't track changes the same way.",
+            "name": "custom-apps_changes-list"
+          },
+          {
+            "description": "Fetch a single pending change by id, including the previous and proposed values.\n\nUse `custom-apps_changes-list` first to discover change ids, then call this tool with one of those ids to inspect what was changed.\n\nThe default `format: \"diff\"` returns `{ id, group, code, label, diff }` where `diff` is a unified diff string suitable for displaying directly to the user. Pass `format: \"raw\"` to get the API payload (`{ id, group, code, oldValue, newValue }`) augmented with the same UI-friendly `label` field.",
+            "name": "custom-apps_changes-fetch"
+          },
+          {
+            "description": "List all connections for an app or get metadata for a specific connection with optional sections.\n\nAvailable sections: api, parameters, scopes, scope\n\nSections are returned as JSONC strings (JSON with comments). Comments contain useful context — preserve them when updating.\n\n<usage>\n- List all connections for an app: { appName }\n- Get metadata for a specific connection: { connectionName }\n- Get connection metadata with sections: { connectionName, sections: [\"api\", \"parameters\"] }\n</usage>",
+            "name": "custom-apps_connections-fetch"
+          },
+          {
+            "description": "Delete a connection",
+            "name": "custom-apps_connections-delete"
+          },
+          {
+            "description": "Create new connection or update existing connection. Use mode parameter to specify whether to create or update the connection.\n\nIMPORTANT: Use the custom-apps_get-example tool before creating or updating connection communication (api section) to get an example of different connection communication (api) variants\n\nThere are two connection types:\n- 'oauth': For all variants of OAuth 1 or 2 flows. In this case, Make handles the OAuth flow\n- 'basic': Everyting else, for example:\n   - simple API key passing\n   - HTTP basic auth\n   - passing a token in Bearer header (where no Oauth flow is required, or is done externally to Make)\n\nFor CREATE mode: appName, type, and label are required. connectionName is not used (connection ID is auto-generated).\nFor UPDATE mode: connectionName is required (this is the connection ID, typically the appName or appName with suffix).",
+            "name": "custom-apps_connections-configure"
+          },
+          {
+            "description": "List all modules for an app or get metadata for a specific module with optional sections.\n\nAvailable sections: communication, mappable_parameters, interface, scope, epoch, samples, static_parameters\n\nSections are returned as JSONC strings (JSON with comments). Comments contain useful context — preserve them when updating.\n\n<usage>\n- List all modules: { appName, appVersion }\n- Get metadata for a specific module: { appName, appVersion, moduleName }\n- Get module metadata with sections: { appName, appVersion, moduleName, sections: [\"communication\", \"interface\"] }\n</usage>",
+            "name": "custom-apps_modules-fetch"
+          },
+          {
+            "description": "Delete a module",
+            "name": "custom-apps_modules-delete"
+          },
+          {
+            "description": "Create new modules or update existing modules and their sections in a single operation. Use explicit mode parameter to specify whether to create or update the module.\n\nModule typeId values:\n- Trigger (polling) [TypeId: 1] - Watch for changes via polling\n- Action [TypeId: 4] - Single response endpoint\n- Search [TypeId: 9] - Multiple item result\n- Universal [TypeId: 12] - Arbitrary API calls\n- Instant Trigger (webhook) [TypeId: 10] - Watch for changes via webhook\n- Responder [TypeId: 11] - Send processed data back to webhook\n\nFor CREATE mode: typeId and label are required. For UPDATE mode: all metadata fields are optional - only provided fields will be updated.",
+            "name": "custom-apps_modules-configure"
+          },
+          {
+            "description": "Retrieve an example for a specific tool input.\nProvide the tool name (e.g., connections-configure) and the example type (e.g., basic_auth, oauth2_authorization_code).\nThis helps illustrate how inputs should be structured when using the tool.\n\nCall this tool with just the tool name to get a list of available example types for that tool.",
+            "name": "custom-apps_get-example"
+          },
+          {
+            "description": "List all RPCs for an app or get metadata for a specific RPC with optional sections.\n\nAvailable sections: api, parameters\n\nSections are returned as JSONC strings (JSON with comments). Comments contain useful context — preserve them when updating.\n\n<usage>\n- List all RPCs: { appName, appVersion }\n- Get metadata for a specific RPC: { appName, appVersion, rpcName }\n- Get RPC metadata with sections: { appName, appVersion, rpcName, sections: [\"api\", \"parameters\"] }\n</usage>",
+            "name": "custom-apps_rpcs-fetch"
+          },
+          {
+            "description": "Delete an RPC",
+            "name": "custom-apps_rpcs-delete"
+          },
+          {
+            "description": "Test an RPC with provided data and schema",
+            "name": "custom-apps_rpcs-test"
+          },
+          {
+            "description": "Create new RPC or update existing RPC and their sections in a single operation.\n\nFor CREATE mode: appName, appVersion, name, and label are required. The 'name' parameter sets the initial RPC identifier.\nFor UPDATE mode: rpcName is required (this is the auto-generated RPC ID from creation).\n\nAvailable sections: api, parameters",
+            "name": "custom-apps_rpcs-configure"
+          },
+          {
+            "description": "List all webhooks for an app or get metadata for a specific webhook with optional sections.\n\nAvailable sections: api, parameters, attach, detach, scope\n\nSections are returned as JSONC strings (JSON with comments). Comments contain useful context — preserve them when updating.\n\n<usage>\n- List all webhooks: { appName }\n- Get metadata for a specific webhook: { webhookName }\n- Get webhook metadata with sections: { webhookName, sections: [\"api\", \"parameters\"] }\n</usage>",
+            "name": "custom-apps_webhooks-fetch"
+          },
+          {
+            "description": "Create a new webhook for an app",
+            "name": "custom-apps_webhooks-create"
+          },
+          {
+            "description": "Update an existing webhook",
+            "name": "custom-apps_webhooks-update"
+          },
+          {
+            "description": "Delete a webhook",
+            "name": "custom-apps_webhooks-delete"
+          },
+          {
+            "description": "Set a specific section of a webhook.",
+            "name": "custom-apps_webhooks-set-section"
+          },
+          {
+            "description": "List all functions for an app or get a specific function by name",
+            "name": "custom-apps_functions-fetch"
+          },
+          {
+            "description": "Create a new function",
+            "name": "custom-apps_functions-create"
+          },
+          {
+            "description": "Delete a function",
+            "name": "custom-apps_functions-delete"
+          },
+          {
+            "description": "Get function code",
+            "name": "custom-apps_functions-get-code"
+          },
+          {
+            "description": "Set/update function code",
+            "name": "custom-apps_functions-set-code"
+          },
+          {
+            "description": "Get function test code",
+            "name": "custom-apps_functions-get-test"
+          },
+          {
+            "description": "Set/update function test code",
+            "name": "custom-apps_functions-set-test"
+          },
+          {
+            "description": "Renders an interactive UI in the chat — a searchable, folder-filterable, sortable list of the team's scenarios showing each scenario's status, used apps, and usage. Only call this when the user explicitly wants the list displayed. Do NOT call this while iterating/authoring — use `scenarios_list` instead, which returns the same data without rendering a UI.",
+            "name": "show_scenarios_list"
+          },
+          {
+            "description": "Renders a scenario’s execution history as an interactive widget in the chat — each past run with its status, trigger type, duration, and consumption. Only call this when the user explicitly wants the history displayed. Do NOT call this while iterating/debugging — use `executions_list` instead, which returns the same data without rendering a UI.",
+            "name": "show_executions_list"
+          },
+          {
+            "name": "show_execution_result"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Make": {
+        "type": "http",
+        "url": "https://mcp.make.com",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_a88d4ccefeaf2ca5cc92e5f5b6cffef9563cd0c3b49d3de91aee09aec554c1f0"
+      }
+    }
+  }
+}

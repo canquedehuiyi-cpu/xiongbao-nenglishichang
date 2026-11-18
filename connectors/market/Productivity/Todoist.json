@@ -1,0 +1,271 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.610Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Productivity",
+  "categoryCode": "Productivity",
+  "connector_id": "f7480f11-8c33-429f-808e-a4c025178dd5",
+  "connector_name": "Todoist",
+  "connector_name_cn": "Todoist",
+  "description": "Manage Todoist tasks and projects",
+  "description_cn": "管理 Todoist 任务和项目",
+  "version": "1.0.2",
+  "category": "Productivity",
+  "tags": [],
+  "provider_name": "Todoist",
+  "author": {
+    "name": "",
+    "display_name": "Todoist"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "qoder",
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Todoist",
+        "url": "https://ai.todoist.net/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c78575f110f15a09489edd0deb0db8d877565c1ca802e46ccc02cc868c8625d1",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_c78575f110f15a09489edd0deb0db8d877565c1ca802e46ccc02cc868c8625d1",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Add one or more tasks to a project, section, or parent. Supports assignment to project collaborators.",
+            "name": "add-tasks"
+          },
+          {
+            "description": "Complete one or more tasks by their IDs.",
+            "name": "complete-tasks"
+          },
+          {
+            "description": "Uncomplete (reopen) one or more completed tasks by their IDs.",
+            "name": "uncomplete-tasks"
+          },
+          {
+            "description": "Update existing tasks including content, dates, priorities, and assignments. Send only the fields that change.",
+            "name": "update-tasks"
+          },
+          {
+            "description": "Reschedule tasks to new dates while preserving recurring schedules. Unlike update-tasks (which replaces the entire due string and can wipe recurrence), this tool changes only the date (and duration, if given), keeping recurrence patterns intact. Use this when moving recurring tasks to a different date or time without altering their repeat pattern. Without a due date, the deadline moves.",
+            "name": "reschedule-tasks"
+          },
+          {
+            "description": "Find active tasks by text, project/section/parent, responsible user, labels, raw filter, or saved filter (filterIdOrName). Without filters, list a page. Default scope: unassigned + mine; responsibleUserFiltering=\"all\" includes others.",
+            "name": "find-tasks"
+          },
+          {
+            "description": "Get tasks by date range. startDate='today' includes overdue items. Default responsibleUserFiltering='unassignedOrMe' excludes others' tasks.",
+            "name": "find-tasks-by-date"
+          },
+          {
+            "description": "Get completed tasks in a date range. Neither getBy mode returns completions of a recurring task that is still active. For \"what did I complete/get done\" questions, or whenever recurring work should count, use find-activity instead — it reports completion events, including every occurrence of a recurring task. since/until are optional and default to a 7-day window when omitted. Includes all collaborators by default. Person-specific queries (summaries, plans, reports) require responsibleUser.",
+            "name": "find-completed-tasks"
+          },
+          {
+            "description": "Add one or more new projects.",
+            "name": "add-projects"
+          },
+          {
+            "description": "Update multiple existing projects with new values.",
+            "name": "update-projects"
+          },
+          {
+            "description": "List or search by name the projects the user has joined. By default only active projects are returned; use archivedStatus ('archived' or 'all') to include archived projects. When searching or when archivedStatus is 'all', all matching projects are returned (pagination is ignored). Otherwise projects are returned with pagination. Workspace projects the user hasn't joined are left out unless includeUnjoined is set, or a search matches no joined project.",
+            "name": "find-projects"
+          },
+          {
+            "description": "Archive or unarchive a project by its ID, or join a workspace project the user hasn't joined (see find-projects includeUnjoined) when they ask to.",
+            "name": "project-management"
+          },
+          {
+            "description": "Move a project between personal and workspace contexts.",
+            "name": "project-move"
+          },
+          {
+            "description": "Add one or more new sections to projects.",
+            "name": "add-sections"
+          },
+          {
+            "description": "Update multiple existing sections with new values.",
+            "name": "update-sections"
+          },
+          {
+            "description": "Search for sections by name or other criteria in a project. When searching, uses server-side search to avoid fetching all sections.",
+            "name": "find-sections"
+          },
+          {
+            "description": "Add multiple comments to tasks or projects, optionally notifying collaborators. Each comment must specify either taskId or projectId.",
+            "name": "add-comments"
+          },
+          {
+            "description": "Find comments by task, project, or get a specific comment by ID. Exactly one of taskId, projectId, or commentId must be provided.",
+            "name": "find-comments"
+          },
+          {
+            "description": "Update multiple existing comments with new content.",
+            "name": "update-comments"
+          },
+          {
+            "description": "Add reminders to tasks. Supports three types: \"relative\" (minutes before due), \"absolute\" (specific date/time), or \"location\" (geofence-triggered). Each reminder must specify a taskId. Reminders notify their creator unless notifyUser says otherwise.",
+            "name": "add-reminders"
+          },
+          {
+            "description": "Find reminders by task ID (returns all reminder types), or get a specific reminder by its ID. Use reminderId for time-based reminders and locationReminderId for location reminders.",
+            "name": "find-reminders"
+          },
+          {
+            "description": "Update existing reminders. Each reminder must specify its type (\"relative\", \"absolute\", or \"location\") and ID. Only include fields that need to change.",
+            "name": "update-reminders"
+          },
+          {
+            "description": "View a file attachment from a Todoist comment. Pass the fileUrl from a comment's fileAttachment field. Supports images (returned inline), text files (returned as text), and binary files like PDFs (returned as embedded resources).",
+            "name": "view-attachment"
+          },
+          {
+            "description": "Add one or more new personal labels.",
+            "name": "add-labels"
+          },
+          {
+            "description": "Update one or more existing labels. Personal labels (identified by ID) can have their name, color, order, and favorite flag updated. Shared labels (identified by name) can only be renamed.",
+            "name": "update-labels"
+          },
+          {
+            "description": "List personal labels and shared labels. Personal labels have full metadata (id, name, color, order, isFavorite) and support pagination and name search (partial, case insensitive). Shared labels are labels used on tasks shared with you — they are returned as names only (no IDs or metadata). When searching, all matching personal labels are fetched across all pages and returned as a single result set (limit and cursor are ignored). When not searching, personal labels are returned with pagination.",
+            "name": "find-labels"
+          },
+          {
+            "description": "List all personal filters or search for filters by name. Filters are saved custom views that use query syntax to organize tasks (e.g. \"today & p1\", \"#Work & overdue\").",
+            "name": "find-filters"
+          },
+          {
+            "description": "Add one or more new personal filters. Filters are saved custom views using query syntax to organize tasks.",
+            "name": "add-filters"
+          },
+          {
+            "description": "Update one or more existing personal filters with new values.",
+            "name": "update-filters"
+          },
+          {
+            "description": "Retrieve activity logs to monitor and audit changes in Todoist. Shows events from all users by default (use initiatorId to filter by specific user). To answer what someone completed in a period, including recurring task occurrences, use objectType \"task\", eventType \"completed\", and dateFrom/dateTo. For a first-person question (\"what did I get done\"), also set initiatorId to the current user from [REDACTED], or the answer includes collaborators' completions. Track task completions, updates, deletions, project changes, and more with flexible filtering. Activity history availability and retention depend on the user plan.",
+            "name": "find-activity"
+          },
+          {
+            "description": "Get comprehensive productivity statistics including daily/weekly completion breakdowns, goal streaks (current, last, max), karma score and trends, and historical karma data. Useful for productivity analysis and tracking goal progress. Reports counts, streaks and karma only, never the tasks themselves — for \"what did I complete\", use find-activity.",
+            "name": "get-productivity-stats"
+          },
+          {
+            "description": "Get a comprehensive health assessment for a project including completion progress, health status (EXCELLENT, ON_TRACK, AT_RISK, CRITICAL), and optional detailed context with project metrics and task-level data. Use includeContext=true for that full detail.",
+            "name": "get-project-health"
+          },
+          {
+            "description": "Get daily and optional weekly task completion counts for a project over a configurable time window (1-12 weeks). Useful for identifying completion trends and patterns.",
+            "name": "get-project-activity-stats"
+          },
+          {
+            "description": "Trigger a new health analysis for a project. Use this when the health data is stale or you want a fresh assessment. The analysis may take time to complete — use get-project-health afterward to see updated results.",
+            "name": "analyze-project-health"
+          },
+          {
+            "description": "Get aggregated health and progress insights across all projects in a workspace. Accepts workspace name or ID, with optional project ID filtering. Useful for a cross-project health overview.",
+            "name": "get-workspace-insights"
+          },
+          {
+            "description": "Get a Markdown overview. Called without a projectId, returns the account's project and section structure only — no tasks — for navigation. Pass a projectId (or \"inbox\" for the Inbox) to get that project's tasks grouped by section.",
+            "name": "get-overview"
+          },
+          {
+            "description": "Delete a project, section, task, comment, label, filter, reminder, or location_reminder by its ID. Projects can be deleted whether active or archived (find archived ones via find-projects with archivedStatus); note a workspace project must be archived before it can be deleted, while personal projects can be deleted regardless.",
+            "name": "delete-object"
+          },
+          {
+            "description": "Fetch a single task, project, comment, or section by its ID. Use this when you have a specific object ID and want to retrieve its full details. Set includeChildren to also get its direct subtasks or sub-projects.",
+            "name": "fetch-object"
+          },
+          {
+            "description": "Reorder projects or sections, and optionally move personal projects to a new parent. Personal projects: order places a project among its siblings; parentId moves it (\"root\" for top level). Workspace projects: order places a project within its folder, in the shared default ordering every member sees; needs permission to reorder the workspace. Sections: order places a section within its project.",
+            "name": "reorder-objects"
+          },
+          {
+            "description": "Get comprehensive user information including user ID, full name, email, timezone with current local time, week start day preferences, current week dates, daily/weekly goal progress, and user plan (Free/Pro/Business).",
+            "name": "user-info"
+          },
+          {
+            "description": "Get the user's status, the message and emoji shown next to their name in Todoist and Comms, with when it ends and whether it pauses Comms notifications or Karma and streaks. Returns no status when none is set or it has expired.",
+            "name": "get-user-status"
+          },
+          {
+            "description": "Set or clear the user's status, shown next to their name in Todoist and Comms. Replaces the whole status: an omitted emoji, end or effect is removed, not kept. Use clear to remove the status.",
+            "name": "set-user-status"
+          },
+          {
+            "description": "Find Todoist users (collaborators, teammates) by name or email to look up their user ID. Use this whenever the user asks to find, look up, or identify a person — e.g. \"find Carrie's user ID\", \"who is Ernesto\", \"look up a user\". When projectId is omitted, searches across the collaborators of every shared project the authenticated user has access to, plus the authenticated user themselves — an empty result means the person is not a collaborator on any project you share with them, not necessarily that they do not exist in Todoist. When projectId is provided, searches only that project. Partial, case-insensitive match on name and email.",
+            "name": "find-project-collaborators"
+          },
+          {
+            "description": "Assign, unassign or reassign up to 50 tasks at once. Assigning notifies the new assignee. Each task is updated independently, so one failure does not undo the others; failures are reported per task. Use dryRun to check the changes first.",
+            "name": "manage-assignments"
+          },
+          {
+            "description": "Export an existing project as a Todoist template, either as CSV content or as a shareable URL. Use it to duplicate a project, share its structure, or hand the CSV to import-project-template. To read a project rather than export it, use find-tasks instead — it returns structured tasks rather than raw CSV. The project itself is not modified, but the \"url\" format uploads a copy and returns a link that anyone holding it can open.",
+            "name": "export-project-template"
+          },
+          {
+            "description": "Import a template into an existing project, adding its tasks, sections and comments to whatever is already there. Source it by template ID/URL or by passing CSV content from export-project-template. To start a new project from a template, create the project with add-projects first, then import into it. This writes immediately and cannot be undone, so only run it against a project the user named.",
+            "name": "import-project-template"
+          },
+          {
+            "description": "Get all workspaces for the authenticated user. Returns workspace details including ID, name, plan type (STARTER/BUSINESS), user role (ADMIN/MEMBER/GUEST), link sharing settings, guest permissions, creation date, and creator ID.",
+            "name": "list-workspaces"
+          },
+          {
+            "description": "Search across tasks and projects in Todoist. Returns a list of relevant results with IDs, titles, and URLs.",
+            "name": "search"
+          },
+          {
+            "description": "Fetch the full contents of a task or project by its ID. The ID should be in the format \"task:{id}\" or \"project:{id}\". (Comments may exist; use find-comments to retrieve them.)",
+            "name": "fetch"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Todoist": {
+        "type": "http",
+        "url": "https://ai.todoist.net/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_c78575f110f15a09489edd0deb0db8d877565c1ca802e46ccc02cc868c8625d1"
+      }
+    }
+  }
+}

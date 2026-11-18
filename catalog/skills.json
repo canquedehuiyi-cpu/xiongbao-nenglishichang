@@ -1,0 +1,598 @@
+[
+  {
+    "id": "53991dc5-6bf5-4dc8-aa19-8c0a8f3bb3a6",
+    "kind": "skill",
+    "name": "抖音达人数据 达人信息",
+    "canonicalName": "douyin-creator-profile",
+    "publisher": "why2025",
+    "version": "1.0.1",
+    "category": "Content Creation",
+    "tags": [],
+    "description": "抖音达人数据/账号资料查询：搜索视频图文、热榜、博主作品、评论分析（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_2yqNxm98",
+    "kind": "skill",
+    "name": "嵌入式系统工程师路线图",
+    "canonicalName": "toolweb-embedded-systems",
+    "publisher": "-",
+    "version": "1.0.0",
+    "category": "Database & Analytics",
+    "tags": [
+      "职业规划",
+      "嵌入式系统",
+      "技能提升",
+      "origin:skillatlas"
+    ],
+    "description": "专业职业发展平台，基于个人评估数据为嵌入式系统工程角色生成个性化学习路径。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_7jC4o6TY",
+    "kind": "skill",
+    "name": "测试用例生成专家",
+    "canonicalName": "easy-testcase",
+    "publisher": "-",
+    "version": "1.0.0",
+    "category": "Product Management",
+    "tags": [
+      "测试设计",
+      "质量保证",
+      "需求分析",
+      "origin:skillatlas"
+    ],
+    "description": "将需求文档、表单字段规则、审批流程定义和 UI 说明转化为结构化测试用例，适用于表单校验、流程审批、状态流转、权限隔离和业务分支测试场景。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_94aTZW4n",
+    "kind": "skill",
+    "name": "Whoop CLI 辅助技能",
+    "canonicalName": "whoop-cli",
+    "publisher": "andreasnlarsen",
+    "version": "1.0.1",
+    "category": "Database & Analytics",
+    "tags": [
+      "WHOOP 集成",
+      "CLI 工具",
+      "健康数据分析",
+      "origin:skillatlas"
+    ],
+    "description": "与 whoop-cli 配套的辅助技能，通过稳定的 CLI JSON 接口提供 WHOOP 健康数据的代理友好访问。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_9KqZIKbv",
+    "kind": "skill",
+    "name": "工作流审计",
+    "canonicalName": "workflow-audit",
+    "publisher": "mfish-qf",
+    "version": "1.0.1",
+    "category": "Coding",
+    "tags": [],
+    "description": "为 mfish-nocode-pro 项目集成 Flowable 工作流审批能力的五步骤代码模板（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_AhThMyAo",
+    "kind": "skill",
+    "name": "可视化标准",
+    "canonicalName": "visualization-standards",
+    "publisher": "MayaDispeler",
+    "version": "1.0.1",
+    "category": "Database & Analytics",
+    "tags": [],
+    "description": "用于设计分析可视化的密集参考 — 图表选择、数据墨水比率、感知准确性、颜色标准和仪表板架构。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_amIq6Ybf",
+    "kind": "skill",
+    "name": "Obsidian测试",
+    "canonicalName": "dicklesworthstone-obsidian-hello-world",
+    "publisher": "Dicklesworthstone",
+    "version": "1.0.0",
+    "category": "Coding",
+    "tags": [
+      "origin:modelscope"
+    ],
+    "description": "创建一个带有命令和设置的最简可行Obsidian插件（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_dwc0n2ND",
+    "kind": "skill",
+    "name": "浏览器测试",
+    "canonicalName": "carmandale-test-browser",
+    "publisher": "carmandale",
+    "version": "1.0.0",
+    "category": "Security & Testing",
+    "tags": [
+      "origin:modelscope"
+    ],
+    "description": "在受当前PR或分支影响的页面上运行浏览器测试",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_EbBsadZV",
+    "kind": "skill",
+    "name": "尉缭子分析法",
+    "canonicalName": "weiliaozi-skill",
+    "publisher": "-",
+    "version": "1.5.2",
+    "category": "Developer Tools",
+    "tags": [
+      "战略分析",
+      "博弈论",
+      "决策框架",
+      "origin:skillatlas"
+    ],
+    "description": "尉缭子战略分析框架，遵循“本质->条件->得失->先后->对手”的逻辑顺序（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_ffgauZf8",
+    "kind": "skill",
+    "name": "微信小程序开发辅助",
+    "canonicalName": "mini-program-dev",
+    "publisher": "chandler0714",
+    "version": "1.0.0",
+    "category": "Coding",
+    "tags": [
+      "微信小程序",
+      "开发辅助",
+      "代码模板",
+      "origin:skillatlas"
+    ],
+    "description": "提供微信小程序开发的代码模板、API 示例、常见问题解答及组件通信指南。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_Gpok7ZP9",
+    "kind": "skill",
+    "name": "调试测试",
+    "canonicalName": "boisenoise-superpowers-systematic-debugging",
+    "publisher": "boisenoise",
+    "version": "1.0.0",
+    "category": "Security & Testing",
+    "tags": [
+      "origin:modelscope",
+      "qoder-pro"
+    ],
+    "description": "在遇到任何错误、测试失败或意外行为时使用，然后提出修复方案",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_ixKRZy1p",
+    "kind": "skill",
+    "name": "安全测试",
+    "canonicalName": "boisenoise-superpowers-community-testing-skills-with-subagents",
+    "publisher": "boisenoise",
+    "version": "1.0.0",
+    "category": "Content Creation",
+    "tags": [
+      "origin:modelscope"
+    ],
+    "description": "针对过程文档的RED-GREEN-REFACTOR方法 - 在没有特定技能的情况下建立基线，编写解决失败问题的内容，通过迭代来封闭漏洞",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_JCQg8JQf",
+    "kind": "skill",
+    "name": "自动化测试",
+    "canonicalName": "automation-testing",
+    "publisher": "naodeng",
+    "version": "1.0.0",
+    "category": "Security & Testing",
+    "tags": [],
+    "description": "自动化测试技能，涵盖测试框架搭建、测试用例编写、CI/CD 集成和测试报告生成。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_LVOq8eJA",
+    "kind": "skill",
+    "name": "圆圆蓝图工作坊",
+    "canonicalName": "yuanyuan-blueprint-workshop",
+    "publisher": "-",
+    "version": "1.0.1",
+    "category": "Design",
+    "tags": [
+      "知识转化",
+      "代理设计",
+      "工作流梳理",
+      "origin:skillatlas"
+    ],
+    "description": "通过结构化的五步工作坊（场景发现、SOP 提取、依赖映射、蓝图生成和技能寻源），将个人的隐性知识转化为可测试的 Agent 蓝图。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_MIbyF7JS",
+    "kind": "skill",
+    "name": "Spring Boot MyBatis 单元测试专家",
+    "canonicalName": "springboot-unit-testing",
+    "publisher": "-",
+    "version": "1.0.0",
+    "category": "Security & Testing",
+    "tags": [
+      "单元测试",
+      "Spring Boot",
+      "MyBatis",
+      "origin:skillatlas"
+    ],
+    "description": "专业的 Spring Boot + MyBatis + MySQL 项目单元测试技能，提供全面的测试覆盖策略（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_QtHnIi1l",
+    "kind": "skill",
+    "name": "声明式 UI 组件渲染器",
+    "canonicalName": "widgets-ui",
+    "publisher": "okaris",
+    "version": "1.0.1",
+    "category": "Design",
+    "tags": [
+      "React 组件",
+      "JSON 声明式 UI",
+      "智能体界面",
+      "origin:skillatlas"
+    ],
+    "description": "基于 JSON 的 React/Next.js 声明式 UI 组件库，支持从智能体响应中渲染丰富的交互式界面。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_rqXXCrYt",
+    "kind": "skill",
+    "name": "Chrome测试",
+    "canonicalName": "edwinhu-dev-test-chrome",
+    "publisher": "edwinhu",
+    "version": "1.0.0",
+    "category": "Security & Testing",
+    "tags": [
+      "origin:modelscope"
+    ],
+    "description": "此技能应在使用Chrome MCP工具测试Web应用程序、调试控制台错误、监控网络请求、在浏览器中执行JavaScript、记录GIF测试证据时使用（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_rzF1oG9K",
+    "kind": "skill",
+    "name": "以史为鉴",
+    "canonicalName": "yi-shi-wei-jian",
+    "publisher": "-",
+    "version": "1.0.1",
+    "category": "Design",
+    "tags": [
+      "历史类比",
+      "决策支持",
+      "沙盘推演",
+      "origin:skillatlas"
+    ],
+    "description": "将现实决策问题转化为“局面判断、历史映射、路径设计、沙盘推演”的结构化分析。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_SY4jg4Dn",
+    "kind": "skill",
+    "name": "XLSX 工具",
+    "canonicalName": "xlsx-tool",
+    "publisher": "raiashpanda007",
+    "version": "1.0.1",
+    "category": "Design",
+    "tags": [],
+    "description": "电子表格操作：公式、图表、数据转换。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_Tb3g9Nvw",
+    "kind": "skill",
+    "name": "嵌入式图像工作室",
+    "canonicalName": "embedded-image-studio",
+    "publisher": "Skills Marketplace",
+    "version": "1.0.0",
+    "category": "Design",
+    "tags": [],
+    "description": "每当表单需要接受一张图像并为一个或多个特定于平台的尺寸生成永久公共 URL 时使用（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_uLw3BeAF",
+    "kind": "skill",
+    "name": "WPS macOS 助手",
+    "canonicalName": "wps-macos-helper",
+    "publisher": "-",
+    "version": "1.0.1",
+    "category": "Database & Analytics",
+    "tags": [
+      "文档处理",
+      "兼容性优化",
+      "macOS",
+      "origin:skillatlas"
+    ],
+    "description": "当 WPS 明确作为文档工作流的一部分时，协助 macOS 用户更可靠地使用 WPS Office（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_uwJgR8Mz",
+    "kind": "skill",
+    "name": "测试用例生成器",
+    "canonicalName": "testcase-generator",
+    "publisher": "-",
+    "version": "1.0.0",
+    "category": "Security & Testing",
+    "tags": [
+      "测试用例生成",
+      "自动化测试",
+      "质量管理",
+      "origin:skillatlas"
+    ],
+    "description": "专业的测试用例生成技能。支持文本/文档输入，自动生成高质量测试用例（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official_ZDMn5uwf",
+    "kind": "skill",
+    "name": "Cases测试",
+    "canonicalName": "cexll-test-cases",
+    "publisher": "stellarlinkco",
+    "version": "1.0.0",
+    "category": "Product Management",
+    "tags": [
+      "origin:modelscope"
+    ],
+    "description": "此技能应在根据PRD文档或用户需求生成全面的测试用例时使用（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official03866510",
+    "kind": "skill",
+    "name": "深入研究",
+    "canonicalName": "deep-research",
+    "publisher": "Jose-Luis-Nunez",
+    "version": "1.0.0",
+    "category": "Knowledge",
+    "tags": [
+      "OfficialSelection"
+    ],
+    "description": "通过来源验证、三角测量和引用支持的报告对技术主题进行系统的深入研究。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official05986578",
+    "kind": "skill",
+    "name": "前端设计",
+    "canonicalName": "frontend-design",
+    "publisher": "pcaro90",
+    "version": "1.0.0",
+    "category": "Design",
+    "tags": [
+      "qoder-vibe"
+    ],
+    "description": "创建具有高设计质量的独特的生产级前端界面。",
+    "installed": true,
+    "installedVersion": "1.0.0",
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official09861459",
+    "kind": "skill",
+    "name": "cloudflare 部署",
+    "canonicalName": "cloudflare-deploy",
+    "publisher": "davila7",
+    "version": "1.0.0",
+    "category": "DevOps",
+    "tags": [
+      "OfficialSelection"
+    ],
+    "description": "使用 Workers、Pages 和相关平台服务将应用程序和基础设施部署到 Cloudflare 。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official17225023",
+    "kind": "skill",
+    "name": "市场研究报告",
+    "canonicalName": "market-research-reports",
+    "publisher": "K-Dense-AI",
+    "version": "1.0.0",
+    "category": "Knowledge",
+    "tags": [],
+    "description": "以顶级咨询公司（麦肯锡、BCG、Gartner）的风格生成全面的市场研究报告（50 多页）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official24681357",
+    "kind": "skill",
+    "name": "智能小Q-数据分析",
+    "canonicalName": "quickbi-smartq-chat",
+    "publisher": "Alibaba Cloud (Quick BI)",
+    "version": "1.0.1",
+    "category": "Database & Analytics",
+    "tags": [
+      "OfficialSelection"
+    ],
+    "description": "超级数据分析技能，自然语言问数，支持 Quick BI 数据集问数与 Excel/CSV 文件问数（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official36467869",
+    "kind": "skill",
+    "name": "分析数据分析",
+    "canonicalName": "analytics-data-analysis",
+    "publisher": "Mindrally",
+    "version": "1.0.0",
+    "category": "Database & Analytics",
+    "tags": [
+      "qoder-vibe"
+    ],
+    "description": "使用 Python、Jupyter 和现代数据工具实施分析、数据分析和可视化最佳实践。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official45042359",
+    "kind": "skill",
+    "name": "Notion 信息图",
+    "canonicalName": "notion-infographic",
+    "publisher": "lexburner (daofeng)",
+    "version": "1.0.0",
+    "category": "Design",
+    "tags": [
+      "OfficialSelection"
+    ],
+    "description": "根据参考文稿批量生成 Notion 风格松弛感手绘信息图组图。",
+    "installed": true,
+    "installedVersion": "1.0.0",
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official70744554",
+    "kind": "skill",
+    "name": "图像增强器",
+    "canonicalName": "image-enhancer",
+    "publisher": "ComposioHQ",
+    "version": "1.0.0",
+    "category": "Design",
+    "tags": [],
+    "description": "通过增强分辨率、清晰度和清晰度来提高图像质量，尤其是屏幕截图的质量。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official79532076",
+    "kind": "skill",
+    "name": "技术图表生成",
+    "canonicalName": "drafter-diagram",
+    "publisher": "yofine",
+    "version": "1.0.0",
+    "category": "Design",
+    "tags": [
+      "OfficialSelection",
+      "qoder-pro"
+    ],
+    "description": "帮你把「系统怎么组成、流程怎么走、模块怎么连」画成一张好读的技术示意图（描述原文较长，已截断）。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official86382844",
+    "kind": "skill",
+    "name": "UI 设计",
+    "canonicalName": "ui-designer",
+    "publisher": "daymade",
+    "version": "1.0.0",
+    "category": "Design",
+    "tags": [
+      "OfficialSelection",
+      "qoder-vibe"
+    ],
+    "description": "从参考 UI 图像中提取设计系统并生成可实施的 UI 设计提示。",
+    "installed": true,
+    "installedVersion": "1.0.0",
+    "components": null,
+    "source": "official"
+  },
+  {
+    "id": "official99793663",
+    "kind": "skill",
+    "name": "内容研究撰写",
+    "canonicalName": "content-research-writer",
+    "publisher": "ComposioHQ",
+    "version": "1.0.0",
+    "category": "Knowledge",
+    "tags": [],
+    "description": "通过进行研究、添加引文、改进挂钩、迭代大纲以及提供每个部分的实时反馈，协助编写高质量的内容。",
+    "installed": false,
+    "installedVersion": null,
+    "components": null,
+    "source": "official"
+  }
+]

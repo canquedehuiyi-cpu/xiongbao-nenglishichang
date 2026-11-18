@@ -1,0 +1,84 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.446Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "diffbot",
+  "connector_name": "Diffbot",
+  "connector_name_cn": "Diffbot",
+  "description": "Extract structured article data and metadata from public web pages with Diffbot. Use the returned webpage content or run results as inputs to research, retrieval, or automation workflows. Define the target pages and content scope first, inspect the returned material, and preserve source links for traceability. Layout changes, dynamic loading, and site access restrictions can affect completeness. Check important fields before passing the result into downstream processing or treating it as a complete representation of the page.",
+  "description_cn": "通过 Diffbot 从公开网页提取结构化文章数据和元信息。适合将公开网页资料整理为研究、检索或自动化流程的输入。可先限定目标页面和需要的内容范围，再检查返回文本或运行结果，保留来源链接用于追溯。网页布局变化、动态加载及站点访问限制都可能影响结果完整性，进入后续流程前应核对关键字段。",
+  "version": "1.0.0",
+  "category": "Database & Analytics",
+  "tags": [
+    "web_data",
+    "extraction",
+    "analytics"
+  ],
+  "provider_name": "Diffbot",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "diffbot",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ef46d66ed758b72060ff70644a09a64c143e603fbf419920aba5e84b315c9920",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Extract structured article data and metadata from public web pages with Diffbot.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ef46d66ed758b72060ff70644a09a64c143e603fbf419920aba5e84b315c9920",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "diffbot",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_ef46d66ed758b72060ff70644a09a64c143e603fbf419920aba5e84b315c9920",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Extract article content and metadata from a public URL using Diffbot Article API.",
+            "name": "extract_article"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "diffbot": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ef46d66ed758b72060ff70644a09a64c143e603fbf419920aba5e84b315c9920",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_ef46d66ed758b72060ff70644a09a64c143e603fbf419920aba5e84b315c9920"
+      }
+    }
+  }
+}

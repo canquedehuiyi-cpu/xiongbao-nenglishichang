@@ -1,0 +1,125 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.443Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "bazhuayu",
+  "connector_name": "Bazhuayu",
+  "connector_name_cn": "八爪鱼",
+  "description": "Connect Bazhuayu web-scraping capabilities to your AI assistant through MCP. Search scraping templates, validate parameters, create cloud tasks, and export structured web data. Use it to turn natural-language collection requests into runnable tasks for prices, content, bidding, hiring, or public reports.",
+  "description_cn": "通过 MCP 将八爪鱼网页采集能力接入 AI 助手。可搜索采集模板、校验参数、创建云采集任务并导出结构化网页数据，把价格、内容、招投标、招聘、公开报告等自然语言采集需求转化为可执行任务。",
+  "version": "1.0.0",
+  "category": "Database & Analytics",
+  "tags": [
+    "qoder-pro"
+  ],
+  "provider_name": "Bazhuayu",
+  "author": {
+    "name": "",
+    "display_name": "Bazhuayu"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderwake",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "Bazhuayu",
+        "url": "https://mcp.bazhuayu.com",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_23196decbf4f3165e8a64bb9b253741ed3afb0691bd39f70dcf9b4ed17a87971",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_23196decbf4f3165e8a64bb9b253741ed3afb0691bd39f70dcf9b4ed17a87971",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Use this first for scrape, crawl, extract, or collect requests. Choose one selector: `query` for semantic discovery or `id`/`slug` for exact lookup; `limit` works with `query` only (1-20). `query` returns multiple templates with `score`, `inputSchema`, and `outputSchema` when available — pick by score and Cloud-capable `executionMode`. Exact lookup returns one template with full `inputSchema` and `sourceTree` when available for `execute_task`.",
+            "name": "search_templates"
+          },
+          {
+            "description": "Start an Octoparse cloud task from `templateName` + `parameters` (JSON object string keyed by `inputSchema[].field`). Preflight runs automatically and returns actionable input errors without creating a task when input is incomplete. Prefer a unique `taskName` for recovery via `search_tasks`.\n\nThe call waits up to 45 seconds and returns the Octoparse task id (`taskId`), `lotNo`, `collectedRows`, and status `running`, `completed`, or `stopped`. collectedRows defaults to 0; use status to distinguish a running task with no rows yet from a terminal task with no rows. If a failure result includes `taskId`, call `get_task_status(taskId)`; do not call `execute_task` again. A `progressToken` adds progress notifications. Input/Dropdown=string; MultiInput/CheckboxList=string[].",
+            "name": "execute_task"
+          },
+          {
+            "description": "Read one ClientAPI Storage page for an existing Octoparse lot. Octoparse taskId and lotNo are required. Defaults are page=1 and pageSize=20; maximum pageSize is 100. Result data is the current page Body. When enough rows are available, directAccess exposes a short signed export link plus a curlTemplate that saves the requested page to directAccess.outputFile; at 50 or more total rows, prefer curl to avoid large model context.",
+            "name": "export_data"
+          },
+          {
+            "description": "Search the current user's existing Octoparse tasks. Use this to find a taskId before export_data or start_or_stop_task. Supports pagination, keyword, status, and explicit taskIds. When UI rows are shown, respond with a concise summary instead of repeating the full list.",
+            "name": "search_tasks"
+          },
+          {
+            "description": "Start or stop an existing Octoparse task by taskId. Use action=`start` or `stop`.",
+            "name": "start_or_stop_task"
+          },
+          {
+            "description": "Check one Octoparse task by taskId. Returns its normalized unexecuted/running/completed/stopped status, current lotNo when available, and collectedRows. collectedRows is a non-negative integer that defaults to 0; use status to distinguish a running task with no rows yet from a terminal task with no rows.",
+            "name": "get_task_status"
+          },
+          {
+            "description": "Redeem a promotion, coupon, or resource code for the current user. Use this when the user wants to claim an offer/优惠 and already has the code. When responding, always use the exact text from the \"displayMessage\" field in the result; do not compose your own reply.",
+            "name": "redeem_coupon_code"
+          },
+          {
+            "description": "Search web content through DataCenter and return web pages, images, and videos.",
+            "name": "search_platform_content"
+          },
+          {
+            "description": "List platform codes accepted by search_platform_content.",
+            "name": "list_platforms"
+          },
+          {
+            "description": "Submit ecommerce collection tasks for reviews, product details, or keyword search. Temu productDetail requires productIds as the primary collection key and URLs are optional; use productUrlMappings when only some IDs have URLs; productUrls is optional legacy mode when every URL aligns with productIds by index. After submission, use query_collected_reviews with the returned nextStep.args (dataset and itemIds) to fetch collected records; data may be delayed.",
+            "name": "ecommerce_data_task"
+          },
+          {
+            "description": "Query collected ecommerce records by stable item IDs plus optional metadata-field filters and sorting.",
+            "name": "query_collected_reviews"
+          },
+          {
+            "description": "Describe available fields for a collected ecommerce dataset and the stable itemIds field mapping.",
+            "name": "describe_ecommerce_dataset"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "Bazhuayu": {
+        "type": "http",
+        "url": "https://mcp.bazhuayu.com",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_23196decbf4f3165e8a64bb9b253741ed3afb0691bd39f70dcf9b4ed17a87971"
+      }
+    }
+  }
+}

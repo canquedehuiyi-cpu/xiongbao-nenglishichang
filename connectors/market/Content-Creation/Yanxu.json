@@ -1,0 +1,106 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.428Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Content-Creation",
+  "categoryCode": "Content Creation",
+  "connector_id": "yanxu",
+  "connector_name": "Yanxu",
+  "connector_name_cn": "言序",
+  "description": "Yanxu connects Qoder to your Yanxu account so you can write, typeset and publish WeChat official account articles in plain language. It lists the official accounts and style themes bound to your account, uploads local images and returns public image URLs you can embed, builds an article from eight content block types, and pushes the finished draft into the official account draft box. A typical run is: pick the account and theme, provide cover and inline images, describe the article, then send the draft. Drafts stay in the draft box; Yanxu does not mass-send for you, so you review and publish inside WeChat. Service limits: titles up to 30 characters, summaries up to 100 characters, inline images up to 1 MB each and covers up to 2 MB. You must register Yanxu and bind at least one WeChat official account first. The remote MCP needs no API key, environment variables or local dependencies, and access is granted per user through OAuth.",
+  "description_cn": "言序连接器把你的言序账号接入 Qoder，用自然语言完成微信公众号文章的排版与发布。可查询账号下已绑定的公众号与样式主题，上传本地图片换取可嵌入的公网直链，按八种内容块组织正文建稿，并把成品推送到公众号草稿箱。典型流程是选定公众号与主题、提供封面与正文配图、描述文章要求，然后把草稿发出去。言序只写入草稿箱，不做群发，最终发布仍由你在公众号里确认。服务侧限制：标题不超过 30 字，摘要不超过 100 字，正文图片单张不超过 1MB，封面不超过 2MB。使用前需先注册言序并至少绑定一个微信公众号。远程 MCP 连接不需要 API Key、环境变量或本地依赖，访问按用户通过 OAuth 授权。",
+  "version": "1.0.4",
+  "category": "Content Creation",
+  "tags": [
+    "wechat",
+    "official-account",
+    "publishing",
+    "mcp",
+    "qoder-vibe-new",
+    "qoder-pro-new"
+  ],
+  "provider_name": "言序",
+  "author": {
+    "name": "言序",
+    "display_name": "言序"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "qoderwake",
+    "dashboard",
+    "qoder",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "yanxu",
+        "url": "https://toolsvip.cn/mcp",
+        "protocol": "streamable_http",
+        "auth_type": "oauth",
+        "auth_config": "",
+        "description": "言序远程 MCP：公众号与主题查询、本地图转公网直链、多内容块建稿与推送草稿箱；以实时 tools/list 为参数真源。",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f74b258a028083a030069e5563c11b4a831352437867bb9cb973ce5b65d021ec",
+        "runtime_kind": "remote_mcp",
+        "embedded_provider": null,
+        "server_id": "mcp_srv_f74b258a028083a030069e5563c11b4a831352437867bb9cb973ce5b65d021ec",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "创建一篇公众号文章草稿并保存到数据库。title 不超过30字，abstract 不超过100字，cover_img 可空；正文结构为 intro + chapters（paragraph/image/list/table）。chapters 可为原生数组，或 JSON 数组字符串（兼容部分 MCP 客户端）。成功后返回文章外部 ID（info_id，形如 yx50…），后续发布请原样回传该 ID。",
+            "name": "create_article"
+          },
+          {
+            "description": "【推荐】按扁平 blocks 组稿并创建公众号文章草稿。title≤30字，abstract≤100字，cover_img 可空。blocks 顺序即正文顺序，支持 lead/heading/paragraph/image/list/table/quote/code/end。可为原生数组或 JSON 数组字符串；image/list/table/code/end 字段放 data 内，lead/heading/paragraph/quote 用 content。成功返回 info_id（形如 yx50…）。",
+            "name": "compose_article"
+          },
+          {
+            "description": "查询当前用户已绑定的公众号列表。返回公众号名称、外部 account_id，以及默认样式主题外部 ID（default_theme_id，可能为空）。",
+            "name": "list_wechat_accounts"
+          },
+          {
+            "description": "查询当前用户可用的样式主题（系统主题 + 自己保存的主题；不含百变入口）。返回 theme_id、样式名称、样式描述。",
+            "name": "list_theme_styles"
+          },
+          {
+            "description": "将文章发布到指定公众号草稿箱。必填文章外部 ID（info_id）。account_id 可选：未指定且用户只有一个公众号时自动使用该号；多个公众号时必须指定。theme_id 可选：未指定时使用公众号绑定的默认样式；若无默认样式则需指定 theme_id。append_profile 可选：是否在文末携带公众号名片（mp-common-profile）；不传则读该公众号的 auto_append_profile 开关。封面可空：无文章封面时依次使用公众号默认封面、系统封面。正文图片超过 2 张时为异步发布：返回 async=true、status=0(pending)、media_id 为空，需稍后通过发布记录确认成功（status=1）或失败（status=2）。",
+            "name": "publish_article"
+          },
+          {
+            "description": "获取一次性图片上传通道。返回 upload_url（形如 {APP_DOMAIN}/api/once/upload?ticket=...），5 分钟内有效。前端或客户端用该 URL 以 multipart 上传图片文件（字段名 file 或 img），成功后返回 url（公网直链）与 file_path（相对路径）。正文配图请优先把 file_path 写入 image.url（落在 mcp/，与 wechat/ 一样 7 天过期）；封面用 cover/、挂件用 frame/，不过期。scene：cover=封面（上限 2MB），frame=挂件图（上限 2MB），body=正文配图（上限 1MB），默认 body。",
+            "name": "get_upload_channel"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "yanxu": {
+        "type": "http",
+        "url": "https://toolsvip.cn/mcp",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_f74b258a028083a030069e5563c11b4a831352437867bb9cb973ce5b65d021ec"
+      }
+    }
+  }
+}

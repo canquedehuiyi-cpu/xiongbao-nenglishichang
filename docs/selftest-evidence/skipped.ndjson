@@ -1,0 +1,2 @@
+{"at":"2026-11-18T10:19:00.736Z","id":"selftest_no_url","kind":"skill","name":"selftest-no-url","categoryDir":"Agent-Evolution","reason":"no_zip_url_in_detail"}
+{"at":"2026-11-18T10:19:00.738Z","id":"selftest_bad_status","kind":"skill","name":"selftest-bad-status","categoryDir":"Coding","reason":"detailStatus_500_not_200"}

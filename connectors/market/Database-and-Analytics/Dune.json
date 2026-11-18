@@ -1,0 +1,103 @@
+{
+  "_note": "市场连接器=远程 MCP 端点配置，无内容包。凭据位保留空串或 <REDACTED>，需使用者自行填入自己的 token/OAuth 客户端。",
+  "_source": "Qoder apphub 详情端点 /connectors/<id>（leader 侧带鉴权抓取，本脚本只读已落盘快照）",
+  "_fetchedAt": "2026-11-18T10:44:24.449Z",
+  "_droppedFields": [
+    "owner_user_id",
+    "contact_info",
+    "security_scan",
+    "permission_revision",
+    "extra",
+    "icon_url",
+    "install_count",
+    "rating_avg",
+    "rating_count",
+    "quality_level",
+    "created_at",
+    "updated_at",
+    "content_updated_at",
+    "recommended_usage_background_id",
+    "authorization_tags",
+    "file_hash"
+  ],
+  "categoryDir": "Database-and-Analytics",
+  "categoryCode": "Database & Analytics",
+  "connector_id": "dune",
+  "connector_name": "Dune",
+  "connector_name_cn": "Dune",
+  "description": "Access Dune queries and analytics results for blockchain research. Use query results as inputs to research on on-chain activity. Define the network, time window, and metric before collecting results, then organize the output into comparable datasets. Network selection, data freshness, and query conditions affect the meaning of a result. Retain these conditions with the analysis and avoid comparing statistics that cover different populations or time ranges without adjustment.",
+  "description_cn": "访问 Dune 查询和分析结果，辅助区块链数据研究。适合围绕链上活动准备分析数据和研究资料。可先明确查询范围、时间窗口及指标定义，再将返回结果整理为可比较的数据集。区块链网络、数据更新时点和查询条件会影响结果口径，解释结论时应保留这些条件，避免把不同范围的统计结果直接比较。",
+  "version": "1.0.0",
+  "category": "Database & Analytics",
+  "tags": [
+    "blockchain",
+    "sql"
+  ],
+  "provider_name": "Dune",
+  "author": {
+    "name": "qoder",
+    "display_name": "Qoder"
+  },
+  "visibility": "public",
+  "status": "active",
+  "clients": [
+    "dashboard",
+    "qoderapp"
+  ],
+  "recommended_usage": {},
+  "config": {
+    "servers": [
+      {
+        "name": "dune",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_1270c9613bb43832d13fec63cbfc8643a54a3092d521f53946425cb449be5289",
+        "protocol": "streamable_http",
+        "auth_type": "api_key",
+        "auth_config": "",
+        "description": "Access Dune queries and analytics results for blockchain research.",
+        "enabled": true,
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_1270c9613bb43832d13fec63cbfc8643a54a3092d521f53946425cb449be5289",
+        "runtime_kind": "embedded_provider",
+        "embedded_provider": {
+          "provider_id": "dune",
+          "contract_version": "1"
+        },
+        "server_id": "mcp_srv_1270c9613bb43832d13fec63cbfc8643a54a3092d521f53946425cb449be5289",
+        "api_key_help_url": "<REDACTED>",
+        "tools": [
+          {
+            "description": "Execute a saved Dune query and return an execution ID for status polling and result retrieval.",
+            "name": "execute_query"
+          },
+          {
+            "description": "Get the JSON result and metadata for a Dune execution.",
+            "name": "get_execution_result"
+          },
+          {
+            "description": "Get the current state and metadata for a Dune query execution.",
+            "name": "get_execution_status"
+          },
+          {
+            "description": "Get the latest stored JSON result for a Dune query without starting a new execution.",
+            "name": "get_latest_query_result"
+          },
+          {
+            "description": "Get SQL, parameters, ownership, and state for a Dune query.",
+            "name": "get_query"
+          },
+          {
+            "description": "List queries owned by the Dune account associated with the API key.",
+            "name": "list_queries"
+          }
+        ]
+      }
+    ],
+    "tools": [],
+    "mcp_servers": {
+      "dune": {
+        "type": "http",
+        "url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_1270c9613bb43832d13fec63cbfc8643a54a3092d521f53946425cb449be5289",
+        "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/mcp_srv_1270c9613bb43832d13fec63cbfc8643a54a3092d521f53946425cb449be5289"
+      }
+    }
+  }
+}
