@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_w8KCqUqJ",
+  "name": "blender",
+  "displayName": "Blender 常见错误与游戏引擎导出指南",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivangdavila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/blender/latest/blender.zip",
+  "zipSha256": "63a94933f8deb03921d67930179f1cb66725e99070d021628bc00f5c3d394cad",
+  "zipBytes": 1970,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8a2fa735b74b788018a12c4b5d5767cbf661d069c9acefce8859ec5590268e55",
+  "fetchedAt": "2026-11-18T10:36:43.958Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

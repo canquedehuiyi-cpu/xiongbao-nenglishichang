@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_h21ri9fJ",
+  "name": "pagecran-blender-geometry-nodes",
+  "displayName": "PageCran Blender 几何节点",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Pagecran",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pagecran-blender-geometry-nodes/latest/pagecran-blender-geometry-nodes.zip",
+  "zipSha256": "4cced18bd88d96e5e0abd448c81d7770379098834019bccb5d0c8006710bd7f9",
+  "zipBytes": 3433,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c91b7813ff9e7127fb97fd95e44b239d766f8ef6eeb674efc0efda1ddf5f288f",
+  "fetchedAt": "2026-11-18T10:36:54.151Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

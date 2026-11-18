@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_AbnOaM4E",
+  "name": "casemark-analyzing-epidemiological-data",
+  "displayName": "数据工具",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "casemark",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/casemark-analyzing-epidemiological-data/latest/casemark-analyzing-epidemiological-data.zip",
+  "zipSha256": "ba6a1134120c0d19106e5f900ca7df59f37cecc469fc0375fb28149884753841",
+  "zipBytes": 4284,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "3755ca1c58f0d518b55e9959c2394ac571fbfa5bda9e2fe7465d0610dff4890c",
+  "fetchedAt": "2026-11-18T10:35:59.782Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

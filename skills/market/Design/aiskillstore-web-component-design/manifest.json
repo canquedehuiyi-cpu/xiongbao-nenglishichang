@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_d43BK2do",
+  "name": "aiskillstore-web-component-design",
+  "displayName": "React网页设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-web-component-design/latest/aiskillstore-web-component-design.zip",
+  "zipSha256": "857ad981bcda73b1d3a860c6172e16afd7b2621bafd275eaf75805280c877116",
+  "zipBytes": 18972,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "8629c14c60889af9a481136e43a986af18e4dec1f9813885d5a565dd301da54c",
+  "fetchedAt": "2026-11-18T10:36:35.144Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

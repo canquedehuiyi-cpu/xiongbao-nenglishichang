@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_eqBydJ9c",
+  "name": "kicad-pcb",
+  "displayName": "KiCad PCB 自动化设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "g0head",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kicad-pcb/latest/kicad-pcb.zip",
+  "zipSha256": "28527844eb59a387b13e513a0ea7cf5adb496e8ec4949ec0b1a5e0b68cc061d9",
+  "zipBytes": 9334,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "14f6c78621730698226060da6218b3e84222f1c52ab9bdd4a31c8f623ce8f28f",
+  "fetchedAt": "2026-11-18T10:36:44.131Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

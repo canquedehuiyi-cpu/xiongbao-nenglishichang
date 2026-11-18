@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_H2yQGxOi",
+  "name": "solo-pipeline",
+  "displayName": "自动化多技能流水线",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "fortunto2",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/solo-pipeline/latest/solo-pipeline.zip",
+  "zipSha256": "fd3f65bbf5ef7d127ee90e4fb091e70779647ff2b8fbdebfc72293e7e094159e",
+  "zipBytes": 2616,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c963b487a209dc2eb9991aad365915871037f88b80066bbce6a23d44adf5c087",
+  "fetchedAt": "2026-11-18T10:40:38.668Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

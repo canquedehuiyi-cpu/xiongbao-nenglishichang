@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_hbPAaRZi",
+  "name": "a5c-ai-fmea-facilitator",
+  "displayName": "FMEA分析",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "a5c-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/a5c-ai-fmea-facilitator/latest/a5c-ai-fmea-facilitator.zip",
+  "zipSha256": "0085f136a64298ea40bbca6903f72f8d79c706347cde134196be7ea3d6aecd7a",
+  "zipBytes": 1606,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "3d5ab1046d9033437717522d32f14ea3c4f42fe284a4d84b0ecf6afd17b3f077",
+  "fetchedAt": "2026-11-18T10:40:32.505Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

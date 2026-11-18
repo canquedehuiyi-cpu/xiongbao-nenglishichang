@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_c4gNnTcp",
+  "name": "crawl4ai-skill",
+  "displayName": "智能网页爬虫",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/crawl4ai-skill/latest/crawl4ai-skill.zip",
+  "zipSha256": "f31e202f6de4c6a581e42ce9980cd5f4cbb07f813715aaf5bfc99a2c52494d23",
+  "zipBytes": 2474,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "6a0f2bd8da67ef87138c26d71de6ebe25fff3ab5a7e0a7c7e8b792a42b08f880",
+  "fetchedAt": "2026-11-18T10:35:39.522Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

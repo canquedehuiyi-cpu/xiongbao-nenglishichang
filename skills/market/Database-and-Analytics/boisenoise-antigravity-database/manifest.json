@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LQIyeogn",
+  "name": "boisenoise-antigravity-database",
+  "displayName": "SQL数据库分析",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-database/latest/boisenoise-antigravity-database.zip",
+  "zipSha256": "8b49b99bb17fc98c9de5bd2b7801dd311176ecc140a206193ed45a5b85c8a3ab",
+  "zipBytes": 1834,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6dc650134732d59a32506427d86b8b159155ed11968b062f7704ff2e6c4f4464",
+  "fetchedAt": "2026-11-18T10:35:51.583Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

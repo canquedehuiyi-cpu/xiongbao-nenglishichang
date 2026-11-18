@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6j2TpORu",
+  "name": "majiayu000-mastering-confluence",
+  "displayName": "Git知识库管理",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-mastering-confluence/latest/majiayu000-mastering-confluence.zip",
+  "zipSha256": "0ea5faf2580c5d7d614aa1f224e05d054fc1c8a3978cb7f812c6b538ae335fea",
+  "zipBytes": 3060,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "7bfda60e04eff59640b0c408752f475d80363874d01a9baf6076f49c627c44b3",
+  "fetchedAt": "2026-11-18T10:36:22.948Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

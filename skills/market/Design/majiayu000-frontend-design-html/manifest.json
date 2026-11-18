@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_CuMwHaHn",
+  "name": "majiayu000-frontend-design-html",
+  "displayName": "前端设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-frontend-design-html/latest/majiayu000-frontend-design-html.zip",
+  "zipSha256": "3e4906215a672c1049552397baf9ed47bd9a0e4281e4862fbebcca94dcc3bf3d",
+  "zipBytes": 12051,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "01683e7b77c4cc40a3e8c77d391a4076db55a4d35e3732492bbe15a1e5da4282",
+  "fetchedAt": "2026-11-18T10:36:44.633Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

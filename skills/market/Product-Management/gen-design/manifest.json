@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_al8lbg00",
+  "name": "gen-design",
+  "displayName": "系统设计技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/gen-design/latest/gen-design.zip",
+  "zipSha256": "82c11c5d1bc3b2eeb965f6ca11db042a7cd5754ee02c3ebbe9ffbea473529d6e",
+  "zipBytes": 21759,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "43e18215046b5e9092169a9e62686c7383436e2fba5b88fb8eaf4a71a64fa992",
+  "fetchedAt": "2026-11-18T10:40:33.074Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

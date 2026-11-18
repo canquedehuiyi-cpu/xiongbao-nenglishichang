@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_o7yoOi3I",
+  "name": "jeongheonk-csharp-code-review",
+  "displayName": "Csharp审查",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jeongheonk",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jeongheonk-csharp-code-review/latest/jeongheonk-csharp-code-review.zip",
+  "zipSha256": "a19a825d568869d85ec1ed4695f984ba8e793bec10cf2603fd52872e30acdd1c",
+  "zipBytes": 3760,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "d55e1ed5ee0b94d271e06cde767492fb02879705a7cd36d4bfd62f262827ca8a",
+  "fetchedAt": "2026-11-18T10:37:13.734Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

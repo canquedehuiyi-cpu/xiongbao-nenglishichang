@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_heMQsxft",
+  "name": "excelsioryy-data-analysis-skill",
+  "displayName": "图像数据分析",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "excelsioryy",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/excelsioryy-data-analysis-skill/latest/excelsioryy-data-analysis-skill.zip",
+  "zipSha256": "20da0b8fa7f2846f6138105b2f508ff7d05dc0ae589359dfbd8211a9bc0005e1",
+  "zipBytes": 35098,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "7ed4889640138373e91b1fba6cbc53f5e16a3f45970987425878cbb092f38a95",
+  "fetchedAt": "2026-11-18T10:36:27.679Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

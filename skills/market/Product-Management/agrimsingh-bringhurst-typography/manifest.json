@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_zOWBLmrA",
+  "name": "agrimsingh-bringhurst-typography",
+  "displayName": "产品设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "agrimsingh",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agrimsingh-bringhurst-typography/latest/agrimsingh-bringhurst-typography.zip",
+  "zipSha256": "881c44a1c0c93b79b7f7c329df90a27000cbc7cf7861ce7f3e7c39983ca0bc95",
+  "zipBytes": 11287,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "3778dfd544c80704eb5bf1a6de77d37c56ed1a24049ce7bd2a09da31fb9c6021",
+  "fetchedAt": "2026-11-18T10:40:01.431Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

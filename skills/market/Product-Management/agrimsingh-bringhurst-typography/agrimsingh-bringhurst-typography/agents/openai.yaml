@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bringhurst Typography"
+  short_description: "Apply Bringhurst typography principles"
+  default_prompt: "Use $bringhurst-typography to review and improve this layout for hierarchy, spacing, rhythm, and punctuation."

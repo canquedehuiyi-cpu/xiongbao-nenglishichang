@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PAQWezAN",
+  "name": "majiayu000-scientific-medchem",
+  "displayName": "Medchem科研",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-scientific-medchem/latest/majiayu000-scientific-medchem.zip",
+  "zipSha256": "b29758a6d0c06eef229dad089065138e58e692f34fc1b8eaaa1b8a24d8c9a1dc",
+  "zipBytes": 4584,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0953aba3dd0604016e70c6b115e92c02492f0235d502ec7999a69c915367f8f9",
+  "fetchedAt": "2026-11-18T10:40:31.554Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

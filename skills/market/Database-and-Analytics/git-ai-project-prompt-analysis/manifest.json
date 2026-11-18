@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fHNNHDgt",
+  "name": "git-ai-project-prompt-analysis",
+  "displayName": "提示词优化",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "git-ai-project",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/git-ai-project-prompt-analysis/latest/git-ai-project-prompt-analysis.zip",
+  "zipSha256": "465cc64d8ef7e19e7a8055723252ac60ef7c92af6edc1fce50e59f04b0bd0f29",
+  "zipBytes": 6734,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c90944ad2d63741ba8656f90aa45df2b6acb3aad3fc4d42624550f8d5be6e1a5",
+  "fetchedAt": "2026-11-18T10:35:44.110Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

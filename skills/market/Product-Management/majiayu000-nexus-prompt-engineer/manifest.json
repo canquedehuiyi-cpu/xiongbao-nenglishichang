@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6nZ7aqD6",
+  "name": "majiayu000-nexus-prompt-engineer",
+  "displayName": "提示词Nexus设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-nexus-prompt-engineer/latest/majiayu000-nexus-prompt-engineer.zip",
+  "zipSha256": "d18d8ce5f69e7dc2c91f434ac07714ff8894068b0a0e8f7645bdca819df448ea",
+  "zipBytes": 2681,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8e66413a0d1f41f6c0e15fca1d6088d5162ab83559f4fef564d753cb761b8fed",
+  "fetchedAt": "2026-11-18T10:40:41.931Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

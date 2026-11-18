@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4lgrIC7A",
+  "name": "jeremylongshore-cro-methodology",
+  "displayName": "CRO营销文案",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jeremylongshore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jeremylongshore-cro-methodology/latest/jeremylongshore-cro-methodology.zip",
+  "zipSha256": "84cab374f15d08f2eb2ec4ebddbd3cb8174f9a0802cd166627d5838ad963761c",
+  "zipBytes": 27627,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "66dfbe36252d12e14cc3308a1c1880d7700a97c9fcabe67201760ea1bb259c0c",
+  "fetchedAt": "2026-11-18T10:40:36.940Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

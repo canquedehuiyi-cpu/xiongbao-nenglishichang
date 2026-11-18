@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_drDKPmtw",
+  "name": "ui-ux-pro-max",
+  "displayName": "UI UX 设计专家",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "nextlevelbuilder",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ui-ux-pro-max/latest/ui-ux-pro-max.zip",
+  "zipSha256": "850d2ef57e94c45625b91dfc1254d12ca7373f022e0a1f88bbeb339ab6182275",
+  "zipBytes": 17022,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "fa5ab8e923c5808dc3cc7e229318ab1c7b8dd09f6d912bb1566132b082eca795",
+  "fetchedAt": "2026-11-18T10:36:36.895Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

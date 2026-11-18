@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_snahvw7q",
+  "name": "growth-tracker",
+  "displayName": "量化自我",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/growth-tracker/latest/growth-tracker.zip",
+  "zipSha256": "3ca90a0755f49fe497e319b363c19e39924aa6f0161ad334d7c446966be56d71",
+  "zipBytes": 11675,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "249a0b9cdd055a010bf572d7a99f9c57f34ef51a0a4ed9ef4c3739243577934b",
+  "fetchedAt": "2026-11-18T10:36:22.423Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

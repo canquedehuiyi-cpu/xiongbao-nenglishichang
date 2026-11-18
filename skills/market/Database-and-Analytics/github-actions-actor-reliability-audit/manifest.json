@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_v7B9QMBS",
+  "name": "github-actions-actor-reliability-audit",
+  "displayName": "GitHub Actions 执行者可靠性审计",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "daniellummis",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/github-actions-actor-reliability-audit/latest/github-actions-actor-reliability-audit.zip",
+  "zipSha256": "e96488f2e0b9f4fc15fe19d35e3555391786876b349add581f3be40c8583c5e3",
+  "zipBytes": 5733,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "e13fe9b5c4d3fb1233ed58e4ead67af77c5bd34dd08087c7f65bda1412c29a11",
+  "fetchedAt": "2026-11-18T10:36:13.492Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

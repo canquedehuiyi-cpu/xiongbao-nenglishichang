@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Byq0DaZr",
+  "name": "k-dense-ai-geomaster",
+  "displayName": "全面的地理空间科学",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "K-Dense-AI",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/k-dense-ai-geomaster/latest/k-dense-ai-geomaster.zip",
+  "zipSha256": "636ae1f552156cc259d2a4750818fdd7e573e91fb451832f314bda4e1916401b",
+  "zipBytes": 62421,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "e254a0ddf6c05182e13bf61ab99e065989643a57fc7e14b41397fb60b72ae273",
+  "fetchedAt": "2026-11-18T10:36:00.550Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

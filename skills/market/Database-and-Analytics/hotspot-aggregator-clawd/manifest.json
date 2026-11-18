@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YEOCtguR",
+  "name": "hotspot-aggregator-clawd",
+  "displayName": "热点聚合监控",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/hotspot-aggregator-clawd/latest/hotspot-aggregator-clawd.zip",
+  "zipSha256": "64d65e9af92ceb9715f4be6f30c6622eb606bf34b2958228932296cb713f74a2",
+  "zipBytes": 13375,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "9d9384b559be8b9c9e84c576f3f4430d3379bb5b956e507f40a1a7373e24cfca",
+  "fetchedAt": "2026-11-18T10:36:29.439Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_sUgafTTe",
+  "name": "krishagel-obsidian-manager",
+  "displayName": "Obsidian构建",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "krishagel",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/krishagel-obsidian-manager/latest/krishagel-obsidian-manager.zip",
+  "zipSha256": "a55f4728a52b4fb418f15636d2d52ce256422e8ac0a61c23ae6bb69716155eb9",
+  "zipBytes": 11928,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "b6fad649280d42e0c3d2e8652c789e04acf24229fdb5f554a11d32fe1faefa0b",
+  "fetchedAt": "2026-11-18T10:36:11.269Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

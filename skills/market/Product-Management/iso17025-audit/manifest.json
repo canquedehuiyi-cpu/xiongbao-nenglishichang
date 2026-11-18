@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "ed3fd47d-07c6-411d-8d4e-907b24416a70",
+  "name": "iso17025-audit",
+  "displayName": "ISO17025审核技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514b-c185-77fa-bee8-2b80c62a02bb/b5286d2e_iso17025-audit-v1.1.0.zip",
+  "zipSha256": "1c82bd7793197812ed592f888123be4d4d8d1bfdfd5d824dde0f46cbf8556659",
+  "zipBytes": 426734,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 34,
+  "treeSha256": "dc529f7d43f8b70a2bffc0eaa6601e8dba35e3223784aa66079c8cd84b74e7fa",
+  "fetchedAt": "2026-11-18T10:40:36.616Z",
+  "credentialScan": {
+    "textFilesScanned": 32,
+    "filesRedacted": 0
+  },
+  "note": null
+}

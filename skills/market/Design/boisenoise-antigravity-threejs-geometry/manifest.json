@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ws1ibdiL",
+  "name": "boisenoise-antigravity-threejs-geometry",
+  "displayName": "Threejs构建",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-threejs-geometry/latest/boisenoise-antigravity-threejs-geometry.zip",
+  "zipSha256": "6e816fdb58ff79fc64e8aa1dfc350fa9fef27fcacbb7d7e9b27d82583b16bfbe",
+  "zipBytes": 4848,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "795c358ac6dd499af428d52e961cdc1bedae94732ae53463ff73bb89be1656b0",
+  "fetchedAt": "2026-11-18T10:37:14.333Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

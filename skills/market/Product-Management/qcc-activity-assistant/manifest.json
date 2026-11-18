@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "8866001d-e16b-43d1-93fc-a5a2b0997a85",
+  "name": "qcc-activity-assistant",
+  "displayName": "品管圈技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514c-1c4b-7b42-bf31-ce7d90eb2648/fc73fac7_qcc-activity-assistant-v1.1.0.zip",
+  "zipSha256": "cf7b59b3a32ba437be48983a722ca887a06da9a93a564f4a7295d486b3cddd3e",
+  "zipBytes": 32608,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 17,
+  "treeSha256": "81e041f4cf9f0e6f965e329425d3e874c90b5e48f3d1cf32ffc989c234e33bbc",
+  "fetchedAt": "2026-11-18T10:40:29.732Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_k3n9n1Eh",
+  "name": "pixel-perfect-design-system",
+  "displayName": "像素级完美设计系统",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pixel-perfect-design-system/latest/pixel-perfect-design-system.zip",
+  "zipSha256": "a1422cf4eadebde5dda3c1d8f25273a99fef5066c68c214d67a3c73969c44ae2",
+  "zipBytes": 106476,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 68,
+  "treeSha256": "04eb128f8ba7b7c931322942f6cd012bba63573c31db030b6f3dea18232cf997",
+  "fetchedAt": "2026-11-18T10:40:26.034Z",
+  "credentialScan": {
+    "textFilesScanned": 68,
+    "filesRedacted": 0
+  },
+  "note": null
+}

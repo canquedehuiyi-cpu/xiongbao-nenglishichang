@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_wCkF5xZN",
+  "name": "ajaywadhara-test-ui",
+  "displayName": "流程测试",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ajaywadhara",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ajaywadhara-test-ui/latest/ajaywadhara-test-ui.zip",
+  "zipSha256": "c5f7b35e250f0af3ce6c9ec5f6f1b1bfdeb85b411499b45c2a04993145e8e3d7",
+  "zipBytes": 4934,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "00c555733d9dd30ad9d58b4caf5413ecbc77eb54f024bdf4a3c0a478d9789ad6",
+  "fetchedAt": "2026-11-18T10:36:50.121Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

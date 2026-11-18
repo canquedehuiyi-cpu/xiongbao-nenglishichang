@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NukWeOtd",
+  "name": "diegosouzapw-openspec-explore-yu-iskw",
+  "displayName": "Yu设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "openspec",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-openspec-explore-yu-iskw/latest/diegosouzapw-openspec-explore-yu-iskw.zip",
+  "zipSha256": "848c1bf8dd710061c77aca8c0e7c22b5658a1feda3f923502aaed800ce019058",
+  "zipBytes": 4747,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f040479a0d8dfd82856725f28ad6653b60475ecd6bfe84582f10616fd689963a",
+  "fetchedAt": "2026-11-18T10:40:06.460Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

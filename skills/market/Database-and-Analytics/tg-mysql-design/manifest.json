@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2HzaNKLq",
+  "name": "tg-mysql-design",
+  "displayName": "MySQL数据库设计助手",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "2320117707",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/tg-mysql-design/latest/tg-mysql-design.zip",
+  "zipSha256": "58ff52597080cf70e9340b9d46fb7e84f43dcbc491d3ce2d71e2515e9d7cf278",
+  "zipBytes": 6322,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "d134f7137ad6425779ea02630b7b931ae08d0029ae6ca394495689f9dd7d1ff0",
+  "fetchedAt": "2026-11-18T10:35:47.535Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

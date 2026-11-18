@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cWGeAs7r",
+  "name": "siyuan-notes-skill",
+  "displayName": "思源笔记技能",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/siyuan-notes-skill/latest/siyuan-notes-skill.zip",
+  "zipSha256": "54b3cf6fca7a938611f42ebad12f938adbd2db8d60bf56a0c481e0afc17d5910",
+  "zipBytes": 61800,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "0e146ce68ddc635f3da5ceef01940c8086ee87e39b2e4f5c2cfa0d7b78879d0a",
+  "fetchedAt": "2026-11-18T10:36:24.901Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

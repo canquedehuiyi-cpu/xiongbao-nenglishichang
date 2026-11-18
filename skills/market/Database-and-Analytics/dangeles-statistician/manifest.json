@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_S9hJXHY0",
+  "name": "dangeles-statistician",
+  "displayName": "金融统计方法",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dangeles",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dangeles-statistician/latest/dangeles-statistician.zip",
+  "zipSha256": "ff07da43085e555929fd00f34c5921fa6cd9dd8094b8c225178607da47d61e81",
+  "zipBytes": 5873,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "b0e17a1d78dfbb51699513ba8fe6c65e5071f1693357f68906a2145849c2f5ae",
+  "fetchedAt": "2026-11-18T10:36:12.231Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

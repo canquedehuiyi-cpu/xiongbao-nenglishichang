@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7FrXC5tY",
+  "name": "peng-find-skills",
+  "displayName": "查找技能",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/peng-find-skills/latest/peng-find-skills.zip",
+  "zipSha256": "841921a4a903d9689f76567892e2a9fded4f4a990d3c92c4bdfd22c66d9f5976",
+  "zipBytes": 2424,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d938dbde988331f682344b0d7543fccfa6c8b9126e39e9e9d52cc3e2f7736e8e",
+  "fetchedAt": "2026-11-18T10:35:41.292Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

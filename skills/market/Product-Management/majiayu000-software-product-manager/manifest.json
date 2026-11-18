@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5hfLyRPU",
+  "name": "majiayu000-software-product-manager",
+  "displayName": "文档管理",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-software-product-manager/latest/majiayu000-software-product-manager.zip",
+  "zipSha256": "c0577fd9ed880a6e1dfb5bb83f2111377da391d135d69d6516e104a626a753f9",
+  "zipBytes": 6697,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b3264d5b1ce416aff5c134cc784376461cfa9f17e261e8bbfbc7994a7c67b86c",
+  "fetchedAt": "2026-11-18T10:40:08.053Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

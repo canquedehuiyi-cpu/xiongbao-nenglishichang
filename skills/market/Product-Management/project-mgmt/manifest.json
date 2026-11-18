@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_zHYqdPDs",
+  "name": "project-mgmt",
+  "displayName": "项目管理",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "cosmopax",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/project-mgmt/latest/project-mgmt.zip",
+  "zipSha256": "d130ea45404fddf89e89cffe52d3b1ce456da3aa13983c488a82d830788496a5",
+  "zipBytes": 964,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8068c1dddc6eaeac4a508f19a38c8f9ba45f7eec5994129530e315af675637c7",
+  "fetchedAt": "2026-11-18T10:40:40.231Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

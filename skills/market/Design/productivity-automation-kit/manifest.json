@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_gyujGgQs",
+  "name": "productivity-automation-kit",
+  "displayName": "效率自动化工具箱",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dxie48892-jpg",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/productivity-automation-kit/latest/productivity-automation-kit.zip",
+  "zipSha256": "e01933d227209507832f725083f0ef4d827cdb68266fcd9e6f5bd0bb258759b9",
+  "zipBytes": 16479,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "0f0e029b1a56e40bd69f682385fa3553f1bc30dd8317028cbba1f5af64042cc0",
+  "fetchedAt": "2026-11-18T10:37:14.900Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

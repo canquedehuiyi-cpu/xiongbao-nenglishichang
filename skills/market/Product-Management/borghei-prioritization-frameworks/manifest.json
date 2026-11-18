@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_44urtjSo",
+  "name": "borghei-prioritization-frameworks",
+  "displayName": "产品框架",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "borghei",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/borghei-prioritization-frameworks/latest/borghei-prioritization-frameworks.zip",
+  "zipSha256": "e3fe9ff2bcc4a693e57f5c5595e3f88baf6d3b9fe49935cbf102b2e67ddc5389",
+  "zipBytes": 14971,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "dd4b454a9273436e17d28501487d35c511569fa8eccc1e2eccddffbb68c8033a",
+  "fetchedAt": "2026-11-18T10:40:41.534Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

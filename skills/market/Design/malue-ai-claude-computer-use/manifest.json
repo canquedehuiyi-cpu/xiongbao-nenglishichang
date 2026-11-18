@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_lboL7oEc",
+  "name": "malue-ai-claude-computer-use",
+  "displayName": "Computer分析",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "malue-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/malue-ai-claude-computer-use/latest/malue-ai-claude-computer-use.zip",
+  "zipSha256": "88d1ed50e3224a075f75952cc0c717f18bb1e88a78891e925d44d44776d741fa",
+  "zipBytes": 3496,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "b46dab67c47e9859c33b799868fc16fa132ece8f74c50c6db3db8cddc85f4c5e",
+  "fetchedAt": "2026-11-18T10:36:41.335Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

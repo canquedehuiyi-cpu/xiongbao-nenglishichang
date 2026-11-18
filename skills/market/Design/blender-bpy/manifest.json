@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5TwUu2S6",
+  "name": "blender-bpy",
+  "displayName": "Blender Python 自动化",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/blender-bpy/latest/blender-bpy.zip",
+  "zipSha256": "b21d6750a1d04fa8a16d91f13560c8a9a580e2483934ef92754ab5e1042ee9b0",
+  "zipBytes": 1173,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8788434dc34bdb89062f61d7a709b1e4e8ea043730290b2c5eb76cdaaf8898e3",
+  "fetchedAt": "2026-11-18T10:36:39.087Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

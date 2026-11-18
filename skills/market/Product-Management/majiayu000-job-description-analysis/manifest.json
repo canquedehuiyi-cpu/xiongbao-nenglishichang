@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MF3Jx7s7",
+  "name": "majiayu000-job-description-analysis",
+  "displayName": "Job分析",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-job-description-analysis/latest/majiayu000-job-description-analysis.zip",
+  "zipSha256": "52f5165e992607843e0228708ff91ab6df80ab89e0004df58cc15924ddfbf0f2",
+  "zipBytes": 7657,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2ce897b3e8c2c832e6b1bc2a7351397d0c945b38431bac123bbf4d44ec4a5673",
+  "fetchedAt": "2026-11-18T10:40:31.701Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

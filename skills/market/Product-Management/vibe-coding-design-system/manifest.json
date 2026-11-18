@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_40DBmC4q",
+  "name": "vibe-coding-design-system",
+  "displayName": "像素级完美设计系统",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/vibe-coding-design-system/latest/vibe-coding-design-system.zip",
+  "zipSha256": "799468defd474ddd53b822025aa46f974db33f62df177971caf1db2fc90c7223",
+  "zipBytes": 106190,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 68,
+  "treeSha256": "1c7e124d0336644c6924aa94093f7132b32e243e7a48b59846c18d4834cc222e",
+  "fetchedAt": "2026-11-18T10:40:10.974Z",
+  "credentialScan": {
+    "textFilesScanned": 68,
+    "filesRedacted": 0
+  },
+  "note": null
+}

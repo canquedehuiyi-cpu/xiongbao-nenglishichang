@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0mNCeYRX",
+  "name": "postgres-patterns",
+  "displayName": "PostgreSQL数据库模式最佳实践",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/postgres-patterns/latest/postgres-patterns.zip",
+  "zipSha256": "8eedad9f750935da2a07db92493a55941c7566431f4ad722b336ac00eee17509",
+  "zipBytes": 1905,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "629f2655d8f7ad93eed9880295b66620fb7393569ba38d191c0a04b7e8430014",
+  "fetchedAt": "2026-11-18T10:37:12.975Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

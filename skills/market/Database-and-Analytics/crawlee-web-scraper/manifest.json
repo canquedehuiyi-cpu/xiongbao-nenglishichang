@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GUjEDqhX",
+  "name": "crawlee-web-scraper",
+  "displayName": "抗检测网络爬虫",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bryantegomoh",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/crawlee-web-scraper/latest/crawlee-web-scraper.zip",
+  "zipSha256": "316d9c562617753e138450f08c1ee20fc02f45fb72d7985f386a88c89934a405",
+  "zipBytes": 4106,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "906693ddedcd6153397c61e4ffbca581151a717b9925f1954c5fec881af8f6eb",
+  "fetchedAt": "2026-11-18T10:35:49.066Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

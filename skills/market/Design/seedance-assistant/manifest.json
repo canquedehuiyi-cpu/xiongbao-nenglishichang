@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_16wijZBm",
+  "name": "seedance-assistant",
+  "displayName": "即梦 Seedance 2.0 视频生成助手",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "machitao",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/seedance-assistant/latest/seedance-assistant.zip",
+  "zipSha256": "fe178869af6a2234c94986d340912cdd9b348b460d8de4908dde98291b1c4c18",
+  "zipBytes": 16058,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "74e9dd82dba3c6ab03e7ea10e5d203789a1a5b80cf4e2835465f14a7f3bcb3d4",
+  "fetchedAt": "2026-11-18T10:36:43.169Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

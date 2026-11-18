@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_e2RCV1cI",
+  "name": "figma-design-analyzer",
+  "displayName": "Figma 设计分析器",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/figma-design-analyzer/latest/figma-design-analyzer.zip",
+  "zipSha256": "be91d2bd4e9b8a46008c8e8359cb236f5227a42232ca5d7583762b6be23e0ae9",
+  "zipBytes": 25999,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "144ba00ae84fe1185002f36a8d3f59883713078c9b54ba85082e56326e72fd46",
+  "fetchedAt": "2026-11-18T10:36:49.545Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

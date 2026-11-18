@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official28611630",
+  "name": "baoyu-article-illustrator",
+  "displayName": "宝玉文章插图",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "TuYv",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/baoyu-article-illustrator/latest/baoyu-article-illustrator.zip",
+  "zipSha256": "f9f417b556eb4cbfcf3a803e268e9d85156bc6d8c60cd7b2eb57e7f4993ee2c4",
+  "zipBytes": 5368,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "415ea1ee69864ef4ad5f7dd8e38adde673de3904a0310dcd6ae8ccd947e1ba61",
+  "fetchedAt": "2026-11-18T10:36:31.606Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

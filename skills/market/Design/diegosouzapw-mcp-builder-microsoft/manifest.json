@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qgDmz7C0",
+  "name": "diegosouzapw-mcp-builder-microsoft",
+  "displayName": "Python构建",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-mcp-builder-microsoft/latest/diegosouzapw-mcp-builder-microsoft.zip",
+  "zipSha256": "c67a2f2cf0d8f776a90220af5a3f3c5652340bb74030aa2a29e40e7e3d8a2c7f",
+  "zipBytes": 5636,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "ba2613b8b095575f4592f6ad1ea03ab5d782ec101740b8d02377a5949f8a6823",
+  "fetchedAt": "2026-11-18T10:36:55.681Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

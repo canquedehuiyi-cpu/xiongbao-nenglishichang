@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BYv1fmmi",
+  "name": "majiayu000-dashboard-brief-edwardmonteiro-aiskillinpractice",
+  "displayName": "看板创作",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-dashboard-brief-edwardmonteiro-aiskillinpractice/latest/majiayu000-dashboard-brief-edwardmonteiro-aiskillinpractice.zip",
+  "zipSha256": "9ac4814cd098237114c28eb5ca77d76d2b327b53c5d02da60fb3eac3dd7b97ec",
+  "zipBytes": 1778,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d8d5a23e5f94a1fd5970e58b44f1abaa773d0042cac6ce3b72ea366c5255b48c",
+  "fetchedAt": "2026-11-18T10:40:37.756Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

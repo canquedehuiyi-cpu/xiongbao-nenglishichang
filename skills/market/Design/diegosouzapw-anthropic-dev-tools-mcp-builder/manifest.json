@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Au2xCWbw",
+  "name": "diegosouzapw-anthropic-dev-tools-mcp-builder",
+  "displayName": "LLM构建",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-anthropic-dev-tools-mcp-builder/latest/diegosouzapw-anthropic-dev-tools-mcp-builder.zip",
+  "zipSha256": "3069347b73ddfa412f5cc155cc6f61e42704542cfa8c246257e82b5b2cd06d50",
+  "zipBytes": 4831,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "fbbc4ecc5cb18c99f9d6ec919d13469bdba2eb862af966c62be94ecfe9969c19",
+  "fetchedAt": "2026-11-18T10:36:45.945Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vQPMDaoP",
+  "name": "carmandale-math-intuition-builder",
+  "displayName": "Math构建",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "carmandale",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/carmandale-math-intuition-builder/latest/carmandale-math-intuition-builder.zip",
+  "zipSha256": "f3d2d72e14adfc6d90ac3a2c61a4d35a7732dae9888f0ef112ea926fbe72ea31",
+  "zipBytes": 1956,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4f32e24b2d2164e70e0d5f35e280214def0feea950daf137a2a3cb441cf097cb",
+  "fetchedAt": "2026-11-18T10:36:06.466Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

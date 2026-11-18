@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3w6D33Jp",
+  "name": "claude-dev-suite-spring-ai",
+  "displayName": "Spring设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "claude-dev-suite",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/claude-dev-suite-spring-ai/latest/claude-dev-suite-spring-ai.zip",
+  "zipSha256": "dc8bc36a52c98a8ac2e44ed7e752ded620c027c48bef77f1a207e08bcdb1e409",
+  "zipBytes": 5653,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c2979eefcf608508fe144b4232b297512ae326b27f91e34125237bc49cd96c21",
+  "fetchedAt": "2026-11-18T10:37:11.659Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

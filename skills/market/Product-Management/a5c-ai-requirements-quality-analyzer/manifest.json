@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_gpUAY2q6",
+  "name": "a5c-ai-requirements-quality-analyzer",
+  "displayName": "需求质量",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "a5c-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/a5c-ai-requirements-quality-analyzer/latest/a5c-ai-requirements-quality-analyzer.zip",
+  "zipSha256": "513db001d9d4b87e680e3bde24aa97662e052313e583bd26259c27d9ca6770e5",
+  "zipBytes": 1772,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8a6eeacb8f4d7093e1da6c5755adb76ecca37e17ea890e09c76a2d8bb9b76ffb",
+  "fetchedAt": "2026-11-18T10:40:23.625Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_39SEGb2c",
+  "name": "javalenciacai-qaskills",
+  "displayName": "Qaskills开发",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "javalenciacai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/javalenciacai-qaskills/latest/javalenciacai-qaskills.zip",
+  "zipSha256": "41d0a7dfafa47aa14abf2cea654afb3c27f20db3c7f474c34a1563b56bef454d",
+  "zipBytes": 8849,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "d7004b63de0aa3acb3f0777f18cd7006bbdd71b22be7df1c4a8f255e45217480",
+  "fetchedAt": "2026-11-18T10:40:21.119Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

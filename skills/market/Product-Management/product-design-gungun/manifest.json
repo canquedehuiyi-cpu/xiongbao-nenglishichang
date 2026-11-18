@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZZazSVKd",
+  "name": "product-design-gungun",
+  "displayName": "产品设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/product-design-gungun/latest/product-design-gungun.zip",
+  "zipSha256": "9e72413c56b2c0b3eae049082211791676fc7f0fce203b36094b6544f717c5d5",
+  "zipBytes": 4830,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9b9de493dad69fcf581417a83ad51ca6c46efda957faad558ba1b8968192b085",
+  "fetchedAt": "2026-11-18T10:40:19.126Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

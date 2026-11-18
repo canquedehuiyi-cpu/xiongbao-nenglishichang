@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_VoYNnldV",
+  "name": "project-planning",
+  "displayName": "项目规划",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "openyak",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/project-planning/latest/project-planning.zip",
+  "zipSha256": "44ee345b9a63efcb2fab351f27728fe2fca5a0387edc773362a0ec2267cb33ba",
+  "zipBytes": 1735,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "dda40b69dcafce1c18fe7489ec07c6802117cc8c1fb9140e69c20d5192ad3f2b",
+  "fetchedAt": "2026-11-18T10:40:05.935Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UASnKaFH",
+  "name": "diegosouzapw-add-backend-testing",
+  "displayName": "SQL后端开发",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-add-backend-testing/latest/diegosouzapw-add-backend-testing.zip",
+  "zipSha256": "3f8bc071dab2438664cf9c5e3b789cc317f2fd8bea8a4f1fb560325274d950a9",
+  "zipBytes": 2298,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "760d88fecdf02f3c9e24e657129290939c4651665cad9469824667996bc2d7ea",
+  "fetchedAt": "2026-11-18T10:35:43.260Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

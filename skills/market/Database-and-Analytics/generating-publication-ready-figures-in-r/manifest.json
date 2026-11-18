@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_TkQOxykh",
+  "name": "generating-publication-ready-figures-in-r",
+  "displayName": "R语言出版级图表生成",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jackkuo666",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/generating-publication-ready-figures-in-r/latest/generating-publication-ready-figures-in-r.zip",
+  "zipSha256": "c805b243000259d9a9736c36ead3c5d632ac431d33c6da04cae2a6090f8918b0",
+  "zipBytes": 6189,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "5bda1964011b0a3a324f57a2061ed5494e8093c87b330f09ec65d1936e164d1d",
+  "fetchedAt": "2026-11-18T10:36:14.253Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

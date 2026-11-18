@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6gIfqJ2l",
+  "name": "deanpeters-context-engineering-advisor",
+  "displayName": "上下文分析",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "deanpeters",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/deanpeters-context-engineering-advisor/latest/deanpeters-context-engineering-advisor.zip",
+  "zipSha256": "23eff0bb592c024e582bff12bd1a824e53b279e8202f39a986ecde0553edddf5",
+  "zipBytes": 11359,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "3ddc3db2bfedf3c70701895d6c3dc2165cdd68adce8a651bbb1e933ea05f5d4d",
+  "fetchedAt": "2026-11-18T10:40:16.950Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

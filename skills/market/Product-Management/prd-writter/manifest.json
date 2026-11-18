@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LuMbl0L6",
+  "name": "prd-writter",
+  "displayName": "产品经理 PRD 撰写助手",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/prd-writter/latest/prd-writter.zip",
+  "zipSha256": "91adbafa7379b55d3340935e47110e0e5af97d2590865cd6931f7930fbe9f274",
+  "zipBytes": 13635,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "649e2739839518fb26630b043910fdaf67c8a333b88a64f8f41aa5208d560ee1",
+  "fetchedAt": "2026-11-18T10:39:56.741Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

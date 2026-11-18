@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_d19h1o8U",
+  "name": "wechat-sender",
+  "displayName": "微信消息自动发送",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "noir-hedgehog",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/wechat-sender/latest/wechat-sender.zip",
+  "zipSha256": "7c5b51b2cdee30f1fc844c5fb411db834b58f2081f8df72247cc350976e6058a",
+  "zipBytes": 3408,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e4cd2bc2c31bb833325b852f7e1c667a2dc2b023139f6c7e6e51cd53aa9c80d4",
+  "fetchedAt": "2026-11-18T10:37:03.449Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

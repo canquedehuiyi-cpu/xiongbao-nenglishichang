@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_M58a6NIE",
+  "name": "ai-3d-generation",
+  "displayName": "AI 3D 生成",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ai-3d-generation/latest/ai-3d-generation.zip",
+  "zipSha256": "e2e0f44717da728991769e862c30f3d01044f627d3f703af6407cb0489c123c8",
+  "zipBytes": 2200,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "eabfdc65751c73aa8e217b04d8419241238acf981f35cd41706269dbf138ca19",
+  "fetchedAt": "2026-11-18T10:37:07.647Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

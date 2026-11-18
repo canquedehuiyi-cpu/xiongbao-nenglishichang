@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_95yWpGgb",
+  "name": "nano-banana-pro-image-gen",
+  "displayName": "图片生成与编辑技能",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "wuchubuzai2018",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/nano-banana-pro-image-gen/latest/nano-banana-pro-image-gen.zip",
+  "zipSha256": "f9a4d177ade57bc268001ec39e32b6e412b094ef1c8460a14a0edc8fbcf7eb6c",
+  "zipBytes": 15199,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "b96b26804c81b095f84fa8b43effe24240cf7e1fac0caf3582966250a9a74689",
+  "fetchedAt": "2026-11-18T10:37:16.754Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

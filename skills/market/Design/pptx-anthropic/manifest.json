@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UaXixYHi",
+  "name": "pptx-anthropic",
+  "displayName": "PPTX 文件处理",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pptx-anthropic/latest/pptx-anthropic.zip",
+  "zipSha256": "044ba5b76f70f8ad32a5430284f442645059f32a0257e0bbc2641129758c9ac0",
+  "zipBytes": 47376,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 21,
+  "treeSha256": "f5180a723254d37f91f21ba3e1094f510778b5523d46aaff6bdeaf44fed2c7aa",
+  "fetchedAt": "2026-11-18T10:36:53.651Z",
+  "credentialScan": {
+    "textFilesScanned": 21,
+    "filesRedacted": 0
+  },
+  "note": null
+}

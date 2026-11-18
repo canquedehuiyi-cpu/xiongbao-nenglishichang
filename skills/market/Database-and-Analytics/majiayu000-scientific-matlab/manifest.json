@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_VftDFXtW",
+  "name": "majiayu000-scientific-matlab",
+  "displayName": "Matlab科研",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-scientific-matlab/latest/majiayu000-scientific-matlab.zip",
+  "zipSha256": "7bc13a940bfa43a83ff9089c367a96a6ed49c68d884509b43a82aa5a8b8e487f",
+  "zipBytes": 4645,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2903a1c773948c1a87cc080fd0159e78a7d56a74f46e2b88505e9b693602b5cc",
+  "fetchedAt": "2026-11-18T10:35:47.713Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

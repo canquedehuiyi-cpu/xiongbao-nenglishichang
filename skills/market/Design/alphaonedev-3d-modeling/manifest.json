@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DdlW0psv",
+  "name": "alphaonedev-3d-modeling",
+  "displayName": "建模分析",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "alphaonedev",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alphaonedev-3d-modeling/latest/alphaonedev-3d-modeling.zip",
+  "zipSha256": "65f7b14c92660a091c672fd629c5e22e290e2d5fe1143c55b0cd8e5bf6934b83",
+  "zipBytes": 2505,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1be136ce644b47cef075d484275f5b72a710dd0d85ba36c4c9165185d51b87dd",
+  "fetchedAt": "2026-11-18T10:37:01.002Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

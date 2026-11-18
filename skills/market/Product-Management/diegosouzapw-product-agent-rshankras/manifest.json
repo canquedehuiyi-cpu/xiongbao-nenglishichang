@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EqfMxrYB",
+  "name": "diegosouzapw-product-agent-rshankras",
+  "displayName": "iOS产品创作",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-product-agent-rshankras/latest/diegosouzapw-product-agent-rshankras.zip",
+  "zipSha256": "b0accd017f30a6fdb235907eda9ae4093a218bd618b923b8b5feec276b4dfd71",
+  "zipBytes": 5374,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "6024d0c96b25c4f629d33fc08ca25c021f690137191e8bb00165282a6ae9cab0",
+  "fetchedAt": "2026-11-18T10:40:37.956Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

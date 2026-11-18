@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official79532076",
+  "name": "drafter-diagram",
+  "displayName": "技术图表生成",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "yofine",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/drafter-diagram/latest/drafter-diagram.zip",
+  "zipSha256": "09d53315f1dd2ba7a29cbe518f0947a460f0926574ae92a8e0ddf40fee15874d",
+  "zipBytes": 3436,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f9f1a20ad8688c268f88f03edf03165dfae91a5b30d7620a87bfb227d5e001f4",
+  "fetchedAt": "2026-11-18T10:36:31.743Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

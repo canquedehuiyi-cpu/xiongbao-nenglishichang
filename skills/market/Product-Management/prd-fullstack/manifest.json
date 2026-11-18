@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JBoppfOA",
+  "name": "prd-fullstack",
+  "displayName": "全栈PRD协作工作流",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "shixiangyu2",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/prd-fullstack/latest/prd-fullstack.zip",
+  "zipSha256": "20f2c85317c4d2a47af84044d5a891cf4c45bf05d3e0b6d8eb4694f7dfbfb45c",
+  "zipBytes": 112866,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 63,
+  "treeSha256": "c7d5ca29609327595fd960960e3dabe1d0fbd9f90b00b7e28cc3d53b5b1b5771",
+  "fetchedAt": "2026-11-18T10:40:03.367Z",
+  "credentialScan": {
+    "textFilesScanned": 63,
+    "filesRedacted": 0
+  },
+  "note": null
+}

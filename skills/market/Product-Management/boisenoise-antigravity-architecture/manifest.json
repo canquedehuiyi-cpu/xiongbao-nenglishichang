@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GXZAjXvU",
+  "name": "boisenoise-antigravity-architecture",
+  "displayName": "架构开发",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-architecture/latest/boisenoise-antigravity-architecture.zip",
+  "zipSha256": "a629100b222313d009a66a9a00aea76728ddb9ce3af87686db20e78abe73bdf8",
+  "zipBytes": 6899,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "633a21e1f7796bb083b8e8102e84ad7bac9c98631a0efdb6bc8b5add0059471b",
+  "fetchedAt": "2026-11-18T10:40:07.849Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

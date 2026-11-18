@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_lBZxWMJn",
+  "name": "jwynia-godot-best-practices",
+  "displayName": "Godot生成",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "agent-skills",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jwynia-godot-best-practices/latest/jwynia-godot-best-practices.zip",
+  "zipSha256": "4cff0003c791de0185f9858998ff30eef18ea03a167f7772183f9cb28f1759a8",
+  "zipBytes": 39878,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "69829eba8aedeaab968c3bef39c97147b58f6953e9f1765a27aabcb12ec18961",
+  "fetchedAt": "2026-11-18T10:36:40.450Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

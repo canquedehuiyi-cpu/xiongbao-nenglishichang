@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8WcOZSde",
+  "name": "vercel-labs-web-design-guidelines",
+  "displayName": "网页开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "vercel",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/vercel-labs-web-design-guidelines/latest/vercel-labs-web-design-guidelines.zip",
+  "zipSha256": "a3acc4eb682f638151eae7e1be9adc36b093c2f45936a22b8aa492456bd996e5",
+  "zipBytes": 774,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8faf3c5e4bf5ee088ea93e3f1d2dbe4d5c2ad73e1d08e7fe8facdb1ba296713f",
+  "fetchedAt": "2026-11-18T10:36:38.705Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

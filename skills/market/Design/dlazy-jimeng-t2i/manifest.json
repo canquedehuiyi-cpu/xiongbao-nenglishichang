@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "65218aef-53a1-447c-a996-949ab39a5542",
+  "name": "dlazy-jimeng-t2i",
+  "displayName": "即梦文生图",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.3.5",
+  "publisher": "019f7d61-89fb-796c-8b83-ee681305e859",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f838e-1d2c-7d5b-b7e1-49a935233b46/5bdd31f1_dlazy-jimeng-t2i-fixed.zip",
+  "zipSha256": "4c4c2282554308b90eeb0cf34c9c38cabf8f81abcff4eefb1bd99314ac59a663",
+  "zipBytes": 6710,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a3cc6e3c4f5a859ffd10b58aaf0fe0a1f1f744f72bf407e300dc637a988ce3cb",
+  "fetchedAt": "2026-11-18T10:37:04.545Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dgVjSada",
+  "name": "jeongheonk-csharp-refactor",
+  "displayName": "Csharp重构",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jeongheonk",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jeongheonk-csharp-refactor/latest/jeongheonk-csharp-refactor.zip",
+  "zipSha256": "65813bed6c3478f758d6e0c81c39d0bf4e1d1ee1e9e2abd1943fc465bf00555a",
+  "zipBytes": 2642,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "adf7c9dfe2c212fd2d936886966e8ce6652fa41d1952cc7a0e1e7eb0e0979800",
+  "fetchedAt": "2026-11-18T10:37:03.627Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

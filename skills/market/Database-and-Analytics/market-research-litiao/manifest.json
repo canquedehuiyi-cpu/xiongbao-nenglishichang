@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XPowNVXf",
+  "name": "market-research-litiao",
+  "displayName": "市场调研",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/market-research-litiao/latest/market-research-litiao.zip",
+  "zipSha256": "234733dc776abe0afd7276db3464d36073c76a1e2ea40d7dc5055fb8180b4c4d",
+  "zipBytes": 5867,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "d3d4f9a84e498206bb7e9cc2754b3a8cb93c8acdf72ce77abaf18193b50785c3",
+  "fetchedAt": "2026-11-18T10:35:56.871Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

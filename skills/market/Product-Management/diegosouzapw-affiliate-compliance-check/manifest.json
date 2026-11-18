@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0fZ7AXPX",
+  "name": "diegosouzapw-affiliate-compliance-check",
+  "displayName": "营销合规检查",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-affiliate-compliance-check/latest/diegosouzapw-affiliate-compliance-check.zip",
+  "zipSha256": "731f95cbc888b57334a4043c86a97fba6089e47e6e8aa891a50282aa5f024060",
+  "zipBytes": 1954,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b2502de85103f5f77e869f83c0ab025a14bbac66aa24207f362b9728238f1daa",
+  "fetchedAt": "2026-11-18T10:40:40.572Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

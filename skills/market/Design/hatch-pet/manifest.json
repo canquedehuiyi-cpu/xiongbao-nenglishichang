@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ybYgJ1Ej",
+  "name": "hatch-pet",
+  "displayName": "孵化宠物",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mdjahid11978-design",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/hatch-pet/latest/hatch-pet.zip",
+  "zipSha256": "24cc1ed38833417619764b94c0999c97754faa8da9ae32e6e7f7637a436ecd9f",
+  "zipBytes": 8552,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "832aae92edcd9d62b4224059714caaa56ee31edb30bf16d80d46099842b6b571",
+  "fetchedAt": "2026-11-18T10:37:16.326Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

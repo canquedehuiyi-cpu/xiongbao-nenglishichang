@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7MT4lhzJ",
+  "name": "prdwriter",
+  "displayName": "产品设计零到一",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/prdwriter/latest/prdwriter.zip",
+  "zipSha256": "02180fdf92e0ac223b9fe8bcd122cccdc01477ead04fa9621bc87abf17e9c652",
+  "zipBytes": 10819,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "fbedddfaa37b36d9504889877b52e1a844f176d5dab1aea000b4dd116aebcb47",
+  "fetchedAt": "2026-11-18T10:40:06.105Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

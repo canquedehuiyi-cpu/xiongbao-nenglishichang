@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_kOzmipGW",
+  "name": "docx-anthropic",
+  "displayName": "Word 文档处理",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/docx-anthropic/latest/docx-anthropic.zip",
+  "zipSha256": "40083dbcb0aff6d0a6c4c2b57305a478fd4e707e0c017ff8ba3d71d9c88fe54d",
+  "zipBytes": 42878,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 23,
+  "treeSha256": "e17d9c942c70eee15cf645243a799b483044a4b2f6922536aa30e807722b5a77",
+  "fetchedAt": "2026-11-18T10:36:36.721Z",
+  "credentialScan": {
+    "textFilesScanned": 18,
+    "filesRedacted": 0
+  },
+  "note": null
+}

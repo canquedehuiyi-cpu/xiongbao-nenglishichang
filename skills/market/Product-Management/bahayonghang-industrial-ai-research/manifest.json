@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LJ5ffGgP",
+  "name": "bahayonghang-industrial-ai-research",
+  "displayName": "AI分析",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bahayonghang",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bahayonghang-industrial-ai-research/latest/bahayonghang-industrial-ai-research.zip",
+  "zipSha256": "f135723dc1f88e902fc03737de5b26dcd7941f0da40d8993d5c6c61d131c8a2b",
+  "zipBytes": 33591,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 19,
+  "treeSha256": "525816d7f5dd0814de650fca1917b1434f8c1f548fa3b39addb51c3618ccc013",
+  "fetchedAt": "2026-11-18T10:40:17.655Z",
+  "credentialScan": {
+    "textFilesScanned": 19,
+    "filesRedacted": 0
+  },
+  "note": null
+}

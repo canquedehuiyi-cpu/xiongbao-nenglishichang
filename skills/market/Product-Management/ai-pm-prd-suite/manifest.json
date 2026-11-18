@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EdWWw7rV",
+  "name": "ai-pm-prd-suite",
+  "displayName": "AI 产品经理教练",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ai-pm-prd-suite/latest/ai-pm-prd-suite.zip",
+  "zipSha256": "6574d6a0cbb2888b6250b295ca56e4361edded6fbc38cd3f57185bd6a8352013",
+  "zipBytes": 13057,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "bea86f701d915c90b0cb299fd9d88a76bbb9cfeceab3725e901967951fe740b2",
+  "fetchedAt": "2026-11-18T10:40:18.594Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

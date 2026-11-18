@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5pmaWt2p",
+  "name": "pm-interview-coach",
+  "displayName": "产品经理面试辅导教练",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pm-interview-coach/latest/pm-interview-coach.zip",
+  "zipSha256": "a3e6c02e0b0e6cd3ca08d8951b100fac2717b7bac2b369f2bb266223b338258e",
+  "zipBytes": 12219,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "aada5dd6ede50378d171e22bcd54e6600993ac4bf98d8fb90175314aa9ed10e5",
+  "fetchedAt": "2026-11-18T10:40:16.071Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

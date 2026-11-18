@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GjhMGKsq",
+  "name": "seedance-guide",
+  "displayName": "Seedance 2.0 分镜导演指南",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "xiuxiuing",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/seedance-guide/latest/seedance-guide.zip",
+  "zipSha256": "eab37b8bc4852bbec8a24afee80788514d891e729ba69df84e2556892a0165a3",
+  "zipBytes": 7188,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "8b249694e148014f4afae0136c6eef86b23f400cbf18ab0f1b394b5e9d5af485",
+  "fetchedAt": "2026-11-18T10:36:49.327Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

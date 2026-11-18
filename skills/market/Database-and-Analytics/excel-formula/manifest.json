@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8Q5w2t6U",
+  "name": "excel-formula",
+  "displayName": "Excel 公式",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kevinaimonster",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/excel-formula/latest/excel-formula.zip",
+  "zipSha256": "7e36a1e0aa63cc06f7b713b46d18973fdd364cadc015cf884c16dded1a57e1ed",
+  "zipBytes": 4152,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "758e1f7acb049e573c5d9aedc235b48649a735a3c881e8c765ecd0a9d41293b5",
+  "fetchedAt": "2026-11-18T10:35:57.533Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

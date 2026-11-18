@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GbsqoIXz",
+  "name": "boisenoise-superpowers-community-requesting-code-review",
+  "displayName": "代理代码审查",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-superpowers-community-requesting-code-review/latest/boisenoise-superpowers-community-requesting-code-review.zip",
+  "zipSha256": "2a595149a4b4b8014d2af68f2bc3068a249d534b5ac3ab58bbb7c7969da96338",
+  "zipBytes": 3474,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "98dd38ad9e617a666ad2e5e0221555e844ffed1c3748f7bbda62aa8cb7043b20",
+  "fetchedAt": "2026-11-18T10:39:57.002Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YW120Htq",
+  "name": "thought-to-excalidraw",
+  "displayName": "PM 可视化工具",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "sairammahadevan",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/thought-to-excalidraw/latest/thought-to-excalidraw.zip",
+  "zipSha256": "dfa75ab1704a19ad7d80ae06e1632780311829bbcc8a3b2ca028554d95e80937",
+  "zipBytes": 7020,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "a768efbd951fab1e58c1149bfd49ceb69041e0998b6fdfcee0f86ccc4fd3a8fc",
+  "fetchedAt": "2026-11-18T10:40:20.293Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GVeMCxKn",
+  "name": "alibabacloud-agentbay-aio-skills",
+  "displayName": "AgentBay AIO 技能",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-agentbay-aio-skills/latest/alibabacloud-agentbay-aio-skills.zip",
+  "zipSha256": "0fe828c690a234fd4654a723bd66e47f2c2cb335eaa6e9e6ce945e5f69b0ad4c",
+  "zipBytes": 8072,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f3a57b4717b3b1e2ecad2c7f6fa485b5467c2bf78c686fec65b11825294f8940",
+  "fetchedAt": "2026-11-18T10:36:15.117Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

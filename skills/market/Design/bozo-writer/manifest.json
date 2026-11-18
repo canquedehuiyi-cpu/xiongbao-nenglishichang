@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bqndYHOD",
+  "name": "bozo-writer",
+  "displayName": "短视频口播文案仿写专家",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bozoyan",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bozo-writer/latest/bozo-writer.zip",
+  "zipSha256": "c384e1ac3914958c1f8bc1f1e6422ed0dc422780a7f7210a8ca5e0a5f48287a4",
+  "zipBytes": 3902,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "1d8962dab3d29f2facfd8d14ce0810b57d9e004cd253f0f9bc85e4091c57a74f",
+  "fetchedAt": "2026-11-18T10:37:05.492Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

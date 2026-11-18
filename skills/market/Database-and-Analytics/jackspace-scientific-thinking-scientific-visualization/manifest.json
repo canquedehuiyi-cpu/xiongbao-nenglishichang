@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GOH0drCH",
+  "name": "jackspace-scientific-thinking-scientific-visualization",
+  "displayName": "Thinking科研",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jackspace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jackspace-scientific-thinking-scientific-visualization/latest/jackspace-scientific-thinking-scientific-visualization.zip",
+  "zipSha256": "5c65603791bd97215ba6a74661d4bfdd68e8ee10d8836a980fae978a74aa4791",
+  "zipBytes": 24625,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "3a3ce8f61a99db419ed72f8b14a8aeba6120c8672b8ab92aa581b0da42eaf23d",
+  "fetchedAt": "2026-11-18T10:35:48.560Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

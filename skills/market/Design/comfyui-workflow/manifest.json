@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NWk75MFl",
+  "name": "comfyui-workflow",
+  "displayName": "ComfyUI工作流执行器",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "yiqiliu2",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/comfyui-workflow/latest/comfyui-workflow.zip",
+  "zipSha256": "67e68ce09cf6442149ea1dc73bbc6c671aa765c0710840b0209ba51b382ee284",
+  "zipBytes": 197168,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 24,
+  "treeSha256": "051b9295b843117e701957c6a405e5abd7a8edc2b9503dfbbfb536986f5093fb",
+  "fetchedAt": "2026-11-18T10:37:17.080Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

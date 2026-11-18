@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6kf7dMp3",
+  "name": "image-ocr",
+  "displayName": "图像 OCR",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "benchflow-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/image-ocr/latest/image-ocr.zip",
+  "zipSha256": "daf3e50604fdf9a536202d74e806382d8cef6f735801eb98eba4829169b49665",
+  "zipBytes": 4172,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "9da7a9f7092dc8152eb8c5971d8a4a6a99045e4e2c7c850420ab293f9a9819f1",
+  "fetchedAt": "2026-11-18T10:36:32.523Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

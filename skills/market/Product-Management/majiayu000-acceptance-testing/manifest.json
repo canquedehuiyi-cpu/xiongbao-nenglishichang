@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZIgRUbkC",
+  "name": "majiayu000-acceptance-testing",
+  "displayName": "验收测试",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-acceptance-testing/latest/majiayu000-acceptance-testing.zip",
+  "zipSha256": "4ef18d36e5556d00cfa6b6717b4f2934dbeb857cdaa93b9b06081b74a2b383c8",
+  "zipBytes": 2350,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a70688ba2dcfd3999f9227a3d7e814fe99f891d238ccc22ac2f796d75b7f6470",
+  "fetchedAt": "2026-11-18T10:40:09.799Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

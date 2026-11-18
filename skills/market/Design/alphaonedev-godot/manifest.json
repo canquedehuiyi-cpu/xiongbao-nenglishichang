@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7ND8F1yK",
+  "name": "alphaonedev-godot",
+  "displayName": "Godot开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "alphaonedev",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alphaonedev-godot/latest/alphaonedev-godot.zip",
+  "zipSha256": "02e75bc1d670f009b6bfb94618738198d3ce4fa99f743280dcedf6250cb485ee",
+  "zipBytes": 2157,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7cd3d9d9653d209593cb2aa2161e8dade113ef25cc9ad24fb4cfd389a8bbecb2",
+  "fetchedAt": "2026-11-18T10:36:49.174Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

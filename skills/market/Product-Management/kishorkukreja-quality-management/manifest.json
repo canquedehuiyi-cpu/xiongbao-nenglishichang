@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_gJL4cP02",
+  "name": "kishorkukreja-quality-management",
+  "displayName": "产品管理",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kishorkukreja",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kishorkukreja-quality-management/latest/kishorkukreja-quality-management.zip",
+  "zipSha256": "fb17751b73f13bd5af2d1be346cfa49617bc6bfd5be8ed7737631f887d6d0311",
+  "zipBytes": 13534,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c0e9086af76090f293cd06bdde409292874ab51aeabb31c6121d2f5cfcdeadd0",
+  "fetchedAt": "2026-11-18T10:40:25.409Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

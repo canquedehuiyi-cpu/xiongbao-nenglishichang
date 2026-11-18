@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official24681357",
+  "name": "quickbi-smartq-chat",
+  "displayName": "智能小Q-数据分析",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "Alibaba Cloud (Quick BI)",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/quickbi-smartq-chat/latest/quickbi-smartq-chat.zip",
+  "zipSha256": "8294dc4465384c354595c924845aad8cd28f1e37db9bf889eb5d9ad047b790be",
+  "zipBytes": 372476,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 41,
+  "treeSha256": "4aa1472d8c67838e9c35b1fe90be71d8d8023d0c7240d5386999a36ca50f3df5",
+  "fetchedAt": "2026-11-18T10:35:35.642Z",
+  "credentialScan": {
+    "textFilesScanned": 40,
+    "filesRedacted": 0
+  },
+  "note": null
+}

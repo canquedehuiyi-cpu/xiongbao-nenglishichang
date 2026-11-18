@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HMDUS2rT",
+  "name": "majiayu000-scientific-statsmodels",
+  "displayName": "科研统计建模",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-scientific-statsmodels/latest/majiayu000-scientific-statsmodels.zip",
+  "zipSha256": "c7e6a789dcc78b89ddd35f427d3f36b120e7b84ff7bbe694c00dc74b339fdb59",
+  "zipBytes": 7927,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9a9b97d27fbe872173fef1613c51192a39618076e4cb2ed2c6357896f2fb9d9f",
+  "fetchedAt": "2026-11-18T10:36:05.066Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

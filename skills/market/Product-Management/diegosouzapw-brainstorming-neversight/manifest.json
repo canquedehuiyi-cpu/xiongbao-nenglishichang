@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_izKArNRe",
+  "name": "diegosouzapw-brainstorming-neversight",
+  "displayName": "头脑风暴",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-brainstorming-neversight/latest/diegosouzapw-brainstorming-neversight.zip",
+  "zipSha256": "824bbf0185929d8326ad6f27953dff25c56de3f2720adcf08fef52f33aa91658",
+  "zipBytes": 3452,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "49e3929e82531dccc53f1c08a1dcd4d390c7f235f43b28b5ecf589f21f521b26",
+  "fetchedAt": "2026-11-18T10:39:58.619Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

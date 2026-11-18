@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_jwodkc1O",
+  "name": "farming-labs-web-app-architectures",
+  "displayName": "网页设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "farming-labs",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/farming-labs-web-app-architectures/latest/farming-labs-web-app-architectures.zip",
+  "zipSha256": "d9f7e8dfa5a20d2c188bd842ef871e0ffdba2b46140e3aba614c22681115de3d",
+  "zipBytes": 9733,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "97fb069f15ff7842c7af8c86e25434229d55cd370492ec2c0726c1d4cf9d1c70",
+  "fetchedAt": "2026-11-18T10:37:00.353Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

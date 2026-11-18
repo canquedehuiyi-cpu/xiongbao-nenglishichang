@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0pu1INij",
+  "name": "majiayu000-pop-code-review",
+  "displayName": "流程审查",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-pop-code-review/latest/majiayu000-pop-code-review.zip",
+  "zipSha256": "46aab616ab86f6572d0e2db2614204e05e736f914efeffe5764b21ab873aec4e",
+  "zipBytes": 5134,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8785ec0c0e7ccd85afa7759c37a07973f55b4a36831366b99246f05403a09c0d",
+  "fetchedAt": "2026-11-18T10:40:25.557Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_X5xaCYov",
+  "name": "aiskillstore-backend-development-feature-development",
+  "displayName": "后端功能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-backend-development-feature-development/latest/aiskillstore-backend-development-feature-development.zip",
+  "zipSha256": "3faa1f3e95d9f321a7addbe155d49d776349ccd16a1d420f32ba7647d3343d8a",
+  "zipBytes": 7971,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b057a33bce60eb44e090070b3febd3cadda45bb37d3870b57f755ad01764f7c2",
+  "fetchedAt": "2026-11-18T10:39:58.233Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

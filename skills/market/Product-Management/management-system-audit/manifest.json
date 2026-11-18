@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "8c151a61-ddba-4d64-aeb9-7a6af678dd79",
+  "name": "management-system-audit",
+  "displayName": "管理体系文件审核技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514b-e637-710e-b22c-5fa9ddef6346/355d1877_management-system-audit-v1.1.0.zip",
+  "zipSha256": "746d99f64decf6cfeb07b8a44073de56d1d806fddc0ec1f9ea190a2ba482e6d8",
+  "zipBytes": 18851,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "319f6564f5c46fb16d375c6437c209aca7fe0ac34c58fa247aba46b8636c5be7",
+  "fetchedAt": "2026-11-18T10:40:15.465Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "dd6c5cb4-51d1-4eb3-b31d-ba26cf181575",
+  "name": "global-entrepreneurship",
+  "displayName": "全球一人公司创业全链路指导系统",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.5",
+  "publisher": "019fc0ef-9fba-77b0-8c35-4f611b528d2f",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a051b4-7280-7dc2-9bcf-58d7a2368c31/0f8654ad_全球一人公司全链路创业智能指导系统1.0.5.zip",
+  "zipSha256": "f33cf877c594e767ad1c312c8f58c75267903c675954ee534c05778942a77899",
+  "zipBytes": 77718,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 22,
+  "treeSha256": "1e0bd06694007510cee2df8609841da2d2a4cb39a38846321e5c2f2be6221326",
+  "fetchedAt": "2026-11-18T10:48:59.746Z",
+  "credentialScan": {
+    "textFilesScanned": 22,
+    "filesRedacted": 0
+  },
+  "note": null
+}

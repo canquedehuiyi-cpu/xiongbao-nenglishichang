@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_izVTR7Tb",
+  "name": "seedance2-api",
+  "displayName": "Seedance 2.0 分镜脚本与视频生成",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "tony6830377-arch",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/seedance2-api/latest/seedance2-api.zip",
+  "zipSha256": "76ec69673479de9408742d6aea405a237469984548ca4df0dcbe850c42b0f1e0",
+  "zipBytes": 19150,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "f78d1a259b606b22cb61ed462dc143659d75a5e6e3c4d524f71562f4a00a20c8",
+  "fetchedAt": "2026-11-18T10:37:05.661Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

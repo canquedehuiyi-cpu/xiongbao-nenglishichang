@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FCY7FhSX",
+  "name": "excel-spreadsheets",
+  "displayName": "Excel 电子表格",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aws-samples",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/excel-spreadsheets/latest/excel-spreadsheets.zip",
+  "zipSha256": "5c7a1c2d6b3e51c02f319b519133bd0f08676ea69d90aeeff88dd65981e531df",
+  "zipBytes": 2718,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "f978bdbe873627210e1cc682c2f8fe38e0cc77685a3114c248bd781338bfe1b6",
+  "fetchedAt": "2026-11-18T10:36:02.125Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

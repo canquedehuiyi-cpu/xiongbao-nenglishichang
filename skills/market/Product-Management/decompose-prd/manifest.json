@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_zymP3hHq",
+  "name": "decompose-prd",
+  "displayName": "分解 prd",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "harshavardhanbailur-kissht",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/decompose-prd/latest/decompose-prd.zip",
+  "zipSha256": "2f64652061cb950258660f8e9a52b75b0230d5faf62f2440550ec4ff352da345",
+  "zipBytes": 7790,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6e458f02268fa9d61f9f66f60be8210a360974829f82bd09ac154a9974c65400",
+  "fetchedAt": "2026-11-18T10:40:29.084Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

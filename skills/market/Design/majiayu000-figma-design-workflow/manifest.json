@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NnsUlmEg",
+  "name": "majiayu000-figma-design-workflow",
+  "displayName": "Figma流程",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-figma-design-workflow/latest/majiayu000-figma-design-workflow.zip",
+  "zipSha256": "b426954decc47f501b809850fd2d75edcc32b94cf6dde3bd45cb17344a03c5d4",
+  "zipBytes": 11241,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9ce7bf548034dc19330ef51d1c6c8b3b5a58e9d6194b3d035919c322ee1bfae4",
+  "fetchedAt": "2026-11-18T10:36:48.352Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

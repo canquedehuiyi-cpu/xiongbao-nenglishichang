@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_kYHPjRcY",
+  "name": "ms-markitdown",
+  "displayName": "文档转马克当工具",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ms-markitdown/latest/ms-markitdown.zip",
+  "zipSha256": "ea4c6ba60224516f0181c848265a8aa7f3535a3911eb72dd6cc561f8fc4bd830",
+  "zipBytes": 4317,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "b5b0550a95db3e1e2484fb88e3c03a7a2b173ec3c24351940e1c45b5c806a1fa",
+  "fetchedAt": "2026-11-18T10:36:02.731Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

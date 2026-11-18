@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XMM74wkg",
+  "name": "interview-analysis",
+  "displayName": "深度面试分析技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mikonos",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/interview-analysis/latest/interview-analysis.zip",
+  "zipSha256": "f84d9530bd01fe49fd0b02f126dd5d2c9dac9ab6d39db78dfc03d272ef404f4c",
+  "zipBytes": 8329,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "dc965b04d27e32bfb3ae9b71fc4e03eebe5e4ee677edbed5a1a12801b00685eb",
+  "fetchedAt": "2026-11-18T10:40:03.895Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

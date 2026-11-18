@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "111b8267-7939-4347-9b20-75c29fddb8dc",
+  "name": "tencent-survey",
+  "displayName": "騰訊问卷",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.1",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd6c-f1bd-755d-9f1b-72593b9faba7/a3610483_tencent-survey.zip",
+  "zipSha256": "d4a4e9f7782868b99d5e55573fc16250847713f42ab9d4dc14f264c3b238e6cb",
+  "zipBytes": 26813,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "596e9b42b38d682889572d6770806560fcb0fe1c5bfdc2189d7c60cd66c23e2b",
+  "fetchedAt": "2026-11-18T10:36:25.530Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

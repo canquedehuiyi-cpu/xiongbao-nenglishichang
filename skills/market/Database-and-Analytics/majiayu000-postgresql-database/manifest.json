@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mdiUARZa",
+  "name": "majiayu000-postgresql-database",
+  "displayName": "SQL数据库优化",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-postgresql-database/latest/majiayu000-postgresql-database.zip",
+  "zipSha256": "57b03cb1f3b85c8d98639bdd380b994d15a4a26497fdacc378260de57f758d27",
+  "zipBytes": 5064,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "7f3897727230f7c5567b0fa941ada59266c4acc189a9fd3fac3d51e033840177",
+  "fetchedAt": "2026-11-18T10:36:01.859Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

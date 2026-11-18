@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2agNC2FJ",
+  "name": "gstack-office-hours",
+  "displayName": "YC 办公时间",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/gstack-office-hours/latest/gstack-office-hours.zip",
+  "zipSha256": "180f35d54a375eaee5a57d99fa9ad9de5fe1369fea634298772abf3686fe3a65",
+  "zipBytes": 13269,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "97484feec74ed0c08cddeeff107d835cea20a19b406915debf60b6a1416fcd31",
+  "fetchedAt": "2026-11-18T10:40:20.768Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

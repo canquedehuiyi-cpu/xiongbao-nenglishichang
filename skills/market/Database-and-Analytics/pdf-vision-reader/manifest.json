@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XrGcF0A5",
+  "name": "pdf-vision-reader",
+  "displayName": "PDF 视觉阅读器",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pdf-vision-reader/latest/pdf-vision-reader.zip",
+  "zipSha256": "4a84989c8ea16aa529b18559f5987913a96d3b812d143cec2ceb3e4e987b1ba6",
+  "zipBytes": 3929,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "d3ff18eabc7534798508392f287e9ac1e9fefab52722116480fab40085a8331e",
+  "fetchedAt": "2026-11-18T10:35:56.073Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

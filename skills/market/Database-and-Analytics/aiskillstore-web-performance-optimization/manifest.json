@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_VADI9eZE",
+  "name": "aiskillstore-web-performance-optimization",
+  "displayName": "性能优化",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-web-performance-optimization/latest/aiskillstore-web-performance-optimization.zip",
+  "zipSha256": "9e44ef5fc3ca80eafd4b7dbdf676ac1815d57a4ed0f8f41d4e932c5dd02c3946",
+  "zipBytes": 9926,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "975ff13c4ee67d135eab627060cc370639fad2a6c20c2cc15da885ae77bd0ea0",
+  "fetchedAt": "2026-11-18T10:35:38.423Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

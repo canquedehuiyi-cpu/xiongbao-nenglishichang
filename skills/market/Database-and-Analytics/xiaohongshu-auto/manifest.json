@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_v00M285O",
+  "name": "xiaohongshu-auto",
+  "displayName": "小红书自动化发布与管理工具",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "broommonk",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/xiaohongshu-auto/latest/xiaohongshu-auto.zip",
+  "zipSha256": "b756c26b791ca44ff2804a9ac75e9b440dafd6dcdd73f2abb5a51c34e38763a1",
+  "zipBytes": 6908,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "52ccfdfd049f929fbd5e88741a7e7cd4711d5f9e31e9bafd7d6e14684c0155eb",
+  "fetchedAt": "2026-11-18T10:35:50.614Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

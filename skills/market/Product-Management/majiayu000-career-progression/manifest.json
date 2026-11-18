@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6ETq0Pm8",
+  "name": "majiayu000-career-progression",
+  "displayName": "任务Career",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-career-progression/latest/majiayu000-career-progression.zip",
+  "zipSha256": "e00672cd6b52392d7d2519fbe7732e61aa9dd56d6ab66a856a394db0056fe80d",
+  "zipBytes": 3664,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9cad572f22e52daa390568010fed4f02372351f1f195aab2a36edc3972bb940e",
+  "fetchedAt": "2026-11-18T10:40:14.733Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

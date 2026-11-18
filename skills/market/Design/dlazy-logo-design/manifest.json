@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "53f9bd2e-95b1-4301-b449-3fd4b9d46ff8",
+  "name": "dlazy-logo-design",
+  "displayName": "logo 设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.3.4",
+  "publisher": "019f7d61-89fb-796c-8b83-ee681305e859",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f8394-d982-7785-9f7b-b90dcf2c37ae/18e1eaab_dlazy-logo-design-fixed.zip",
+  "zipSha256": "1d31062651284cfc59533c060614272a74ad67a1980ec85132ff52779c6f2e0f",
+  "zipBytes": 6202,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "245ccbbe1cfc7b7f8fd61549f403cb963aeeb32259a959e02407b8a06432f363",
+  "fetchedAt": "2026-11-18T10:36:42.038Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

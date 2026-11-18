@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "fb3d7a32-ba4e-45bf-a6b1-be37ea648ab9",
+  "name": "emergency-plan-builder",
+  "displayName": "应急方案技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514b-5344-7e8b-a304-847bd8304285/6ecfa809_emergency-plan-builder-v1.1.0.zip",
+  "zipSha256": "fac4bbf5f11da442f46f6f217693b14517358c3658f90d42a5a87832ffa820eb",
+  "zipBytes": 7523,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "6d89db0a10a252063d26458219af819349afc349d2ca4fb9f2dd70e159b0b705",
+  "fetchedAt": "2026-11-18T10:40:26.426Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

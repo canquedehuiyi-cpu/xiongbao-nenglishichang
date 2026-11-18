@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LEoAFelt",
+  "name": "athola-project-brainstorming",
+  "displayName": "头脑风暴",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "athola",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/athola-project-brainstorming/latest/athola-project-brainstorming.zip",
+  "zipSha256": "6d5348040d6451e14b6a51fb0ff4641127abd234c39b3d5fe5e456026cc85e03",
+  "zipBytes": 5047,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "df388a3640db83d94c184f01a9b999a72dd56a6a74bdfe4706edb2689b8238da",
+  "fetchedAt": "2026-11-18T10:39:55.285Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

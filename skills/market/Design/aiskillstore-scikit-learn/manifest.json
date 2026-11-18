@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3I0Iw8c3",
+  "name": "aiskillstore-scikit-learn",
+  "displayName": "Python设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-scikit-learn/latest/aiskillstore-scikit-learn.zip",
+  "zipSha256": "c7af83c922804d1215a4ee0ade66cfe74c2aa65c3b050f4a49fec4dadde1d387",
+  "zipBytes": 40120,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "f69abe322a0ff36c49630ad29e7e3a3a1e6aa2d8804e7d27504b9aa2d90d248e",
+  "fetchedAt": "2026-11-18T10:37:09.431Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

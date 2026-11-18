@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_AMOjVVOo",
+  "name": "amnadtaowsoam-discovery-questions",
+  "displayName": "发现问题",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AmnadTaowsoam",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amnadtaowsoam-discovery-questions/latest/amnadtaowsoam-discovery-questions.zip",
+  "zipSha256": "fe332a1fed5b3895b76a9725391ff1ceec3348e3d841793bcc8e1dc9a4a5bbdb",
+  "zipBytes": 3262,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "888c3341f7f1349d35b8ed170ee83ef8511ac79ddea182dcc807a96ebf12cc3e",
+  "fetchedAt": "2026-11-18T10:40:42.394Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

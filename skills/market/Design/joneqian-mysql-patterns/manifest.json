@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8FCzzYAi",
+  "name": "joneqian-mysql-patterns",
+  "displayName": "MySQL模式",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "joneqian",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/joneqian-mysql-patterns/latest/joneqian-mysql-patterns.zip",
+  "zipSha256": "f1d89fbf024251b255c22a2327f11bf851c39d959ac5042ca2296077ce9fe074",
+  "zipBytes": 2864,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1c1c08f020e7f108f3174071826562ddac996dabbb38f885f7880b2121c21c95",
+  "fetchedAt": "2026-11-18T10:37:06.765Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

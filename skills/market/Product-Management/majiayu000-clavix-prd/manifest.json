@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7cTEOi5t",
+  "name": "majiayu000-clavix-prd",
+  "displayName": "PRD开发",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-clavix-prd/latest/majiayu000-clavix-prd.zip",
+  "zipSha256": "83121e86186b83074234ae909517b3d8eb48ca801b2ab19eb78e53b0346dd1fe",
+  "zipBytes": 4500,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "4b775ed25b7ee5136246c56a3b3bfa78243f30ed82a25c04a9100f994ecd1311",
+  "fetchedAt": "2026-11-18T10:40:36.768Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

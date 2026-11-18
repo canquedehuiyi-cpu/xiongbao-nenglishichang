@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_QUHQx5lX",
+  "name": "ddunnock-fmea-analysis",
+  "displayName": "产品FMEA",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ddunnock",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ddunnock-fmea-analysis/latest/ddunnock-fmea-analysis.zip",
+  "zipSha256": "1310ed1fe9055122d1e6b3b6a24d272ae969ab46d9a83d8cdf0793b70b56dea0",
+  "zipBytes": 48935,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "439331fcf776467c98fa3965c73faa8314d34b8c6b0b866452a52fed90d0925a",
+  "fetchedAt": "2026-11-18T10:40:12.302Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

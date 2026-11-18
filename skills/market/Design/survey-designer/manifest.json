@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3LIArjcb",
+  "name": "survey-designer",
+  "displayName": "问卷设计工具",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bytesagain",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/survey-designer/latest/survey-designer.zip",
+  "zipSha256": "3579a3f2df2999137e092e346ecf26b73b8457081145037ec70dd2fa0a44220a",
+  "zipBytes": 9521,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "a398370e11eb8e837f072537390016c75a3c24ac49527dda3cb063d7fc7c4666",
+  "fetchedAt": "2026-11-18T10:37:07.299Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

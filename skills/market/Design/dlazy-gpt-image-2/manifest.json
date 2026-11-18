@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "737ec8b4-2af7-4f7f-8949-c6a169929645",
+  "name": "dlazy-gpt-image-2",
+  "displayName": "gpt image 2",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.3.5",
+  "publisher": "019f7d61-89fb-796c-8b83-ee681305e859",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f8392-f9fd-7e3a-b5ca-0f59dfbc844f/43270143_dlazy-gpt-image-2-fixed.zip",
+  "zipSha256": "6799e14609d3814f39a16f391a4e7859eda049d9b9cec8075e2111e01ef3db9c",
+  "zipBytes": 6594,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0ab3315b45b3582beb9cc326b49188e032e2bc47a4dfabcf5e910e3582b49b0f",
+  "fetchedAt": "2026-11-18T10:37:08.683Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

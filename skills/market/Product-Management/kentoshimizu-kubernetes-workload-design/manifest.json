@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8kl03e96",
+  "name": "kentoshimizu-kubernetes-workload-design",
+  "displayName": "Workload设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "KentoShimizu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kentoshimizu-kubernetes-workload-design/latest/kentoshimizu-kubernetes-workload-design.zip",
+  "zipSha256": "7a72998263c6daecbc914b84a0f53b8a0e225a4778ee6ea75584e1c985614213",
+  "zipBytes": 2565,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "ec5b46cc2ceb88f599a6ebc1cb3bbf9bf05f0b5cde735d7e1a200826f2aedba7",
+  "fetchedAt": "2026-11-18T10:40:43.256Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

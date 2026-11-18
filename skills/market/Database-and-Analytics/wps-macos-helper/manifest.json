@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_uLw3BeAF",
+  "name": "wps-macos-helper",
+  "displayName": "WPS macOS 助手",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a1e4af-71b1-7348-b4e4-75720e39ff31/c3f6fa9e0eea982b915fc23ed92c3b624e915f1d32e0e78f77aa5ff7dde40a44.zip",
+  "zipSha256": "c3f6fa9e0eea982b915fc23ed92c3b624e915f1d32e0e78f77aa5ff7dde40a44",
+  "zipBytes": 7495,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "b11fb0d0d9d1bfe54e18737b85676af36e4d041db79953d9e2651f2b57e660b7",
+  "fetchedAt": "2026-11-18T10:47:49.510Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

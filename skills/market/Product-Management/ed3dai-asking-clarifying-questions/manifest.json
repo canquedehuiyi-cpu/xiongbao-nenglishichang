@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EnlwtZmD",
+  "name": "ed3dai-asking-clarifying-questions",
+  "displayName": "Asking设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ed3dai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ed3dai-asking-clarifying-questions/latest/ed3dai-asking-clarifying-questions.zip",
+  "zipSha256": "57baf97e85d358b161fbbeca23d93d88814119eeda697ad33fea914b6606293b",
+  "zipBytes": 5208,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7472ee36254ff9dd47f0890d92e59ecbd2d38229f6c15729dcaeeedc71c7ac3c",
+  "fetchedAt": "2026-11-18T10:40:43.659Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

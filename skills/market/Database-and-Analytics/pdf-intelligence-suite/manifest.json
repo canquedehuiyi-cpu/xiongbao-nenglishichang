@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_90bJZxWX",
+  "name": "pdf-intelligence-suite",
+  "displayName": "PDF 智能处理套件",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pdf-intelligence-suite/latest/pdf-intelligence-suite.zip",
+  "zipSha256": "0cded5024055c481071c9ab8ecfe24ee882c4978bcb4ae474ee5488535a092dd",
+  "zipBytes": 33148,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "58ce5a7d3bd113b96497772f324833eeddf2389f48e09ca3a47afa03dd4051a3",
+  "fetchedAt": "2026-11-18T10:35:37.519Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

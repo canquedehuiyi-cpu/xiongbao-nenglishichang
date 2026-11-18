@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KW0tlRqU",
+  "name": "comprehensive-tech-documentation",
+  "displayName": "综合技术文档生成",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "liuxxxu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/comprehensive-tech-documentation/latest/comprehensive-tech-documentation.zip",
+  "zipSha256": "6d324a6b2af6b833e6fbef3af069f14c54630ba08f72f34053bb368e5b447b48",
+  "zipBytes": 22809,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "bba686991870384a0be4a2e3fbfefc57ea6af0ecd76fb15bdac4c723e8239a9e",
+  "fetchedAt": "2026-11-18T10:36:02.305Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

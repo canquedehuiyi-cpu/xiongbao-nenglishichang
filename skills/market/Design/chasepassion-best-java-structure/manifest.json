@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2RTmWRhd",
+  "name": "chasepassion-best-java-structure",
+  "displayName": "SQLJava开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ChasePassion",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/chasepassion-best-java-structure/latest/chasepassion-best-java-structure.zip",
+  "zipSha256": "892da08581de1b5daa9c7592174f85286c73be1a1b315fc05eb66307f491dfee",
+  "zipBytes": 4106,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "bfe24d5ab100591ee7e7b5f956875f95575ab2e8acac2fc48a638040505f0ee3",
+  "fetchedAt": "2026-11-18T10:36:41.871Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

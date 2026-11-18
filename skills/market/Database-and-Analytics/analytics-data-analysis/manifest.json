@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official36467869",
+  "name": "analytics-data-analysis",
+  "displayName": "分析数据分析",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Mindrally",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/analytics-data-analysis/latest/analytics-data-analysis.zip",
+  "zipSha256": "d73f75d73b3ef38c31f5cb0d25360d9501d0f6695e6b8f7b5f3d4394526a36dc",
+  "zipBytes": 2136,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "86399fb3e4de5deba498e4f1927759e634172a4ccabdb73bb5318c6489d8f621",
+  "fetchedAt": "2026-11-18T10:35:34.619Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KrChHQCk",
+  "name": "product-manager-proactive",
+  "displayName": "产品经理",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/product-manager-proactive/latest/product-manager-proactive.zip",
+  "zipSha256": "bd9918417797e934645bef6ba0f2eb855f5655d6040ae91a2f753313b8ebbd65",
+  "zipBytes": 87968,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 25,
+  "treeSha256": "c83fc0b49ad42140bcf8f3f13b92039bb4ec0f66b6f4b42523183e263517c84e",
+  "fetchedAt": "2026-11-18T10:39:57.798Z",
+  "credentialScan": {
+    "textFilesScanned": 25,
+    "filesRedacted": 0
+  },
+  "note": null
+}

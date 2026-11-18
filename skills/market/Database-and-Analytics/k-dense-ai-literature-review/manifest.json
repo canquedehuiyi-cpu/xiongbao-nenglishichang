@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ooHcMJER",
+  "name": "k-dense-ai-literature-review",
+  "displayName": "SQL文献综述",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "k-dense-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/k-dense-ai-literature-review/latest/k-dense-ai-literature-review.zip",
+  "zipSha256": "0a80098da33d86bce3713da833fbc035117ba0fff773d47c52f13b3ab395195f",
+  "zipBytes": 42621,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "17e836f2e04b3c36937195c95e8d4dc09d1293a742b068368d443527529ea44e",
+  "fetchedAt": "2026-11-18T10:36:28.307Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0BLBfjEt",
+  "name": "diegosouzapw-python-testing-andyhsutw",
+  "displayName": "Python开发",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-python-testing-andyhsutw/latest/diegosouzapw-python-testing-andyhsutw.zip",
+  "zipSha256": "2e8953ac54a61ff5944e4c910b03204f6f62100f04bf437dade1ec9c3eb3ccf5",
+  "zipBytes": 6785,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c6c8c5654c0b00cee484b39d8475db2eaf5b89938ef856b5c3ea81125ed6a0f9",
+  "fetchedAt": "2026-11-18T10:40:36.256Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

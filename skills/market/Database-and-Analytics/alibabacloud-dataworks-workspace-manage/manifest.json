@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_xa5cacER",
+  "name": "alibabacloud-dataworks-workspace-manage",
+  "displayName": "DataWorks 工作空间管理",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-dataworks-workspace-manage/latest/alibabacloud-dataworks-workspace-manage.zip",
+  "zipSha256": "0ff33dda0ca3031b00322e165bea1a5f3830dbe5d88227f044b5ef7f78cb140e",
+  "zipBytes": 20618,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "2a012a108b26ea7f13de30781d043f95daec960284df103e6056f647aa861113",
+  "fetchedAt": "2026-11-18T10:36:19.315Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 1
+  },
+  "note": null
+}

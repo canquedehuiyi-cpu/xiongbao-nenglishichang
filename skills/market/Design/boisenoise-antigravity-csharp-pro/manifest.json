@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_lROQGP5U",
+  "name": "boisenoise-antigravity-csharp-pro",
+  "displayName": "Csharp开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-csharp-pro/latest/boisenoise-antigravity-csharp-pro.zip",
+  "zipSha256": "741d9e30e83185d9f896ba97c3fe3b6895acb39cf6783675852a3bda3cd33d74",
+  "zipBytes": 1381,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "9f9f97dc64515346d5830a5fe4c96e85ac73790da5c48fcead0ee46a1ade7c7e",
+  "fetchedAt": "2026-11-18T10:36:47.881Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WNkfYXNy",
+  "name": "class-seven",
+  "displayName": "七班多智能体开发团队",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "russellfei",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/class-seven/latest/class-seven.zip",
+  "zipSha256": "c85ee3952ae928474385c7ee41f520a1d61ff149a8d4f916620df4a6de2c79cd",
+  "zipBytes": 8762,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "79c1331b5e1099527db9dc8c22843e62574ec66fe7c4c0329ad6dbd6afd2f434",
+  "fetchedAt": "2026-11-18T10:40:23.312Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

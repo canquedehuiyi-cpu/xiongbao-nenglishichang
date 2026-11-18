@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_hxb0cSHv",
+  "name": "game-numeric-design",
+  "displayName": "游戏数值策划技能",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "wangssi1998-cell",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/game-numeric-design/latest/game-numeric-design.zip",
+  "zipSha256": "ac857773cd8ea9e1cd26699cb7cc43ac1c95f5f7c0bc67235c26dc6669cece83",
+  "zipBytes": 3220,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "aa684ee0155181981e61bf6880b24217b512dd893c0ac70d6b8cfd3ffcbac637",
+  "fetchedAt": "2026-11-18T10:36:38.192Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

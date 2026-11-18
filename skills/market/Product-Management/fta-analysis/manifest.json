@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "08d8ac86-c97a-495e-ad4c-c179b1278ff4",
+  "name": "fta-analysis",
+  "displayName": "故障树分析技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514b-70f0-7b51-9259-3d72c39e2c6d/69df9cd2_fta-analysis-v1.1.0.zip",
+  "zipSha256": "7bbc10cef4cb28054a1db6687a1e05bc6ff468f8fffe1da5bcf69f934489fc01",
+  "zipBytes": 15408,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "383d8d4c9b729f871641785ef26633ca53aa5d118dd7df8f57465eaa222115f4",
+  "fetchedAt": "2026-11-18T10:40:34.852Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

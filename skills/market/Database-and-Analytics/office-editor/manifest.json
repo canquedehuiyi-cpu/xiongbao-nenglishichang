@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_iHMI2Rgp",
+  "name": "office-editor",
+  "displayName": "Office 文档编辑",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/office-editor/latest/office-editor.zip",
+  "zipSha256": "4bc23ec504817d3abf3733293d84d9257fa64b58cfd465a4f3fa3e687efcf589",
+  "zipBytes": 18300,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "6fad6117893220bccbfafabc502d76e992ba0aa019a57eb3d892a37499db2f92",
+  "fetchedAt": "2026-11-18T10:35:45.351Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

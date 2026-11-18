@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bUNFY3le",
+  "name": "chujun-skill-project-manager",
+  "displayName": "项目管理",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "chujun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/chujun-skill-project-manager/latest/chujun-skill-project-manager.zip",
+  "zipSha256": "3463eb645cef4d3f985088d8f0708ae524b636236166f566cf2b08df4c13664b",
+  "zipBytes": 1448,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "2dd2015e1db57bbea6ffb08ffabdfcee088c2e621cecc9447bf7a782647e6c0a",
+  "fetchedAt": "2026-11-18T10:35:37.274Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

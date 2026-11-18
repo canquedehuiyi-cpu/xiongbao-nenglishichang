@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JaK0zzOP",
+  "name": "echarts-master",
+  "displayName": "ECharts图表大师",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "linux2010",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/echarts-master/latest/echarts-master.zip",
+  "zipSha256": "94519e136c8697f7d303d90c76046bba791e603cc26f58883193253652f5e6f9",
+  "zipBytes": 342995,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "ac620d2bdfac2b8f78a0b1595190c2bb5b20fd6a75b91e9994d0876b63ee8772",
+  "fetchedAt": "2026-11-18T10:35:48.246Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

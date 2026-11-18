@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KcwTnmo0",
+  "name": "ppt-translate",
+  "displayName": "PPT 翻译",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ppt-translate/latest/ppt-translate.zip",
+  "zipSha256": "71529548cc0aad69fca88b663c43c477343f1b03be22e73b8aaf8eeeeb792ff0",
+  "zipBytes": 16059,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "5c6a6af1e526dc65ea9737c55ef9689fa2b1264bde02fc2523d6fd32555acea6",
+  "fetchedAt": "2026-11-18T10:36:18.129Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

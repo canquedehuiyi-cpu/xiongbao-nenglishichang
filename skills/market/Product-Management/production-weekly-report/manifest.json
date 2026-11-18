@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "86750b56-4fc4-472f-9d07-a7b5fbdae276",
+  "name": "production-weekly-report",
+  "displayName": "工作周报技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514c-1093-7da3-9d17-c4262c870eb6/d3a1ad4b_production-weekly-report-v1.1.0.zip",
+  "zipSha256": "67cf7e52a9429c07a8eff07ce046d8896b03c5a8345f978294d6fdf793f5030b",
+  "zipBytes": 13905,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "cd40f7de224b8401bcd35a63787f4cfeb4ad6ec76270fc9896a51687cfac46a0",
+  "fetchedAt": "2026-11-18T10:40:24.484Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Nmx3eWcB",
+  "name": "shadows-project-architect",
+  "displayName": "项目架构师",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "nakedoshadow",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/shadows-project-architect/latest/shadows-project-architect.zip",
+  "zipSha256": "f3bd5e66b7dd86f5c3b16bb0412f806356b21a5a2830c32e3ee1e8c6866e03c7",
+  "zipBytes": 2863,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "6b473a777f3636c168f1286279a2c8a73f3165cf15483d7edc802db7206f9095",
+  "fetchedAt": "2026-11-18T10:37:10.673Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_oca9kCE8",
+  "name": "douyin-hot-trend",
+  "displayName": "抖音热榜数据获取",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "franklu0819-lang",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/douyin-hot-trend/latest/douyin-hot-trend.zip",
+  "zipSha256": "503612310eaf473b8be702d41883f050e47e348ef602996c8d86e7dfdb9902ca",
+  "zipBytes": 15340,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "14d3302c707eb5ed3f830a4beb3f18faa752453af78f7acdb2520f704e6850e6",
+  "fetchedAt": "2026-11-18T10:36:19.928Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

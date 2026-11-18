@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dy7IoE64",
+  "name": "majiayu000-diagram-drawing",
+  "displayName": "Drawing分析",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-diagram-drawing/latest/majiayu000-diagram-drawing.zip",
+  "zipSha256": "12f4de95c0d84744f6d39db39de783c327dea65edd52c8bb0e4978d3777fea2a",
+  "zipBytes": 5789,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c97143870b1a6f4f206862c0edf3366a47855f26c35c5c93402823d5727a20c1",
+  "fetchedAt": "2026-11-18T10:36:24.614Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

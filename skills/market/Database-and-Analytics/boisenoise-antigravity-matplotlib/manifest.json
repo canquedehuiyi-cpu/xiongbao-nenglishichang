@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bsUegtxQ",
+  "name": "boisenoise-antigravity-matplotlib",
+  "displayName": "流程图库",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-matplotlib/latest/boisenoise-antigravity-matplotlib.zip",
+  "zipSha256": "9df8476f27d682891330e3183078c93188fb17be67a1230d776dbeaff04b448f",
+  "zipBytes": 4853,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "966c7275d43ab92b697907e406a5cf21e7bbfe78422b7d0aca6bfb156ab6ae98",
+  "fetchedAt": "2026-11-18T10:36:26.526Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

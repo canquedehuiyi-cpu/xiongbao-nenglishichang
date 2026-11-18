@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9IkuArCq",
+  "name": "jimeng-image-gen",
+  "displayName": "即梦AI图片生成工具",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ken0521",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jimeng-image-gen/latest/jimeng-image-gen.zip",
+  "zipSha256": "a264591f5a4deaa882b791921b04d146d68863ecf566bc3bb4dcb0b8d152490b",
+  "zipBytes": 10531,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "59b2f55cdba51311de9a2fd772b1e9c66f2ecfa8d35e9116a7ba5654939b9bfe",
+  "fetchedAt": "2026-11-18T10:36:54.303Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

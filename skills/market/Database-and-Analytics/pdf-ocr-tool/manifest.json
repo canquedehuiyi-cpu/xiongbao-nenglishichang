@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JbhF7kHm",
+  "name": "pdf-ocr-tool",
+  "displayName": "PDF OCR 智能转换工具",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "tsukisama9292",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pdf-ocr-tool/latest/pdf-ocr-tool.zip",
+  "zipSha256": "e9772b156cbe8f2dac67fdffb67c4f7d2d827300d20a6a63cf19fe561a9167a9",
+  "zipBytes": 34696,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 24,
+  "treeSha256": "0e7d96a3eb6df3181e9c6d5881df72971d892c4c22dece4c8ee7ecdb6a4247bc",
+  "fetchedAt": "2026-11-18T10:36:03.324Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

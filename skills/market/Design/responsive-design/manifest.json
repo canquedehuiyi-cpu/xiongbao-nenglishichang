@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official83406837",
+  "name": "responsive-design",
+  "displayName": "响应式设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "wshobson",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/responsive-design/latest/responsive-design.zip",
+  "zipSha256": "b2c0774406029d399d43b53311c9acf12cc174ad506b1be6d53ec0ca9a69e7e3",
+  "zipBytes": 4366,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "02be383a1846cdf2dfec159474fe69e3f29959245803ef7a0cfeee7b985aaa10",
+  "fetchedAt": "2026-11-18T10:36:31.312Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

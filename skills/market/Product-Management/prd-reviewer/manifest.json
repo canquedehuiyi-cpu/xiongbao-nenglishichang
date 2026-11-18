@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JSpPqMuz",
+  "name": "prd-reviewer",
+  "displayName": "PRD 需求评审评分专家",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/prd-reviewer/latest/prd-reviewer.zip",
+  "zipSha256": "afeeb4da9dca37fca900cceeed298dc7ede82c962ab6c1878a9332361414d19e",
+  "zipBytes": 3712,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "73cea2a57e0786d69e6c242d41baa7421255ce549bfc1eafcc0b585b370cf6bd",
+  "fetchedAt": "2026-11-18T10:40:02.735Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

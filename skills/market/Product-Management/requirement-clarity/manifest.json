@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2aaQibY1",
+  "name": "requirement-clarity",
+  "displayName": "需求梳理协议",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "evianevans",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/requirement-clarity/latest/requirement-clarity.zip",
+  "zipSha256": "360bf79f6893e82e5fcef9f6596d530ec8bb4b18961b0d957ac4c63202b0cc91",
+  "zipBytes": 973,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b595330fd7b60ad633f8f661775d1b5de9be81d5e2caa4f240a3ac2ec9f1f054",
+  "fetchedAt": "2026-11-18T10:40:17.238Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

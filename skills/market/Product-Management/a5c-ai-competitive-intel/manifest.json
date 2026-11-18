@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_99OpotfL",
+  "name": "a5c-ai-competitive-intel",
+  "displayName": "竞品Intel",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "a5c-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/a5c-ai-competitive-intel/latest/a5c-ai-competitive-intel.zip",
+  "zipSha256": "b19e2f354628d3f6f43319846fc61a81ace26acfb0d6f0babf1dd25c00fce8f1",
+  "zipBytes": 2103,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "14e3e557f41176dcfb8f96c168fcbf6b569364a4dd6a573ef45564c5788555ee",
+  "fetchedAt": "2026-11-18T10:40:18.240Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

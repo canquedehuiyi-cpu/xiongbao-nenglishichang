@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Rte1EKaA",
+  "name": "solo-validate",
+  "displayName": "创业想法验证与 PRD 生成",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "fortunto2",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/solo-validate/latest/solo-validate.zip",
+  "zipSha256": "1749b742adc49b6eb8058b49aac948cd7e420c09f63ca42617d5963a4c06a27c",
+  "zipBytes": 8632,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "98951d51d3f507a6637fdacb3f9ee0ac9513b2d16bb0ba5596ee3abbdcabe5a3",
+  "fetchedAt": "2026-11-18T10:40:28.873Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

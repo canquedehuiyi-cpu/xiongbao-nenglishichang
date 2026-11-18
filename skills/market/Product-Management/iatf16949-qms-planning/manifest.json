@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "dcf88d44-6652-4583-8881-baa39ab74ca1",
+  "name": "iatf16949-qms-planning",
+  "displayName": "IATF16949质量管理体系策划",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514b-96d4-7282-b182-49b1d404de52/eb20444e_iatf16949-qms-planning-v1.1.0.zip",
+  "zipSha256": "45e2b87ea13baf34c4a8de50257568712c0fdeed2c4317c111200361f4c8f911",
+  "zipBytes": 29718,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "1fbf95e0c4a7ade88130f5a8b6cca1925f06688d06b2702d71a13706dcc5b55b",
+  "fetchedAt": "2026-11-18T10:40:24.786Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

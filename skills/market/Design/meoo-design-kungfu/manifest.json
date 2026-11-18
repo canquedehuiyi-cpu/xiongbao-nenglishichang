@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "96790238-d2eb-4271-8769-7ef395feea2f",
+  "name": "meoo-design-kungfu",
+  "displayName": "【Meoo】高级UI_UX 设计智能系统_v3",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019efa87-c331-761d-ad2d-2346efa4267b",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f3f52-04d8-7f36-8739-5702942f3d89/11275a30_【Meoo】高级UI_UX_设计智能系统_v3.zip",
+  "zipSha256": "bf3de0307f50f047373c0960cd8856a690d176e6bb0dfe2efef196dbcffd8b20",
+  "zipBytes": 731654,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 199,
+  "treeSha256": "ed6e3d8a51a4bdb4c701191800875f833933c723082c963045318c89ae8667c7",
+  "fetchedAt": "2026-11-18T10:36:56.809Z",
+  "credentialScan": {
+    "textFilesScanned": 199,
+    "filesRedacted": 0
+  },
+  "note": null
+}

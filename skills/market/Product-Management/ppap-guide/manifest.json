@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "2040fbbb-8135-4a53-b687-be9eb39cb406",
+  "name": "ppap-guide",
+  "displayName": "PPAP技能助手",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514b-fe3c-7013-bb24-b4ceccbba6ed/1804b9be_ppap-guide-v1.1.0.zip",
+  "zipSha256": "e7cce9ae608d901c5814551efa48347810213506b28020bc901f329ce274dea3",
+  "zipBytes": 18824,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "6028eaeb670edf5388317c03996e3eb64202fd4ec62d348cbc3164fc3cfe1605",
+  "fetchedAt": "2026-11-18T10:40:24.301Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

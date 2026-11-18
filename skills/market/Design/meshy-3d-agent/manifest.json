@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RnOyam3i",
+  "name": "meshy-3d-agent",
+  "displayName": "Meshy 3D 智能体",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0cfc0-9f86-77f7-adf0-68d92c2e5021/ss_8f7b803efe8a3eef7be987250baa2cbcb8ca5d71d3021dbff946b132d2b0.zip",
+  "zipSha256": "dba2e4ee1d57cf3c1d104f55c60def3f333bc614451afd61d015c4b0b7c981b9",
+  "zipBytes": 22677,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "04460065b9a9bfe77e47a2877b45ff0d982f964736c2e8770612bb5a03c7f7e0",
+  "fetchedAt": "2026-11-18T10:36:55.358Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

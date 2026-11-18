@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9zrZzk8b",
+  "name": "data-visualization-studio",
+  "displayName": "数据可视化工作室",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "zhuyu28",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/data-visualization-studio/latest/data-visualization-studio.zip",
+  "zipSha256": "f236d9fccbcf7f1abc81d6496b6b4460c6316f1946b1ceca060baa85d94e07be",
+  "zipBytes": 5424,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "3ae0ddfd8db4ddfa7169e355230c883775d770759c75ba4f37e17cadb6dad25d",
+  "fetchedAt": "2026-11-18T10:35:58.372Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

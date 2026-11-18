@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "bc7886dc-bea2-45e0-b019-3744c0a67d33",
+  "name": "sipoc-diagram",
+  "displayName": "SIPOC技能工具",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514c-4c74-7641-b5bb-8b327fb27916/a25b9eee_sipoc-diagram-v1.1.0.zip",
+  "zipSha256": "0732fecfa9e88692d18ea320ef8c8b46b09b2676b4f48624ec5179743e94384b",
+  "zipBytes": 13671,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "9159061674fb50be061ae74e82b78edf9f76dc66010068e95ce955e0c0873ea6",
+  "fetchedAt": "2026-11-18T10:40:29.905Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

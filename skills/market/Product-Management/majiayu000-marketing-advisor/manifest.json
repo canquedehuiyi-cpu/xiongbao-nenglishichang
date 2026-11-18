@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8uKt0S0L",
+  "name": "majiayu000-marketing-advisor",
+  "displayName": "市场营销文案",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-marketing-advisor/latest/majiayu000-marketing-advisor.zip",
+  "zipSha256": "79ea17c98a599a4ca1dc4a1b719917b03d33632c13945489d3547595c186a0b4",
+  "zipBytes": 3757,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "37639ad5255331344be219ee8ad96890fff418e6068471da83802eb03b98568d",
+  "fetchedAt": "2026-11-18T10:40:16.782Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

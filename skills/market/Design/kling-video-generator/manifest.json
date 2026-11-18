@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HbGfVLNE",
+  "name": "kling-video-generator",
+  "displayName": "Kling 3.0 Omni 视频生成器",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "wells1137",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kling-video-generator/latest/kling-video-generator.zip",
+  "zipSha256": "c4adee6ade6a9dcead5d4bcd06ec974fa47358d267bf0ee77bac852d68619580",
+  "zipBytes": 15839,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "89166a41e593f121d80614595deaeb161da9754175fa24a58dd7639b6bbf8fd3",
+  "fetchedAt": "2026-11-18T10:36:47.394Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Dgsn0uge",
+  "name": "prd-generator-team",
+  "displayName": "PRD 文档生成器（团队版）",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/prd-generator-team/latest/prd-generator-team.zip",
+  "zipSha256": "6fb43f548588a9732602516a527696ca02dfdd3f82b92a066dbfe282dc93c7f2",
+  "zipBytes": 59543,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "e4066db1cdf62c3f7736151c0d6b55a86d6488f7eaf6135a4c2a0dae54a3a5a9",
+  "fetchedAt": "2026-11-18T10:40:44.524Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

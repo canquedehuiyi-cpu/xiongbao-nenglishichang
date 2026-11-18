@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_16UHlxYO",
+  "name": "johnsonmao-sp-using-superpowers",
+  "displayName": "SpUsing设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "JohnsonMao",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/johnsonmao-sp-using-superpowers/latest/johnsonmao-sp-using-superpowers.zip",
+  "zipSha256": "48cad4dd2eb025aba71fbf58b92a13fd394a23f6fef379e2741a273e13c9f688",
+  "zipBytes": 2917,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "e422898a60e4cdd2938f68164453329efd1d54d5c31ae8576f33e9d0b817a6cd",
+  "fetchedAt": "2026-11-18T10:37:09.579Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

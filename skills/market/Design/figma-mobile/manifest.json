@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mezJZBCi",
+  "name": "figma-mobile",
+  "displayName": "Figma 转移动端",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/figma-mobile/latest/figma-mobile.zip",
+  "zipSha256": "5d8fcf2af6fa834ad4d24fd6c7fdffe83629d4f20bf291037e12afc8bdd2323b",
+  "zipBytes": 50023,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 17,
+  "treeSha256": "7676b8b2d94dc863b0d0fcff54e284eda8010b65cb2bcbf61eaabb6f1fd22c99",
+  "fetchedAt": "2026-11-18T10:37:10.192Z",
+  "credentialScan": {
+    "textFilesScanned": 17,
+    "filesRedacted": 0
+  },
+  "note": null
+}

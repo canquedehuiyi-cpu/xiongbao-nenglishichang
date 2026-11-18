@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qZbRc8C5",
+  "name": "alibabacloud-sls-index-config-management",
+  "displayName": "优化和管理 SLS 日志库索引配置",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-sls-index-config-management/latest/alibabacloud-sls-index-config-management.zip",
+  "zipSha256": "a0cb5b0e704122c40e3421bba1b0a8ca9ed5ffa5e654d3604db611880719e137",
+  "zipBytes": 17596,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "44ec132943000053fa6f1802b4ad5dbb06f2b740ed67bf6e2fbc6f47ca7b343f",
+  "fetchedAt": "2026-11-18T10:36:30.010Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

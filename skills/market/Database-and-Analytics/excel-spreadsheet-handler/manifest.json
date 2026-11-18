@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ijkB7cU3",
+  "name": "excel-spreadsheet-handler",
+  "displayName": "Excel 电子表格处理器",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "tjade273",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/excel-spreadsheet-handler/latest/excel-spreadsheet-handler.zip",
+  "zipSha256": "fe96453c0778aa81e4db61a9db81d60526bc50416e13ba4cbb5c4304bed34a17",
+  "zipBytes": 4752,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c31e02935b8d184012c3ee1519c447884e9c1db2bbfbb949b8179c708abdac15",
+  "fetchedAt": "2026-11-18T10:36:11.817Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

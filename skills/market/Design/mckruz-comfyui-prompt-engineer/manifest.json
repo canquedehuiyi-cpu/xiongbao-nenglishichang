@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MyQpfVvd",
+  "name": "mckruz-comfyui-prompt-engineer",
+  "displayName": "视频提示词设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "MCKRUZ",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mckruz-comfyui-prompt-engineer/latest/mckruz-comfyui-prompt-engineer.zip",
+  "zipSha256": "d05bdb29042be9dff0b0d288ef5088fe69133d38316df1ee422e21ea7902b05f",
+  "zipBytes": 2792,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8d2249a5dc48914134d6ae7bc6379e06cc0fd8ea4f79968b0db23077a4fc48de",
+  "fetchedAt": "2026-11-18T10:37:06.388Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

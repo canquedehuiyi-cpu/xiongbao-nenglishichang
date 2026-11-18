@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "0d0ec374-0f02-49de-87ab-ea876914b862",
+  "name": "lean-six-sigma",
+  "displayName": "精益六西格玛大师",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514b-d9f3-7803-9b0e-69bda8e4d6f0/899ac9aa_lean-six-sigma-v1.1.0.zip",
+  "zipSha256": "64cc1101d10737ad69bff40d0e2aa48a1079b13d1420ef34c5d73bd3c07b0d88",
+  "zipBytes": 22656,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "7a6783b245d73689225a82fcad0486adea623c082efaa6d1ad7059a2c1357cea",
+  "fetchedAt": "2026-11-18T10:40:12.825Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

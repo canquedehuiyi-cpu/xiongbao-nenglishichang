@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "a3ea4af5-135b-4b18-96bb-455db309e200",
+  "name": "dlazy-imageseg",
+  "displayName": "图像抠图工具",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.3.5",
+  "publisher": "019f7d61-89fb-796c-8b83-ee681305e859",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f8394-0141-768a-85c3-3817c7cadcfd/b4f7c8e8_dlazy-imageseg-fixed.zip",
+  "zipSha256": "f74020cb01c1513b9f074d8aa951769a14d91b48d809f4df55dd797c9ee90e29",
+  "zipBytes": 6304,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "62a71e3631fc097a9e7accdbd6d8cef92531c03e1006335bc8366c2b0ab71652",
+  "fetchedAt": "2026-11-18T10:37:01.322Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

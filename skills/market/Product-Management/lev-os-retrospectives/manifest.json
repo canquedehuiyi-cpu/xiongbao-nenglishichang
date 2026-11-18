@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_h4PxhR7j",
+  "name": "lev-os-retrospectives",
+  "displayName": "团队复盘",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lev-os",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/lev-os-retrospectives/latest/lev-os-retrospectives.zip",
+  "zipSha256": "6cfa2ba15eddef5ef97d7f8159ef87845826db0f4ff90ee1402f312514c49bc8",
+  "zipBytes": 5201,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "edb716749ffcf97f0a22ea4f18aa7b13fa49e6b2cf958646487a27a564e6950f",
+  "fetchedAt": "2026-11-18T10:40:15.275Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

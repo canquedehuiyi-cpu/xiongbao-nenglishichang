@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_28Wt9DYO",
+  "name": "smar",
+  "displayName": "智能 OCR 文本提取",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "duykhangdangzn1",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/smar/latest/smar.zip",
+  "zipSha256": "18b08df06c41e9805654c0c13e036ad7a4e045b894344620ca35d022df478f42",
+  "zipBytes": 4597,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "061fe75a3cbb09acd12d12426e79336780abee4aa8e75ab54c9ef4125ad60cdf",
+  "fetchedAt": "2026-11-18T10:37:06.251Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

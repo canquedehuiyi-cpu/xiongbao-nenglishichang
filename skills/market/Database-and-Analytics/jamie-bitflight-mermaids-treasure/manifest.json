@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WQucWZV7",
+  "name": "jamie-bitflight-mermaids-treasure",
+  "displayName": "Mermaids设计",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jamie-bitflight",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jamie-bitflight-mermaids-treasure/latest/jamie-bitflight-mermaids-treasure.zip",
+  "zipSha256": "529b92e79399e31b72882cd06ec85a3c25c0deaf800fc4c483970bff8dff3f87",
+  "zipBytes": 41481,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "599a78bfa9926535c1f650fc9e4d0ebcdd8743bdacb847613bd3ae1903e93eb3",
+  "fetchedAt": "2026-11-18T10:36:27.498Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

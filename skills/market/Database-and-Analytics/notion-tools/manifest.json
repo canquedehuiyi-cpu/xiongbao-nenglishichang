@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_aogyr0xh",
+  "name": "notion-tools",
+  "displayName": "Notion 工具",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/notion-tools/latest/notion-tools.zip",
+  "zipSha256": "9d28b3ed096c873f6c0233de3c02f0c66b10ae3f58ae57902cac4f8dedab74d8",
+  "zipBytes": 6720,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "00ac71608dd9949189a14ae80c316eedb1569124c556534cd2a7ffddf74b947f",
+  "fetchedAt": "2026-11-18T10:36:13.928Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

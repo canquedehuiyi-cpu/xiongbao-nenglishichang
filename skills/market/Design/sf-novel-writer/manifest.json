@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_K94vVALv",
+  "name": "sf-novel-writer",
+  "displayName": "科幻小说创作助手",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/sf-novel-writer/latest/sf-novel-writer.zip",
+  "zipSha256": "63d542623a100df348f0fe86329d2fc8b4e57d368d0c1c801f8be8c24aadc0f4",
+  "zipBytes": 15431,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "f55a2496a6b7006459c57fceceb449d45560a8b97c58666e5f57b8e1496c159c",
+  "fetchedAt": "2026-11-18T10:37:07.850Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

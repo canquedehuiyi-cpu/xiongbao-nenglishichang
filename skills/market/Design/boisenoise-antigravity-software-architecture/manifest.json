@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_xjTfS6de",
+  "name": "boisenoise-antigravity-software-architecture",
+  "displayName": "架构开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-software-architecture/latest/boisenoise-antigravity-software-architecture.zip",
+  "zipSha256": "a160b63dbd003487dd925d18335ec7db30445925fd6a4b3fe015c102d8765ef7",
+  "zipBytes": 2056,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "9fc7ac16ec88b70d8c40ddab8a2e439386e3c59b77078e2685e4a334308d015a",
+  "fetchedAt": "2026-11-18T10:36:35.624Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

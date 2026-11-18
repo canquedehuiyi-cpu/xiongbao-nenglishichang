@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BhY3Udxr",
+  "name": "api-design-doc",
+  "displayName": "API接口设计文档生成工具",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "cnsunxuefeng",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/api-design-doc/latest/api-design-doc.zip",
+  "zipSha256": "458632c16d8159665a09ff852a23194464042203b18343f935d7563a36f7d903",
+  "zipBytes": 7786,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "f959edfb69d2944e035d092752a7963340e54b224f05510d0d6ca19c3a61ed12",
+  "fetchedAt": "2026-11-18T10:40:07.217Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

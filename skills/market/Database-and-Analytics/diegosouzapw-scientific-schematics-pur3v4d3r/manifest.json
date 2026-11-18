@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rObbVZZ4",
+  "name": "diegosouzapw-scientific-schematics-pur3v4d3r",
+  "displayName": "文档科研图表",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-scientific-schematics-pur3v4d3r/latest/diegosouzapw-scientific-schematics-pur3v4d3r.zip",
+  "zipSha256": "714c5843f54e30e937c8ede60606afb9b53ae3de60d95e8b50b77e8b50764fb4",
+  "zipBytes": 9384,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3952cec2b7e6ea32d6f92a1321864f0c2ed6d4b7d91280599f3e8bf02915d205",
+  "fetchedAt": "2026-11-18T10:35:43.944Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "d6a163c0-1599-450d-8338-0adf5697262e",
+  "name": "management-system-integration",
+  "displayName": "管理体系整合技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f5146-5a32-7843-a208-31800d64f00d/63c39a93_qoder_test.zip",
+  "zipSha256": "1eaea3ed77d81ad6c2709a3b07e1bd8fe4a97fc4377a4fdedab875361fa3d8e9",
+  "zipBytes": 3590,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "a9832f63c0f41486ab5f3f0ad0671e7e5b91f06580ac44de78f1da99e8331407",
+  "fetchedAt": "2026-11-18T10:40:40.774Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

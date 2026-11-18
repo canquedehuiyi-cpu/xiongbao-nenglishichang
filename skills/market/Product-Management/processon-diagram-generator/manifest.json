@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cN9EIAkC",
+  "name": "processon-diagram-generator",
+  "displayName": "ProcessOn 图表生成器",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/processon-diagram-generator/latest/processon-diagram-generator.zip",
+  "zipSha256": "6aaa0560689592772977349a928aba5cea576bff6212795b8e31502c8bf47c57",
+  "zipBytes": 13891,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "994080db76c94bc73964ccc1a6bf371da1dabb991ceac6e71ab9a5758f2918a0",
+  "fetchedAt": "2026-11-18T10:40:01.261Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

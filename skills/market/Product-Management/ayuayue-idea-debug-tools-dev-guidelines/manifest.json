@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UMjUovog",
+  "name": "ayuayue-idea-debug-tools-dev-guidelines",
+  "displayName": "IDEA助手",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ayuayue",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ayuayue-idea-debug-tools-dev-guidelines/latest/ayuayue-idea-debug-tools-dev-guidelines.zip",
+  "zipSha256": "d4d8aa2ec17770f73916d72e1e11393dd1656afee707fe7c258219042157f302",
+  "zipBytes": 4844,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ba2edbbe46e823d4e7e2064b6ed6fd520da32fe9cdb5d3724181ed749fb0c5a6",
+  "fetchedAt": "2026-11-18T10:40:01.077Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

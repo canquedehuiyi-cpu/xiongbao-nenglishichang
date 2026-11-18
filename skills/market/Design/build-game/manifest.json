@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LaiVUmnK",
+  "name": "build-game",
+  "displayName": "3D 游戏构建器",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/build-game/latest/build-game.zip",
+  "zipSha256": "c4ba8724da1dc7c4dd460dcd6fe81dd7cf4a56d2b0723bdae626a7add7e7e672",
+  "zipBytes": 58421,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "aeedd37c8617ffb1e23e0ffd4d3cedf4601f746eafc1ed831f6b8594e7585cb3",
+  "fetchedAt": "2026-11-18T10:36:39.291Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

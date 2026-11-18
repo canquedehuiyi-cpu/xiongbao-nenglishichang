@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XuE4FBrO",
+  "name": "melodylab-ai-song",
+  "displayName": "AI 全自动音乐创作神器",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dongjiangliu9-tech",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/melodylab-ai-song/latest/melodylab-ai-song.zip",
+  "zipSha256": "b6133434368505b3af768a8dd38d35874b0315badd27e1959de43ba2aac9c7d7",
+  "zipBytes": 9428,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "d4553af5903df5b802097a3f8d86ee0e69f3890097f7aa6818948a540ad75f5f",
+  "fetchedAt": "2026-11-18T10:36:17.964Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

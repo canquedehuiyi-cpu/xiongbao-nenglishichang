@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_v2BPC2Hq",
+  "name": "pdf-poppler-utils",
+  "displayName": "PDF 操作工具集",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "xlionjuan",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pdf-poppler-utils/latest/pdf-poppler-utils.zip",
+  "zipSha256": "dd7e976cb2b15a5d94f6ac4a83c6bf62b125f337379b7f4c355ffe42f913da15",
+  "zipBytes": 15560,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "e79ad9949206c473df82f23ca47c6ad6237a7481a4ee79b7c66e570f681ae7d2",
+  "fetchedAt": "2026-11-18T10:36:49.755Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

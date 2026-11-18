@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_TdCkZ5yu",
+  "name": "frontend-premium",
+  "displayName": "前端高级界面",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/frontend-premium/latest/frontend-premium.zip",
+  "zipSha256": "59b82fe29beb20f88ffb99c7c30069ad63156cadbb3694d236807dd760965307",
+  "zipBytes": 5611,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "c8afa7a131693e712cc1f6bf1e908d3c32d67c26723f4334ca31ebac987684f9",
+  "fetchedAt": "2026-11-18T10:37:00.000Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fp0VMzUh",
+  "name": "majiayu000-composition-ai-research",
+  "displayName": "产品设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-composition-ai-research/latest/majiayu000-composition-ai-research.zip",
+  "zipSha256": "ef6c65266ecc5b07d6cf836a6be5972677a7ee1a9ac468437808a00180ce631c",
+  "zipBytes": 2416,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "4f633b399542582c16c8ac7606e013b5150c63100a10f3d60293689276cebcd8",
+  "fetchedAt": "2026-11-18T10:39:58.470Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_jp5KJlh2",
+  "name": "tencent-docs",
+  "displayName": "腾讯文档操作指南",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "liyang58",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/tencent-docs/latest/tencent-docs.zip",
+  "zipSha256": "f9bb0667e75ca33be0497569fb670aa35158bf7650c61b4fc95cd968b53a3d6b",
+  "zipBytes": 76973,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 29,
+  "treeSha256": "44cc7f81db1c17595ed4df45f771203a68620a805b1320f1080c4c5a0fb0c05f",
+  "fetchedAt": "2026-11-18T10:35:49.622Z",
+  "credentialScan": {
+    "textFilesScanned": 29,
+    "filesRedacted": 0
+  },
+  "note": null
+}

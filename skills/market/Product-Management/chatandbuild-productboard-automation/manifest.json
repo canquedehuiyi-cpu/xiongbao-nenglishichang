@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6zwOlrVd",
+  "name": "chatandbuild-productboard-automation",
+  "displayName": "产品设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ChatAndBuild",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/chatandbuild-productboard-automation/latest/chatandbuild-productboard-automation.zip",
+  "zipSha256": "6a954df06f5febc497ee5770808f1dde9ec92b1fa9b156963f3ea9be0172de8c",
+  "zipBytes": 1130,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8be6e2bd7decad1ae887f196ef2be7d0c7b0de17ce3d41d166d72c10be493983",
+  "fetchedAt": "2026-11-18T10:40:20.918Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

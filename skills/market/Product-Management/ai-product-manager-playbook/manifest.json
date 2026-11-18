@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SBs7Nuej",
+  "name": "ai-product-manager-playbook",
+  "displayName": "AI 产品经理实战手册",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ai-product-manager-playbook/latest/ai-product-manager-playbook.zip",
+  "zipSha256": "6c98e12d521900a6f870de0cde0508a716f0e43d766ddc3766bec27180c9338f",
+  "zipBytes": 17034,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "addf26244508be6e590fcae550ab0490a36941d03d631b61de955d1163cc40de",
+  "fetchedAt": "2026-11-18T10:40:08.254Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

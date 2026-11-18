@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4E6nEjRL",
+  "name": "charon-fan-architecting-solutions",
+  "displayName": "方案架构",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "zhaono1",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/charon-fan-architecting-solutions/latest/charon-fan-architecting-solutions.zip",
+  "zipSha256": "0303182d7ccc9341030e83e6c12e9f82a0d6f56b13247ff692f383f34826f9b4",
+  "zipBytes": 7474,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "dee4aed7c9050359540bc0a8414c01808c2d95dd31efb648ef81895d6317f442",
+  "fetchedAt": "2026-11-18T10:40:16.470Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

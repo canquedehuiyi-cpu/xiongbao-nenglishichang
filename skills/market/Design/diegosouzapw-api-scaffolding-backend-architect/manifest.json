@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LpwlI5Bd",
+  "name": "diegosouzapw-api-scaffolding-backend-architect",
+  "displayName": "后端开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-api-scaffolding-backend-architect/latest/diegosouzapw-api-scaffolding-backend-architect.zip",
+  "zipSha256": "dfd4b1b2a43cb04831683a426ad691e3c1a3a8393d3f6e346d56bce3b4f7ddb2",
+  "zipBytes": 8118,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "56345d0be1d5a7fd5d6e18e426a7e0381a18c287a898d8aaeb02382f8bcf7274",
+  "fetchedAt": "2026-11-18T10:36:31.916Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

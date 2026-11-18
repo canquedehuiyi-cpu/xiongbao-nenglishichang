@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GHreLPjp",
+  "name": "medical-research-assistant",
+  "displayName": "医学研究助理",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "wsxwj123",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/medical-research-assistant/latest/medical-research-assistant.zip",
+  "zipSha256": "830ce3b0410e36fa53c2cba8b6a4d9c4e1b9867bfac08f4c5ed77d8104c3db99",
+  "zipBytes": 4670,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "07662dd2ea48d8b9647ae1435dd178305af7e20588c7fac52db70bd875f2fd91",
+  "fetchedAt": "2026-11-18T10:36:27.073Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

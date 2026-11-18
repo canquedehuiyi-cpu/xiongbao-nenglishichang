@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cXYRw9kA",
+  "name": "diegosouzapw-mcp-mcp-apps-kit",
+  "displayName": "MCP工具包",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-mcp-mcp-apps-kit/latest/diegosouzapw-mcp-mcp-apps-kit.zip",
+  "zipSha256": "a5c419fb64248bb0caee0ab2b23e463e254641c135c08a130d18f86ac89dc1be",
+  "zipBytes": 7886,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "613589694aa8a8d75e9d4488364b9ff83fedbd668aeb60d03051c2ad1adbe496",
+  "fetchedAt": "2026-11-18T10:36:34.867Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

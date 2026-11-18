@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UwMGqH2i",
+  "name": "majiayu000-automation-build-flow",
+  "displayName": "自动化FLOW",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-automation-build-flow/latest/majiayu000-automation-build-flow.zip",
+  "zipSha256": "e6f62b2b5ed64997eac216cb612b2a594fd75213c18316fdc66daec8b96ca99a",
+  "zipBytes": 7167,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3179365b30404282ebd453c607bd316a7e2cc0ac241301581d2110674dbfefd9",
+  "fetchedAt": "2026-11-18T10:40:39.846Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

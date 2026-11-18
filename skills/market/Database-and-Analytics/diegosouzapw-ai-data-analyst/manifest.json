@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3nU4BfUm",
+  "name": "diegosouzapw-ai-data-analyst",
+  "displayName": "数据分析师",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-ai-data-analyst/latest/diegosouzapw-ai-data-analyst.zip",
+  "zipSha256": "516738b9e9981ac221878403fb6970aa446f9bf829751be6fc241a3f8ce0cf0f",
+  "zipBytes": 6798,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "745977d490287f0f0e0bc6acff4c0a72000960d48b6a500d6d150a8e01561173",
+  "fetchedAt": "2026-11-18T10:35:46.105Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

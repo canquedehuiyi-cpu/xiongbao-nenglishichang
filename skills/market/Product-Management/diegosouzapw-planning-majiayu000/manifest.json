@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JFQRKRk3",
+  "name": "diegosouzapw-planning-majiayu000",
+  "displayName": "任务规划助手",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-planning-majiayu000/latest/diegosouzapw-planning-majiayu000.zip",
+  "zipSha256": "9e37f68f766c4fd2e512d49931b6c32b9955e5a4ccea71ce0aac32d8285f6016",
+  "zipBytes": 3291,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e2183bb19a5f890dda3b38fb51cf0a188ac6e5372d2c2ced2fa7deaf43bb2f43",
+  "fetchedAt": "2026-11-18T10:40:02.133Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

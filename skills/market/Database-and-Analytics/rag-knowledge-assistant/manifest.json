@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3NVv9K1J",
+  "name": "rag-knowledge-assistant",
+  "displayName": "RAG 知识库检索助手",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/rag-knowledge-assistant/latest/rag-knowledge-assistant.zip",
+  "zipSha256": "a2b8a22912ba671c09e96a2f7eb8c7ebd6e51996757cfa67ca6a275390b6c38f",
+  "zipBytes": 30663,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 14,
+  "treeSha256": "32748a2b9eb130533580d9f7ac1cca637877413084d0f6a160158d40f0318850",
+  "fetchedAt": "2026-11-18T10:35:52.678Z",
+  "credentialScan": {
+    "textFilesScanned": 14,
+    "filesRedacted": 0
+  },
+  "note": null
+}

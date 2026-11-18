@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7RIh8wfT",
+  "name": "majiayu000-godot-visual-bug-diagnosis",
+  "displayName": "Godot测试",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-godot-visual-bug-diagnosis/latest/majiayu000-godot-visual-bug-diagnosis.zip",
+  "zipSha256": "09592691966a81c95f845aa4adf30b9c4592f1e0259c71401a4722a6e63dc056",
+  "zipBytes": 5192,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3fb43dec125b73c3a5cbe7b0e71bc962393c62b23bb8bcfeae8e4ccefb18d240",
+  "fetchedAt": "2026-11-18T10:36:51.417Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

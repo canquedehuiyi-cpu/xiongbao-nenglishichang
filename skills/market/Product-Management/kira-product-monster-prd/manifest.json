@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_yvTBrjpF",
+  "name": "kira-product-monster-prd",
+  "displayName": "二红产品怪兽需求文档",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kira-product-monster-prd/latest/kira-product-monster-prd.zip",
+  "zipSha256": "bd6fd2ad83ee1e567a6c6ec7f2a49b81effe8df4b336ae7dc5911decabd634ce",
+  "zipBytes": 8147,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "ce76f34b026585d06da02cce2a12ba29237b36b334a3e52647db1a1bda657694",
+  "fetchedAt": "2026-11-18T10:40:17.895Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

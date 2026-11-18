@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Y2WCNVxL",
+  "name": "forestbook-linpingzhi",
+  "displayName": "代码生成",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ForestBook",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/forestbook-linpingzhi/latest/forestbook-linpingzhi.zip",
+  "zipSha256": "27462575607f12f012342f1f2a285198f2d10219b73065600025c8add9beb319",
+  "zipBytes": 13577,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "7eab38d9bab545da005ba9f5ecd9cd708d1fa0626674c61b8b555f6fe2b2e538",
+  "fetchedAt": "2026-11-18T10:36:35.377Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

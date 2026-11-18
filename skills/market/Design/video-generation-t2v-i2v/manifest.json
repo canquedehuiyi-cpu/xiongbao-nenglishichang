@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qvRU5yuv",
+  "name": "video-generation-t2v-i2v",
+  "displayName": "视频生成",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/video-generation-t2v-i2v/latest/video-generation-t2v-i2v.zip",
+  "zipSha256": "69607310cb1e44b06ba1afbe44a1d0e13a7144a668b2027b0876a83ff881b304",
+  "zipBytes": 8372,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "c894fe5b2cd67d48a5b66f4d304ea14d5e32f763b88b1d83c21018d188500d3d",
+  "fetchedAt": "2026-11-18T10:36:38.362Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cg0tykqO",
+  "name": "majiayu000-requesting-code-review-laurenj3250-debug-vethub2-0",
+  "displayName": "代理调试",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-requesting-code-review-laurenj3250-debug-vethub2-0/latest/majiayu000-requesting-code-review-laurenj3250-debug-vethub2-0.zip",
+  "zipSha256": "84360e950bd45fb1d4f7cf23d53aa4df5edead9e39bfd35a5919cfce7a99f4a3",
+  "zipBytes": 1980,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0d8675a227e5edd6e3dd512c341acef8ff8c8ebd5e300314118f23d5e18c21a7",
+  "fetchedAt": "2026-11-18T10:40:04.265Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

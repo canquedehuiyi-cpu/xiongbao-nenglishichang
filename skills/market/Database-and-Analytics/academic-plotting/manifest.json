@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0RyI4bDf",
+  "name": "academic-plotting",
+  "displayName": "学术绘图",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Orchestra-Research",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/academic-plotting/latest/academic-plotting.zip",
+  "zipSha256": "1e4efe6f826ef15adb8cf0b05f588ac80b7b9403ea68636cedfda8c6d7a7b860",
+  "zipBytes": 9416,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "b1c4cf1f40340f62826d418b87857d98f1827bee24f0dd320227b5ec857b3e77",
+  "fetchedAt": "2026-11-18T10:36:16.257Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_C11abN5j",
+  "name": "aj-geddes-analyst",
+  "displayName": "产品分析师",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aj-geddes",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aj-geddes-analyst/latest/aj-geddes-analyst.zip",
+  "zipSha256": "611919b227c22a918ccf17994b50c28e89a92c3e551f60adfe0ff01d8dc84952",
+  "zipBytes": 2260,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7ada6748141b89d57dd367a50469492a6642066ef90214bbae0f515c62185494",
+  "fetchedAt": "2026-11-18T10:40:26.174Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

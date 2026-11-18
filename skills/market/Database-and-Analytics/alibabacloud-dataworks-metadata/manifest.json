@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_eEe1Y9el",
+  "name": "alibabacloud-dataworks-metadata",
+  "displayName": "DataWorks元数据管理",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-dataworks-metadata/latest/alibabacloud-dataworks-metadata.zip",
+  "zipSha256": "eb179bfa34ab43e2d3db893ac26154146fda33023aa3455e11f92607f10f19e5",
+  "zipBytes": 12328,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "5fd312dfb089acc53dda6c2c95ed564f038e50499da48b1f5b9d103560ba589d",
+  "fetchedAt": "2026-11-18T10:36:19.641Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

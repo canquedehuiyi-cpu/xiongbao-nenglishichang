@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_s1nmbmwE",
+  "name": "majiayu000-requirements-quality",
+  "displayName": "需求质量",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-requirements-quality/latest/majiayu000-requirements-quality.zip",
+  "zipSha256": "65a24067c6e0ab14ad08acfee32e9c6b64d7202ccd90cf6e7b91e28b424b5be7",
+  "zipBytes": 3517,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "084b524af335cc263cdc25cb3b129a5760bcd0252bc47b2f89b01f5cd0948b25",
+  "fetchedAt": "2026-11-18T10:40:19.676Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

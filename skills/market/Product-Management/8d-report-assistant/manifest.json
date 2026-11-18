@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "f2156150-2ffa-4cef-8d4d-76d930a70aa6",
+  "name": "8d-report-assistant",
+  "displayName": "8D报告技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514b-10fe-750b-aa59-5c70c5e3d7df/146a842d_8d-report-assistant-v1.1.0.zip",
+  "zipSha256": "f310742f4d9ce050d957a08c8294ba122b10b0e7dc6fa70e9029e774dcb7d148",
+  "zipBytes": 19123,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "29162e2be581bdb70acaebb70fa7e759d62648de151f7d65e4727655632c3860",
+  "fetchedAt": "2026-11-18T10:40:30.074Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

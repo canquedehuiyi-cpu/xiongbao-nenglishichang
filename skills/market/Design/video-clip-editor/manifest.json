@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ohcF8szX",
+  "name": "video-clip-editor",
+  "displayName": "视频剪辑助手",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/video-clip-editor/latest/video-clip-editor.zip",
+  "zipSha256": "a079ac64580978d980f69fe294c409e33fcf157faa60506991f471ccb618089f",
+  "zipBytes": 55746,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 14,
+  "treeSha256": "5da23c93b8e765139815d57ea4e770e55c8dca182f9746fddfc680d35dfb1998",
+  "fetchedAt": "2026-11-18T10:36:37.497Z",
+  "credentialScan": {
+    "textFilesScanned": 14,
+    "filesRedacted": 0
+  },
+  "note": null
+}

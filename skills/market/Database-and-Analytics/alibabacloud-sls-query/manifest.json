@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4EV7hIee",
+  "name": "alibabacloud-sls-query",
+  "displayName": "SLS查询分析语法",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-sls-query/latest/alibabacloud-sls-query.zip",
+  "zipSha256": "f81d35c6b38a4e4b5f54a2a072c61749f89348d25f627165b6635bab4e887cc2",
+  "zipBytes": 86917,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 60,
+  "treeSha256": "4d5b628fb132cbf0d8a7b84480ef52a473e6e2819389aee4fe7c92abf879de76",
+  "fetchedAt": "2026-11-18T10:36:07.581Z",
+  "credentialScan": {
+    "textFilesScanned": 60,
+    "filesRedacted": 1
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_nYvZ3wlc",
+  "name": "enriquecatala-drawio-generator",
+  "displayName": "代理Drawio",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "enriquecatala",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/enriquecatala-drawio-generator/latest/enriquecatala-drawio-generator.zip",
+  "zipSha256": "7e1ebc5ab3c09f53cab89d6a1373a1a609b023cfe6e2fd67fd2bf2b5eeecbe35",
+  "zipBytes": 127638,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 54,
+  "treeSha256": "1ec7d5f58b53b179ab09e2327f8a3c30510df0d20a66f2df563e3c1e2910af85",
+  "fetchedAt": "2026-11-18T10:36:20.339Z",
+  "credentialScan": {
+    "textFilesScanned": 53,
+    "filesRedacted": 0
+  },
+  "note": null
+}

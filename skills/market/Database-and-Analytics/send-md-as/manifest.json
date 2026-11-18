@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2ECCxCCI",
+  "name": "send-md-as",
+  "displayName": "Markdown 转精美图片",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/send-md-as/latest/send-md-as.zip",
+  "zipSha256": "1eb764ab9f2dbe24016b4f3415e33ce260799cccb96b0e78b7cbd75931e2fc86",
+  "zipBytes": 12022,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "c2b1b04d242353eda264a8e5b5f1a1c602b12654e8a934d798221f211226a8cd",
+  "fetchedAt": "2026-11-18T10:36:15.541Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

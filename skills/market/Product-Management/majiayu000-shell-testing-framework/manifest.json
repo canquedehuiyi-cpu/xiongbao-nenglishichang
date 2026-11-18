@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_M5CsNhoz",
+  "name": "majiayu000-shell-testing-framework",
+  "displayName": "Shell框架",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-shell-testing-framework/latest/majiayu000-shell-testing-framework.zip",
+  "zipSha256": "611046902d39d13b079f800834ef07652944ea0dafde2be8d73ea06ae330d8eb",
+  "zipBytes": 7805,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3f84c30384317c5c7b3e3f09f8a16ec7ab9c578eb4ed887339fe501dce2fa574",
+  "fetchedAt": "2026-11-18T10:40:26.773Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XIzjrMFY",
+  "name": "dmartinol-detect-project",
+  "displayName": "Python项目检测",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "RHEcosystemAppEng",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dmartinol-detect-project/latest/dmartinol-detect-project.zip",
+  "zipSha256": "ac8b84a2b83e7d2ec997cb8e122fe8b0ce8d767dea8620d04a9a1065984db765",
+  "zipBytes": 4156,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "42f2e1eef2d4bdfe2aaed7c09167961110a9d576d0331652762635a8cef80225",
+  "fetchedAt": "2026-11-18T10:39:59.413Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fvW9hILt",
+  "name": "gptomics-prediction-explanation",
+  "displayName": "机器学习",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "gptomics",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/gptomics-prediction-explanation/latest/gptomics-prediction-explanation.zip",
+  "zipSha256": "32f9dd6a5da7af8192f57292c420245b2e5bfe698c110206196c48f79ffe18db",
+  "zipBytes": 5446,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "285adea96c07584cebdcb78b0ae68e81226e52b09f25de79526ebeb17db5d3e9",
+  "fetchedAt": "2026-11-18T10:36:14.967Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2R7ug0rs",
+  "name": "team-collab-repo",
+  "displayName": "多模型团队协作系统",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/team-collab-repo/latest/team-collab-repo.zip",
+  "zipSha256": "3c9b61916ff1c20db0ea40018bc6beffa0aedaf9aacfe41d1315bfb166fdc947",
+  "zipBytes": 23961,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "8fc554788b6e6722f9d79aa3aa65b3d8c5afe43d2ddd7153a2e09a82cd6c4507",
+  "fetchedAt": "2026-11-18T10:40:41.349Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

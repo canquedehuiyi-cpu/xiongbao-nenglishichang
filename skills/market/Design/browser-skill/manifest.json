@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WakIqGPv",
+  "name": "browser-skill",
+  "displayName": "浏览器技能",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/browser-skill/latest/browser-skill.zip",
+  "zipSha256": "d356491d6dd32e5e66a98aa706fbb5cb9994bf791a806a841c1ed7038efdbbc8",
+  "zipBytes": 1184,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6d9206f313b2accfbc52755448896b5349f6ec27e032e6b3ccdfccb3d3482151",
+  "fetchedAt": "2026-11-18T10:37:09.092Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

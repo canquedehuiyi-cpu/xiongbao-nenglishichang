@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dlh3PptY",
+  "name": "majiayu000-feature-spec-author",
+  "displayName": "规格功能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-feature-spec-author/latest/majiayu000-feature-spec-author.zip",
+  "zipSha256": "9283ed7a32f034d15fd0f90c260000d374f044906ccb4e24e98c9d4f12521313",
+  "zipBytes": 2387,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "cf000adab733a2d964636b4787003e21c28913335693a6e9d83662dc482ae15e",
+  "fetchedAt": "2026-11-18T10:40:32.674Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

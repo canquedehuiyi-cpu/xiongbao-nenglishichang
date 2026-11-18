@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XqQ9e0Rj",
+  "name": "majiayu000-patent-claims-analyzer",
+  "displayName": "Patent分析",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-patent-claims-analyzer/latest/majiayu000-patent-claims-analyzer.zip",
+  "zipSha256": "3bd46ca4a45fd577bacfb56056ddb69178c026f654ebd82c60bb5b21454eb98d",
+  "zipBytes": 2529,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "52bea9bdec0bb5093285f8ad597ec2f88043e076fea6223c442f95c60e549436",
+  "fetchedAt": "2026-11-18T10:40:12.046Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

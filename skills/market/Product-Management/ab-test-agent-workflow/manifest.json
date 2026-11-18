@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Sk6bMWI3",
+  "name": "ab-test-agent-workflow",
+  "displayName": "多智能体双盲 A/B 测试工作流",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ab-test-agent-workflow/latest/ab-test-agent-workflow.zip",
+  "zipSha256": "69432fce82d22fb8b4ee8e1bb9288ab15d45a47202ea67e5b96da3c981cbfe5f",
+  "zipBytes": 18830,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "09d8e89049a723093722261e92601e2dc2f7d9326ee8f0dc21de85de364642e2",
+  "fetchedAt": "2026-11-18T10:40:27.797Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

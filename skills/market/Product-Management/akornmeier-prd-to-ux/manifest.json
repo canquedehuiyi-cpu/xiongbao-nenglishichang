@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rsjcSUoV",
+  "name": "akornmeier-prd-to-ux",
+  "displayName": "UXPRD设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "akornmeier",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/akornmeier-prd-to-ux/latest/akornmeier-prd-to-ux.zip",
+  "zipSha256": "e66b4cc711b12fae8a126eb90f801833db5f12b6d8e4c1583ed52bf720fd7b15",
+  "zipBytes": 3587,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "e0edaddb052406ff587637cd665a5322f39bcadd97ccb6c1aad3c4a2520986ee",
+  "fetchedAt": "2026-11-18T10:40:00.337Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_F4KC7kx7",
+  "name": "cikichen-bazi-mingli",
+  "displayName": "八字命理占卜",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "cikichen",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cikichen-bazi-mingli/latest/cikichen-bazi-mingli.zip",
+  "zipSha256": "44d37c8d82b642fd4192c92cd5af22cf89ea531bac8764b01240ef960edc5a55",
+  "zipBytes": 45499,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "cbf3b6a49d70bab516ba30509e2ede1263762880a060231b07c887f94ba22d64",
+  "fetchedAt": "2026-11-18T10:35:40.852Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

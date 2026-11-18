@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "40c71357-ca3c-4112-92fd-639b43384f1c",
+  "name": "实验设计",
+  "displayName": "实验设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f1ba1-7866-799e-a029-d511201f94b9",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f3582-5ddf-7259-8bf0-86368c7226e7/acc0f39a_experiment-design.zip",
+  "zipSha256": "fd7384f334e8983e5c739224b3148fb83ddb3f5e6cd69b5dfb52fe1d913db1a1",
+  "zipBytes": 17744,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "f159a0d70300339ee9b82fd40461af905241406cb803a28459459b3093d58094",
+  "fetchedAt": "2026-11-18T10:40:09.195Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bJQhO1zy",
+  "name": "xhs-ops",
+  "displayName": "小红书运营",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/xhs-ops/latest/xhs-ops.zip",
+  "zipSha256": "f22718d0f146e33a39257f71b79237ded7c75de2074841b0ac397c6f6bec7e6e",
+  "zipBytes": 57642,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 27,
+  "treeSha256": "cd2a79c768724e25a217aafc2de0b275cf069bc81c0191ac217a20b13b025bdd",
+  "fetchedAt": "2026-11-18T10:35:45.947Z",
+  "credentialScan": {
+    "textFilesScanned": 27,
+    "filesRedacted": 0
+  },
+  "note": null
+}

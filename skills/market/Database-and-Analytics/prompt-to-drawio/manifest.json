@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_G3Q1fSf2",
+  "name": "prompt-to-drawio",
+  "displayName": "提示转绘图",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/prompt-to-drawio/latest/prompt-to-drawio.zip",
+  "zipSha256": "c0752dadc9c3d9463fcba47921bf05535cba249783eda339abbfcff8e2afb375",
+  "zipBytes": 24477,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "c1e15291e68a8465d6de1a389ddc4e987578682aee1a3dd69f92c8070276ab7b",
+  "fetchedAt": "2026-11-18T10:36:03.042Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_i0QQRHiw",
+  "name": "document-pro",
+  "displayName": "文档处理技能",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jackeven02",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/document-pro/latest/document-pro.zip",
+  "zipSha256": "0ae817a3079d52ad5737006f23a968f7011e136b7119ee6b07c278de4feb7265",
+  "zipBytes": 1717,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a4479e3c6c124436a779c9255c146664b943297190a52be946cc51ee0b1ffdf5",
+  "fetchedAt": "2026-11-18T10:36:21.646Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

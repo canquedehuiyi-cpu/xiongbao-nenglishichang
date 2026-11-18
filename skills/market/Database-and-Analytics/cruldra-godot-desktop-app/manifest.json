@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WLyy4dEv",
+  "name": "cruldra-godot-desktop-app",
+  "displayName": "Godot设计",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "cruldra",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cruldra-godot-desktop-app/latest/cruldra-godot-desktop-app.zip",
+  "zipSha256": "8224fb356b81fe3e2e58cd35ee29035452c51ac4f59d63dd6b1180e98c53ab79",
+  "zipBytes": 17985,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "ff53972e5f383284be3664deb5034781446d0c901408a08dfd5d56eb0c5ba6e5",
+  "fetchedAt": "2026-11-18T10:35:52.096Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_kE0GOR1t",
+  "name": "dmonteroh-office-files",
+  "displayName": "文件Office",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dmonteroh",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dmonteroh-office-files/latest/dmonteroh-office-files.zip",
+  "zipSha256": "ac59d2324e663d928d6c24e303ffe89506805ae0eb8e51199e4b2a37bcfe9759",
+  "zipBytes": 10641,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "4b81759cdb68e13a53b332377ef66de473e69c02d7e105e9c70316156c0a0ebc",
+  "fetchedAt": "2026-11-18T10:36:30.437Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

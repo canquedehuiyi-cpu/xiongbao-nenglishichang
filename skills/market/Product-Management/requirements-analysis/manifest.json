@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LvfvhmC4",
+  "name": "requirements-analysis",
+  "displayName": "需求分析专家",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "xuanguan2020",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/requirements-analysis/latest/requirements-analysis.zip",
+  "zipSha256": "bb96709f60a3aac8a939667eb6a435e6f6806571a77d87b580400cc383dafee6",
+  "zipBytes": 11537,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "8c652a515627accf8b32a9d5b89e416f4b34e37745a24a76da5a5e397cb27346",
+  "fetchedAt": "2026-11-18T10:39:56.578Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dCr5ph7R",
+  "name": "diegosouzapw-factory-ralph-loop",
+  "displayName": "LOOP开发",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-factory-ralph-loop/latest/diegosouzapw-factory-ralph-loop.zip",
+  "zipSha256": "6cff06dce9a4102e6f4f6f0aa1d69504a5b31139d7041f9061b4dcdf90a6d3fe",
+  "zipBytes": 5076,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a6b66797274ec629a7e817939e48563c0a29cb2b1f8d77aefbeed363a0523528",
+  "fetchedAt": "2026-11-18T10:40:21.800Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

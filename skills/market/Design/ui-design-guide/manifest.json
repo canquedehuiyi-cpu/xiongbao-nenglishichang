@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Qzozd0pp",
+  "name": "ui-design-guide",
+  "displayName": "UI 设计指南",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ui-design-guide/latest/ui-design-guide.zip",
+  "zipSha256": "e46091663322077d7e3f7a0f0e3e7b8c95ed62829670db7eaeae7fafb7f1b414",
+  "zipBytes": 7358,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "edacd47a3b8ec6ec9e92ffe842ab71e89386236042ae2bb6d99fb2f8a412799b",
+  "fetchedAt": "2026-11-18T10:36:50.711Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

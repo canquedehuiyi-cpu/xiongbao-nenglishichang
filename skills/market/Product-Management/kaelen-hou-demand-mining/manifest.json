@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2Pp7zhgW",
+  "name": "kaelen-hou-demand-mining",
+  "displayName": "竞品Demand",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kaelen2026",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kaelen-hou-demand-mining/latest/kaelen-hou-demand-mining.zip",
+  "zipSha256": "33778bc978da066e973acca9a85f8fd62d6d15a134f12ccdec0682ed88eb0281",
+  "zipBytes": 8968,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "e961c749f41a5d143c1ab260ca0141adedec70d59793f1faa282a7d0e3246b4b",
+  "fetchedAt": "2026-11-18T10:40:04.071Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

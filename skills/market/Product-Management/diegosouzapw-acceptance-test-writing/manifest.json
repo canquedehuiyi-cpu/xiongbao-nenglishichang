@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_U0yweFLw",
+  "name": "diegosouzapw-acceptance-test-writing",
+  "displayName": "验收写作",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-acceptance-test-writing/latest/diegosouzapw-acceptance-test-writing.zip",
+  "zipSha256": "eb9fcd7601466080af2bf6ed3ef3fa26d1fcaa834d24e1a03afb118f1a9c3d38",
+  "zipBytes": 5810,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e113b9ae7f53099dc8e8ad2b9efe249cfd4b57ca84517adedf4b20f9eb59464e",
+  "fetchedAt": "2026-11-18T10:40:27.612Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

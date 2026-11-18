@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_iRtAeezv",
+  "name": "ppt-master",
+  "displayName": "PPT 大师",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ppt-master/latest/ppt-master.zip",
+  "zipSha256": "4c67923617794552124327cf0fefba2a040109a81d4448a18209f79634023a3e",
+  "zipBytes": 10661,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "5c56bf597f1635da7313b692e8f5a9b42e8d94974fcc30fc5466995a91a6f687",
+  "fetchedAt": "2026-11-18T10:36:36.409Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

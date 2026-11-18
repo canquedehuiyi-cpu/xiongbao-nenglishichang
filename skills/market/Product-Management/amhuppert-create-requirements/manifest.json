@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_TIIpeTGr",
+  "name": "amhuppert-create-requirements",
+  "displayName": "产品文档",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "amhuppert",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amhuppert-create-requirements/latest/amhuppert-create-requirements.zip",
+  "zipSha256": "6c1fdb274bf4289c3240a8d68b3407b4ec5f4ad429a0bcb4f1323d08945836a9",
+  "zipBytes": 2617,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "9349bc893e05dc120b459807a69d73d6004ce4ed8785f7edc3e9d2d2905ec1e5",
+  "fetchedAt": "2026-11-18T10:40:22.797Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

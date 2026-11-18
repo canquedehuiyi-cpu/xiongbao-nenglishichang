@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6NSj9oGP",
+  "name": "lexiaoyao20-excalidraw-generator",
+  "displayName": "流程图表绘制",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lexiaoyao20",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/lexiaoyao20-excalidraw-generator/latest/lexiaoyao20-excalidraw-generator.zip",
+  "zipSha256": "0fff3d13cbb8d47381fdc40ab8f5429d868e8517cda6422349a04fce26465ab6",
+  "zipBytes": 11940,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "30cfdad21a6065ce71aba55fd868c8c0ae0978df981743b8a9877730e9d21c35",
+  "fetchedAt": "2026-11-18T10:35:45.629Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

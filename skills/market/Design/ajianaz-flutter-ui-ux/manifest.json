@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NDvIFXLo",
+  "name": "ajianaz-flutter-ui-ux",
+  "displayName": "Flutter开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ajianaz",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ajianaz-flutter-ui-ux/latest/ajianaz-flutter-ui-ux.zip",
+  "zipSha256": "8e818d74d8c89d35949b52a0ed20344707158eb120580f49f50c6efdc26d24ca",
+  "zipBytes": 22516,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "cdb2232c25e75adb7dad751eedb9f656ee6531ad0c77a8b9fa0bc937772c222f",
+  "fetchedAt": "2026-11-18T10:36:52.073Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

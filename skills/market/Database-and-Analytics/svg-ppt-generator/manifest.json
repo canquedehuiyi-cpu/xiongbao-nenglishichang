@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_79e7IlJQ",
+  "name": "svg-ppt-generator",
+  "displayName": "PPT 生成器",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/svg-ppt-generator/latest/svg-ppt-generator.zip",
+  "zipSha256": "95b9bdf0302f8f23109d4250edf9998a11cce366e39809ce6d5a3071edb8e4a1",
+  "zipBytes": 506743,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 195,
+  "treeSha256": "ff35558827af804b2e413be9ddb5e6fd9ad49132738f77a8c9643f20d96c1d84",
+  "fetchedAt": "2026-11-18T10:35:53.963Z",
+  "credentialScan": {
+    "textFilesScanned": 101,
+    "filesRedacted": 0
+  },
+  "note": null
+}

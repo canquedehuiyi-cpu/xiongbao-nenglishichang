@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RmcX3g9g",
+  "name": "translation-quality-mqm",
+  "displayName": "翻译质量 mqm",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "revfactory",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/translation-quality-mqm/latest/translation-quality-mqm.zip",
+  "zipSha256": "3e0303ee93b55414c8c7a1c442cc53826cf7b76dc7897e2001f7b8ec36715935",
+  "zipBytes": 1776,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "d19f17c1c18ff5f69911ec0647e93620483d37cc272ec5bd59f2bf7278c9dd2d",
+  "fetchedAt": "2026-11-18T10:36:26.268Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ddmIMk3Q",
+  "name": "ericmjl-html-presentations",
+  "displayName": "图表HTML设计",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ericmjl",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ericmjl-html-presentations/latest/ericmjl-html-presentations.zip",
+  "zipSha256": "38f4aa9d2ef67e5f849829e43824d751c299dd14175490a5599d39504dff69ae",
+  "zipBytes": 48865,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "a390be1243d6383d3cd3e0feb8258bd50c7da83a7952d1f084ba69f7990340cf",
+  "fetchedAt": "2026-11-18T10:36:01.670Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

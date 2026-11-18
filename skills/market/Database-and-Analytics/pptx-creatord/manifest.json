@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KEDZakiL",
+  "name": "pptx-creatord",
+  "displayName": "PPTX 演示文稿创建器",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "thiagoruss0",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pptx-creatord/latest/pptx-creatord.zip",
+  "zipSha256": "d6519a1fb3bf68ba72a1e9416ea0a68773d30caf3f9757943b591a9303182a72",
+  "zipBytes": 2497,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "66dd2365e4071a83d9c6d24853ce8113c180433e671f476f8c0cf63eca100213",
+  "fetchedAt": "2026-11-18T10:36:02.879Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

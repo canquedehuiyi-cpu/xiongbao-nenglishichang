@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1adiOsBl",
+  "name": "mattpocock-design-an-interface",
+  "displayName": "设计开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mattpocock",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mattpocock-design-an-interface/latest/mattpocock-design-an-interface.zip",
+  "zipSha256": "e5faf7543c619d245c176ad6c607c0a39b629078eca24f7912fab82476da11b4",
+  "zipBytes": 1689,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ecaee8fc92df042038e08324b4a8ab05728f4fff7efcb58fd018add02ad87ed7",
+  "fetchedAt": "2026-11-18T10:36:55.178Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

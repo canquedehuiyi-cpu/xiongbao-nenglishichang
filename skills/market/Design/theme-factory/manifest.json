@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official75573178",
+  "name": "theme-factory",
+  "displayName": "主题工厂",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Composio",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/theme-factory/latest/theme-factory.zip",
+  "zipSha256": "3328ad29c5618f34d40cb65f08f406b2febcbe69633179c90112b13e429c4386",
+  "zipBytes": 127150,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 14,
+  "treeSha256": "0539f4a0871f9664cb403c540de71a9213477abe9d0b410ffc5b634a9cac7bc4",
+  "fetchedAt": "2026-11-18T10:36:32.147Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FvyVa2Gp",
+  "name": "pm-agent",
+  "displayName": "资深产品经理代理",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "digidai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pm-agent/latest/pm-agent.zip",
+  "zipSha256": "715d045b4c0a53857e47b06139caf0a67299da1dcb77af86406e7d3c63bc1681",
+  "zipBytes": 51534,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 20,
+  "treeSha256": "4f2b11fc13b410df6328632545a8f5c6590633979e62e9a80866b313de9ceee8",
+  "fetchedAt": "2026-11-18T10:40:10.211Z",
+  "credentialScan": {
+    "textFilesScanned": 20,
+    "filesRedacted": 0
+  },
+  "note": null
+}

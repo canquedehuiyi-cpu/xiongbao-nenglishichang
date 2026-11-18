@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_yemTT3kx",
+  "name": "avabillions2040-threejs-webgl",
+  "displayName": "Threejs分析",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AvaBillions2040",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/avabillions2040-threejs-webgl/latest/avabillions2040-threejs-webgl.zip",
+  "zipSha256": "4992e30cc64d3aac02d5379130868958c78b2c3f9dea828ebeffab85110833f1",
+  "zipBytes": 23759,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "76743538d16c95857a71f5f2356f7534d991cc463cad54e1c2e6a326b97c57aa",
+  "fetchedAt": "2026-11-18T10:35:44.381Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

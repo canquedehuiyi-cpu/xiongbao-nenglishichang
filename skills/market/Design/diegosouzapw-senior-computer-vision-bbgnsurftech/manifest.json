@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YTmkGFND",
+  "name": "diegosouzapw-senior-computer-vision-bbgnsurftech",
+  "displayName": "PyTorch设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-senior-computer-vision-bbgnsurftech/latest/diegosouzapw-senior-computer-vision-bbgnsurftech.zip",
+  "zipSha256": "38ef22c2392489bd16fa4abe8d4f77dd5fe6c1783559ce4789f31a2a2243345c",
+  "zipBytes": 3618,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9330b84265edacce12ad713cd11f54e82be1600e7d5ef76b68fc0d159a8e95b0",
+  "fetchedAt": "2026-11-18T10:37:00.734Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

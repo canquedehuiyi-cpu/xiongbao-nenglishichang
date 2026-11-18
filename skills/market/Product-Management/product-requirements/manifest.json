@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_v350iJiQ",
+  "name": "product-requirements",
+  "displayName": "产品需求",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "TuYv",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/product-requirements/latest/product-requirements.zip",
+  "zipSha256": "dc7a49ab073f4020eda8745a03b9da706b14c9b1efe5ae6849edc453b2cdaf36",
+  "zipBytes": 4371,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "2edc8e1b0331f144664aa22a8e85c21cbc639559fc2481e7841ab5948b7bb5f0",
+  "fetchedAt": "2026-11-18T10:40:14.867Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

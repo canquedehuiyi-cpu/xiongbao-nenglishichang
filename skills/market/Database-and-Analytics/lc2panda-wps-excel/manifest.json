@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1JoH2NM2",
+  "name": "lc2panda-wps-excel",
+  "displayName": "WPS表格智能",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lc2panda",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/lc2panda-wps-excel/latest/lc2panda-wps-excel.zip",
+  "zipSha256": "127d1051c3fb2f5c4c42b4c1cea7cd774538ce073b5fb9afbd318135ec168a34",
+  "zipBytes": 5214,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "e536b5579137b8d95b052c5963342f0e3b7e768abb2408805cf4e8189b43ac96",
+  "fetchedAt": "2026-11-18T10:35:38.603Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

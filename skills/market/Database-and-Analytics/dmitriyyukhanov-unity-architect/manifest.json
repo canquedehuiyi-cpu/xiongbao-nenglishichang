@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vtH0T2Go",
+  "name": "dmitriyyukhanov-unity-architect",
+  "displayName": "Unity测试",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "DmitriyYukhanov",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dmitriyyukhanov-unity-architect/latest/dmitriyyukhanov-unity-architect.zip",
+  "zipSha256": "c55b2b3312f8fb2e0edeb0cbbd2c1d7fe0cbfc14b89607a681680526129aceac",
+  "zipBytes": 2069,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "074877261b8390764683034fe1caf2c057b9ca987118b59bc6d37e7404bd55ef",
+  "fetchedAt": "2026-11-18T10:36:04.272Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "eda4c04b-99c8-4e49-9bf2-0d10f0060efd",
+  "name": "stats-cli-py",
+  "displayName": "制造及工业界数据分析",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f8727-b51d-7bb1-a8cc-f52970ba95d8",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f872d-0cef-70fe-ae18-23c7f6c727ae/690a5b7d_stats-cli-py.zip",
+  "zipSha256": "1dadba7ba8fb48c07d081a7d5db0222e13dd0f0df3d5e77bebaaceebb0a385ae",
+  "zipBytes": 184882,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 72,
+  "treeSha256": "1e6e26d3564d7061ffec65b3d7ea88ba02bce8590c9a024a7c34fa96a818dae7",
+  "fetchedAt": "2026-11-18T10:36:13.336Z",
+  "credentialScan": {
+    "textFilesScanned": 71,
+    "filesRedacted": 0
+  },
+  "note": null
+}

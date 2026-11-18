@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_D3D15onL",
+  "name": "majiayu000-skill-anatomy",
+  "displayName": "Anatomy设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-skill-anatomy/latest/majiayu000-skill-anatomy.zip",
+  "zipSha256": "d52ed04a8d4fcf3811659349f28cf29ca33146351acbe17cf94798cb751d8bc3",
+  "zipBytes": 2693,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c55d8474c6ec25f17fe59e86f28d585924e9015c1c1cc4af321b073bf24bf9f9",
+  "fetchedAt": "2026-11-18T10:40:19.926Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_paPJ8KoQ",
+  "name": "ccheney-clean-ddd-hexagonal",
+  "displayName": "Python架构",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ccheney",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ccheney-clean-ddd-hexagonal/latest/ccheney-clean-ddd-hexagonal.zip",
+  "zipSha256": "3e13825bf1a119083b85e8f79a1b2d4c9a9635f6e292746e276e755a505ba01a",
+  "zipBytes": 37215,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "1ea9e30d5ce12bada9b9ee497e27b922fbc70de9054898e0f0494a3bc8f9667f",
+  "fetchedAt": "2026-11-18T10:36:43.347Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

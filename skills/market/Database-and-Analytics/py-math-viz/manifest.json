@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_j2d1AvZF",
+  "name": "py-math-viz",
+  "displayName": "Python 数学可视化",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/py-math-viz/latest/py-math-viz.zip",
+  "zipSha256": "d03a39a4dcead4b3bdf177749bf2e4190eef326972a52fdcd9a286a104ddc728",
+  "zipBytes": 12145,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "6b9ae38f0f7e24d7ed775a5bfe1482d4ba171cf44c88cadc2a39ad40ce7147f0",
+  "fetchedAt": "2026-11-18T10:35:50.834Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Q9F2FJ92",
+  "name": "ai-ppt-generate-skip2",
+  "displayName": "智能 PPT 生成",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ai-ppt-generate-skip2/latest/ai-ppt-generate-skip2.zip",
+  "zipSha256": "1b5ccd5e1a565b9a3f78c8975b02a5c9b8765a54465dfd0c0b4f786b9d524c9e",
+  "zipBytes": 6977,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "5227d0a775864aa508a4fdde258cc909987c7de71750b042c99dc7a9ef52953f",
+  "fetchedAt": "2026-11-18T10:37:08.054Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

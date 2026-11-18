@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mtUugK9R",
+  "name": "diegosouzapw-matlab-hough",
+  "displayName": "Matlab分析",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-matlab-hough/latest/diegosouzapw-matlab-hough.zip",
+  "zipSha256": "934e359e020ba68b4195c6e58266d86d8519a0367ed41e6d83c6d7d8f500e848",
+  "zipBytes": 2189,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "fc189f3a460a18b60624e2953e79729ab8be01fc8aee82e7af2bbd2ab0207641",
+  "fetchedAt": "2026-11-18T10:36:27.852Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_yTWMj2aX",
+  "name": "skill-mermaid-diagrams",
+  "displayName": "Mermaid 图表生成技能",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "chunhualiao",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/skill-mermaid-diagrams/latest/skill-mermaid-diagrams.zip",
+  "zipSha256": "b96a10697f937b6154faed97e6d15416af60ed7a848480e5c0f4d0897ed4f48b",
+  "zipBytes": 35773,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 26,
+  "treeSha256": "22d3d082607f7125142bcda9dd8697dc151b7c495f50ff08350decb2220df41b",
+  "fetchedAt": "2026-11-18T10:35:59.379Z",
+  "credentialScan": {
+    "textFilesScanned": 26,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ceE3xVif",
+  "name": "jamie-bitflight-shebangpython",
+  "displayName": "Python数据处理",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jamie-bitflight",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jamie-bitflight-shebangpython/latest/jamie-bitflight-shebangpython.zip",
+  "zipSha256": "c8a33a1ed7769dcefa875286cc5c73a7a227756499fbd9935d31bc5f8eb1cab9",
+  "zipBytes": 2789,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "661e7f73a692578af0c175c5f6a5979605ecf12f12df836e0af1defd6cc02f93",
+  "fetchedAt": "2026-11-18T10:40:28.528Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

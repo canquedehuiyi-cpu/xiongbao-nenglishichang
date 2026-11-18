@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XBCrHmgg",
+  "name": "data-visualization",
+  "displayName": "数据可视化",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "langchain-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/data-visualization/latest/data-visualization.zip",
+  "zipSha256": "e8a882ec93fda53f8a2a0addddc13d414501514b4d736faadd21d9ef61cdacc5",
+  "zipBytes": 3602,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a2c89dc79346de2d77ed5aaa15443a4280d20c1b327d03048f9192dc43fc938e",
+  "fetchedAt": "2026-11-18T10:36:15.268Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

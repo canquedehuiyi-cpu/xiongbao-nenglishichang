@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_zdFw6Qty",
+  "name": "chatandbuild-openspec-explore",
+  "displayName": "Explore设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "openspec",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/chatandbuild-openspec-explore/latest/chatandbuild-openspec-explore.zip",
+  "zipSha256": "3e6eefe5d2c8453540fea847be253abade135631ec181785ea39e21d74d3f0fe",
+  "zipBytes": 3842,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "af25182d72ce3d86325e54cf3f622fbb7069e1a7b5a274d0827049837ec01131",
+  "fetchedAt": "2026-11-18T10:40:02.304Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

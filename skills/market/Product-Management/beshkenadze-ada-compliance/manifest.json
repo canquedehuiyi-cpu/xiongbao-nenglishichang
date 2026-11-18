@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_edJjcTFL",
+  "name": "beshkenadze-ada-compliance",
+  "displayName": "合规ADA",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "beshkenadze",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/beshkenadze-ada-compliance/latest/beshkenadze-ada-compliance.zip",
+  "zipSha256": "2d8c3066429505fb19407a2b73199f2357f3bc64c043d0b9f6e4d6bd5211cbe3",
+  "zipBytes": 6125,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "f6cc1ad2eb6daea902bf92d9cd2b7f5c8ba29b53f984977d1ee6965a0f86f47b",
+  "fetchedAt": "2026-11-18T10:40:19.446Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

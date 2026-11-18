@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FniGpph3",
+  "name": "majiayu000-speckit-04-checklist",
+  "displayName": "Speckit开发",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-speckit-04-checklist/latest/majiayu000-speckit-04-checklist.zip",
+  "zipSha256": "b3af98372815889e69cfd2854375c230b13a3c078bf468d325504661089550ea",
+  "zipBytes": 4426,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "94135df7d055f331d4168aa37a5af1216b1a8face1506da03196c28dcb22904f",
+  "fetchedAt": "2026-11-18T10:40:38.273Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

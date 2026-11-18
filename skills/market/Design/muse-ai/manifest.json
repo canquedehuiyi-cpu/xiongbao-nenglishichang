@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SfetgDoo",
+  "name": "muse-ai",
+  "displayName": "Muse AI 音乐创作助手",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/muse-ai/latest/muse-ai.zip",
+  "zipSha256": "72e5d6e8173a5c8a43376d827093f5d1423120813dd604a4216864b96fb5fa0e",
+  "zipBytes": 24925,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "7196d78cf69f10fd476e1eb71c86ebf74d832cecc63581f80f9e6aa78332b4dd",
+  "fetchedAt": "2026-11-18T10:37:00.203Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

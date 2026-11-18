@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "7c56ae00-07a3-4eee-9aba-1fd1bf59a345",
+  "name": "iso9001-qms-generator",
+  "displayName": "ISO9001质量管理体系文件生成",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514b-cd69-7611-ad6a-48814e642369/848490fc_iso9001-qms-generator-v1.1.0.zip",
+  "zipSha256": "b9bede850a66ced75110006fb0109006ce45212b5e0ef70a2161345b04d63692",
+  "zipBytes": 35427,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "2d4d87e945c032452a302152730b6f291956cc5ce3a6e79c1a9f255676163bd2",
+  "fetchedAt": "2026-11-18T10:40:08.459Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

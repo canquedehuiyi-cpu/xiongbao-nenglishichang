@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_VVF6aaxW",
+  "name": "majiayu000-interactive-questions",
+  "displayName": "当需求不明确时",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-interactive-questions/latest/majiayu000-interactive-questions.zip",
+  "zipSha256": "f7085f99aecc07e44029b458087ae96941d4d22a567d1a8d923e28afc1efbb72",
+  "zipBytes": 4610,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "85bc20306ce33bfbf2ecaba34ade3e0920355673755cb0cc3a2e902a6c94c466",
+  "fetchedAt": "2026-11-18T10:40:27.947Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

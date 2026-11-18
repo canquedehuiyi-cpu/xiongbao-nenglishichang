@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NnhCfhc1",
+  "name": "majiayu000-feature-development-workflow",
+  "displayName": "功能流程",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-feature-development-workflow/latest/majiayu000-feature-development-workflow.zip",
+  "zipSha256": "c190d569beb613bc0e280d2aeddb6b18c23301b176c3cb9631fffb17cb53a6f4",
+  "zipBytes": 1858,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "215b4ae05c7bc966d6f20f951982d1592be2a7d006d3dc1763601a91a97770f4",
+  "fetchedAt": "2026-11-18T10:40:39.022Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

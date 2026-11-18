@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "77b0265e-6c9f-49b8-8c1d-6879ea15a40a",
+  "name": "web-scraper",
+  "displayName": "网页抓取",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.1",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd6f-4740-7b03-bf44-474bb6b01bea/5222665b_Web_Scraper.zip",
+  "zipSha256": "46a3de708bb73e3c5566b2bf6a2cb568b4a3b32f59a56e89d971271b6e1b4def",
+  "zipBytes": 12794,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "3be78b886d211f8d37315d57a216744b5d74e435a6b5339684b57e98d2c4007e",
+  "fetchedAt": "2026-11-18T10:36:23.236Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RIB6eU01",
+  "name": "majiayu000-datasheet-interpreter",
+  "displayName": "数据处理",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-datasheet-interpreter/latest/majiayu000-datasheet-interpreter.zip",
+  "zipSha256": "ed8a7861047bf750d1decadd0a798a6a9ba953ba18a026fa4bd105013726d1e1",
+  "zipBytes": 5069,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3e37481a7dd40e7563f41627864e2dc803d634466c9523b548aa50ac525fa3ad",
+  "fetchedAt": "2026-11-18T10:40:39.385Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

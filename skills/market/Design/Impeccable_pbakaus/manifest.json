@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "087b209e-e6b1-4a92-a9c7-076e4bcbaa7b",
+  "name": "Impeccable_pbakaus",
+  "displayName": null,
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f36e8-c093-7623-9d33-984c914b2264",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f37cc-5e9a-7c3f-97be-94afed63539a/b23d63b3_impeccable.zip",
+  "zipSha256": "5455e4c595a7795e84e3b9a27840b70786f856e68a851acee5d6d9b2bec1969a",
+  "zipBytes": 597366,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 88,
+  "treeSha256": "f8bacc3cb8206b84bde778a3d16a62aac7283e3621ddcfb2617c45ff9f3e84cc",
+  "fetchedAt": "2026-11-18T10:36:42.811Z",
+  "credentialScan": {
+    "textFilesScanned": 88,
+    "filesRedacted": 1
+  },
+  "note": null
+}

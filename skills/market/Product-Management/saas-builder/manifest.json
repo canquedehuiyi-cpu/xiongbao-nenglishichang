@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_q2bbwhi6",
+  "name": "saas-builder",
+  "displayName": "SaaS 构建师",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "sa9saq",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/saas-builder/latest/saas-builder.zip",
+  "zipSha256": "6af67f43867d405fe3dc4ab72da07187d6f751740c09b935436c98afb33c840d",
+  "zipBytes": 3111,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a4e197d819816cc17788164422cc628e5c0f34bfd2bd2d454814875e45cfde76",
+  "fetchedAt": "2026-11-18T10:40:33.990Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

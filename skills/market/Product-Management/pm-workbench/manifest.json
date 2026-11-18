@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KPpoGwUC",
+  "name": "pm-workbench",
+  "displayName": "产品经理工作台",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pm-workbench/latest/pm-workbench.zip",
+  "zipSha256": "f5518dec3633f6e2a675d862bbe9b027e79d58579e299c18c9a371b09aeb57b3",
+  "zipBytes": 1667667,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 100,
+  "treeSha256": "166a96c244e51cafc5ebc36411fa11bcebb3309737175dd7f4f0f419dc0d27e9",
+  "fetchedAt": "2026-11-18T10:40:05.792Z",
+  "credentialScan": {
+    "textFilesScanned": 87,
+    "filesRedacted": 0
+  },
+  "note": null
+}

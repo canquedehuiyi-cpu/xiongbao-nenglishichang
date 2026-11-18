@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EjSdrwZ2",
+  "name": "amnadtaowsoam-acceptance-criteria",
+  "displayName": "验收测试",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AmnadTaowsoam",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amnadtaowsoam-acceptance-criteria/latest/amnadtaowsoam-acceptance-criteria.zip",
+  "zipSha256": "341be649e94079fd2e0e3b8ce28e61318b48d816e67f740bc04c033ed1851309",
+  "zipBytes": 3764,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "bd3e30298b0a9c185f611f3e1a7cc8d18b26904d828c7eb187a8d9848525abed",
+  "fetchedAt": "2026-11-18T10:40:31.070Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

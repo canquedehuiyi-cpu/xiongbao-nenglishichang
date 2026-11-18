@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_xbgtfftW",
+  "name": "alibabacloud-data-agent-skill",
+  "displayName": "数据分析",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-data-agent-skill/latest/alibabacloud-data-agent-skill.zip",
+  "zipSha256": "a2d13312fedce00cadcc49ae5ded11760fac2a9483ed00573ce037c3b838ea15",
+  "zipBytes": 588540,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 41,
+  "treeSha256": "b18ec10534bbf4e6e99d8005f3bf6e915b2632ff4c5c8d4f70dd717b927c42e6",
+  "fetchedAt": "2026-11-18T10:35:39.030Z",
+  "credentialScan": {
+    "textFilesScanned": 40,
+    "filesRedacted": 0
+  },
+  "note": null
+}

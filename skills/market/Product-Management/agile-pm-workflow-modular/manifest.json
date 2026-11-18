@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7zV3FjPs",
+  "name": "agile-pm-workflow-modular",
+  "displayName": "敏捷产品经理需求产出工作流",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agile-pm-workflow-modular/latest/agile-pm-workflow-modular.zip",
+  "zipSha256": "45708bd07a263464c1f998b644505da7b91a36dabfdaace8722b129aaecb263b",
+  "zipBytes": 4717,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "14d52597bd546a98df8dc68ba3f5c88e3e4505372bf0c44248d234f2fbe6200e",
+  "fetchedAt": "2026-11-18T10:40:18.972Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

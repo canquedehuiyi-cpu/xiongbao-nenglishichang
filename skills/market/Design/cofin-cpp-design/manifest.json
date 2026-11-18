@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FaG8M298",
+  "name": "cofin-cpp-design",
+  "displayName": "Cpp开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "cofin",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cofin-cpp-design/latest/cofin-cpp-design.zip",
+  "zipSha256": "8d4c362746b7801ccf610a11c1eb9036c4dae40c636fb617d6741a407c8373fd",
+  "zipBytes": 1600,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "99b717ebcebfcdf2e173da89c3a834be6e6d772eab9d03b905c2fd9c767cf56f",
+  "fetchedAt": "2026-11-18T10:37:04.202Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

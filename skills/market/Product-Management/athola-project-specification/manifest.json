@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BZ1S89Et",
+  "name": "athola-project-specification",
+  "displayName": "项目开发",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "athola",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/athola-project-specification/latest/athola-project-specification.zip",
+  "zipSha256": "d039abdd49e33a996619a7f0df4556196b374fe21cb47f62e766fba8f6b23bb6",
+  "zipBytes": 4190,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "24195885cd452588aca00e5d15d2478650be089d8358c7b03415ce80df161a06",
+  "fetchedAt": "2026-11-18T10:40:37.498Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

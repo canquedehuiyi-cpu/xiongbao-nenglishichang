@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BuiXAuFb",
+  "name": "a5c-ai-uat-test-generator",
+  "displayName": "UAT生成",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "a5c-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/a5c-ai-uat-test-generator/latest/a5c-ai-uat-test-generator.zip",
+  "zipSha256": "2eedafdd98ca857150018f70bd95c6ca29c06901e7e38da97e4485f07aa89c48",
+  "zipBytes": 2229,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8f0ac8910cfcc8f4f7860ddb9838a58bf7f8f959b6780c49e1e392c49f2a5f47",
+  "fetchedAt": "2026-11-18T10:40:32.117Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

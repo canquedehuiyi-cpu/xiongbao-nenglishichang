@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_kirrSRcj",
+  "name": "content-system-generate-image",
+  "displayName": "生成图片",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/content-system-generate-image/latest/content-system-generate-image.zip",
+  "zipSha256": "cb85be909007ad20d3c71e1cb3710c58f8328cb6e530d3963c79dbbff8b7c7dc",
+  "zipBytes": 6949,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "4748e43506c6d9e4b8b16ae8a81c59a857ea3103850e33789dbd06cd01964986",
+  "fetchedAt": "2026-11-18T10:36:38.542Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

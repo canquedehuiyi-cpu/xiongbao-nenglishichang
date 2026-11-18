@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DtBHaZVL",
+  "name": "android-3d-developer",
+  "displayName": "Android 3D 游戏开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "tippyentertainment",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/android-3d-developer/latest/android-3d-developer.zip",
+  "zipSha256": "b52702cbedb13ae2da1987d4ed4b9cb093a210dc209a459cf7aeb5ca0f503098",
+  "zipBytes": 1977,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5573650bc37a752f7398d511dc0dc7c82a3b15a9f178bdf43e760348b0c988c9",
+  "fetchedAt": "2026-11-18T10:36:59.314Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

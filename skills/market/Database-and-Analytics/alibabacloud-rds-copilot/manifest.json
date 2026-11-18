@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Bmjte4Iy",
+  "name": "alibabacloud-rds-copilot",
+  "displayName": "阿里云 RDS Copilot 智能运维助手",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-rds-copilot/latest/alibabacloud-rds-copilot.zip",
+  "zipSha256": "f4747d4066318f8ba68ab1f9b524519d19cb8450253ba6bc1276c804d4f892af",
+  "zipBytes": 14892,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "69a8db0dd8124c751bb8ea05d3a2f27f958e0455527207f03cb374f277534605",
+  "fetchedAt": "2026-11-18T10:36:27.247Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

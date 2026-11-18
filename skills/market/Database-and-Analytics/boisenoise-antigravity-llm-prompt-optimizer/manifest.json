@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qe1aCR2t",
+  "name": "boisenoise-antigravity-llm-prompt-optimizer",
+  "displayName": "LLM提示词优化",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-llm-prompt-optimizer/latest/boisenoise-antigravity-llm-prompt-optimizer.zip",
+  "zipSha256": "cd651e7cf8a1fed42dc684cd5b614e6f120dd48f3d624b91478b5400056f79f6",
+  "zipBytes": 3165,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "523e4a1194d83ba28cb2c26e4b0558349e3e2bb0fad300f6b943bfa1ff51757b",
+  "fetchedAt": "2026-11-18T10:35:36.461Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

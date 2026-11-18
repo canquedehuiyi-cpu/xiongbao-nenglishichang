@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vWMOpcFf",
+  "name": "pagecran-blender-shader-editor",
+  "displayName": "pagecran Blender 着色器编辑器",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pagecran-blender-shader-editor/latest/pagecran-blender-shader-editor.zip",
+  "zipSha256": "731a6026cb4e6d8ccaab550cd45cd85f1b191cc6385373a68e4ede46b245abde",
+  "zipBytes": 2860,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "f5a45d2b4b9e8530499846839c30c5c8145e53b28ba6c5722bbc4406c8e7216c",
+  "fetchedAt": "2026-11-18T10:36:52.744Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

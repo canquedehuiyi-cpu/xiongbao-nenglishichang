@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_nNQ2Abp1",
+  "name": "958877748-cocos2d-cli",
+  "displayName": "Cocos2d开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "958877748",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/958877748-cocos2d-cli/latest/958877748-cocos2d-cli.zip",
+  "zipSha256": "229580485b511ec3b397a626862fad755c0cc95e9d7b62242e5cd64740d08869",
+  "zipBytes": 4743,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7a2415f93dfaef4f673731cb31cdbbeea86c01bcfd58671380055a3c6dadddde",
+  "fetchedAt": "2026-11-18T10:37:09.234Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

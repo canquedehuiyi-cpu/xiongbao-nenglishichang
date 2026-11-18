@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_jHVOihni",
+  "name": "visualization-and-plotting",
+  "displayName": "可视化和绘图",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "OliverSieweke",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/visualization-and-plotting/latest/visualization-and-plotting.zip",
+  "zipSha256": "a8cc06d3bf4bf8df2501b290a13cdcb7afe5db4daed80ff6b59e7b0a25b2036c",
+  "zipBytes": 5883,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "d27cc5b5b166b4b7684d1b9281915a73cfa26a1eba051e2bbcba3358558f98b2",
+  "fetchedAt": "2026-11-18T10:36:26.831Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

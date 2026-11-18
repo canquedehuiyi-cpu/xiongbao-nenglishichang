@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7JmAuwph",
+  "name": "b33eep-standards-java",
+  "displayName": "规范开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "b33eep",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/b33eep-standards-java/latest/b33eep-standards-java.zip",
+  "zipSha256": "e3a6574f85ce3304c9f251b6a77718cf052a3a955755ac48062a7977573bc74a",
+  "zipBytes": 7795,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "3524e5e05ca4d4ae6980c7d34dd5de47dbf6656578ea0906c1b536fe2c65aa51",
+  "fetchedAt": "2026-11-18T10:36:36.139Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

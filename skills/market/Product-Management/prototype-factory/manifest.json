@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MgBRvH50",
+  "name": "prototype-factory",
+  "displayName": "原型工厂",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/prototype-factory/latest/prototype-factory.zip",
+  "zipSha256": "74d627bd5db49c47f5ffb24a6d58d7aa01992c034543043047a22f63ad2c3f7a",
+  "zipBytes": 4386,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "01d540d0f14de2ce65c88c2b9ab4754eb3f0378ebc25bc396f428aa2ada4b7f5",
+  "fetchedAt": "2026-11-18T10:40:01.839Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

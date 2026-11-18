@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RsXz9kD7",
+  "name": "cloudsen-eliteforge-frontend-generator",
+  "displayName": "Vue前端开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "CloudSen",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cloudsen-eliteforge-frontend-generator/latest/cloudsen-eliteforge-frontend-generator.zip",
+  "zipSha256": "b727a63169818a1e172b81c686cc0468c32d8f58edde43338039fd072f4f0053",
+  "zipBytes": 5999,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "d911c84db2f7d3540e3e838808e9d324e8868fc4729a15c5d094f5d9f31a808a",
+  "fetchedAt": "2026-11-18T10:36:45.397Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

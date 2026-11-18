@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MFOco2ne",
+  "name": "product-opportunity-research",
+  "displayName": "多智能体产品机会深度研究",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/product-opportunity-research/latest/product-opportunity-research.zip",
+  "zipSha256": "8fc94d5d3962d88d6b5efd6885d78c29874c023c4cdd828660aecd299b8d41d4",
+  "zipBytes": 16760,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "af62d76c126c7272f0a41f7248bb4d901defd13ac1ece9b033d31411b91d3796",
+  "fetchedAt": "2026-11-18T10:40:31.954Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_49nb8Shb",
+  "name": "amber-moe-oceanbase-sql-optimization",
+  "displayName": "SQL优化",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "amber-moe",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amber-moe-oceanbase-sql-optimization/latest/amber-moe-oceanbase-sql-optimization.zip",
+  "zipSha256": "7d2fd0d5b9a2fb388e53797ded4feea26f853cca7600fdb3e8a33e236453a91b",
+  "zipBytes": 7493,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "371eaada28b80077684494d370b70d1be341a69e620670dce053ce9458f29473",
+  "fetchedAt": "2026-11-18T10:36:05.878Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

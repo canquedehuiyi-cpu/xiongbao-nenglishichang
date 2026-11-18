@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FHfaDpTa",
+  "name": "mckruz-comfyui-api",
+  "displayName": "ComfyUI开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "MCKRUZ",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mckruz-comfyui-api/latest/mckruz-comfyui-api.zip",
+  "zipSha256": "f9d3fb6e28f7d3140813b277a0df14dc7bd143d76be15de907cea6469072ce3e",
+  "zipBytes": 2282,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "fd0c230d387a8c79183f2cb81a19a4e5733f1f420b2160d01f030f66ccc6555a",
+  "fetchedAt": "2026-11-18T10:36:57.783Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

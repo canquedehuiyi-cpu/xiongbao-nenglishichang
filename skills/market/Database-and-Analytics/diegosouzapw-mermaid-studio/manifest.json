@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KzzKF1Lf",
+  "name": "diegosouzapw-mermaid-studio",
+  "displayName": "图像Studio",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Felipe Rodrigues - github.com/felipfr",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-mermaid-studio/latest/diegosouzapw-mermaid-studio.zip",
+  "zipSha256": "ea237ecf410a3e106cce3b260af658582f28d2ede25e3373381ee996f867825d",
+  "zipBytes": 8519,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "28ec49eb6d8366ddcd475e110a235dd1b7e6d5fceacb88a446d9b291278b40cd",
+  "fetchedAt": "2026-11-18T10:35:41.909Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

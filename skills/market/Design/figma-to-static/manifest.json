@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8z8IapJ4",
+  "name": "figma-to-static",
+  "displayName": "Figma 转静态页面",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/figma-to-static/latest/figma-to-static.zip",
+  "zipSha256": "cc0e85772e254b4c6c07e3e1212c693ed5738828286edd5e1582f9706714c04a",
+  "zipBytes": 49477,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 20,
+  "treeSha256": "9f6c1910b93d5354277b21d25c3091b9c0c1cb4216cf33dea046ff1b96024783",
+  "fetchedAt": "2026-11-18T10:36:48.787Z",
+  "credentialScan": {
+    "textFilesScanned": 20,
+    "filesRedacted": 0
+  },
+  "note": null
+}

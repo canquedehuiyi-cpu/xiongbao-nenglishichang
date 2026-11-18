@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LoNPYMF7",
+  "name": "database-mysql",
+  "displayName": "数据库 Mysql",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "incidentfox",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/database-mysql/latest/database-mysql.zip",
+  "zipSha256": "7d4df2ad9ae3733e5002eb0f3c51f2d489239d8f701a9c42e251cf1d66a9d826",
+  "zipBytes": 1099,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a3967224a83cd7d976fe87b29208a42ac85bf042025bffc242775352d3436363",
+  "fetchedAt": "2026-11-18T10:35:41.734Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

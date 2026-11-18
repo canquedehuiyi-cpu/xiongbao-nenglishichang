@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "80949832-f7d3-449e-bea2-aff770dae990",
+  "name": "qiuxiaoce-football-data",
+  "displayName": "球小策足球数据",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "2.8.0",
+  "publisher": "019e5fae-d72b-758e-bf6a-0e59ea803a08",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0a30b-c742-74b1-aeb4-1abbd73b5077/c5de649e_qiuxiaoce-skill-v2.8.0-flat.zip",
+  "zipSha256": "00b82528df6acd9e77c6f9224abd89480d74090e721bc643c9c370398321b4b3",
+  "zipBytes": 72208,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 22,
+  "treeSha256": "322631f9bb8ad59133e5375382bd1d06f63d3ff53a84e7682b92e1ecf433403e",
+  "fetchedAt": "2026-11-18T10:36:20.984Z",
+  "credentialScan": {
+    "textFilesScanned": 22,
+    "filesRedacted": 0
+  },
+  "note": null
+}

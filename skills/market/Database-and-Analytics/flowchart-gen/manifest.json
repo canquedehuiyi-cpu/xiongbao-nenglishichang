@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BZ7XIKPy",
+  "name": "flowchart-gen",
+  "displayName": "流程图生成器",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/flowchart-gen/latest/flowchart-gen.zip",
+  "zipSha256": "336d13ac2afa8ab45c24b9d925e37d67bc8677393f4f706a6ef71ef9edb210bb",
+  "zipBytes": 42115,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "c8c2d358aa994f1fc5e74d90f8154c8f9d761d22e0cbeb9abcef2ad8065486c1",
+  "fetchedAt": "2026-11-18T10:35:50.115Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 1
+  },
+  "note": null
+}

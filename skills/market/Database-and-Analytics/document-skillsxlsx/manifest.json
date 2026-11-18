@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8q9wat9A",
+  "name": "document-skillsxlsx",
+  "displayName": "文档技能 xlsx",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aitytech",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/document-skillsxlsx/latest/document-skillsxlsx.zip",
+  "zipSha256": "cc7f20297900ad9b56795eec859be92acafa78e5554c6ccfcf09e2a769be0770",
+  "zipBytes": 5060,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "33c2cb6b6deb53bc2c47c9ca2a7f425e274b1937d837d68eba0e2c8efe5a6a5d",
+  "fetchedAt": "2026-11-18T10:36:16.986Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

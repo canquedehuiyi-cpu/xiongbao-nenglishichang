@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "5f041582-854a-4a47-9c4d-fa8bb56935fd",
+  "name": "h5-game-studio-pipeline",
+  "displayName": "H5 游戏工作室流水线",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f033e-8adb-78ca-a8f7-7901bc5b6dcf",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcff1-40aa-7d0e-8a00-1bef286156a3/83b31c2c_h5-game-studio-pipeline-main.zip",
+  "zipSha256": "1fbc63e3996d47ec1633679393493429196039352d5f723688eefee5597801c7",
+  "zipBytes": 114409,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 26,
+  "treeSha256": "9c2add023a16d5432749ab3b7b6d2a0b1df55bb89b4e386949ce21bcae6184b6",
+  "fetchedAt": "2026-11-18T10:36:50.560Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6c6pSk2G",
+  "name": "csvtoexcel",
+  "displayName": "CSV 转 Excel 转换器",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "xuanguan2020",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/csvtoexcel/latest/csvtoexcel.zip",
+  "zipSha256": "2807b0fd2baa8e743ce63c891108ac46270d2aa99add9cfdf237a3321c16839d",
+  "zipBytes": 4897,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "8b216cd12bf7c28ba8ea4b98d4ea1d65dda53b084592485f3c2331b668f5f76b",
+  "fetchedAt": "2026-11-18T10:36:06.914Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

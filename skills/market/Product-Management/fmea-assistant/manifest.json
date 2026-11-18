@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "39205797-90b1-49aa-8742-db6ec33cde1b",
+  "name": "fmea-assistant",
+  "displayName": "FMEA分析技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514b-6b17-7b17-a207-d567497b40ee/80f859bb_fmea-assistant-v1.1.0.zip",
+  "zipSha256": "e4f65b27028a4fbdfd11aaf3abfd5ca6cf7ca7cb426a389192941c1774ef7b51",
+  "zipBytes": 11811,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "664d1b2d465e4f5d1080d5cec826c7ba023c9e4e73d847231ec513d34fef0d18",
+  "fetchedAt": "2026-11-18T10:40:29.260Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

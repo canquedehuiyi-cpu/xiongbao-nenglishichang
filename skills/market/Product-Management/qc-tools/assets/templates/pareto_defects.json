@@ -1,0 +1,13 @@
+{
+  "name": "柏拉图-产品缺陷分析",
+  "description": "制造业产品缺陷分类统计模板",
+  "data": [
+    {"category": "外观缺陷", "value": 45},
+    {"category": "尺寸偏差", "value": 32},
+    {"category": "装配不良", "value": 28},
+    {"category": "表面划痕", "value": 18},
+    {"category": "功能异常", "value": 12},
+    {"category": "标识错误", "value": 8},
+    {"category": "包装破损", "value": 5}
+  ]
+}

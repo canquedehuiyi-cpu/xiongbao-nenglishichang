@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7jC4o6TY",
+  "name": "easy-testcase",
+  "displayName": "测试用例生成专家",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/easy-testcase/latest/easy-testcase.zip",
+  "zipSha256": "310d7092c7179081364c39276eec80effe9bf26b4e38c2ce338d26d50bf01d44",
+  "zipBytes": 3795,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "66961d72492a400e8bdc79c785aca20d2533db55b031381ce93b00c5418d65ba",
+  "fetchedAt": "2026-11-18T10:39:59.004Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BBhMd15n",
+  "name": "michael-f-bryan-long-running-agent-harness",
+  "displayName": "LONG开发",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Michael-F-Bryan",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/michael-f-bryan-long-running-agent-harness/latest/michael-f-bryan-long-running-agent-harness.zip",
+  "zipSha256": "3ece7a2ba7bf0c99f44236c5c8a48da4b2e1ca76c31aba7d86705c38540a7c06",
+  "zipBytes": 11960,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "b08b68b18ea4510aae5281c4ed3d1cb1bf46edfbd013b4f51d4f0fabab446d68",
+  "fetchedAt": "2026-11-18T10:40:42.691Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

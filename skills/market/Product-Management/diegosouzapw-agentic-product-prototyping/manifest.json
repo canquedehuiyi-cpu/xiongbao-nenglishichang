@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8r0YOiOh",
+  "name": "diegosouzapw-agentic-product-prototyping",
+  "displayName": "产品智能体",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-agentic-product-prototyping/latest/diegosouzapw-agentic-product-prototyping.zip",
+  "zipSha256": "e86cf385633fd303f1b532caa9cdd3cd5d6a640fe579a85fb5dca41d8406dd40",
+  "zipBytes": 3871,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "1b2b80e1bf1cb1656749a835270cb53eaab63cc15c473663e7e735dc3a762a98",
+  "fetchedAt": "2026-11-18T10:40:02.887Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

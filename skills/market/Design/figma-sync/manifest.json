@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fWfCpVCt",
+  "name": "figma-sync",
+  "displayName": "Figma 同步",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/figma-sync/latest/figma-sync.zip",
+  "zipSha256": "c1a28f38bb70459ffc3c00900239ef0832c40a295a51e4b9dbef190e5332714f",
+  "zipBytes": 22415,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "57e82a898c9334c0592b83fe78307185ba136776d3900ce9772d235674307798",
+  "fetchedAt": "2026-11-18T10:36:52.273Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

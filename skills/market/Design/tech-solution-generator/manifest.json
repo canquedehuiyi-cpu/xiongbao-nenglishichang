@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4JrqeIaH",
+  "name": "tech-solution-generator",
+  "displayName": "技术方案文档生成器",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "imgolye",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/tech-solution-generator/latest/tech-solution-generator.zip",
+  "zipSha256": "f585b08bed240724b7d28b719d67b2874b9bc1113634d52a94b784517191e944",
+  "zipBytes": 3615,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0dc6e9544a7980cf1d86eaee558b79ed40ae01867dbc2974a9f91208a698f340",
+  "fetchedAt": "2026-11-18T10:36:58.678Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_65qardWa",
+  "name": "pdf-smart-tool-cn-v1-1",
+  "displayName": "PDF智能处理工具",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "huyong2023",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pdf-smart-tool-cn-v1-1/latest/pdf-smart-tool-cn-v1-1.zip",
+  "zipSha256": "8d2c530503c9eb672d21f16292bddf41c5664bca363781f0c3932cf944811124",
+  "zipBytes": 2052,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "364660066c11f12609b36d91657e7cd2e71a51a42356e5ec1ae738254bd1a7a0",
+  "fetchedAt": "2026-11-18T10:35:46.641Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_n5fsmBQ9",
+  "name": "research-tools-skill",
+  "displayName": "科研工具包",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/research-tools-skill/latest/research-tools-skill.zip",
+  "zipSha256": "53523db6a7aca82bcfa887cee5c40dbc396dec16161d2591c4ee69931337c3ca",
+  "zipBytes": 1451,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "4b37d18f1c2904daa7c2966a820511647551beee68c9fef05d5a2fdacfe85ac9",
+  "fetchedAt": "2026-11-18T10:36:03.625Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

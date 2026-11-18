@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZuMbCO6r",
+  "name": "alibabacloud-sls-data-agent",
+  "displayName": "SLS智能运维",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-sls-data-agent/latest/alibabacloud-sls-data-agent.zip",
+  "zipSha256": "eccae0cfa9206b8004e1277cc163473c319730e0116ec409f0417eac7fe71141",
+  "zipBytes": 20476,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "c6e046986b62c102f147a6739a1b733a3533df894aeb67b1dc06d912c9651835",
+  "fetchedAt": "2026-11-18T10:36:01.287Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 1
+  },
+  "note": null
+}

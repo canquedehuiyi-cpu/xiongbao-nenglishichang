@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_y4esRAtl",
+  "name": "wps-skill",
+  "displayName": "WPS Office 自动化",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/wps-skill/latest/wps-skill.zip",
+  "zipSha256": "f26a8ed4e61824d410303bb0afc8fdf507ecb1e07dabcd0a86ccb6af22921c2e",
+  "zipBytes": 47346,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 17,
+  "treeSha256": "ca30ff3b85df9c9816171b4a0f176201272424112d7688a5b23a77cbeee1f612",
+  "fetchedAt": "2026-11-18T10:36:33.130Z",
+  "credentialScan": {
+    "textFilesScanned": 17,
+    "filesRedacted": 0
+  },
+  "note": null
+}

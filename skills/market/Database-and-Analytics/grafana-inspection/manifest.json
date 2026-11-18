@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_efMr6hoa",
+  "name": "grafana-inspection",
+  "displayName": "Grafana 自动化巡检",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/grafana-inspection/latest/grafana-inspection.zip",
+  "zipSha256": "cdaddc4feffbec12aa09359260e3b6fc4f75b8b8a1297c16c2459adda3816c86",
+  "zipBytes": 7631,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "d98b22194742546aaaee68887ef766ddcfafae91c28d406ef2f5483708ad4c5a",
+  "fetchedAt": "2026-11-18T10:36:29.111Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

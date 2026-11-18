@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official86382844",
+  "name": "ui-designer",
+  "displayName": "UI 设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "daymade",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ui-designer/latest/ui-designer.zip",
+  "zipSha256": "0e9b624f3eb50b430d76d3e497e1c01719acaf0b92808e7887cb963eaf829a10",
+  "zipBytes": 2967,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "fa32f2a9f1fa4b8ee738ba0a46f327e74acf566aed87bf5399a59981fcd7d296",
+  "fetchedAt": "2026-11-18T10:36:31.166Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

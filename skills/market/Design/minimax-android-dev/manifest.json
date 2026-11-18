@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_O19Fe20q",
+  "name": "minimax-android-dev",
+  "displayName": "安卓原生开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/minimax-android-dev/latest/minimax-android-dev.zip",
+  "zipSha256": "d551f6d71ea7c25073ca557e08c3bb46d004dc1da69fb8b3aff61731ed568dbc",
+  "zipBytes": 10347,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8f7f126d11e80b3cc73dbbf712b2576f34a44833f85b3614e2df5713faf0152c",
+  "fetchedAt": "2026-11-18T10:36:41.727Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

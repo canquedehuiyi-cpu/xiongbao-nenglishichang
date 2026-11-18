@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_aGwFRf0j",
+  "name": "avabillions2040-playcanvas-engine",
+  "displayName": "任务设计",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AvaBillions2040",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/avabillions2040-playcanvas-engine/latest/avabillions2040-playcanvas-engine.zip",
+  "zipSha256": "34998b222620609cc3fd5b962a4aa6c6d987e696b237915c3888a7dbabf7d766",
+  "zipBytes": 58081,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "18080eb5da41d700ca8155f82201fcabe94011d091b7981c07a37efdfb2a4647",
+  "fetchedAt": "2026-11-18T10:35:57.114Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

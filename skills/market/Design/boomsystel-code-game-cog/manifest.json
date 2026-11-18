@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YTCkn8vi",
+  "name": "boomsystel-code-game-cog",
+  "displayName": "Game设计",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boomsystel-code",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boomsystel-code-game-cog/latest/boomsystel-code-game-cog.zip",
+  "zipSha256": "dac5c7a5b71f6c441a4ebe2a2ab55372bdd0f9bb02a8bb43a923daed176991b1",
+  "zipBytes": 3795,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "172dba0951e0fee399de0232f0e39a1a347aa3a47a7d746eef6c5a1a985ce29e",
+  "fetchedAt": "2026-11-18T10:36:40.821Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

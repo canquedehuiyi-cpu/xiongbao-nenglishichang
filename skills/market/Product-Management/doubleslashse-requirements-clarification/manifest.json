@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_O2NX8ub6",
+  "name": "doubleslashse-requirements-clarification",
+  "displayName": "测试策略",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "DoubleslashSE",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/doubleslashse-requirements-clarification/latest/doubleslashse-requirements-clarification.zip",
+  "zipSha256": "9b9eac6f1bd695e723eeae4f9ff4e806d545d0ffe5b8b348b0d7bf30659f0c92",
+  "zipBytes": 1963,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8fa613d57fe079504f6b0f162e3eadc7029d1d7c58bade1f8697cf197b3cc6bd",
+  "fetchedAt": "2026-11-18T10:40:38.816Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

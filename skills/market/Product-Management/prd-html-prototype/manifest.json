@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "c72c4b65-b180-4a2e-9ce8-86be88974c4b",
+  "name": "prd-html-prototype",
+  "displayName": "PRD + 可交互原型制作",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.4.0",
+  "publisher": "019f3531-f09b-7bcb-8452-16e19ae46c5f",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fd597-9e63-7418-a43a-d7a1b49668d0/85b796ee_prd-html-prototype-v1.4.0-market.zip",
+  "zipSha256": "4774c09da22a6c00a1adea40c5e372d43d4c3a6ee0dd4b1fbe982fae56369088",
+  "zipBytes": 38496,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "d0742f46fb37281295673e15579d5149442aa4a3f748b7dd53dd0626d191b6e3",
+  "fetchedAt": "2026-11-18T10:39:57.525Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

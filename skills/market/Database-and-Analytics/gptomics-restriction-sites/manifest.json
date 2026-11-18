@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ym8jaNLR",
+  "name": "gptomics-restriction-sites",
+  "displayName": "Sites开发",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "gptomics",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/gptomics-restriction-sites/latest/gptomics-restriction-sites.zip",
+  "zipSha256": "47c1cc00c0123a194b6ca7c094ebd997f7cb49aa912a7a4e83e7a02edb0caaa3",
+  "zipBytes": 4668,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "14d4c9ea452dfce97e73483d79d8f13e1cf061cfc6c60ad4e5867ad8392b173c",
+  "fetchedAt": "2026-11-18T10:36:19.137Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

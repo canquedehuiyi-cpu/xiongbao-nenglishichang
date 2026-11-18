@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_CRr7KMB1",
+  "name": "bertram-eu-halcon-skill",
+  "displayName": "Halcon审查",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bertram-eu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bertram-eu-halcon-skill/latest/bertram-eu-halcon-skill.zip",
+  "zipSha256": "371ab6e1caf13946fd6d4f726092997989549e0f2b687d7b35cdd0dd3dae4943",
+  "zipBytes": 20086,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "23dc3131c53809e7e8d842b679e83399476f77a9d2278d0b6f9aaebd166ea7db",
+  "fetchedAt": "2026-11-18T10:40:38.129Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

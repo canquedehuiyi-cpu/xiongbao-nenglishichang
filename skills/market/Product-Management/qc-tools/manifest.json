@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "93b8f570-5941-47bf-8d4c-1691ac129192",
+  "name": "qc-tools",
+  "displayName": "质量管理QC技能",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f506c-bd7a-758a-a9dc-383b5471aa34",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f514c-164d-7d37-856a-93de9914f4fd/a0e10242_qc-tools-v1.1.0.zip",
+  "zipSha256": "07376559fbc66d193c86bb119a4110abab0797134917ef2b3ac519c640e78373",
+  "zipBytes": 15377,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "f6825616497b4f043edacfa7e28fa1e29ee4dfa77463cae179b02f50fd4f838f",
+  "fetchedAt": "2026-11-18T10:40:07.409Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

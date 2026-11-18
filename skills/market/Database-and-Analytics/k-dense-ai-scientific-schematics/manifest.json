@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_yalpQxpi",
+  "name": "k-dense-ai-scientific-schematics",
+  "displayName": "文档科研图表",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "k-dense-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/k-dense-ai-scientific-schematics/latest/k-dense-ai-scientific-schematics.zip",
+  "zipSha256": "83f2cd60d7bf666294ad89a05b30fe494f367cfcf23c760a5555ab824f3a0114",
+  "zipBytes": 34002,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "1ce8b01c2e4e7d6f63593f3f23675f6b34c7d10fea20a4f5da70909d706c55cd",
+  "fetchedAt": "2026-11-18T10:36:11.441Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 1
+  },
+  "note": null
+}

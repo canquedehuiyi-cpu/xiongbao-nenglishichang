@@ -1,0 +1,1479 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "QiuXiaoCe Football Data API",
+    "version": "2.6.0",
+    "description": "球小策足球结构化数据接口。接口返回事实数据、衍生特征、已发布内容与历史样本；分析与表述由调用方模型完成。平台不提供投注建议或结果保证。具体扣点以后台当前配置与接口文档为准。"
+  },
+  "servers": [
+    {
+      "url": "https://www.qiuxiaoce.com/wp-json/abv2-creator/v1"
+    }
+  ],
+  "security": [
+    {
+      "apiKeyHeader": []
+    }
+  ],
+  "components": {
+    "securitySchemes": {
+      "apiKeyHeader": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-API-Key"
+      }
+    },
+    "parameters": {
+      "fixtureId": {
+        "name": "fixture_id",
+        "in": "path",
+        "required": true,
+        "description": "比赛 ID（fixture_id）。",
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "teamId": {
+        "name": "team_id",
+        "in": "path",
+        "required": true,
+        "description": "球队 ID。",
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "playerId": {
+        "name": "player_id",
+        "in": "path",
+        "required": true,
+        "description": "球员 ID。",
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "leagueId": {
+        "name": "league_id",
+        "in": "path",
+        "required": true,
+        "description": "联赛 ID。",
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "postId": {
+        "name": "post_id",
+        "in": "path",
+        "required": true,
+        "description": "已发布研报文章 ID。",
+        "schema": {
+          "type": "integer"
+        }
+      },
+      "season": {
+        "name": "season",
+        "in": "query",
+        "required": false,
+        "description": "赛季；缺省时返回当前可取得的最新赛季数据。",
+        "schema": {
+          "type": "string"
+        }
+      }
+    },
+    "schemas": {
+      "Error": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          },
+          "data": {
+            "type": "object"
+          }
+        }
+      },
+      "Success": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean",
+            "example": true
+          },
+          "data": {},
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "Quota": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "credits": {
+            "type": "object",
+            "properties": {
+              "remaining": {
+                "type": "integer"
+              },
+              "expires_at": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "days_left": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "today_used": {
+                "type": "integer"
+              }
+            }
+          },
+          "limits": {
+            "type": "object",
+            "properties": {
+              "rate_per_minute": {
+                "type": "integer"
+              },
+              "dedup_window_seconds": {
+                "type": "integer"
+              }
+            }
+          },
+          "recharge_url": {
+            "type": "string"
+          }
+        }
+      },
+      "FixtureList": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "date": {
+            "type": "string"
+          },
+          "count": {
+            "type": "integer"
+          },
+          "data": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "description": "赛事基础字段、开赛时间、联赛、球队、状态和可用的总进球参考数据；后续查询以 fixture_id 为准。"
+            }
+          }
+        }
+      },
+      "MatchPack": {
+        "type": "object",
+        "properties": {
+          "success": {
+            "type": "boolean"
+          },
+          "fixture_id": {
+            "type": "integer"
+          },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "source": {
+                "type": "string",
+                "description": "pipeline 或 realtime；realtime 表示实时组装回退，字段覆盖可能较少。"
+              },
+              "generated_at": {
+                "type": "string"
+              },
+              "lottery_type": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "lottery_id": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "pack": {
+            "type": "object",
+            "description": "单场结构化数据。字段随赛事覆盖情况变化，调用方不得补造缺失字段。",
+            "properties": {
+              "market_fluctuation": {
+                "type": "object",
+                "description": "实时市场波动区块（v2.6.9 起内置，不额外计费）：as_of 数据时点、source 数据公司、reference[] 市场参考值（≤60 条）、official 官方公开参考值、movements[] 赛前异动（≤20 条）、note 合规说明。"
+              }
+            }
+          }
+        }
+      }
+    },
+    "responses": {
+      "Unauthorized": {
+        "description": "API Key 缺失或无效。",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      },
+      "InsufficientCredits": {
+        "description": "点数不足。",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      },
+      "NotFound": {
+        "description": "资源不存在。",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      },
+      "SubscriptionRequired": {
+        "description": "内容受会员或单篇访问权限保护。",
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Error"
+            }
+          }
+        }
+      }
+    }
+  },
+  "paths": {
+    "/quota": {
+      "get": {
+        "summary": "查询 API Key 余额、有效期与调用限制",
+        "x-billing": "0 点",
+        "responses": {
+          "200": {
+            "description": "余额信息。",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Quota"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          }
+        }
+      }
+    },
+    "/fixtures": {
+      "get": {
+        "summary": "赛程列表，对照 API-Football GET /fixtures。支持 id/date/from+to/league/season/team/round/status/last/next。",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {"type": "integer"}
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "YYYY-MM-DD；无其他定位条件时默认北京时间今天。",
+            "schema": {"type": "string", "format": "date"}
+          },
+          {
+            "name": "from",
+            "in": "query",
+            "schema": {"type": "string", "format": "date"}
+          },
+          {
+            "name": "to",
+            "in": "query",
+            "schema": {"type": "string", "format": "date"}
+          },
+          {
+            "name": "league",
+            "in": "query",
+            "schema": {"type": "integer"}
+          },
+          {
+            "$ref": "#/components/parameters/season"
+          },
+          {
+            "name": "team",
+            "in": "query",
+            "schema": {"type": "integer"}
+          },
+          {
+            "name": "round",
+            "in": "query",
+            "schema": {"type": "string"}
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "schema": {"type": "string"}
+          },
+          {
+            "name": "last",
+            "in": "query",
+            "schema": {"type": "integer", "minimum": 1, "maximum": 50}
+          },
+          {
+            "name": "next",
+            "in": "query",
+            "schema": {"type": "integer", "minimum": 1, "maximum": 50}
+          },
+          {
+            "name": "lottery_type",
+            "in": "query",
+            "description": "all / zucai / beidan；默认 all。",
+            "schema": {
+              "type": "string",
+              "enum": ["all", "zucai", "beidan"],
+              "default": "all"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "比赛列表。",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FixtureList"
+                }
+              }
+            }
+          },
+          "400": {
+            "$ref": "#/components/responses/NotFound"
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          }
+        }
+      }
+    },
+    "/match-pack/{fixture_id}": {
+      "get": {
+        "summary": "获取单场全景结构化数据包",
+        "description": "返回顶层 success、fixture_id、meta 与 pack；所有数据维度位于 pack 内。meta.source=realtime 时表示实时组装回退，可能缺少管道物化字段。pack.market_fluctuation 为实时市场波动区块（v2.6.9 起内置，不额外计费）。",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/fixtureId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "单场数据包。",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MatchPack"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "402": {
+            "$ref": "#/components/responses/InsufficientCredits"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/today/digest": {
+      "get": {
+        "summary": "获取销售日口径的当日赛事摘要、数据包状态和研报状态",
+        "parameters": [
+          {
+            "name": "date",
+            "in": "query",
+            "description": "YYYY-MM-DD；缺省按北京时间 11:00 日界线判断。",
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "当日摘要。",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          }
+        }
+      }
+    },
+    "/posts": {
+      "get": {
+        "summary": "分页检索历史已发布研报，可附带赛后结果字段",
+        "parameters": [
+          {
+            "name": "date",
+            "in": "query",
+            "description": "YYYY-MM-DD，按标题日期筛选。",
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "search",
+            "in": "query",
+            "description": "标题、球队或联赛关键词。",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "lottery_type",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "all",
+                "zucai",
+                "beidan"
+              ],
+              "default": "all"
+            }
+          },
+          {
+            "name": "with_settlement",
+            "in": "query",
+            "description": "1 表示附带赛后比分、预测方向和结算字段。",
+            "schema": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ],
+              "default": 0
+            }
+          },
+          {
+            "name": "per_page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 10
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "分页研报列表。"
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          }
+        }
+      }
+    },
+    "/posts/today": {
+      "get": {
+        "summary": "获取当日已发布研报列表",
+        "parameters": [
+          {
+            "name": "date",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "format": "date"
+            }
+          },
+          {
+            "name": "lottery_type",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "all",
+                "zucai",
+                "beidan"
+              ],
+              "default": "all"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "当日研报列表。"
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          }
+        }
+      }
+    },
+    "/posts/{post_id}": {
+      "get": {
+        "summary": "读取单篇已发布研报全文与结构化字段",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/postId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "研报详情。"
+          },
+          "401": {
+            "$ref": "#/components/responses/Unauthorized"
+          },
+          "403": {
+            "$ref": "#/components/responses/SubscriptionRequired"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/teams": {
+      "get": {
+        "summary": "按中文或英文关键词搜索球队",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "maximum": 50,
+              "default": 20
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "球队候选列表。"
+          }
+        }
+      }
+    },
+    "/teams/{team_id}": {
+      "get": {
+        "summary": "获取球队基础详情",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/teamId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "球队详情。"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/teams/{team_id}/form": {
+      "get": {
+        "summary": "获取球队近期已结束比赛",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/teamId"
+          },
+          {
+            "name": "last",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20,
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "近期战绩。"
+          }
+        }
+      }
+    },
+    "/teams/{team_id}/fixtures": {
+      "get": {
+        "summary": "获取球队逐场赛程历史（2008 年至今，支持赛季/联赛/状态过滤与分页）",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/teamId"
+          },
+          {
+            "$ref": "#/components/parameters/season"
+          },
+          {
+            "name": "status",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": ["finished", "upcoming", "all"],
+              "default": "finished"
+            },
+            "description": "finished=已完赛（默认），upcoming=未开赛，all=全部。"
+          },
+          {
+            "name": "league_id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            },
+            "description": "联赛过滤，0=不限。"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 1000,
+              "default": 0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "逐场赛程列表（含比分/半场/胜负平视角结果），按时间倒序，total 为过滤后总场数。"
+          }
+        }
+      }
+    },
+    "/teams/{team_id}/statistics": {
+      "get": {
+        "summary": "获取球队赛季统计",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/teamId"
+          },
+          {
+            "$ref": "#/components/parameters/season"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "赛季统计。"
+          }
+        }
+      }
+    },
+    "/teams/{team_id}/advanced": {
+      "get": {
+        "summary": "获取球队高阶指标",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/teamId"
+          },
+          {
+            "$ref": "#/components/parameters/season"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "高阶指标。"
+          }
+        }
+      }
+    },
+    "/teams/{team_id}/injuries": {
+      "get": {
+        "summary": "获取球队当前伤停记录",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/teamId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "伤停记录。"
+          }
+        }
+      }
+    },
+    "/teams/{team_id}/squad": {
+      "get": {
+        "summary": "获取球队阵容名单",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/teamId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "阵容名单。"
+          }
+        }
+      }
+    },
+    "/teams/{team_id}/coach": {
+      "get": {
+        "summary": "获取球队教练信息",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/teamId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "教练信息。"
+          }
+        }
+      }
+    },
+    "/teams/{team_id}/players-advanced": {
+      "get": {
+        "summary": "获取队内球员高阶指标",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/teamId"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 20,
+              "default": 10
+            }
+          },
+          {
+            "$ref": "#/components/parameters/season"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "球员高阶指标列表。"
+          }
+        }
+      }
+    },
+    "/h2h": {
+      "get": {
+        "summary": "查询两支球队历史交锋",
+        "parameters": [
+          {
+            "name": "home_id",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "away_id",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30,
+              "default": 10
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "历史交锋。"
+          }
+        }
+      }
+    },
+    "/leagues": {
+      "get": {
+        "summary": "获取联赛列表，支持关键词搜索",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "description": "关键词搜索联赛中文名/英文名/别名（如「英超」），搜索时上限 20。",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "country",
+            "in": "query",
+            "description": "国家过滤（如 England、Spain）。",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "description": "类型过滤：League / Cup。",
+            "schema": {
+              "type": "string",
+              "enum": ["League", "Cup"]
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "maximum": 100,
+              "default": 50
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "default": 0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "联赛列表。"
+          }
+        }
+      }
+    },
+    "/leagues/{league_id}": {
+      "get": {
+        "summary": "获取联赛详情，可选附带积分榜",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/leagueId"
+          },
+          {
+            "name": "with_standings",
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "default": false
+            }
+          },
+          {
+            "$ref": "#/components/parameters/season"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "联赛详情。"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/standings": {
+      "get": {
+        "summary": "积分榜（对照 API-Football GET /standings）",
+        "parameters": [
+          {"name": "league", "in": "query", "required": true, "schema": {"type": "integer"}},
+          {"$ref": "#/components/parameters/season"}
+        ],
+        "responses": {"200": {"description": "积分榜。"}}
+      }
+    },
+    "/leagues/{league_id}/teams": {
+      "get": {
+        "summary": "联赛参赛球队（对照 API-Football GET /teams?league=&season=）",
+        "parameters": [
+          {"$ref": "#/components/parameters/leagueId"},
+          {"$ref": "#/components/parameters/season"}
+        ],
+        "responses": {"200": {"description": "参赛球队列表。"}}
+      }
+    },
+    "/leagues/{league_id}/seasons": {
+      "get": {
+        "summary": "联赛赛季列表",
+        "parameters": [{"$ref": "#/components/parameters/leagueId"}],
+        "responses": {"200": {"description": "赛季列表。"}}
+      }
+    },
+    "/leagues/{league_id}/topscorers": {
+      "get": {
+        "summary": "联赛射手榜（对照 API-Football GET /players/topscorers）",
+        "parameters": [
+          {"$ref": "#/components/parameters/leagueId"},
+          {"$ref": "#/components/parameters/season"},
+          {"name": "limit", "in": "query", "schema": {"type": "integer", "minimum": 1, "maximum": 50, "default": 20}}
+        ],
+        "responses": {"200": {"description": "射手榜。"}}
+      }
+    },
+    "/leagues/{league_id}/topassists": {
+      "get": {
+        "summary": "联赛助攻榜（对照 API-Football GET /players/topassists）",
+        "parameters": [
+          {"$ref": "#/components/parameters/leagueId"},
+          {"$ref": "#/components/parameters/season"},
+          {"name": "limit", "in": "query", "schema": {"type": "integer", "minimum": 1, "maximum": 50, "default": 20}}
+        ],
+        "responses": {"200": {"description": "助攻榜。"}}
+      }
+    },
+    "/leagues/{league_id}/fixtures": {
+      "get": {
+        "summary": "获取联赛赛季逐场赛果（默认最新赛季，支持轮次过滤与分页）",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/leagueId"
+          },
+          {
+            "$ref": "#/components/parameters/season"
+          },
+          {
+            "name": "round",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "轮次过滤（可选，如 Regular Season - 12）。"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 20
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 2000,
+              "default": 0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "赛季逐场赛果（按开赛时间升序），season 为实际查询赛季，total 为该过滤条件总场数。"
+          }
+        }
+      }
+    },
+    "/fixtures/{fixture_id}": {
+      "get": {
+        "summary": "获取单场比赛详情（基础信息 + 半场/全场/加时/点球完整比分）",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/fixtureId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "比赛详情，含场馆、裁判、轮次、赛季与四段比分结构。"
+          }
+        }
+      }
+    },
+    "/fixtures/{fixture_id}/players": {
+      "get": {
+        "summary": "单场球员统计（对照 API-Football GET /fixtures/players）",
+        "parameters": [{"$ref": "#/components/parameters/fixtureId"}],
+        "responses": {"200": {"description": "按球队分组的球员逐场统计。"}}
+      }
+    },
+    "/fixtures/{fixture_id}/stats": {
+      "get": {
+        "summary": "获取单场技术统计",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/fixtureId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "技术统计。"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/fixtures/{fixture_id}/events": {
+      "get": {
+        "summary": "获取单场事件流",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/fixtureId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "事件流。"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/fixtures/{fixture_id}/lineups": {
+      "get": {
+        "summary": "获取单场官方阵容",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/fixtureId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "阵容数据。"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/fixtures/{fixture_id}/quotes": {
+      "get": {
+        "summary": "单场市场参考值快照（对照 API-Football GET /odds，合规口径）",
+        "description": "返回公开市场参考值（胜平负 / 让球 / 进球数等）。仅供赛事信息研究，不构成投注建议。",
+        "parameters": [
+          {"$ref": "#/components/parameters/fixtureId"},
+          {
+            "name": "group",
+            "in": "query",
+            "schema": {"type": "string", "enum": ["result", "spread", "totals", "both_teams", "score", "halftime", "all"]}
+          }
+        ],
+        "responses": {"200": {"description": "市场参考值快照。"}}
+      }
+    },
+    "/fixtures/{fixture_id}/quotes/history": {
+      "get": {
+        "summary": "单场市场参考值历史",
+        "description": "公开参考值随时间的变化，不构成投注建议。",
+        "parameters": [
+          {"$ref": "#/components/parameters/fixtureId"},
+          {"name": "group", "in": "query", "schema": {"type": "string"}},
+          {"name": "limit", "in": "query", "schema": {"type": "integer", "minimum": 1, "maximum": 200, "default": 80}}
+        ],
+        "responses": {"200": {"description": "市场参考值时间序列。"}}
+      }
+    },
+    "/fixtures/{fixture_id}/market": {
+      "get": {
+        "summary": "获取单场市场参考值变化记录",
+        "description": "仅描述公开参考值的时间、字段、方向与幅度，不构成投注建议或确定结论。",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/fixtureId"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 500,
+              "default": 100
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "市场变化记录。"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/players": {
+      "get": {
+        "summary": "按中文或英文关键词搜索球员",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "description": "至少 2 个字符。",
+            "schema": {
+              "type": "string",
+              "minLength": 2
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 20
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "球员候选列表。"
+          }
+        }
+      }
+    },
+    "/players/{player_id}": {
+      "get": {
+        "summary": "获取球员基础详情",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/playerId"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "球员详情。"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/players/{player_id}/stats": {
+      "get": {
+        "summary": "获取球员赛季统计",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/playerId"
+          },
+          {
+            "$ref": "#/components/parameters/season"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "赛季统计。"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/players/{player_id}/advanced": {
+      "get": {
+        "summary": "获取球员高阶指标",
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/playerId"
+          },
+          {
+            "$ref": "#/components/parameters/season"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "高阶指标。"
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/stats/overall": {
+      "get": {
+        "summary": "获取官网已发布研报的历史整体统计快照",
+        "parameters": [
+          {
+            "name": "force_refresh",
+            "in": "query",
+            "description": "1 表示绕过一小时缓存重新计算。",
+            "schema": {
+              "type": "integer",
+              "enum": [
+                0,
+                1
+              ],
+              "default": 0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "整体历史统计。仅代表官网历史研报样本，不代表用户调用 API 后的结果。"
+          }
+        }
+      }
+    },
+    "/stats/team": {
+      "get": {
+        "summary": "按球队名称查询官网历史研报统计",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "球队历史统计。"
+          }
+        }
+      }
+    },
+    "/review": {
+      "get": {
+        "summary": "获取近 N 天官网研报历史表现聚合",
+        "parameters": [
+          {
+            "name": "days",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30,
+              "default": 7
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "按天聚合的历史样本表现。"
+          }
+        }
+      }
+    },
+    "/transfers": {
+      "get": {
+        "summary": "转会记录（team / player 二选一必填；team 模式返回转入+转出并附 direction 标记）",
+        "parameters": [
+          {
+            "name": "team",
+            "in": "query",
+            "schema": {
+              "type": "integer"
+            },
+            "description": "球队 ID。"
+          },
+          {
+            "name": "player",
+            "in": "query",
+            "schema": {
+              "type": "integer"
+            },
+            "description": "球员 ID。"
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 50
+            }
+          },
+          {
+            "name": "offset",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 500,
+              "default": 0
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "转会记录列表（date/type/season/team_in/team_out）。"
+          }
+        }
+      }
+    },
+    "/coaches/{id}": {
+      "get": {
+        "summary": "教练详情 + 执教履历",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "教练 ID（可由 /teams/{id}/coach 获得）。"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "教练档案与 career[] 执教履历（含 is_current）。"
+          }
+        }
+      }
+    },
+    "/referees": {
+      "get": {
+        "summary": "裁判搜索（英文姓名模糊匹配）",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "minLength": 2
+            }
+          },
+          {
+            "name": "limit",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50,
+              "default": 20
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "裁判列表（referee_id/name/nationality/age/photo）。"
+          }
+        }
+      }
+    },
+    "/referees/{id}": {
+      "get": {
+        "summary": "裁判详情 + 执法数据（场均黄红牌聚合 + 最近 10 场）",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            },
+            "description": "裁判 ID（由 /referees?q= 搜索获得）。"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "裁判档案、career 执法聚合与 recent_matches。"
+          }
+        }
+      }
+    },
+    "/skill/version": {
+      "get": {
+        "summary": "查询 Skill 最新版本、更新说明和文件 SHA-256 清单",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "版本信息与文件哈希清单。"
+          }
+        }
+      }
+    },
+    "/skill/download": {
+      "get": {
+        "summary": "下载 Skill 全量 ZIP 更新包",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "ZIP 文件。",
+            "content": {
+              "application/zip": {
+                "schema": {
+                  "type": "string",
+                  "format": "binary"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "下载频率过高，请稍后再试。"
+          }
+        }
+      }
+    }
+  }
+}

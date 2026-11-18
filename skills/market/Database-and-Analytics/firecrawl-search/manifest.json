@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_36Jq2rbA",
+  "name": "firecrawl-search",
+  "displayName": "Firecrawl 网页搜索与抓取工具",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ashwingupy",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/firecrawl-search/latest/firecrawl-search.zip",
+  "zipSha256": "1bc001d1d8b13d8064f05487b11c16fe81087621cea3fee8d091f40ab04acd86",
+  "zipBytes": 5581,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "52abc92fa7be6fadd7ea62f9e7e7fbd4db2b9b5d6e264e02dde64d3d75515f09",
+  "fetchedAt": "2026-11-18T10:35:56.515Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

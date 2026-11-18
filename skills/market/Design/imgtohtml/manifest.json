@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fnD7g3IA",
+  "name": "imgtohtml",
+  "displayName": "UI 截图转 HTML/CSS",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jinqiu193",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/imgtohtml/latest/imgtohtml.zip",
+  "zipSha256": "23d59a2baf692d436a16bd7b8a964b63c4c455396f783d0d7c9067844a5621d6",
+  "zipBytes": 3597,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "7664b59ae466d1c9a23e07c180cfb3cd2f1f839b518743b5f1bea640a16e320b",
+  "fetchedAt": "2026-11-18T10:37:03.287Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

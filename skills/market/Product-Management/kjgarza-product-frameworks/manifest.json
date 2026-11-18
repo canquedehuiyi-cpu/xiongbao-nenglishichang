@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Jjj6Yga6",
+  "name": "kjgarza-product-frameworks",
+  "displayName": "框架设计",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kjgarza",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kjgarza-product-frameworks/latest/kjgarza-product-frameworks.zip",
+  "zipSha256": "75f8aaffb3cbda83071de3edc68303f206d2e819510a34612a698224fec435a8",
+  "zipBytes": 39117,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "7a00dcb414f9f0f6ca2b5b5d8a921681a4b084ac2e4de6940b4d1209ca5c0606",
+  "fetchedAt": "2026-11-18T10:39:59.605Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_86GmjHb1",
+  "name": "dexploarer-database-query-optimizer",
+  "displayName": "数据库Query优化",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dexploarer",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dexploarer-database-query-optimizer/latest/dexploarer-database-query-optimizer.zip",
+  "zipSha256": "36e9e890f5ba978ceb157b0dc20f68d62cb7969c0c4540301c3054eaa7785c7e",
+  "zipBytes": 4807,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "03dbe924915dbcd0512672a1fd5e56f91ad01b47193bb321191063b570be8fc4",
+  "fetchedAt": "2026-11-18T10:35:55.899Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

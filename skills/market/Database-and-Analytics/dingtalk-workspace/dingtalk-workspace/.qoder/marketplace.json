@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "skill",
+  "marketItemId": "official_fjybVNBT",
+  "itemName": "dingtalk-workspace",
+  "displayName": "dingtalk-workspace",
+  "version": "1.0.1",
+  "packageKind": "skill"
+}

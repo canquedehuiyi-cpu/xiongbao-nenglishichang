@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NdkqckHF",
+  "name": "wudao-limitup",
+  "displayName": "悟道·A 股涨停板",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/wudao-limitup/latest/wudao-limitup.zip",
+  "zipSha256": "be6dc2f1af734d907664836dd29f9863344acc2e2dc7ca6af299641e9516921f",
+  "zipBytes": 5482,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "69af7481e2a12fa58eccdd905e774036e05ca7d4b7dbbafce1d6e8f143a1af4e",
+  "fetchedAt": "2026-11-18T10:36:00.871Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

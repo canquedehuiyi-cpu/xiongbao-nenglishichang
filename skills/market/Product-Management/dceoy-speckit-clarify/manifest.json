@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vkpm3htx",
+  "name": "dceoy-speckit-clarify",
+  "displayName": "Clarify开发",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dceoy",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dceoy-speckit-clarify/latest/dceoy-speckit-clarify.zip",
+  "zipSha256": "202ec84a08b320740ae0c2c731ccfc862a0364a98b087437dd387e70b9e049bf",
+  "zipBytes": 5167,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ac4929d632e7607deb5c91860c4559adb1061bf8cb0c391ec9ba7a7581cfe523",
+  "fetchedAt": "2026-11-18T10:40:22.244Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

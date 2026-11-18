@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9uliYT1g",
+  "name": "doubao-maliang-image-gen",
+  "displayName": "小马良 - 豆包生图",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/doubao-maliang-image-gen/latest/doubao-maliang-image-gen.zip",
+  "zipSha256": "71ad4b157191b290984579ecd169eeb2ba6d2e4d2f7eb616962c77aa26f97143",
+  "zipBytes": 8775,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "cae2cd657acd21ecc02b784c3c64df662dc559f9a583092251de5653fd2c147e",
+  "fetchedAt": "2026-11-18T10:40:26.956Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

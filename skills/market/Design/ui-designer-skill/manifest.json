@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RAOR4qaR",
+  "name": "ui-designer-skill",
+  "displayName": "UI 设计师技能",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "1999azzar",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ui-designer-skill/latest/ui-designer-skill.zip",
+  "zipSha256": "a010128bed490448861ade793fd3512a71ed9f7238308c5057cf6c48d08e23c0",
+  "zipBytes": 34389,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 28,
+  "treeSha256": "72531af7baf506bdc7bbb6558546aeb7803cc8015bc6d1e3c34683fffb1d25d8",
+  "fetchedAt": "2026-11-18T10:37:12.823Z",
+  "credentialScan": {
+    "textFilesScanned": 25,
+    "filesRedacted": 0
+  },
+  "note": null
+}

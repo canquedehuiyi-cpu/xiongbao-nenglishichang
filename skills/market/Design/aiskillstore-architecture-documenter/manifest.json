@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_hu5qdkly",
+  "name": "aiskillstore-architecture-documenter",
+  "displayName": "架构开发",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-architecture-documenter/latest/aiskillstore-architecture-documenter.zip",
+  "zipSha256": "0d43f11501ea1676d02cbbe0fbf8220440e12942fdd52c845863ea8ed2d083e6",
+  "zipBytes": 20521,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d98348f02535c41a64875f054381c45913f68dc60456179df4caa99039d84c83",
+  "fetchedAt": "2026-11-18T10:36:32.784Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

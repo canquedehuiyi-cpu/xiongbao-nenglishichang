@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mGWSeLh4",
+  "name": "alibabacloud-bailian-rag-knowledgebase",
+  "displayName": "阿里云百炼知识库（RAG）",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-bailian-rag-knowledgebase/latest/alibabacloud-bailian-rag-knowledgebase.zip",
+  "zipSha256": "8a073e2313040d4d92a4dcc3ea11dc9bbfcf3d92bd47557c4d364d093ba57a31",
+  "zipBytes": 12813,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "59753d3348a6155bb1c2b94b424103a5f8d8bf601e265783e005b5990215c637",
+  "fetchedAt": "2026-11-18T10:35:41.119Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

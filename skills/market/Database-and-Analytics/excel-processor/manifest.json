@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Ct7QWiVB",
+  "name": "excel-processor",
+  "displayName": "Excel 处理器",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AIDotNet",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/excel-processor/latest/excel-processor.zip",
+  "zipSha256": "19d7cf9984836a3377ba18f90a3996f94d1c00a93870ee7870f6416aa1a3f04f",
+  "zipBytes": 1765,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "de898cddabea4d1468ab49e43a69bff8c53bde0563691752efed33131e54f27d",
+  "fetchedAt": "2026-11-18T10:36:25.317Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

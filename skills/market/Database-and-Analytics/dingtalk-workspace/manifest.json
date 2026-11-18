@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fjybVNBT",
+  "name": "dingtalk-workspace",
+  "displayName": "钉钉工作台",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a1e4a8-42d3-7091-9a55-7b1e48aa288a/4952ff1aea4e8e9a315246d7d1be09b6b1fd3795881e4905ab27b61a465daf78.zip",
+  "zipSha256": "4952ff1aea4e8e9a315246d7d1be09b6b1fd3795881e4905ab27b61a465daf78",
+  "zipBytes": 27952,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 21,
+  "treeSha256": "fed9094c178a5ae3579b5e1f909695050a8ac125a9fb3792ac4919a753ee8153",
+  "fetchedAt": "2026-11-18T10:47:48.627Z",
+  "credentialScan": {
+    "textFilesScanned": 21,
+    "filesRedacted": 0
+  },
+  "note": null
+}

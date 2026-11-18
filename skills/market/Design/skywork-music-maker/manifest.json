@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_oYa49bCL",
+  "name": "skywork-music-maker",
+  "displayName": "Skywork 音乐制作人",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/skywork-music-maker/latest/skywork-music-maker.zip",
+  "zipSha256": "77aa7c44feb93904d83c4b247a9262473dcc3e61c8ef5fd8d3d5637cf0117bfc",
+  "zipBytes": 20011,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "21d91c083b7309280ea1ec218252eb8ca6fdcd29ba47765303f308523a5f7d89",
+  "fetchedAt": "2026-11-18T10:37:15.167Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

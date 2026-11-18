@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HTJmankL",
+  "name": "ui-ux-master",
+  "displayName": "UI/UX设计大师技能",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kdbhalala",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ui-ux-master/latest/ui-ux-master.zip",
+  "zipSha256": "6344c3a21a025dab8dd40e213c424d66ce0a548c3628eaf7dd668fc7b7914a04",
+  "zipBytes": 29090,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 17,
+  "treeSha256": "0550dcef058b4b9aa79044b1185031b076af729754e10d3c0f5fd85cf82fa69b",
+  "fetchedAt": "2026-11-18T10:36:03.866Z",
+  "credentialScan": {
+    "textFilesScanned": 17,
+    "filesRedacted": 0
+  },
+  "note": null
+}

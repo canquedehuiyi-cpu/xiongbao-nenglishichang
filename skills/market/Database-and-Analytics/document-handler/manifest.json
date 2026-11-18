@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GaiQNdPc",
+  "name": "document-handler",
+  "displayName": "文档处理器",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "neckr0ik",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a1e4a8-51d8-7271-8f39-8ad1ba7462c0/ae8d72abdb27d3227c2a995badfb40d244d436d2e99bd012dba0bfa123f85046.zip",
+  "zipSha256": "ae8d72abdb27d3227c2a995badfb40d244d436d2e99bd012dba0bfa123f85046",
+  "zipBytes": 3794,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "d68f2f1c437debba174eb4ff70362a878a975657ee3a0870def0ce96e8cb01f9",
+  "fetchedAt": "2026-11-18T10:47:49.766Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

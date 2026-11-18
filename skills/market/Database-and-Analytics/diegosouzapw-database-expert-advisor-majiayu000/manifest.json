@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_049z4QuM",
+  "name": "diegosouzapw-database-expert-advisor-majiayu000",
+  "displayName": "SQL数据库开发",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-database-expert-advisor-majiayu000/latest/diegosouzapw-database-expert-advisor-majiayu000.zip",
+  "zipSha256": "bba49f1ea0a228b9503104abb29443de6e0e5dcab3c8d7afe8c38318c24d763e",
+  "zipBytes": 20485,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "eef8ee6b9687e613986e5905566b3d6e5d3a58b3316dc1c3556dd321d6ad441e",
+  "fetchedAt": "2026-11-18T10:36:17.298Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

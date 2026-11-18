@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_pw2Ie9DP",
+  "name": "cloudflare-web-perf",
+  "displayName": "网页PERF",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "cloudflare",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cloudflare-web-perf/latest/cloudflare-web-perf.zip",
+  "zipSha256": "10355fa6d59bd61f10d96b742f748e0ffd9ce2dfdddb2688856ac7f86a0eef97",
+  "zipBytes": 3754,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "26f7ed7d2a05153264c95b3d57e896b01254aa8bf75d5d586bbe0b2943f5013e",
+  "fetchedAt": "2026-11-18T10:36:18.886Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

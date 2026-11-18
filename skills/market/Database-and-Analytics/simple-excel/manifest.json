@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_AJlEiXVr",
+  "name": "simple-excel",
+  "displayName": "简易Excel处理工具",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "anmu14641",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/simple-excel/latest/simple-excel.zip",
+  "zipSha256": "ab494ffd97e749f4dd2c31ea4cfa290475fd439c51c545ac6ea92a32ce810a7c",
+  "zipBytes": 1337,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a5d6fe9b4fdc1f19d0deda2c72f1c9c0492ec1740f9daab59058e98171a3f883",
+  "fetchedAt": "2026-11-18T10:35:57.944Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XbPDxsGF",
+  "name": "excel-automation",
+  "displayName": "Excel 自动化",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "daymade",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/excel-automation/latest/excel-automation.zip",
+  "zipSha256": "93c1dfa11a5afdaf88ae532f45f03a281494c92d1eb86c23fd0e7a1126d270c2",
+  "zipBytes": 4246,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4b70ad077ea7f900b9c3a11c8e446cb7e3e062aba5c01a46f66242629d2fc384",
+  "fetchedAt": "2026-11-18T10:36:24.460Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

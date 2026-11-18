@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_sKbdkK1q",
+  "name": "chen19007-godot-verify",
+  "displayName": "Godot验证",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Chen19007",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/chen19007-godot-verify/latest/chen19007-godot-verify.zip",
+  "zipSha256": "ac78d3daacf80d4de84610d6e5a12e6af1c6cb599b486815107227308c772ca3",
+  "zipBytes": 3320,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "9ec3562a2f76957ac4736610e82df2d0d6512831108b967579dba2b7ff39e83a",
+  "fetchedAt": "2026-11-18T10:35:49.918Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

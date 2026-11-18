@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_beZFSNak",
+  "name": "cinematic-script-writer",
+  "displayName": "电影剧本创作助手",
+  "categoryCode": "Design",
+  "categoryDir": "Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cinematic-script-writer/latest/cinematic-script-writer.zip",
+  "zipSha256": "60881080e7f418f3b2926db931c266a6360823cef7d5eaea6cfc412679a62bb4",
+  "zipBytes": 166835,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 42,
+  "treeSha256": "8421b69cfbe2dea2311b677d3b456887858268d88ba70fc583ab48683dbb6eaa",
+  "fetchedAt": "2026-11-18T10:37:05.333Z",
+  "credentialScan": {
+    "textFilesScanned": 42,
+    "filesRedacted": 1
+  },
+  "note": null
+}

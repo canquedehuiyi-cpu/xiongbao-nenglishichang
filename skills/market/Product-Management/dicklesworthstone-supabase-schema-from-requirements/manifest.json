@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5ZOlsdDo",
+  "name": "dicklesworthstone-supabase-schema-from-requirements",
+  "displayName": "Supabase开发",
+  "categoryCode": "Product Management",
+  "categoryDir": "Product-Management",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-supabase-schema-from-requirements/latest/dicklesworthstone-supabase-schema-from-requirements.zip",
+  "zipSha256": "8e9f5ad6aa6b9346338c9546dc50d7ae513e9a26ea42e93f23c7153fd2679f22",
+  "zipBytes": 1005,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "fe4897223141ebd5ea8628d5001e6eca6ac77668d8c5fa2d68d6acd17a5c777b",
+  "fetchedAt": "2026-11-18T10:40:30.399Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}
