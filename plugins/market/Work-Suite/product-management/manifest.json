@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "product-management",
+  "name": "product-management",
+  "displayName": "Product Management",
+  "categoryCode": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+  "categoryDir": "Work-Suite",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.1",
+  "publisher": "QoderWork",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019f18f0-2b00-7be0-9e6e-ae3b981247c9/0eda223c_产品管理.zip",
+  "zipSha256": "2f5dca2213ab7064d37bf988ac1fc68d37384f86c55a9229dc7e5f73a53d219b",
+  "zipBytes": 53059,
+  "upstreamSha256": "2f5dca2213ab7064d37bf988ac1fc68d37384f86c55a9229dc7e5f73a53d219b",
+  "files": 14,
+  "treeSha256": "f1d193251738cfeefcf8536326552198eb970a1643d3ef0eb6b5ac02f7632dc1",
+  "fetchedAt": "2026-11-18T10:42:20.415Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

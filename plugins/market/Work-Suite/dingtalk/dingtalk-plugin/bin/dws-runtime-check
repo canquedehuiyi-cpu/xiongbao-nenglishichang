@@ -1,0 +1,50 @@
+#!/bin/sh
+# Resolve the DWS runtime without invoking it.
+set -eu
+
+SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+
+if [ -n "${DWS_RUNTIME_EXECUTABLE:-}" ] && [ -x "$DWS_RUNTIME_EXECUTABLE" ]; then
+  printf '%s\n' "$DWS_RUNTIME_EXECUTABLE"
+  exit 0
+fi
+
+for candidate in \
+  "$HOME/.qoder/bin/dws" \
+  "$HOME/.qoder/bin/dws.exe" \
+  "$HOME/.qoder-cn/bin/dws" \
+  "$HOME/.qoder-cn/bin/dws.exe"
+do
+  if [ -x "$candidate" ]; then
+    printf '%s\n' "$candidate"
+    exit 0
+  fi
+done
+
+OLD_IFS="$IFS"
+IFS=:
+for dir in ${PATH:-}; do
+  [ -n "$dir" ] || dir=.
+  [ "$dir" = "$SCRIPT_DIR" ] && continue
+  if [ -x "$dir/dws" ]; then
+    printf '%s\n' "$dir/dws"
+    IFS="$OLD_IFS"
+    exit 0
+  fi
+  if [ -x "$dir/dws.exe" ]; then
+    printf '%s\n' "$dir/dws.exe"
+    IFS="$OLD_IFS"
+    exit 0
+  fi
+done
+IFS="$OLD_IFS"
+
+for candidate in "$HOME/.local/bin/dws" "$HOME/.local/bin/dws.exe"; do
+  if [ -x "$candidate" ]; then
+    printf '%s\n' "$candidate"
+    exit 0
+  fi
+done
+
+printf '%s\n' "DWS runtime is not installed" >&2
+exit 1

@@ -1,0 +1,89 @@
+{
+  "name": "wenshu-long-doc-expert",
+  "version": "1.0.0",
+  "description": "文枢：四位专业角色组成的文档工坊，按「定向→采撷→织辞→校雠→合卷→付梓」六段流程，将选题转化为规范可溯、跨篇一致的出版级长文档。",
+  "author": {
+    "name": "项丰"
+  },
+  "license": "MIT",
+  "keywords": [
+    "wenshu",
+    "long-document",
+    "decoration-spec",
+    "standards-traceability",
+    "compliance-review",
+    "multi-agent-team"
+  ],
+
+  "expertType": "team",
+  "agentName": "wenshu-team-lead",
+  "agents": [
+    "./agents/wenshu-team-lead.md",
+    "./agents/wenshu-researcher.md",
+    "./agents/wenshu-drafter.md",
+    "./agents/wenshu-corrector.md"
+  ],
+  "teamInfo": {
+    "leadAgent": "wenshu-team-lead",
+    "memberAgents": [
+      "wenshu-researcher",
+      "wenshu-drafter",
+      "wenshu-corrector"
+    ]
+  },
+
+  "skills": [
+    "./skills/long-doc-generation",
+    "./skills/standards-research",
+    "./skills/compliance-audit"
+  ],
+
+  "displayName": "文枢",
+  "profession": "企业级长文档生成专家",
+  "displayDescription": "文枢统筹四位角色分六段成书：定向、采撷、织辞、校雠、合卷、付梓。规范引用条条可溯，跨篇参数始终一致，交付即可直接使用。",
+  "avatar": "avatars/team.png",
+  "categoryId": "10-ProjectQuality",
+  "defaultInitPrompt": "帮我生成一份装修施工图设计说明",
+
+  "tags": [
+    "长文档生成",
+    "规范合规",
+    "多智能体团队"
+  ],
+  "quickPrompts": [
+    "帮我生成一份装修施工图设计说明",
+    "基于行业规范写一份技术方案",
+    "帮我审一下这篇文档的规范符合性与跨篇一致性"
+  ],
+
+  "members": [
+    {
+      "id": "wenshu-team-lead",
+      "name": "宗秉衡",
+      "profession": "总编辑",
+      "avatar": "avatars/wenshu-team-lead.png",
+      "role": "lead"
+    },
+    {
+      "id": "wenshu-researcher",
+      "name": "殷溯典",
+      "profession": "文献检索员",
+      "avatar": "avatars/wenshu-researcher.png",
+      "role": "member"
+    },
+    {
+      "id": "wenshu-drafter",
+      "name": "谢敷文",
+      "profession": "内容生成员",
+      "avatar": "avatars/wenshu-drafter.png",
+      "role": "member"
+    },
+    {
+      "id": "wenshu-corrector",
+      "name": "邢绳谬",
+      "profession": "质量审核员",
+      "avatar": "avatars/wenshu-corrector.png",
+      "role": "member"
+    }
+  ]
+}

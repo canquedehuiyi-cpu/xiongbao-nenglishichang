@@ -1,0 +1,11 @@
+WeCom / 企业微信 Qoder Plugin
+
+Skills source: https://github.com/WecomTeam/wecom-cli
+Base commit: 1d48b6c9ecd1b4897c4bf728d564bfda1d62fbde
+Snapshot: upstream main, retrieved 2026-11-02.
+CLI runtime: @wecom/cli@1.3.4
+Copyright (c) 2026 WeCom. MIT License; see LICENSE.
+
+Business skills match the upstream snapshot byte-for-byte.
+The shared skill retains the original plugin's Qoder-specific setup instructions.
+The CLI runtime is downloaded from npm only when requested; it is not bundled.

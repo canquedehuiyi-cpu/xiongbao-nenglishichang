@@ -1,0 +1,16 @@
+{
+  "name": "dingtalk",
+  "version": "0.1.0",
+  "displayName": "钉钉",
+  "description": "通过 DWS CLI 在 Qoder 中使用钉钉日历、文档、消息、待办、通讯录等能力。",
+  "author": {
+    "name": "DingTalk"
+  },
+  "homepage": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli",
+  "license": "Apache-2.0",
+  "keywords": [
+    "dingtalk",
+    "dws",
+    "productivity"
+  ]
+}

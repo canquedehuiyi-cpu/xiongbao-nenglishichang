@@ -1,0 +1,68 @@
+#!/bin/sh
+# Resolve the lark-cli runtime without invoking it.
+set -eu
+
+SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+PLUGIN_INSTALL_ROOT="${LARK_CLI_INSTALL_ROOT:-$HOME/.local/share/qoder/lark-cli}"
+
+if [ -n "${LARK_CLI_RUNTIME_EXECUTABLE:-}" ]; then
+  if [ ! -x "$LARK_CLI_RUNTIME_EXECUTABLE" ] || [ ! -f "$LARK_CLI_RUNTIME_EXECUTABLE" ]; then
+    printf '%s\n' 'LARK_CLI_RUNTIME_EXECUTABLE does not point to an executable runtime.' >&2
+    exit 1
+  fi
+  printf '%s\n' "$LARK_CLI_RUNTIME_EXECUTABLE"
+  exit 0
+fi
+
+for candidate in \
+  "$PLUGIN_INSTALL_ROOT/node_modules/@larksuite/cli/bin/lark-cli" \
+  "$PLUGIN_INSTALL_ROOT/node_modules/@larksuite/cli/bin/lark-cli.exe"
+do
+  if [ -x "$candidate" ]; then
+    printf '%s\n' "$candidate"
+    exit 0
+  fi
+done
+
+for candidate in \
+  "$HOME/.qoder/bin/lark-cli" \
+  "$HOME/.qoder/bin/lark-cli.exe" \
+  "$HOME/.qoder-cn/bin/lark-cli" \
+  "$HOME/.qoder-cn/bin/lark-cli.exe"
+do
+  if [ -x "$candidate" ]; then
+    printf '%s\n' "$candidate"
+    exit 0
+  fi
+done
+
+OLD_IFS="$IFS"
+IFS=:
+for dir in ${PATH:-}; do
+  [ -n "$dir" ] || dir=.
+  [ "$dir" = "$SCRIPT_DIR" ] && continue
+  if [ -x "$dir/lark-cli" ]; then
+    printf '%s\n' "$dir/lark-cli"
+    IFS="$OLD_IFS"
+    exit 0
+  fi
+  if [ -x "$dir/lark-cli.exe" ]; then
+    printf '%s\n' "$dir/lark-cli.exe"
+    IFS="$OLD_IFS"
+    exit 0
+  fi
+done
+IFS="$OLD_IFS"
+
+for candidate in \
+  "$HOME/.local/bin/lark-cli" \
+  "$HOME/.local/bin/lark-cli.exe"
+do
+  if [ -x "$candidate" ]; then
+    printf '%s\n' "$candidate"
+    exit 0
+  fi
+done
+
+printf '%s\n' 'lark-cli runtime is not installed' >&2
+exit 1

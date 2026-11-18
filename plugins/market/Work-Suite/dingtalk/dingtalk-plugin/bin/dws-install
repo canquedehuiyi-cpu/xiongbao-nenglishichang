@@ -1,0 +1,8 @@
+#!/bin/sh
+# Install only the public DWS runtime. Skills are provided by this plugin.
+set -eu
+
+SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+export DWS_NO_SKILLS=1
+
+exec "$SCRIPT_DIR/install.sh"

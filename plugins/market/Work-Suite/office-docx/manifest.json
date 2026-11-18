@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "office-docx",
+  "name": "office-docx",
+  "displayName": "Word",
+  "categoryCode": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+  "categoryDir": "Work-Suite",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.4.0",
+  "publisher": "Qoder",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1a195-5061-7f00-bdd7-bd804dae947c/759a6e86_office-docx-qoder.zip",
+  "zipSha256": "b817dbec3fb2e79ecd5af06c3bf05c7d40f405033460351f61ed8b2049e4dd9d",
+  "zipBytes": 6735329,
+  "upstreamSha256": "b817dbec3fb2e79ecd5af06c3bf05c7d40f405033460351f61ed8b2049e4dd9d",
+  "files": 1898,
+  "treeSha256": "8c20d4c400de29ce408444066ee36a9516483817d04a7a31925db7e22e59808e",
+  "fetchedAt": "2026-11-18T10:42:46.747Z",
+  "credentialScan": {
+    "textFilesScanned": 1726,
+    "filesRedacted": 1
+  },
+  "note": null
+}

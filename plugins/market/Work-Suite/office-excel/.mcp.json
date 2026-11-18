@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "office-excel": {
+      "command": "${QODER_NODE_RUNTIME}",
+      "args": [
+        "${QODER_PLUGIN_ROOT}/runtime/server.cjs"
+      ],
+      "cwd": "${QODER_PLUGIN_ROOT}",
+      "timeout": 190000,
+      "env_vars": [
+        "QODER_HOME"
+      ]
+    }
+  }
+}

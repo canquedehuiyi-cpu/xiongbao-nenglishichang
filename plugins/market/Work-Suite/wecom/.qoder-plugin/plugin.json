@@ -1,0 +1,10 @@
+{
+  "name": "wecom",
+  "version": "0.1.1",
+  "displayName": "WeCom / 企业微信",
+  "description": "在 Qoder 中连接企业微信，使用消息、通讯录、日程、会议、待办、邮件、微盘、文档、表格和 PPT 能力。首次使用时引导安装 CLI 并扫码授权。",
+  "author": { "name": "WeCom" },
+  "homepage": "https://github.com/WecomTeam/wecom-cli",
+  "license": "MIT",
+  "keywords": ["wecom", "企业微信", "wecom-cli", "productivity"]
+}

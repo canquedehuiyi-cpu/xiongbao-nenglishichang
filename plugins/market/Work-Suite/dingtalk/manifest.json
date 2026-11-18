@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "dingtalk",
+  "name": "dingtalk",
+  "displayName": "钉钉",
+  "categoryCode": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+  "categoryDir": "Work-Suite",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "DingTalk",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a09ecf-2fba-7b21-853f-6ba3108c3fa1/21aaa94b_90fb77d1_dingtalk-plugin.zip",
+  "zipSha256": "3d8cea9cc64d6b00f1da1f974ec4a8c25b73b39b919784b692100638d8ff1554",
+  "zipBytes": 1092284,
+  "upstreamSha256": "3d8cea9cc64d6b00f1da1f974ec4a8c25b73b39b919784b692100638d8ff1554",
+  "files": 276,
+  "treeSha256": "e71c93e1cc753cfe9c9b56be35b927f57f86caa731fa303172d71a6c5116989f",
+  "fetchedAt": "2026-11-18T10:42:26.685Z",
+  "credentialScan": {
+    "textFilesScanned": 271,
+    "filesRedacted": 0
+  },
+  "note": null
+}

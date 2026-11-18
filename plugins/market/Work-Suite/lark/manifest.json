@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "lark",
+  "name": "lark",
+  "displayName": "Lark",
+  "categoryCode": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+  "categoryDir": "Work-Suite",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.1",
+  "publisher": "Lark Technologies Pte. Ltd.",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/larksuite/cli",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a19ca3-481a-776f-991b-263e9dceb433/499b4c2e_lark-plugin-updated.zip",
+  "zipSha256": "21d4c3b80da028b5de5da2194916ec58254ec694f19e1a20faf0f053beeacdef",
+  "zipBytes": 1874522,
+  "upstreamSha256": "21d4c3b80da028b5de5da2194916ec58254ec694f19e1a20faf0f053beeacdef",
+  "files": 561,
+  "treeSha256": "fc48596681367cbdb5db30ba4446a81916e3f70313049426935c15a123896c76",
+  "fetchedAt": "2026-11-18T10:42:31.162Z",
+  "credentialScan": {
+    "textFilesScanned": 541,
+    "filesRedacted": 2
+  },
+  "note": null
+}

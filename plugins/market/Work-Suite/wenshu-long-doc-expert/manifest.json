@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "dd4ad96c-aea9-41c5-81be-8a347ae5985d",
+  "name": "wenshu-long-doc-expert",
+  "displayName": "Wenshu",
+  "categoryCode": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+  "categoryDir": "Work-Suite",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "项丰",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a15cbd-15bb-7093-8870-af0d966f1d3b/17231a52_wenshu-long-doc-expert.zip",
+  "zipSha256": "02fbe723f7e87ff16136e4eb0ae7bd3af6f9655e285892745839559d0d7ce067",
+  "zipBytes": 1099399,
+  "upstreamSha256": "02fbe723f7e87ff16136e4eb0ae7bd3af6f9655e285892745839559d0d7ce067",
+  "files": 17,
+  "treeSha256": "229022cacebcdee51c76e0f024adf0d40584ce5f39439399d7a5be3b72552025",
+  "fetchedAt": "2026-11-18T10:42:47.131Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

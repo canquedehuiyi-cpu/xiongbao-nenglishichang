@@ -1,0 +1,18 @@
+Lark / Feishu Qoder Plugin
+
+This product includes skill content from larksuite/cli:
+https://github.com/larksuite/cli
+
+Source release: v1.0.98
+Source commit: ac81f5056ab88f37d581d25916f3dab85abfca76
+Upstream package version: 1.0.98
+Retrieved: 2026-11-02
+
+Copyright (c) 2026 Lark Technologies Pte. Ltd.
+Licensed under the MIT License. See LICENSE.
+
+The complete release skill tree is redistributed with Qoder-specific runtime
+and update guidance in lark-shared/SKILL.md, its update-notice reference,
+and the lark-apps release-upgrade instruction.
+Text files may differ in their final newline. The lark-cli binary is not
+bundled; the optional installer obtains @larksuite/cli@1.0.98 from npm by default.

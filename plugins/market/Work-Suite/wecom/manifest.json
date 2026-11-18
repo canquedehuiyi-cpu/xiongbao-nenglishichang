@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "wecom",
+  "name": "wecom",
+  "displayName": "WeCom",
+  "categoryCode": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+  "categoryDir": "Work-Suite",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.1",
+  "publisher": "WeCom",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/WecomTeam/wecom-cli",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a19ca4-7b72-7df0-8a25-72d1cb165af9/669c8870_wecom-new-qoder.zip",
+  "zipSha256": "a92ce1a64f093d6daa9b5e5a51f7b34edf93640db6c6b255de2de36a88691184",
+  "zipBytes": 755626,
+  "upstreamSha256": "a92ce1a64f093d6daa9b5e5a51f7b34edf93640db6c6b255de2de36a88691184",
+  "files": 206,
+  "treeSha256": "8a4cf8a9d3015b6fa99c74f5d3c0e3d4c919127544f6e8bec7f8c0479a10c65b",
+  "fetchedAt": "2026-11-18T10:42:28.012Z",
+  "credentialScan": {
+    "textFilesScanned": 155,
+    "filesRedacted": 0
+  },
+  "note": null
+}

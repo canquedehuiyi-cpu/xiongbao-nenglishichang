@@ -1,0 +1,12 @@
+{
+  "name": "Presentations",
+  "displayName": "PPT",
+  "version": "0.1.4",
+  "description": "Create and edit presentations, with content organization, slide layout, and presentation file output.",
+  "descriptionZh": "创建与编辑演示文稿，支持内容组织、幻灯片排版与演示文件产出",
+  "author": {
+    "name": "Qoder"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,11 @@
+{
+  "name": "office-excel",
+  "displayName": "Excel",
+  "version": "0.1.2",
+  "description": "创建与编辑电子表格，支持数据处理、公式计算与数据分析",
+  "author": {
+    "name": "Qoder"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

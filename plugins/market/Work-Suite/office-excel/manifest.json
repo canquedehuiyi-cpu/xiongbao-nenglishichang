@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "office-excel",
+  "name": "office-excel",
+  "displayName": "Excel",
+  "categoryCode": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+  "categoryDir": "Work-Suite",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.2",
+  "publisher": "Qoder",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1a165-1835-79bd-bcf1-bb9ddc8bb034/dd7c9905_office-excel-qoder.zip",
+  "zipSha256": "a390804c6fb6ae82ad0a18cd5a24a592834865dd6fdd3d4ee8c2c7a8144b6378",
+  "zipBytes": 1360051,
+  "upstreamSha256": "a390804c6fb6ae82ad0a18cd5a24a592834865dd6fdd3d4ee8c2c7a8144b6378",
+  "files": 32,
+  "treeSha256": "14ea37dc4ffb96047b6f49a5b116406d670ccca71f63883e057af4c133148516",
+  "fetchedAt": "2026-11-18T10:42:22.851Z",
+  "credentialScan": {
+    "textFilesScanned": 31,
+    "filesRedacted": 0
+  },
+  "note": null
+}

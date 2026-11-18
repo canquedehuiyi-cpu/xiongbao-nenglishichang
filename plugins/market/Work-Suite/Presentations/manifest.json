@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "Presentations",
+  "name": "Presentations",
+  "displayName": "PPT",
+  "categoryCode": "cat_c0e07b667a9d4ab8bf1283dd5e335825",
+  "categoryDir": "Work-Suite",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.4",
+  "publisher": "Qoder",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a182f8-c26c-70bc-8e85-0d42b45570f4/20bba72e_office-qoder-0.1.4.zip",
+  "zipSha256": "77056cfe662350395e505dd15632830e7a2006ffae277037198e9d5f58a3a865",
+  "zipBytes": 2204026,
+  "upstreamSha256": "77056cfe662350395e505dd15632830e7a2006ffae277037198e9d5f58a3a865",
+  "files": 16,
+  "treeSha256": "4ef4c6d52d474b29df6da1a0f830a72e96839277ea551843db233ca9e0b01224",
+  "fetchedAt": "2026-11-18T10:42:21.676Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 1
+  },
+  "note": null
+}

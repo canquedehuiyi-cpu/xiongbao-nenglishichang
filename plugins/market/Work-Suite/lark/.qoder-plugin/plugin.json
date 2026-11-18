@@ -1,0 +1,17 @@
+{
+  "name": "lark",
+  "version": "0.1.1",
+  "displayName": "Lark / 飞书",
+  "description": "通过 lark-cli 在 Qoder 中使用飞书与 Lark 的消息、文档、日历、多维表格、任务、邮件等能力。",
+  "author": {
+    "name": "Lark Technologies Pte. Ltd."
+  },
+  "homepage": "https://github.com/larksuite/cli",
+  "license": "MIT",
+  "keywords": [
+    "lark",
+    "feishu",
+    "lark-cli",
+    "productivity"
+  ]
+}

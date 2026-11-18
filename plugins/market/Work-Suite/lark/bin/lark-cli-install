@@ -1,0 +1,37 @@
+#!/bin/sh
+# Install only the public lark-cli runtime. Skills are provided by this plugin.
+set -eu
+
+if [ -n "${LARK_CLI_RUNTIME_EXECUTABLE:-}" ]; then
+  printf '%s\n' 'LARK_CLI_RUNTIME_EXECUTABLE is set. Update that runtime or unset the override before installing.' >&2
+  exit 1
+fi
+
+if ! command -v npm >/dev/null 2>&1; then
+  printf '%s\n' 'npm is required to install lark-cli. Install Node.js/npm, then retry.' >&2
+  exit 1
+fi
+
+INSTALL_ROOT="${LARK_CLI_INSTALL_ROOT:-$HOME/.local/share/qoder/lark-cli}"
+PACKAGE_SPEC="${LARK_CLI_PACKAGE_SPEC:-@larksuite/cli@1.0.98}"
+TARGET_NAME="lark-cli"
+case "$(uname -s 2>/dev/null || true)" in
+  MINGW*|MSYS*|CYGWIN*) TARGET_NAME="lark-cli.exe" ;;
+esac
+TARGET="$INSTALL_ROOT/node_modules/@larksuite/cli/bin/$TARGET_NAME"
+
+npm install \
+  --prefix "$INSTALL_ROOT" \
+  --no-audit \
+  --no-fund \
+  --omit=dev \
+  "$PACKAGE_SPEC"
+
+if [ ! -f "$TARGET" ]; then
+  printf '%s\n' "lark-cli installation completed but runtime was not found at $TARGET" >&2
+  exit 1
+fi
+
+chmod 755 "$TARGET"
+"$TARGET" --version >/dev/null
+printf '%s\n' "$TARGET"
