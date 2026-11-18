@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_lCHeqEXG",
+  "name": "code-reviewer",
+  "displayName": "代码审查者",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kamelmh",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-reviewer/latest/code-reviewer.zip",
+  "zipSha256": "52b0b82651a8ac6f85b16c10f392d0dccee4769bd3c5a79bf4f8c63a35646496",
+  "zipBytes": 2518,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "85bfa3ddbd65504e7c98597accf1d4f891d48f40e9d052fb24621f1146cbdf28",
+  "fetchedAt": "2026-11-18T10:34:11.048Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

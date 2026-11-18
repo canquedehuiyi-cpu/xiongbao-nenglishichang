@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NQ2jopjw",
+  "name": "diegosouzapw-acc-check-immutability",
+  "displayName": "Acc检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-acc-check-immutability/latest/diegosouzapw-acc-check-immutability.zip",
+  "zipSha256": "80c41f5f17553ed3f33bb9b758474dbcbbadb830cc9fe46946195e72eccec777",
+  "zipBytes": 4288,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a69477c270f5faacc6dd1e1e5383912a19d8106e38349ffc62ddcae8f0e4c9f6",
+  "fetchedAt": "2026-11-18T10:34:26.650Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

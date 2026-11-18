@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "da2fed1a-6e06-456f-8794-c3a4a1bacfe2",
+  "name": "alipay-payment-skill",
+  "displayName": "支付宝AI付（官方）",
+  "categoryCode": "E-commerce & Retail",
+  "categoryDir": "E-commerce-and-Retail",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f02ad-8bec-7960-803a-c4ae1acc38e0",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a13881-5df1-7706-9564-5170e8b98cc3/edd94c09_alipay-payment-skill.zip",
+  "zipSha256": "a5a9265714f921b30698aa2ceacdcea98cfe31401737129b61f66d1af5c1443d",
+  "zipBytes": 22641,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 25,
+  "treeSha256": "f4b3f42b293c7f637b1d7d55da6c7cd76070851ffab0cf87f4f6ffa87c5133a0",
+  "fetchedAt": "2026-11-18T10:39:00.139Z",
+  "credentialScan": {
+    "textFilesScanned": 18,
+    "filesRedacted": 0
+  },
+  "note": null
+}

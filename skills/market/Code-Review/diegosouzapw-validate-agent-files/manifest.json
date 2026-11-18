@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6iTx7Lxh",
+  "name": "diegosouzapw-validate-agent-files",
+  "displayName": "Git验证检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-validate-agent-files/latest/diegosouzapw-validate-agent-files.zip",
+  "zipSha256": "677a92b673ddcd6fdfd510850e9544c428849895a2894275973de97268787fa5",
+  "zipBytes": 3384,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "cd5d8b82d9c3b6ffac912d059d2ea70ff831f366cfbc034e2d9d710bdc7c3170",
+  "fetchedAt": "2026-11-18T10:33:51.242Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Cu8VcfHR",
+  "name": "using-arch-compiler",
+  "displayName": "使用架构编译器",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/using-arch-compiler/latest/using-arch-compiler.zip",
+  "zipSha256": "e30a6b142c93b497b67ab50d67a9d54461b74ede4ca53035756c3d7f2ed44e3c",
+  "zipBytes": 1919,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "aed774fb57e13a576b42e9ddbff53c6ca6ff8eb8b7beb4abbcd24e0c072cc034",
+  "fetchedAt": "2026-11-18T10:41:46.559Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RmtyWc2t",
+  "name": "delexw-oxlint",
+  "displayName": "Oxlint开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "delexw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/delexw-oxlint/latest/delexw-oxlint.zip",
+  "zipSha256": "2be0984af21b4b8c13f038f5fb0f66964ebede3e95ec7de3ae3d0672c9ec433e",
+  "zipBytes": 3496,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "22ec357297ebbbd7ca8d4fe3ecb6325875c24a17bcfc246039405ce2d2a2444a",
+  "fetchedAt": "2026-11-18T10:34:23.500Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

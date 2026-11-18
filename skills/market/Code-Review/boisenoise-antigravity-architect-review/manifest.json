@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YrPEacht",
+  "name": "boisenoise-antigravity-architect-review",
+  "displayName": "现代架构的软件架构师",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-architect-review/latest/boisenoise-antigravity-architect-review.zip",
+  "zipSha256": "de812e47001c90190213dbdc31b969ef8a5f4735eb3ec5fae84e2160d576d2c4",
+  "zipBytes": 3551,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1329256eb8c3afdd6c5a7a417572595c76b490e51b99a03a4bb0804495c93d0f",
+  "fetchedAt": "2026-11-18T10:33:47.705Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

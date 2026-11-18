@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_QnBpiBIZ",
+  "name": "code-review-excellence",
+  "displayName": "卓越的代码审查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "sickn33",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-review-excellence/latest/code-review-excellence.zip",
+  "zipSha256": "7d9ff73d8632e48a33f5d99338382dff7b3327aca0d55a96f19cd343ecd7d5b7",
+  "zipBytes": 972,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1ef240b1a73086e71f0079e2972ecad5a8cb8ba7740985be4a57dcb84937aaf7",
+  "fetchedAt": "2026-11-18T10:34:02.391Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

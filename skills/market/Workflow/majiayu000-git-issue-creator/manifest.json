@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0A9sosuu",
+  "name": "majiayu000-git-issue-creator",
+  "displayName": "Git创建",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-git-issue-creator/latest/majiayu000-git-issue-creator.zip",
+  "zipSha256": "1f4245f2a5562905b713431ae759e60bc661947caed8cbe814baaf74c9f1ec31",
+  "zipBytes": 4762,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8cfd410960d8a475033bb48aa0fe23e4c04cda735ecaf39c9e0c71a2cf50f6e4",
+  "fetchedAt": "2026-11-18T10:41:34.052Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

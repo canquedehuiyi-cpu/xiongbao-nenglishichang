@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tFECQmqK",
+  "name": "diegosouzapw-acc-layer-arch-knowledge-majiayu000",
+  "displayName": "知识分层",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-acc-layer-arch-knowledge-majiayu000/latest/diegosouzapw-acc-layer-arch-knowledge-majiayu000.zip",
+  "zipSha256": "080d07c4516d26081e18124c9696fc044dc67578c9c050b3fc4f952100d87b41",
+  "zipBytes": 3587,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "96c37ca474d4438b2abb73cb3c9aa6c6b5f606e8a755babdbf42bbcd2d909c44",
+  "fetchedAt": "2026-11-18T10:34:14.273Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ANqm2xaS",
+  "name": "lgbarn-terraform-plan-review",
+  "displayName": "安全IaC分析",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lgbarn",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/lgbarn-terraform-plan-review/latest/lgbarn-terraform-plan-review.zip",
+  "zipSha256": "2ccd13c8203ef4f789042171ac5c26192c9c11dfe0d166a5ac051f0cfbaee3bc",
+  "zipBytes": 2381,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "259be33d5e4ae5f41e88267dc2cc08d270ac2033b1a80da25aaef58fe3502cc0",
+  "fetchedAt": "2026-11-18T10:34:11.665Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bk1Q4qgG",
+  "name": "levnikolaevich-ln-623-code-principles-auditor",
+  "displayName": "Ln审计",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "levnikolaevich",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/levnikolaevich-ln-623-code-principles-auditor/latest/levnikolaevich-ln-623-code-principles-auditor.zip",
+  "zipSha256": "8d808a8e51c6ec35d41c74e1b13b087deb5ce105d0fcb3dcfb515087ef030136",
+  "zipBytes": 12380,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "01bd6d5416f67a157132e510596db45f17318bdb54ea875fa6e9966569f0b59b",
+  "fetchedAt": "2026-11-18T10:34:24.329Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

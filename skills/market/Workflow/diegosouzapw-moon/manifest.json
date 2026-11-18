@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5Sfs2I0g",
+  "name": "diegosouzapw-moon",
+  "displayName": "MOON运维",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-moon/latest/diegosouzapw-moon.zip",
+  "zipSha256": "79f0d7146cb1a2720490af90639b30cf2daa451c68e2be4d3afc556078d5178a",
+  "zipBytes": 4210,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "45703a99ef4d0043aae22a5c69d65cb749fbbdc6e8b3e064c7a01bfaf1954ea8",
+  "fetchedAt": "2026-11-18T10:41:54.093Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

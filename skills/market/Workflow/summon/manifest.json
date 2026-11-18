@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7BfK3eD7",
+  "name": "summon",
+  "displayName": "召唤",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/summon/latest/summon.zip",
+  "zipSha256": "8decdb1309210b5ed4f9ebb1c9888de5cde72bdac6112d744ca80465955ff1b2",
+  "zipBytes": 1682,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c396a4b4ff4f2601b407880ca2ed47afd00d986f818f202d75c6593f830f5125",
+  "fetchedAt": "2026-11-18T10:42:05.935Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,29 @@
+{
+  "_comment": "可选增强配置模板（默认不启用）。command 用 {{PYTHON_BIN}} 与 {{HOOKS_DIR}} 占位符，由方式 A 运行时环境变量替换，或经 hooks/install_hooks.py 预处理生成 hooks.installed.json（方式 B）。本模板不写死任何机器路径。matcher 取并集 write_to_file|replace_in_file|Write|Edit，跨工具通用。不启用本配置，技能一切功能照常。",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "write_to_file|replace_in_file|Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"{{PYTHON_BIN}}\" \"{{HOOKS_DIR}}/pre_write_guard.py\"",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "write_to_file|replace_in_file|Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"{{PYTHON_BIN}}\" \"{{HOOKS_DIR}}/post_write_check.py\"",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
+  }
+}

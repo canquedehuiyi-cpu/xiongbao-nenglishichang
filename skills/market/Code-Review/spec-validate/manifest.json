@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RUnokcMH",
+  "name": "spec-validate",
+  "displayName": "规范验证",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "filipemotta",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/spec-validate/latest/spec-validate.zip",
+  "zipSha256": "21e14166311a6f30c408a674ce9ac6bce9a294514f1766fff113c13b3746b2f9",
+  "zipBytes": 2209,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7d81f501ff294a3d2b056974354a8b662928e965561eb37ad766484b15cfdd35",
+  "fetchedAt": "2026-11-18T10:34:18.783Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DjSciL8E",
+  "name": "levnikolaevich-ln-626-dead-code-auditor",
+  "displayName": "DEADLn审计",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "levnikolaevich",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/levnikolaevich-ln-626-dead-code-auditor/latest/levnikolaevich-ln-626-dead-code-auditor.zip",
+  "zipSha256": "3178e2cd796938a6036b7d7384b723d8dfb4c0f5aa204bb4305538f511f398f5",
+  "zipBytes": 2730,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "bcb20291357a39ec38270edb441c15163bad2c822150ca0a337518863decc5d2",
+  "fetchedAt": "2026-11-18T10:34:11.195Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_CsWORD6I",
+  "name": "agent-autopilot-bak",
+  "displayName": "智能体自动巡航工作流",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "15228947433",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-autopilot-bak/latest/agent-autopilot-bak.zip",
+  "zipSha256": "a8b203638ad2fbaa9c72dbf462b721c02861b2225844c5f5b03a410fe4a1e883",
+  "zipBytes": 10245,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "3add535a00e9ead262adcc70e0c1e803cfb194593127d275e458186830f7f34e",
+  "fetchedAt": "2026-11-18T10:41:33.299Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

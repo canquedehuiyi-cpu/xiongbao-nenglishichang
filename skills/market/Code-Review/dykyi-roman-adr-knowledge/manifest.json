@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_jfCQskTA",
+  "name": "dykyi-roman-adr-knowledge",
+  "displayName": "ADR文档",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dykyi-roman",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dykyi-roman-adr-knowledge/latest/dykyi-roman-adr-knowledge.zip",
+  "zipSha256": "290ba6ad41d870903f25c55f19ccaf8cf04671c53c0562e4519da1b72e1b6942",
+  "zipBytes": 16713,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "e740eff50376cd0d2faa8cc9a2e1746af715c1f8e8a1c4d14d0e25660c1e6c2d",
+  "fetchedAt": "2026-11-18T10:34:17.045Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

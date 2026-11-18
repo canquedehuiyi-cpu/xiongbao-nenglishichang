@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_O56vU2he",
+  "name": "code-review-change-size",
+  "displayName": "代码审查更改大小",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "openai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-review-change-size/latest/code-review-change-size.zip",
+  "zipSha256": "971f4fdf4e3b545c2c9eb09b9b3228881ea64ee2e26d1b479b5b60bc7dd99705",
+  "zipBytes": 440,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "58e8c7fbef4a7a9a7f82d37c2dcc446837ccf5bcbd6a38575b213be59ada5e66",
+  "fetchedAt": "2026-11-18T10:34:18.129Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

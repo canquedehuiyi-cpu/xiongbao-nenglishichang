@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_TuWBE9ap",
+  "name": "a5c-ai-wpf-high-dpi-analyzer",
+  "displayName": "WPF适配",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "a5c-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/a5c-ai-wpf-high-dpi-analyzer/latest/a5c-ai-wpf-high-dpi-analyzer.zip",
+  "zipSha256": "96fceedea06969af74caeeeda4d2f223fa67053895f93903410473a03b71add8",
+  "zipBytes": 3783,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "ee80623f84456dbf297f39dc3940e884ff4dd9c91787baa6d857a67e68ad1a33",
+  "fetchedAt": "2026-11-18T10:34:04.701Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

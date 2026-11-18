@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GerepZ0j",
+  "name": "jem-open-review-fix-loop",
+  "displayName": "修复LOOP",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jem-open",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jem-open-review-fix-loop/latest/jem-open-review-fix-loop.zip",
+  "zipSha256": "45be91dc8f047216db77e04e3a94648eba4e76aea7644758f9ea8570d100cd79",
+  "zipBytes": 2766,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "35a0d49f873c568e5f3366386f56a8039e1f4fa802badb4519f503072dc4d594",
+  "fetchedAt": "2026-11-18T10:33:54.464Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

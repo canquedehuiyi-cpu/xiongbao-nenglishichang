@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UAoC7vSH",
+  "name": "diegosouzapw-workflow-composer",
+  "displayName": "Composer流程",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-workflow-composer/latest/diegosouzapw-workflow-composer.zip",
+  "zipSha256": "dacbcdbd57b4edfcade6048e1089526231cfbe5f64f472c87a7fda0d4d9bd631",
+  "zipBytes": 5027,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "4c2f9be27a93e67ed5e82ee6f83c09b205afe35f3efd15e7b3f42fe1aff29dd3",
+  "fetchedAt": "2026-11-18T10:41:47.494Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

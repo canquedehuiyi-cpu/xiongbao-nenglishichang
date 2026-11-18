@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_atvsDmcV",
+  "name": "carmandale-data-migration-expert",
+  "displayName": "数据工具",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "carmandale",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/carmandale-data-migration-expert/latest/carmandale-data-migration-expert.zip",
+  "zipSha256": "a0770f4ee8423cc34a70054cdad9b23af05c1f409f6f2ddec9c6c39c38877f5b",
+  "zipBytes": 2460,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "d1be79bb6d1f43ec09dc8648b6acfdc554543302caecaaa8e5e04397b494f90a",
+  "fetchedAt": "2026-11-18T10:34:19.433Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PpE1BMda",
+  "name": "workflow-package-upgrade",
+  "displayName": "工作流程包升级",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "duc01226",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/workflow-package-upgrade/latest/workflow-package-upgrade.zip",
+  "zipSha256": "15220190a2e8892965b74d6a15f60d37268fb70a0f56126bd23aa0f279b74970",
+  "zipBytes": 7487,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "d76f1fd3d0236bc5971d69c2294f491cbaab43612c55cd581b2f997c99ca2d57",
+  "fetchedAt": "2026-11-18T10:41:47.198Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

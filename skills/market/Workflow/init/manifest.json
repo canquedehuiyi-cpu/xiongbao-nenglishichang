@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tFZ8uwOg",
+  "name": "init",
+  "displayName": "初始化",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "HypoxanthineOvO",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/init/latest/init.zip",
+  "zipSha256": "96e42e4f38a232f3972dafa7fa45a56341af5855f22040f0aafd1a0dfd50e6b4",
+  "zipBytes": 4650,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "682f4662a9b4aac28ea14ec921da95236a3677eb8666572719ebfb934ff61f6d",
+  "fetchedAt": "2026-11-18T10:41:53.246Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

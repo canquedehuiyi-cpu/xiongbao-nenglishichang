@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_N78IYu4t",
+  "name": "lennetech-rebasing-branches",
+  "displayName": "Rebasing修复",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lenneTech",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/lennetech-rebasing-branches/latest/lennetech-rebasing-branches.zip",
+  "zipSha256": "e92ba3b6e46822dc76394be404ccae6270f13d0c3ab6f616cc5e1cd40f79cc08",
+  "zipBytes": 2790,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c77aa07f3dcccb29bf2c240cb679849199ce77b9241c3762aafea76d4a9e4489",
+  "fetchedAt": "2026-11-18T10:42:08.727Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

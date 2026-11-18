@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4YGFW2Fg",
+  "name": "melodic-software-analyze-prompt",
+  "displayName": "提示词优化",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "melodic-software",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/melodic-software-analyze-prompt/latest/melodic-software-analyze-prompt.zip",
+  "zipSha256": "69b3fafe4bf58d47e2562eb3d1d20c6dee5b87274b658b4bb2a2876c9d5b039f",
+  "zipBytes": 1262,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "81a84fbc0d35ea804d478d8b6bdd3ffba8210970e658c254d88d3487be512dee",
+  "fetchedAt": "2026-11-18T10:33:47.395Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

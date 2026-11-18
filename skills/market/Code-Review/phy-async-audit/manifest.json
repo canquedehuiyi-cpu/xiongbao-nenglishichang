@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_CJVlYqzh",
+  "name": "phy-async-audit",
+  "displayName": "异步错误处理审计器",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/phy-async-audit/latest/phy-async-audit.zip",
+  "zipSha256": "6686a367931de3330c5b69e686258bc165e4283dd559135423003b8cf448b1ba",
+  "zipBytes": 10872,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f2334dc63d066a92c93e41f3f0ba97c576f3651f0ea5e4b5d88cfa602dc0d129",
+  "fetchedAt": "2026-11-18T10:33:56.041Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

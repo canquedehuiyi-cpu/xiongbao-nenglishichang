@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Qw1anaE0",
+  "name": "receiving-code-review",
+  "displayName": "接受代码审查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "sickn33",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/receiving-code-review/latest/receiving-code-review.zip",
+  "zipSha256": "54070d1ed298ec908434815feab92f02ea4f851109cdb26aca5d655051d77d25",
+  "zipBytes": 3103,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4b22450980d27fbb8e763c953ae2203831813118ed5d7169756dc8916d2aec56",
+  "fetchedAt": "2026-11-18T10:34:00.700Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

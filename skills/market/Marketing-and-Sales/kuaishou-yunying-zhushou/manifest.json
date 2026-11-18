@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "2689fe2f-eff3-449e-a1fa-c30f1244381a",
+  "name": "kuaishou-yunying-zhushou",
+  "displayName": "快手运营分析助手",
+  "categoryCode": "Marketing & Sales",
+  "categoryDir": "Marketing-and-Sales",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ad5e-7e4b-7e06-9e2a-f252d58779c6/7dabe049_kuaishou-data-miner-1.0.0.zip",
+  "zipSha256": "ebad7d9d30c9f25b895edf29ffa01516ff0e38d592715691a96b4d778102e573",
+  "zipBytes": 28381,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 21,
+  "treeSha256": "64d992c8f3d4e2ac0e84ad03d70c38c50732e7e3017bbeb2e9f48d757ed4e75f",
+  "fetchedAt": "2026-11-18T10:39:50.602Z",
+  "credentialScan": {
+    "textFilesScanned": 21,
+    "filesRedacted": 0
+  },
+  "note": null
+}

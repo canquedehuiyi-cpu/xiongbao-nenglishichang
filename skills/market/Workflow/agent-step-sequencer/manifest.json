@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1k6wv10x",
+  "name": "agent-step-sequencer",
+  "displayName": "代理步骤编排器",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "gostlightai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-step-sequencer/latest/agent-step-sequencer.zip",
+  "zipSha256": "fbc46ec2ca2b92d7dd705271738508658ae78039ccbb6176714121bce311c8a6",
+  "zipBytes": 16879,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "c1c257a8e711ca8de032ad8e7cfecd905fbd3cf7efb9fb02f79f55aa8b6dd9ed",
+  "fetchedAt": "2026-11-18T10:41:40.654Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_U2wY4COC",
+  "name": "parallel-agent-dispatch",
+  "displayName": "并行代理调度",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/parallel-agent-dispatch/latest/parallel-agent-dispatch.zip",
+  "zipSha256": "7f1f0055afabbbdabdb12a2bfa4e52fc8a49c3d0d307cb366fb83a41b18f380d",
+  "zipBytes": 6353,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a92d2df022af07bd5c8df10fc70504cf3b2f890f10eaeee665b00381bf5ef8a1",
+  "fetchedAt": "2026-11-18T10:41:44.790Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

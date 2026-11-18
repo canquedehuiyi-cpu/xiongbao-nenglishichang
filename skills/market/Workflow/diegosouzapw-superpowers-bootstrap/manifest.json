@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_B0XQ78ao",
+  "name": "diegosouzapw-superpowers-bootstrap",
+  "displayName": "流程会话检索",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-superpowers-bootstrap/latest/diegosouzapw-superpowers-bootstrap.zip",
+  "zipSha256": "05539ef64ae634de99ea1adf268bc54a2c0b6e04ed7bf7251ccb851fe1bbf7d9",
+  "zipBytes": 3426,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "37830e0eae48928af1fee5f7b00fa74917ff3ec271d317b5b36967041abfb472",
+  "fetchedAt": "2026-11-18T10:41:31.197Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

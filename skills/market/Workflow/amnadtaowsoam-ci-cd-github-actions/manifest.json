@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Yrz59p0V",
+  "name": "amnadtaowsoam-ci-cd-github-actions",
+  "displayName": "CICd修复",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AmnadTaowsoam",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amnadtaowsoam-ci-cd-github-actions/latest/amnadtaowsoam-ci-cd-github-actions.zip",
+  "zipSha256": "5d5eddc0f111753737429d1ece683996293be3f17407937bd35fb62d6871bdf4",
+  "zipBytes": 3902,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "269fa0b094c7576744d6b6ada8e179c072466828c22b27538eab1065f6c2e37d",
+  "fetchedAt": "2026-11-18T10:42:10.275Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

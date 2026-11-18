@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Jh9p9XXQ",
+  "name": "mill-go",
+  "displayName": "磨坊去",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mill-go/latest/mill-go.zip",
+  "zipSha256": "3fd53dfaccfc3253b4fd51fc81c4228101ad8d76ddd5d061ecf23ddd5a92aa36",
+  "zipBytes": 7384,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1257d01691eed0a308d27aa5b1aaf9c9caaa07cf316d9bd8ba59dc0e055f6c6a",
+  "fetchedAt": "2026-11-18T10:42:08.074Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

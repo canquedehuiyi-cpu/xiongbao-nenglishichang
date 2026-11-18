@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tXtkpwex",
+  "name": "koolamusic-nit",
+  "displayName": "代理NIT",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "koolamusic",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/koolamusic-nit/latest/koolamusic-nit.zip",
+  "zipSha256": "bc827f53ccef23143a38fea51d0054e5ee8be9bba229409c61368a46679a8f85",
+  "zipBytes": 6050,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "c2aa98d66f30a33c37dcec9a9dd29e42b26cbf2aaa4d9544552c7ccebce64940",
+  "fetchedAt": "2026-11-18T10:34:19.598Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

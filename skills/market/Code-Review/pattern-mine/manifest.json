@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_zB2uyngf",
+  "name": "pattern-mine",
+  "displayName": "模式挖掘工具",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jcools1977",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pattern-mine/latest/pattern-mine.zip",
+  "zipSha256": "f904269e48336a78ca7c1f9387cc17b688fe45181a6b83e006aade075d076ed1",
+  "zipBytes": 5319,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3d4eed6fe114629b696bf83afce674049deeabe0d9c5d80450103efc4da7909d",
+  "fetchedAt": "2026-11-18T10:33:53.322Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

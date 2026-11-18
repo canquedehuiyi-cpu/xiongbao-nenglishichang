@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fZ3n5Wxh",
+  "name": "diegosouzapw-acc-cqrs-knowledge-majiayu000",
+  "displayName": "知识CQRS开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-acc-cqrs-knowledge-majiayu000/latest/diegosouzapw-acc-cqrs-knowledge-majiayu000.zip",
+  "zipSha256": "18d8a411c2ff53c25d90dcc092464d54f923275e990e563cd2ddc52b25070546",
+  "zipBytes": 2860,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b788058396fc4f6aa294fc6141b42030b0947b31f5ffdbc7dd11d5b4527ef861",
+  "fetchedAt": "2026-11-18T10:34:25.544Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

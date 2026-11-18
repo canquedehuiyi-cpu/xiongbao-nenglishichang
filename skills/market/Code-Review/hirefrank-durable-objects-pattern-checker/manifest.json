@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_W9GOMDeu",
+  "name": "hirefrank-durable-objects-pattern-checker",
+  "displayName": "Durable检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "hirefrank",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/hirefrank-durable-objects-pattern-checker/latest/hirefrank-durable-objects-pattern-checker.zip",
+  "zipSha256": "6826877bffeb9a0bf0bfb90e36699936da16dbabd3dac31c4b2d9f504dbea4c9",
+  "zipBytes": 3564,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "76cca99fa61702b4cd1c55bb15047c03f89a4718a7d4c2e46cb779f5fd42083c",
+  "fetchedAt": "2026-11-18T10:34:24.728Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

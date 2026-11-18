@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UM7AbC5Q",
+  "name": "majiayu000-process-issues",
+  "displayName": "Issues开发",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-process-issues/latest/majiayu000-process-issues.zip",
+  "zipSha256": "b5285de03c7f4eabca1658edf5d8eeb5784676d446cf27dbe10ce8e0e1b0aa2a",
+  "zipBytes": 5579,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f7093bb56fc0b7e12829c7675ef0b193877f0364557f4442bb8dce17322a0daa",
+  "fetchedAt": "2026-11-18T10:41:59.966Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

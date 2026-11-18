@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_AoxxlDmp",
+  "name": "aidlc",
+  "displayName": "国际数据中心",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ikeisuke",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aidlc/latest/aidlc.zip",
+  "zipSha256": "13b05113890325de1e791e7407e2a999413c1554e54f4631ad6990a8508486b7",
+  "zipBytes": 7049,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "36be483b4dfe85c3b5a14f60b584fdd0f18b57d00acf8c55d0cc7cd19705fc4d",
+  "fetchedAt": "2026-11-18T10:42:05.785Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LU0Gus51",
+  "name": "hhu3637kr-spec-start",
+  "displayName": "规格Start",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "HHU3637kr",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/hhu3637kr-spec-start/latest/hhu3637kr-spec-start.zip",
+  "zipSha256": "c294b14a72f1eed2da7225b09d3e088342b25a3668fa6a897d7c442bb09d9f96",
+  "zipBytes": 3303,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "dffcac42a7479ad5c36d4fa89ff030010acfb6d2fd39cacc9089ae2ca4c17d65",
+  "fetchedAt": "2026-11-18T10:42:08.585Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

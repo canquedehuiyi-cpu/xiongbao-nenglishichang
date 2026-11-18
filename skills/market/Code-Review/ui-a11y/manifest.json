@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2bO6QTPS",
+  "name": "ui-a11y",
+  "displayName": "用户界面 a1y",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "sickn33",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ui-a11y/latest/ui-a11y.zip",
+  "zipSha256": "19495d62e9e4b97cacc16fc6b4e4cbb7a9848a33deb7b0b1b2e54cdbb74c9d57",
+  "zipBytes": 1550,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1878725aea3a82103975a263b2d79d18046e0fe991155cb2461ab47382819cf2",
+  "fetchedAt": "2026-11-18T10:34:01.452Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

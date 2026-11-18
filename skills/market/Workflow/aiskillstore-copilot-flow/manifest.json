@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_VbNqbF2s",
+  "name": "aiskillstore-copilot-flow",
+  "displayName": "Copilot分析",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-copilot-flow/latest/aiskillstore-copilot-flow.zip",
+  "zipSha256": "4c5938af0daf54e5caaba10be9c8f3afaebf70d2789089b7f5c24c5056585d4f",
+  "zipBytes": 5583,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "264e9a71a43ba499e2077569354b112f1eb94431f9b4d7faa4e180f5a3b27c3c",
+  "fetchedAt": "2026-11-18T10:41:51.380Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

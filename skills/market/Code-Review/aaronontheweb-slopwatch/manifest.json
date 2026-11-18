@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_QuYsBtDc",
+  "name": "aaronontheweb-slopwatch",
+  "displayName": "LLM开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Aaronontheweb",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aaronontheweb-slopwatch/latest/aaronontheweb-slopwatch.zip",
+  "zipSha256": "0fc3abf3b4ca9a18627cf0cd624b26c1cd51e0fb5020345596ca1dacc5d6d5d3",
+  "zipBytes": 3593,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a9ddfe90811613f1519d46fda2d7f9196b0dbdcc22477ce45fd8c905b9374172",
+  "fetchedAt": "2026-11-18T10:34:23.352Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

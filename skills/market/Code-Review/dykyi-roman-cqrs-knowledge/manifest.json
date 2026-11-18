@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fXlvmqol",
+  "name": "dykyi-roman-cqrs-knowledge",
+  "displayName": "CQRS开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dykyi-roman",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dykyi-roman-cqrs-knowledge/latest/dykyi-roman-cqrs-knowledge.zip",
+  "zipSha256": "651bc4620564e0d5b38774522e609b1bfdd3aba366ef875b83855813a95f5ae5",
+  "zipBytes": 16911,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "02cc7650b80be15e709676274503745c4bc355cab4dde9a2d87593decf4da48e",
+  "fetchedAt": "2026-11-18T10:34:15.141Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

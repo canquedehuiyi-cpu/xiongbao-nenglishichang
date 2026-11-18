@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_e7Cycb5B",
+  "name": "ooooooooo",
+  "displayName": "执行实施计划",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "tlreal",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ooooooooo/latest/ooooooooo.zip",
+  "zipSha256": "a3b7b0c44b2712920df397525b08901d5957da09f9f583874910ac62eee659de",
+  "zipBytes": 1481,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c640e96fa47c9451860a3dbf54f53c8735d9d8c1a646dee7474c83b9c2c72910",
+  "fetchedAt": "2026-11-18T10:41:47.650Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

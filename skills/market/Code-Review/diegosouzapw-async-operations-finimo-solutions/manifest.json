@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Y2eVdAGH",
+  "name": "diegosouzapw-async-operations-finimo-solutions",
+  "displayName": "异步运维开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-async-operations-finimo-solutions/latest/diegosouzapw-async-operations-finimo-solutions.zip",
+  "zipSha256": "bc6baf1d21584f465c8dd68db50ea7f49e78470e9c1598829c3a56a9fed53bff",
+  "zipBytes": 2779,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "371b52d7dcf461637a8b5576b3921b3bc268a9af9b9891de42554146447dd781",
+  "fetchedAt": "2026-11-18T10:34:28.304Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

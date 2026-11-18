@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_IeO3RQQx",
+  "name": "dx-step-all",
+  "displayName": "dx 步骤全部",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dx-step-all/latest/dx-step-all.zip",
+  "zipSha256": "04754c988267380e31032d13dec0907a786b1fb1e31b80eb93357ea908fbaff1",
+  "zipBytes": 7142,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "bf8c85afb972348619012f18b23bb5982070e1521d45b6658217481b768478b6",
+  "fetchedAt": "2026-11-18T10:42:09.594Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

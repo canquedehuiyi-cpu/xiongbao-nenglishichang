@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DGemexIK",
+  "name": "am-agent-code-reviewer",
+  "displayName": "am 代理代码审查员",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/am-agent-code-reviewer/latest/am-agent-code-reviewer.zip",
+  "zipSha256": "38463024a710e9cfb90152dedbf58d97ce78677a296a6b927c15ffb25f3cb97e",
+  "zipBytes": 473,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "57145857d7e32068ee6366c4b8efbdd6337e21d41e7f7905cdcc26b4744660e1",
+  "fetchedAt": "2026-11-18T10:34:26.335Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

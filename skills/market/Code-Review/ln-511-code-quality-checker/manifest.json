@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_VdbwLca9",
+  "name": "ln-511-code-quality-checker",
+  "displayName": "ln 511 代码质量检查器",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ln-511-code-quality-checker/latest/ln-511-code-quality-checker.zip",
+  "zipSha256": "2f47d47ce2ea3357a050f9ad9cbd8b2e3d925eb50646bfc1143d10b3023ef04e",
+  "zipBytes": 6489,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7593874c2ed0abd235f2961d26bbf65e78268fa1791c6d4b90b7cc63d0e3cb26",
+  "fetchedAt": "2026-11-18T10:34:27.585Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6EeKDYw9",
+  "name": "akin-ozer-promql-validator",
+  "displayName": "Promql验证",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "akin-ozer",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/akin-ozer-promql-validator/latest/akin-ozer-promql-validator.zip",
+  "zipSha256": "23bad3a1ab75382c6a7998d7b6ca2656bf9995e7de2c457dc70b1ef1eb77a58a",
+  "zipBytes": 46969,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "c020a39648ac5d6ba2c2f7f2e36ba140db428b341a58a69f494071c46a27cb48",
+  "fetchedAt": "2026-11-18T10:34:07.771Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_h8eabdKv",
+  "name": "astoreyai-latex-check",
+  "displayName": "文档检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "astoreyai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/astoreyai-latex-check/latest/astoreyai-latex-check.zip",
+  "zipSha256": "1cc748e77d2b709ba2793cf4af193125544fa1f34b5ee642f3bfabd0bd2c28f0",
+  "zipBytes": 48009,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "5467f48afe1d510d8f3df7759509931c869ef2d70eee147fddc1be78c5506654",
+  "fetchedAt": "2026-11-18T10:33:49.936Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

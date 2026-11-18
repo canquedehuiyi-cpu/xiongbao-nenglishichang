@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_VEworv2P",
+  "name": "dingtalk-daily",
+  "displayName": "钉钉日志管理",
+  "categoryCode": "Productivity",
+  "categoryDir": "Productivity",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dingtalk-daily/latest/dingtalk-daily.zip",
+  "zipSha256": "45fe6883d33a1785959f737ff096a080fb2314cd869c4bc9a1d9a9b1220e4c4c",
+  "zipBytes": 15230,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "610cdb503b53b4c7fb6273b5aea28234dd3d5e17f6453031d5c01dfd1698af1a",
+  "fetchedAt": "2026-11-18T10:39:54.071Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

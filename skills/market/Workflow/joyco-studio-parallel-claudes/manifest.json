@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SQiMfl26",
+  "name": "joyco-studio-parallel-claudes",
+  "displayName": "Claudes代理",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "joyco-studio",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/joyco-studio-parallel-claudes/latest/joyco-studio-parallel-claudes.zip",
+  "zipSha256": "1b1bb053d28a44c8b37f879314ab5417f2cfb321b976c40eb6a3aa26b060c5dd",
+  "zipBytes": 3473,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "bd758fd3f4d79ab095233a4b720d2c1a50ce1e62555ffa895e863d46e5c3c8e3",
+  "fetchedAt": "2026-11-18T10:41:58.573Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

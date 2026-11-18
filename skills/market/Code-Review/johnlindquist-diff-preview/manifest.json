@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_iPNne4To",
+  "name": "johnlindquist-diff-preview",
+  "displayName": "Diff开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "johnlindquist",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/johnlindquist-diff-preview/latest/johnlindquist-diff-preview.zip",
+  "zipSha256": "0506d38a049a183e1a80942ec02d90c9b582104a909cdca2ebb4e866d53919e3",
+  "zipBytes": 1960,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "2b7458b6c999054f7a3f9211d0a0496bf15e491a5ca35cefed279165f954b0bc",
+  "fetchedAt": "2026-11-18T10:34:03.885Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

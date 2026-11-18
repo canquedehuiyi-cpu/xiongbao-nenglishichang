@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BGYg26IY",
+  "name": "ux-design-process",
+  "displayName": "UX 设计流程",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "vinhnxv",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ux-design-process/latest/ux-design-process.zip",
+  "zipSha256": "7b8ab6840ca45300799dd1210dcc66472e308c9253696bc2998fe281f349d0e9",
+  "zipBytes": 3781,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "706b1bf28e9ec82736a61a6cebcf375d158ceb48292bd40e168433035e3ef7ff",
+  "fetchedAt": "2026-11-18T10:33:50.397Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

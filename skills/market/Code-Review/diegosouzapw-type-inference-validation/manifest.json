@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Qc5BNTOu",
+  "name": "diegosouzapw-type-inference-validation",
+  "displayName": "Type验证",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-type-inference-validation/latest/diegosouzapw-type-inference-validation.zip",
+  "zipSha256": "3ed2cb294f4a6d8aafff1d1e507cbd6ac239ea2954b69a3496de0832dc5d910f",
+  "zipBytes": 3952,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "79129643e0935bb03d1fd9ffbf56f81acd8e5f18cfabf2ed4765193631a1719d",
+  "fetchedAt": "2026-11-18T10:34:10.096Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

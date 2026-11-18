@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FHt9Q8rj",
+  "name": "claude-dev-suite-go-quality",
+  "displayName": "安全Go开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "claude-dev-suite",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/claude-dev-suite-go-quality/latest/claude-dev-suite-go-quality.zip",
+  "zipSha256": "6d8229b37161ccf5860bb750128158410adc91d88b77c66019626d091650f5ac",
+  "zipBytes": 4229,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "16ad50a68ded3d911d2b111b6e75913b9711e24dcbbb7d82274d3e0147bcde57",
+  "fetchedAt": "2026-11-18T10:33:59.221Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

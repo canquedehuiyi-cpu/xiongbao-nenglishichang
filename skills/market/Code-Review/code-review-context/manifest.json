@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LgMgRmtz",
+  "name": "code-review-context",
+  "displayName": "代码评审上下文",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "openai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-review-context/latest/code-review-context.zip",
+  "zipSha256": "42da308a6978dd54fc1ab774edbdaa49196dd858028fb8c617278eda7cc066f2",
+  "zipBytes": 544,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1eb4c7541ad50a5d093b36ccf843aab4ac9adcdb56ccc9fbde3d1ef8c9fab5fc",
+  "fetchedAt": "2026-11-18T10:34:26.180Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

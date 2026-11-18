@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_iD3cnLOL",
+  "name": "github-dotnet-best-practices",
+  "displayName": "Dotnet实践",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "github",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/github-dotnet-best-practices/latest/github-dotnet-best-practices.zip",
+  "zipSha256": "e83369086ae0674ff49cfcb5a4f012e3486185757dd41d0d732ef6bd9c8e8413",
+  "zipBytes": 1635,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7d95cc5237934897f1aab00f9329974be07841242fa708edb88dbbe5d991bfc9",
+  "fetchedAt": "2026-11-18T10:33:54.310Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

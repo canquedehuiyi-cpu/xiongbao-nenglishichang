@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UABWdHxR",
+  "name": "codybrom-deep-modules",
+  "displayName": "Modules开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "codybrom",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/codybrom-deep-modules/latest/codybrom-deep-modules.zip",
+  "zipSha256": "d76ee165d073dc3c3b0bd99d915270b7b17fb109698f2d3267d6c60277b1fdaf",
+  "zipBytes": 4162,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "eb59d3dbaa2114352e0eeb1737bcd744360d39effc7d9389b1332d227a95c80b",
+  "fetchedAt": "2026-11-18T10:34:23.717Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

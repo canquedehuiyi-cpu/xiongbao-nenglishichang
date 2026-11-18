@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Xv4PFRgA",
+  "name": "dingtalk-approval",
+  "displayName": "钉钉OA审批处理插件",
+  "categoryCode": "Productivity",
+  "categoryDir": "Productivity",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "whauff",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dingtalk-approval/latest/dingtalk-approval.zip",
+  "zipSha256": "c5855747b3396b5c749e7328bd4108564c30d26ceac704c2238f29363e95cedb",
+  "zipBytes": 18352,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "6442a307c78fe05f1904f45148b97768b646f63cc34ab3425b48c127f7e8aab4",
+  "fetchedAt": "2026-11-18T10:39:53.702Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HoYMaIbJ",
+  "name": "claw-business-card",
+  "displayName": "代理协作网络",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dream2panda",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/claw-business-card/latest/claw-business-card.zip",
+  "zipSha256": "0a25c44b82b0c705e5d10a2ea918748eb76023712e318f533efb52c41cdb7fe9",
+  "zipBytes": 26769,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "c969d50457bacddf4b99eb2c12275d238351d1dbe5092faa5100cb786d0b6d50",
+  "fetchedAt": "2026-11-18T10:41:57.610Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

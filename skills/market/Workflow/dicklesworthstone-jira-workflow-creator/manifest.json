@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qeyc6LjE",
+  "name": "dicklesworthstone-jira-workflow-creator",
+  "displayName": "Jira流程",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-jira-workflow-creator/latest/dicklesworthstone-jira-workflow-creator.zip",
+  "zipSha256": "2e5ea7368467236284588c03994e4dfc09c491623b91fa7fb0a93a84d219b465",
+  "zipBytes": 1196,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "e68767542d867dc5797549d1f07e35afcc67ca77b5c09782a762d7261f8dc664",
+  "fetchedAt": "2026-11-18T10:42:03.548Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

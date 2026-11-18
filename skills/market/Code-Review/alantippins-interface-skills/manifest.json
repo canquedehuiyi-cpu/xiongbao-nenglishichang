@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_urR2Gt9s",
+  "name": "alantippins-interface-skills",
+  "displayName": "表面接口质量问题",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "alantippins",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alantippins-interface-skills/latest/alantippins-interface-skills.zip",
+  "zipSha256": "5b51cfb312808867264aefdfe102e1b62d5923a26074017652d4bf7f7f949cae",
+  "zipBytes": 18856,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "1fc0503e4c652dd3d7af3d35bc38b96b87cdf78ef73d89e2b895533ded31b37f",
+  "fetchedAt": "2026-11-18T10:34:25.791Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

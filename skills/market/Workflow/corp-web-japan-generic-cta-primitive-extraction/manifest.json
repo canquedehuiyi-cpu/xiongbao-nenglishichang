@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5UbMmEdB",
+  "name": "corp-web-japan-generic-cta-primitive-extraction",
+  "displayName": "corp web japan 通用 CTA 基元提取",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/corp-web-japan-generic-cta-primitive-extraction/latest/corp-web-japan-generic-cta-primitive-extraction.zip",
+  "zipSha256": "beade76d3c3a08ce8118317986c4917f54ed9e2ff653a478c54e0eff6615cce5",
+  "zipBytes": 2215,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a39cf087f1388a72d829b54314f02b988403010e2202a0ffe7e5adb02cb447d5",
+  "fetchedAt": "2026-11-18T10:42:04.459Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

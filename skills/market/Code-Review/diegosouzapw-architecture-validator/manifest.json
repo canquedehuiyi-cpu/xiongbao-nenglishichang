@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_imwsrneL",
+  "name": "diegosouzapw-architecture-validator",
+  "displayName": "架构验证",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-architecture-validator/latest/diegosouzapw-architecture-validator.zip",
+  "zipSha256": "b09c881988d29749958218da932d355c60948cf01f51c8532c2848ccfe3575e0",
+  "zipBytes": 1865,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "742d5ca41a3e6a83c105d4b1e2426940fe1a42f219fc274091232651dc8e41da",
+  "fetchedAt": "2026-11-18T10:34:02.730Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_d2EfZ1tz",
+  "name": "code-review-and-quality",
+  "displayName": "代码评审与质量",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "addyosmani",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-review-and-quality/latest/code-review-and-quality.zip",
+  "zipSha256": "1c62248945de8975d55866c0d970d191cddcfb4b6ef95d573ef0d7d65dba4f8f",
+  "zipBytes": 6218,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c7fe06cfc4983e09c07ce8f2c2c9d88d49aa4a540ae9d142745dbc7228ef9b07",
+  "fetchedAt": "2026-11-18T10:34:01.054Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

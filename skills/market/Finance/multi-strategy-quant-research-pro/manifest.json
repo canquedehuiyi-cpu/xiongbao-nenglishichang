@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "a389825d-886f-413b-9832-1c6ad135f59b",
+  "name": "multi-strategy-quant-research-pro",
+  "displayName": "多策略量化研究",
+  "categoryCode": "Finance",
+  "categoryDir": "Finance",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "019fc0ef-9fba-77b0-8c35-4f611b528d2f",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0576b-2973-7281-a53c-5765caf5ef1d/1d50f7f9_多策略量化研究1.1.2.zip",
+  "zipSha256": "e18b3e87ea44ac7e1618c542e391e1f13c3a4198d20524a889c7ba41b9d44e4f",
+  "zipBytes": 326623,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 99,
+  "treeSha256": "3f98c1611886dc6b1cbc639ea6ae7c091e45e55901535f2e72b47b34f86e98e1",
+  "fetchedAt": "2026-11-18T10:11:23.516Z",
+  "credentialScan": {
+    "textFilesScanned": 99,
+    "filesRedacted": 0
+  },
+  "note": null
+}

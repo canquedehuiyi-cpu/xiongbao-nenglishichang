@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_xffZ3Q1L",
+  "name": "task-dispatch",
+  "displayName": "任务分发",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/task-dispatch/latest/task-dispatch.zip",
+  "zipSha256": "e09584523937d10632e2c74acf11ce567a063a14487ff5c1d19b9d5e21da72a5",
+  "zipBytes": 13043,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "5d6ce3d6a59ffdb3d47f2f6248c3dce47909dcd6f1c2213d7d5b8eaddec969f4",
+  "fetchedAt": "2026-11-18T10:41:45.150Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

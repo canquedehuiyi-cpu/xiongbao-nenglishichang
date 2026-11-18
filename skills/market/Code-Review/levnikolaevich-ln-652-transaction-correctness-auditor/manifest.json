@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vfYdrm0M",
+  "name": "levnikolaevich-ln-652-transaction-correctness-auditor",
+  "displayName": "交易Ln",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "levnikolaevich",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/levnikolaevich-ln-652-transaction-correctness-auditor/latest/levnikolaevich-ln-652-transaction-correctness-auditor.zip",
+  "zipSha256": "9aa668dcec0ccf8c80453b8304c984edb77d348a3cdb3d64c4b0efdc8e583ead",
+  "zipBytes": 3646,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "5fdaf4a290a6095a74e3028e32ec7c799b99a36c23d1e013d75b00bbf907e95d",
+  "fetchedAt": "2026-11-18T10:34:21.504Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

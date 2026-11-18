@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "c9d76b69-0324-443e-ac14-d882f6f7920a",
+  "name": "kb-result-qoder-build-v5-1-0",
+  "displayName": "AI技能Skill代建助手",
+  "categoryCode": "Productivity",
+  "categoryDir": "Productivity",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "V8.8.23",
+  "publisher": "019efcd9-12f6-777c-a012-044a971e8b48",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a11625-8d94-7190-ab70-2bde9cefadd5/8174ec4b_kb-result-qoder-build-v5-1-0_v8.8.23.zip",
+  "zipSha256": "e858d293cc398d4846dd3ade997b7654ab750cf12ce851c4c1953301144f6e0b",
+  "zipBytes": 83498,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 29,
+  "treeSha256": "8a59bfa15acdda9ea18fae43dcb737890e19f2f3d58ecc3007a1afec7108c67e",
+  "fetchedAt": "2026-11-18T10:11:25.302Z",
+  "credentialScan": {
+    "textFilesScanned": 29,
+    "filesRedacted": 0
+  },
+  "note": null
+}

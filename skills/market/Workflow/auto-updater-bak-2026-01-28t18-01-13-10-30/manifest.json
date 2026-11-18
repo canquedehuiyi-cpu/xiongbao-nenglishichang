@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DFq0XFPu",
+  "name": "auto-updater-bak-2026-01-28t18-01-13-10-30",
+  "displayName": "自动更新技能",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "nicoataiza",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/auto-updater-bak-2026-01-28t18-01-13-10-30/latest/auto-updater-bak-2026-01-28t18-01-13-10-30.zip",
+  "zipSha256": "43ba7b9d24d494a8465cc291cc40c1091f5c2cbf9010fe10ec11ba06ad9367ec",
+  "zipBytes": 5552,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "d3902fffeeace88c8298c8f817b36ff596126d90f3a5d5cf105ef05e1be3d2d8",
+  "fetchedAt": "2026-11-18T10:41:55.815Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

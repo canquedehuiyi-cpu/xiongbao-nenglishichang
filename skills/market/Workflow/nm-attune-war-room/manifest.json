@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2ZYGkifZ",
+  "name": "nm-attune-war-room",
+  "displayName": "作战室",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/nm-attune-war-room/latest/nm-attune-war-room.zip",
+  "zipSha256": "dffa9bf36a3959d3d6967976956e091ac307a8b3161b3c6df1e65b832f309cdb",
+  "zipBytes": 25781,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "181d6d163a45bdf26bba9dde6e4bc06f03a287c965b4aaf4e5c0817d79103cd1",
+  "fetchedAt": "2026-11-18T10:41:33.754Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

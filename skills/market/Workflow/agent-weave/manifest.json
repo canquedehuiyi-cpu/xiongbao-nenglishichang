@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_E86xIsA6",
+  "name": "agent-weave",
+  "displayName": "Agent-Weave",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "gl813788-byte",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-weave/latest/agent-weave.zip",
+  "zipSha256": "eb5c34cea6de4c9306cd1fdd4e3ba9ffb001827fcc28843bb005190cd4ef9abe",
+  "zipBytes": 33048,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 20,
+  "treeSha256": "d13ec0d0ebd4f8559769edcd9cec1e2295de0ff12e9fd983b542726378322075",
+  "fetchedAt": "2026-11-18T10:41:38.038Z",
+  "credentialScan": {
+    "textFilesScanned": 20,
+    "filesRedacted": 0
+  },
+  "note": null
+}

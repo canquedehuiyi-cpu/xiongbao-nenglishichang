@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WHs9yVQD",
+  "name": "gamers-lab-resharper-cli",
+  "displayName": "CLI开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Gamers-Lab",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/gamers-lab-resharper-cli/latest/gamers-lab-resharper-cli.zip",
+  "zipSha256": "110e8df56165aa299b9e25c902d76f74b65e153d771aac79ef2c0bda2c827e9e",
+  "zipBytes": 11898,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "a267234a96fe0fe5956e0ef9f07fc4635e01f78c7cda58b85fc0fe4330c5f528",
+  "fetchedAt": "2026-11-18T10:34:03.728Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

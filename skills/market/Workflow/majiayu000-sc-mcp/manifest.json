@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YkJvt5br",
+  "name": "majiayu000-sc-mcp",
+  "displayName": "MCPSc分析",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-sc-mcp/latest/majiayu000-sc-mcp.zip",
+  "zipSha256": "c2db4f40a6cfd3ec887d1a17c0ffa9040d1697d1931341667c5465aaf7bff9bd",
+  "zipBytes": 3820,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "03137250b247bff5078db190e06ae00127f540c0e3cf99d053490357c19aabe5",
+  "fetchedAt": "2026-11-18T10:42:00.658Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

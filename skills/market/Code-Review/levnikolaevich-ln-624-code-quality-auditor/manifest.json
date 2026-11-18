@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3eEYMJqf",
+  "name": "levnikolaevich-ln-624-code-quality-auditor",
+  "displayName": "Ln审计",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "levnikolaevich",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/levnikolaevich-ln-624-code-quality-auditor/latest/levnikolaevich-ln-624-code-quality-auditor.zip",
+  "zipSha256": "a49f47cbc8a4915ce03057ac16ec28fabf23370689027476057f5b9363419c7e",
+  "zipBytes": 5229,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "3d5720dcf4382a99a17e3b27172e21012dad60255ed944c56daa38aae8b40123",
+  "fetchedAt": "2026-11-18T10:34:01.211Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

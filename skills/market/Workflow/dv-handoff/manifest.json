@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_29cwevqt",
+  "name": "dv-handoff",
+  "displayName": "DV 切换",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dv-handoff/latest/dv-handoff.zip",
+  "zipSha256": "7e862ef67e6af25a51a468199d4a8b3a50bd91c22e970e1e0947de992e4c7baf",
+  "zipBytes": 5915,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ebb4d3c29021af43a08018bc61b79342f7e7711befc5f08fe3d5839d33f81790",
+  "fetchedAt": "2026-11-18T10:42:04.595Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

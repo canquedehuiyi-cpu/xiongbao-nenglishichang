@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FbWkxn9P",
+  "name": "kagura-flowforge",
+  "displayName": "FlowForge 工作流运行器",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kagura-flowforge/latest/kagura-flowforge.zip",
+  "zipSha256": "0c76d8196178f599c9de2683a53374bbba5d7c991ea710e234b55c760cfba87a",
+  "zipBytes": 11188,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "9526e130a21dc6c0d66dbdb2cfba0e2203179e5983b810ccdb639f2490f607ad",
+  "fetchedAt": "2026-11-18T10:41:56.063Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

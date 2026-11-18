@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_IbVMOn6o",
+  "name": "diegosouzapw-acc-check-immutability-majiayu000",
+  "displayName": "Acc检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-acc-check-immutability-majiayu000/latest/diegosouzapw-acc-check-immutability-majiayu000.zip",
+  "zipSha256": "ae9d324b0500761b1576ca0c03d0d2d88568fa68433cc6cecfb78d49b6118f27",
+  "zipBytes": 4331,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5968ec0bc58fef813d660d042a1c5852a959b34a968e1917f5e1040087eadb6c",
+  "fetchedAt": "2026-11-18T10:34:26.506Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

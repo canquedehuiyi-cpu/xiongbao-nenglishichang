@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LaKfgoYL",
+  "name": "code-review-reception",
+  "displayName": "代码审查接收",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "microsoft",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-review-reception/latest/code-review-reception.zip",
+  "zipSha256": "4309b62b435e8f7efcea06e298e29b2b21f736d59c2cf0155e2b6377c67d9537",
+  "zipBytes": 2555,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c7a8523795b9377bf730e60b6825b7d34bc0958aba232da6e24d8cd5186b9661",
+  "fetchedAt": "2026-11-18T10:34:17.792Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

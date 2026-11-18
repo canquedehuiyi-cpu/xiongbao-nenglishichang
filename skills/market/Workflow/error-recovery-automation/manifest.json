@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ykkO20bB",
+  "name": "error-recovery-automation",
+  "displayName": "错误恢复自动化技能",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "konscious0beast",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/error-recovery-automation/latest/error-recovery-automation.zip",
+  "zipSha256": "dded8a1f48868e9c9d540514b5018b5fb79638b87d6d734483b8996a8bd83b79",
+  "zipBytes": 4724,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c5c7025e0af69fc0cde38663e1e85367505a216fbfce58fb651e36caa2412016",
+  "fetchedAt": "2026-11-18T10:41:42.117Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

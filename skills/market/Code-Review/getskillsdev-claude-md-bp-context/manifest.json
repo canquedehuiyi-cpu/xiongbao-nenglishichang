@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_f0tcdYq6",
+  "name": "getskillsdev-claude-md-bp-context",
+  "displayName": "上下文Md",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "getskillsdev",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/getskillsdev-claude-md-bp-context/latest/getskillsdev-claude-md-bp-context.zip",
+  "zipSha256": "f744370a1453678e9fed2d5de2ec9fab7734f70116c9f149758156cfdbb829af",
+  "zipBytes": 2666,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ea17894a3f2cd02d9151254ba42b5af7cc11538dc420a982287ac1bc71e549aa",
+  "fetchedAt": "2026-11-18T10:34:00.442Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fDqT898j",
+  "name": "flow-abort",
+  "displayName": "流中止",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/flow-abort/latest/flow-abort.zip",
+  "zipSha256": "ef2a5835a9bc9d7a620b1b664c6dba29ddafaf3e6a886aecb5ddf070fc4c770c",
+  "zipBytes": 2622,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a226a11060d86f7acc938b1e5898fbbf750d459ed089e88da31b7648e53380b4",
+  "fetchedAt": "2026-11-18T10:42:01.582Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

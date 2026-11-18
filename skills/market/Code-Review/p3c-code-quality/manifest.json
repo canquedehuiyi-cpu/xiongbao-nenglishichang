@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WjkDdut4",
+  "name": "p3c-code-quality",
+  "displayName": "P3C 代码质量检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/p3c-code-quality/latest/p3c-code-quality.zip",
+  "zipSha256": "473a4d5a23705c16b9d9f959a84df1b4d8655f4adaaf12c73187bc768e4b2610",
+  "zipBytes": 8118,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "725140513637a3e7c5b2df0d493da40580af2995c2bdc10335571c4e4c787fa6",
+  "fetchedAt": "2026-11-18T10:33:56.710Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

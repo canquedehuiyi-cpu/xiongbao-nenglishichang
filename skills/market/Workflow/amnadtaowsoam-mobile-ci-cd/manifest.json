@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5CMixmVW",
+  "name": "amnadtaowsoam-mobile-ci-cd",
+  "displayName": "Cd修复",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AmnadTaowsoam",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amnadtaowsoam-mobile-ci-cd/latest/amnadtaowsoam-mobile-ci-cd.zip",
+  "zipSha256": "ca0be600e7b62a29f5aef70a578b33eb511be983a0043958763bbf1ce4fb3ac5",
+  "zipBytes": 3601,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7d7017a7c82b93a4a9a9a0fa30c253bf6b167f9f71f4803577dd20ee20037723",
+  "fetchedAt": "2026-11-18T10:41:46.173Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

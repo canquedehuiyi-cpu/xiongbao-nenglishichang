@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tZxQf4UM",
+  "name": "workflow-create",
+  "displayName": "工作流创建",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ruvnet",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/workflow-create/latest/workflow-create.zip",
+  "zipSha256": "89e466ecc35d7220001b8b5be3740ab08cfde1b2ed734daa4a65c8b37b97b17f",
+  "zipBytes": 673,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "cdebc357b70d9989947dd5f5aee0e2cf9819932746d78eba69d5180fce4dbc03",
+  "fetchedAt": "2026-11-18T10:42:03.394Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1qBZKN29",
+  "name": "dev-progress-governor",
+  "displayName": "开发进度治理器",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majmunu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dev-progress-governor/latest/dev-progress-governor.zip",
+  "zipSha256": "e2ed1316382939af29cd8cc2243737d15f8fbf18c4781c326d424c2d6cc0bbf9",
+  "zipBytes": 3748,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "b33fc7a6a37d122fae69935cf2c7f7298aec777f92957519cdb883678582fcdc",
+  "fetchedAt": "2026-11-18T10:33:51.833Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

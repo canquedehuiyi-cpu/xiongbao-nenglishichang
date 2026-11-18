@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_F80TU6lb",
+  "name": "designxdevelop-agent-native-audit",
+  "displayName": "代理Native",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "designxdevelop",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/designxdevelop-agent-native-audit/latest/designxdevelop-agent-native-audit.zip",
+  "zipSha256": "8615071a183559fb66cb5ba502b54beef10389d5e2e02cdc0d86ddbc35a62bc7",
+  "zipBytes": 5415,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "82e74138cf8fd5f1f35867e4e500e654375f8f9c0c5d656132814c4c1eb0cf8c",
+  "fetchedAt": "2026-11-18T10:34:14.974Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KVlciEXe",
+  "name": "jay-523-insights",
+  "displayName": "Insights开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jay-523",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jay-523-insights/latest/jay-523-insights.zip",
+  "zipSha256": "09884b0b0e273991dc699442f6b0a4f371a6344a57fc52e22b7f56a654081bae",
+  "zipBytes": 1761,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "11491c8c9edb06c936350721e5d037efa20e57f03ccc58cc8a54769044124591",
+  "fetchedAt": "2026-11-18T10:34:09.225Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

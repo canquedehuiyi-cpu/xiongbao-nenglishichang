@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DjeBPeAJ",
+  "name": "boisenoise-antigravity-postgresql-optimization",
+  "displayName": "流程优化助手",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-postgresql-optimization/latest/boisenoise-antigravity-postgresql-optimization.zip",
+  "zipSha256": "5ca9b8f4e9d869e9870993adb810d7af278f4440da33c904ab0c658bda95744f",
+  "zipBytes": 1661,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "540e8c38a1b6ca068a6d4a0280ac6d127829399f53a704dfb230b73474bffe76",
+  "fetchedAt": "2026-11-18T10:41:36.434Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

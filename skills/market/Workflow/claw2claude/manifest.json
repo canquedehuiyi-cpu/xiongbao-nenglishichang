@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vuwD0Gli",
+  "name": "claw2claude",
+  "displayName": "爪到克劳德",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/claw2claude/latest/claw2claude.zip",
+  "zipSha256": "005a961aff7998cefadb18081a842eee2c36aad28f217c91f171487b3ffe7de0",
+  "zipBytes": 30297,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "f7bbce3116b5913375664d36c98f5abc0a1c64624cf13a1530acb03b2b65924c",
+  "fetchedAt": "2026-11-18T10:41:48.688Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

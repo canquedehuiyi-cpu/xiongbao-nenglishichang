@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FeMNBVnf",
+  "name": "boisenoise-antigravity-rag-implementation",
+  "displayName": "SQLRAG实施",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-rag-implementation/latest/boisenoise-antigravity-rag-implementation.zip",
+  "zipSha256": "75e039fda635d561df151340117fcdb3de76d68a58c8230e3c784f4e8e1b4dc8",
+  "zipBytes": 1823,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "e4101f565ddde5c75f2bda8c08ce9e60002e6d397a718ec7e7f7bbdb3039391e",
+  "fetchedAt": "2026-11-18T10:42:07.045Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

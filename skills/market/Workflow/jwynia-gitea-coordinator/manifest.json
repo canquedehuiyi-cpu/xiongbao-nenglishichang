@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FSAG3enY",
+  "name": "jwynia-gitea-coordinator",
+  "displayName": "代理Gitea",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "agent-skills",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jwynia-gitea-coordinator/latest/jwynia-gitea-coordinator.zip",
+  "zipSha256": "4d3a73d34fab3d2920f5ba631704ecd0c63d66163f44b94d59cfa6d0a27ec2fa",
+  "zipBytes": 16935,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "24cdaaa73130261db7c46b323aded132744258f4fa3d0a9f01969de26a739390",
+  "fetchedAt": "2026-11-18T10:41:44.388Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

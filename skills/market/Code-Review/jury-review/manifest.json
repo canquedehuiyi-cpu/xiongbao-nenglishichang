@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Mme3VL0L",
+  "name": "jury-review",
+  "displayName": "动态评审团",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jury-review/latest/jury-review.zip",
+  "zipSha256": "e9189c58508288677deed9b817b6398f65e93126980d1c773e95df5d80094ad8",
+  "zipBytes": 7638,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "e9b4aec3e279f95774331ab2d132ec5747a9fb9e645f215966ad6cf1b20e9635",
+  "fetchedAt": "2026-11-18T10:33:52.725Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

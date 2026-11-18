@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2HgolKzq",
+  "name": "diegosouzapw-python-programmer",
+  "displayName": "Python开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-python-programmer/latest/diegosouzapw-python-programmer.zip",
+  "zipSha256": "ed2335273ea6a4252cc4a4310e1de174a2dd0ec37e52107b0185a23aace9f617",
+  "zipBytes": 3399,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "41cab813551d8ca2f9ec2c47e9dcc41652487dff5ee358dc7069d4c4251c6436",
+  "fetchedAt": "2026-11-18T10:33:47.539Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

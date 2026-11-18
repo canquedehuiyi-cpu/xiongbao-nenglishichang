@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_S9SRobbf",
+  "name": "hmem-activate",
+  "displayName": "记忆激活",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/hmem-activate/latest/hmem-activate.zip",
+  "zipSha256": "0194ecf96f125071c7f0c5d81a3cd63dd3d2182cfc64acfc673288ff653e0199",
+  "zipBytes": 1562,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "5ae0dcd7a038947a0dbd1961b15a8f3631b8f4e6c288218cbb5d9d842967bca0",
+  "fetchedAt": "2026-11-18T10:41:58.428Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

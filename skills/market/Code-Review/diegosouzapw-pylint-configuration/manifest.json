@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8Ougisa7",
+  "name": "diegosouzapw-pylint-configuration",
+  "displayName": "Pylint配置",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-pylint-configuration/latest/diegosouzapw-pylint-configuration.zip",
+  "zipSha256": "336a5dd348c970861d95eca11dc6c5ce6f510363587a08e3b4e58d3318cb295d",
+  "zipBytes": 5055,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c5c6521a884f39c2ae17d6638d750c7b761a33ba9edf7038ccf6dd1b716a59f3",
+  "fetchedAt": "2026-11-18T10:34:13.797Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

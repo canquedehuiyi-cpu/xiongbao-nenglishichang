@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RPHo7EMI",
+  "name": "diegosouzapw-async-operations",
+  "displayName": "异步运维",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-async-operations/latest/diegosouzapw-async-operations.zip",
+  "zipSha256": "fecb50d459922751acc93a271b8a65f85667654071268d3641b8c8da02305c29",
+  "zipBytes": 2689,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b1d6a097f40cdc450a274b54f76ecc56a9a60bfb27ef38a476a17e801a2fdfc4",
+  "fetchedAt": "2026-11-18T10:34:08.073Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

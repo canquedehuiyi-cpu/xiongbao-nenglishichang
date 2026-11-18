@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3k0HziZW",
+  "name": "consensus-code-merge-guard",
+  "displayName": "共识代码合并守卫",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kaicianflone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/consensus-code-merge-guard/latest/consensus-code-merge-guard.zip",
+  "zipSha256": "7a0fdda4489f24f7660e5dfb554ba52c8fd0b427c3e091bca3bdac0368695d22",
+  "zipBytes": 17696,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "dc6bb8b58f02ae913e742305fd9bd05e2f2e6263feca07a877d6d623c901dcfc",
+  "fetchedAt": "2026-11-18T10:33:59.647Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

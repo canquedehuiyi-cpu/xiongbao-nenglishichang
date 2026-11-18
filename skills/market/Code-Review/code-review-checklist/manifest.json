@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JvESGchK",
+  "name": "code-review-checklist",
+  "displayName": "代码审查清单",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "las-pinter",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-review-checklist/latest/code-review-checklist.zip",
+  "zipSha256": "c539df02acafb78cc1d487466eefc9e363c97fb2eee4bd5287bf2ff44f228bdd",
+  "zipBytes": 6475,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c0f731e7bba8688de274d929c64a5df7175129e25252a04cd1277126aa70e589",
+  "fetchedAt": "2026-11-18T10:34:22.812Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

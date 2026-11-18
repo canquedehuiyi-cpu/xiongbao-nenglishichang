@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YIUBwtcv",
+  "name": "beshkenadze-biome",
+  "displayName": "Biome开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "beshkenadze",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/beshkenadze-biome/latest/beshkenadze-biome.zip",
+  "zipSha256": "fe0194ea6303c351cb48a4efac12d5bbcee4e117f0160e282236dde95a05094c",
+  "zipBytes": 2610,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6b4c30d73f8b30cfab97989d26fb8e1167155fc28111face0a357683e79965a3",
+  "fetchedAt": "2026-11-18T10:34:24.544Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

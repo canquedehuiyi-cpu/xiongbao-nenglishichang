@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Hbxs9pxf",
+  "name": "chatandbuild-transaction-correctness",
+  "displayName": "交易校验",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ChatAndBuild",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/chatandbuild-transaction-correctness/latest/chatandbuild-transaction-correctness.zip",
+  "zipSha256": "85810082dc3c14f75f27b78e8c94e00e03be2de17795ebacf95a23a1e0656b97",
+  "zipBytes": 918,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "e9932a9489cb0cba64c24c5c7d796402a60cfc9af9c0665f5a0f717b8bef26de",
+  "fetchedAt": "2026-11-18T10:33:56.844Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

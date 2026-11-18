@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6UXJVG8s",
+  "name": "ceratops-gh-ship-change",
+  "displayName": "ceratops gh 发布更改",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ceratops-gh-ship-change/latest/ceratops-gh-ship-change.zip",
+  "zipSha256": "e93c9dddff809fad77e21466e68768c7b6b08d664681fe49cc322f38970beeec",
+  "zipBytes": 2688,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8dd599d29aeb4fefe81adeaead108ad218bd91c0026a9547dd4b55c68c4a923a",
+  "fetchedAt": "2026-11-18T10:42:05.468Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

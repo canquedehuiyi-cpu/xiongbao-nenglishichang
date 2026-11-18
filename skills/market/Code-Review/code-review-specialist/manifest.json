@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6rYIhzZ1",
+  "name": "code-review-specialist",
+  "displayName": "代码审查专家",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "luongnv89",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-review-specialist/latest/code-review-specialist.zip",
+  "zipSha256": "4dba12372310b821e12836fda1c6d1a7914091c8eee6d28ff839bc76de47356c",
+  "zipBytes": 1414,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "062d0e7be34efbfb99c1280761d9f853d4b985b9d114e5e3dcf1331a29329cbe",
+  "fetchedAt": "2026-11-18T10:33:48.353Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

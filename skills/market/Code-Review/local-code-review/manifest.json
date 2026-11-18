@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4XXIhzC8",
+  "name": "local-code-review",
+  "displayName": "本地代码审查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kitaekatt",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/local-code-review/latest/local-code-review.zip",
+  "zipSha256": "f47e5593707093af0aa81a393d853c730d19534a997104a128e90e70208557c5",
+  "zipBytes": 4272,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "74f2c2e0c65f875c461c5ce1374d3f31b0ae4bc5cb129c0639617d9484a181f4",
+  "fetchedAt": "2026-11-18T10:33:57.534Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

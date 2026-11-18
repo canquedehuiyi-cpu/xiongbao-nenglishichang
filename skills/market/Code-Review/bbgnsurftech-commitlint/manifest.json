@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7amZM9oo",
+  "name": "bbgnsurftech-commitlint",
+  "displayName": "CILLM应用",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "BbgnsurfTech",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bbgnsurftech-commitlint/latest/bbgnsurftech-commitlint.zip",
+  "zipSha256": "ecda19e5777b20b093d343e39d93fbe6884776c55d30634041ccfb4552a6ff79",
+  "zipBytes": 4862,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4075359830d200f434aa814f2c778ef8a16014202b1ec8fa331d47d59f9cccc6",
+  "fetchedAt": "2026-11-18T10:34:07.592Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

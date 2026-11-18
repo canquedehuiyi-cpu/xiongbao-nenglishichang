@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_yUiVa3Xq",
+  "name": "campbellmcgregor-critical-thinking-partner",
+  "displayName": "Critical规划",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "campbellmcgregor",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/campbellmcgregor-critical-thinking-partner/latest/campbellmcgregor-critical-thinking-partner.zip",
+  "zipSha256": "7e390200fe7b30887027f1ed7e4780569bab8ba5245d43156636c06e8a1d61a3",
+  "zipBytes": 8332,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8813e7849c3cd9a93fde22e00cfa496855306143ad25353b2964ab8ba1466c43",
+  "fetchedAt": "2026-11-18T10:34:21.643Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

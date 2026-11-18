@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_CxmuRqgY",
+  "name": "dykyi-roman-check-comments",
+  "displayName": "Comments检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dykyi-roman",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dykyi-roman-check-comments/latest/dykyi-roman-check-comments.zip",
+  "zipSha256": "82492b5358c08c2de9ba9f19fd5b06bf3b5fe2775028d0eae5c5ca03290ff552",
+  "zipBytes": 2441,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "0e067e23bb2244780c1eb79e2e33fcd65dfde5d56e655c4d7bc71ed08ce05e11",
+  "fetchedAt": "2026-11-18T10:34:12.818Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

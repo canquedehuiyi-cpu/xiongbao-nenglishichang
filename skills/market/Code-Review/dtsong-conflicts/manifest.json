@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_74jFXmte",
+  "name": "dtsong-conflicts",
+  "displayName": "Git冲突",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dtsong",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dtsong-conflicts/latest/dtsong-conflicts.zip",
+  "zipSha256": "e54796434e60abf3fe43bbc9a93a8274dfbf93af2492be340afdcf323f26e07c",
+  "zipBytes": 2505,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "465da7603f1f787255e733787a30281ed16cc386960319016e29227f66fa907d",
+  "fetchedAt": "2026-11-18T10:33:54.031Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

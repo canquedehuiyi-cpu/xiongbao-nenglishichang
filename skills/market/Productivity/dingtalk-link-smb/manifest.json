@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_OV3O1nIp",
+  "name": "dingtalk-link-smb",
+  "displayName": "钉钉机器人配置",
+  "categoryCode": "Productivity",
+  "categoryDir": "Productivity",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dingtalk-link-smb/latest/dingtalk-link-smb.zip",
+  "zipSha256": "752ec88e1aa165d5f89a1f5a8cbdb613acc23e9c719499d10164b4d8b0cea65b",
+  "zipBytes": 1936,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "47e44bfe13fedc58c36e5efe437213d56ab1ac0497e79f45d6fcbb0f90ca95dc",
+  "fetchedAt": "2026-11-18T10:39:52.678Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

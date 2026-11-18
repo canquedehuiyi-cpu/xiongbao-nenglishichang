@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1XSBFCHv",
+  "name": "boisenoise-superpowers-subagent-driven-development",
+  "displayName": "Driven开发",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-superpowers-subagent-driven-development/latest/boisenoise-superpowers-subagent-driven-development.zip",
+  "zipSha256": "61f4c50653dd3a16dd02acd92161e4cfeca4972ccca50ed8edb48c8542ce7042",
+  "zipBytes": 8429,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "811d0d9a119390bd81644e088924110b1de1228f047590b4cc867754a541b852",
+  "fetchedAt": "2026-11-18T10:41:31.040Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

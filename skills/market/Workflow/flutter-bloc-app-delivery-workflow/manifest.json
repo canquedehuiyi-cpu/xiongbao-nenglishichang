@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bUohfLpn",
+  "name": "flutter-bloc-app-delivery-workflow",
+  "displayName": "flutter bloc 应用程序交付工作流程",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "redjadet",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/flutter-bloc-app-delivery-workflow/latest/flutter-bloc-app-delivery-workflow.zip",
+  "zipSha256": "1378ced7269cd5ec0154b559064f280bbf471b5c8bb87f9147fa0a24f2394e06",
+  "zipBytes": 1823,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8ff029e922b207b5bb9ae9c9acb93db16be8756ccdaabc25cc4b82a10663de12",
+  "fetchedAt": "2026-11-18T10:41:47.800Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

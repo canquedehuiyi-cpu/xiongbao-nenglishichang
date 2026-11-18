@@ -1,0 +1,18 @@
+{
+  "auto_quality_check": true,
+  "manual_quality_check": true,
+  "material_parse": {
+    "enable_protection": true,
+    "single_file_max_char": 12000,
+    "batch_total_max_char": 40000,
+    "fragment_threshold": 3000,
+    "severe_avalanche_threshold": 120000,
+    "supported_file_types": ["docx","pdf","pptx","txt","md","xlsx","csv","png","jpg","webp","audio","video","plain-text"]
+  },
+  "note": "出厂质检双开关：auto=打包默认自动质检（技能质量标准五维，fail-closed，不过拦截出包）；manual=开放独立接口，用户手动跑评测。专家产出的每个成品技能包的 _meta.json 会被盖戳写入 auto_quality_check=true，使其再次打包时自动过闸。",
+  "standard_lock": {
+    "manual": "references/REF-SPC-001_AISkillManual_V32.md",
+    "trace_baseline": "references/REF-TRC-002_QualityStandardBaseline_V1.md",
+    "self_regulation": "references/REF-GOV-014_SelfGovFallback.md"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_zybi0bzg",
+  "name": "super-spec",
+  "displayName": "超级规格",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/super-spec/latest/super-spec.zip",
+  "zipSha256": "4faef6056b33fd6b72bfad995d93052900a33ea3ca9bf676f2648f13fc65ddd8",
+  "zipBytes": 2561,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d55de970d78cb7eccc9b3ee74c84e17cdae568fa5a69c013a82deb16a8733bb7",
+  "fetchedAt": "2026-11-18T10:41:31.689Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

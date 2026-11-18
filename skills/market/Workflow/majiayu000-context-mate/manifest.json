@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_hBmsOtmO",
+  "name": "majiayu000-context-mate",
+  "displayName": "上下文MATE",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-context-mate/latest/majiayu000-context-mate.zip",
+  "zipSha256": "a88f8a033757f30f5b82dad23201979626d75ddb3ae374444b8d02aa55a4d39d",
+  "zipBytes": 5020,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e1a62b8b86ad235133ec5a1229d13cebec614e5bc7b0594e42389a99c2024da4",
+  "fetchedAt": "2026-11-18T10:42:13.294Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

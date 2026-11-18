@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_uuhHTV5c",
+  "name": "diegosouzapw-ansible-fix",
+  "displayName": "Ansible修复",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-ansible-fix/latest/diegosouzapw-ansible-fix.zip",
+  "zipSha256": "8116a4a52d74d73c3f36e13724c1ee2aff7b47e443b9ceace2b7da54dafbc878",
+  "zipBytes": 3090,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0445c3f4296cf48465502ef318201fc4dcc89c51530c1eab9f65ae4d728cc6e6",
+  "fetchedAt": "2026-11-18T10:34:15.680Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

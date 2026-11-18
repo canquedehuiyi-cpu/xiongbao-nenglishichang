@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0C0oSZaX",
+  "name": "ohos-react-native-performance",
+  "displayName": "OpenHarmony React Native 性能优化技能",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "code-sunbo",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ohos-react-native-performance/latest/ohos-react-native-performance.zip",
+  "zipSha256": "ffca847aee4c5cd3142dbf270c4cedccfe835608d1327532976552515ae60a54",
+  "zipBytes": 10230,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "5edd3e7da67e20e39cd1f548c336db475d63dc28e66d319bcb29951a87853717",
+  "fetchedAt": "2026-11-18T10:33:53.893Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

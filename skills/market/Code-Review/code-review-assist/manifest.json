@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_jJJzSezK",
+  "name": "code-review-assist",
+  "displayName": "代码审查协助",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "stacklok",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-review-assist/latest/code-review-assist.zip",
+  "zipSha256": "ec3efda77cbfad991f8c316f32f099cd24eccc45ac91a128650f27a8083bb152",
+  "zipBytes": 5862,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "39fce1d1e99c9cd6d2e540331d3cdfbe65e9d35d96af84a2c31ed79aef873cbb",
+  "fetchedAt": "2026-11-18T10:34:18.345Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

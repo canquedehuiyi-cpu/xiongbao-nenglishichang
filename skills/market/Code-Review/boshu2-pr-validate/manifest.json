@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_W9rs3DNr",
+  "name": "boshu2-pr-validate",
+  "displayName": "Pr验证检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AI Platform Team",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boshu2-pr-validate/latest/boshu2-pr-validate.zip",
+  "zipSha256": "d6507bea6db521626985b33cc48221a4a5fa099efbbeec84b771a048aba62783",
+  "zipBytes": 2948,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2a64b349be96fe89cf1f9627bd29751f3bd1c60abe1682ffda4def4cfbf03fdb",
+  "fetchedAt": "2026-11-18T10:34:27.906Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

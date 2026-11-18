@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_M5pnAnOl",
+  "name": "nm-attune-project-execution",
+  "displayName": "项目执行",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/nm-attune-project-execution/latest/nm-attune-project-execution.zip",
+  "zipSha256": "d0570410bd764c7c8ad69b79dd9ba8a155f345c37093ee20f2aa1662761d08cc",
+  "zipBytes": 5333,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "6f99d09ce8626c2df47c3901632a8b5353a8093cedd122dd2cd62b6459c958b4",
+  "fetchedAt": "2026-11-18T10:41:32.991Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

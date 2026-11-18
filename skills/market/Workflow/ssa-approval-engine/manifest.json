@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_C0p2xPen",
+  "name": "ssa-approval-engine",
+  "displayName": "审批引擎",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ssa-approval-engine/latest/ssa-approval-engine.zip",
+  "zipSha256": "8ca332e4f63c4e90f9cbeb87935ab4134c4600a8dc03efed5b8cd6259f545582",
+  "zipBytes": 48287,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 17,
+  "treeSha256": "2d1cd1135f01ea7b9e055e2a2b388f5364e9fa9f03e6e70136fa1c62b0908dff",
+  "fetchedAt": "2026-11-18T10:41:34.316Z",
+  "credentialScan": {
+    "textFilesScanned": 17,
+    "filesRedacted": 0
+  },
+  "note": null
+}

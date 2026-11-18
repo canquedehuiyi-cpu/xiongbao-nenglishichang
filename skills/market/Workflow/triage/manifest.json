@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0FPIGIaG",
+  "name": "triage",
+  "displayName": "分类",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/triage/latest/triage.zip",
+  "zipSha256": "ceda0e9fa7bc019690d11f4b4b8bd10c50982b30f9b2ec456e8858e71434e8ba",
+  "zipBytes": 2325,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c52d8559781c5c018f9afd3a920e256ffefabe1e4089cfa0c9fc0d4ff32b3221",
+  "fetchedAt": "2026-11-18T10:41:37.269Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

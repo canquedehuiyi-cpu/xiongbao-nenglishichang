@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6lgBZRwz",
+  "name": "codybrom-abstraction-quality",
+  "displayName": "质量抽象",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "codybrom",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/codybrom-abstraction-quality/latest/codybrom-abstraction-quality.zip",
+  "zipSha256": "c7abcd5fda783a5ae6a8cad776c97ee2b2fce791a562561eef411536f2e892fb",
+  "zipBytes": 1993,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8a6ff80f6ed53babec6da3518dda476eb898f8839b04aa4294f7b7b05e5c2165",
+  "fetchedAt": "2026-11-18T10:33:55.187Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

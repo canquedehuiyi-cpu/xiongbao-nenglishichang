@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HITtTOGG",
+  "name": "laurigates-clippy-advanced",
+  "displayName": "Clippy开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "laurigates",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/laurigates-clippy-advanced/latest/laurigates-clippy-advanced.zip",
+  "zipSha256": "63bbbe59be8cc598aa4cbd815634b54ed743155f770f678052c5b2e9212cb997",
+  "zipBytes": 6273,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3df4230fc000aabba53fde46060620a5f3e1b44093f4b22237d1c635324f0240",
+  "fetchedAt": "2026-11-18T10:34:13.944Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

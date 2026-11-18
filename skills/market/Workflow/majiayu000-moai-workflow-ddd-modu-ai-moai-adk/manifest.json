@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Ek7vUgTo",
+  "name": "majiayu000-moai-workflow-ddd-modu-ai-moai-adk",
+  "displayName": "Moai架构",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "MoAI-ADK Team",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-moai-workflow-ddd-modu-ai-moai-adk/latest/majiayu000-moai-workflow-ddd-modu-ai-moai-adk.zip",
+  "zipSha256": "62a2883a9c8b5632022acdb325020a62d2ad50c12d8597cf0e1923c4e56c58b0",
+  "zipBytes": 5046,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "4f320cd0e21042d9beda4897d59ebbdbbbcdae41b17dee1b604d599037a9877b",
+  "fetchedAt": "2026-11-18T10:41:40.976Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

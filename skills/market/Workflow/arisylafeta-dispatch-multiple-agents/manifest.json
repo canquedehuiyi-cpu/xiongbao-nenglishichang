@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0FPbYYrL",
+  "name": "arisylafeta-dispatch-multiple-agents",
+  "displayName": "代理Dispatch",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "arisylafeta",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/arisylafeta-dispatch-multiple-agents/latest/arisylafeta-dispatch-multiple-agents.zip",
+  "zipSha256": "195ae0fad2e3589ffa830deffe62996047fffe6419bf32fee091710ce02af433",
+  "zipBytes": 1055,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "84e60e41159354f8b163c066ee45a97449f4b633f12eecc48b23f34b252df00f",
+  "fetchedAt": "2026-11-18T10:41:45.470Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

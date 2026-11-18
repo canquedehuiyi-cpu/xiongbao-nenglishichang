@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1GievAYH",
+  "name": "alibabacloud-openclaw-ecs-dingtalk",
+  "displayName": "一键在ECS部署openclaw，并打通钉钉",
+  "categoryCode": "Productivity",
+  "categoryDir": "Productivity",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-openclaw-ecs-dingtalk/latest/alibabacloud-openclaw-ecs-dingtalk.zip",
+  "zipSha256": "dce76ae507756bcf8558798b5ac5b18ede8ff7db9ccb80c65cd74cca15e4a8aa",
+  "zipBytes": 11581,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "c9996f03995c23b9bfa01949998e3d0957cc3f8db4bb3854c17f13703415f999",
+  "fetchedAt": "2026-11-18T10:39:52.843Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

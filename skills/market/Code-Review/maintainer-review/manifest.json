@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1LKKf2g2",
+  "name": "maintainer-review",
+  "displayName": "维护者审查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "apache",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/maintainer-review/latest/maintainer-review.zip",
+  "zipSha256": "91569c8c1731beba60b4bc1efcf38b5fe8e5bf6fdf05a898b4b2ba4089e6252a",
+  "zipBytes": 10887,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "89d4aef7e9ed7d2968dbecbcf80dc8dfbe3cc971a49f29a8627c6835dc3afa64",
+  "fetchedAt": "2026-11-18T10:34:17.199Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

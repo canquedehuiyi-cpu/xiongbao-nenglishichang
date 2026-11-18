@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fLYC8GiS",
+  "name": "a5c-ai-rtl-linting",
+  "displayName": "RTL代码规范",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "a5c-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/a5c-ai-rtl-linting/latest/a5c-ai-rtl-linting.zip",
+  "zipSha256": "f914c2b80f57b7befce19525863360ae37f0a7c1b17254fe1ebbf1a579737d57",
+  "zipBytes": 7627,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9cfa5a664e51f069e5cca3f1d0642b5a8cf87f84981744fcc2c301a5813c173c",
+  "fetchedAt": "2026-11-18T10:34:08.234Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

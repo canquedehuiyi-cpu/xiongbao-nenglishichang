@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZwcygWL1",
+  "name": "fredericosantos-astral-ruff",
+  "displayName": "Astral开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "fredericosantos",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/fredericosantos-astral-ruff/latest/fredericosantos-astral-ruff.zip",
+  "zipSha256": "6aeac18920284608df142158668207afae737b643252da12c8862995e9621f1a",
+  "zipBytes": 4457,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "3a1f37d5891c7932be9c239ea32223f310e96db90d2d49429d4ca49dadc7bc60",
+  "fetchedAt": "2026-11-18T10:34:28.476Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

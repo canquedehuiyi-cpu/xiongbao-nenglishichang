@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FMFMiXpC",
+  "name": "jeremylongshore-schema-optimization",
+  "displayName": "Schema优化",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jeremylongshore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jeremylongshore-schema-optimization/latest/jeremylongshore-schema-optimization.zip",
+  "zipSha256": "2b2cf1e13e7c7cb64a6ad8a70358297cc4f5964a26e9483238a5dc8c0a25266d",
+  "zipBytes": 18925,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "4c4a06e2e86e849985284d7b44f2655d601fa3f3c6537861cdf095261bcbb6e3",
+  "fetchedAt": "2026-11-18T10:42:07.544Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

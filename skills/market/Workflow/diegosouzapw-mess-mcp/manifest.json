@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0fTuMB23",
+  "name": "diegosouzapw-mess-mcp",
+  "displayName": "MCPMESS开发",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-mess-mcp/latest/diegosouzapw-mess-mcp.zip",
+  "zipSha256": "e89a29c3758ba682133c42c346d149ac2c2447a3e8ffaaeb5e6500a8e3eec630",
+  "zipBytes": 5258,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "7d989f39764d9676ee378368e21e799e60b67009587a2c51ebda2ab8bf9d60f7",
+  "fetchedAt": "2026-11-18T10:41:45.705Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

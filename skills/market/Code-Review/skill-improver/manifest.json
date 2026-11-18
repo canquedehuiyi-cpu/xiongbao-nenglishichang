@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PYQnbU7U",
+  "name": "skill-improver",
+  "displayName": "技能改进器",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "sickn33",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/skill-improver/latest/skill-improver.zip",
+  "zipSha256": "55c07358e60fe667ca372f7de6c9916f9c0b800c491f760a830945fe52f649a4",
+  "zipBytes": 2742,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6dc4b085380e6f35aba1072a6782e60bcb4d085513b2bd2485c8f4c041089a74",
+  "fetchedAt": "2026-11-18T10:34:07.926Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

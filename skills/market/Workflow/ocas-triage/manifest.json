@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dmv2MLxx",
+  "name": "ocas-triage",
+  "displayName": "分诊",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ocas-triage/latest/ocas-triage.zip",
+  "zipSha256": "9be3cc071ab3a8480b71a73847545e60e5726f95db5ac522abc28b56e9f738dd",
+  "zipBytes": 12805,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "d98070d35dea0a0a660e010dc9bffeb427efed008d5532754b101e6fe542d899",
+  "fetchedAt": "2026-11-18T10:42:01.070Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

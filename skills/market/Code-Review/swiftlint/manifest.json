@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Y67AV87v",
+  "name": "swiftlint",
+  "displayName": "SwiftLint 代码风格检查工具",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "alexissan",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/swiftlint/latest/swiftlint.zip",
+  "zipSha256": "029f2e5680a6af05ef96552e7b2fc87831dc476563c5cbc6d51a345a6ed1a907",
+  "zipBytes": 6611,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b92be22bf54c5bd7052507ea3270dbf0d5385206a0615a7dd2a5557971b62070",
+  "fetchedAt": "2026-11-18T10:33:58.985Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

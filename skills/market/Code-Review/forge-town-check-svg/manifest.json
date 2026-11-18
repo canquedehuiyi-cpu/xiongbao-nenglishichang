@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_O3dMZFIp",
+  "name": "forge-town-check-svg",
+  "displayName": "Svg检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "forge-town",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/forge-town-check-svg/latest/forge-town-check-svg.zip",
+  "zipSha256": "8edd1328f73adc858c55aef9ee53946851eb380c8e63d81cbcaa985f1230513a",
+  "zipBytes": 1181,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ade0d4423da181b350ede62d32f122d6ab6e8f71e5cebb5ea8e8657a61a932f3",
+  "fetchedAt": "2026-11-18T10:34:10.875Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

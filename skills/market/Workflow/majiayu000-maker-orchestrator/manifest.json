@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_U9V4NaDV",
+  "name": "majiayu000-maker-orchestrator",
+  "displayName": "代理Maker编排",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-maker-orchestrator/latest/majiayu000-maker-orchestrator.zip",
+  "zipSha256": "17c6f34c878b08e4a0c2b80af6e67abd4b2098d2f2801c6389eb2da9d944a26b",
+  "zipBytes": 2367,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f3333fa19095f49901fcfc94315e405368232f3defdcd96598d508aa1de67a53",
+  "fetchedAt": "2026-11-18T10:41:59.521Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

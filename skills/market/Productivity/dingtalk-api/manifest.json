@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Sb3Oacky",
+  "name": "dingtalk-api",
+  "displayName": "钉钉开放平台API技能",
+  "categoryCode": "Productivity",
+  "categoryDir": "Productivity",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ogenes",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dingtalk-api/latest/dingtalk-api.zip",
+  "zipSha256": "fedefc731550829f2374cf73f1066161386e31f2a3dd681d02d8d0ef2bb3e558",
+  "zipBytes": 85728,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 41,
+  "treeSha256": "2286ac2e76e899f489758ef7c10f7f6bc7f6c715fddf67679242dc91cbc4ba5e",
+  "fetchedAt": "2026-11-18T10:39:52.299Z",
+  "credentialScan": {
+    "textFilesScanned": 41,
+    "filesRedacted": 0
+  },
+  "note": null
+}

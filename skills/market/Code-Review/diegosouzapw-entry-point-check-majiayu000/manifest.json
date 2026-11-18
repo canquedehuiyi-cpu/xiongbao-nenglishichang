@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PU5fTwOY",
+  "name": "diegosouzapw-entry-point-check-majiayu000",
+  "displayName": "Point检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-entry-point-check-majiayu000/latest/diegosouzapw-entry-point-check-majiayu000.zip",
+  "zipSha256": "35678d44706df46a123b51a230ca7e246fd3caef7d7829d8ce64fa27ce0f5baa",
+  "zipBytes": 2308,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a2005a017a352e6cd923cd965e4f4fbe598e1f6242b91db6ee9d348fd6bb6350",
+  "fetchedAt": "2026-11-18T10:34:27.071Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

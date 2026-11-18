@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cmRdtixn",
+  "name": "workflows",
+  "displayName": "工作流",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "HughYau",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/workflows/latest/workflows.zip",
+  "zipSha256": "5dcbe4cb1c69ec8e98a39c0d8b5e616b9d7ee61a06e8a0b931f9643c545ba758",
+  "zipBytes": 3690,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "3c4900f6edcefecb5c0004374b8b3f7958f2a1335f6add36d0c723c6a5665d3f",
+  "fetchedAt": "2026-11-18T10:42:12.161Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

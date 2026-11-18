@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NkoCfHjX",
+  "name": "diegosouzapw-arch-guard",
+  "displayName": "Guard开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-arch-guard/latest/diegosouzapw-arch-guard.zip",
+  "zipSha256": "ae1a2f6cb657d9067316e0ccc92fd0de489d32ba2f30854367c91fa3476f3a91",
+  "zipBytes": 3410,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "1f6497ee0ec558b3c8490768ff9edab1c28258c766597436417363dea1d68f15",
+  "fetchedAt": "2026-11-18T10:34:26.914Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

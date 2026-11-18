@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SjzGBdpR",
+  "name": "dicklesworthstone-change-request-generator",
+  "displayName": "Change生成",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-change-request-generator/latest/dicklesworthstone-change-request-generator.zip",
+  "zipSha256": "f97b0711ccc24064070314cc9d335522fb60132cf1e531f1394ae0f972f98fd7",
+  "zipBytes": 1203,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "de30cf1d04870ec8b58dd5f4017ae8db0dabf4992a7306be15635bb973ccb8b3",
+  "fetchedAt": "2026-11-18T10:41:51.066Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

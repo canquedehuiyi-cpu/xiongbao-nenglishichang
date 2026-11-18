@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_kDkuihpJ",
+  "name": "charlesjones-dev-performance-audit",
+  "displayName": "性能审计优化",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "charlesjones-dev",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/charlesjones-dev-performance-audit/latest/charlesjones-dev-performance-audit.zip",
+  "zipSha256": "a7ff46205d5eba5e851ea0e225ac8100cc020b5cb7f6cbdaff59d8ba418a9079",
+  "zipBytes": 11936,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "f70f02cfb5db73d684babea3dc64912e5daa709232e9df9ceebef3132e6b33a1",
+  "fetchedAt": "2026-11-18T10:33:49.705Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

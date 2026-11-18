@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZyE5NdHl",
+  "name": "workflow-verification",
+  "displayName": "工作流程验证",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "duc01226",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/workflow-verification/latest/workflow-verification.zip",
+  "zipSha256": "c9622da37cd21fe1b90c92a141109eb2c5fbbe95dd54dd67373153d44bc0c29e",
+  "zipBytes": 7515,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "2eb5380f0f02b5368ee31e06c914fc0d32f239071162cffecb39315ecb0584f4",
+  "fetchedAt": "2026-11-18T10:42:10.932Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

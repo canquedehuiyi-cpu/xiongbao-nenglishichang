@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cAydr9PV",
+  "name": "proofreading-decision-log",
+  "displayName": "校对决定日志",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "futuremeng",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/proofreading-decision-log/latest/proofreading-decision-log.zip",
+  "zipSha256": "50f0d7f74475c5dfc1baf4e2b6c1092f8524e38fe68a50d97afef74c9e198252",
+  "zipBytes": 1490,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "857d2770615b516b1e37e0c91d80175768477884d038fd32767f5b03489b7119",
+  "fetchedAt": "2026-11-18T10:34:20.496Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

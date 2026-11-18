@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DosfYCwK",
+  "name": "diegosouzapw-starknet-react-rules",
+  "displayName": "Starknet开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-starknet-react-rules/latest/diegosouzapw-starknet-react-rules.zip",
+  "zipSha256": "fa6d056234afffd5d6a7005afbe341eb87127859b8999a43ebc94317f80a1cb0",
+  "zipBytes": 2517,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9cf8515b5894cc489f4b058f906c93ffb3f19891cf6781afe5854a23dc414f16",
+  "fetchedAt": "2026-11-18T10:34:20.031Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

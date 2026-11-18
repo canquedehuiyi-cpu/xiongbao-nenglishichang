@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DVcuKNLK",
+  "name": "gohypergiant-accelint-ts-audit-all",
+  "displayName": "Ts会话检索",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "accelint",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/gohypergiant-accelint-ts-audit-all/latest/gohypergiant-accelint-ts-audit-all.zip",
+  "zipSha256": "ceb71b541485902344c93442d4f16e8acc81d2adeda4842d64a9f2f3e2527e1a",
+  "zipBytes": 14073,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "5e4a2fad5093735c07e9f2715a762f42cc027fde7a55cde4a985c484766e6279",
+  "fetchedAt": "2026-11-18T10:34:15.981Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

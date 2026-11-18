@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_88p3kQCL",
+  "name": "workflow-router",
+  "displayName": "工作流路由器",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "parcadei",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/workflow-router/latest/workflow-router.zip",
+  "zipSha256": "ccdb22145680b0c468791294dffb34dd13368e1ba02812674890f30a9f13144f",
+  "zipBytes": 2549,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "55d91ce8f536ff3ec0c75dcea0e6e66c599ae4be401c4fd5cb7a6f3d5f620a19",
+  "fetchedAt": "2026-11-18T10:41:54.257Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

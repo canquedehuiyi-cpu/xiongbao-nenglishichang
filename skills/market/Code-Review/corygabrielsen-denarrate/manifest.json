@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BU7btITa",
+  "name": "corygabrielsen-denarrate",
+  "displayName": "去叙事化",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "corygabrielsen",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/corygabrielsen-denarrate/latest/corygabrielsen-denarrate.zip",
+  "zipSha256": "11dda9b57c2d54f56cfe4e1dfd577bfafe37829546df2ecba0f8d3e905490d7c",
+  "zipBytes": 1763,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "9455d3298cd05820505b716c972bba573adbe9379fa10ce746b781599e896df1",
+  "fetchedAt": "2026-11-18T10:33:54.842Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

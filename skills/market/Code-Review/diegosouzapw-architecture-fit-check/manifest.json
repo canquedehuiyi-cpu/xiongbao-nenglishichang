@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0ym6SDgU",
+  "name": "diegosouzapw-architecture-fit-check",
+  "displayName": "FIT架构检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-architecture-fit-check/latest/diegosouzapw-architecture-fit-check.zip",
+  "zipSha256": "f8ffee9bdec2789f142d90effd67c9178ecab90bae29fd0f3e32018dfc311b4e",
+  "zipBytes": 2516,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9836c3c389a9d15217cde6344cd943d9b8529bc740a94148e3a261e494b231ca",
+  "fetchedAt": "2026-11-18T10:34:05.959Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XcjoPzS4",
+  "name": "project-management-governance",
+  "displayName": "项目管理治理",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/project-management-governance/latest/project-management-governance.zip",
+  "zipSha256": "1fa41b01c4f7c0ac8e401922314c49a078165fd73a668c05ce1301a485ae22c2",
+  "zipBytes": 2869,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e92e86fe93355752802dee0d7d8c73d60210250d44de683558173a0468b85d4f",
+  "fetchedAt": "2026-11-18T10:42:10.132Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

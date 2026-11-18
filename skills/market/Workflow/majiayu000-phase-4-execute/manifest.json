@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5i8Fci0G",
+  "name": "majiayu000-phase-4-execute",
+  "displayName": "Phase助手",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-phase-4-execute/latest/majiayu000-phase-4-execute.zip",
+  "zipSha256": "32c15e40b911883cf32b4cf0ad7bc0dfff1807c869fb6b77d059537ec26559e7",
+  "zipBytes": 2986,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "246ad63e6de91a42beabc91e1a2aa462efe6cb585f361183a9dfe09624ce8dd2",
+  "fetchedAt": "2026-11-18T10:41:49.311Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

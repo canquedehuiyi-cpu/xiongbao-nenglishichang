@@ -1,0 +1,4 @@
+interface:
+  display_name: "ReSharper InspectCode"
+  short_description: "Run jb inspectcode on .NET code"
+  default_prompt: "Use $resharper-inspectcode to inspect the nearest .NET solution and summarize the XML report."

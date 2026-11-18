@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_IdOwe7Gs",
+  "name": "codex-teams",
+  "displayName": "Codex 团队",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "tacit7",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/codex-teams/latest/codex-teams.zip",
+  "zipSha256": "9b02ffdca0db58abe93f79a94655682362613a8411ac2224d0069a89901d433b",
+  "zipBytes": 1566,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "380a83791c0315ef59dc820e8cf4f55d3be145465950cfb11cd2eb65d871a8cc",
+  "fetchedAt": "2026-11-18T10:41:44.647Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_djPdxEX6",
+  "name": "edwinhu-ds-implement",
+  "displayName": "Ds功能实现",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "edwinhu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/edwinhu-ds-implement/latest/edwinhu-ds-implement.zip",
+  "zipSha256": "770f0d8d1fa3c9fced0ee3a2013871fb7fd6a7d004f874f6f5dbbf2b15f9c85a",
+  "zipBytes": 22356,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "2349b7c018450f4d764d4ef43a154a70e8d4da06c1d429b88131f37b0fc952e4",
+  "fetchedAt": "2026-11-18T10:42:12.336Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

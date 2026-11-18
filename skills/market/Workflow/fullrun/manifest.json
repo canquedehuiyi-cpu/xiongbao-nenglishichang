@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YvGjRFTr",
+  "name": "fullrun",
+  "displayName": "全自动任务执行",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/fullrun/latest/fullrun.zip",
+  "zipSha256": "05adbe7c78cb5296fd83cc53f7788fd6bcf9f7904d5951daaf33b94300be12e7",
+  "zipBytes": 10400,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "b8c4fc14ba085b8b67c56b9b560a361981c8bfe7e5500b3af6571d2317b41574",
+  "fetchedAt": "2026-11-18T10:41:36.703Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

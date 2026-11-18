@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bY9baFVY",
+  "name": "j5ik2o-intent-based-dedup",
+  "displayName": "意図共通化判定",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "j5ik2o",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/j5ik2o-intent-based-dedup/latest/j5ik2o-intent-based-dedup.zip",
+  "zipSha256": "9c5189bb3599507d977c4a7661a98f07b12bc758db430cda6bbf54c965d0d5c6",
+  "zipBytes": 3198,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1faf47a56f542117bbeb5b161c7f51a5b3bbacc527d304496f7f554b75c35219",
+  "fetchedAt": "2026-11-18T10:34:28.872Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

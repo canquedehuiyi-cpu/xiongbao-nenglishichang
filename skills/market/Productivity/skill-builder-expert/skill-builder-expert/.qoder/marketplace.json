@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "skill",
+  "marketItemId": "164ac9b1-0260-455b-a373-0234c573c692",
+  "itemName": "skill-builder-expert",
+  "displayName": "Skill Builder Expert",
+  "version": "1.0.110",
+  "packageKind": "skill"
+}

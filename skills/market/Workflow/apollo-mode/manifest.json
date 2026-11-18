@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NrG8Pf77",
+  "name": "apollo-mode",
+  "displayName": "阿波罗模式",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/apollo-mode/latest/apollo-mode.zip",
+  "zipSha256": "657618a202802657f950ddf0f2795e88c4d09823dcb2cd3b896c0a2445d217fc",
+  "zipBytes": 2416,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "7671780bd6ca2bcadb190b51ff7160700caaf32c71d8cd9d917cd413bbd1795f",
+  "fetchedAt": "2026-11-18T10:41:41.510Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

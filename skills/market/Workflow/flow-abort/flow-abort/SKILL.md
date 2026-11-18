@@ -1,0 +1,145 @@
+---
+name: flow-abort
+description: "Abort the current FLOW feature. Closes the PR, deletes the remote branch, removes the worktree, and deletes the state file. Available from any phase. Use --manual for confirmation prompt."
+---
+
+# FLOW Abort
+
+Abandon the current feature completely. This is the escape hatch — available
+from any phase, no prerequisites.
+
+## Usage
+
+```text
+/flow:flow-abort
+/flow:flow-abort --auto
+/flow:flow-abort --manual
+```
+
+- `/flow:flow-abort` — uses configured mode from the state file (default: auto)
+- `/flow:flow-abort --auto` — skips confirmation and proceeds directly to cleanup
+- `/flow:flow-abort --manual` — prompts for user confirmation before any destructive action
+
+## Concurrency
+
+This flow is one of potentially many running simultaneously — on this
+machine (multiple worktrees) and across machines (multiple engineers).
+Your state file (`.flow-states/<branch>/state.json`) is yours alone. Never
+read or write another branch's state. All local artifacts (logs, plan
+files, temp files) are scoped by branch name. GitHub state (PRs, issues,
+labels) is shared across all engineers — operations that create or modify
+shared state must be idempotent.
+
+## Mode Resolution
+
+1. If `--auto` was passed → mode is **auto**
+2. If `--manual` was passed → mode is **manual**
+3. Otherwise, read the state file at `<project_root>/.flow-states/<branch>/state.json`. Use `skills.flow-abort` value.
+4. If the state file has no `skills` key → use built-in default: **auto**
+
+## Entry Check
+
+Run this entry check as your very first action.
+
+1. Run `git worktree list --porcelain`. Note the path on the first
+   `worktree` line (this is the project root). Find the `worktree` entry
+   whose path matches your current working directory — the
+   `branch refs/heads/<name>` line in that entry is the current branch
+   (strip the `refs/heads/` prefix).
+2. Use the Read tool to read `<project_root>/.flow-states/<branch>/state.json`.
+   - If the file exists: extract `feature`, `branch`, `worktree`,
+     `pr_number`, and `pr_url`. Print the feature name, branch, PR URL,
+     and current phase.
+   - If the file does not exist: infer what you can from git state:
+     - `branch` from the porcelain output (already known)
+     - Detect worktree path from the porcelain output
+     - Use the branch name as the feature name
+     - `pr_number` unknown — skip PR close step later
+     - Print "WARNING: No state file found for branch '<branch>'. Will
+       attempt best-effort cleanup using git state." and tell the user
+       what was inferred. Continue — do not stop.
+
+If the Read tool fails for any other reason, stop and show the error.
+
+Use these values for all subsequent steps — do not re-read the state file
+or re-run git commands to gather the same information.
+
+Resolve the mode using the Mode Resolution rules above.
+
+## Announce
+
+At the very start, output the following banner in your response (not via Bash) inside a fenced code block:
+
+````markdown
+```text
+──────────────────────────────────────────────────
+  FLOW v1.1.0 — Abort — STARTING
+──────────────────────────────────────────────────
+```
+````
+
+## Steps
+
+### Step 1 — Confirm with user (manual mode only)
+
+Skip this step if mode is **auto** — proceed directly to Steps 2–7.
+
+If mode is **manual**, this is destructive and irreversible. Use AskUserQuestion.
+
+If the entry check printed warnings, include them in the confirmation:
+
+> "Abort feature '<feature>'?
+> ⚠ <any warnings from the entry check>
+> This will close the PR, delete the remote branch, remove the worktree, and delete the state file and log. All uncommitted work in the worktree will be lost."
+
+- **Yes, abort everything** — proceed
+- **No, keep going** — stop here
+
+### Step 2 — Remove In-Progress labels
+
+If a state file was found in the entry check, remove the "Flow In-Progress"
+label from any issues referenced in the prompt. Best-effort — continue to
+cleanup even if removal fails. Skip this step if no state file exists.
+
+```bash
+${CLAUDE_PLUGIN_ROOT}/bin/flow label-issues --state-file <project_root>/.flow-states/<branch>/state.json --remove
+```
+
+### Steps 3–8 — Run cleanup script
+
+Run the cleanup script from the project root with abort flags:
+
+```bash
+${CLAUDE_PLUGIN_ROOT}/bin/flow cleanup <project_root> --branch <branch> --worktree <worktree_path> --pr <pr_number>
+```
+
+If `pr_number` is unknown, omit `--pr`. The cleanup script deletes local branches and attempts remote branch deletion when `--pr` is provided.
+
+The script outputs JSON with a `steps` dict showing what happened to each resource: `pr_close`, `worktree`, `remote_branch`, `local_branch`, `branch_dir`, `queue_entry`. Each step reports `"closed"`/`"removed"`/`"deleted"`, `"skipped"`, or `"failed: <reason>"`. The `branch_dir` step recursively removes every per-branch artifact under `.flow-states/<branch>/` (state file, log, plan, DAG, frozen phases, CI sentinel, timings, closed-issues record, issues summary, scratch rule content, commit message, start prompt). The `queue_entry` step removes `.flow-states/start-queue/<branch>` if a start-lock entry remains.
+
+### Done
+
+Tell the user what was cleaned, what was already gone, and what failed.
+
+Then output the following banner in your response (not via Bash) inside a fenced code block:
+
+````markdown
+```text
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ✓ FLOW v1.1.0 — Abort — COMPLETE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Feature '<feature>' has been abandoned.
+  Cleanup complete — see results above for details.
+```
+````
+
+Report which steps succeeded and which were already cleaned up.
+
+## Rules
+
+- Available from ANY phase — no phase gate
+- Never run from inside the worktree — always navigate to project root first
+- Confirm with the user only when mode is **manual**
+- Every step after confirmation is best-effort — if one fails, continue to the next
+- Never rebase, never force push — just close and delete

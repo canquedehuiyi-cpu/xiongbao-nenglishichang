@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rZhsOgwd",
+  "name": "codifica",
+  "displayName": "Codifica 协议智能体",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "davidedicillo",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/codifica/latest/codifica.zip",
+  "zipSha256": "11ef3560faf25a7b0009438b747dd7e995ae98f48abf721881daef57bc14f023",
+  "zipBytes": 3281,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "19d77bb26d435ba88e7f46cf5528bd9ec479108166b00cccb22c68c7098ff641",
+  "fetchedAt": "2026-11-18T10:41:43.598Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

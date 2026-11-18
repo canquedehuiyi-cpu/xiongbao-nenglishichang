@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_kocHeGqq",
+  "name": "jamie-bitflight-subagent-refactoring-methodology",
+  "displayName": "子代理重构",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jamie-bitflight",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jamie-bitflight-subagent-refactoring-methodology/latest/jamie-bitflight-subagent-refactoring-methodology.zip",
+  "zipSha256": "b8a218d62cd96f8d2fcd2a707d2113ebc3aeb6dfb7e9b1e7cfacdabe3a174a1a",
+  "zipBytes": 2742,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1ec87ec149b53c76b989fa3b09d305fb7d5b521259e4a6a40e8dd934100732ac",
+  "fetchedAt": "2026-11-18T10:34:09.635Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

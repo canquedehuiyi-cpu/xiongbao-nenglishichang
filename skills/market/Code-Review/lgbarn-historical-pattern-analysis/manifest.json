@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9FBflECa",
+  "name": "lgbarn-historical-pattern-analysis",
+  "displayName": "Git历史模式",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lgbarn",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/lgbarn-historical-pattern-analysis/latest/lgbarn-historical-pattern-analysis.zip",
+  "zipSha256": "90d7466d1eb7f9aa8b3525cd39d97189a8ffa495ba936e70bbb860f2255fe2d0",
+  "zipBytes": 2632,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4e33d2c7dac1e23d0f87d8c9f2bc836b37aadcec0cde80de9bec7f013f7d6d15",
+  "fetchedAt": "2026-11-18T10:33:53.177Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

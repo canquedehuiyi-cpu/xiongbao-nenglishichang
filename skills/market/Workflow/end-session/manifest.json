@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KOEcuBJf",
+  "name": "end-session",
+  "displayName": "结束会议",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "MinhHaDuong",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/end-session/latest/end-session.zip",
+  "zipSha256": "79e7beda02467cbd3111757b6676222f75d132b44868e984215acc76f8040144",
+  "zipBytes": 1367,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7cda8e49c10c3f9410cf7fd8ab241a39def0349ab88d6a583e6739e257a2eeeb",
+  "fetchedAt": "2026-11-18T10:42:08.325Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

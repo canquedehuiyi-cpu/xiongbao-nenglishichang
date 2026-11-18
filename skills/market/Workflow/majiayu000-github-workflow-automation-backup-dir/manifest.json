@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_j82gIKaJ",
+  "name": "majiayu000-github-workflow-automation-backup-dir",
+  "displayName": "DIR开发",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-github-workflow-automation-backup-dir/latest/majiayu000-github-workflow-automation-backup-dir.zip",
+  "zipSha256": "a06b93e9b717df25914c51343b73f7e7a5d9012325e98d80238761221c104aea",
+  "zipBytes": 7617,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "275fbf4e81689e22309a31504bdd529bb6ddf78e5d2f322fa13a3502b70161e1",
+  "fetchedAt": "2026-11-18T10:41:41.806Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

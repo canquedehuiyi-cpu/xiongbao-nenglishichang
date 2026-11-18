@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NSzutGH3",
+  "name": "diegosouzapw-ai-integration-specialist",
+  "displayName": "流程AI集成",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-ai-integration-specialist/latest/diegosouzapw-ai-integration-specialist.zip",
+  "zipSha256": "72f6127a296ff40bf23d5f4c683863499d0d2415a425ee87137c5eb618607bbc",
+  "zipBytes": 2524,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "915de066b2ecefe728a2d5a9c459d35f32dc561b6a401d358bbc4d14a69ee550",
+  "fetchedAt": "2026-11-18T10:41:33.143Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

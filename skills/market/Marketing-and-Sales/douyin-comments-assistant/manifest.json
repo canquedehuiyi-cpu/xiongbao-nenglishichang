@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "69f0b923-f605-4ca4-9f05-68f73703dee9",
+  "name": "douyin-comments-assistant",
+  "displayName": "抖音数据分析 作品详情 作品评论",
+  "categoryCode": "Marketing & Sales",
+  "categoryDir": "Marketing-and-Sales",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08abf-bf39-711a-abe0-0e1be7d5d2eb/2677ff01_douyin-comments-assistant-main.zip",
+  "zipSha256": "f1972f68cbf1101ffab8b0642a09beb48a60df4911f9f76ec6e113f37d99920e",
+  "zipBytes": 42900,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 34,
+  "treeSha256": "6405a8729e48d10d1708a5604e838e369d6cd10974c66a6068177c52c0e8c5e6",
+  "fetchedAt": "2026-11-18T10:39:50.040Z",
+  "credentialScan": {
+    "textFilesScanned": 33,
+    "filesRedacted": 0
+  },
+  "note": null
+}

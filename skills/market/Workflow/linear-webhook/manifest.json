@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5ImuRfwo",
+  "name": "linear-webhook",
+  "displayName": "Linear Webhook",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/linear-webhook/latest/linear-webhook.zip",
+  "zipSha256": "d4d1a1bf92c0340176db6deb80c1b78e4ff1e21a539ca0d8c1d8579b813b076f",
+  "zipBytes": 13166,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "ced87e7240a2314302391f4a7601cc4ec6735a54e01ea89900f14c67ce3a510b",
+  "fetchedAt": "2026-11-18T10:41:39.166Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

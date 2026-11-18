@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mi57eF8e",
+  "name": "agent-autonomy-kit-zh",
+  "displayName": "代理自主工具包",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ayakolin",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-autonomy-kit-zh/latest/agent-autonomy-kit-zh.zip",
+  "zipSha256": "b5f50e6fbd7256ecb4b4e5ee77893ea1fa384d97bf09c719452a7ef07b107d3f",
+  "zipBytes": 6191,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "2ef5765cad2d0aaf357a4d88d6f076652bd944d27056857701106d59f481f2e6",
+  "fetchedAt": "2026-11-18T10:41:53.084Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

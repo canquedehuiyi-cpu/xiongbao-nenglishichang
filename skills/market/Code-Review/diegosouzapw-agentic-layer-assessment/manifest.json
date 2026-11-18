@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SzFzuWoi",
+  "name": "diegosouzapw-agentic-layer-assessment",
+  "displayName": "Agentic分层",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-agentic-layer-assessment/latest/diegosouzapw-agentic-layer-assessment.zip",
+  "zipSha256": "e683240d5730a8c40be3a178d611c7bf0e33f9ff95feff0d9605eb3db62dde49",
+  "zipBytes": 3523,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "fd4ee6aa22353af0fb3d3b6bc2877f35d7e0eb1e8b848babd4bdd4431a9cb57c",
+  "fetchedAt": "2026-11-18T10:34:27.210Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

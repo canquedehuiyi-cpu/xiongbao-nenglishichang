@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PShuW0Ge",
+  "name": "reviewing-code",
+  "displayName": "审查代码",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/reviewing-code/latest/reviewing-code.zip",
+  "zipSha256": "9424e02e062ea9ee04e0022375bdc2c4adbd466f7a4edf3af6890d5de2a13781",
+  "zipBytes": 2400,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8824eb29c0947f839d31841fc050682a7fd9828d7f58255b3085bbc907d34040",
+  "fetchedAt": "2026-11-18T10:33:58.672Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

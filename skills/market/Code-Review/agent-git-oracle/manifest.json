@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1bm0lR1v",
+  "name": "agent-git-oracle",
+  "displayName": "Agent Git 预言机",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "tmstudio667-commits",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-git-oracle/latest/agent-git-oracle.zip",
+  "zipSha256": "f2e6cf2df7cda007380797db09008bed8aa39317cab2a7d66814f80427ea3c62",
+  "zipBytes": 1135,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f4a51847a7316b04df874d3f92917cde0f760430ae9a52c94778c1174ebd5964",
+  "fetchedAt": "2026-11-18T10:33:55.740Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

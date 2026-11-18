@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_g1iDB3YR",
+  "name": "autonomous-skill-orchestrator",
+  "displayName": "自主技能编排器",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "vishnubedi3",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/autonomous-skill-orchestrator/latest/autonomous-skill-orchestrator.zip",
+  "zipSha256": "b1be90c868064ed4cb11ee7ce99c80573df47085a03b1bca04e76f04194a0fbb",
+  "zipBytes": 2405,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "bec19e88150d419123f32c295a7086cc791cb8aa07253165b82e07f97a53aff7",
+  "fetchedAt": "2026-11-18T10:42:01.833Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

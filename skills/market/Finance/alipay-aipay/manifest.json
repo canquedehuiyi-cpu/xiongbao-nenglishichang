@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_69VS2FFY",
+  "name": "alipay-aipay",
+  "displayName": "支付宝 AI 付产品接入",
+  "categoryCode": "Finance",
+  "categoryDir": "Finance",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Alipay (Ant Group)",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a024e7-76bb-7ad6-99b8-0aba413d7d8f/package.zip",
+  "zipSha256": "ca24dd1d69b3b9e433b9f3a996937dbce237fbeabeb3152b78f467220fa35476",
+  "zipBytes": 445144,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 106,
+  "treeSha256": "bb6f850c1ea712a24765c4a2d09535b1b00a1ea537dc69714cf4f8c265fb4109",
+  "fetchedAt": "2026-11-18T10:11:24.426Z",
+  "credentialScan": {
+    "textFilesScanned": 102,
+    "filesRedacted": 0
+  },
+  "note": null
+}

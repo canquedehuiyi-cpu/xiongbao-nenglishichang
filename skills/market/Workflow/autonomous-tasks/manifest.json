@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_wlslwbdy",
+  "name": "autonomous-tasks",
+  "displayName": "自主任务执行器",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "changye01",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/autonomous-tasks/latest/autonomous-tasks.zip",
+  "zipSha256": "56b1cf4dc025ba07b2c3776fba9c7b7fc393d62bafa906789e2f3166dca4b79f",
+  "zipBytes": 3673,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "3943155d9b2cd76e3e12be224ca4c525f48f13247e6c9c55e309e34df6ab6836",
+  "fetchedAt": "2026-11-18T10:41:41.292Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

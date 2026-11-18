@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3tkoF7X5",
+  "name": "claude-dev-suite-rust-quality",
+  "displayName": "安全Rust开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "claude-dev-suite",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/claude-dev-suite-rust-quality/latest/claude-dev-suite-rust-quality.zip",
+  "zipSha256": "b1fc380f7657af8b4083bd939939b319ca2458461b5d6d03f71f50aef10d0d1c",
+  "zipBytes": 4364,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a53430f8f4b165d49fcca64f2ef8815dee8feb861aec87384f360a80cba5cac9",
+  "fetchedAt": "2026-11-18T10:33:52.370Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

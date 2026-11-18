@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_h32kYuy7",
+  "name": "pilot-task-router",
+  "displayName": "飞行员任务路由器",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pilot-task-router/latest/pilot-task-router.zip",
+  "zipSha256": "39438652285f341649e10784d307bdf329544cbdbb8e666a58fb8613bc4c20d1",
+  "zipBytes": 1605,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "dbf43de7182606bd4899dddc745443b2e0ead7011115e6073277e981c17be1c5",
+  "fetchedAt": "2026-11-18T10:42:12.740Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bXiIw3jv",
+  "name": "magic-task",
+  "displayName": "魔法任务",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/magic-task/latest/magic-task.zip",
+  "zipSha256": "7afe2ce4e588d150a53247dd77735aa7092702282b04414035e3519a586fc79f",
+  "zipBytes": 1285,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "0bc7a16dc24a262c4caae32a5cc6d62472dc3fa715e78408dcc9ed15d9039d8f",
+  "fetchedAt": "2026-11-18T10:42:11.345Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "868a99a7-291a-4231-9d32-58d23ba972c8",
+  "name": "open-code-review-delegate",
+  "displayName": null,
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019eb112-738d-7e1d-bf19-fd5630f46f7a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fe9e2-50fa-7731-accd-f7b2f139cecb/e536602e_open-code-review-delegate.zip",
+  "zipSha256": "c273246f75b2070f556f82ad4124bdea4ff86d6b5697ef64868de1ce65379f53",
+  "zipBytes": 3839,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "fad45442fcedfca3cf14303fb7d3aa136fe9dd7225ad2a810f380a287629c6f1",
+  "fetchedAt": "2026-11-18T10:33:48.760Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

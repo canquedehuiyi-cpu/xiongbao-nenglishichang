@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_M7Xxumnm",
+  "name": "diegosouzapw-skills-discovery-neversight",
+  "displayName": "发现代理",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-skills-discovery-neversight/latest/diegosouzapw-skills-discovery-neversight.zip",
+  "zipSha256": "d55290992e55d8731b1ceeee0fadc6e8c4f65387bb609f70d841888458e6e61c",
+  "zipBytes": 3543,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a673b8dc3da45cd9286339041d0015993dfac1ee9d71adb56a99e867ff01f875",
+  "fetchedAt": "2026-11-18T10:41:50.584Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

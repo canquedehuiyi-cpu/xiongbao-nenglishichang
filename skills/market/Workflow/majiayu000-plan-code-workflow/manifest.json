@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5B8L7kYu",
+  "name": "majiayu000-plan-code-workflow",
+  "displayName": "代码流程",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-plan-code-workflow/latest/majiayu000-plan-code-workflow.zip",
+  "zipSha256": "939a341b5419169b2a4b95f564d0bf2ca99d45c7b048de6bd487dbcd78b1e364",
+  "zipBytes": 1754,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0367f078c0da4ce4a759cef4606935ea8645cf2d9a9ad9129c4ba54d4f001b78",
+  "fetchedAt": "2026-11-18T10:41:31.842Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

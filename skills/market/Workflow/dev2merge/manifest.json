@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_23sdE8w9",
+  "name": "dev2merge",
+  "displayName": "开发 2 合并",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "RyderFreeman4Logos",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dev2merge/latest/dev2merge.zip",
+  "zipSha256": "3afff798a363c592227bebd1560e9ca59a1ff17b007d58dc045109782ced7288",
+  "zipBytes": 5363,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c405ed579d86f15de1854910cd788f71029e11a073f1583dcf65fe711f014fe9",
+  "fetchedAt": "2026-11-18T10:41:53.614Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

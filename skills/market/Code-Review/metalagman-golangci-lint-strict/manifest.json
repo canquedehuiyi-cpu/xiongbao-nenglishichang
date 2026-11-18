@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LI9vCsLv",
+  "name": "metalagman-golangci-lint-strict",
+  "displayName": "Golangci开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "metalagman",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/metalagman-golangci-lint-strict/latest/metalagman-golangci-lint-strict.zip",
+  "zipSha256": "631b1701857eddef80f6c206029ea79fb1dd4cc4a7f871104376f0e04f683e05",
+  "zipBytes": 8885,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "2d376d5d0e661691a2e0a05cc1fb3335b5d276f592b2374ad743a24650e3d12b",
+  "fetchedAt": "2026-11-18T10:33:58.043Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

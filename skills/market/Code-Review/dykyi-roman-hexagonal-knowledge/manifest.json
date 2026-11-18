@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Fy4onHBp",
+  "name": "dykyi-roman-hexagonal-knowledge",
+  "displayName": "知识开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dykyi-roman",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dykyi-roman-hexagonal-knowledge/latest/dykyi-roman-hexagonal-knowledge.zip",
+  "zipSha256": "82ed317987561b82b77f1acae0935586ea1bbec2c84ec20df104e2a313cf7231",
+  "zipBytes": 15111,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "2243e9f68cc3890db1f62226cdd4b4db1508c25be952700b62f2aa44cdacfd18",
+  "fetchedAt": "2026-11-18T10:33:59.380Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_xeguZ75I",
+  "name": "levifig-foundations",
+  "displayName": "基础指南",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "levifig",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/levifig-foundations/latest/levifig-foundations.zip",
+  "zipSha256": "3e69db855f7c2b604743aa099f932e6d3fc9d5263889e1bd010adb7d01a3eeb1",
+  "zipBytes": 39097,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 25,
+  "treeSha256": "93e6e468478031d86c116e1e00185a790bd6ee22e6e78fbd561820d5ae966e94",
+  "fetchedAt": "2026-11-18T10:34:12.173Z",
+  "credentialScan": {
+    "textFilesScanned": 25,
+    "filesRedacted": 0
+  },
+  "note": null
+}

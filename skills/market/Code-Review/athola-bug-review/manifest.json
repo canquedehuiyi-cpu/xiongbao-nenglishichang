@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mPfA6ebJ",
+  "name": "athola-bug-review",
+  "displayName": "漏洞BUG",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "athola",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/athola-bug-review/latest/athola-bug-review.zip",
+  "zipSha256": "b35d19922160011cc6736b4c4e6b115541d50bb0cee30bdd04f69f4fbd714d8a",
+  "zipBytes": 7528,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "d0b11a3f0fe75145cfc7998512a39f663a5dfe2cadc7bb9137c83afe50370a08",
+  "fetchedAt": "2026-11-18T10:33:47.875Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

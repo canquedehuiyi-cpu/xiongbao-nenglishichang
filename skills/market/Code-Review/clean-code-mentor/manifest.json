@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LZ3uRcCA",
+  "name": "clean-code-mentor",
+  "displayName": "干净的代码导师",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/clean-code-mentor/latest/clean-code-mentor.zip",
+  "zipSha256": "4999de6eff654e94e63c3c8ffd1dd985ee66d8779e210179c73ad98b344f26cb",
+  "zipBytes": 2601,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "dee03557eac5d2f039ce7db3c776d074260f10477ea78b5b073b6a804a1650a9",
+  "fetchedAt": "2026-11-18T10:33:55.023Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

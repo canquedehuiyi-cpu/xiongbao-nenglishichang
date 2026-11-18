@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "f730c804-5d4b-4c6c-92d2-f9051c35c7cd",
+  "name": "douyin-video-words",
+  "displayName": "抖音视频文案提取",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08fa9-5507-7a60-ada3-4f41a6dff7e1/0b5b78f1_video2text-ai-1.0.1.zip",
+  "zipSha256": "81b7f209fee17ca19dd9830a6298a484c8da1bb1c0cf0c7cdac74dd6d93f173e",
+  "zipBytes": 30078,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "ca95948aeb403853d2209abe9061c248ea61c8f7e35f4d24d5d35f8bb032c753",
+  "fetchedAt": "2026-11-18T10:41:32.353Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

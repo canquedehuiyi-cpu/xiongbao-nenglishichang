@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Sz04dqQi",
+  "name": "majiayu000-smart-router-skill",
+  "displayName": "Smart助手",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-smart-router-skill/latest/majiayu000-smart-router-skill.zip",
+  "zipSha256": "d0f7e6d038844b6c9d99dbf3cfa89801a9cb700aac07c7199e87be615feee945",
+  "zipBytes": 3619,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "74526a40b8bcf0b639855a1fb83368a2bc8a4116c8bb45d054b24cf92a0ca7d6",
+  "fetchedAt": "2026-11-18T10:41:59.229Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

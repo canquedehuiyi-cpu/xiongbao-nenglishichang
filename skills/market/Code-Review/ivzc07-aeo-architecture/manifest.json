@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_IiagqWNp",
+  "name": "ivzc07-aeo-architecture",
+  "displayName": "AEO开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivzc07",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ivzc07-aeo-architecture/latest/ivzc07-aeo-architecture.zip",
+  "zipSha256": "8116d2082757cc95d00711b3cbf83d9ec2d21f1a1b4e2d5cc71c424bf7b6b928",
+  "zipBytes": 4275,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "161378857673167500b63972b19d54366a4bb7405271481dce4bcfe1b8372ee0",
+  "fetchedAt": "2026-11-18T10:34:19.881Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

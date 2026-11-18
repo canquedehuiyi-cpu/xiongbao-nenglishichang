@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "9b6abf95-7eb2-4d72-a0ab-286b2360ca02",
+  "name": "ego-browser",
+  "displayName": "ego-browser 浏览器自动化",
+  "categoryCode": "Productivity",
+  "categoryDir": "Productivity",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "2.1.0",
+  "publisher": "019ed692-942e-75f2-849f-209355c18b1d",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a17df4-344b-78e6-b3bd-6f8562603b24/85342368_ego-browser-qoderwork-v2.1.0.zip",
+  "zipSha256": "ef5662a2584c60c1778a56f87b9a4c4a7b5a0b7f38f94cdf0980b382e3eec58d",
+  "zipBytes": 27523,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 23,
+  "treeSha256": "91594a2866a465c4599f9e4a3ca48417e7103841345f7b5a47e9de6eaa1edacf",
+  "fetchedAt": "2026-11-18T10:11:22.795Z",
+  "credentialScan": {
+    "textFilesScanned": 20,
+    "filesRedacted": 0
+  },
+  "note": null
+}

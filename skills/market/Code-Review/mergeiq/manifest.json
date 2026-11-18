@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KJMmcXVf",
+  "name": "mergeiq",
+  "displayName": "合并请求复杂度评分器",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mergeiq/latest/mergeiq.zip",
+  "zipSha256": "0af43ff738d825ec21431b60fbd29dd8c91ea4fa673456314c406926dd87846b",
+  "zipBytes": 15932,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "29816eac99314dc88dfeae687bdf03c28ef46f34c9ab89f605ab8b90f0f93c94",
+  "fetchedAt": "2026-11-18T10:34:00.906Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

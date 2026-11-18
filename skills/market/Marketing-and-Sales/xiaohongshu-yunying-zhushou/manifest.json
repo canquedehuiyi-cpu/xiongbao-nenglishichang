@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "30a14966-32a5-49a3-9d69-68d54b43e70a",
+  "name": "xiaohongshu-yunying-zhushou",
+  "displayName": "小红书运营分析助手",
+  "categoryCode": "Marketing & Sales",
+  "categoryDir": "Marketing-and-Sales",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.4",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ade0-4af5-7efc-af4c-8967d35fb427/4d259e5b_xiaohongshu-openclaw-skill-master.zip",
+  "zipSha256": "87d0487b549cef397c019c4397d9c3584466dd4a6a635ed63bdb8ec7a9660bb0",
+  "zipBytes": 40309,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 24,
+  "treeSha256": "ea730b086c38ae5b72397af369715a22ce00424ac4132b318488883379229e0f",
+  "fetchedAt": "2026-11-18T10:39:49.709Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_TmKZR8xO",
+  "name": "alphaonedev-automation-workflows",
+  "displayName": "自动化流程",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "alphaonedev",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alphaonedev-automation-workflows/latest/alphaonedev-automation-workflows.zip",
+  "zipSha256": "e139a74b8b963dd09365f3222075f75fc710a462fcdf1e645b3654914ed2118c",
+  "zipBytes": 2284,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1c5e9845164d70d82f0a48f957beb1178980188e1d89c494601f92433e111d13",
+  "fetchedAt": "2026-11-18T10:41:34.851Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

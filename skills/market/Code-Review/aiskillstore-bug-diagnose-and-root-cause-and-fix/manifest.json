@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mSoFpN8e",
+  "name": "aiskillstore-bug-diagnose-and-root-cause-and-fix",
+  "displayName": "Bug诊断与根因分析",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-bug-diagnose-and-root-cause-and-fix/latest/aiskillstore-bug-diagnose-and-root-cause-and-fix.zip",
+  "zipSha256": "f44d7c4d33892a86b251ea8221d91df459673508d007028a9659469ca867ee25",
+  "zipBytes": 5467,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5f1278184a19bd1dacafb0bd1e1b0c800798cc42d293962599f9202015b0c9ae",
+  "fetchedAt": "2026-11-18T10:34:20.744Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

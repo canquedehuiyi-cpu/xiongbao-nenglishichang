@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "deaf3386-b02e-46c8-8ba1-47c32ec0c8c3",
+  "name": "douyin-yunying-zhushou",
+  "displayName": "抖音运营助手",
+  "categoryCode": "Marketing & Sales",
+  "categoryDir": "Marketing-and-Sales",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ae2f-9cd1-76a5-b164-853de288935c/ae905ddd_douyin-search-openclaw-master.zip",
+  "zipSha256": "9327f45903df14e72072349256d880835906adafd5d545ebf3cf9fa934eb6ba3",
+  "zipBytes": 44258,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 33,
+  "treeSha256": "61973fc5ef7be1babf452c74806296209fc7896c92b0be7915ea6a4806051cff",
+  "fetchedAt": "2026-11-18T10:39:50.352Z",
+  "credentialScan": {
+    "textFilesScanned": 33,
+    "filesRedacted": 0
+  },
+  "note": null
+}

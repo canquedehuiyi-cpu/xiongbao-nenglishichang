@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3buUipbg",
+  "name": "dingtalk-dws",
+  "displayName": "钉钉 dws 技能",
+  "categoryCode": "Productivity",
+  "categoryDir": "Productivity",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dingtalk-dws/latest/dingtalk-dws.zip",
+  "zipSha256": "812a4c651f19576687861cf990cc588d342fe00c4675604dc03571a4a61d1d45",
+  "zipBytes": 77082,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 66,
+  "treeSha256": "db3d96782d6eeba0d33d2e4bc742ca93ada860cafa180ce380fb58e670fcf0c0",
+  "fetchedAt": "2026-11-18T10:39:51.513Z",
+  "credentialScan": {
+    "textFilesScanned": 62,
+    "filesRedacted": 0
+  },
+  "note": null
+}

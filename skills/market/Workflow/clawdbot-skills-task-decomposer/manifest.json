@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_IhekWPPF",
+  "name": "clawdbot-skills-task-decomposer",
+  "displayName": "任务设计",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "clawdbot-skills",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/clawdbot-skills-task-decomposer/latest/clawdbot-skills-task-decomposer.zip",
+  "zipSha256": "57015a41b392ac789d785c2c1ddf177c9ea9418aa60febb540bcb2da16e3b5e6",
+  "zipBytes": 9830,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "28e5869e1c649ecdc2b573a75c3c8c420dada8f4e4d1128d7bfd078d7b69ac27",
+  "fetchedAt": "2026-11-18T10:41:35.509Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

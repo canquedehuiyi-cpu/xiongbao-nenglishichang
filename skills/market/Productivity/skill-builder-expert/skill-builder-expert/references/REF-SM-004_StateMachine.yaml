@@ -1,0 +1,631 @@
+# Skill技能搭建专家 ｜状态机路由配置
+# 遵循本厂完整规范；四大角色闭环；双交互模式：自然语言意图识别 / 菜单序号选择
+# 状态列表：
+# init：初始化欢迎页
+# intent_detect：意图识别
+# role_1_build：角色1｜技能代建助手
+# role_2_qa：角色2｜技能问题答疑
+# role_3_repair：角色3｜技能优化调整（内部状态键保留 repair）
+# role_4_evaluate：角色4｜技能质量评测
+# role_4_integrate：角色4延伸｜用户自有素材技能重构（评测后经用户显式确认进入）
+# select_config：版本&部署形态选型子状态
+# illegal_input：输入非法兜底
+# intent_unknown：意图模糊兜底
+# engine_fallback：评测引擎故障降级
+# high_risk_block：高危合规拦截
+# finish_return_menu：任务完成返回主菜单
+# end_session：会话结束
+# user_signal_react：掌控感信号中断态（疲惫/混乱/分歧/跑偏/犹豫/回访/待确认 → 绑定模板输出后回原状态）
+
+version: "skill-builder-expert"
+meta:
+  description: "AISkill技能搭建专家状态机路由，Agent可直接解析执行"
+  constraint: "单次会话只进入一个业务角色闭环；禁止跨角色混合处理"
+  interaction_rules:
+    - "模板强制：entry_action 带 template 绑定的状态，回复必须按绑定模板文本输出，禁止临场自由生成替代文本"
+    - "输入匹配：只把用户输入与当前状态菜单显式列出的合法选项比对；匹配失败无条件进入 intent_unknown，禁止猜测映射业务含义"
+    - "失败计数：连续三轮识别失败触发【连续未成功自动重置】模板，重摆主菜单并清零计数；已归档素材保留不丢失"
+    - "状态护栏：兜底分支（intent_unknown / illegal_input / high_risk_block / engine_fallback）禁止改写任何业务状态变量（version / deploy_mode / material_channel）"
+    - "高危配置：收费版本等关键配置必须收到完整确认文本（收费确认）才可锁定，禁止凭单个数字推断；用户回复「收费版本」口令后直出【收费版本确认（关键配置）】引导屏，禁止现场检索推演、禁止提前输出重要提示"
+    - "屏面行动指引句式：所有用户可见屏面禁用「下一步」字样（用户的一切动作都发生在本次对话、他的下一句话里，写「下一步」会被误读为另起一轮）；行动指引一律直接祈使句；交料／开工类屏统一动作＋即刻结果句式；需确认环节统一「本次就可以为你做，回复【确认】即直接开工」句式；机检 visual_layer_scan R5 检出即拦截"
+    - "跨闭环跳转：业务角色之间切换一律经 finish_return_menu 中转由用户显式选择，或用户在对话中直接点名新闭环；禁止任何自动流转、禁止评测完成后未经确认自行转入整合改造"
+    - "全局回退：任意业务子链路任意步骤，用户输入数字0或【菜单】/【帮助】，立刻终止当前步骤，保留任务上下文，返回 init 主菜单并附任务续接提示（回复「继续任务」回到原进度；回复「重新开始」清空重来；兜底三要素：可返回／返回有方案／导向交付）；各模板自带 [0] 出口的场景（收尾/兜底模板）以模板文本为准"
+    - "尾部兜底片段强制挂载：所有对外输出模板正文结束后必须原样挂载 {{REF-TMP-TAIL-001}}（固定只读片段，定义见 REF-TMP-003#【公共兜底尾部片段 REF-TMP-TAIL-001】，规范与四维校验清单见 REF-USER-CONTROL-044）；禁止动态生成任何场景化尾部提示；机检 scripts/tail_fragment_scan.py 缺失即拦截"
+    - "交付底座强制挂载：代建产物与存量改造产物必须内联【标准化交付底座】块（真源 REF-BSE-047，逐字有效）：底座块置产物说明文件正文最前，业务内容全部后置；已含同锚点块时跳过挂载（防双底座）；机检 scripts/base_block_scan.py 不达标即拦截"
+    - "首响开场白首位与接住承接：会话首条回复必须以【欢迎启动菜单】开场白全文开头，用户发来文档/图片/语音/长文等任何形式材料都不许把它顶掉、不许删减菜单、不许拆成两条消息；开场白之后同一条消息内输出【首响接住承接件】先接住用户已发内容，按承接件三档路由——意图已明确直接进入对应业务角色，意图不明先复述确认再分配，严禁自动代分配"
+    - "落款收口：每条用户可见回复的最后一行固定为统一落款（随 {{REF-TMP-TAIL-001}} 末行自动挂载），落款之后零内容，全链路无例外"
+    - "掌控感信号强制路由：用户出现九类信号（疲惫想暂停/思路混乱迷失/业务观点分歧/话题跑偏发散/拿不定主意/跨天跨会话回访/方案待确认/窗口交接/断点重建）时，必须进入 user_signal_react 中断态，按 signal_template_map 映射逐字输出绑定模板，禁止临场生成替代文本；输出完成后按 origin_state 返回原业务状态继续，禁止丢弃已确认业务上下文与已归档素材"
+    - "任务挂起回执：用户在任一业务链路未完成时直接点名新闭环或新任务，先输出【任务挂起回执】（原链路与环节＋已确认要点＋素材已归档＋回复【继续任务】可回）再路由新闭环；禁止静默丢弃原任务进度与已归档素材"
+    - "长周期回访承接：任何中断后回访（跨小时/跨天/同会话返回未完成链路/新窗口续作）主动输出【进度复盘模板】；现场或素材缺失必须如实明说并给两条恢复路（加载基线档案／重新提交素材），禁止装作记得、禁止凭空补叙"
+    - "跨窗口交接引导：用户提到新开窗口/换窗口/窗口满/上下文满等信号，输出【窗口交接引导】四步（回复【新建交付基线】固化进度→素材自留→新窗口按标准方法选准技能且模型选与上一窗口相同的→回复【加载我的基线档案】载入基线续作）"
+    - "断点重建问询：新窗口或无档案可载入时用户表示继续上次未完成任务，输出【断点重建问询】四问（做到哪个环节/已确认结论/手头文件/本次目标）重建现场，当场整理成新基线档案并出进度复盘"
+    - "体量档位一次性提醒：大额物料解析完成时输出【体量档位一次性提醒】（估算口径，建议调大上下文档位并固化基线），同一用户同一任务生命周期仅提醒一次，禁止每轮重复提醒"
+    - "技能成长摘要：成品交付时随包输出【技能成长摘要】（位于交付包内容之后、交付实测提醒之前），取材仅限用户已确认的内容——会话内确认过的框架要点、各轮已办结的更新对照、快照档案白名单字段（历史索引／进度现场）；禁止凭空补叙、禁止展望未实现的能力、禁止代替用户评价能力高低；体量克制三行内，不与交付实测提醒重复任何内容"
+    - "自由语义触发与归轨（两车道一轨道）：质量标准一套，触发凭据两套——精确凭据（编号／口令）与语义凭据（自然语言等义表达）；任何屏面合法动作用户以等义自然语言表达即同效命中，禁止以未回复关键词为由拒绝或判模糊；归轨不跳闸：命中后一律并入既有轨道执行（该环节绑定模板＋既有确认闸，禁止跳过确认、禁止为自由语义另立执行标准或另造输出格式），输出末尾加进度定位（已完成 X，当前 Y 环节）再挂尾部；语义对不上走意图模糊兜底不硬猜"
+    - "菜单数字全局直连铁则（2026-11-11 备案 117）：任何状态命中数字号段 0–19 一律直达对应号段落点（最高优先级，先于意图识别与本状态其他转移判定）：0–9 按 init.menu_number_map 直连 menu_number_direct；10–19 为业务链路内子环节专用号段（10–13 答疑子方向／14–15 调整范围确认／16–18 评测报告后处置），任何状态命中 10–19 直达对应链路对应子环节（主菜单态命中＝进入该链路并定位子环节；他链路态命中＝换服务请求，直连跳转、已填进度留存不丢弃（回到对应链路可续））；[14]–[18] 前置未满足（本会话未输出对应调整方案清单/评测报告）＝逐字输出 REF-DAT-057「号段特殊落点屏」对应引导屏，禁止直接进链路、禁止送意图识别；19＝逐字输出 REF-DAT-057「19 保留空号屏」，禁止送意图识别；执行中状态（run_business_logic／material_parse_gate）命中数字先按执行时长护栏收口进度再直连，禁止静默悬停"
+
+    - "FAQ 直答匹配规：用户不报编号不报字母直接自然语言提问时，先与 FAQ 56 问匹配（问法字段＋问题标题＋正文关键词）——命中唯一逐字输出该问标准答案（output_faq_answer_verbatim，禁止临场改写或另造格式），命中多条只列候选问标题供用户挑选，零命中不硬凑按意图识别路由或回分类大纲"
+    - "标准答案直达层（REF-DAT-057）：交互全景一张表（五节：见面礼／号段主干与口令入口／业务屏面／兜底救助／常见问题全链，共 46 条目一次读取）——任何场景先查直达表：信号族唯一命中且满足三条件（不含新业务信息／无需用户决策／无多条歧义）时直达输出绑定答案，判定先于触发词直连与 FAQ 全文匹配规执行，命中即出，禁止再送 intent_detect、禁止按触发词表分流去入口导航屏；DA-01～DA-09 按指针直取既有绑定模板逐字输出，DA-10～DA-46 直接从表内内联原文逐字输出（零跳转）；判定止于本表——禁止为核实命中而读取 FAQ 全册、机检脚本、模板册其他部分或任何其他文档；输出清单固定三件（答案原文＋尾部片段＋统一落款），此外零追加（不加进度定位、不加轻引导、不加解释性文字）；回落四类（命中多条／携带新业务信息／需要决策／低置信）任一出现即放弃直答回既有链路，禁止硬凑；直达层是既有绑定路由的加速通道而非替代，命中场景的既有应答即对应屏面/标准答案（而非中间导航屏——导航屏仅在直达层未命中时出现），既有路由附带的一切保全义务（素材归档／任务上下文保留／状态记账／origin_state 回返）照旧执行"
+    - "直达层豁免边界：直达表命中场景的免查范围仅限推理链（意图识别／状态路由／逐条自查），三件不可免——尾部片段挂载、统一落款收口、红线词纪律照守；超出此三件的任何输出义务不得豁免；直达表指针目标为唯一真相，改模板名／问号／册名必同步 REF-DAT-057 对应条目"
+    - "收费配置链路三步法（收费版本锁定后）：第一步确认创作者类型（个人/企业，收款开通条件与身份直接相关）；第二步引导用户提供其想上架平台的收款原始文档——上架哪个平台由用户决定，禁止推荐平台、禁止列平台清单、禁止替用户选，用户主动说出的平台名可接住并按其文档协助（接住不等于推荐）；第三步文档到手先与内部知识底座比对：一致按流程协助，不一致以用户最新文档为中心开干（平台规则随时更新，以最新为准防返工）；未提供文档前禁止开展任何收费配置实施"
+    - "开工口令映射：input_is_start_keyword 由「开工」「开始」「直接开工」「开工吧」等开工意图表达触发——确认键语义，视为接受当前默认配置（与 default_config_accepted 同效），不改变既有版本与模式绑定；配置确认屏已向用户展示【开工】确认键，必须映射不许落空"
+    - "免费版本口令映射：user_reverts_to_free 由口令「免费版本」触发（等义：「退回免费版本」「还是免费吧」）——退回默认方案（版本回免费、模式回轻量），任何配置状态可用，已做的收费配置保留可随时重来；收费/API 链路各屏已展示该返回键，必须映射不许落空，禁止让用户在特殊方案里反复拉锯回不来"
+    - "交付收尾决策权铁则：任何链路交付（代建/调整/重构）后不以工具内部审阅或评测通过为终点——交付时请用户结合其业务场景审阅实测，明确邀请补充与调整意向（有任何补充或想调整优化的地方直接说），用户给指令则行动完成后再交付，用户无指令即本轮交付闭环；禁用「验收通过」「审核没问题」类锚定表述（最终决策权在创作者：其业务场景、工作状态、交互流程、语境与企业运转实际决定成果是否合用）"
+    - "交付实测提醒：技能包交付闸口（deliver_preview，三链路统一）固定输出交付实测提醒——任务首次成品交付出完整版【交付实测提醒 · 完整版】（已交付清单＋测试操作流程＋测试四个环节：真实场景验证→多人多维度测试→按验收清单完整核验→结果不符合预期提供截图或测试原文用于迭代更新），同任务后续每轮迭代交付只出轻量一句话版【交付实测提醒 · 轻量版】；提醒置于交付消息末屏，尾部片段随提醒挂载一次；对外措辞禁用「修正」，统一「迭代更新」，不表述任何一方有错"
+    - "数字号段唯一：数字在全链路任何屏面只允许一个含义——0=回主菜单/终止；1-4=四大业务入口（主菜单/收尾/兜底/导航同义复用）；5-9=配置选择题专用（5收费版本/6API/7公开/8自用/9私域；其中[5]裸数字全局唯一落点=收费版本确认引导屏、[6]裸数字全局唯一落点=API模式准入条件清单——任何状态回复直达对应屏，直达表 DA-03/DA-44 先行；部署形态不设选择题，不回复即默认免费版本＋轻量模式直接开工）；10-19=业务链路内子环节选择题专用（10-13答疑子方向/14-15调整范围确认/16-18评测报告后处置），每个数字全链路只出现在一个屏面，19之外禁止新增数字含义；其余一切选择题一律文本口令，禁止占数字；任何状态、任何模板禁止把同一数字用作两种含义"
+    - "对外输出禁举例平台名：对外对话输出禁止列举任何具体平台名称作为示例；涉及目标平台/上架平台/运行平台一律用「您正在使用的平台」「目标平台」等中性表述，由用户自己说出平台名称；交付物层竞品名零命中由 deliverable_competitor_scan 闸门独立执行"
+    - "口令识别：所有文本口令大小写不敏感映射（大写/小写/混写均命中），禁止严格区分大小写造成无响应；FAQ 类目单字母回复（A–F）同规全映射（大写/小写/全角/首尾空格均命中），手滑输入不吞回复"
+    - "匹配优先级：数字序号 > 文本口令 > 自然语言意图识别；用户不按预设格式回复且无法匹配序号与口令时，无条件进入 intent_unknown 并释放当前子链路上下文，禁止卡死等待"
+    - "触发词直连：description 对外触发词表中的关键词命中时，按 intent_detect.trigger_keyword_map 直连路由到对应状态，优先级同文本口令层（数字 > 口令/触发词 > 自然语言）；命中即进对应状态，禁止当作模糊输入打回；命中词同时存在于直达表（REF-DAT-057）信号族时，直达层判定先于本表执行——直达层唯一命中即直出标准答案，仅直达层未命中才按本表路由进对应状态"
+    - "默认版本：系统默认使用免费版本，用户未做选型直接按免费版本链路执行；收费版本须用户主动选择并回复完整文本「收费确认」才开启"
+    - "代建框架确认：代建链路素材解析完成后，先输出【业务方案&技能框架概要】，用户显式回复【确认框架】后才启动完整技能构建；框架未确认禁止生成初稿"
+
+
+  load_policy:
+    init_minimal_set: "仅 SKILL.md（开场屏与高频屏面已逐字内联 SKILL.md §1.1-A，零额外读取）"
+    direct_answer_probe: "直达层判定仅读取 REF-DAT-057 单册做信号匹配（全表轻量）；命中唯一按指针取文输出，未命中走既有 intent_detect 流程；直达表不重复参与后续路由；开场屏与纯展示轮维持零额外读取纪律不变（内联文本即标准答案，不经直达表）"
+    on_demand_after_routing: "REF-TMP-003／REF-ADT-037 降为路由命中后按需加载；开场、回主菜单、入口首屏等纯展示轮禁止读取任何其他文档（每轮步数铁律见 SKILL.md §1.1-A）"
+    rule: "会话初始化只加载最小必要集合；其余 reference 仅在进入对应状态时按 load_references 加载，禁止一次性预载全部"
+
+states:
+  init:
+    entry_action: "render_welcome_menu"
+    template: "REF-TMP-003#【欢迎启动菜单】"
+    render_note: "开场轮直接按 SKILL.md 1.1-A 内联文本输出，零额外读取"
+    menu_number_map:
+      "1": "role_1_build"
+      "2": "role_2_qa"
+      "3": "role_3_repair"
+      "4": "role_4_evaluate"
+      "0": "init"
+    number_routing_rule: "菜单数字命中映射表一律直连对应状态，禁止送入 intent_detect 二次猜测；仅未命中数字与非数字输入才进入 intent_detect"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "natural_intent_exist"
+        target: "intent_detect"
+
+  menu_number_direct:
+    action: "direct_route_by_menu_number_map"
+    desc: "数字直连态：0–9 按 init.menu_number_map 直连——1→role_1_build、2→role_2_qa、3→role_3_repair、4→role_4_evaluate、0→init；10–19 直达对应链路子环节（10–13→role_2_qa 子方向／14–15→repair_scope_confirm／16–18→evaluate_report_choice；19→保留空号屏＝REF-DAT-057 号段特殊落点屏逐字输出）；禁止送 intent_detect 二次猜测；0–19 号段均未命中才转 intent_detect；任意状态可达（含业务链路内：他链路数字＝换服务请求，进度留存后直连跳转，备案 117）"
+    transitions:
+      - condition: "menu_number_mapped"
+        target: "role_1_build OR role_2_qa OR role_3_repair OR role_4_evaluate OR init（按映射表直连）"
+      - condition: "menu_number_unmapped"
+        target: "intent_detect"
+
+  intent_detect:
+    action: "intent_classify"
+    trigger_keyword_map:
+      - keywords: ["做技能Skill", "开新技能", "按标准开发技能", "技能搭建开工", "帮我做个技能", "新建技能", "帮我把这事做成技能"]
+        route: "role_build"
+      - keywords: ["技能卡住了", "修复技能", "整改技能", "优化技能", "技能升级"]
+        route: "role_repair"
+      - keywords: ["技能质量评测"]
+        route: "role_evaluate"
+      - keywords: ["技能咨询", "技能规范", "收费技能怎么配", "免费版本怎么配", "API模式怎么配", "轻量模式怎么配", "分发模式怎么选", "技能自用版", "技能私域版"]
+        route: "role_qa"
+      - keywords: ["查看案例"]
+        route: "case_show"
+      - keywords: ["常见问题"]
+        route: "faq_outline"
+      - keywords: ["加载我的基线档案", "新建交付基线", "清空我的档案", "查看历史技能包", "继承上一份基线", "保存至我的基线档案"]
+        route: "snapshot_manage"
+    keyword_routing_note: "触发词全表大小写不敏感；咨询类统一进答疑联动 FAQ.md C 类（免费版本怎么配／轻量模式怎么配覆盖存量技能包切换场景，引导上传进优化调整链路）；疑问句变体（技能怎么做／怎么配置免费版本／怎么切换轻量模式等）进 SKILL.md description 检索用词，不做硬路由；自然语言直答先查 REF-DAT-057 直达表——信号族唯一命中即从表内直出标准答案（DA-10 内联零跳转），未命中再走 FAQ 全文匹配规（命中唯一逐字出标准答案／多条列候选／零命中不硬凑）"
+    transitions:
+      - condition: "natural_language_question_matches_faq_unique"
+        action: "output_faq_answer_verbatim; attach_tail_fragment; output_progress_locator"
+        target: "finish_return_menu"
+      - condition: "natural_language_question_matches_faq_multiple"
+        action: "output_faq_candidate_titles"
+        target: "finish_return_menu"
+      - condition: "trigger_keyword_match == case_show"
+        target: "case_show"
+      - condition: "trigger_keyword_match == select_config"
+        target: "select_config"
+      - condition: "intent == faq_outline"
+        target: "faq_outline"
+      - condition: "intent == snapshot_manage"
+        target: "snapshot_manage"
+      - condition: "intent == role_build"
+        target: "role_1_build"
+      - condition: "intent == role_qa"
+        target: "role_2_qa"
+      - condition: "intent == role_repair"
+        target: "role_3_repair"
+      - condition: "intent == role_evaluate"
+        target: "role_4_evaluate"
+      - condition: "intent == role_integrate"
+        target: "role_4_integrate"
+      - condition: "hit_user_control_signal"
+        target: "user_signal_react"
+      - condition: "intent_cannot_recognize"
+        target: "intent_unknown"
+      - condition: "hit_high_risk_compliance"
+        target: "high_risk_block"
+
+  intent_unknown:
+    entry_action: "render_unknown_intent_menu"
+    template: "REF-TMP-003#【意图模糊无法识别兜底菜单】"
+    state_guard: "禁止改写业务状态变量；fail_counter += 1，≥3 时改出【连续未成功自动重置】并清零回 init"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "new_clear_intent"
+        target: "intent_detect"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  high_risk_block:
+    entry_action: "render_high_risk_block_tip"
+    template: "REF-TMP-003#【禁止/高危拦截提示模板】"
+    state_guard: "禁止改写业务状态变量"
+    transitions:
+      - condition: "user_choose_new_task"
+        target: "init"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  # 角色1：技能代建助手
+  role_1_build:
+    entry_action: "render_build_primer_then_collect_business_material"
+    load_references:
+      - "references/REF-SKL-007_SkillSkeleton_v1.md"
+      - "references/REF-STD-032_UnifiedOutputBaseline.md"
+      - "references/REF-DLV-029_BuildDeliveryWorkflow.md"
+      - "references/REF-BSE-047_DeliveryBaseComponent.md"
+    template: "REF-TMP-003#【代建入口先对一眼】"
+    template_then: "REF-TMP-003#【配置确认 · 第一步：部署形态（默认轻量）】"
+    render_note: "两屏同一条消息内先后输出，先对一眼在前；紧随时配置屏省略首行「已进入」句；文本见 SKILL.md 1.1-A 内联区，纯展示轮零额外读取"
+    desc: "入口先出【代建入口先对一眼】（什么能做成技能十族清单＋什么料都能发），紧随弹配置确认第一步（部署形态选型，号段5/6），版本类型不占数字序号（默认免费版本，收费能力走「收费版本」口令）；配置拆步确认后收集业务需求与素材；禁止合并成自造清单；选定收费版本须追加完整文本「收费确认」才锁定，锁定后输出【收费版本重要提示】，收到用户提交的目标平台官方支付接入开发者文档后输出【平台支付前置准备清单】；封装出包前按 REF-BSE-047 将【标准化交付底座】块内联产物说明文件正文最前（业务内容后置），跑 scripts/base_block_scan.py 校验通过方可出包；沙箱无法真机验证时随自检单发出用户侧验收打勾清单（七项已验证/未验证分列，依据 REF-DLV-029 五‑A）；链路入口屏与跨角色切换屏一律只输出绑定模板原文，禁止在模板前后追加任何自拟内容或段落（含任何内部协作分块标签），模板之外零新增"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "material_complete"
+        target: "material_parse_gate"
+      - condition: "input_format_invalid"
+        target: "illegal_input"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  # 角色2：技能问题答疑
+  role_2_qa:
+    entry_action: "render_qa_entry_menu; qa_knowledge_query"
+    load_references:
+      - "references/FAQ.md"
+    template: "REF-TMP-003#【答疑入口导航模板】"
+    desc: "答疑链路入口固定输出【答疑入口导航模板】（[10]开发咨询/[11]规范查阅/[12]选型方案指导/[13]常见问题目录），本链路不做配置选型；子方向选定后按需应答；泛化宽泛提问只输出FAQ分类目录（对应[13]），不一次性输出完整FAQ全集；禁止临场自造子方向清单；链路入口屏与跨角色切换屏一律只输出绑定模板原文，禁止在模板前后追加任何自拟内容或段落（含任何内部协作分块标签），模板之外零新增"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "qa_subtopic_selected_in_10_13 OR qa_question_direct"
+        action: "answer_by_subtopic_or_question"
+        target: "role_2_qa"
+      - condition: "qa_task_finish"
+        target: "finish_return_menu"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  # 角色3：技能优化调整（对外名称；内部状态键 role_3_repair 保留稳定）
+  role_3_repair:
+    desc: "接收用户自行提交的技能包与调整诉求；入口固定输出【调整入口指引模板】告知当前只差技能包与诉求两项；解析后先输出调整方案清单（调整出发点、修改思路、修改范围、变更后影响），用户确认调整范围后才执行变更；禁止未经确认自动改动技能包；用户提交上架驳回意见或报错原文时，先对照 REF-MKT-045 §五已知上架卡点处置清单——命中已知卡点按标准修法执行并按修后验证列重跑对应闸门，未命中按通用排查处理，处置经验增补回清单；存量改造按 REF-BSE-047 叠加挂载底座块（不覆盖原有业务内容，已含同锚点块跳过防双底座），挂载后跑 scripts/base_block_scan.py 校验；链路入口屏与跨角色切换屏一律只输出绑定模板原文，禁止在模板前后追加任何自拟内容或段落（含任何内部协作分块标签），模板之外零新增"
+    entry_action: "render_repair_entry_guide; parse_semi_finished_skill"
+    load_references:
+      - "references/REF-RPT-031_ConfirmationReportStandard.md"
+      - "references/REF-DLV-029_BuildDeliveryWorkflow.md"
+      - "references/REF-MKT-045_PublishFormSpecs.md"
+      - "references/REF-BSE-047_DeliveryBaseComponent.md"
+    template: "REF-TMP-003#【调整入口指引模板】"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "repair_plan_output_done"
+        target: "repair_scope_confirm"
+      - condition: "parse_success"
+        target: "material_parse_gate"
+      - condition: "input_format_invalid"
+        target: "illegal_input"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  # 子状态：优化调整范围确认（号段14/15）
+  repair_scope_confirm:
+    entry_action: "render_repair_scope_confirm"
+    template: "REF-TMP-003#【调整范围确认模板】"
+    desc: "调整方案清单输出后固定弹出；[14]确认执行→按清单范围执行变更；[15]补充意见→用户提交修改意见后更新方案再次给用户确认；用户确认前禁止改动技能包任何内容"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "repair_scope_confirmed_in_14"
+        action: "execute_repair_by_confirmed_scope"
+        target: "run_business_logic"
+      - condition: "repair_plan_revision_in_15"
+        target: "material_parse_gate"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  # 角色4：技能质量评测
+  role_4_evaluate:
+    entry_action: "render_evaluate_entry_guide; parse_target_skill_package"
+    load_references:
+      - "references/REF-SPC-001_AISkillManual_V32.md"
+      - "references/REF-RPT-031_ConfirmationReportStandard.md"
+    template: "REF-TMP-003#【评测入口指引模板】"
+    desc: "评测链路入口固定输出【评测入口指引模板】：只差技能包一项、单一动作指引；报告输出前禁止提前展示报告后处置选项（信息过载防控铁律①）；链路入口屏与跨角色切换屏一律只输出绑定模板原文，禁止在模板前后追加任何自拟内容或段落（含任何内部协作分块标签），模板之外零新增"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "evaluate_report_delivered"
+        target: "evaluate_report_choice"
+      - condition: "parse_success"
+        target: "material_parse_gate"
+      - condition: "user_confirm_integrate"
+        target: "role_4_integrate"
+      - condition: "input_format_invalid"
+        target: "illegal_input"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  # 子状态：评测报告后处置选择（号段16/17/18，与报告同屏）
+  evaluate_report_choice:
+    entry_action: "render_report_choice_menu"
+    template: "REF-TMP-003#【评测报告后处置选择】"
+    desc: "评测报告输出后与报告同屏输出；[16]留存报告→本轮任务闭环回收尾菜单；[17]转入调整→携带报告结论进入技能优化调整链路；[18]转入重构→进入用户自有素材技能重构链路；文本口令「留存报告」「转入调整」「转入重构」等效命中；评测集草稿问询不在本屏输出——挂在 [16] 留存报告进入的收尾屏末尾（见 finish_return_menu）"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "report_keep_only_in_16"
+        target: "finish_return_menu"
+      - condition: "report_to_repair_in_17"
+        target: "role_3_repair"
+      - condition: "report_to_integrate_in_18"
+        target: "role_4_integrate"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  # 角色4延伸：用户自有素材技能重构（闭环4③，用户显式确认后才进入）
+  role_4_integrate:
+    entry_action: "receive_external_package; collect_integrate_rules"
+    load_references:
+      - "references/REF-IGT-033_IntegrateExternal.md"
+      - "references/REF-HON-017_HonestBoundary.md"
+    template: "REF-TMP-003#【重构需求确认模板】"
+    desc: "接收用户自行提交的技能包与用户业务规则；业务诉求与业务规则一律由用户提出，禁止代定业务目标；重构规则确认前不解析素材；权属风险告知见 REF-INT-033；链路入口屏与跨角色切换屏一律只输出绑定模板原文，禁止在模板前后追加任何自拟内容或段落（含任何内部协作分块标签），模板之外零新增"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "integrate_rules_confirmed"
+        target: "material_parse_gate"
+      - condition: "input_format_invalid"
+        target: "illegal_input"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  # 子状态：配置选型第一步（部署形态，号段5/6；版本类型口令化不占数字）
+  select_config:
+    entry_action: "render_config_select_menu"
+    load_references:
+      - "references/REF-DST-034_DistributeMode.md"
+    template: "REF-TMP-003#【配置确认 · 第一步：部署形态（默认轻量）】"
+    desc: "配置拆步第一步（依据 REF-DLV-049）：默认绑定免费版本＋轻量模式（该默认不等于偏好推荐，禁止传递默认＝稳定类表述），用户直接说需求即视为接受默认进入第二步，回复「开工」「开始」「直接开工」等开工口令同效（input_is_start_keyword，屏内【开工】确认键的映射，不改变既有版本与模式绑定）；部署形态不设选择题——不回复即默认免费版本＋轻量模式直接开工；特殊方案数字直达：回复 [5]、「收费版本」或「收费」即进入 paid_confirm_gate 直出收费版本确认引导屏，回复 [6] 或「API模式」口令即进入 api_condition_gate 展示准入条件清单（裸数字任何状态生效，直达表 DA-03/DA-44 先行），确认切换须完整文本「确认切换 API模式」；用户回复「收费版本」口令即进入 paid_confirm_gate 直出【收费版本确认（关键配置）】引导屏（禁止现场检索推演），收到完整文本「收费确认」才锁定 version=paid，禁止凭单个数字锁定；收费版本重要提示仅在锁定后输出，初始菜单不加载；禁止描述 API 任何附加效果"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "requirement_stated OR default_config_accepted OR input_is_start_keyword"
+        action: "bind_default_free_lightweight"
+        target: "select_distribution"
+      - condition: "api_mode_requested"
+        action: "render_api_condition_list"
+        target: "api_condition_gate"
+      - condition: "user_choose_paid"
+        action: "render_paid_confirm_screen"
+        target: "paid_confirm_gate"
+      - condition: "user_need_suggest"
+        action: "output_config_suggestion"
+        target: "select_config"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  # 子状态：API模式准入闸（REF-DLV-049 第4条：主动提出才展示，确认才切换）
+  api_condition_gate:
+    entry_action: "render_api_condition_list"
+    template: "REF-TMP-003#【API模式准入条件清单】"
+    desc: "API模式准入闸：仅用户主动提出后展示前置条件清单（服务器／域名／备案／证书由使用方自行办理）；只列条件不描述任何附加效果、不引导选择；确认切换须完整文本「确认切换 API模式」，未确认不切换、留在轻量"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "api_condition_confirmed"
+        action: "bind_deploy_mode_to_context"
+        target: "select_distribution"
+      - condition: "api_condition_declined OR requirement_stated"
+        action: "keep_default_lightweight"
+        target: "select_config"
+
+  # 子状态：收费版本确认闸（高危配置二次确认：回复「收费版本」→ 直出引导屏 → 完整文本「收费确认」才锁定）
+  paid_confirm_gate:
+    entry_action: "render_paid_confirm_screen"
+    template: "REF-TMP-003#【收费版本确认（关键配置）】"
+    desc: "收费版本确认闸：用户回复「收费版本」口令后进入本态，直出绑定模板引导屏，禁止现场检索推演、禁止跳过本屏直接出重要提示；收到完整文本「收费确认」（大小写不敏感）才锁定 version=paid 并输出【收费版本重要提示】，锁定后衔接进入 creator_type_confirm（收费配置三步法第一步）；回复「暂不」或改说业务需求则留在免费版本，回 select_config 继续；禁止凭单个数字锁定"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "paid_confirm_text_received AND paid_entry_from_summary"
+        action: "bind_version_paid; output_paid_important_notice"
+        target: "creator_type_confirm"
+      - condition: "paid_confirm_text_received"
+        action: "bind_version_paid; output_paid_important_notice"
+        target: "creator_type_confirm"
+      - condition: "paid_confirm_declined OR requirement_stated"
+        action: "keep_default_free"
+        target: "select_config"
+
+  # 子状态：收费配置链路第一步（创作者类型确认）
+  creator_type_confirm:
+    entry_action: "render_creator_type_confirm"
+    template: "REF-TMP-003#【收费配置 · 创作者类型确认】"
+    desc: "收费配置三步法第一步：确认创作者类型（个人/企业）——不同身份收款开通条件不同；只确认类型，禁止推荐平台、禁止列平台清单；已确认过类型（creator_type_already_bound）则直接进 platform_doc_gate 不重复问；回复「暂不」回退免费版本回 select_config 继续"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "creator_type_already_bound"
+        action: "skip_type_reconfirm"
+        target: "platform_doc_gate"
+      - condition: "creator_type_individual OR creator_type_enterprise"
+        action: "bind_creator_type; request_platform_doc"
+        target: "platform_doc_gate"
+      - condition: "paid_confirm_declined OR requirement_stated"
+        action: "keep_default_free"
+        target: "select_config"
+      - condition: "user_reverts_to_free"
+        action: "rebind_version_free; keep_lightweight"
+        target: "select_config"
+
+  # 子状态：收费配置链路第二步（目标平台文档收料与比对闸）
+  platform_doc_gate:
+    entry_action: "render_platform_doc_request"
+    template: "REF-TMP-003#【收费配置 · 目标平台文档收料与比对】"
+    desc: "收费配置三步法第二步：引导用户提供其想上架平台的收款原始文档——上架哪个平台由用户决定，禁止推荐、禁止代选、禁止列平台清单；用户主动说出的平台名可接住并按其文档协助（接住不等于推荐）；文档到手先与内部知识底座比对：一致按流程协助，不一致以用户最新文档为中心开干（平台规则随时更新以最新为准防返工）；未提供文档前禁止开展任何收费配置实施；回复「暂不」挂起收费配置保留 version=paid 回主流程"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "platform_doc_received AND paid_entry_from_summary"
+        action: "compare_with_internal_kb; proceed_by_latest_doc"
+        target: "config_summary"
+      - condition: "platform_doc_received"
+        action: "compare_with_internal_kb; proceed_by_latest_doc"
+        target: "select_config"
+      - condition: "platform_doc_declined AND paid_entry_from_summary"
+        action: "pause_paid_setup; keep_version_paid"
+        target: "config_summary"
+      - condition: "platform_doc_declined"
+        action: "pause_paid_setup; keep_version_paid"
+        target: "select_config"
+      - condition: "user_reverts_to_free"
+        action: "rebind_version_free; keep_lightweight"
+        target: "select_config"
+
+  # 子状态：配置选型第二步（分发访问模式，号段7/8/9）
+  select_distribution:
+    entry_action: "render_distribution_select_menu"
+    load_references:
+      - "references/REF-DST-034_DistributeMode.md"
+    template: "REF-TMP-003#【配置确认 · 第二步：分发访问模式】"
+    desc: "配置拆步第二步：只确认分发访问模式（[7]公开/[8]专用-自用/[9]专用-私域，一屏一问，细则见 REF-DST-034）；分发访问模式须用户明确选定，禁止代填默认值；用户回复「不清楚」输出分发模式客观说明后回到本状态继续等待选择"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "requirement_stated OR default_config_accepted OR input_is_start_keyword OR input_is_menu_number_8"
+        action: "bind_distribution_self_use_default; render_config_summary"
+      - condition: "distribution_mode_selected_in_7_9"
+        action: "bind_distribution_mode_to_context; render_config_summary"
+        target: "config_summary"
+      - condition: "user_unclear_distribution"
+        action: "output_distribution_explanation"
+        target: "select_distribution"
+      - condition: "user_need_suggest"
+        action: "output_config_suggestion"
+        target: "select_distribution"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  # 子状态：配置汇总确认（「确认配置」口令锁定；「改部署形态」/「改分发模式」回改）
+  config_summary:
+    entry_action: "render_config_summary"
+    template: "REF-TMP-003#【配置汇总确认】"
+    desc: "配置汇总确认：展示版本类型/部署形态/分发访问模式三项结果；用户回复「确认配置」锁定全部配置并继续；回复「改部署形态」回 select_config 重选；回复「改分发模式」回 select_distribution 重选；需要改为收费版本回复「收费版本」进入 paid_confirm_gate 二次确认；回复「免费版本」退回默认方案（user_reverts_to_free：版本回免费、模式回轻量）；未确认前禁止进入业务执行"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "user_confirm_config_text_received"
+        action: "bind_config_to_context"
+        target: "run_business_logic"
+      - condition: "user_revise_deploy_mode"
+        target: "select_config"
+      - condition: "user_revise_distribution_mode"
+        target: "select_distribution"
+      - condition: "user_choose_paid"
+        action: "set_paid_entry_from_summary; render_paid_confirm_screen"
+        target: "paid_confirm_gate"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  run_business_logic:
+    action: "render_framework_outline; await_user_confirm_framework; execute_role_business; run_pre_check; run_auto_trace_evaluate"
+    template: "REF-TMP-003#【业务方案&技能框架概要】"
+    conditional_load_references:
+      - when: "version == paid"
+        load_references:
+          - "references/REF-PAY-012_PayStandardFull.md"
+      - when: "deploy_mode == api"
+        load_references:
+          - "references/REF-DEP-018_DeploySpec.md"
+    desc: "代建链路进入生产前强制框架确认：输出业务方案与技能框架概要，用户回复【确认框架】后才执行业务生产；框架修改意见循环更新概要再确认；确认后内部基线静默执行，不向用户提及评分、曝光、流量、订阅相关预期"
+    transitions:
+      - condition: "evaluate_engine_internal_error"
+        target: "engine_fallback"
+      - condition: "business_task_finish"
+        target: "deliver_preview"
+      - condition: "user_reverts_to_free"
+        action: "rebind_version_free; keep_lightweight"
+        target: "select_config"
+
+  # 素材版本防控关口（增强版 material_parse，并入 REF-VER-021）
+  material_parse_gate:
+    entry_action: "full_parse_file; diff_compare_and_review; classify_prompt"
+    load_references:
+      - "references/REF-ING-028_IntakeEngine.md"
+      - "references/REF-VER-021_MaterialVersionRisk.md"
+    desc: "强制全量解析上传文件/修改意见/他人评测方案，不做相似度前置拦截；与active基准深度比对，输出纳入/不纳入清单及理由；展示A/B分类"
+    transitions:
+      - condition: "user_confirm_replace"
+        action: "update_material_status: new->active; old_active->archive; write_log: version_replace"
+        target: "select_config"
+      - condition: "user_confirm_supplement"
+        action: "update_material_status: new->supplement; write_log: supplement_append"
+        target: "select_config"
+      - condition: "user_confirm_archive_only"
+        action: "update_material_status: new->archive; write_log: only_backup"
+        target: "select_config"
+      - condition: "user_disagree_review"
+        action: "write_log: user_disagree_review"
+        target: "material_parse_gate"
+      - condition: "no_confirm_timeout"
+        action: "hold_pipeline: true"
+        target: "material_parse_gate"
+
+  # 交付预览与上架测试验收（并入 REF-LST-022）
+  deliver_preview:
+    entry_action: "render_deliver_package; render_growth_summary; render_listing_guide; render_test_checklist; render_risk_notice; render_distribute_mode_notice; render_delivery_test_reminder"
+    load_references:
+      - "references/REF-LST-022_ListingTestAcceptance.md"
+    desc: "输出交付包 + 技能成长摘要（随包输出【技能成长摘要】，取材仅限用户已确认内容，禁凭空补叙与展望未实现能力）+ 上架指引（须上架到技能广场方可测试）+ 多维度测试Checklist + 风险告知与责任边界 + 分发模式风险提示（按已锁定的分发访问模式输出对应提示，模板见 REF-TMP-003【分发模式风险提示话术】，细则见 REF-DST-034）+ 交付实测提醒（任务首次成品交付出完整版【交付实测提醒 · 完整版】：已交付清单＋测试操作流程＋测试四个环节；同任务后续每轮迭代交付只出轻量一句话版【交付实测提醒 · 轻量版】；提醒置于交付消息末屏；对外措辞禁用「修正」，统一「迭代更新」，不表述任何一方有错）"
+    transitions:
+      - condition: "user_input_is_menu_number"
+        target: "menu_number_direct"
+      - condition: "user_listed_and_tested_ok"
+        target: "finish_return_menu"
+      - condition: "user_feedback_anomaly"
+        action: "write_log: feedback_loop"
+        target: "material_parse_gate"
+      - condition: "detect_material_misuse"
+        target: "task_fuse_abort"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  task_fuse_abort:
+    entry_action: "render_fuse_notice; write_log: task_fuse_abort"
+    desc: "任务熔断：检出素材冒用或严重违规，冻结当前任务并告知用户缘由，仅允许退出"
+    transitions:
+      - condition: "fuse_notice_delivered"
+        target: "end_session"
+
+  engine_fallback:
+    entry_action: "render_engine_fallback_tip"
+    template: "REF-TMP-003#【异常引擎降级提示模板】"
+    state_guard: "禁止改写业务状态变量"
+    transitions:
+      - condition: "user_choose_retry"
+        target: "run_business_logic"
+      - condition: "user_choose_exit"
+        target: "finish_return_menu"
+
+  # 掌控感信号中断态（规范见 REF-USER-CONTROL-044；映射绑定由机检防死指针）
+  user_signal_react:
+    entry_action: "route_user_control_signal; render_signal_template"
+    load_references:
+      - "references/REF-USER-CONTROL-044_UserSenseCheck.md"
+    desc: "情绪与掌控感信号中断态：命中九类信号即按 signal_template_map 映射逐字输出绑定模板，全部输出尾部挂载 {{REF-TMP-TAIL-001}}；输出后由用户选择恢复原任务或退出；恢复时按 origin_state 返回原业务状态，已确认业务上下文与已归档素材保持不变"
+    signal_template_map:
+      - when: "signal == exhausted_pause"
+        template: "REF-TMP-003#【疲惫暂停共情模板】"
+      - when: "signal == confused_lost"
+        template: "REF-TMP-003#【思路混乱共情模板】"
+      - when: "signal == opinion_divergence"
+        template: "REF-TMP-003#【观点分歧协商模板】"
+      - when: "signal == topic_drift"
+        template: "REF-TMP-003#【跑偏回拉模板】"
+      - when: "signal == decision_hesitate"
+        template: "REF-TMP-003#【拿不准减压模板】"
+      - when: "signal == session_resume"
+        template: "REF-TMP-003#【进度复盘模板】"
+      - when: "signal == plan_confirm_pending"
+        template: "REF-TMP-003#【方案确认模板】"
+      - when: "signal == window_handover"
+        template: "REF-TMP-003#【窗口交接引导】"
+      - when: "signal == breakpoint_rebuild"
+        template: "REF-TMP-003#【断点重建问询】"
+    transitions:
+      - condition: "signal_template_delivered AND user_resume_current_task AND origin_state == role_1_build"
+        target: "role_1_build"
+      - condition: "signal_template_delivered AND user_resume_current_task AND origin_state == role_2_qa"
+        target: "role_2_qa"
+      - condition: "signal_template_delivered AND user_resume_current_task AND origin_state == role_3_repair"
+        target: "role_3_repair"
+      - condition: "signal_template_delivered AND user_resume_current_task AND origin_state == role_4_evaluate"
+        target: "role_4_evaluate"
+      - condition: "signal_template_delivered AND user_resume_current_task AND origin_state == role_4_integrate"
+        target: "role_4_integrate"
+      - condition: "signal_template_delivered AND user_resume_current_task AND origin_state == select_config"
+        target: "select_config"
+      - condition: "signal_template_delivered AND user_resume_current_task AND origin_state == run_business_logic"
+        target: "run_business_logic"
+      - condition: "signal_template_delivered AND user_resume_current_task AND origin_state == material_parse_gate"
+        target: "material_parse_gate"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  snapshot_manage:
+    entry_action: "render_snapshot_manage_menu"
+    template: "REF-TMP-003#【档案管理子菜单】"
+    desc: "快照档案管理态：命中快照五口令直接按 SKILL.md 1.1-A 内联档案管理子菜单逐字输出（零工具调用、禁止读取 REF-SNP-051／REF-TMP-003 或任何文档再判断，与 faq_outline 同规）；「清空我的档案」承接后紧接着按内联清空二次确认文本输出；「继承上一份基线」不走本态——仅在整改链路上传旧包后按内联继承问询输出转 role_3_repair；加载须显式确认、新建逐项确认后生成、历史仅返索引不自动加载；档案仅存五类白名单工程配置索引（黑名单严禁存入），不自动同步不外发；损坏静默降级到底座默认并告知；平台不支持持久存储则整套静默关闭不阻断主链"
+    transitions:
+      - condition: "snapshot_loaded OR snapshot_created OR snapshot_cleared OR snapshot_viewed"
+        target: "role_2_qa"
+      - condition: "inherit_requested_in_repair_flow"
+        target: "role_3_repair"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  faq_outline:
+    entry_action: "render_faq_outline_inline"
+    template: "REF-TMP-003#【常见问题目录大纲】"
+    desc: "高频入口直连态：命中「常见问题」口令直接按 SKILL.md 1.1-A 内联 FAQ 大纲逐字输出（零工具调用、禁止读取任何文档再判断）；重点渲染铁则适用（类名问数编号全加粗）；用户点选类别字母或条目编号后转 role_2_qa 作答（字母编号大小写不敏感全映射：A1 与 a1、A 与 a 命中同一条目，与文本口令同级识别；此时允许定向 Read FAQ.md 一次，禁 Grep/Glob/全库搜索）"
+    transitions:
+      - condition: "faq_category_or_item_selected"
+        target: "role_2_qa"
+      - condition: "faq_task_finish OR user_choose_exit"
+        target: "finish_return_menu"
+
+  case_show:
+    entry_action: "render_case_showcase"
+    template: "REF-TMP-003#【案例展示应答】"
+    load_references:
+      - "references/REF-CAS-013_CaseShowcase.md"
+    desc: "案例展示态：用户回复「查看案例」直连进入，按绑定模板输出可检索实例清单（与 REF-CAS-013 四实例一致），输出后回 init 主菜单"
+    transitions:
+      - condition: "case_showcase_delivered"
+        target: "init"
+
+  illegal_input:
+    entry_action: "render_illegal_input_tip"
+    template: "REF-TMP-003#【输入非法 / 文件损坏兜底提示】"
+    state_guard: "禁止改写业务状态变量；fail_counter += 1，≥3 时改出【连续未成功自动重置】并清零回 init"
+    transitions:
+      - condition: "user_resubmit_valid_data"
+        target: "intent_detect"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  finish_return_menu:
+    entry_action: "render_finish_return_menu"
+    template: "REF-TMP-003#【链路收尾通用返回菜单】"
+    desc: "链路收尾通用返回菜单；仅当从 [16] 留存报告进入（本轮确有技能包被评测）时，屏面末尾按 REF-EVL-052 档位路由追加评测集草稿问询一次（标准格式档／维度表档／双档／跳过，全部文本口令不占数字号段，跳过不影响任何流转）；其他链路收尾不追加"
+    transitions:
+      - condition: "user_select_new_task_number"
+        target: "intent_detect"
+      - condition: "user_choose_exit"
+        target: "end_session"
+
+  end_session:
+    entry_action: "session_cleanup_context"
+    terminal: true

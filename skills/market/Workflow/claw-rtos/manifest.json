@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mNKdhe0S",
+  "name": "claw-rtos",
+  "displayName": "实时操作系统会话内核",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/claw-rtos/latest/claw-rtos.zip",
+  "zipSha256": "4326e91e78df71d251604d0825db60e2b70f2e1358ad7d05b15e8a0a56ecef28",
+  "zipBytes": 10832,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "dbe20fd3602d0d2871da069c86c23af7e151e4b5ace79ec230d899c9f0fb62c1",
+  "fetchedAt": "2026-11-18T10:41:53.443Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

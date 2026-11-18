@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9c5p72K5",
+  "name": "krissss-git-release",
+  "displayName": "Git自动发布",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "krissss",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/krissss-git-release/latest/krissss-git-release.zip",
+  "zipSha256": "d0c6b59a7d4fbbb441a1f69dc8c240450e77698792f41d5c730f8754f2d2dd20",
+  "zipBytes": 4309,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "858a565d561ccaec0125a540a563ae00b32141058dc42f3455275874b27d03c2",
+  "fetchedAt": "2026-11-18T10:41:38.438Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7quv13tv",
+  "name": "frugal-orchestrator",
+  "displayName": "节俭型编排器",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "nelohenriq",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/frugal-orchestrator/latest/frugal-orchestrator.zip",
+  "zipSha256": "6e33415b70c9f6af77ab5fa25b6352e7057b285952c2b755571a504aba2e7ad1",
+  "zipBytes": 6784,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "69255e7a303078e4e4f203a1852fa33f43ec219d845131c1ca8ee5fa78aee63e",
+  "fetchedAt": "2026-11-18T10:41:49.627Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

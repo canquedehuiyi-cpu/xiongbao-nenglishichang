@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RMmd3kpB",
+  "name": "majiayu000-deepwork-jobs",
+  "displayName": "JOBS分析",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-deepwork-jobs/latest/majiayu000-deepwork-jobs.zip",
+  "zipSha256": "18a8646378ef4470d12deff3ecd292605409becfebe28020f024eb3f807d8a9e",
+  "zipBytes": 1758,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "08af1cc78be57f40c91903daa62656946441ed60b5d949094aac72d9c324b98f",
+  "fetchedAt": "2026-11-18T10:41:58.126Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,148 @@
+{
+  "skill": "tmagent-cad",
+  "version": "3.5.2",
+  "test_cases": [
+    {
+      "id": "TC001",
+      "name": "标准绘图请求",
+      "category": "happy_path",
+      "input": {
+        "user_message": "在CAD里画一个圆，圆心50,50半径20"
+      },
+      "expected": {
+        "trigger_skill": true,
+        "output_contains": ["circle", "cx", "r"],
+        "calls_tool": "curl",
+        "calls_tool_endpoint": "/api/execute"
+      }
+    },
+    {
+      "id": "TC002",
+      "name": "批量绘图请求",
+      "category": "happy_path",
+      "input": {
+        "user_message": "CAD画个矩形和一条线，矩形左下角0,0宽100高50，线从0,0到100,100"
+      },
+      "expected": {
+        "trigger_skill": true,
+        "output_contains": ["rectangle", "line", "commands"],
+        "calls_tool": "curl",
+        "calls_tool_endpoint": "/api/execute"
+      }
+    },
+    {
+      "id": "TC003",
+      "name": "查询图纸信息",
+      "category": "happy_path",
+      "input": {
+        "user_message": "看看当前CAD图纸里有什么"
+      },
+      "expected": {
+        "trigger_skill": true,
+        "output_contains": ["drawing_summary", "图层"],
+        "calls_tool": "curl",
+        "calls_tool_endpoint": "/api/execute"
+      }
+    },
+    {
+      "id": "TC004",
+      "name": "首次配置请求",
+      "category": "happy_path",
+      "input": {
+        "user_message": "帮我配置一下CAD的TmAgent"
+      },
+      "expected": {
+        "trigger_skill": true,
+        "output_contains": ["setup_tagent", "信任"],
+        "calls_tool": "python",
+        "calls_tool_script": "scripts/setup_tagent.py"
+      }
+    },
+    {
+      "id": "TC005",
+      "name": "非CAD绘图请求-流程图",
+      "category": "negative",
+      "input": {
+        "user_message": "帮我画一个流程图"
+      },
+      "expected": {
+        "trigger_skill": false
+      }
+    },
+    {
+      "id": "TC006",
+      "name": "非CAD绘图请求-SVG",
+      "category": "negative",
+      "input": {
+        "user_message": "生成一个SVG图标"
+      },
+      "expected": {
+        "trigger_skill": false
+      }
+    },
+    {
+      "id": "TC007",
+      "name": "无关请求-天气查询",
+      "category": "negative",
+      "input": {
+        "user_message": "今天天气怎么样"
+      },
+      "expected": {
+        "trigger_skill": false
+      }
+    },
+    {
+      "id": "TC008",
+      "name": "MCP降级REST",
+      "category": "degradation",
+      "input": {
+        "user_message": "在CAD里画一个半径30的圆",
+        "connected_tools": {
+          "tm-cad": "unavailable"
+        }
+      },
+      "expected": {
+        "trigger_skill": true,
+        "output_contains": ["curl", "/api/execute", "circle"],
+        "uses_fallback": true,
+        "fallback_type": "degrade",
+        "does_not_call": "mcp__tm-cad"
+      }
+    },
+    {
+      "id": "TC009",
+      "name": "CAD未运行",
+      "category": "degradation",
+      "input": {
+        "user_message": "在CAD里画个圆",
+        "connected_tools": {
+          "tm-cad": "unavailable"
+        },
+        "environment": {
+          "cad_running": false
+        }
+      },
+      "expected": {
+        "trigger_skill": true,
+        "output_contains": ["启动", "CAD"],
+        "uses_fallback": true,
+        "fallback_type": "block",
+        "asks_clarification": true
+      }
+    },
+    {
+      "id": "TC010",
+      "name": "draw_text 文字对齐",
+      "category": "happy_path",
+      "input": {
+        "user_message": "在CAD里用居中方式在(500,500)写一行字「实测居中」，画到表格单元格中心"
+      },
+      "expected": {
+        "trigger_skill": true,
+        "output_contains": ["draw_text", "alignment", "middle_center"],
+        "calls_tool": "curl",
+        "calls_tool_endpoint": "/api/execute"
+      }
+    }
+  ]
+}

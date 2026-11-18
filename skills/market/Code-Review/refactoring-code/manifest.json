@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "d4ced916-4f0a-41a5-aec1-af10b3f56edb",
+  "name": "refactoring-code",
+  "displayName": "重构代码",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a0dd1a-5527-7712-b30b-606ad883985b",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0dd1c-2dbc-77e8-b23e-dbcb788a3c44/0f6b434b_skill.zip",
+  "zipSha256": "7b0b17af02514613536b5fb379d7f2c31b7a48163adc230d1683e1ee6cd9a60c",
+  "zipBytes": 44804,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "90adb262a0bd9c54cd32e622f1e6f90178e9df8e8303a5a690f69359889ef8d5",
+  "fetchedAt": "2026-11-18T10:33:52.560Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

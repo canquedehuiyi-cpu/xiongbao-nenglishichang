@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YdQgF50E",
+  "name": "meeting-audio-grounding",
+  "displayName": "会议音频接地",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "gaotiexinqu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/meeting-audio-grounding/latest/meeting-audio-grounding.zip",
+  "zipSha256": "ca2a055e0fd1366473de4ccc8683d79b97064571da7520adcf0b366231291575",
+  "zipBytes": 1763,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "3aadbec41816b6d2ad4de38b764ae9dcb163c9e14d6720a8a2c7c8078b562059",
+  "fetchedAt": "2026-11-18T10:41:43.307Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

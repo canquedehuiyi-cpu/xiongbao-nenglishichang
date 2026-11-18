@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YYk9s4Tv",
+  "name": "fancy-bread-start-task",
+  "displayName": "Start开发",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "fancy-bread",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/fancy-bread-start-task/latest/fancy-bread-start-task.zip",
+  "zipSha256": "1f43b9227044852a30123457c39ae51332be22697f79cddd9c7c57856be17f4e",
+  "zipBytes": 5533,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "2af71b77a2802cd42b0a3041a78b38f1d2c4683c45801300d97bcbc0435ef452",
+  "fetchedAt": "2026-11-18T10:42:09.981Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

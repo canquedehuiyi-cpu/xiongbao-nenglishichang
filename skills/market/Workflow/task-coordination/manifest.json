@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2Rs4LypG",
+  "name": "task-coordination",
+  "displayName": "任务协调",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "agentscope-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/task-coordination/latest/task-coordination.zip",
+  "zipSha256": "b65b49898086872fe2e4cacf117bd7d9e9d21e2c1f0e38ff69cdc7d03330adcc",
+  "zipBytes": 1816,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "e5797e903bf881916a9ccc5335b09ae4dab77166fbb064c0ac371ce6d157a6a4",
+  "fetchedAt": "2026-11-18T10:41:45.857Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

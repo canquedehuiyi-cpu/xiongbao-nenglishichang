@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_U72n1ZYg",
+  "name": "dbvc-linus-tech-review",
+  "displayName": "Linus技术评审",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "DBvc",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dbvc-linus-tech-review/latest/dbvc-linus-tech-review.zip",
+  "zipSha256": "660665fb52a7ff7692136a690c3e8b9dc4bba6dc5b16c4cf22eff574df7992cf",
+  "zipBytes": 3945,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "7305aece012c7b296c2aa7d7f2e1cdaac3fca671ae4ea7b74dda60f7632ec870",
+  "fetchedAt": "2026-11-18T10:34:10.728Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "skill",
+  "marketItemId": "28af63d5-df8e-4088-81a0-1f2fde6e691b",
+  "itemName": "skill-code-count",
+  "displayName": "Code row count",
+  "version": "1.0.0",
+  "packageKind": "skill"
+}

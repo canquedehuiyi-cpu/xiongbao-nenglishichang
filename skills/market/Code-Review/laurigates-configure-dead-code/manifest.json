@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dmyYp4uH",
+  "name": "laurigates-configure-dead-code",
+  "displayName": "Dead开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "laurigates",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/laurigates-configure-dead-code/latest/laurigates-configure-dead-code.zip",
+  "zipSha256": "6a30505d8ad8ad9468b41a61f4578a41b06fd7b3a2e3feb0f4d1ac229c72f7bd",
+  "zipBytes": 4712,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "30c6d5e1a18cc796a018e7fc749c552e57b109248a84cfd44debc4b2171cdaa9",
+  "fetchedAt": "2026-11-18T10:34:24.120Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

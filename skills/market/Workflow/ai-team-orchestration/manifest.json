@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_zW3WiQLn",
+  "name": "ai-team-orchestration",
+  "displayName": "人工智能团队编排",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "thichcode",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ai-team-orchestration/latest/ai-team-orchestration.zip",
+  "zipSha256": "bbb1e6e22a789f8fc24f183bae9400177bf5fe2ad12b1994fe2d63212bed9e1c",
+  "zipBytes": 2722,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c9fb21de8e5b0864d492ddbff54b4596cc656e07d8584bf77594a7c796befdf5",
+  "fetchedAt": "2026-11-18T10:41:43.448Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

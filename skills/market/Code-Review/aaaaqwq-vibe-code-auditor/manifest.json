@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6n2rK4Ki",
+  "name": "aaaaqwq-vibe-code-auditor",
+  "displayName": "Vibe审计",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aAAaqwq",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aaaaqwq-vibe-code-auditor/latest/aaaaqwq-vibe-code-auditor.zip",
+  "zipSha256": "749f6dd00f0f3f3f321b1435f5dc56aae95a2a714cade9fa99bbf1ba550d7d48",
+  "zipBytes": 4220,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "37423b3d216cc977621e639bec6b5650b958fbb3282ad337894fa0d78a066b53",
+  "fetchedAt": "2026-11-18T10:33:52.073Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

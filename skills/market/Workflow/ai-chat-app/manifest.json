@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "c3191fb2-76a6-494e-aefb-da9f5bcc17d8",
+  "name": "ai-chat-app",
+  "displayName": "星云AI",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "01a0a0a1-4fc1-7cdb-a708-026a53789b5b",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0a3a7-7bd0-72b8-9d13-04a2de359c47/e6386260_ai-chat-skill-v2.zip",
+  "zipSha256": "66d8667103e856db9a4a259dfe7863914453c985de417110b643443da9e935d9",
+  "zipBytes": 5665,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "ef618eb9763d22f3f4137630c68ac40d66b0782b4b37638bf0e17ca75c473049",
+  "fetchedAt": "2026-11-18T10:41:34.707Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

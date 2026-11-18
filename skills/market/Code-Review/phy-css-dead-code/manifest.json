@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NZTxnldd",
+  "name": "phy-css-dead-code",
+  "displayName": "CSS 死代码审计器",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/phy-css-dead-code/latest/phy-css-dead-code.zip",
+  "zipSha256": "99d5a77bfbd8080214d640e1ed6756c177b79cb5f9685b906db5e36ffc4e927e",
+  "zipBytes": 7055,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f928edd7c01a900d011df27baf72f9f7df6d0c7dd952f1efb37ca9e406722500",
+  "fetchedAt": "2026-11-18T10:33:51.392Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

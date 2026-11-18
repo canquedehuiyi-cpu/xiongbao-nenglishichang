@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FrGAaiD0",
+  "name": "dykyi-roman-detect-memory-issues",
+  "displayName": "记忆Issues",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dykyi-roman",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dykyi-roman-detect-memory-issues/latest/dykyi-roman-detect-memory-issues.zip",
+  "zipSha256": "e7193a46d4955c935b0353149acf4e2f1d91d62e31c305648e5a382dfcc07341",
+  "zipBytes": 2713,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4c3f2c822017cc7884a5212ce25a95035116e3abbf02d107b76cf233d49fe929",
+  "fetchedAt": "2026-11-18T10:34:05.487Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

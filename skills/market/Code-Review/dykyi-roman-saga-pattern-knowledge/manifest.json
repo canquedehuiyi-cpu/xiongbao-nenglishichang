@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_QK8r4vQq",
+  "name": "dykyi-roman-saga-pattern-knowledge",
+  "displayName": "SAGA开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dykyi-roman",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dykyi-roman-saga-pattern-knowledge/latest/dykyi-roman-saga-pattern-knowledge.zip",
+  "zipSha256": "629918f399cb8b97acfcfd74781a7825b429dc0a7c04b5676bda1ced437b9c14",
+  "zipBytes": 18721,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "18286b2e12f203122ec0bd125e16bc0ff257dc49323c12f3c02b82a2a5385e0a",
+  "fetchedAt": "2026-11-18T10:34:16.689Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

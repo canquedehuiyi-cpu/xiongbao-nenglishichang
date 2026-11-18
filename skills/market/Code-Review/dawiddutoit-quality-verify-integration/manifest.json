@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GwEl4acu",
+  "name": "dawiddutoit-quality-verify-integration",
+  "displayName": "质量集成",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dawiddutoit",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dawiddutoit-quality-verify-integration/latest/dawiddutoit-quality-verify-integration.zip",
+  "zipSha256": "2ded6f32146d578addf7cd4b9e6e90f6477fe64a30aea6226900972ff747d668",
+  "zipBytes": 3328,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "22043212884cc6d12bf5e402327aa37300ba2f203c9b7b1c959684fc74b85c5c",
+  "fetchedAt": "2026-11-18T10:33:55.357Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

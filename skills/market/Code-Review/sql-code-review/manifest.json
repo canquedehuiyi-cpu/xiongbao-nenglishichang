@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FpUxzaWP",
+  "name": "sql-code-review",
+  "displayName": "SQL 代码评审",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lfarci",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/sql-code-review/latest/sql-code-review.zip",
+  "zipSha256": "fcfddb3a70152df5a74b363b3ee4b65bcfda87c27ce00628e7a3c6364459c824",
+  "zipBytes": 1767,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "941186fde3e0f3a9fd729e0f2122f8fbf8d7e3834029207746593d2caa1b39fe",
+  "fetchedAt": "2026-11-18T10:34:05.659Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

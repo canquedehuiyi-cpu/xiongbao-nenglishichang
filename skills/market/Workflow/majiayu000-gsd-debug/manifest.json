@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_AnEVUEFc",
+  "name": "majiayu000-gsd-debug",
+  "displayName": "GSD会话检索",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-gsd-debug/latest/majiayu000-gsd-debug.zip",
+  "zipSha256": "b461f9bc4ef46963d65574cdb0db6f84b2eb5480e1ee8df9186b398d21930563",
+  "zipBytes": 1976,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "1a1291c30bc58485b37968140f72247eab3cbc9f9f0c7cd8d84c18031ff9c865",
+  "fetchedAt": "2026-11-18T10:41:55.140Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

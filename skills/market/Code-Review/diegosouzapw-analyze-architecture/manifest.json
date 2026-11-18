@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DysVpRgp",
+  "name": "diegosouzapw-analyze-architecture",
+  "displayName": "架构分析",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-analyze-architecture/latest/diegosouzapw-analyze-architecture.zip",
+  "zipSha256": "d57cbee0e943f5c3c361ee91144d66db3e9c3fab79243d75ffdd2e72db9f2b0e",
+  "zipBytes": 12293,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c276edfb3683de5b635d0adc88317ae943a510a818aaa2f1e8699ba7529ed497",
+  "fetchedAt": "2026-11-18T10:33:48.966Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

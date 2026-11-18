@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_zbCbXC50",
+  "name": "code-review-simple",
+  "displayName": "代码评审简单",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "openkursar",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-review-simple/latest/code-review-simple.zip",
+  "zipSha256": "e21e36b10bd00e8d1c26b7af7a58c1fcfab7846c4bc9afa9e404ea92e02bc4d3",
+  "zipBytes": 481,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "94f0107a152e3f9a24c58a78416729b24e15eded1e50329f137963249be3d587",
+  "fetchedAt": "2026-11-18T10:34:25.107Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

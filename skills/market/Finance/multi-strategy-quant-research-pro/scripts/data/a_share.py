@@ -1,0 +1,316 @@
+"""A股行情数据获取层。
+
+数据来源：东方财富公开行情API（push2.eastmoney.com / 79.push2his.eastmoney.com）。
+所有接口均为公开接口，不涉及认证，合规合法。
+
+API说明：
+- 列表（候选池）：push2.eastmoney.com/api/qt/clist/get（总市值降序，含行业字段 f100）
+- 日K线：79.push2his.eastmoney.com/api/qt/stock/kline/get?...&klt=101
+- 周K线：79.push2his.eastmoney.com/api/qt/stock/kline/get?...&klt=102
+"""
+
+import time
+import random
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from typing import Optional
+
+from ._http import push2_get, kline_get, safe_float, parse_kline_csv  # 东财实时/历史接口共享客户端（多节点故障切换）
+
+
+def _market_code(code: str) -> str:
+    """根据股票代码推断交易所前缀。"""
+    if code.startswith("6"):
+        return "1"
+    elif code.startswith("0") or code.startswith("3"):
+        return "0"
+    elif code.startswith("4") or code.startswith("8"):
+        return "0"  # 北交所
+    else:
+        return "0"
+
+
+def _secid(code: str, market_code: Optional[str] = None) -> str:
+    """构造东方财富 secid 参数，格式如 1.600519 或 0.000001。"""
+    m = market_code if market_code else _market_code(code)
+    return f"{m}.{code}"
+
+
+def fetch_top_a_share_codes(cap: Optional[int] = 1000) -> list[dict]:
+    """按总市值降序获取A股候选池（过滤 ST/退市/新股后取前 cap 只）。
+
+    与港股/美股列表口径一致：fid=f20（总市值）降序分页取前N近似，
+    按市值排序而非当日涨跌幅排序，避免候选池只覆盖当日涨幅大的标的
+    而系统性漏掉回调/横盘等大量符合技术形态的标的。
+
+    Returns:
+        list[dict]: [{code, name, market, industry}, ...]（market 为 sh/sz/bj 标签；
+            industry 为东方财富行业名称，部分标的可能为空）
+    """
+    stocks = []
+    page = 1
+    # 市值降序 + ST/退市/新股过滤损耗：多拉 30% 余量后截断
+    if cap:
+        target = int(cap * 1.3) + 50  # 抽样：多拉 30% 余量后截断（过滤 ST/退市/新股损耗）
+    else:
+        target = None  # 全量模式（--full-market）：按接口真实 total 拉满，不做市值截断
+    page_limit = 8  # 保守默认；下方按接口真实 total 与单页实际返回条数自适应放宽
+    while target is None or len(stocks) < target:
+        data = push2_get("/api/qt/clist/get", params={
+            "pn": page, "pz": 500, "po": "1", "np": "1",
+            "fltt": "2", "invt": "2", "fid": "f20",
+            "fs": "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23",
+            # f12/f14 代码名称；f20 总市值；f100 行业；
+            # f9 PE(动)/f23 PB/f133 股息率(%)：估值字段（clist 与 push2 stock/get
+            # 数值一致；f133 三市场真实可用，替代不可靠的 push2 f171，见 fundamental.py）
+            "fields": "f12,f14,f20,f100,f9,f23,f133",
+        })
+        if not data:
+            # 空页重试一次（延迟节点偶发瞬时空响应，重试可恢复；仍失败则终止）
+            data = push2_get("/api/qt/clist/get", params={
+                "pn": page, "pz": 500, "po": "1", "np": "1",
+                "fltt": "2", "invt": "2", "fid": "f20",
+                "fs": "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23",
+                "fields": "f12,f14,f20,f100,f9,f23,f133",
+            })
+            if not data:
+                break
+        payload = data.get("data", {}) or {}
+        items = payload.get("diff", []) or []
+        if not items:
+            # 空页重试一次
+            data = push2_get("/api/qt/clist/get", params={
+                "pn": page, "pz": 500, "po": "1", "np": "1",
+                "fltt": "2", "invt": "2", "fid": "f20",
+                "fs": "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23",
+                "fields": "f12,f14,f20,f100,f9,f23,f133",
+            })
+            payload = (data or {}).get("data", {}) or {}
+            items = payload.get("diff", []) or []
+            if not items:
+                break
+        total = payload.get("total") or 0
+        # 分页上限自适应：部分节点单页仅返回 ~100 条（与 pz 无关），
+        # 若按固定 8 页会凑不满 cap（如 --cap 1000 实际仅 ~800）。
+        # 按 total 与真实单页条数折算所需页数，并设安全上限避免异常时无限翻页。
+        if page_limit == 8 and total:
+            # 分页上限自适应：全量(cap=None)放宽至 60 页兜底，抽样模式 24 页（与耗时平衡）
+            _max_pages = 100 if cap is None else 24
+            page_limit = max(8, min(_max_pages, (total + len(items) - 1) // len(items)))
+        for item in items:
+            code = item.get("f12", "")
+            name = item.get("f14", "")
+            if not code or not name:
+                continue
+            # ST / 退市 / 新股（N/C 仅当名称以该字母开头时视为新股，避免误杀）
+            if "ST" in name or "退" in name or name.startswith(("N", "C")):
+                continue
+            if code.startswith("6"):
+                market_tag = "sh"
+            elif code.startswith(("4", "8")):
+                market_tag = "bj"
+            else:
+                market_tag = "sz"
+            stocks.append({
+                "code": code,
+                "name": name,
+                "market": market_tag,
+                "industry": item.get("f100", "") or "",
+                "total_mv": safe_float(item.get("f20")),  # 总市值(元)，与港股/美股列表口径一致
+                # 估值字段（clist 批量真实返回，替代逐只 push2 请求，口径与 fundamental.fetch_valuation 一致）
+                "pe": safe_float(item.get("f9")),
+                "pb": safe_float(item.get("f23")),
+                "dividend_yield": safe_float(item.get("f133")),
+            })
+        # 分页终止：按接口返回的 total 判断，累计已拉满 total 才停（0 条页兜底）。
+        # 延迟节点下 clist 每页可能仅返回 100 条，若按页大小判末页会把候选池
+        # 提前截断为市值 top 100，漏掉其余约 90% 标的。
+        if total and len(stocks) >= total:
+            break
+        page += 1
+        if page > page_limit:
+            break
+    if cap:
+        return stocks[:cap]
+    return stocks
+
+def fetch_screened_a_share_codes(
+    price_below=None,
+    cap_min=None,
+    cap_max=None,
+    limit=300,
+):
+    """定向筛选A股候选池：按最新价升序拉取，按价格/总市值区间过滤。
+
+    用于"低价股 + 市值区间"等需要中小市值标的的筛选场景：
+    默认候选池按总市值降序（偏好大盘蓝筹），几乎无法覆盖低价中小盘股；
+    本函数按最新价(f2)升序分页拉取（价格升序下单调递增，超过 price_below
+    即可提前终止，避免无谓翻页），再按价格与总市值区间过滤。
+
+    Args:
+        price_below: 最新价上限（元），如 15 表示仅保留股价 < 15 元
+        cap_min: 总市值下限（亿元）
+        cap_max: 总市值上限（亿元）
+        limit: 返回条数上限
+
+    Returns:
+        list[dict]: [{code, name, market, industry, total_mv, price, pe, pb, dividend_yield}]
+            market 为 sh/sz/bj 标签；不满足过滤条件的标的已剔除。
+    """
+    stocks = []
+    page = 1
+    max_pages = 60  # 价格升序下达到 price_below 即终止，安全上限防异常
+    while len(stocks) < limit:
+        data = push2_get("/api/qt/clist/get", params={
+            "pn": page, "pz": 500, "po": "0", "np": "1",
+            "fltt": "2", "invt": "2", "fid": "f2",  # 按最新价升序
+            "fs": "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23",
+            "fields": "f12,f14,f2,f20,f100,f9,f23,f133",
+        })
+        if not data:
+            data = push2_get("/api/qt/clist/get", params={
+                "pn": page, "pz": 500, "po": "0", "np": "1",
+                "fltt": "2", "invt": "2", "fid": "f2",
+                "fs": "m:0+t:6,m:0+t:80,m:1+t:2,m:1+t:23",
+                "fields": "f12,f14,f2,f20,f100,f9,f23,f133",
+            })
+            if not data:
+                break
+        payload = data.get("data", {}) or {}
+        items = payload.get("diff", []) or []
+        if not items:
+            break
+        total = payload.get("total") or 0
+        price_exceeded = False
+        for item in items:
+            code = item.get("f12", "")
+            name = item.get("f14", "")
+            if not code or not name:
+                continue
+            # 过滤 ST / 退市 / 新股
+            if "ST" in name or "退" in name or name.startswith(("N", "C")):
+                continue
+            price = safe_float(item.get("f2"))
+            if price <= 0:  # safe_float 对占位符/空值返回0，据此过滤无效价格
+                continue
+            if price_below is not None and price >= price_below:
+                price_exceeded = True
+                break
+            mv = safe_float(item.get("f20"))
+            if mv <= 0:  # 市值缺失/占位符返回0，据此过滤
+                continue
+            mv_yi = mv / 1e8  # 元 → 亿元
+            if cap_min is not None and mv_yi < cap_min:
+                continue
+            if cap_max is not None and mv_yi > cap_max:
+                continue
+            if code.startswith("6"):
+                market_tag = "sh"
+            elif code.startswith(("4", "8")):
+                market_tag = "bj"
+            else:
+                market_tag = "sz"
+            stocks.append({
+                "code": code,
+                "name": name,
+                "market": market_tag,
+                "industry": item.get("f100", "") or "",
+                "total_mv": mv,
+                "price": price,
+                "pe": safe_float(item.get("f9")),
+                "pb": safe_float(item.get("f23")),
+                "dividend_yield": safe_float(item.get("f133")),
+            })
+            if len(stocks) >= limit:
+                break
+        if price_exceeded:
+            break  # 价格升序已达上限，后续价格更高，无需继续
+        if total and len(stocks) >= total:
+            break
+        page += 1
+        if page > max_pages:
+            break
+    return stocks[:limit]
+
+
+
+def fetch_daily_kline(
+    code: str,
+    days: int = 120,
+    market_code: Optional[str] = None,
+) -> list[dict]:
+    """获取单只股票日K线数据。
+
+    Args:
+        code: 股票代码，如 '600519'
+        days: 获取天数
+        market_code: 市场代码 '1'=沪 '0'=深/北
+
+    Returns:
+        list[dict]: K线数据，每项含 date/open/close/high/low/volume/amount/pct_chg/turnover
+    """
+    secid = _secid(code, market_code)
+    data = kline_get("/api/qt/stock/kline/get", params={
+        "secid": secid,
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+        "klt": "101", "fqt": "1", "end": "20500101", "lmt": days,
+    })
+    if not data:
+        return []
+
+    klines = data.get("data", {}).get("klines", [])
+    if not klines:
+        return []
+    return parse_kline_csv(klines, include_turnover=True)
+
+
+def fetch_batch_klines_parallel(
+    codes: list[str],
+    days: int = 120,
+    max_workers: int = 10,
+    delay: float = 0.15,
+) -> dict[str, list[dict]]:
+    """批量并发获取多只股票日K线。
+
+    Args:
+        codes: 股票代码列表
+        days: 每只获取天数
+        max_workers: 并发线程数
+        delay: 请求间隔(秒)，控制频率避免被封
+
+    Returns:
+        dict[str, list[dict]]: code -> K线列表
+    """
+    results = {}
+
+    def _fetch_one(code: str):
+        time.sleep(random.uniform(0, delay))
+        try:
+            kl = fetch_daily_kline(code, days=days)
+            return code, kl
+        except Exception:
+            return code, []
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(_fetch_one, c): c for c in codes}
+        for future in as_completed(futures):
+            code, kl = future.result()
+            results[code] = kl
+
+    return results
+
+
+def fetch_weekly_kline(code: str, weeks: int = 60) -> list[dict]:
+    """获取周K线。"""
+    secid = _secid(code)
+    data = kline_get("/api/qt/stock/kline/get", params={
+        "secid": secid,
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+        "klt": "102", "fqt": "1", "end": "20500101", "lmt": weeks,
+    })
+    if not data:
+        return []
+
+    klines = data.get("data", {}).get("klines", [])
+    return parse_kline_csv(klines)

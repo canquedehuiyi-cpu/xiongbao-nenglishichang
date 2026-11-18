@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8Oppfovk",
+  "name": "majiayu000-sisyphus-implementation-guide",
+  "displayName": "报告Sisyphus",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-sisyphus-implementation-guide/latest/majiayu000-sisyphus-implementation-guide.zip",
+  "zipSha256": "1ef22d847e8c2d5392e8adcbab7200570f4f34d91d10e64305d6ca9dd7ebd897",
+  "zipBytes": 5608,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "13e9e7b94a09cb3f20e9e24563709a174e6d9cb5bec2c9365bdbd243e950694e",
+  "fetchedAt": "2026-11-18T10:41:54.422Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

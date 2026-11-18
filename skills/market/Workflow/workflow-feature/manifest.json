@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BkBwioIl",
+  "name": "workflow-feature",
+  "displayName": "工作流程功能",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "duc01226",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/workflow-feature/latest/workflow-feature.zip",
+  "zipSha256": "56658559c6d5250e1a7b3193d2f95a38ae3148e3d608ef9266a6330bccfc044a",
+  "zipBytes": 8545,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a2b4a0ab1a587b85d88850d01f64e840a771c59d3868f6ff71d0393326420a6c",
+  "fetchedAt": "2026-11-18T10:42:06.314Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

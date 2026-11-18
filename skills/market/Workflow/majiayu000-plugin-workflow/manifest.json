@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EB7VabPR",
+  "name": "majiayu000-plugin-workflow",
+  "displayName": "插件流程",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-plugin-workflow/latest/majiayu000-plugin-workflow.zip",
+  "zipSha256": "ddde26752c557958f71e82956bab1f508c71ccb963e964ac165d140bd8687686",
+  "zipBytes": 5343,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "bd78f16b9faf2ba435da3b0ce6e4b91ce985ccc601d070a5cab3d83a54c45d99",
+  "fetchedAt": "2026-11-18T10:41:36.851Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

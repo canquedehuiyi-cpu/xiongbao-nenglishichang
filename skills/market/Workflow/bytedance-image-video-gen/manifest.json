@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qHTFHFYe",
+  "name": "bytedance-image-video-gen",
+  "displayName": "GEN图像创作",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bytedance",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bytedance-image-video-gen/latest/bytedance-image-video-gen.zip",
+  "zipSha256": "21068aaabd3e5384e99ab36c928ea2d45e932f6d29bb872aa09778d3094f3da3",
+  "zipBytes": 5333,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d0539d5825543f38278f32495932ad73ea82168db280675dee235694f2680355",
+  "fetchedAt": "2026-11-18T10:41:52.922Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

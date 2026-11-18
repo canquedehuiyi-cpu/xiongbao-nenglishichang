@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FoBX7hPK",
+  "name": "collaboration-principles",
+  "displayName": "协作原则",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/collaboration-principles/latest/collaboration-principles.zip",
+  "zipSha256": "f0d943fabdd019475a9a781f23c615c7aab0ec18301dbc2137d4f5e91eeb468d",
+  "zipBytes": 1100,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "07a6830dbbcb60183b6aff1409ad09e92845e464bd5f0b24143d0d0d6cbb4ca8",
+  "fetchedAt": "2026-11-18T10:34:13.185Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cnpHYqQj",
+  "name": "masanao-ohba-delegation-router",
+  "displayName": "Router代理开发",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "masanao-ohba",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/masanao-ohba-delegation-router/latest/masanao-ohba-delegation-router.zip",
+  "zipSha256": "6fcb125af5f2e9763fc47758574f459fff75b4a919a18b823c7ffbdb45831579",
+  "zipBytes": 2250,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "35f68741f2fd13ff487e25610f20a3bc7049a358ebef9c749f972f80365c8800",
+  "fetchedAt": "2026-11-18T10:42:00.872Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

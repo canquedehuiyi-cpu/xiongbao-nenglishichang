@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dJrs9TOn",
+  "name": "majiayu000-project-coordinator",
+  "displayName": "协调项目助手",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-project-coordinator/latest/majiayu000-project-coordinator.zip",
+  "zipSha256": "f815026c3f004d8215a985531f98aeb84d66bccca8085ddbcbbb330e636c89ad",
+  "zipBytes": 3008,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3d4929b40c66d1210e6d9cd1ca686b551f10926f264037d4375b5fe8e4afedfb",
+  "fetchedAt": "2026-11-18T10:41:51.940Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

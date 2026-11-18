@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_50pcew6x",
+  "name": "diegosouzapw-architecture-lint",
+  "displayName": "架构规范检查",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-architecture-lint/latest/diegosouzapw-architecture-lint.zip",
+  "zipSha256": "beb32ae8386d163099f4f2fe338340eb1ecc66777a760ae2ba1bb0ec9ea3f7dd",
+  "zipBytes": 2336,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8e91b9f25655376c9ca1c2cd47bb6fdb88b6f74f25a471a98a106b932217242a",
+  "fetchedAt": "2026-11-18T10:33:58.425Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

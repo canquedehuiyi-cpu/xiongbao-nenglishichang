@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_aiwsO2Od",
+  "name": "ouroboros-superpowers",
+  "displayName": "开发工作流",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ouroboros-superpowers/latest/ouroboros-superpowers.zip",
+  "zipSha256": "6940cb19d207bed964feb67c13c5f092eaafe8835efba3553ff41f0249e41835",
+  "zipBytes": 2986,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "48ea17b80fb84838a297d1499752d9230af0e3b812822af44333c73f0e2532ac",
+  "fetchedAt": "2026-11-18T10:41:30.879Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

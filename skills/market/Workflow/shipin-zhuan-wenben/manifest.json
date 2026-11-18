@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "97add2b2-5a9c-48e1-8aba-802839039079",
+  "name": "shipin-zhuan-wenben",
+  "displayName": "视频转文本",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08e3f-6017-79c4-9396-9ba34a61028e/bacbb83b_shipin-zhuan-wenben-1.0.0.zip",
+  "zipSha256": "b541f4e63582eb1047505d06483a3078d0f88528374d1e8b2c5a297a7e22725f",
+  "zipBytes": 25036,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 14,
+  "treeSha256": "9951c21157354d1ff1287f33cfd76814c91a5c4d00234eb9b681f153aab4b6cb",
+  "fetchedAt": "2026-11-18T10:41:32.610Z",
+  "credentialScan": {
+    "textFilesScanned": 14,
+    "filesRedacted": 0
+  },
+  "note": null
+}

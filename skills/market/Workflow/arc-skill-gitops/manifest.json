@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XetcczYE",
+  "name": "arc-skill-gitops",
+  "displayName": "代理 GitOps 技能",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "trypto1019",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/arc-skill-gitops/latest/arc-skill-gitops.zip",
+  "zipSha256": "2215da3652d29e1a0cfb40e75bc3b4e9d10c1958d20baf0220286238b0c83c6e",
+  "zipBytes": 5410,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "c3d857c0b641ce73bc7595309809581de12b5dfe8b84c070ccfda4566b0c0011",
+  "fetchedAt": "2026-11-18T10:41:52.486Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

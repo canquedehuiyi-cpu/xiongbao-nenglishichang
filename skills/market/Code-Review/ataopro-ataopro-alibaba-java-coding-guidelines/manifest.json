@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GdHMDc1y",
+  "name": "ataopro-ataopro-alibaba-java-coding-guidelines",
+  "displayName": "Ataopro开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ataopro",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ataopro-ataopro-alibaba-java-coding-guidelines/latest/ataopro-ataopro-alibaba-java-coding-guidelines.zip",
+  "zipSha256": "bdcbf7e53d0b4408d8935389173fed2847e7e5261d15b22e94c85a4da3ff04c3",
+  "zipBytes": 8134,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "96ffa4911ea40194a4c0e0b754bf12a50d40338028ec3419075351120fae3d37",
+  "fetchedAt": "2026-11-18T10:33:51.032Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

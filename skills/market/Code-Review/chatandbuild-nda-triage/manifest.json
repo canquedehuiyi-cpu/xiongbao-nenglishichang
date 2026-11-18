@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FRW5awBh",
+  "name": "chatandbuild-nda-triage",
+  "displayName": "Triage开发",
+  "categoryCode": "Code Review",
+  "categoryDir": "Code-Review",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ChatAndBuild",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/chatandbuild-nda-triage/latest/chatandbuild-nda-triage.zip",
+  "zipSha256": "3aabb637ccdfbb4e8950edfee47a0a8d95aaa39f0809ad71ce6f8fe03b7ca721",
+  "zipBytes": 4326,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "44c4f2479dfd92630156d6bde0f8a4dc1b84ddb71a1f2b3d4ac2d977ee3f9803",
+  "fetchedAt": "2026-11-18T10:34:16.289Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

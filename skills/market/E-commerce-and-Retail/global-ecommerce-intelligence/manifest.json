@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "22878973-2c65-4f8e-8f8a-502fe2dbad57",
+  "name": "global-ecommerce-intelligence",
+  "displayName": "全球电商全链路智能系统",
+  "categoryCode": "E-commerce & Retail",
+  "categoryDir": "E-commerce-and-Retail",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.5",
+  "publisher": "019fc0ef-9fba-77b0-8c35-4f611b528d2f",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a066d3-f573-7bb1-8d02-d5b13ae8fc04/8a4e44fa_全球电商全链路创业智能指导系统1.0.7.zip",
+  "zipSha256": "61bd89f327ffce3dce19eb569148b58649d375aa9208eb4a30ed8fb33c4f2e84",
+  "zipBytes": 178963,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 55,
+  "treeSha256": "187a7edd55768ee2ce11c2e2c0943429b183ff7901fef58d39d923451a31419d",
+  "fetchedAt": "2026-11-18T10:38:59.719Z",
+  "credentialScan": {
+    "textFilesScanned": 55,
+    "filesRedacted": 0
+  },
+  "note": null
+}

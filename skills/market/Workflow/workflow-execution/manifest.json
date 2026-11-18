@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_quoldJxU",
+  "name": "workflow-execution",
+  "displayName": "工作流执行",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/workflow-execution/latest/workflow-execution.zip",
+  "zipSha256": "00cefe677507fb57c03c6ace289f0e5b92cada4b44bdbbd9a1e7983853e68e2a",
+  "zipBytes": 8750,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "f8820ec44adf87ea865a5ac80b9a075d638f4482c753ec7f50c3f59e64c4a95f",
+  "fetchedAt": "2026-11-18T10:41:48.484Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

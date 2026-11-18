@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_c4A3dLTL",
+  "name": "langoose-git-conventions",
+  "displayName": "langoose git 约定",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "altav1sta",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/langoose-git-conventions/latest/langoose-git-conventions.zip",
+  "zipSha256": "cdc1fe246275bff9179cf99b8808ce27b5d246497557efd21f85721d0567acce",
+  "zipBytes": 696,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "27ed932d82cc9ee7dc08148d452c3d9f062c5de52b4ca6c68ad54415a13d11ef",
+  "fetchedAt": "2026-11-18T10:42:11.859Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

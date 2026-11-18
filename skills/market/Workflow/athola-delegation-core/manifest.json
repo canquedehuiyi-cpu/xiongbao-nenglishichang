@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_o0LG2ChG",
+  "name": "athola-delegation-core",
+  "displayName": "CORE应用",
+  "categoryCode": "Workflow",
+  "categoryDir": "Workflow",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "athola",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/athola-delegation-core/latest/athola-delegation-core.zip",
+  "zipSha256": "4150a7426c6e5f919d59e7c722b0104d5de9b400c926f1cf1423354a6c9c4a68",
+  "zipBytes": 10580,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "2c65daca51cadbe062b427b525317bb6a670d4d757b0e06033bc080c7dd86e61",
+  "fetchedAt": "2026-11-18T10:41:45.324Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}
