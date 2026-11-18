@@ -1,0 +1,14 @@
+{
+  "name": "realtime-data-engineer",
+  "displayName": "实时数据工程师",
+  "version": "1.0.0",
+  "description": "> 实时数据工程师的完整 AI 工具箱。覆盖需求评审、Flink 任务开发、数据质量、Code Review、新人培养、血缘影响 6 大场景。",
+  "skills": [
+    "./skills/realtime-data-requirement-review",
+    "./skills/newcomer-growth-path",
+    "./skills/realtime-task-development",
+    "./skills/data-quality-monitoring",
+    "./skills/data-lineage-impact-analysis",
+    "./skills/flink-sql-code-review"
+  ]
+}

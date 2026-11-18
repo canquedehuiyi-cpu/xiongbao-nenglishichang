@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "aliyun-domain": {
+      "command": "npx",
+      "args": [
+        "mcp-remote-alibaba-cloud",
+        "https://openapi-mcp.cn-hangzhou.aliyuncs.com/s/Domain/domain/2dd2d6410b8648938effea0a177280e6/mcp"
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "59b91ed4-cb2b-4ca5-9b11-d0d802d6d722",
+  "name": "super-dw-engineer",
+  "displayName": "Super Data Warehouse Engineer",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "蒋璐煜",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a024dd-4620-7e5c-a4d0-fa66a8186354/b897ae64_e7504ecd_super-dw-engineer.zip",
+  "zipSha256": "eb3bef6d3f26e8d4b644e71d38e17bca545f93dbdfe152ef3919427e76481ede",
+  "zipBytes": 21481,
+  "upstreamSha256": "eb3bef6d3f26e8d4b644e71d38e17bca545f93dbdfe152ef3919427e76481ede",
+  "files": 8,
+  "treeSha256": "1a764c020b99443c41a660228478db394492b3ef939c45dfce911eb109f3bd4e",
+  "fetchedAt": "2026-11-18T10:43:41.658Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

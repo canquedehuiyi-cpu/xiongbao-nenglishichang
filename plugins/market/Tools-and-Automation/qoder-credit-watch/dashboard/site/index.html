@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>credit-watch 余量看板 · Qoder 多账号 Credits 监控</title>
+    <meta
+      name="description"
+      content="Qoder 多账号剩余 Credits 监控看板：汇总各号余量、消耗趋势、阈值告警与采集状态。当前展示本地演示数据。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" href="./favicon.svg" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">跳到主要内容</a>
+
+    <div class="shell">
+      <header class="sidebar" id="appbar">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">cw</span>
+          <span class="brand-text">
+            <strong>credit-watch</strong>
+            <small>Qoder 余量监控</small>
+          </span>
+          <button
+            type="button"
+            class="nav-toggle"
+            id="nav-toggle"
+            aria-expanded="false"
+            aria-controls="primary-nav"
+          >
+            <span class="visually-hidden">展开或收起导航</span>
+            <span class="nav-toggle-bars" aria-hidden="true"></span>
+          </button>
+        </div>
+
+        <nav id="primary-nav" class="nav" aria-label="看板区块">
+          <p class="nav-caption">本机监控名单</p>
+          <ul>
+            <li><a href="#overview" data-nav>总览</a></li>
+            <li><a href="#trend" data-nav>趋势与构成</a></li>
+            <li><a href="#accounts" data-nav>账号明细</a></li>
+          </ul>
+        </nav>
+
+        <div class="sidebar-foot">
+          <p class="side-metric">
+            <span>监控账号</span>
+            <b id="side-accounts">—</b>
+          </p>
+          <p class="side-metric">
+            <span>最近采集</span>
+            <b id="side-latest">—</b>
+          </p>
+          <p class="demo-flag" id="demo-flag">演示数据</p>
+          <div class="side-links">
+            <button type="button" class="btn btn-quiet btn-block" id="open-settings-side">设置</button>
+            <button type="button" class="btn btn-quiet btn-block" id="open-guide" aria-haspopup="dialog">使用指南</button>
+            <button type="button" class="btn btn-quiet btn-block" id="open-log" aria-haspopup="dialog">更新日志</button>
+            <p class="side-ver" id="side-version"></p>
+          </div>
+        </div>
+      </header>
+
+      <div class="main-col">
+        <div class="topbar">
+          <div class="crumbs">
+            <p class="crumb-line">
+              <span>credit-watch</span>
+              <span aria-hidden="true">/</span>
+              <span>本机监控名单</span>
+              <span aria-hidden="true">/</span>
+              <b>全部账号</b>
+            </p>
+            <p class="crumb-note" id="data-stamp">数据加载中…</p>
+          </div>
+
+          <form class="search" role="search" id="search-form">
+            <label class="visually-hidden" for="q">按标签或账号名称筛选账号表</label>
+            <svg class="search-icon" viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <circle cx="7" cy="7" r="4.5" />
+              <path d="M10.5 10.5 14 14" />
+            </svg>
+            <input id="q" name="q" type="search" placeholder="搜标签或账号名称" autocomplete="off" />
+            <button type="button" class="search-clear" id="search-clear" hidden>
+              <span class="visually-hidden">清除搜索</span>
+              <span aria-hidden="true">×</span>
+            </button>
+          </form>
+
+          <p class="search-hint" id="search-hint" role="status" aria-live="polite"></p>
+        </div>
+
+        <main id="main" class="main">
+          <div id="load-error" class="error-card" hidden>
+            <h2>没有可用的数据集</h2>
+            <p>先在 Qoder 里执行 <code>/credit-start</code> 生成看板数据。另外，直接双击打开这个 HTML 时浏览器不允许读取本地数据文件，请用插件自带的本地服务打开本页。</p>
+          </div>
+
+          <p class="visually-hidden" id="live-region" role="status" aria-live="polite"></p>
+
+          <section class="greeting" aria-labelledby="greeting-title">
+            <div>
+              <h1 id="greeting-title">正在读取余量记录…</h1>
+              <p id="greeting-sub">正在读取余量记录…</p>
+            </div>
+            <div class="greeting-right">
+              <fieldset class="rangeset">
+                <legend class="visually-hidden">时间范围</legend>
+                <div class="segmented">
+                  <input type="radio" name="range" id="r7" value="7" />
+                  <label for="r7">7 天</label>
+                  <input type="radio" name="range" id="r14" value="14" checked />
+                  <label for="r14">14 天</label>
+                  <input type="radio" name="range" id="r30" value="30" />
+                  <label for="r30">30 天</label>
+                </div>
+                <p class="rangeset-note" id="range-note"></p>
+              </fieldset>
+
+              <div class="actions">
+                <div class="actions-row" role="group" aria-label="看板操作">
+                  <button type="button" class="btn btn-primary" id="run-refresh" data-job="/api/refresh" data-local hidden>刷新余量数据</button>
+                  <button type="button" class="btn" id="run-rebuild" data-job="/api/rebuild" data-local hidden>只重算数据</button>
+                  <button type="button" class="btn" id="open-settings">设置</button>
+                </div>
+                <p class="status-line" id="job-status">
+                  <span class="status-text" id="job-text"></span>
+                  <span class="status-count" id="job-count"></span>
+                </p>
+                <div class="status-bar" id="job-bar" hidden><i id="job-fill"></i></div>
+                <p class="actions-note" id="refresh-note"></p>
+              </div>
+            </div>
+          </section>
+
+          <section class="kpis" id="overview" aria-labelledby="overview-title">
+            <h2 class="visually-hidden" id="overview-title">核心指标</h2>
+            <div class="card kpi" id="kpi-remaining">
+              <div class="kpi-head">
+                <h3>当前总剩余</h3>
+                <p class="delta" data-delta></p>
+              </div>
+              <p class="kpi-value"><b data-value>—</b><span class="kpi-unit" data-unit>credits</span></p>
+              <p class="kpi-note" data-note></p>
+              <svg class="spark" viewBox="0 0 120 28" role="img" aria-label="当前总剩余走势示意"></svg>
+            </div>
+            <div class="card kpi" id="kpi-burn">
+              <div class="kpi-head">
+                <h3>日均消耗</h3>
+                <p class="delta" data-delta></p>
+              </div>
+              <p class="kpi-value"><b data-value>—</b><span class="kpi-unit" data-unit>credits / 天</span></p>
+              <p class="kpi-note" data-note></p>
+              <svg class="spark" viewBox="0 0 120 28" role="img" aria-label="每日消耗走势示意"></svg>
+            </div>
+            <div class="card kpi" id="kpi-runway">
+              <div class="kpi-head">
+                <h3>可支撑天数</h3>
+                <p class="delta" data-delta></p>
+              </div>
+              <p class="kpi-value"><b data-value>—</b><span class="kpi-unit" data-unit>天</span></p>
+              <p class="kpi-note" data-note></p>
+              <ul class="stack-meter" data-meter></ul>
+            </div>
+            <div class="card kpi" id="kpi-fresh">
+              <div class="kpi-head">
+                <h3>采集新鲜度</h3>
+                <p class="delta" data-delta></p>
+              </div>
+              <p class="kpi-value"><b data-value>—</b><span class="kpi-unit" data-unit>/ — 个号</span></p>
+              <p class="kpi-note" data-note></p>
+              <ul class="acct-dots" data-dots></ul>
+            </div>
+          </section>
+
+          <section class="charts" id="trend" aria-labelledby="trend-title">
+            <h2 class="sr-heading" id="trend-title">消耗趋势与余量构成</h2>
+
+            <div class="card chart-card">
+              <div class="card-head">
+                <div>
+                  <h3>每日消耗趋势</h3>
+                  <p class="card-sub">按账号堆叠，单位 credits</p>
+                </div>
+                <p class="chart-readout" id="trend-readout" aria-hidden="true"></p>
+              </div>
+              <div class="chart-body">
+                <svg id="area-chart" viewBox="0 0 640 232" role="img" aria-labelledby="area-desc">
+                  <title id="area-desc">所选时间范围内各账号每日 Credits 消耗的堆叠面积图</title>
+                </svg>
+                <p class="chart-axis-note" id="area-note"></p>
+              </div>
+              <ul class="legend" id="area-legend"></ul>
+            </div>
+
+            <div class="card chart-card">
+              <div class="card-head">
+                <div>
+                  <h3>当前余量构成</h3>
+                  <p class="card-sub">套餐额度与资源包分账号占比</p>
+                </div>
+              </div>
+              <div class="donut-wrap">
+                <svg id="donut" viewBox="0 0 180 180" role="img" aria-labelledby="donut-desc">
+                  <title id="donut-desc">当前各账号剩余 Credits 占比环图</title>
+                </svg>
+                <ul class="donut-legend" id="donut-legend"></ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="card panel wide" id="accounts" aria-labelledby="accounts-title">
+            <div class="card-head">
+              <div>
+                <h3 id="accounts-title">账号明细</h3>
+                <p class="card-sub">每个号最近一次的采集结果；要重新登录就在对应那一行点「登录窗口」</p>
+                <p class="reward-note" id="reward-note" data-state="quiet" hidden></p>
+              </div>
+              <button type="button" class="btn btn-primary" id="export-csv">导出当前范围 CSV</button>
+            </div>
+            <div class="table-wrap">
+              <table class="grid-table" id="account-table" data-openable="false">
+                <caption class="visually-hidden">
+                  各监控账号的套餐、剩余额度、资源包到期日、今日签到状态、额度刷新日与采集状态
+                </caption>
+                <thead>
+                  <tr>
+                    <th scope="col">账号</th>
+                    <th scope="col">套餐</th>
+                    <th scope="col" class="num">周期额度</th>
+                    <th scope="col" class="num">剩余合计</th>
+                    <th scope="col">余量占比</th>
+                    <th scope="col" class="num">近 7 日日均</th>
+                    <th scope="col">资源包到期</th>
+                    <th scope="col">今日签到</th>
+                    <th scope="col">下次刷新</th>
+                    <th scope="col">最近采集</th>
+                    <th scope="col" class="col-act">登录窗口</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <p class="empty" id="accounts-empty" hidden>没有匹配的账号。</p>
+          </section>
+
+          <footer class="foot">
+            <h2 class="sr-heading">数据口径与说明</h2>
+            <p id="foot-demo-note" hidden></p>
+            <p class="foot-src">每个号都用它自己已登录的浏览器窗口去读用量，插件不保存、不传输任何登录凭据；口径与注意事项都写在「使用指南」里。</p>
+            <p class="foot-by">
+              制作人 <b>Ocean</b> · <a href="mailto:pzxxc@outlook.com">pzxxc@outlook.com</a>
+              · 插件 <code>qoder-credit-watch</code>
+            </p>
+          </footer>
+        </main>
+
+        <div class="settings-view" id="view-settings" hidden>
+          <div class="settings-head">
+            <button type="button" class="btn btn-quiet" id="back-dashboard">← 返回看板</button>
+            <div>
+              <h2 id="settings-title">设置</h2>
+              <p class="modal-sub">默认启动端口、账号标签与名称、新增账号都在这里；保存后自动重算看板。</p>
+            </div>
+          </div>
+
+          <div class="settings-body">
+            <p class="settings-state" id="settings-state" role="status" aria-live="polite"></p>
+
+            <form id="settings-form" class="settings" hidden>
+              <div class="field-row">
+                <label for="set-port">默认启动端口</label>
+                <input id="set-port" type="number" min="1024" max="65535" step="1" inputmode="numeric" aria-label="默认启动端口" />
+                <p class="field-hint">当前运行在 <b id="port-current">—</b>。改这里只决定<b>下次启动</b>的端口，保存后要重启服务才生效。</p>
+              </div>
+
+              <h3 class="settings-h">账号标签与名称</h3>
+              <div class="table-wrap">
+                <table class="grid-table settings-table" id="settings-accounts">
+                  <caption class="visually-hidden">每个账号的标签与账号名称，改完点「保存」才生效</caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">账号</th>
+                      <th scope="col">标签</th>
+                      <th scope="col">账号名称</th>
+                      <th scope="col">现状</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+              <div class="settings-foot">
+                <button type="button" class="btn" id="revert-settings" disabled>还原</button>
+                <button type="submit" class="btn btn-primary" id="save-settings">保存</button>
+              </div>
+            </form>
+
+            <div class="register" id="register-box" hidden>
+              <h3>新增账号</h3>
+              <ol class="register-steps">
+                <li>
+                  <button type="button" class="btn" id="reg-open">开一个新号窗口</button>
+                  <span class="muted">在窗口里登录那个号，登好回来走下一步</span>
+                </li>
+                <li>
+                  <button type="button" class="btn" id="reg-scan">读一下待登记的号</button>
+                  <span class="muted">只读窗口里已登录的会话，读到了就在下面填标签</span>
+                </li>
+              </ol>
+              <ul class="register-list" id="register-list" hidden></ul>
+            </div>
+
+            <p class="settings-off" id="settings-off" hidden>
+              没连上本机服务，这一带是只读的：改设置、新增向导都用不了。
+              要操作，请用插件自带的本地服务（<code>bin/serve-dashboard.cmd</code>）打开本页。
+            </p>
+
+            <p class="settings-off" id="settings-demo" hidden>
+              页面读的还是插件自带的演示数据，改了也不动你自己的名单。
+              先点「刷新余量数据」真采一次，这里就会列出你真实的账号。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <dialog id="guide-dialog" class="modal" aria-labelledby="guide-title">
+      <form method="dialog" class="modal-head">
+        <div>
+          <h2 id="guide-title">使用指南</h2>
+          <p class="modal-sub">这个看板是什么、不是什么</p>
+        </div>
+        <button type="submit" class="icon-btn" value="close">
+          <span class="visually-hidden">关闭使用指南</span>
+          <span aria-hidden="true">×</span>
+        </button>
+      </form>
+      <div class="modal-body">
+        <h3>用之前先看清楚</h3>
+        <ul>
+          <li><b>它只读，不替你做事</b>：插件只向用量查询接口发读取请求，不保存、不传输任何凭据，也不代领、不代下单、不改任何远端状态。</li>
+          <li><b>「今日签到」只是提醒，不是代办</b>：每天 100 Credits 的签到<em>只能在 Qoder 桌面端右上角的签到浮窗点</em>，网页里没有这个入口，看板也点不到。状态每天 0 点重置，当天没签不补；这一列只告诉你哪个号还没签。</li>
+          <li><b>所有数字都是快照</b>：页面显示的是<em>上一次采集</em>的结果，不会自己变新。要看最新值就点「刷新余量数据」；发布到云端的站点更是一份冻结快照，那里的按钮只能把命令交回给你。</li>
+          <li><b>两种打开方式能力不同</b>：经本机服务（<code>bin/serve-dashboard.cmd</code>）打开时按钮是真触发；直接双击 <code>index.html</code> 或打开已发布站点时只能浏览，操作按钮不会出现。</li>
+          <li><b>本机服务的安全边界</b>：只绑 <code>127.0.0.1</code>、启动带一次性令牌、写接口只认白名单字段，关掉进程就全部失效；不驻留、不开机自启。</li>
+          <li><b>名单存在插件之外</b>：<code>~/.qoder-cn/credit-watch/accounts.json</code>（配置）与 <code>history.jsonl</code>（采集历史）。升级重装不会覆盖它；每次保存前会先把上一份留成 <code>accounts.json.bak</code>。</li>
+          <li><b>用量接口不是公开契约</b>：字段可能随时变更。某天取不到数或数字异常，先怀疑这里，而不是账号真的用掉了这么多。</li>
+        </ul>
+        <h3>数字是怎么算出来的</h3>
+        <ul>
+          <li><b>当前总剩余</b>：套餐剩余额度 + 资源包剩余额度，取每个号最近一次采集；几天没采的号沿用最后一次结果，所以这个数<em>偏乐观</em>。</li>
+          <li><b>日均消耗</b>：所选区间内的消耗之和 ÷ <em>有采集记录的天数</em>；周期刷新回来的额度不算消耗。</li>
+          <li><b>可支撑天数</b>：当前总剩余 ÷ 近 7 日日均，<span class="warn-ink">不含周期刷新会回来的额度</span>，只用来判断紧不紧。</li>
+          <li><b>采集新鲜度</b>：每个号最近一次采集是当天、几天前、还是压根没有记录。没有记录多半是那个号还没登录过。</li>
+          <li><b>资源包分行</b>：账号明细里每个号下面按资源包各列一行（来源 / 剩余 / 到期），各包到期不同、临近到期会标出来。旧数据没采到包明细时只显示聚合的“资源包到期”。</li>
+          <li><b>今日签到</b>：签到的奖励是一个「今天 + 30 天」到期的活动资源包，看到这种包就算已签。<em>判据是到期日不是余额</em>——包签来就会被用掉，余额早就不等于 100 了。上次采集不是今天的，只能报「无法判断」，不猜“没签”。</li>
+          <li><b>不会串号</b>：每个号用它自己已登录的窗口去查，结果按真实账号 ID 归档，不存在拿 A 号的登录态查出 B 号。</li>
+        </ul>
+        <h3>加账号、改标签、改端口</h3>
+        <ul>
+          <li><b>新增账号</b>：进「设置」页，三步——<em>开一个新号窗口</em> → 在窗口里<em>本人登录</em>那个号 → <em>读一下待登记的号</em>，起个标签点「登记」。登记完会自动采一次验证。插件不代填凭据，也拿不到你的密码。</li>
+          <li><b>改标签、改账号名称</b>：「设置」页的表格里直接改，保存后自动重算。手工改过 <code>accounts.json</code> 的话，回来点一次「只重算数据」。</li>
+          <li><b>改端口</b>：「设置」页顶部的「默认启动端口」写进配置文件，只决定<em>下次启动</em>用哪个端口，保存后要重启服务才生效。</li>
+        </ul>
+        <h3>常见状况</h3>
+        <ul>
+          <li>趋势只有一根柱子：本机只采到一天的记录，区间会自动收口；多采几天就有形状了。</li>
+          <li>某个号显示“无记录”：在它那一行点「登录窗口」，登进去一次，再刷新余量数据。</li>
+          <li>「今日签到」一直是“无法判断”：多半是这个号今天还没采过。点一次「刷新余量数据」就能判。</li>
+          <li>改了标签但页面没变：从「设置」页保存会自动重算；直接改配置文件则要再点一次「只重算数据」。</li>
+        </ul>
+      </div>
+    </dialog>
+
+    <dialog id="log-dialog" class="modal" aria-labelledby="log-title">
+      <form method="dialog" class="modal-head">
+        <div>
+          <h2 id="log-title">更新日志</h2>
+          <p class="modal-sub">当前插件版本 <b id="log-version">—</b>（对外只列发布过的版本）</p>
+        </div>
+        <button type="submit" class="icon-btn" value="close">
+          <span class="visually-hidden">关闭更新日志</span>
+          <span aria-hidden="true">×</span>
+        </button>
+      </form>
+      <div class="modal-body">
+        <h3>1.0.0 <span class="tag-when">当前版本</span></h3>
+        <ul>
+          <li>首个对外版本：一次查全多个 Qoder 账号的剩余 Credits。</li>
+          <li>看板：总剩余 / 日均消耗 / 可支撑天数 / 采集新鲜度四张指标卡，每日消耗堆叠图、余量构成环图、账号明细（含每个资源包各自到期）、CSV 导出。</li>
+          <li>「今日签到」状态：从资源包到期日反推每个号今天签过没有，只提醒、不代领。</li>
+          <li>经本机服务打开时按钮是真触发：刷新余量数据、只重算、按号打开登录窗口、改标签与名称、三步新增账号。</li>
+          <li>免装 Node：启动器自己找 Qoder 内置的运行时。</li>
+        </ul>
+        <p class="modal-foot">
+          有意见或要不到的功能，发邮件给制作人 Ocean：<a href="mailto:pzxxc@outlook.com">pzxxc@outlook.com</a>
+        </p>
+      </div>
+    </dialog>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>

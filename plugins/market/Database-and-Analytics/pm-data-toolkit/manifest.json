@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "2b3f5fc0-f6e2-4aa1-96cf-1f55373e1548",
+  "name": "pm-data-toolkit",
+  "displayName": "Super PM · Data Weapon",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "陈圳濠",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a024df-96b8-757d-b109-09c449affad0/b915771f_4add889a_pm-data-toolkit.zip",
+  "zipSha256": "67c3f866c676332d628897aef014374d839b04c4441e74dc1e46566112395ca9",
+  "zipBytes": 54441,
+  "upstreamSha256": "67c3f866c676332d628897aef014374d839b04c4441e74dc1e46566112395ca9",
+  "files": 12,
+  "treeSha256": "a68aa51b06eef6b8f9c0cd3ac651d2814e5559c2356db9240767eb280f0c51d5",
+  "fetchedAt": "2026-11-18T10:43:39.340Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

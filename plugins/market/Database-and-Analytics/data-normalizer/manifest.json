@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "efea1f57-3e84-4025-a6e2-28b95c67d897",
+  "name": "data-normalizer",
+  "displayName": "Data Cleaning & Standardization",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "WB_TEST Plugin Team",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a163c2-f5f2-7db2-a8a9-980d3cffb371/623cc8a3_data-normalizer.zip",
+  "zipSha256": "7e441f6e1426178892e33b418ac9872d8026f2addd69fdc3fad2810f13a9d180",
+  "zipBytes": 95914,
+  "upstreamSha256": "7e441f6e1426178892e33b418ac9872d8026f2addd69fdc3fad2810f13a9d180",
+  "files": 26,
+  "treeSha256": "c347fc9a70eb8f80d38289815bd6627a9d8c7e8c68f47735d21caf99d91510a4",
+  "fetchedAt": "2026-11-18T10:43:42.001Z",
+  "credentialScan": {
+    "textFilesScanned": 25,
+    "filesRedacted": 0
+  },
+  "note": null
+}

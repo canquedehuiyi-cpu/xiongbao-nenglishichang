@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "4056d201-7838-47ea-a151-df4ee7217472",
+  "name": "demo-video-agent",
+  "displayName": "demo-video-agent",
+  "categoryCode": "cat_57b3c6ce1b64470c86b91f456099accf",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.5.0",
+  "publisher": "dgjin",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/dgjin/demo-video-agent",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1aecb-c62f-7ae9-817c-40c081a5f875/277edbb9_demo-video-agent-0.5.0-marketplace.zip",
+  "zipSha256": "776b7203964359b482feb95253055ab0003ff3e1dbdad9227e7cdbda48ff48ae",
+  "zipBytes": 399947,
+  "upstreamSha256": "776b7203964359b482feb95253055ab0003ff3e1dbdad9227e7cdbda48ff48ae",
+  "files": 85,
+  "treeSha256": "8a66675a5e47af79c58050604999308dadfbdbaea0e64874568b6bfe88220a8b",
+  "fetchedAt": "2026-11-18T10:42:16.235Z",
+  "credentialScan": {
+    "textFilesScanned": 63,
+    "filesRedacted": 0
+  },
+  "note": null
+}

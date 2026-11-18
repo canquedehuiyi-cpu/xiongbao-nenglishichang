@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "qca": {
+      "qoder_url": "https://mcp.qoder.cn/api/v1/mcp/servers/qca",
+      "type": "http",
+      "url": "https://mcp.qoder.cn/api/v1/mcp/servers/qca"
+    }
+  }
+}

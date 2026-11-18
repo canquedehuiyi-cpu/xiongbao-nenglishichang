@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "carbonstop-advisor-ccdb-cn": {
+      "type": "streamable-http",
+      "url": "https://gateway.carbonstop.com/mcp/ccdb",
+      "timeout": 30000
+    }
+  }
+}

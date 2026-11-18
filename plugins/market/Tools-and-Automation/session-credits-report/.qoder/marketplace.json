@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "487d39ee-0c94-44de-ae1f-d73bc704e558",
+  "itemName": "session-credits-report",
+  "displayName": "Qoder Session Credits Report",
+  "version": "0.1.6",
+  "packageKind": "plugin"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "qoder-cloud-agents",
+  "displayName": "Qoder Cloud Agents",
+  "version": "1.3.1",
+  "description": "Run and manage Qoder Cloud Agents tasks, conversations and schedules through Managed and Forward tools.",
+  "descriptionZh": "通过 Managed 和 Forward 工具配置云端 Agent 与 Template、运行会话、管理定时任务并查看执行结果。",
+  "author": {
+    "name": "Qoder"
+  },
+  "homepage": "https://mcp.qoder.cn/api/v1/mcp/servers/qca",
+  "logo": "./assets/logo.png",
+  "keywords": [
+    "qoder-plugin",
+    "skill",
+    "mcp",
+    "cloud-agents",
+    "qca"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "skill",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

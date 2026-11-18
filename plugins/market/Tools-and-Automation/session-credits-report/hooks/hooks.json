@@ -1,0 +1,19 @@
+{
+  "description": "session-credits-report — 会话结束时自动在对话里报一行本场 credits 消耗",
+  "hooks": {
+    "Stop": [
+      {
+        "async": false,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${QODER_PLUGIN_ROOT}/scripts/hook.mjs"],
+            "name": "session-credits-report",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

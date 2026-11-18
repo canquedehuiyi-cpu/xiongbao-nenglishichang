@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "1e5b63aa-d95d-4bd0-88d0-c7ab98214e8f",
+  "name": "polarmem0",
+  "displayName": "PolarDB Memory Management",
+  "categoryCode": "Workflow",
+  "categoryDir": "Tools-and-Automation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "019fdafb-cf77-734b-8fe0-f3b33922bfdb",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fdcce-3f37-7949-951f-0a0812f27d96/96805bbe_polarmem0-0.1.0.zip",
+  "zipSha256": "ee732cbf03477e351ac10fe90f8ac61f35e2340d1b90842e661c85abc94ab06a",
+  "zipBytes": 6855,
+  "upstreamSha256": "ee732cbf03477e351ac10fe90f8ac61f35e2340d1b90842e661c85abc94ab06a",
+  "files": 4,
+  "treeSha256": "c1a5c2a221b5561a84bc741d3fb7d49a89e6459f1bed2f918bec715b17c41e86",
+  "fetchedAt": "2026-11-18T10:44:18.214Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

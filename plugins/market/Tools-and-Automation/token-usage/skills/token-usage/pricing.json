@@ -1,0 +1,299 @@
+{
+  "currency": "CNY",
+  "unit": "per_1m_tokens",
+  "_note": "单价（元/百万 tokens）：input=缓存未命中的输入、output=输出、cached=缓存命中的输入。两种结构任选：flat 单价（input/output/cached），或峰谷分时（peak/offpeak，按消息时间自动判断）。留 null 表示未配置（费用显示 '-'）。",
+  "_priceSource": "各模型官网获取，2026-09-23；价格可能调整，以官网为准（各条目 source 字段为对应官网链接）",
+  "_version": "2026.09.24",
+  "_exchangeRate": 6.70,
+  "_exchangeRateNote": "美元→人民币参考汇率（2026-09-23），国际模型价格按此折算；汇率波动时仅需修改此字段",
+  "models": {
+    "custom_model": {
+      "display_name": "自定义模型 · 按 DeepSeek-Flash 价",
+      "peak": { "input": 2, "output": 8, "cached": 0.04 },
+      "offpeak": { "input": 1, "output": 4, "cached": 0.02 },
+      "_note": "当前主力为 DeepSeek-Flash（官网峰谷价）。若改用其他自定义模型，从 _otherCustomModels 复制对应价格覆盖本段即可。"
+    },
+    "qmodel_38max": {
+      "display_name": "Qoder 官方 · qmodel_38max",
+      "input": null,
+      "output": null,
+      "cached": null
+    },
+    "kmodel_latest": {
+      "display_name": "Qoder 官方 · kmodel_latest",
+      "input": null,
+      "output": null,
+      "cached": null
+    },
+    "cmodel": {
+      "display_name": "Qoder 官方 · cmodel",
+      "input": null,
+      "output": null,
+      "cached": null
+    },
+    "gmodel": {
+      "display_name": "Qoder 官方 · gmodel",
+      "input": null,
+      "output": null,
+      "cached": null
+    },
+    "qmodel": {
+      "display_name": "Qoder 官方 · qmodel",
+      "input": null,
+      "output": null,
+      "cached": null
+    },
+    "lite": {
+      "display_name": "Qoder 官方 · lite",
+      "input": null,
+      "output": null,
+      "cached": null
+    },
+    "auto": {
+      "display_name": "Qoder 官方 · auto",
+      "input": null,
+      "output": null,
+      "cached": null
+    },
+    "quest-auto": {
+      "display_name": "Qoder 官方 · quest-auto",
+      "input": null,
+      "output": null,
+      "cached": null
+    }
+  },
+  "_otherCustomModels": {
+    "_usage": "你配置的自定义模型备选参考价（官网 2026-09-23 获取；覆盖 DeepSeek / Kimi / 通义千问 / 智谱 GLM / 豆包 / MiniMax 及 OpenAI / Anthropic / Google / xAI 国际模型等 30 款常用模型）。切换主力模型时，把对应价格复制到 models.custom_model（峰谷结构照抄）。国际厂商为美元官网价、按参考汇率 6.70 折算的人民币参考值（note 内为美元原价），实际以账单为准。",
+    "deepseek-flash": {
+      "display_name": "DeepSeek-Flash",
+      "peak": { "input": 2, "output": 8, "cached": 0.04 },
+      "offpeak": { "input": 1, "output": 4, "cached": 0.02 },
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "note": "高峰=北京时间周一至周五 9:00-12:00、14:00-18:00（不含法定节假日），空闲为高峰半价"
+    },
+    "deepseek-v4-pro": {
+      "display_name": "DeepSeek-V4-Pro",
+      "peak": { "input": 9, "output": 27, "cached": 0.3 },
+      "offpeak": { "input": 4.5, "output": 13.5, "cached": 0.15 },
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing"
+    },
+    "kimi-k3": {
+      "display_name": "Kimi-K3",
+      "input": 20,
+      "output": 100,
+      "cached": 2,
+      "source": "https://platform.moonshot.cn/docs/pricing/chat",
+      "note": "缓存写入另计：5min TTL ¥20/百万、1h TTL ¥40/百万（本地数据不含该口径）"
+    },
+    "kimi-k2.7-code": {
+      "display_name": "Kimi-K2.7-Code",
+      "input": 6.5,
+      "output": 27,
+      "cached": 1.3,
+      "source": "https://platform.moonshot.cn/docs/pricing/chat"
+    },
+    "kimi-k2.7-code-highspeed": {
+      "display_name": "Kimi-K2.7-Code-HighSpeed",
+      "input": 13,
+      "output": 54,
+      "cached": 2.6,
+      "source": "https://platform.moonshot.cn/docs/pricing/chat"
+    },
+    "kimi-k2.6": {
+      "display_name": "Kimi-K2.6",
+      "input": 6.5,
+      "output": 27,
+      "cached": 1.1,
+      "source": "https://platform.moonshot.cn/docs/pricing/chat"
+    },
+    "kimi-for-coding": {
+      "display_name": "Kimi-for-Coding",
+      "input": 6.5,
+      "output": 27,
+      "cached": 1.3,
+      "source": "https://platform.moonshot.cn/docs/pricing/chat",
+      "note": "按 kimi-k2.7-code 按量价参考；coding plan 为订阅制，以实际套餐为准"
+    },
+    "qwen3.8-max": {
+      "display_name": "Qwen-3.8-Max（阿里云百炼）",
+      "input": 12,
+      "output": 36,
+      "cached": 1.2,
+      "source": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "note": "0-1M 档；缓存命中按输入单价 10% 计（百炼上下文缓存规则）"
+    },
+    "qwen3.7-plus": {
+      "display_name": "Qwen-3.7-Plus（阿里云百炼）",
+      "input": 2,
+      "output": 8,
+      "cached": 0.2,
+      "source": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "note": "0-256K 档原价（官方限时 8 折中）；256K-1M 档 6/24/0.6；缓存命中按输入 10% 计"
+    },
+    "qwen3.8-flash": {
+      "display_name": "Qwen-3.8-Flash（阿里云百炼）",
+      "input": 0.8,
+      "output": 2.7,
+      "cached": 0.08,
+      "source": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "note": "0-1M 档；缓存命中按输入 10% 计"
+    },
+    "glm-5.3": {
+      "display_name": "GLM-5.3（智谱）",
+      "input": 8,
+      "output": 28,
+      "cached": 2,
+      "source": "https://docs.bigmodel.cn/cn/guide/start/pricing"
+    },
+    "glm-5.2": {
+      "display_name": "GLM-5.2（智谱）",
+      "input": 8,
+      "output": 28,
+      "cached": 2,
+      "source": "https://docs.bigmodel.cn/cn/guide/start/pricing"
+    },
+    "glm-5.3-flash": {
+      "display_name": "GLM-5.3-Flash（智谱）",
+      "input": 0.8,
+      "output": 2.8,
+      "cached": 0.23,
+      "source": "https://docs.bigmodel.cn/cn/guide/start/pricing"
+    },
+    "doubao-seed-2.1-pro": {
+      "display_name": "Doubao-Seed-2.1-Pro（火山方舟）",
+      "input": 6,
+      "output": 30,
+      "cached": 1.2,
+      "source": "https://www.volcengine.com/docs/82379/1544106",
+      "note": "非音频文本档（0-1024K 输入）；缓存存储 ¥0.017/百万/小时另计"
+    },
+    "doubao-seed-2.1-turbo": {
+      "display_name": "Doubao-Seed-2.1-Turbo（火山方舟）",
+      "input": 3,
+      "output": 15,
+      "cached": 0.6,
+      "source": "https://www.volcengine.com/docs/82379/1544106",
+      "note": "0-256K 输入档；缓存存储 ¥0.017/百万/小时另计"
+    },
+    "doubao-seed-evolving": {
+      "display_name": "Doubao-Seed-Evolving（火山方舟）",
+      "input": 6,
+      "output": 30,
+      "cached": 1.2,
+      "source": "https://www.volcengine.com/docs/82379/1544106",
+      "note": "0-1024K 输入档；缓存存储 ¥0.017/百万/小时另计"
+    },
+    "minimax-m3": {
+      "display_name": "MiniMax-M3",
+      "input": 2.1,
+      "output": 8.4,
+      "cached": 0.42,
+      "source": "https://platform.minimax.cn/docs/guides/pricing-paygo",
+      "note": "≤512K 输入档（永久五折后）；>512K 档 4.2/16.8/0.84"
+    },
+    "minimax-m2.7": {
+      "display_name": "MiniMax-M2.7",
+      "input": 2.1,
+      "output": 8.4,
+      "cached": 0.42,
+      "source": "https://platform.minimax.cn/docs/guides/pricing-paygo",
+      "note": "缓存写入另计 ¥2.625/百万（官方）"
+    },
+    "gpt-6-astra": {
+      "display_name": "GPT-6 Astra（OpenAI）",
+      "input": 67,
+      "output": 335,
+      "cached": 6.7,
+      "source": "https://platform.openai.com/docs/pricing",
+      "note": "USD $10/$50/$1 per 1M（长上下文档 $20/$75/$2）"
+    },
+    "gpt-6-sol": {
+      "display_name": "GPT-6 Sol（OpenAI）",
+      "input": 13.4,
+      "output": 67,
+      "cached": 1.34,
+      "source": "https://platform.openai.com/docs/pricing",
+      "note": "USD $2/$10/$0.2 per 1M（长上下文档 $4/$15/$0.4）"
+    },
+    "gpt-6-luna": {
+      "display_name": "GPT-6 Luna（OpenAI）",
+      "input": 0.67,
+      "output": 3.35,
+      "cached": 0.067,
+      "source": "https://platform.openai.com/docs/pricing",
+      "note": "USD $0.1/$0.5/$0.01 per 1M（长上下文档 $0.2/$0.75/$0.02）"
+    },
+    "gpt-5.3-codex": {
+      "display_name": "GPT-5.3 Codex（OpenAI）",
+      "input": 11.73,
+      "output": 93.8,
+      "cached": 1.17,
+      "source": "https://platform.openai.com/docs/pricing",
+      "note": "USD $1.75/$14/$0.175 per 1M；编码（Codex）专用"
+    },
+    "claude-fable-5.1": {
+      "display_name": "Fable 5.1（Anthropic）",
+      "input": 67,
+      "output": 335,
+      "cached": 1.68,
+      "source": "https://www.anthropic.com/pricing",
+      "note": "USD $10/$50/$0.25 per 1M；缓存写入 $12.5 另计（本地数据不含该口径）"
+    },
+    "claude-opus-5.5": {
+      "display_name": "Opus 5.5（Anthropic）",
+      "input": 26.8,
+      "output": 134,
+      "cached": 1.34,
+      "source": "https://www.anthropic.com/pricing",
+      "note": "USD $4/$20/$0.2 per 1M；缓存写入 $5 另计"
+    },
+    "claude-sonnet-5": {
+      "display_name": "Sonnet 5（Anthropic）",
+      "input": 13.4,
+      "output": 67,
+      "cached": 1.34,
+      "source": "https://www.anthropic.com/pricing",
+      "note": "USD $2/$10/$0.2 per 1M；缓存写入 $2.5 另计"
+    },
+    "claude-haiku-4.5": {
+      "display_name": "Haiku 4.5（Anthropic）",
+      "input": 6.7,
+      "output": 33.5,
+      "cached": 0.67,
+      "source": "https://www.anthropic.com/pricing",
+      "note": "USD $1/$5/$0.1 per 1M；缓存写入 $1.25 另计"
+    },
+    "gemini-3.8-flash": {
+      "display_name": "Gemini 3.8 Flash（Google）",
+      "input": 5.03,
+      "output": 25.1,
+      "cached": 0.5,
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "note": "USD $0.75/$3.75/$0.075 per 1M；促销价至 2026-12-31（2027 起 $1.5/$7.5/$0.15）；缓存存储另计"
+    },
+    "gemini-3.1-pro": {
+      "display_name": "Gemini 3.1 Pro Preview（Google）",
+      "input": 13.4,
+      "output": 80.4,
+      "cached": 1.34,
+      "source": "https://ai.google.dev/gemini-api/docs/pricing",
+      "note": "USD $2/$12/$0.2 per 1M（≤200k 输入档；>200k 档 $4/$18/$0.4）；缓存存储另计"
+    },
+    "grok-4.7": {
+      "display_name": "Grok 4.7（xAI）",
+      "input": 13.4,
+      "output": 40.2,
+      "cached": 3.35,
+      "source": "https://docs.x.ai/developers/pricing",
+      "note": "USD $2/$6/$0.5 per 1M（<200k 输入档；≥200k 档 $4/$12/$1）"
+    },
+    "grok-build-0.1": {
+      "display_name": "Grok Build 0.1（xAI）",
+      "input": 6.7,
+      "output": 13.4,
+      "cached": 1.34,
+      "source": "https://docs.x.ai/developers/pricing",
+      "note": "USD $1/$2/$0.2 per 1M（<200k 输入档；≥200k 档 $2/$4/$0.4）；编码/构建专用"
+    }
+  }
+}

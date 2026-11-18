@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "if-Studio-AI-Creation",
+  "name": "if-Studio-AI-Creation",
+  "displayName": "if Studio AI 智能创作",
+  "categoryCode": "cat_57b3c6ce1b64470c86b91f456099accf",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019ce14e-7ada-7f0b-b57a-ce4ff70ab248",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1aa86-f894-74ab-8636-78dc104a4a50/91dd4c32_if-Studio-AI-Creation-1.0.0-cn.zip",
+  "zipSha256": "60bff1296270c1092729498f907decfa254229c0f7b56e4f598a15be749224ec",
+  "zipBytes": 452123,
+  "upstreamSha256": "60bff1296270c1092729498f907decfa254229c0f7b56e4f598a15be749224ec",
+  "files": 45,
+  "treeSha256": "4ac26500f4f458a2b456bc0d160b7e6d454a1e540655790417ef81778e1c7c69",
+  "fetchedAt": "2026-11-18T10:42:16.646Z",
+  "credentialScan": {
+    "textFilesScanned": 43,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,6 @@
+# 展示层配置 —— 只影响显示，不影响判断（判断阈值在 code/validator.py，写死）
+report:
+  title_prefix: "数据标准化"
+sections:
+  main_label: "主栏目名（按场景改）"
+  review_label: "上期回顾（可选）"

@@ -1,0 +1,11 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "displayName": "MongoDB",
+  "description": "Collection of official MongoDB agent skills for use in agentic workflows. For more information, refer to the MongoDB Agent Skills documentation.",
+  "homepage": "https://github.com/mongodb/agent-skills",
+  "repository": "https://github.com/mongodb/agent-skills",
+  "category": "DataBase",
+  "skills": "./skills/",
+  "mcpServers": "./mcp.json"
+}

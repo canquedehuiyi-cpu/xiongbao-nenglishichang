@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-xiaohongshu-notes",
+  "version": "1.1.0",
+  "displayName": "图文设计师",
+  "description": "把分享内容、知识方法和真实商品资料，整理成手机上清楚好读的小红书图文笔记，支持封面与连续内页设计。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "生活分享",
+    "知识干货",
+    "产品介绍"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-xiaohongshu-notes-brief",
+    "./skills/shenhuo-xiaohongshu-notes",
+    "./skills/shenhuo-xiaohongshu-notes-delivery"
+  ]
+}

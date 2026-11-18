@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "9396f867-3fb0-4349-a19a-c2ba9cf876e7",
+  "name": "carbonstop-carbon-advisor-cn",
+  "displayName": "Carbonstop Carbon Management & Product Footprint Advisor",
+  "categoryCode": "Other",
+  "categoryDir": "Other",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "碳阻迹（北京）科技有限公司",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a18061-02df-77f2-8d5a-59917e36725f/4af1d32e_carbonstop-carbon-advisor-qoder-plugin-cn-1.0.0.zip",
+  "zipSha256": "242d714b81c25b21c503029c10854d6045db932e95f1bfdd375ae94e3d30459b",
+  "zipBytes": 112178,
+  "upstreamSha256": "242d714b81c25b21c503029c10854d6045db932e95f1bfdd375ae94e3d30459b",
+  "files": 12,
+  "treeSha256": "af4d3147f35fb7149e5fb810b69cac8577002f26ab0cc8d5f3c724ca4efcdfe6",
+  "fetchedAt": "2026-11-18T10:44:13.471Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

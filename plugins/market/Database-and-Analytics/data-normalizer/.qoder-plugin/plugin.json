@@ -1,0 +1,17 @@
+{
+  "name": "data-normalizer",
+  "version": "0.1.0",
+  "displayName": "数据标准化",
+  "description": "把用户真实数据文件（各企业格式各异的 Excel/CSV/文本/PDF）按目标审计场景自动标准化为统一格式：列名别名识别、值清洗、扫描件占位拒识，产出标准键值行 txt + 回填模板 xlsx + 清洗报告——判定场景的第一步/第二步必须先跑它，后续判定才能喂标准格式输入——当用户拿来的原始数据文件格式各异、需要先标准化成标准键值行再进判定场景时使用",
+  "author": {
+    "name": "WB_TEST Plugin Team",
+    "email": "team@example.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "data-normalization",
+    "column-mapping",
+    "format-cleansing"
+  ],
+  "logo": "./logo.png"
+}

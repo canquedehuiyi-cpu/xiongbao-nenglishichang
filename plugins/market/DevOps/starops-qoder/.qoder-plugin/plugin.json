@@ -1,0 +1,30 @@
+{
+  "name": "starops-qoder",
+  "version": "0.1.4",
+  "displayName": "STAROps",
+  "description": "STAROps delivers Agentic Ops from data queries and diagnostics to continuous protection, ensuring 24/7 business stability.",
+  "author": {
+    "name": "Alibaba Cloud STAROps"
+  },
+  "keywords": [
+    "starops",
+    "aiops",
+    "sls",
+    "arms",
+    "cms",
+    "apm",
+    "diagnosis",
+    "root-cause",
+    "alibabacloud"
+  ],
+  "category": "DevOps",
+  "tags": [
+    "starops",
+    "aiops",
+    "observability",
+    "alibabacloud"
+  ],
+  "logo": "./assets/STAROps-logo-light.svg",
+  "skills": "./skills/",
+  "commands": "./commands/"
+}

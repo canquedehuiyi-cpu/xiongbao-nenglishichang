@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "50b35a6e-5426-4ea5-b87d-d624b4fb17e9",
+  "itemName": "qoder-usage",
+  "displayName": "Qoder Usage Statistics",
+  "version": "1.0.0",
+  "packageKind": "plugin"
+}

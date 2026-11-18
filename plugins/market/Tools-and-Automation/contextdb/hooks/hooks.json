@@ -1,0 +1,41 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "name": "contextdb/session-start",
+            "command": "bash \"${QODER_PLUGIN_ROOT}/scripts/ctxdb-hook.sh\" session-start",
+            "timeout": 60,
+            "statusMessage": "ContextDB: loading context"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "name": "contextdb/user-prompt-submit",
+            "command": "bash \"${QODER_PLUGIN_ROOT}/scripts/ctxdb-hook.sh\" user-prompt-submit",
+            "timeout": 60
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "name": "contextdb/stop",
+            "command": "bash \"${QODER_PLUGIN_ROOT}/scripts/ctxdb-hook.sh\" stop",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}

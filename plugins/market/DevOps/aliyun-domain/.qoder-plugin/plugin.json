@@ -1,0 +1,11 @@
+{
+  "name": "aliyun-domain",
+  "displayName": "域名运营专家",
+  "version": "1.0.0",
+  "description": "A domain operations specialist for discovery, acquisition, portfolio governance, ICP filing, DNS management, and AI website delivery through Alibaba Cloud Domain MCP.",
+  "author": {
+    "name": "shenyue"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

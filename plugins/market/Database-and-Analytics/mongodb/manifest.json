@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "mongodb",
+  "name": "mongodb",
+  "displayName": "MongoDB",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "MongoDB",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/mongodb/agent-skills",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fb747-8c4e-7bff-bb8b-40eb4ce48408/c8a398b9_12-mongodb.zip",
+  "zipSha256": "096ed9dd08d78cb714f94f0092dfb3837823eb3568e46601049a2a54d0de7f3b",
+  "zipBytes": 508512,
+  "upstreamSha256": "096ed9dd08d78cb714f94f0092dfb3837823eb3568e46601049a2a54d0de7f3b",
+  "files": 204,
+  "treeSha256": "4c3a21681e9f78764fbb505ca9af35a9d97e2faa34206bcec8444f5273bb4111",
+  "fetchedAt": "2026-11-18T10:43:40.720Z",
+  "credentialScan": {
+    "textFilesScanned": 192,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,13 @@
+{
+  "name": "qodercli-session-sync",
+  "version": "0.2.0",
+  "displayName": "会话同步助手",
+  "description": "Import Qoder CLI sessions into the same-edition Qoder app session list (QoderCN pairs with qoderclicn, international with qodercli).",
+  "descriptionZh": "把同一版本的 qodercli 会话记录同步到 Qoder 应用会话列表；国内版应用配 qoderclicn、国际版配 qodercli，不要混用。",
+  "author": { "name": "besv" },
+  "logo": "./assets/avatar.svg",
+  "keywords": ["qoder-plugin", "qodercli", "session", "sync"],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}
+

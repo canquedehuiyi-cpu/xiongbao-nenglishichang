@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "862358b1-d2a0-4b7d-bec9-de8f0970e174",
+  "name": "shenhuo-douyin-graphic-commerce",
+  "displayName": "Douyin Product Graphics",
+  "categoryCode": "cat_57b3c6ce1b64470c86b91f456099accf",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181a9-9bd9-71f2-a9cf-df414de4dd4f/34cd20ad_抖音图文带货.zip",
+  "zipSha256": "c3026100a3a20e3cab81457ab4b3071075cbd755663bf648e9d9775474d206c4",
+  "zipBytes": 414740,
+  "upstreamSha256": "c3026100a3a20e3cab81457ab4b3071075cbd755663bf648e9d9775474d206c4",
+  "files": 17,
+  "treeSha256": "192576a0038bb858738830b0c5d091ff93c12eb2d7eccb00fd768f18d64efe91",
+  "fetchedAt": "2026-11-18T10:42:17.352Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,23 @@
+{
+  "name": "family-life-check-suite",
+  "version": "0.1.1",
+  "displayName": "家庭生活核对套件",
+  "description": "11 个家庭生活核对技能：育儿喂养打卡、兴趣班排期、家庭账单、孩子作业清单、家庭用药、宠物喂养、家长群通知、会员订阅、车辆保养、装修报价、旅行行程单。判定逻辑全部落在 Python 脚本里，结果可复算、对不上的项点名到行；读不出或不可比的显式转人工，不靠模型现算。",
+  "author": {
+    "name": "linksass",
+    "email": "linksass@126.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "家庭核对",
+    "育儿",
+    "亲子",
+    "宠物",
+    "账单",
+    "出行",
+    "装修",
+    "订阅"
+  ],
+  "skills": "./skills",
+  "logo": "./logo.png"
+}

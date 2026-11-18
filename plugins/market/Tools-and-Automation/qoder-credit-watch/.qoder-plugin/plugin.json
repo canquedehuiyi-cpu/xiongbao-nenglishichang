@@ -1,0 +1,28 @@
+{
+  "name": "qoder-credit-watch",
+  "displayName": "Qoder 多账号 Credits 余量监控",
+  "version": "1.0.0",
+  "description": "Read the remaining Qoder Credits of several accounts in one pass, each from its own signed-in browser profile, matching every number to the userId it came from, and view them on a local dashboard you open in the browser. Also tells you which account has not claimed today's daily bonus yet - it never claims for you. Stores no credentials.",
+  "descriptionZh": "一次查全多个账号的剩余 Credits：每个数字都从该号自己已登录的浏览器 Profile 里读取并按真实 userId 归档，并用本地服务在浏览器里打开余量看板。看板还会告诉你哪个号当天还没签到领每日奖励（只提醒，不代领）。插件不保存任何凭证。",
+  "author": {
+    "name": "ocean.cui"
+  },
+  "homepage": "https://qoder.com.cn/account/usage",
+  "logo": "./assets/logo.png",
+  "keywords": [
+    "qoder-plugin",
+    "credits",
+    "quota",
+    "multi-account",
+    "monitoring",
+    "dashboard"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "credits",
+    "quota",
+    "usage",
+    "multi-account"
+  ],
+  "skills": "./skills/"
+}

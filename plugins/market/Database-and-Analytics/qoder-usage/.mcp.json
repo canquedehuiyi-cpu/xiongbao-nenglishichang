@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "qoder-usage": {
+      "command": "${QODER_NODE_RUNTIME}",
+      "args": [
+        "${QODER_PLUGIN_ROOT}/server/index.mjs"
+      ],
+      "cwd": "${QODER_PLUGIN_ROOT}",
+      "env_vars": [
+        "QODER_HOME",
+        "APPDATA",
+        "USERPROFILE"
+      ]
+    }
+  }
+}

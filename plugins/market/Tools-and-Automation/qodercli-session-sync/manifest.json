@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "f3b3f0dc-3a31-4071-9019-a3b883f85a69",
+  "name": "qodercli-session-sync",
+  "displayName": "Qoder CLI Session Sync",
+  "categoryCode": "Workflow",
+  "categoryDir": "Tools-and-Automation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.2.0",
+  "publisher": "besv",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1af01-e158-7f29-aa4b-8cd573b70e57/6c6e08e5_qodercli-session-sync-0.2.0.zip",
+  "zipSha256": "ce848a2756c4bf2878b9728e448759e0313cee5fdbb65a0c477cf84882185278",
+  "zipBytes": 19136,
+  "upstreamSha256": "ce848a2756c4bf2878b9728e448759e0313cee5fdbb65a0c477cf84882185278",
+  "files": 8,
+  "treeSha256": "0c02e6ffa0b23611611c00c6c44899e7aa59fc729a42bcf8406e66c8383d5d29",
+  "fetchedAt": "2026-11-18T10:44:23.641Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

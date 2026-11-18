@@ -1,0 +1,18 @@
+{
+  "threshold": 200,
+  "port": 49788,
+  "currency_note": "credits",
+  "probePorts": [9222, 9223, 9224],
+  "accounts": [
+    {
+      "label": "号 A",
+      "userId": "<由 /credit-start 从已登录会话读取>",
+      "accountName": "<会话返回的 name>"
+    },
+    {
+      "label": "号 B",
+      "userId": "<由 /credit-start 从已登录会话读取>",
+      "accountName": "<会话返回的 name>"
+    }
+  ]
+}

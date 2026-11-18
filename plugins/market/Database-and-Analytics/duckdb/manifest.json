@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "duckdb",
+  "name": "duckdb",
+  "displayName": "DuckDB",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "DuckDB",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/duckdb/duckdb-skills",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fb747-8c7a-7ae4-a0e7-ad19dffcca92/f3cb1374_13-duckdb.zip",
+  "zipSha256": "6ba156c60a784c83cd8302316b3d05df9142c611a22052c66548964189ef3159",
+  "zipBytes": 28376,
+  "upstreamSha256": "6ba156c60a784c83cd8302316b3d05df9142c611a22052c66548964189ef3159",
+  "files": 18,
+  "treeSha256": "c52be9714d39f4fc9dd4a42093ca4d1e77cd7b8965b5ec267bd13b96f5c74070",
+  "fetchedAt": "2026-11-18T10:43:41.277Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

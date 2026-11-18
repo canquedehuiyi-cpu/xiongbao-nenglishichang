@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "0faf478f-ac9a-4618-8868-575adca358a4",
+  "name": "contextdb",
+  "displayName": "ContextDB",
+  "categoryCode": "Workflow",
+  "categoryDir": "Tools-and-Automation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.1",
+  "publisher": "Alibaba Cloud",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a18cc4-c12f-79d6-a8a0-c12cee1b6a37/d85ca468_contextdb-0.1.1.zip",
+  "zipSha256": "c7923b1892115226c9faff3c7c1b919a2a8641686741b757008e9531e9b8498b",
+  "zipBytes": 30167,
+  "upstreamSha256": "c7923b1892115226c9faff3c7c1b919a2a8641686741b757008e9531e9b8498b",
+  "files": 10,
+  "treeSha256": "a61882d08b40ac4caa871a4920d2f7bef82b46c0957d90cb5783e5fc7c2b5c51",
+  "fetchedAt": "2026-11-18T10:44:22.811Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

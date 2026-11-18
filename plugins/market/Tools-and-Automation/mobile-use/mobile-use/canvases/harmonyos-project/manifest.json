@@ -1,0 +1,5 @@
+{
+  "id": "harmonyos-project",
+  "label": "HarmonyOS Simulator",
+  "pathGlobs": ["**/build-profile.json5"]
+}

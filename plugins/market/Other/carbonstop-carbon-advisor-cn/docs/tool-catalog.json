@@ -1,0 +1,16 @@
+{
+  "purpose": "供 Qoder 支持人员录入或映射的工具文案；不是自动修改 MCP tools/list 的配置",
+  "schema_source_of_truth": "已授权连接返回的实时 tools/list",
+  "tools": [
+    {
+      "name": "search_emission_factors",
+      "title": "查询 CCDB 排放因子",
+      "description": "按具体关键词及可选国家/地区、年份、来源条件检索候选因子。候选不是最终推荐，选用前需核对详情。展示因子名称时使用返回的 detailUrl 提供可点击链接；不编造链接或全库遍历。"
+    },
+    {
+      "name": "get_emission_factor_detail",
+      "title": "读取 CCDB 因子详情",
+      "description": "用搜索实际返回的字符串 factorId 获取因子详情、单位、来源及适用范围。保留原始字段和受限值，并提供实际返回的详情链接；不承诺登录、注册或付费后解锁。"
+    }
+  ]
+}

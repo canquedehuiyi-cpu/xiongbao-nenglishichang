@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "alibabacloud-core": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "alibabacloud.mcp-proxy@latest"
+      ]
+    }
+  }
+}

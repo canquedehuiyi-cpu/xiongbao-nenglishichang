@@ -1,0 +1,30 @@
+{
+  "name": "contextdb",
+  "displayName": "ContextDB",
+  "version": "0.1.1",
+  "description": "Connect Qoder to cloud context from Alibaba Cloud ContextDB, with enterprise knowledge bases and long-term memory. Native Qoder Hooks automatically recall knowledge-base content and relevant memories before each turn and capture context afterward. Supports knowledge-base knowledge graphs, multi-level memory organization, and distilling memories into documents for knowledge bases. Bundled Skills provide search and management for knowledge-base documents, memories, and private ContextDB Skills.",
+  "descriptionZh": "为 Qoder 接入阿里云 ContextDB 的云端上下文，连接企业级知识库与长期记忆：通过 Qoder 原生 Hooks，在每轮对话前自动召回知识库内容与相关记忆，对话结束后自动沉淀。支持知识库知识图谱、多级记忆整理，以及将记忆提炼成文、沉淀至知识库；配套 Skills 提供知识库文档、记忆与私有 ContextDB Skills 的检索和管理能力。",
+  "author": {
+    "name": "Alibaba Cloud"
+  },
+  "license": "Apache-2.0",
+  "logo": "./assets/logo.svg",
+  "keywords": [
+    "qoder-plugin",
+    "alibabacloud",
+    "contextdb",
+    "memory",
+    "long-term-memory",
+    "knowledge-base",
+    "rag"
+  ],
+  "category": "DataBase",
+  "tags": [
+    "alibabacloud",
+    "memory",
+    "knowledge-base"
+  ],
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "hooks": "./hooks/hooks.json"
+}

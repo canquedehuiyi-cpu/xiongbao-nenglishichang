@@ -1,0 +1,10 @@
+# 展示层文案：标题、分区名等。
+# 判定阈值绝不放这里——判定权归代码（本包 code/specs.py 封闭规范库）。
+title: "发文前核对报告"
+section_label: "硬错（条条带依据）"
+section_soft_label: "软建议（风格优化，不是错误）"
+section_uncovered_label: "未覆盖声明（校过 ≠ 无错）"
+column_snippet: "原文片段"
+column_rule: "规则"
+column_evidence: "依据"
+column_suggestion: "建议改法"

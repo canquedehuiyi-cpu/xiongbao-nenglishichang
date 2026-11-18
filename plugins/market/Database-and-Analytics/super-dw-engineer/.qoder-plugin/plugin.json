@@ -1,0 +1,25 @@
+{
+  "name": "super-dw-engineer",
+  "displayName": "超级数仓工程师",
+  "version": "1.0.0",
+  "description": "DataWorks-based data warehouse engineer toolkit covering data ingestion, ETL development, SQL optimization, and ops diagnostics.",
+  "descriptionZh": "面向 DataWorks 平台的数据仓库工程师套件，覆盖数据接入、需求开发、SQL 优化、运维诊断等核心场景。",
+  "author": {
+    "name": "Expert Co-creation"
+  },
+  "category": "engineering",
+  "tags": [
+    "data-warehouse",
+    "dataworks",
+    "etl",
+    "odps",
+    "sql-optimization"
+  ],
+  "skills": [
+    "./skills/TDDL同步接入",
+    "./skills/数据需求开发",
+    "./skills/SQL性能优化",
+    "./skills/钉钉数据接入",
+    "./skills/数据依赖成环诊断"
+  ]
+}

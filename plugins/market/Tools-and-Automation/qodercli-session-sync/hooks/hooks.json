@@ -1,0 +1,42 @@
+{
+  "description": "Check Python on session start, then register Qoder CLI sessions in the Qoder app session list after each response and when a session ends",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${QODER_PLUGIN_ROOT}/hooks/run-sync.cmd\" check",
+            "timeout": 10,
+            "async": false
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${QODER_PLUGIN_ROOT}/hooks/run-sync.cmd\"",
+            "timeout": 20,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"${QODER_PLUGIN_ROOT}/hooks/run-sync.cmd\"",
+            "timeout": 20,
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

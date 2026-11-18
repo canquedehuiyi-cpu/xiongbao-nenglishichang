@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "487d39ee-0c94-44de-ae1f-d73bc704e558",
+  "name": "session-credits-report",
+  "displayName": "Qoder Session Credits Report",
+  "categoryCode": "Workflow",
+  "categoryDir": "Tools-and-Automation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.6",
+  "publisher": "019fa35b-400b-743e-9174-9de26c105ebf",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1cee4-9a8d-7e87-95b3-354937d7d6c4/9ce5440e864ba48dade1afb8eb517f39528a3b90ba7b02d3d90b2a93557e006f.zip",
+  "zipSha256": "9ce5440e864ba48dade1afb8eb517f39528a3b90ba7b02d3d90b2a93557e006f",
+  "zipBytes": 31145,
+  "upstreamSha256": "9ce5440e864ba48dade1afb8eb517f39528a3b90ba7b02d3d90b2a93557e006f",
+  "files": 9,
+  "treeSha256": "04608db628852a94f2abde36bb38adf936d523ac90588f5510960e91536aca7f",
+  "fetchedAt": "2026-11-18T10:49:03.206Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

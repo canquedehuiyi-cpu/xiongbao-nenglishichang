@@ -1,0 +1,20 @@
+{
+  "name": "oceanbase-skills",
+  "version": "2.0.1",
+  "displayName": "OceanBase",
+  "description": "OceanBase AI Agent Skills — cluster management, tenant management, SeekDB, testing and benchmarks via obd.",
+  "descriptionZh": "OceanBase AI Agent Skills：覆盖 obd 集群运维、租户管理、SeekDB、测试和基准压测。",
+  "author": {
+    "name": "OceanBase",
+    "email": "opensource@oceanbase.com"
+  },
+  "keywords": ["oceanbase", "obd", "seekdb", "database", "deployment"],
+  "homepage": "https://github.com/oceanbase/oceanbase-skills",
+  "repository": "https://github.com/oceanbase/oceanbase-skills",
+  "license": "Apache-2.0",
+  "category": "DataBase",
+  "tags": ["oceanbase", "seekdb", "database", "obd"],
+  "logo": "./assets/logo.png",
+  "skills": "./skills/",
+  "preserveUpstreamMetadata": true
+}

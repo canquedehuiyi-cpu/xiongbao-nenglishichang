@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "add10796-630f-4656-80a0-3350abc87aad",
+  "name": "aliyun-domain",
+  "displayName": "Domain Operations Specialist",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "shenyue",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0d135-4c98-7c9e-a80f-0273908b2b13/4a77e9ac_aliyun-domain-qoder-plugin-1.0.0.zip",
+  "zipSha256": "4f358d10821ebee4bd211b726ff96f5feacb6aea80020d61404a10406663eefc",
+  "zipBytes": 9702,
+  "upstreamSha256": "4f358d10821ebee4bd211b726ff96f5feacb6aea80020d61404a10406663eefc",
+  "files": 9,
+  "treeSha256": "f5df4b6e05bdfaba965cc4971eae41a9b305842382141cdad562259a54a26589",
+  "fetchedAt": "2026-11-18T10:43:52.872Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

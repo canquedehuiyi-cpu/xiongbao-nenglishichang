@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "starops-qoder",
+  "name": "starops-qoder",
+  "displayName": "STAROps",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.4",
+  "publisher": "Alibaba Cloud STAROps",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fb747-8a05-780f-b442-7fc3b726f004/4fe4501c_04-starops.zip",
+  "zipSha256": "b7434060f85ee1ef6c1e8a90f0a6f58391a830fbcb7ff3e01eef112e770569be",
+  "zipBytes": 37380,
+  "upstreamSha256": "b7434060f85ee1ef6c1e8a90f0a6f58391a830fbcb7ff3e01eef112e770569be",
+  "files": 13,
+  "treeSha256": "6c3c6d6fad8d77ccac0ef37d10511600a7f812c0682b33fc44e169b1d3f32fa1",
+  "fetchedAt": "2026-11-18T10:43:53.537Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

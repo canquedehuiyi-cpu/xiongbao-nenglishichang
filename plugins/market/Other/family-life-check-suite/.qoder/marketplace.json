@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "d26e2cdb-0118-45d1-a357-5bb3e01cdac4",
+  "itemName": "family-life-check-suite",
+  "displayName": "Family Life Check Suite",
+  "version": "0.1.1",
+  "packageKind": "plugin"
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "3280ffd4-efff-4ce8-ac5d-541967969c97",
+  "name": "gzh-typo-check",
+  "displayName": "WeChat Article Proofreading Before Publishing",
+  "categoryCode": "cat_57b3c6ce1b64470c86b91f456099accf",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.4.0",
+  "publisher": "TuLink_SZ",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a163b3-8bc3-7aee-b72b-da43007f6b45/082a76d0_qoder-gzh-typo-check.zip",
+  "zipSha256": "9d230a753a9e54c3288a577b57495d68440440e6a1e9189972198913928675f6",
+  "zipBytes": 72506,
+  "upstreamSha256": "9d230a753a9e54c3288a577b57495d68440440e6a1e9189972198913928675f6",
+  "files": 21,
+  "treeSha256": "5cf66afab48c125f27c31128f104bb1ee851d1f71616e50117c7b90e09795700",
+  "fetchedAt": "2026-11-18T10:42:18.395Z",
+  "credentialScan": {
+    "textFilesScanned": 21,
+    "filesRedacted": 0
+  },
+  "note": null
+}

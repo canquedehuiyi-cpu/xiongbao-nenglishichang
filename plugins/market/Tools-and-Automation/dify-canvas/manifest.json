@@ -1,0 +1,29 @@
+{
+ "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+ "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+ "kind": "plugin",
+ "id": "e7de27b0-f08c-4893-8144-4419ae1aad42",
+ "name": "dify-canvas",
+ "displayName": "dify-canvas",
+ "categoryCode": "Workflow",
+ "categoryDir": "Tools-and-Automation",
+ "categoryResolveVia": "catalog-top.category",
+ "version": "0.1.0",
+ "publisher": "elegant01",
+ "license": "UNKNOWN",
+ "githubRepo": "https://github.com/elegant01/dify-canvas-mcp",
+ "githubPath": "UNKNOWN",
+ "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1b041-1422-73e0-b3d3-d1ef795316ea/58a53608_dify-canvas-0.1.0.zip",
+ "zipSha256": "64afb9a1c58c88fb9f0aa0f4ca16b52ab25a12b4b70d22cccc4fbdf16b279909",
+ "zipBytes": 5031,
+ "upstreamSha256": "64afb9a1c58c88fb9f0aa0f4ca16b52ab25a12b4b70d22cccc4fbdf16b279909",
+ "files": 4,
+ "treeSha256": "989a76eb7abcb73ab3db04d31c75ea23e189a37ce09d03fb404ad3d8ecdd42b2",
+ "fetchedAt": "2026-11-18T10:11:53.604Z",
+ "credentialScan": {
+  "textFilesScanned": 4,
+  "filesRedacted": 0
+ },
+ "note": null,
+ "integrityNote": "upstream file_hash baseline verified equal to downloaded zip sha256 (backfilled from intact detail after redaction-rule fix)"
+}

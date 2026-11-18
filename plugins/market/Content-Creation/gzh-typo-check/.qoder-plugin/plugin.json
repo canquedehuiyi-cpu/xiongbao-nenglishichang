@@ -1,0 +1,14 @@
+{
+  "name": "gzh-typo-check",
+  "version": "0.4.0",
+  "displayName": "公众号发文前错字核对",
+  "description": "用于公众号推文发文前核对:当用户贴出推文全文要求查错字、标点、数字用法或广告法极限词时使用,也用于维护个人词典(加词/删词);逐条核对、每处修改都带依据",
+  "author": {
+    "name": "TuLink_SZ",
+    "email": ""
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "公众号"
+  ]
+}

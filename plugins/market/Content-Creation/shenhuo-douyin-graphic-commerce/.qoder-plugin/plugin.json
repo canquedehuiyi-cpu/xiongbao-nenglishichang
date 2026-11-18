@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-douyin-graphic-commerce",
+  "version": "1.1.0",
+  "displayName": "带货图文美工",
+  "description": "把商品、穿搭照片和真实资料整理为抖音封面与多页图文，每张讲清一个重点，保持主体与系列风格连贯。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "单品封面",
+    "穿搭分享",
+    "多页图文"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-douyin-graphic-commerce-brief",
+    "./skills/shenhuo-douyin-graphic-commerce",
+    "./skills/shenhuo-douyin-graphic-commerce-delivery"
+  ]
+}

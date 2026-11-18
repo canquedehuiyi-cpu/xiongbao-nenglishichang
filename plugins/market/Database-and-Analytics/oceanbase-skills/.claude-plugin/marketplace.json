@@ -1,0 +1,31 @@
+{
+  "name": "oceanbase-skills",
+  "owner": {
+    "name": "OceanBase",
+    "email": "opensource@oceanbase.com"
+  },
+  "metadata": {
+    "description": "OceanBase AI Agent Skills — cluster management, tenant management, SeekDB, testing and benchmarks via obd",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "oceanbase-deploy",
+      "description": "OceanBase deployment and operations skills via obd — cluster lifecycle, tenant management, SeekDB HA, and benchmarking",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/oceanbase-deploy"
+      ]
+    },
+    {
+      "name": "seekdb",
+      "description": "SeekDB skill bundle — install/deploy, build-from-source, documentation lookup, seekdb-cli, data import (CSV/Excel), and query/export (scalar + hybrid search)",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/seekdb"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# 展示层文案：标题、分区名等。
+# 判定阈值绝不放这里——判定权归代码（detection/rules/ 或场景自带 checker）。
+title: "家庭多渠道账单核对 判定报告"
+section_label: "FINDINGS"

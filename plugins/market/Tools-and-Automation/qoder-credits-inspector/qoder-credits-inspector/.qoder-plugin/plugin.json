@@ -1,0 +1,27 @@
+{
+  "name": "qoder-credits-inspector",
+  "displayName": "Ocean's Credits Inspector",
+  "version": "2.7.4",
+  "description": "Visualize the current session's token consumption — billed input total, context usage, resend amplification, and per-category / per-tool / per-file (path-level) breakdown — as a Canvas report that refreshes automatically every time the Agent stops.",
+  "descriptionZh": "图形化展示当前会话的 token 消耗：计费输入总量、上下文占用、重发放大，以及按类别 / 工具 / 文件（精确到路径）的占比明细，以 Canvas 报告呈现，并在 Agent 每次结束响应时自动刷新。",
+  "author": {
+    "name": "ocean.cui"
+  },
+  "keywords": [
+    "qoder-plugin",
+    "token",
+    "credits",
+    "cost-analytics",
+    "canvas",
+    "context-usage"
+  ],
+  "category": "Coding",
+  "tags": [
+    "token-usage",
+    "credits",
+    "visualization",
+    "canvas-report"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

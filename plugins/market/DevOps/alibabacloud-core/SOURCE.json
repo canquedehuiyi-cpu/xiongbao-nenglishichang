@@ -1,0 +1,17 @@
+{
+  "upstream": "https://github.com/aliyun/alibabacloud-agent-toolkit",
+  "commit": "4780d63470b39140b4b10747d5f44c6bd3bade82",
+  "upstream_version": "1.0.37",
+  "upstream_subdir": "plugins/alibabacloud-core",
+  "checked_date": "2026-09-11",
+  "baseline_plugin_id": "alibabacloud-core",
+  "baseline_environment": "cn",
+  "baseline_version": "1.0.20",
+  "baseline_sha256": "ae2f76e6f2f6d0c7faf9deee3c1bfd65b09c3abfa0de66cdec3745efe89f0f98",
+  "package_version": "1.0.37",
+  "version_policy": "使用高于存量的插件版本；无递增版本使用存量版本+qoder.提交，避免伪造上游发布",
+  "adaptation": [
+    "使用上游原生 Qoder 插件目录与最新 manifest",
+    "文档按来源分流：上游 README 随新版；Qoder 自定义 README 保留形式更新内容；Qoder UPSTREAM.md 保留并刷新。"
+  ]
+}

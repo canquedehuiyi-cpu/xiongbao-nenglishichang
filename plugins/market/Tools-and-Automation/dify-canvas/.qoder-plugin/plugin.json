@@ -1,0 +1,13 @@
+{
+  "name": "dify-canvas",
+  "version": "0.1.0",
+  "description": "Read, patch, publish and test-run Dify workflow canvases through the user's signed-in Chrome.",
+  "descriptionZh": "通过本机已登录的 Chrome 读取、修改、发布并试运行 Dify 工作流画布。",
+  "author": {
+    "name": "elegant01"
+  },
+  "homepage": "https://github.com/elegant01/dify-canvas-mcp",
+  "license": "MIT",
+  "keywords": ["qoder-plugin", "dify", "workflow", "canvas", "mcp"],
+  "skills": "./skills/"
+}

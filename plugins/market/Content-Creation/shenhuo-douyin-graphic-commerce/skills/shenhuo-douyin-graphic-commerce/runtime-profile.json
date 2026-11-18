@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-douyin-graphic-commerce",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_422e3c29d1d1",
+    "slug": "douyin_graphic_commerce",
+    "name": "抖音图文带货"
+  }
+}

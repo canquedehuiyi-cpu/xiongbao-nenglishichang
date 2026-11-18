@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "89544f5f-8e3d-4e91-ab65-7437f33aeb3b",
+  "name": "realtime-data-engineer",
+  "displayName": "Real-time Data Engineer",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "戚道海",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a024dd-ce6c-71df-b488-cf2a8d2aa159/d254b77d_c7f2bd80_realtime-data-engineer.zip",
+  "zipSha256": "a3765b68c3d1db3a3a1b02f60c90f0b20bf8d717e103f0503bedd28e19edd9ec",
+  "zipBytes": 52375,
+  "upstreamSha256": "a3765b68c3d1db3a3a1b02f60c90f0b20bf8d717e103f0503bedd28e19edd9ec",
+  "files": 24,
+  "treeSha256": "765804c5a17a12f7565bf611436e6866bfe6df628f17d2119ddb9649e2b0d450",
+  "fetchedAt": "2026-11-18T10:43:41.053Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

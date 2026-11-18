@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "29a6ea3d-a026-4a08-8024-d98fef4e20e7",
+  "name": "token-usage",
+  "displayName": "token-usage",
+  "categoryCode": "Workflow",
+  "categoryDir": "Tools-and-Automation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.4.0",
+  "publisher": "dgjin",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/dgjin/qoder-token-usage",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a152d5-bb96-7c97-bcb3-14ce8a20410c/8d16892b_token-usage-0.4.0.zip",
+  "zipSha256": "2b78bf66dcfe054561d547d92d03f133ffb3954fa9f1157a3cc114046c7674a0",
+  "zipBytes": 116876,
+  "upstreamSha256": "2b78bf66dcfe054561d547d92d03f133ffb3954fa9f1157a3cc114046c7674a0",
+  "files": 19,
+  "treeSha256": "eb8282889467032b6f3883eb985bf1f38da10821133a9677871c73a34f9d88b3",
+  "fetchedAt": "2026-11-18T10:44:22.518Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

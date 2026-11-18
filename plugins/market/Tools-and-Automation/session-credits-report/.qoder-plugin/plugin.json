@@ -1,0 +1,8 @@
+{
+  "name": "session-credits-report",
+  "displayName": "Qoder 会话 credits 消耗分析",
+  "version": "0.1.6",
+  "description": "会话结束自动在对话里报一行本轮 credits 消耗、整场累计与耗时；自包含引擎只读本地转录，零外部插件依赖。报账行由模型续一轮打印（国内版不渲染 systemMessage），每轮额外约 0.2–1.1 credits、随上下文增大；国内版支持 systemMessage 后将更新为零额外消耗。",
+  "icon": "./assets/icon.jpg",
+  "keywords": ["qoder-plugin", "credits", "token", "usage", "hooks"]
+}

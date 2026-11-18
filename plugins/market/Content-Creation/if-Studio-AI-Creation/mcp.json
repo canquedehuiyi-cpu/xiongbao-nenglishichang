@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "iconfont-ifs": {
+      "type": "http",
+      "url": "https://ifs.iconfont.cn/openapi/v1/mcp",
+      "oauth": {
+        "enabled": true
+      }
+    }
+  }
+}

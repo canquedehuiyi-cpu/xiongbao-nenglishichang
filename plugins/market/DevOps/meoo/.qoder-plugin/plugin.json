@@ -1,0 +1,24 @@
+{
+  "name": "meoo",
+  "displayName": "Meoo",
+  "version": "0.1.0",
+  "description": "Full-stack application build and deployment guidance for the Meoo CLI, covering project initialization, cloud services, database operations, edge functions, sandbox sync, account limits, and CDN publishing.",
+  "author": { "name": "Meoo Team" },
+  "homepage": "https://meoo.com/",
+  "repository": "https://github.com/ali-meoo/meoo-cli",
+  "keywords": [
+    "qoder-plugin",
+    "skill",
+    "meoo",
+    "fullstack",
+    "deployment",
+    "devops"
+  ],
+  "category": "DevOps",
+  "tags": ["skill", "meoo", "cli", "deployment"],
+  "skills": "./skills/",
+  "logo": "./assets/logo.png",
+  "interface": {
+    "logo": "./assets/logo.png"
+  }
+}

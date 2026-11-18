@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "247808d0-5ec0-4692-88ec-77bbac0194ae",
+  "name": "cloudbase",
+  "displayName": "Tencent CloudBase",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.2.0",
+  "publisher": "Tencent CloudBase",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/TencentCloudBase/CloudBase-MCP",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fb2d6-81df-776c-8287-3b765bf99c95/eb658234_cloudbase-qoder-v0.2.0.zip",
+  "zipSha256": "3417def3db431f2d0f9ddff3c9e778ebc008db4019a0483f389029a0051a8e24",
+  "zipBytes": 524314,
+  "upstreamSha256": "3417def3db431f2d0f9ddff3c9e778ebc008db4019a0483f389029a0051a8e24",
+  "files": 167,
+  "treeSha256": "0339ba7e3a6b5b956c7f7e87cf828bcb0c8c5ed84b5465d4a576f459c5c3abf6",
+  "fetchedAt": "2026-11-18T10:43:52.462Z",
+  "credentialScan": {
+    "textFilesScanned": 164,
+    "filesRedacted": 1
+  },
+  "note": null
+}

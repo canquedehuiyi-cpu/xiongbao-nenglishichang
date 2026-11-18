@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "a02a2a54-9f04-44ef-9b4c-938a8952349e",
+  "name": "pm-output-engine",
+  "displayName": "Super PM · Output Engine",
+  "categoryCode": "Other",
+  "categoryDir": "Other",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "陈圳濠",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a024de-ae01-7b79-914d-5310b93b8a53/a7b64f5f_7402ee42_pm-output-engine.zip",
+  "zipSha256": "3aeec22fcf3789fb183a6108c44651aa0f17843b415e1c5d28b7a880335023ab",
+  "zipBytes": 61154,
+  "upstreamSha256": "3aeec22fcf3789fb183a6108c44651aa0f17843b415e1c5d28b7a880335023ab",
+  "files": 12,
+  "treeSha256": "4816e9e49d10980a19a4563b8332433b4fc1a17142f75fd7f49399199e012ec9",
+  "fetchedAt": "2026-11-18T10:44:16.534Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

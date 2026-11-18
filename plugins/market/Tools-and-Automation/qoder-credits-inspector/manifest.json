@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "20c35808-6251-46ef-9577-1cd6ca400b59",
+  "name": "qoder-credits-inspector",
+  "displayName": "Ocean's Credits Inspector",
+  "categoryCode": "Workflow",
+  "categoryDir": "Tools-and-Automation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "2.7.4",
+  "publisher": "ocean.cui",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0b333-9f59-7dbc-a065-0dbf47250e06/f1303a4d_qoder-credits-inspector-2.7.4.zip",
+  "zipSha256": "f1963949e0367ac36ae7ec1b7a86a4933e82fd9f27986446916b37ec7fc0ee48",
+  "zipBytes": 101855,
+  "upstreamSha256": "f1963949e0367ac36ae7ec1b7a86a4933e82fd9f27986446916b37ec7fc0ee48",
+  "files": 20,
+  "treeSha256": "463634e840187fba4372175595290f3d0d88d0f8f0fbc09b457564166d1840f0",
+  "fetchedAt": "2026-11-18T10:44:18.703Z",
+  "credentialScan": {
+    "textFilesScanned": 18,
+    "filesRedacted": 0
+  },
+  "note": null
+}

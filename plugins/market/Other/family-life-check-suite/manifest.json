@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "d26e2cdb-0118-45d1-a357-5bb3e01cdac4",
+  "name": "family-life-check-suite",
+  "displayName": "Family Life Check Suite",
+  "categoryCode": "Other",
+  "categoryDir": "Other",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.1",
+  "publisher": "linksass",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1bf3d-ca31-7ce9-b26b-2caa0f94374e/064dac6a0c87357c08b7e5760ea7e8fe6da164a0cb4d604d57ccfedfc8fb941b.zip",
+  "zipSha256": "064dac6a0c87357c08b7e5760ea7e8fe6da164a0cb4d604d57ccfedfc8fb941b",
+  "zipBytes": 938583,
+  "upstreamSha256": "064dac6a0c87357c08b7e5760ea7e8fe6da164a0cb4d604d57ccfedfc8fb941b",
+  "files": 213,
+  "treeSha256": "95d23da2054f3dd7d2196dfdcb3610ee94c477da690b2f7f0375c6da20006d26",
+  "fetchedAt": "2026-11-18T10:44:15.964Z",
+  "credentialScan": {
+    "textFilesScanned": 212,
+    "filesRedacted": 0
+  },
+  "note": null
+}

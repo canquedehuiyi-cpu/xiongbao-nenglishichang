@@ -1,0 +1,22 @@
+{
+  "name": "pm-output-engine",
+  "displayName": "超级产品经理 · 产出引擎",
+  "version": "1.0.0",
+  "description": "AI product manager's document and reporting toolkit — PRD writing, data reporting copy, competitor research, and patent documentation.",
+  "descriptionZh": "AI 产品经理的文档与汇报工具箱，覆盖需求文档撰写、数据汇报文案、竞品行业调研、专利文档生成四大产出场景。",
+  "category": "product-management",
+  "tags": [
+    "prd",
+    "reporting",
+    "research",
+    "patent",
+    "product-management"
+  ],
+  "skills": [
+    "./skills/onboarding",
+    "./skills/需求文档撰写",
+    "./skills/数据汇报文案",
+    "./skills/竞品行业调研",
+    "./skills/专利文档生成"
+  ]
+}

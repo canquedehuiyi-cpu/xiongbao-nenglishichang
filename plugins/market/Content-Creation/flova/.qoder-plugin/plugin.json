@@ -1,0 +1,8 @@
+{
+  "name": "flova",
+  "displayName": "Flova",
+  "version": "0.1.0",
+  "description": "使用 Flova 在 Qoder 中生成图片、视频、配音和音乐，或在 Flova 项目中制作和续作。",
+  "mcpServers": "./mcp.json",
+  "skills": "./skills/"
+}

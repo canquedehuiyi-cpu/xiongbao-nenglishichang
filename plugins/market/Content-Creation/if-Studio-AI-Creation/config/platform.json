@@ -1,0 +1,36 @@
+{
+  "$note": "本包已固化为【ext/prod】环境：平台域名=https://ifs.iconfont.cn（画布与连接器端点同源，见 mcp.json），首页/入口=https://www.iconfont.cn/；CLI 固定线上不随环境：registry=https://ifs.iconfont.cn、认证 profile=mcp-canvas（每条 CLI 命令须显式 --profile，勿用机器上的 current profile 顶替）。环境值由 scripts/build.sh 按矩阵写入，如需换环境请重新打包，勿手工编辑本文件。",
+  "host": {
+    "name": "Qoder",
+    "connector_entry": "设置 → 扩展管理 → 连接器",
+    "authorize_button": "授权 / 连接"
+  },
+  "platform": {
+    "name": "IFS",
+    "display_name": "if Studio",
+    "domain": "https://ifs.iconfont.cn"
+  },
+  "vendor": {
+    "note": "vendor.site = 各版本的首页/入口，随版本区分：外网版=iconfont 品牌首页（https://www.iconfont.cn/）；内网版=IFS 域名入口（由 scripts/build.sh 按环境写入，如 https://ifs.alibaba-inc.com/）。源默认取外网线上，即 iconfont 首页；内网包里的 site 会被矩阵覆盖为对应 alibaba-inc 域名。",
+    "name": "iconfont",
+    "site": "https://www.iconfont.cn/"
+  },
+  "canvas_link": {
+    "note": "画布深链参数的单一配置源（取值只改这里，重启 Qoder 后经 hooks session-start 注入生效；文档与话术只引用注入值/占位符 {canvas_link.query_suffix}，不写死、不逐参数重拼）。fixed_params = 平台口径固定参数组（隐藏会话面板/左侧栏/顶栏 + 顶栏操作 + 画布交互开关，顺序固定、个数可增），技能文档只引用注入的 {canvas_link.query_suffix}、不写参数串字面值；改本段后需重建插件包并重装才全链生效。from = 来源标注，平台侧用于流量归因（标明访问来自本宿主/插件）。title = 画布页标题参数，只存明文（当前 build.sh 的形态矩阵并不覆盖 canvas_link，四个发布形态取同一值；要按对内/对外区分需先扩矩阵）。链接里实际携带的是「标准后缀 query_suffix = fixed_params + &title=<title 的 URL 编码值> + &from=<from>」：拼接与编码都由程序完成不落副本——hooks session-start 注入时用 python urllib.parse.quote 对 title 现场编码、拼好整串后缀注入（占位符 {canvas_link.query_suffix}，拼画布地址时整串照抄接在 ? 后），文档与 hook 只引用注入的后缀；兜底自读本文件时同样拼 fixed_params + 编码 title + from（编码用一行 python3 -c \"import urllib.parse,sys;print(urllib.parse.quote(sys.argv[1]))\" '<明文>'），严禁抄写或缓存后缀/编码字面值。改本段任意字段后重启 Qoder 即全链生效，无需手工同步。裸空格/中文直拼链接会让 Markdown 不解析、导航参数被截断，所以链接里 title 只能用编码值。",
+    "fixed_params": "session_panel=0&left_panel=0&top_panel=0&top_actions=1&zawarudo_add_to_chat=0&zawarudo_lineage_editing=1&zawarudo_add_to_clipboard=1",
+    "from": "qoder",
+    "title": "if Studio 设计专家"
+  },
+  "cli": {
+    "note": "CLI 通道固定连线上服务，不随发布环境：registry 恒为版本对应的线上域名（外网 ifs.iconfont.cn、内网 ifs.alibaba-inc.com），profile 按版本固定（外网 mcp-canvas、内网 mcp-canvas-inc）。预发包的 CLI 也一样打线上——降级通道不跟画布/连接器切预发。CLI 每条命令都显式带 --profile 绑定本段 profile（CLI 默认取机器上的 current profile，不绑定就会落到上次登录的环境）；profile 缺失或 registry 不一致时按本段重新登录，不用 current 顶替。",
+    "command": "ifs",
+    "registry": "https://ifs.iconfont.cn",
+    "profile": "mcp-canvas",
+    "install_path": "/openapi/v1/assets/install.sh",
+    "install_path_windows": "/openapi/v1/assets/install.ps1",
+    "verify": "ifs --version"
+  },
+  "account": {
+    "note": "IFS 平台账号统一登录；登录/授权页操作必须用户本人完成，严禁代点提交、代选身份、代输账号"
+  }
+}

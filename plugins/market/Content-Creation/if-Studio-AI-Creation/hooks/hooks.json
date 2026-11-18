@@ -1,0 +1,63 @@
+{
+  "description": "if Studio AI 智能创作（if-Studio-AI-Creation）插件 hooks：会话开始注入模块地图与连接器约定；Bash 前拦截 IFS 凭据外泄与状态破坏；调用后异步落审计。载体为 cmd/sh 双语 polyglot 入口 ifs-suite-hook.cmd（shell 形态经 bash -c 调用，shell 字段显式锁定 bash）：类 Unix 直接委派到同一 POSIX sh 脚本，Windows 委派到 Git Bash；bash 不可用时该 hook 静默不执行（非阻断），配置与偏好由 agent 自读文件兜底（SKILL.md §1「配置读取兜底」）。登录门禁由连接器 OAuth 传输层承担（未授权时表现为连接器未连接 / 调用 401；懒加载宿主下会话工具列表本就不含 ifs_*，判定以 mcp_list 能否列出方法为准），插件不设本地登录拦截。",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "name": "ifs-suite-context",
+            "command": "\"${QODER_PLUGIN_ROOT}/hooks/scripts/ifs-suite-hook.cmd\" session-start",
+            "shell": "bash",
+            "timeout": 10,
+            "statusMessage": "正在加载 if Studio AI 智能创作 插件上下文…"
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "name": "ifs-suite-guard",
+            "command": "\"${QODER_PLUGIN_ROOT}/hooks/scripts/ifs-suite-hook.cmd\" guard",
+            "shell": "bash",
+            "timeout": 10,
+            "statusMessage": "正在检查 IFS 凭据安全…"
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "name": "ifs-suite-audit",
+            "command": "\"${QODER_PLUGIN_ROOT}/hooks/scripts/ifs-suite-hook.cmd\" audit",
+            "shell": "bash",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      },
+      {
+        "matcher": "mcp__plugin_.*iconfont-ifs__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "name": "ifs-suite-mcp-audit",
+            "command": "\"${QODER_PLUGIN_ROOT}/hooks/scripts/ifs-suite-hook.cmd\" audit",
+            "shell": "bash",
+            "timeout": 10,
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

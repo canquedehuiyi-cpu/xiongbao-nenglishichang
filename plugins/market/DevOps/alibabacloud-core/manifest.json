@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "alibabacloud-core",
+  "name": "alibabacloud-core",
+  "displayName": "AlibabaCloud Core",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.37",
+  "publisher": "Alibaba Cloud",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/aliyun/alibabacloud-agent-toolkit",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a08fec-ea1c-7c2c-a31c-361154c6cb40/c32d5795_alibabacloud-core-1.0.37.zip",
+  "zipSha256": "53818881ef08f1e07a63a76e2ebf8210db619c134676e96e76739b1439b8496f",
+  "zipBytes": 252182,
+  "upstreamSha256": "53818881ef08f1e07a63a76e2ebf8210db619c134676e96e76739b1439b8496f",
+  "files": 80,
+  "treeSha256": "912dd88b9b1ba38cce32a599220924da649517745bc0d7f9a80b75140cf70ac1",
+  "fetchedAt": "2026-11-18T10:43:50.590Z",
+  "credentialScan": {
+    "textFilesScanned": 71,
+    "filesRedacted": 0
+  },
+  "note": null
+}

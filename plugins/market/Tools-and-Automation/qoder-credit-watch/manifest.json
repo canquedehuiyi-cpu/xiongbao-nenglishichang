@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "b406b093-9f54-45b5-9bc8-a894f0256440",
+  "name": "qoder-credit-watch",
+  "displayName": "Qoder Multi-Account Credits Monitor",
+  "categoryCode": "Workflow",
+  "categoryDir": "Tools-and-Automation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ocean.cui",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0c895-0b05-7711-ac11-6db6605b8ddc/81d3b483_qoder-credit-watch-1.0.0.zip",
+  "zipSha256": "d8b306d5abdc512121f624b38e12a369b7ac7ebba14be923b2085abe9f456c74",
+  "zipBytes": 382822,
+  "upstreamSha256": "d8b306d5abdc512121f624b38e12a369b7ac7ebba14be923b2085abe9f456c74",
+  "files": 18,
+  "treeSha256": "116574e7729784a0513a6f28b26fb522c9b41001d036d1079824e7ba951de521",
+  "fetchedAt": "2026-11-18T10:44:23.137Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

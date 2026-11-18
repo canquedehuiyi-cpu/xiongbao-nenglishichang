@@ -1,0 +1,16 @@
+{
+  "name": "qoder-usage",
+  "displayName": "Qoder 用量统计",
+  "version": "1.0.0",
+  "description": "Qoder 使用统计面板：Token / 积分双模式（内置 Qoder-*/自定义 Custom-* 模型）、每日趋势与用量占比、最近会话消耗",
+  "author": {
+    "name": "local"
+  },
+  "keywords": [
+    "usage",
+    "credits",
+    "tokens",
+    "statistics"
+  ],
+  "mcpServers": "./.mcp.json"
+}

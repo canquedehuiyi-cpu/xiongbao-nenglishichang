@@ -1,0 +1,18 @@
+{
+  "name": "carbonstop-carbon-advisor-cn",
+  "version": "1.0.0",
+  "description": "碳阻迹企业碳管理、产品碳足迹与低碳转型顾问。结合 CREOS 框架梳理现状、证据缺口和行动计划，准备核算边界及数据清单，通过 CCDB 查询和比较真实碳排放因子并提供可追溯链接。内含顾问技能、因子查询技能和远程 MCP 连接；查询需用户授权。",
+  "author": {
+    "name": "碳阻迹（北京）科技有限公司",
+    "email": "mail@carbonstop.com"
+  },
+  "homepage": "https://agent.carbonstop.com",
+  "keywords": [
+    "carbon-management",
+    "carbon-footprint",
+    "emission-factor",
+    "creos",
+    "carbonstop",
+    "ccdb"
+  ]
+}

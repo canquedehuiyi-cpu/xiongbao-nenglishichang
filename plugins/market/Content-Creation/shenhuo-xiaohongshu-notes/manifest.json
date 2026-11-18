@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "e324d86f-8eff-4942-b9a7-7816c88b76bb",
+  "name": "shenhuo-xiaohongshu-notes",
+  "displayName": "Xiaohongshu Visual Notes",
+  "categoryCode": "cat_57b3c6ce1b64470c86b91f456099accf",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181b0-15c1-71f6-8985-86155e58d320/460ac204_小红书图文笔记.zip",
+  "zipSha256": "1901d38b083246a2eb6845943c8532cdacae55708a66c422fe3e61bdcfac307f",
+  "zipBytes": 424797,
+  "upstreamSha256": "1901d38b083246a2eb6845943c8532cdacae55708a66c422fe3e61bdcfac307f",
+  "files": 17,
+  "treeSha256": "eb66eb4147a6e096c159033e9b81fb0a0f7f75fce39c1a62fb55d8c97728e2bc",
+  "fetchedAt": "2026-11-18T10:42:16.953Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

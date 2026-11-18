@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "redis",
+  "name": "redis",
+  "displayName": "Redis",
+  "categoryCode": "Database & Analytics",
+  "categoryDir": "Database-and-Analytics",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Redis",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/redis/agent-skills",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fb747-8bf9-775a-a77f-d62537948df7/2e2e3850_11-redis.zip",
+  "zipSha256": "a2f66f550805833161c6e560864996816107f5c5d4756a18530dbb07f795480d",
+  "zipBytes": 77644,
+  "upstreamSha256": "a2f66f550805833161c6e560864996816107f5c5d4756a18530dbb07f795480d",
+  "files": 44,
+  "treeSha256": "9c015a32f270c604b89c68951d27a0f1a89db0e440ab2bb3ea6168737d9c71da",
+  "fetchedAt": "2026-11-18T10:43:39.144Z",
+  "credentialScan": {
+    "textFilesScanned": 43,
+    "filesRedacted": 0
+  },
+  "note": null
+}

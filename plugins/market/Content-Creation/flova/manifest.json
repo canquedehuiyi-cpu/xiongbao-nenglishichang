@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "a4822109-45ed-4ba9-8728-d3bbe2584e5b",
+  "name": "flova",
+  "displayName": "Flova AI",
+  "categoryCode": "cat_57b3c6ce1b64470c86b91f456099accf",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "01a1783d-e75e-7974-98ed-a1ddfc725b84",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1eccc-3c96-7493-a8e7-7b692fc582a0/fcfdcb3ad2054e70d7e6b49dc23d21aa2038416249f0c6bc729836e7838f6316.zip",
+  "zipSha256": "fcfdcb3ad2054e70d7e6b49dc23d21aa2038416249f0c6bc729836e7838f6316",
+  "zipBytes": 13590,
+  "upstreamSha256": "fcfdcb3ad2054e70d7e6b49dc23d21aa2038416249f0c6bc729836e7838f6316",
+  "files": 9,
+  "treeSha256": "2d1325d2775941a77b24cf6cadc5786e4eaba2a23859d0e084797be13d65610b",
+  "fetchedAt": "2026-11-18T10:42:15.429Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

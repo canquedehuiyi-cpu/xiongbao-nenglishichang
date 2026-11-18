@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "a4822109-45ed-4ba9-8728-d3bbe2584e5b",
+  "itemName": "flova",
+  "displayName": "Flova AI",
+  "version": "0.1.0",
+  "packageKind": "plugin"
+}

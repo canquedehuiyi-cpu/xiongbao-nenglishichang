@@ -1,0 +1,10 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "displayName": "Redis",
+  "description": "Qoder Desktop plugin for Redis.",
+  "homepage": "https://github.com/redis/agent-skills",
+  "repository": "https://github.com/redis/agent-skills",
+  "category": "DataBase",
+  "skills": "./skills/"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "pm-data-toolkit",
+  "displayName": "超级产品经理 · 数据武器",
+  "version": "1.0.0",
+  "description": "AI product manager's data analysis and monitoring toolkit — covering requirement decision support, post-launch monitoring, funnel attribution diagnosis, and tracking instrumentation design.",
+  "descriptionZh": "AI 产品经理的数据分析与监控工具箱，覆盖需求决策支撑、上线效果监控、漏斗归因诊断、埋点方案设计四大数据链路场景。",
+  "category": "product-management",
+  "tags": [
+    "data-analysis",
+    "product-management",
+    "odps",
+    "funnel",
+    "monitoring"
+  ],
+  "skills": [
+    "./skills/onboarding",
+    "./skills/数据决策分析",
+    "./skills/上线效果监控",
+    "./skills/漏斗归因诊断",
+    "./skills/埋点方案设计"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "duckdb",
+  "version": "1.0.0",
+  "displayName": "DuckDB",
+  "description": "A Claude Code plugin that adds DuckDB-powered skills for data exploration and session memory.",
+  "homepage": "https://github.com/duckdb/duckdb-skills",
+  "repository": "https://github.com/duckdb/duckdb-skills",
+  "category": "DataBase",
+  "skills": "./skills/"
+}
