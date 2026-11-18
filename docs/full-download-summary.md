@@ -14,7 +14,7 @@
 
 - `downloaded-index.ndjson` 唯一 id 数 = 2566 = 清单行数；清单中**无任一 id 缺失于索引**（逐条比对 = 0）。
 - 下载 zip 传输量合计 **126,945,688 B（121.1 MiB）**（技能 ~46 MiB + 插件 ~75 MiB；连接器无 zip）。
-- 解包入库工作树（不含 .git，含被 .gitignore 排除的打包垃圾）：**33,347 文件 / 394,418,826 B（376.1 MiB）**。
+- 解包入库工作树（不含 .git，含被 .gitignore 排除的打包垃圾）：**33,349 文件 / 394,430,057 B（376.2 MiB）**（推送后复核数；早期快照记 33,347，差 2 以复核为准）。
 
 ## 2. 完整性核验（sha256）
 
@@ -65,3 +65,51 @@
   补偿控制＝第 4 节穷尽凭据终扫已全清（0 真实凭据）。
 - 36 个小类目分片缺 `.DONE` 标记（cosmetic）；完备性已由第 1 节计数对账证明（2566 = 官方类目计数和），非缺陷。
 - 许可：2566 条 license 全 UNKNOWN（详情端点不返），PUBLIC 再分发风险由仓库所有者承担（见 README）。
+
+## 8. GitHub Push Protection 拦截与密钥脱敏（batch 4，已收口）
+
+- **拦截**：首次推送 batch 4 被 GitHub Push Protection（GH013）拒绝——检测到 **VolcEngine Access Key ID**，
+  位置 `skills/market/Design/sih-ai-photo-editor/sih-ai-photo-editor/references/api_guide.md:53`
+  （原 commit `2a6593d8`，TOS 预签名 URL 示例中的 `X-Tos-Credential=AKLT…` + `X-Tos-Signature=…`）。
+- **全仓补扫**：`comprehensive-secret-scan.js` 覆盖所有云厂商 AK 格式（VolcEngine `AKLT` / Aliyun `LTAI` / Tencent `AKID` /
+  AWS `AKIA·ASIA` / Google `AIza` / `X-Tos-Credential`·`X-Amz-Credential`·`OSSAccessKeyId` / PEM 私钥 / GitHub·sk-·xox·JWT），
+  扫 **29,772** 个文本文件（≤5MB，跳过 .git/node_modules/__MACOSX），得 **36 命中**。逐条判读：
+  - **1 处真实密钥格式** → 已脱敏：sih-ai-photo-editor 的 `AKLT…`→`<REDACTED_VOLCENGINE_AK>`、`X-Tos-Signature=…`→`<REDACTED_SIGNATURE>`，
+    保留 URL 结构/日期/区域/service（非机密）。脱敏后该文件真 AKLT 残留 = 0。
+  - **35 处 benign（未改动）**：Aliyun `LTAItest…` 测试夹具（`sanitize.py` ×3 副本：local-installed + market/DevOps 两包）；
+    `LTAI5txxxxxxxxxx` 显式掩码占位（rds-copilot acceptance-criteria.md）；Google `AIzaSyBn…`（chrome-devtools-mcp `performance.ts`，
+    其本机副本已随 batch 2 通过 Push Protection）；context7 `.icon-cache/icon.svg` 的 `AKLT`（base64 图像数据巧合子串，batch 2 已放行）；
+    9 处文档内 `-----BEGIN … PRIVATE KEY-----` **头**（alipay 表格引用 / ansible `...` 占位 / sx-security-audit 检测模式说明 /
+    uni-app·kms API 示例），**均无 MII 密钥体**，非完整密钥块，GitHub 不拦。
+- **重写未推送提交**：`git reset --soft HEAD~1`（仅移 HEAD，保留索引/工作树，非破坏）→ 重加脱敏内容 →
+  **新提交 `f76c6ff0`**（旧 `2a6593d8` 仅存 reflog，从未推送）→ 推送通过 `8616ffa0..f76c6ff0`。
+- **保真偏离披露**：此处对第三方正文做了 **1 行脱敏**（api_guide.md:53 的 AK 与签名值），是「原样保留上游内容」承诺的
+  **唯一已知偏离**，因 GitHub 硬性拦截真实密钥格式而必需；其余 35 处命中为占位/夹具/误报，正文零改动。
+- **权威门禁口径**：本仓自扫正则（36 命中）宽于 GitHub 检测器（后者校验熵/上下文，识别测试占位与 base64 误报）。
+  最终权威是 **GitHub Push Protection**：batch 2/3 含 LTAItest/AIza/icon 副本已放行，batch 4 脱敏后放行，batch 5–13 以实际推送结果为准。
+
+## 9. 最终推送对账（13 批全部成功，实测）
+
+分支 `market-top200-assets`（基于 Initial commit `52b98d0`），13 批快进推送，提交链：
+
+| 批 | 提交 | 范围 | 暂存文件 |
+|---|---|---|---|
+| 1 | `a7aba3ac` | docs/catalog/connectors/skills-local | — |
+| 2 | `d336d94d` | plugins/local-installed | — |
+| 3 | `8616ffa0` | plugins/market-feed(10) | — |
+| 4 | `f76c6ff0` | skills/market Database/Product-Mgmt/Design（脱敏重写） | 5352 |
+| 5 | `959a55d8` | skills/market Coding/Dev-Tools/Knowledge | 4457 |
+| 6 | `c41a440f` | skills/market Content/Agent-Evolution/DevOps/Security | 4777 |
+| 7 | `c34314e9` | skills/market Workflow/Code-Review/其余小类目 | 2325 |
+| 8 | `f23780f9` | plugins/market Work-Suite | 1145 |
+| 9 | `debdee62` | plugins/market Coding | 1947 |
+| 10 | `e81ba0ca` | plugins/market Visual-Design | 1751 |
+| 11 | `bc2bb57f` | plugins/market Knowledge/Security | 1707 |
+| 12 | `98fd4b9b` | plugins/market Database/Tools/DevOps/Other/Content | 2397 |
+| 13 | `68f096c7` | plugins/market Marketing/Industrial/Productivity/Finance | 432 |
+
+- **远端核验**：`git ls-remote origin market-top200-assets` = `68f096c7` = 本地 HEAD，分支完全同步（无 ahead/behind）。
+- **入库对账**：tracked **30,668** + .gitignore 排除 **2,681** + 未跟踪非忽略 **0** = 磁盘 **33,349**（Node 宽 API 复核，含合法中文名文件），delta=**0**。
+- **gitlink（mode 160000）= 0**：全部资产正文以 blob 入库，无 submodule 空引用（2 个嵌套 .git 已移除）。
+- **并行线共存**：`origin/main` = `58fb370`（并行线 12 批结构），本套未触碰 main，两套结构并存于不同分支供后续整合。
+- 推送日志全量留存 `capability-assets/market-api/push-resume.log`（本仓外），逐批 `PUSH OK`，无 GH013/rejected/fatal。

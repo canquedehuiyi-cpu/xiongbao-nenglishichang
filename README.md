@@ -3,7 +3,7 @@
 本仓库承接「把 Qoder 能力市场的能力资产移植进本项目」的目标。内容为 **三层来源**：本机已安装资产副本 + Qoder curated feed 插件包 + **市场每类目 TOP200 全量下载归档**。
 市场清单与详情由 leader 侧带登录态只读抓取（快照在 `capability-assets/market-api/`，**本仓外**，不随仓发布）；正文经公开 OSS 直链下载（无需凭据）、sha 校验、解包、规则化脱敏后归档。
 
-体量（实测，不含 `.git`）：**33,347 文件 / 394,418,826 B（≈376.1 MiB）**。
+体量（推送后复核，不含 `.git`）：**33,349 文件 / 394,430,057 B（≈376.2 MiB）**；其中入库 tracked **30,668**、.gitignore 排除 **2,681**（node_modules 1,883 + __MACOSX 776 + .DS_Store，含路径重叠），未跟踪非忽略 **0**，gitlink（submodule 引用）**0**——三者之和 = 磁盘总数，逐字节对账 delta=0。
 市场层全量归档 **2,566 条**：技能 2,284 / 插件 154 / 连接器 128，覆盖 26 个类目目录。
 
 ## 目录结构（三层来源，互不覆盖）
@@ -99,5 +99,9 @@ macOS/Linux 与 GitHub 侧不受影响。本仓推送时由 leader 用逐命令 
   已知令牌形态（`ghp_*`/`sk-*`/`ya29.*`/`AKIA*`/`xox*`/JWT/`Bearer <24+>`）命中 **0**；本机用户名命中 **0**；工作区绝对路径命中 **0**；>95MB 文件 **0**。
   键名+16 位以上 hex 值命中 5 处，逐条判读均 benign（lark 分页游标 `page_token`、superpowers 技能自证标记 `bootstrap_token`、Sensors Data 文档示例 `token=111111…` 占位）；
   `-----BEGIN` 相邻 base64 体命中 2 处，均为 alipay **公钥**（`PUBLIC KEY`，非私钥，可公开）。
+- **GitHub Push Protection 触发的 1 处脱敏**：推送时 GitHub（GH013）拦截了 `skills/market/Design/sih-ai-photo-editor/.../references/api_guide.md:53`
+  的 **VolcEngine Access Key ID**（TOS 预签名 URL 示例）。已将该行 `AKLT…`→`<REDACTED_VOLCENGINE_AK>`、签名→`<REDACTED_SIGNATURE>`，
+  重写未推送提交后放行。这是「第三方正文原样保留」的**唯一已知偏离**（必需，因 GitHub 硬拦真实密钥格式）。
+  全仓补扫云厂商 AK 格式得 36 命中，其余 35 处为测试夹具/掩码占位/base64 误报/文档私钥头（无密钥体），未改动；明细见 `docs/full-download-summary.md` §8。
 - sha256 基线值（64 位 hex）在本仓内**不脱敏**，因其为完整性校验所需且非机密。
 - 残留披露：codeish 保守放行清单因三批顺序跑被末批 `download-report.json` 覆盖（补偿控制＝上述穷尽凭据终扫已全清）；36 个小类目分片缺 `.DONE` 标记（完备性已由计数对账证明，非缺陷）。
