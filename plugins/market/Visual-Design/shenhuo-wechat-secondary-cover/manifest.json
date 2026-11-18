@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "62437975-a8fa-4db7-b073-f4ffdbbc90ef",
+  "name": "shenhuo-wechat-secondary-cover",
+  "displayName": "WeChat Secondary Covers",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181b0-0e86-76a0-b795-3d4a5590608b/2b806e68_公众号次图.zip",
+  "zipSha256": "ae322d264a251d1ada883ddcac3937a6a728dc38c730534ba6749e2af84a81af",
+  "zipBytes": 417382,
+  "upstreamSha256": "ae322d264a251d1ada883ddcac3937a6a728dc38c730534ba6749e2af84a81af",
+  "files": 17,
+  "treeSha256": "a1c2e1b39ae55651b66486367693c2fdd94f27fdda82a3752daa90a0f224766a",
+  "fetchedAt": "2026-11-18T10:43:23.583Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

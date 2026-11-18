@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-information-explainer",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_1b1aab233291",
+    "slug": "information_explainer_designer",
+    "name": "信息解读"
+  }
+}

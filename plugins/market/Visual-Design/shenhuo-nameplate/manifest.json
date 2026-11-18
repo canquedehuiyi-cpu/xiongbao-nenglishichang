@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "c0aba6af-910e-4a55-885b-8d80b98b04a6",
+  "name": "shenhuo-nameplate",
+  "displayName": "Shenhuo Nameplate Design",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181a9-c21f-7afd-acc3-abc43eb991bd/e7397423_神火姓名牌.zip",
+  "zipSha256": "f06cb03ac4851baa27602a8151428287c8d25bc0b2497c917d727717830c2d75",
+  "zipBytes": 400436,
+  "upstreamSha256": "f06cb03ac4851baa27602a8151428287c8d25bc0b2497c917d727717830c2d75",
+  "files": 17,
+  "treeSha256": "7dd65f2957f5ed94e1cccf3acfcef10c072f049cbeb913baa1b4c410067a6f20",
+  "fetchedAt": "2026-11-18T10:43:33.803Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

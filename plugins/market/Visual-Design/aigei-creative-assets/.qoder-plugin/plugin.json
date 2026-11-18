@@ -1,0 +1,13 @@
+{
+  "name": "aigei-creative-assets",
+  "displayName": "爱给素材",
+  "version": "1.0.2",
+  "description": "根据演示文案、游戏玩法或视频分镜选配图片、音效、配乐和视频。按页面、游戏事件或镜头展示可用预览和文件规格，支持局部替换，并将确认的素材接入作品。",
+  "author": {
+    "name": "爱给网"
+  },
+  "homepage": "https://www.aigei.com/open",
+  "keywords": ["PPT", "游戏音效", "短视频", "配图", "配乐", "爱给素材"],
+  "skills": "./skills",
+  "mcpServers": "./.mcp.json"
+}

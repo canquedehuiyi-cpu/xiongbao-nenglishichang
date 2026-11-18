@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-work-badge",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_6c9244c9adc1",
+    "slug": "office_work_badge_designer",
+    "name": "工牌工作证"
+  }
+}

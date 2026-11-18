@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-award-certificate",
+  "version": "1.1.0",
+  "displayName": "证书设计师",
+  "description": "将已确认的表彰或组织聘任内容设计成证书图片，清楚呈现姓名、事项、落款和日期，兼顾阅读与仪式感。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "荣誉表彰",
+    "儿童奖状",
+    "组织聘书"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-award-certificate-brief",
+    "./skills/shenhuo-award-certificate",
+    "./skills/shenhuo-award-certificate-delivery"
+  ]
+}

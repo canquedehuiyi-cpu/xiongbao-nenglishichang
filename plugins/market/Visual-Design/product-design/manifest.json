@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "product-design",
+  "name": "product-design",
+  "displayName": "Product Design",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.5.10",
+  "publisher": "QoderWork",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a024de-0965-7ad3-acd8-748ca3a4fe0c/044cda7a_d51f2f71_产品设计.zip",
+  "zipSha256": "085b30903e2152d5499e4328158253c75dc25e85f3d8027fddfa157c15d5b50c",
+  "zipBytes": 1024076,
+  "upstreamSha256": "085b30903e2152d5499e4328158253c75dc25e85f3d8027fddfa157c15d5b50c",
+  "files": 115,
+  "treeSha256": "e59fb18a029086636b014438cdcd4a04445eec1bd9ab69e0121f7d36459aafd2",
+  "fetchedAt": "2026-11-18T10:43:15.525Z",
+  "credentialScan": {
+    "textFilesScanned": 114,
+    "filesRedacted": 0
+  },
+  "note": null
+}

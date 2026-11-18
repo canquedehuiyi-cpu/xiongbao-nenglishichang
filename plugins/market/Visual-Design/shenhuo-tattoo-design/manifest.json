@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "f4a404cf-4032-4009-9174-984e1a4b761e",
+  "name": "shenhuo-tattoo-design",
+  "displayName": "Tattoo Concept Design",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181b0-040b-7810-af86-c0731fb8161d/b8a9b9b3_纹身图案设计.zip",
+  "zipSha256": "88cfe1943a1953191ffa916157d43b883229b0ba1cac117605edcbea11cc316f",
+  "zipBytes": 413809,
+  "upstreamSha256": "88cfe1943a1953191ffa916157d43b883229b0ba1cac117605edcbea11cc316f",
+  "files": 17,
+  "treeSha256": "d8c2c2e77111214d43730cd9a0eaccd4ec09cf545532bca5410b2fc5c586e19c",
+  "fetchedAt": "2026-11-18T10:43:34.030Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

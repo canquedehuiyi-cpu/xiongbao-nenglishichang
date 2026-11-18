@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-image-restoration",
+  "version": "1.1.0",
+  "displayName": "商业修图师",
+  "description": "基于原图修复老照片、清理局部杂物并调整光色与构图，保留人物和主体特征，改善照片的清晰度与观看效果。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "老照修复",
+    "局部去物",
+    "自然精修"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-image-restoration-brief",
+    "./skills/shenhuo-image-restoration",
+    "./skills/shenhuo-image-restoration-delivery"
+  ]
+}

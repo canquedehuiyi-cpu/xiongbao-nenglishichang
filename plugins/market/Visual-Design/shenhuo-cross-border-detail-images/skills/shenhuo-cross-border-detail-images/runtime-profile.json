@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-cross-border-detail-images",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_4c71fe5811e3",
+    "slug": "cross_border_ecommerce_detail_designer",
+    "name": "跨境电商详情图"
+  }
+}

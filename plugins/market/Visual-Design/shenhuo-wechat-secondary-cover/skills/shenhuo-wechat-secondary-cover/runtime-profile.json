@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-wechat-secondary-cover",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_c0f8765551df",
+    "slug": "wechat_official_secondary_cover_designer",
+    "name": "公众号次图"
+  }
+}

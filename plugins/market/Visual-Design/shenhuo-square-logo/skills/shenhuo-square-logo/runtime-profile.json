@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-square-logo",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_f7ecda4a01f5",
+    "slug": "square_logo_designer",
+    "name": "方形LOGO"
+  }
+}

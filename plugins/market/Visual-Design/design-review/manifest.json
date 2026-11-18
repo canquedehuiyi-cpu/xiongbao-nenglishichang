@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "design-review",
+  "name": "design-review",
+  "displayName": "Design Review",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "Qoder",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fb747-8e5a-7c45-8598-1aae120a7ca0/e0cd6353_19-design-review.zip",
+  "zipSha256": "632e62e2331f24f912d4bd3d3610d874956b7040bda545b444995f3cfaad86b0",
+  "zipBytes": 167334,
+  "upstreamSha256": "632e62e2331f24f912d4bd3d3610d874956b7040bda545b444995f3cfaad86b0",
+  "files": 59,
+  "treeSha256": "0b38b17a49d4f4670054e2d5e938b4f5522e0cc8fa093ff6ec21fd270a692de4",
+  "fetchedAt": "2026-11-18T10:43:13.232Z",
+  "credentialScan": {
+    "textFilesScanned": 56,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-ecommerce-logo",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_f06a89ff1e71",
+    "slug": "ecommerce_logo",
+    "name": "电商 LOGO"
+  }
+}

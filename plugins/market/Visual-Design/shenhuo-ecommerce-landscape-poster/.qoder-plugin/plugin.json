@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-ecommerce-landscape-poster",
+  "version": "1.1.0",
+  "displayName": "电商海报美工",
+  "description": "将商品上新、促销活动、直播预告与店铺通知整理成横版图片，让商品、权益条件与行动信息各有位置。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "商品上新",
+    "活动推广",
+    "店铺通知"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-ecommerce-landscape-poster-brief",
+    "./skills/shenhuo-ecommerce-landscape-poster",
+    "./skills/shenhuo-ecommerce-landscape-poster-delivery"
+  ]
+}

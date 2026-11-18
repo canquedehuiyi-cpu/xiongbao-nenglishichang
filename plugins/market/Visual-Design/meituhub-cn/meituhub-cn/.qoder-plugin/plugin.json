@@ -1,0 +1,12 @@
+{
+  "name": "meituhub-cn",
+  "version": "0.1.9",
+  "displayName": "MeituHub AI影像创作",
+  "description": "美图旗下AI影像创作平台，支持一句话批量修图、选片、做海报、生成爆款视频。",
+  "author": {
+    "name": "Meitu"
+  },
+  "homepage": "https://meituhub.cn",
+  "skills": "./skills",
+  "rules": "./rules"
+}

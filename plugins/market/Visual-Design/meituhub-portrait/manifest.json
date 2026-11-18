@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "9d46d7c6-5fa3-4cd3-9698-a82a07d616df",
+  "name": "meituhub-portrait",
+  "displayName": "Portrait Retouch · MeituHub",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.4.0",
+  "publisher": "Meitu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1e860-bf0e-73e0-92b7-e2430b74fb30/669de134d31071ffb2bcd04605f7a36258370728644f3b475e40517028a0f011.zip",
+  "zipSha256": "669de134d31071ffb2bcd04605f7a36258370728644f3b475e40517028a0f011",
+  "zipBytes": 201676,
+  "upstreamSha256": "669de134d31071ffb2bcd04605f7a36258370728644f3b475e40517028a0f011",
+  "files": 24,
+  "treeSha256": "a14d6255cfd7fe64f7dd5040779ab7027edb3391a12de23a7f0d8653a174a0f8",
+  "fetchedAt": "2026-11-18T10:43:37.585Z",
+  "credentialScan": {
+    "textFilesScanned": 22,
+    "filesRedacted": 0
+  },
+  "note": null
+}

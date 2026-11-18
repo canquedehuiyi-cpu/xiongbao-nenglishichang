@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-xiaohongshu-cover",
+  "version": "1.1.0",
+  "displayName": "封面设计师",
+  "description": "围绕真实内容和产品素材设计小红书封面，安排标题、主体与阅读重点，适合种草分享、生活记录和系列栏目。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "种草封面",
+    "生活分享",
+    "系列封面"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-xiaohongshu-cover-brief",
+    "./skills/shenhuo-xiaohongshu-cover",
+    "./skills/shenhuo-xiaohongshu-cover-delivery"
+  ]
+}

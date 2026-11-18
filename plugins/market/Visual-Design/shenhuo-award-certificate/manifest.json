@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "15d61de0-5e4c-4f8e-8bd9-eb43a93a26c7",
+  "name": "shenhuo-award-certificate",
+  "displayName": "Award Certificate Design",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a18189-2258-7bad-ad2a-f39bcf04b6d7/db362539_shenhuo-award-certificate-1.1.0.zip",
+  "zipSha256": "ad7bd25a7341379c34717b2caa17d22f4bbab8fe3ad3442f5a7d3f8c0540fd3e",
+  "zipBytes": 395021,
+  "upstreamSha256": "ad7bd25a7341379c34717b2caa17d22f4bbab8fe3ad3442f5a7d3f8c0540fd3e",
+  "files": 17,
+  "treeSha256": "01104f3d3a751cb3d66c8d381fe5667646df447e270fcc2ea50f0e78356cb16f",
+  "fetchedAt": "2026-11-18T10:43:27.956Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

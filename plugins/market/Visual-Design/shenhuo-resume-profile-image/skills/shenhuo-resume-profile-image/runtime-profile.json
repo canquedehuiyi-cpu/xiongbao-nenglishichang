@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-resume-profile-image",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_0b46285498ef",
+    "slug": "office_resume_profile_designer",
+    "name": "简历简介"
+  }
+}

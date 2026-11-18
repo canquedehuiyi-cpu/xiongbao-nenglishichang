@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-tattoo-design",
+  "version": "1.1.0",
+  "displayName": "纹身设计师",
+  "description": "围绕个人主题、部位与尺寸设计纹身图案，提供白底图稿、上身预览或线稿参考，帮助沟通轮廓、留白和位置。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "原创图案",
+    "上身预览",
+    "线稿参考"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-tattoo-design-brief",
+    "./skills/shenhuo-tattoo-design",
+    "./skills/shenhuo-tattoo-design-delivery"
+  ]
+}

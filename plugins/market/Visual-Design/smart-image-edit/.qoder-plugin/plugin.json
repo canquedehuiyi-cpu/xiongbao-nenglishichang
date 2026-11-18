@@ -1,0 +1,40 @@
+{
+  "name": "smart-image-edit",
+  "displayName": "智能图片编辑",
+  "version": "1.0.0",
+  "description": "整合智能画布图片工具，支持抠图、修图、扩图、超分、改字翻译、图层分离、换角度与矢量化，并引导裁剪、旋转、调色和精确贴合。",
+  "author": {
+    "name": "chenyth"
+  },
+  "keywords": [
+    "图片编辑",
+    "图层编辑",
+    "图文编辑",
+    "图片分层",
+    "图片分离",
+    "抠图",
+    "改字",
+    "超分",
+    "矢量化"
+  ],
+  "skills": [
+    "./skills/image-text-layers",
+    "./skills/image-object-layers",
+    "./skills/image-comment-edit",
+    "./skills/image-fast-cutout",
+    "./skills/image-ai-background-remove",
+    "./skills/image-expand",
+    "./skills/image-upscale-scale",
+    "./skills/image-upscale-resolution",
+    "./skills/image-ocr",
+    "./skills/image-text-translate",
+    "./skills/image-text-edit",
+    "./skills/image-multi-angle",
+    "./skills/image-vectorize-cloud",
+    "./skills/image-crop",
+    "./skills/image-flip-rotate",
+    "./skills/image-color-adjust",
+    "./skills/image-surface-decal",
+    "./skills/image-vectorize-local"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "dab57f35-ed77-428c-8aec-56429d5513f4",
+  "name": "shenhuo-social-avatar",
+  "displayName": "Social Media Avatars",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181af-fc0c-72a6-9413-58cdb4b3bbf5/7df58dbb_社交媒体头像.zip",
+  "zipSha256": "3e4cb4c1590b2c802d5e05635fefe1db2fa1fa73f49e99a24abcaac037617f3d",
+  "zipBytes": 424075,
+  "upstreamSha256": "3e4cb4c1590b2c802d5e05635fefe1db2fa1fa73f49e99a24abcaac037617f3d",
+  "files": 17,
+  "treeSha256": "94f884c7131d32198c85d4335a57579990c3e0b76fe97fe33aecddfe33b18bba",
+  "fetchedAt": "2026-11-18T10:43:25.911Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

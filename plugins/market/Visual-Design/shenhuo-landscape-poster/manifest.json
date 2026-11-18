@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "1400bd7b-4efb-4a38-9241-e1bd0f49fcd9",
+  "name": "shenhuo-landscape-poster",
+  "displayName": "Shenhuo Landscape Posters",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181a9-bbf3-7d8e-8625-3a7e72fde703/215a0f2d_神火横版海报.zip",
+  "zipSha256": "36fb8408030c5ad0e9751aabd9636840b6e41ccf0efa7a307947be01f18ca006",
+  "zipBytes": 436421,
+  "upstreamSha256": "36fb8408030c5ad0e9751aabd9636840b6e41ccf0efa7a307947be01f18ca006",
+  "files": 17,
+  "treeSha256": "1b862e0dd7ee82460fa157bb56db3c50f1965a7084766dd13f691fde3bf64b60",
+  "fetchedAt": "2026-11-18T10:43:29.562Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

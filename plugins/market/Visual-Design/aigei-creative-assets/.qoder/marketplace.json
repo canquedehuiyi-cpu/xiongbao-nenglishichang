@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "efd6b134-5f14-4394-b847-97829baae809",
+  "itemName": "aigei-creative-assets",
+  "displayName": "Aigei Assets",
+  "version": "1.0.2",
+  "packageKind": "plugin"
+}

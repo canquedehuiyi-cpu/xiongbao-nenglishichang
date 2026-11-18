@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "6eadca8b-959d-4522-a595-448470e5d362",
+  "itemName": "worldstip-travel-planner",
+  "displayName": "WorldsTip Travel Planner (Expert Pack)",
+  "version": "0.1.16",
+  "packageKind": "plugin"
+}

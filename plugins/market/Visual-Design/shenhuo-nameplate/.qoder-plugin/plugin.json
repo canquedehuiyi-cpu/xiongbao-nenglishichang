@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-nameplate",
+  "version": "1.1.0",
+  "displayName": "标牌设计师",
+  "description": "根据准确姓名、职务与班级信息，制作会议桌牌、课堂姓名标签及明确折法的双面展开图片。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "会议桌牌",
+    "课堂姓名牌",
+    "折叠展开图"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-nameplate-brief",
+    "./skills/shenhuo-nameplate",
+    "./skills/shenhuo-nameplate-delivery"
+  ]
+}

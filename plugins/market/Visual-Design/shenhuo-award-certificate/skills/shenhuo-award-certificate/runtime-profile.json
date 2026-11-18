@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-award-certificate",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_9e5df35c98e6",
+    "slug": "office_award_certificate_designer",
+    "name": "奖状证书"
+  }
+}

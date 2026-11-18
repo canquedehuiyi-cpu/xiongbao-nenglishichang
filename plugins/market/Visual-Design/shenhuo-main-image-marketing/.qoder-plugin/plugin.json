@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-main-image-marketing",
+  "version": "1.1.0",
+  "displayName": "营销设计师",
+  "description": "在现有商品主图上整理卖点、价格优惠与服务权益，保留商品身份，制作商品清楚、条件完整的营销图片。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "主图加字",
+    "价格优惠",
+    "卖点包装"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-main-image-marketing-brief",
+    "./skills/shenhuo-main-image-marketing",
+    "./skills/shenhuo-main-image-marketing-delivery"
+  ]
+}

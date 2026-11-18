@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "81cde955-25ce-421b-9fcb-1458b9d673b4",
+  "name": "shenhuo-square-logo",
+  "displayName": "Square Logo Images",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181af-feb6-715e-90d0-ac5320eff58d/61654160_方形LOGO.zip",
+  "zipSha256": "690e4cd6cc9548dc6122327883767ab2b1dbcb305ee600a39214ef1eb68f2fa0",
+  "zipBytes": 397186,
+  "upstreamSha256": "690e4cd6cc9548dc6122327883767ab2b1dbcb305ee600a39214ef1eb68f2fa0",
+  "files": 17,
+  "treeSha256": "ee81da8bd92b913b17e765fbc0a239c305dd5e89d764f7765d642370da056f3e",
+  "fetchedAt": "2026-11-18T10:43:22.576Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

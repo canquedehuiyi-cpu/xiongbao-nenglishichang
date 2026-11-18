@@ -1,0 +1,56 @@
+{
+  "name": "worldstip-travel-planner",
+  "displayName": "旅行规划师",
+  "version": "0.1.16",
+  "description": "WorldsTip旅行指南小册子：国内 + 出境双模式旅行规划专家。在有限预算/天数/体力下替用户砍掉一半、排对顺序、保证不翻车，生成 A5 紧凑卡册风格（米白底+深墨绿主色+14px紧凑+零图+字段密集）的 HTML/PDF 行程小册子。五大能力支柱——①国内全交通族系（公共交通/自驾/骑行/徒步/极限运动/自然美景/演唱会锚点）；②摩旅五项门禁自检（准驾证件/头盔/逐省高速准入/逐城禁摩/续航加油半径，里程高德实算优先）；③房车自驾后勤自检（限高/驾照牌照/补给半径/黑灰水合规/营地路线/终点停靠证据优先）；④出境可行性门禁卡（护照/签证/疫苗/保险四灯+四维约束）；⑤散心模式（只出目的地不出交通，治愈系推荐）。贯穿全程的可信度内核（stable/volatile/unknown），易变信息强制联网核验并打日期戳，查不到即灰灯待查，绝不编造。",
+  "author": {
+    "name": "MrdT"
+  },
+  "homepage": "https://worldstip.com",
+  "logo": "./assets/logo.svg",
+  "keywords": [
+    "qoder-plugin",
+    "skill",
+    "travel",
+    "旅行规划",
+    "行程小册子",
+    "摩旅",
+    "房车自驾",
+    "出境游"
+  ],
+  "category": "travel",
+  "tags": [
+    "旅行",
+    "行程规划",
+    "自驾游",
+    "摩旅",
+    "房车",
+    "出境游",
+    "小册子"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "旅行规划师",
+    "shortDescription": "国内 + 出境双模式旅行规划，生成 A5 紧凑卡册风格 HTML/PDF 小册子",
+    "longDescription": "WorldsTip旅行指南小册子不告诉你有什么，而是在有限预算、天数和体力下替你砍掉一半、排对顺序、并保证这趟不翻车。覆盖国内全交通族系、摩旅五项门禁自检、房车自驾后勤自检、出境可行性门禁卡、散心模式五大能力支柱；全程以可信度内核区分 stable/volatile/unknown，易变信息强制联网核验并打日期戳，查不到即灰灯待查，绝不编造。产出为 A5 紧凑卡册风格（米白底+深墨绿+14px紧凑+零图+字段密集）、可直接照着走的 HTML/PDF 行程小册子。",
+    "developerName": "MrdT",
+    "category": "travel",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "帮我规划一个三天两晚的周边游",
+      "从杭州到三亚 5 天怎么玩、怎么排顺序",
+      "摩托车跑山路线推荐，含禁摩和续航提醒",
+      "房车自驾川藏线，补给和黑灰水怎么处理",
+      "出境去日本要办哪些手续、签证免签怎么判",
+      "最近心情不好想出去玩3天去哪合适"
+    ],
+    "brandColor": "#0EA5E9",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}

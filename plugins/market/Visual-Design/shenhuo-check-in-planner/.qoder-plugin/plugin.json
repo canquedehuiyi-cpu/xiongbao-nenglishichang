@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-check-in-planner",
+  "version": "1.1.0",
+  "displayName": "手账设计师",
+  "description": "把每日任务、每周安排、习惯打卡与阅读记录整理成清楚易填的静态图片，保留真实日期与书写空间。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "习惯打卡",
+    "每日计划",
+    "阅读记录"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-check-in-planner-brief",
+    "./skills/shenhuo-check-in-planner",
+    "./skills/shenhuo-check-in-planner-delivery"
+  ]
+}

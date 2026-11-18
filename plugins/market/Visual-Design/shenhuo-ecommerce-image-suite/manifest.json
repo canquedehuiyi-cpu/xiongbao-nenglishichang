@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "b7797221-ad3a-4e04-b147-5148bbce2229",
+  "name": "shenhuo-ecommerce-image-suite",
+  "displayName": "Ecommerce Main and Detail Images",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181a9-a134-7c33-8cd7-01163320ee3f/9a2b5252_电商主图与详情.zip",
+  "zipSha256": "db0972af9bc946937fa32743fd50bb44c42afcd6f26ed216486b88e43a62d53c",
+  "zipBytes": 415289,
+  "upstreamSha256": "db0972af9bc946937fa32743fd50bb44c42afcd6f26ed216486b88e43a62d53c",
+  "files": 17,
+  "treeSha256": "34854a232c5a5b5def68ce4ef03f0b385b2cb7bda5e635a9ec399165336da3d2",
+  "fetchedAt": "2026-11-18T10:43:20.889Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

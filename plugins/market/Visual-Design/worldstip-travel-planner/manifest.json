@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "6eadca8b-959d-4522-a595-448470e5d362",
+  "name": "worldstip-travel-planner",
+  "displayName": "WorldsTip Travel Planner (Expert Pack)",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.16",
+  "publisher": "MrdT",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1dacd-13fd-7484-a0cd-957c70248f92/d5ee313f01bd4e72c42896ecc38bac85960ef726e95364b41e84de7d4312d11b.zip",
+  "zipSha256": "d5ee313f01bd4e72c42896ecc38bac85960ef726e95364b41e84de7d4312d11b",
+  "zipBytes": 707772,
+  "upstreamSha256": "d5ee313f01bd4e72c42896ecc38bac85960ef726e95364b41e84de7d4312d11b",
+  "files": 91,
+  "treeSha256": "05550a1a48fb3132336e94ec26ae62857bec29ea465359730fbff94de6fde1c4",
+  "fetchedAt": "2026-11-18T10:43:38.237Z",
+  "credentialScan": {
+    "textFilesScanned": 87,
+    "filesRedacted": 0
+  },
+  "note": null
+}

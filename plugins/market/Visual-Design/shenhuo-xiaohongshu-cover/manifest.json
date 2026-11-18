@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "1b558926-05fa-4e8f-89ec-59d1991de6bc",
+  "name": "shenhuo-xiaohongshu-cover",
+  "displayName": "Xiaohongshu Cover Design",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181b0-1379-7175-a2da-5731091e66ae/8cb31d17_小红书封面.zip",
+  "zipSha256": "0d7561d6674b1019ade0eb5a83b4fe547abb562b963d661eaaed80c2ee5f7d3c",
+  "zipBytes": 432443,
+  "upstreamSha256": "0d7561d6674b1019ade0eb5a83b4fe547abb562b963d661eaaed80c2ee5f7d3c",
+  "files": 17,
+  "treeSha256": "b2b2ee8559536f6f28b405186289f107f4695cada94b9382c7cc7837c7525176",
+  "fetchedAt": "2026-11-18T10:43:19.803Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,12 @@
+{
+  "name": "meituhub-ppt",
+  "version": "0.4.0",
+  "displayName": "PPT生成/美化·MeituHub",
+  "description": "把资料讲清楚，把重点做出来。先梳理内容与证据，再设计图文和数据页面；支持新建 PPT、旧稿美化、HTML 演示与配图，文字和数据可继续编辑。",
+  "author": {
+    "name": "Meitu"
+  },
+  "homepage": "https://meituhub.cn",
+  "skills": "./skills",
+  "rules": "./rules"
+}

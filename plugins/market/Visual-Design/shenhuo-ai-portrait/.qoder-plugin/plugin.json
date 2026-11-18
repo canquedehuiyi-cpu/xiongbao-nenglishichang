@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-ai-portrait",
+  "version": "1.1.0",
+  "displayName": "写真摄影师",
+  "description": "根据本人或宠物照片创作主题写真，设计服装、姿态、光线与场景，在保留识别特征的基础上表达不同形象。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "主题写真",
+    "个人形象",
+    "宠物写真"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-ai-portrait-brief",
+    "./skills/shenhuo-ai-portrait",
+    "./skills/shenhuo-ai-portrait-delivery"
+  ]
+}

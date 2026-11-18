@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "c04d6f23-9bd1-4757-8762-cf7fed227113",
+  "name": "meituhub-culling",
+  "displayName": "Photo Culling · MeituHub",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.4.0",
+  "publisher": "Meitu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1e860-b4cc-7c51-b9d5-b6b393ed01f4/4e5f2f2342566894165592aa7601ce19bb6d523fa2f67a97efc841caca01c350.zip",
+  "zipSha256": "4e5f2f2342566894165592aa7601ce19bb6d523fa2f67a97efc841caca01c350",
+  "zipBytes": 233499,
+  "upstreamSha256": "4e5f2f2342566894165592aa7601ce19bb6d523fa2f67a97efc841caca01c350",
+  "files": 25,
+  "treeSha256": "f4c14a03fb83ac0ee548aae0fd27aa2823478d02a5b854dd43565b373e49a955",
+  "fetchedAt": "2026-11-18T10:43:38.542Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

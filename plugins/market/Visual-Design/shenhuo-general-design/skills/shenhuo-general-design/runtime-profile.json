@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-general-design",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_c32930a73414",
+    "slug": "default_designer",
+    "name": "神火设计"
+  }
+}

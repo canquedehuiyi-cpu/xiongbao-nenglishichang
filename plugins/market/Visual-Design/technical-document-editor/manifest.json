@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "2193adc2-e324-4e95-bef1-a87140a5994c",
+  "name": "technical-document-editor",
+  "displayName": "Technical Documentation Editor",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "tulink",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1d740-d979-76d6-b2f7-566def7fc6e0/d41cc2de6c9102553a2d770f50c2ece8852005d476967c7a30ec456aca3da286.zip",
+  "zipSha256": "d41cc2de6c9102553a2d770f50c2ece8852005d476967c7a30ec456aca3da286",
+  "zipBytes": 215444,
+  "upstreamSha256": "d41cc2de6c9102553a2d770f50c2ece8852005d476967c7a30ec456aca3da286",
+  "files": 11,
+  "treeSha256": "2434ada9ab427926a6c9824994df2b7abf5a2278ca6391df7a033380fbffc4c6",
+  "fetchedAt": "2026-11-18T10:43:33.285Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

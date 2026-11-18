@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "aad36cb2-ef4e-4bf9-a38a-bb0f044bf84b",
+  "itemName": "course-designer",
+  "displayName": "Course Designer",
+  "version": "0.1.0",
+  "packageKind": "plugin"
+}

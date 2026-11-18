@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "0b7a3a1d-9627-4d8b-9370-858ba4010799",
+  "name": "shenhuo-operations-poster",
+  "displayName": "Shenhuo Operations Posters",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181af-ef0b-7367-a8af-eb5005282b8f/f0558142_神火运营海报.zip",
+  "zipSha256": "3535c5c7156b64f2fd824e39bbb09405d5c561ec4444f7c0bed61c48cc71ca4a",
+  "zipBytes": 428850,
+  "upstreamSha256": "3535c5c7156b64f2fd824e39bbb09405d5c561ec4444f7c0bed61c48cc71ca4a",
+  "files": 17,
+  "treeSha256": "7e666a447fb83096d96b86bfce551e98bef5e112601c59f26e1817f2554132e4",
+  "fetchedAt": "2026-11-18T10:43:26.178Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

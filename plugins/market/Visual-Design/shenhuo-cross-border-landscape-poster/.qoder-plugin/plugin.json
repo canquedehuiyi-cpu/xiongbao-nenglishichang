@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-cross-border-landscape-poster",
+  "version": "1.1.0",
+  "displayName": "跨境海报美工",
+  "description": "为海外店铺制作上新、促销和商品系列横版海报，默认英文，兼顾实际商品、优惠条件与图位要求。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "海外店铺横图",
+    "新品促销",
+    "多语言海报"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-cross-border-landscape-poster-brief",
+    "./skills/shenhuo-cross-border-landscape-poster",
+    "./skills/shenhuo-cross-border-landscape-poster-delivery"
+  ]
+}

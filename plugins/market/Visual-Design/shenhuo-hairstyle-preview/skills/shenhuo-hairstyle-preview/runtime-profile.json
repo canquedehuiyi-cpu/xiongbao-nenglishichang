@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-hairstyle-preview",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_c787385e768f",
+    "slug": "hairstyle_preview_designer",
+    "name": "发型预览"
+  }
+}

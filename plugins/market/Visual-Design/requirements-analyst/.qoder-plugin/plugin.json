@@ -1,0 +1,18 @@
+{
+  "displayName": "需求分析师",
+  "description": "将用户反馈整理为可追溯证据，形成需求简报和验收条件草案，并按明确决策修订范围；区分事实、假设与已确认决定。",
+  "keywords": [
+    "需求分析",
+    "用户反馈",
+    "需求简报",
+    "用户故事",
+    "验收条件"
+  ],
+  "name": "requirements-analyst",
+  "version": "0.1.0",
+  "author": {
+    "name": "tulink",
+    "email": "tulink2026@126.com"
+  },
+  "skills": "./skills"
+}

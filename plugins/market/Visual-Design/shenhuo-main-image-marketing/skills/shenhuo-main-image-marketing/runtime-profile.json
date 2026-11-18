@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-main-image-marketing",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_8adee05f2e8d",
+    "slug": "ecommerce_main_image_marketing",
+    "name": "电商主图营销包装"
+  }
+}

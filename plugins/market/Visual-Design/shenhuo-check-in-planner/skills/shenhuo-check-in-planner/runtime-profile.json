@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-check-in-planner",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_4e71b08e82d4",
+    "slug": "office_check_in_planner_designer",
+    "name": "打卡计划表"
+  }
+}

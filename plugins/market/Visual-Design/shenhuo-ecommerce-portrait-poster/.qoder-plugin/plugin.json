@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-ecommerce-portrait-poster",
+  "version": "1.1.0",
+  "displayName": "电商海报美工",
+  "description": "把商品上新、真实优惠与品牌主题做成完整竖版海报，突出商品外观，清楚呈现购买理由和活动条件。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "新品上新",
+    "商品促销",
+    "品牌主题"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-ecommerce-portrait-poster-brief",
+    "./skills/shenhuo-ecommerce-portrait-poster",
+    "./skills/shenhuo-ecommerce-portrait-poster-delivery"
+  ]
+}

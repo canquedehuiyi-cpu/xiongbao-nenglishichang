@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-information-explainer",
+  "version": "1.1.0",
+  "displayName": "信息图设计师",
+  "description": "将文章、新闻、知识或产品资料整理成解释性图片，提炼重点与关系，保留来源和必要条件，方便理解。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "新闻图解",
+    "知识科普",
+    "产品说明"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-information-explainer-brief",
+    "./skills/shenhuo-information-explainer",
+    "./skills/shenhuo-information-explainer-delivery"
+  ]
+}

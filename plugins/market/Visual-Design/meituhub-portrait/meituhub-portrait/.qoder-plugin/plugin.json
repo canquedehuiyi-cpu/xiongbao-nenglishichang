@@ -1,0 +1,12 @@
+{
+  "name": "meituhub-portrait",
+  "version": "0.4.0",
+  "displayName": "人像精修·MeituHub",
+  "description": "修好光线、肤色和局部细节，保留人物原本的样子。支持单张与整组精修、自然美颜、调色样片与 XMP 预设，也能修复老照片。",
+  "author": {
+    "name": "Meitu"
+  },
+  "homepage": "https://meituhub.cn",
+  "skills": "./skills",
+  "rules": "./rules"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-ecommerce-logo",
+  "version": "1.1.0",
+  "displayName": "商标设计师",
+  "description": "从准确店名与主营商品出发，设计清楚好认的店铺标志图片，支持原标改名、横向组合和单色版本。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "店铺标志",
+    "原标修改",
+    "同标适配"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-ecommerce-logo-brief",
+    "./skills/shenhuo-ecommerce-logo",
+    "./skills/shenhuo-ecommerce-logo-delivery"
+  ]
+}

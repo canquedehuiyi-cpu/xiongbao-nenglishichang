@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "e36166e4-9894-4be7-aea3-a2b68e89b736",
+  "name": "shenhuo-business-card",
+  "displayName": "Business Card Design",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1818a-02a4-7ef7-999d-ff0907e1b3ce/1189c3fe_shenhuo-business-card-1.1.0.zip",
+  "zipSha256": "449d1af26f2332099cdad9bb2336c3a0504bcfef3a73e21175c87547e7810898",
+  "zipBytes": 404768,
+  "upstreamSha256": "449d1af26f2332099cdad9bb2336c3a0504bcfef3a73e21175c87547e7810898",
+  "files": 17,
+  "treeSha256": "8709a6a618e27de36b386a2ccf62b8801dd57477569cf70576a8017bc543476b",
+  "fetchedAt": "2026-11-18T10:43:27.695Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

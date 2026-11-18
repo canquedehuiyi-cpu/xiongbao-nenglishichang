@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "c04d6f23-9bd1-4757-8762-cf7fed227113",
+  "itemName": "meituhub-culling",
+  "displayName": "Photo Culling · MeituHub",
+  "version": "0.4.0",
+  "packageKind": "plugin"
+}

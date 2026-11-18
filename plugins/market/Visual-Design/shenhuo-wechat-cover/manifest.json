@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "43615d8b-4265-4ba8-b0d4-23e873b9ec7d",
+  "name": "shenhuo-wechat-cover",
+  "displayName": "WeChat Article Covers",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181b0-067f-7af5-970a-e87a2895dbc6/3b0e6de4_公众号首图.zip",
+  "zipSha256": "94fc0ae3d26eed5a78b21bc4f753625a1926c657d089c3ffc2a4e2b3a86c0e8f",
+  "zipBytes": 411144,
+  "upstreamSha256": "94fc0ae3d26eed5a78b21bc4f753625a1926c657d089c3ffc2a4e2b3a86c0e8f",
+  "files": 17,
+  "treeSha256": "33021e0851d6d79a352f77a748472b379fece810acbe2c334c6551c6468ca4a6",
+  "fetchedAt": "2026-11-18T10:43:20.388Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

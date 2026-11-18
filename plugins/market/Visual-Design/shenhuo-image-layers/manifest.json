@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "dd168b9a-5bce-4c9f-8552-cd5a4f8a34b0",
+  "name": "shenhuo-image-layers",
+  "displayName": "Shenhuo Image Layering",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.2",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1a0a3-623e-7aac-9daa-b59ad24e718d/e8e10eb8_image-layer-1.0.2.zip",
+  "zipSha256": "3c0a83bf3a28419c4ae5e370c94d030b199ef755b7eb2501098102c791e76f38",
+  "zipBytes": 69007,
+  "upstreamSha256": "3c0a83bf3a28419c4ae5e370c94d030b199ef755b7eb2501098102c791e76f38",
+  "files": 12,
+  "treeSha256": "84ef5df06c722e9965d3993b4472d66ec9f4a4ac10df5d48c394f34720085a21",
+  "fetchedAt": "2026-11-18T10:43:30.136Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

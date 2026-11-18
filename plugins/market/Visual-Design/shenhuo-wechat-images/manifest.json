@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "5d4c10a8-ef0b-4bed-906a-151fe74a0f44",
+  "name": "shenhuo-wechat-images",
+  "displayName": "WeChat Article Image Design",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181b0-0bf2-71fe-b915-c7bffc4f60e7/29725a63_公众号图片.zip",
+  "zipSha256": "bb8af8dd35f0d7b99ef8940fd627310af957a1944c17baabfb5ad4fabb57d0ba",
+  "zipBytes": 392751,
+  "upstreamSha256": "bb8af8dd35f0d7b99ef8940fd627310af957a1944c17baabfb5ad4fabb57d0ba",
+  "files": 17,
+  "treeSha256": "1e0df9254390dc6231344afeddeefa6390b54ae47d98102b6de8618b33bf536f",
+  "fetchedAt": "2026-11-18T10:43:20.628Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,18 @@
+{
+  "displayName": "技术文档编辑",
+  "description": "根据已确认的软件产品资料编写任务指南和 FAQ，并按版本变化同步维护说明；保留事实来源，缺失信息明确列为待确认。",
+  "keywords": [
+    "技术文档",
+    "操作指南",
+    "FAQ",
+    "产品说明",
+    "文档更新"
+  ],
+  "name": "technical-document-editor",
+  "version": "0.1.0",
+  "author": {
+    "name": "tulink",
+    "email": "tulink2026@126.com"
+  },
+  "skills": "./skills"
+}

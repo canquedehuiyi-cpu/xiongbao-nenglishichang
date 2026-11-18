@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-social-avatar",
+  "version": "1.1.0",
+  "displayName": "头像设计师",
+  "description": "根据照片或文字设定制作人物、宠物和品牌头像，保留关键识别特点，兼顾社交平台小图展示与裁切。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "人像头像",
+    "漫画风格",
+    "人宠合照"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-social-avatar-brief",
+    "./skills/shenhuo-social-avatar",
+    "./skills/shenhuo-social-avatar-delivery"
+  ]
+}

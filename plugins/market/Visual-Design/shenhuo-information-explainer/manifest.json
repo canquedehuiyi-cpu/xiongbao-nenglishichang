@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "d8fc4228-06d1-4596-bd66-d5dbaf023792",
+  "name": "shenhuo-information-explainer",
+  "displayName": "Shenhuo Information Explainers",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181a9-b9b6-7b08-9f8a-0ca9df2708a3/9900583e_神火信息解读图.zip",
+  "zipSha256": "de88c0a80335e89419fd785d3aef74a2848e3011ae5e9232fea13326f8716721",
+  "zipBytes": 409381,
+  "upstreamSha256": "de88c0a80335e89419fd785d3aef74a2848e3011ae5e9232fea13326f8716721",
+  "files": 17,
+  "treeSha256": "27d977387ca688bc33de9a37c58e3453cb5b525e0b52b59e4c85e56c7f8ab5c6",
+  "fetchedAt": "2026-11-18T10:43:29.192Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

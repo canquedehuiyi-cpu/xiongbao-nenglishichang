@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-wechat-cover",
+  "version": "1.1.0",
+  "displayName": "封面设计师",
+  "description": "根据文章主题、活动信息和真实素材，设计标题清楚、画面贴题的公众号宽幅首图，让读者快速看懂内容重点。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "文章封面",
+    "活动推广",
+    "通知公告"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-wechat-cover-brief",
+    "./skills/shenhuo-wechat-cover",
+    "./skills/shenhuo-wechat-cover-delivery"
+  ]
+}

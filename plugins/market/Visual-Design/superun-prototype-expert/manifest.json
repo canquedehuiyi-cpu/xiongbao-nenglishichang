@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "29dc3022-dcd3-4553-991e-d223ab9f0c94",
+  "name": "superun-prototype-expert",
+  "displayName": "superun-prototype-expert",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.15",
+  "publisher": "xiuyu.yi",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a18b88-67a1-71c4-a4d5-681808945512/0282ef3d_superun-prototype-expert-qoder-plugin_(1).zip",
+  "zipSha256": "d9f5eaa24801b73d3b461cc975612fc39869ed4e59dbe0e7d14e661628580b91",
+  "zipBytes": 380283,
+  "upstreamSha256": "d9f5eaa24801b73d3b461cc975612fc39869ed4e59dbe0e7d14e661628580b91",
+  "files": 11,
+  "treeSha256": "84700b46b37dfee95d81d69a57c0baf598d19f7015637f2f7eb87dce19c3e258",
+  "fetchedAt": "2026-11-18T10:43:21.115Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

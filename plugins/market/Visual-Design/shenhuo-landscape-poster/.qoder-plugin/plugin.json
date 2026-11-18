@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-landscape-poster",
+  "version": "1.1.0",
+  "displayName": "海报设计师",
+  "description": "为微信群分享制作横版海报，整理上新、活动、直播和通知内容，让主体清楚、信息有序、行动入口易读。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "横版推广",
+    "活动预告",
+    "直播海报"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-landscape-poster-brief",
+    "./skills/shenhuo-landscape-poster",
+    "./skills/shenhuo-landscape-poster-delivery"
+  ]
+}

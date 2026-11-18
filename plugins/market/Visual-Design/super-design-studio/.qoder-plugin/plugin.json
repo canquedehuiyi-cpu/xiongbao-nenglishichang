@@ -1,0 +1,31 @@
+{
+  "name": "super-design-studio",
+  "displayName": "超级设计工坊",
+  "version": "1.0.0",
+  "description": "Full-chain UX design AI toolkit for e-commerce channel design leaders — covering design strategy, UI production, competitor analysis, motion graphics, asset generation, and design delivery. Combines a design brain, production engine, and asset extender into one plugin.",
+  "descriptionZh": "百亿补贴频道 UX 设计全链路 AI 工具箱 = 设计大脑 + 生产引擎 + 资产扩展。覆盖需求分析、设计策略、界面生产、竞品分析、动效生成、图形素材、设计交付全流程，面向电商频道 UX/体验设计负责人。",
+  "author": {
+    "name": "[PLACEHOLDER]",
+    "url": "[PLACEHOLDER]"
+  },
+  "category": "design",
+  "tags": [
+    "ux-design",
+    "e-commerce",
+    "ui-production",
+    "design-system",
+    "motion",
+    "graphic",
+    "competitor-analysis",
+    "design-delivery"
+  ],
+  "skills": [
+    "./skills/impeccable",
+    "./skills/ux-expert",
+    "./skills/compete",
+    "./skills/deliver",
+    "./skills/graphic",
+    "./skills/motion",
+    "./skills/onboarding"
+  ]
+}

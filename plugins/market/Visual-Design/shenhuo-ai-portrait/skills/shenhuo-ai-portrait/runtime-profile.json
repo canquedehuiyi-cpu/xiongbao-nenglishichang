@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-ai-portrait",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_c51cf9f5b8fe",
+    "slug": "ai_portrait_designer",
+    "name": "AI写真"
+  }
+}

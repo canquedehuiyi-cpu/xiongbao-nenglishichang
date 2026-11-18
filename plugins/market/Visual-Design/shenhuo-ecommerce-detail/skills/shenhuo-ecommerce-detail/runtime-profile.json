@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-ecommerce-detail",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_031548caecd0",
+    "slug": "ecommerce_detail_v3",
+    "name": "电商详情图"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "f76c692d-68fc-4fd2-b94b-cd2f638e006c",
+  "name": "shenhuo-cross-border-portrait-poster",
+  "displayName": "Cross-border Portrait Posters",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181a9-9944-7e44-b07a-d21b2bd90699/91385ab9_跨境电商竖版海报.zip",
+  "zipSha256": "fa440c9dcbdcec6b076795643af36abc5a4181b942357bf42698da7bcc23bcbc",
+  "zipBytes": 424471,
+  "upstreamSha256": "fa440c9dcbdcec6b076795643af36abc5a4181b942357bf42698da7bcc23bcbc",
+  "files": 17,
+  "treeSha256": "2b8a934b6ff478beb72a84a0952ec8b759f4311ccb41b3856c29c63f2c2ffa34",
+  "fetchedAt": "2026-11-18T10:43:29.860Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

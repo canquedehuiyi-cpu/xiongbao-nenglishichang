@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "187311d5-0a91-45b9-a8c7-19b6d42ae6f8",
+  "name": "meituhub-cn",
+  "displayName": "MeituHub AI Media Creation",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.9",
+  "publisher": "Meitu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1afca-8dcd-775c-bef2-98d9979efb14/dd22e8c4_meituhub-qoder-cn-0.1.9.zip",
+  "zipSha256": "75aaa8a9dab15aac42563161db112213296411b31e8713804296ee20c4adcf2e",
+  "zipBytes": 23204,
+  "upstreamSha256": "75aaa8a9dab15aac42563161db112213296411b31e8713804296ee20c4adcf2e",
+  "files": 11,
+  "treeSha256": "d1d8f172e2b59ac04852631df864fb081bf82412c68d3d365c6809648b0c85b5",
+  "fetchedAt": "2026-11-18T10:43:18.244Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

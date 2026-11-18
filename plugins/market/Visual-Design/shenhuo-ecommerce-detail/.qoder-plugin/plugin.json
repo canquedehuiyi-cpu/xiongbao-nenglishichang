@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-ecommerce-detail",
+  "version": "1.1.0",
+  "displayName": "详情页设计师",
+  "description": "上传商品图片和资料，生成风格连贯的电商详情图，讲清商品卖点、使用方式与选购信息，支持限量试用。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "详情设计",
+    "卖点表达",
+    "选购说明"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-ecommerce-detail-brief",
+    "./skills/shenhuo-ecommerce-detail",
+    "./skills/shenhuo-ecommerce-detail-delivery"
+  ]
+}

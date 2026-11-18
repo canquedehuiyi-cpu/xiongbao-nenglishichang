@@ -1,0 +1,12 @@
+{
+  "name": "meituhub-game",
+  "version": "0.4.0",
+  "displayName": "游戏资产生成·MeituHub",
+  "description": "按同一套画风制作 2D 游戏角色、场景、道具、界面和宣发素材。从角色设定延展到表情与动作，支持图集、动画数据和预览动图交付。",
+  "author": {
+    "name": "Meitu"
+  },
+  "homepage": "https://meituhub.cn",
+  "skills": "./skills",
+  "rules": "./rules"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-work-badge",
+  "version": "1.1.0",
+  "displayName": "工牌设计师",
+  "description": "按真实机构、姓名和职责设计工牌图片，支持横竖版与活动工作人员牌，字段清楚对应，交付静态视觉稿。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "员工工牌",
+    "部门身份牌",
+    "活动工作牌"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-work-badge-brief",
+    "./skills/shenhuo-work-badge",
+    "./skills/shenhuo-work-badge-delivery"
+  ]
+}

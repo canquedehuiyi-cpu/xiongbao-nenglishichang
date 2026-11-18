@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-social-avatar",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_ecfe4f4eb672",
+    "slug": "avatar_designer",
+    "name": "社交媒体头像"
+  }
+}

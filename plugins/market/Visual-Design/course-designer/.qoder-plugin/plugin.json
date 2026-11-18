@@ -1,0 +1,19 @@
+{
+  "displayName": "课程设计师",
+  "description": "依据岗位任务和业务资料设计学习目标、课程安排、讲师提纲及学员演练，并按反馈修订课程；练习答案保留业务依据。",
+  "keywords": [
+    "课程设计",
+    "内部培训",
+    "备课",
+    "教学活动",
+    "学员演练",
+    "讲师提纲"
+  ],
+  "name": "course-designer",
+  "version": "0.1.0",
+  "author": {
+    "name": "tulink",
+    "email": "tulink2026@126.com"
+  },
+  "skills": "./skills"
+}

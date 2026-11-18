@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-cross-border-main-images",
+  "version": "1.1.0",
+  "displayName": "跨境主图美工",
+  "description": "用真实商品素材制作海外首图、场景、细节与规格副图，新增文案默认英文，按实际平台图位安排。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "海外商品首图",
+    "场景细节",
+    "多语言副图"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-cross-border-main-images-brief",
+    "./skills/shenhuo-cross-border-main-images",
+    "./skills/shenhuo-cross-border-main-images-delivery"
+  ]
+}

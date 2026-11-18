@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-resume-profile-image",
+  "version": "1.1.0",
+  "displayName": "简历设计师",
+  "description": "将真实教育、项目与工作经历整理成简历简介图片，也支持课堂自我介绍，分清事实和愿望，保持文字易读。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "简历图片",
+    "职业简介",
+    "自我介绍"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-resume-profile-image-brief",
+    "./skills/shenhuo-resume-profile-image",
+    "./skills/shenhuo-resume-profile-image-delivery"
+  ]
+}

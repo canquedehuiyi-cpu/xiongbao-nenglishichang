@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "3e1aec9b-4c7f-403c-ba00-e7997f28855c",
+  "name": "shenhuo-general-design",
+  "displayName": "Shenhuo Visual Design",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181a9-ad8d-7b05-a7cc-49c3e9fde0ba/324ccdfe_神火设计.zip",
+  "zipSha256": "ec81c650e94f3a42f0fb32aa0169c4c03bbeb4d2f63cb99c8c143dd3899fbf82",
+  "zipBytes": 405320,
+  "upstreamSha256": "ec81c650e94f3a42f0fb32aa0169c4c03bbeb4d2f63cb99c8c143dd3899fbf82",
+  "files": 17,
+  "treeSha256": "0d721eaffc9a747bb8a6b4645bb849493585acf942452df29bb59e3c4c7e0883",
+  "fetchedAt": "2026-11-18T10:43:24.115Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,12 @@
+{
+  "name": "meituhub-web",
+  "version": "0.4.0",
+  "displayName": "网页设计·MeituHub",
+  "description": "把资料和参考页面做成能打开、能点击的网页。支持网站设计、风格改版、网页复刻、配图动效和小程序制作，交付源码与预览。",
+  "author": {
+    "name": "Meitu"
+  },
+  "homepage": "https://meituhub.cn",
+  "skills": "./skills",
+  "rules": "./rules"
+}

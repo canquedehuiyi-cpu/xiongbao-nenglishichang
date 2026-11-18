@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "5e31dde8-0b5e-486a-9a7e-07fc28c345c8",
+  "name": "requirements-analyst",
+  "displayName": "Requirements Analyst",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "tulink",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1d743-4121-77cb-8648-e793e2a322a8/c2e85ebd26f189114779470362aaac33fc49c2add478b709d7f54afa98babc1d.zip",
+  "zipSha256": "c2e85ebd26f189114779470362aaac33fc49c2add478b709d7f54afa98babc1d",
+  "zipBytes": 215085,
+  "upstreamSha256": "c2e85ebd26f189114779470362aaac33fc49c2add478b709d7f54afa98babc1d",
+  "files": 11,
+  "treeSha256": "d9b3512df10cc9215eca552229396d2dc992e766bee471228d92fabaedda3ea2",
+  "fetchedAt": "2026-11-18T10:43:31.605Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

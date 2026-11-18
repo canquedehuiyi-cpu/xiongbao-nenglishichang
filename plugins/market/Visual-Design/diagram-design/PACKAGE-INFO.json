@@ -1,0 +1,46 @@
+{
+  "upstream_repository": "https://github.com/cathrynlavery/diagram-design",
+  "upstream_commit": "97d795138448f6a739a0cebc3d9beb37a42077f1",
+  "plugin_name": "diagram-design",
+  "plugin_version": "2.6.131",
+  "package_target": "Qoder local installation",
+  "packaged_date": "2026-10-27",
+  "upstream_files_modified": false,
+  "license_sources": [
+    {
+      "file": "licenses/tabler-icons-LICENSE.txt",
+      "repository": "tabler/tabler-icons",
+      "path": "LICENSE",
+      "url": "https://github.com/tabler/tabler-icons/blob/main/LICENSE",
+      "blob_sha": "3e82379dab3fe93d9ee22251949604ed63ddea39"
+    },
+    {
+      "file": "licenses/log-z-logos-LICENSE.txt",
+      "repository": "log-z/logos",
+      "path": "LICENSE",
+      "url": "https://github.com/log-z/logos/blob/main/LICENSE",
+      "blob_sha": "078f0eb09ffd6cca38136e79c57bba55dd46275f"
+    },
+    {
+      "file": "licenses/devicon-LICENSE.txt",
+      "repository": "devicons/devicon",
+      "path": "LICENSE",
+      "url": "https://github.com/devicons/devicon/blob/master/LICENSE",
+      "blob_sha": "fcc9b6677248224a60d060ccc6851eb420fa003d"
+    },
+    {
+      "file": "licenses/simple-icons-LICENSE.txt",
+      "repository": "simple-icons/simple-icons",
+      "path": "LICENSE.md",
+      "url": "https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md",
+      "blob_sha": "70d4a7b6740c5d9b594ff2fc27d3ea7e89413185"
+    },
+    {
+      "file": "licenses/instrument-serif-OFL.txt",
+      "repository": "google/fonts",
+      "path": "ofl/instrumentserif/OFL.txt",
+      "url": "https://github.com/google/fonts/blob/main/ofl/instrumentserif/OFL.txt",
+      "blob_sha": "669ce7917bec662fcf7244d37f49c4277f6fbd73"
+    }
+  ]
+}

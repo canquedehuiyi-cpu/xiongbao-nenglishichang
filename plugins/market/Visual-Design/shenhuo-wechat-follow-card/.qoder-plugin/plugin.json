@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-wechat-follow-card",
+  "version": "1.1.0",
+  "displayName": "卡片设计师",
+  "description": "围绕真实账号名称、内容介绍和已有二维码设计关注图，支持文末横卡与分享方图，成图发布前需扫码核验。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "文末关注图",
+    "账号介绍",
+    "二维码排版"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-wechat-follow-card-brief",
+    "./skills/shenhuo-wechat-follow-card",
+    "./skills/shenhuo-wechat-follow-card-delivery"
+  ]
+}

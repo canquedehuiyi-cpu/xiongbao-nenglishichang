@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "8b490074-875c-40f8-a916-508b248c150e",
+  "itemName": "subtitle-video-studio",
+  "displayName": "Subtitle Video Studio",
+  "version": "0.1.0",
+  "packageKind": "plugin"
+}

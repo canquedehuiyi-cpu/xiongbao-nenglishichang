@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-square-poster",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_afb52a4f4fb4",
+    "slug": "wechat_square_poster_designer",
+    "name": "方形海报"
+  }
+}

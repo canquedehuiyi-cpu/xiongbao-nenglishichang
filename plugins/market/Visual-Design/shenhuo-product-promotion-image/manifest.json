@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "2e296549-f7b7-4559-9bd1-f08f0f0e363a",
+  "name": "shenhuo-product-promotion-image",
+  "displayName": "Product Promotion Images",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181af-f444-7a70-96e4-0b10e68b2a92/010af31c_商品推广图专家.zip",
+  "zipSha256": "40e4b7311b630ba28b1bdd285c592ad7259a599f85723c3eae069825079cf6bc",
+  "zipBytes": 444041,
+  "upstreamSha256": "40e4b7311b630ba28b1bdd285c592ad7259a599f85723c3eae069825079cf6bc",
+  "files": 17,
+  "treeSha256": "289c568bd3fd2d3fa1f463e8c6ca1bd25f94b643eef737d2dd66c41fe63fea48",
+  "fetchedAt": "2026-11-18T10:43:23.823Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

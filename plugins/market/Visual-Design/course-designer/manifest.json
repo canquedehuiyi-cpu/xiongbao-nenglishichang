@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "aad36cb2-ef4e-4bf9-a38a-bb0f044bf84b",
+  "name": "course-designer",
+  "displayName": "Course Designer",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "tulink",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1d745-182e-73d8-bd1c-34fc7c8e8d9d/c4f633bba4827df0c385f7e2511e4ad8b275b53948726e2a846f621d2604ee17.zip",
+  "zipSha256": "c4f633bba4827df0c385f7e2511e4ad8b275b53948726e2a846f621d2604ee17",
+  "zipBytes": 214708,
+  "upstreamSha256": "c4f633bba4827df0c385f7e2511e4ad8b275b53948726e2a846f621d2604ee17",
+  "files": 11,
+  "treeSha256": "e9a8e4bfaba7672e4ed23b23d71028d45292a98406fee84ccd4b53cdab1c383e",
+  "fetchedAt": "2026-11-18T10:43:37.261Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

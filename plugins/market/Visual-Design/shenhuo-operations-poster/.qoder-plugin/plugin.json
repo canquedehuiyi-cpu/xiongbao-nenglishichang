@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-operations-poster",
+  "version": "1.1.0",
+  "displayName": "运营设计师",
+  "description": "围绕活动推广与产品介绍，设计适合朋友圈和社群发布的海报，结合图文讲清主题、产品特点与关键信息。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "朋友圈海报",
+    "活动推广",
+    "产品介绍"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-operations-poster-brief",
+    "./skills/shenhuo-operations-poster",
+    "./skills/shenhuo-operations-poster-delivery"
+  ]
+}

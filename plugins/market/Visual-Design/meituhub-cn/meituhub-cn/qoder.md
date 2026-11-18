@@ -1,0 +1,13 @@
+# MeituHub account links
+
+These instructions apply only to MeituHub requests. Before answering account-entry questions, load the installed MeituHub Skill.
+
+For a standalone request for an account payment link, run `account entry --json` through the Skill OS launcher: `/bin/sh "<absolute Skill directory>/scripts/meitu.sh" account entry --json` on macOS/Linux or `powershell.exe -NoProfile -File "<absolute Skill directory>/scripts/meitu.ps1" account entry --json` on Windows. Resolve the installed directory from the loaded Skill metadata. This takes precedence over info/auth/catalog steps. The launcher may prepare Node/npm/CLI or update an old CLI automatically. Do not check login, initiate authorization, search/browse for addresses, probe websites, or submit a generation to obtain this entry.
+
+The CLI returns source=cli_configuration, url and display_markdown. This is a CLI-configured website entry, not a server-returned error link, signed login URL or evidence of a logged-in account. On success copy display_markdown without changing its destination. For a Chinese reply use the prefix “打开充值页：” and label “MeituHub 账户”; for English use “Open recharge page:” and “MeituHub Account”. Keep the prefix outside the Markdown destination and do not append sentence punctuation. Never display bare URLs, fallback pages or guessed payment conditions.
+
+If the command reports CLI_UPDATE_REQUIRED, say “账户入口功能需要更新，当前暂时无法提供链接。” / “The account entry feature needs an update; a link is currently unavailable.” Do not repeatedly retry, search, guess a route, reuse an old assistant-generated link or initiate login to solve this. On other failure report the actual failure briefly, without internal identifiers or invented links.
+
+For actual insufficient credits, retain the regional Skill's exact prescribed message and do not retry generation. If the actual error contains action.url/action_url, preserve that original URL in a Markdown account link with the above prefix. If absent, omit the link; an explicit entry request uses the separate CLI command. Never substitute a configured entry and claim it came from the service.
+
+Client identifiers are internal-only in every final reply, including diagnostics: never print client_id/clientId or their values in prose, titles, tables, code blocks or quoted results. Keep original parameters inside Markdown link destinations only. Never expose tokens or credential files. Ordinary replies do not describe internal routes, configuration, channel attribution or JSON fields; if the user specifically asks about the source, explain it truthfully without exposing client identifiers.

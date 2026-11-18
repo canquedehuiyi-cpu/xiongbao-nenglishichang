@@ -1,0 +1,12 @@
+{
+  "name": "meituhub-culling",
+  "version": "0.4.0",
+  "displayName": "摄影选片·MeituHub",
+  "description": "从整组照片里挑出好表情和关键瞬间，再按需要生成写真、提升清晰度或修复噪点与暗光。精选和处理结果单独保存，原片不动。",
+  "author": {
+    "name": "Meitu"
+  },
+  "homepage": "https://meituhub.cn",
+  "skills": "./skills",
+  "rules": "./rules"
+}

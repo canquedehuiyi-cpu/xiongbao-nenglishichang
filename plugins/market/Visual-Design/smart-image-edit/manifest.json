@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "57b8cb5d-41d4-439d-b679-fcab2ed3ab3b",
+  "name": "smart-image-edit",
+  "displayName": "Smart Image Edit",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1e7a0-f2c1-7b8b-9391-ce1ecf254749/6c5931332a650e73566675bb0c2272756865d7ba5b55cc1fb950f9b5e88011de.zip",
+  "zipSha256": "6c5931332a650e73566675bb0c2272756865d7ba5b55cc1fb950f9b5e88011de",
+  "zipBytes": 326643,
+  "upstreamSha256": "6c5931332a650e73566675bb0c2272756865d7ba5b55cc1fb950f9b5e88011de",
+  "files": 151,
+  "treeSha256": "f2726daac7600fed2149258b7e71287c9a73b072af3bcc307a3ff25ec1142196",
+  "fetchedAt": "2026-11-18T10:43:37.049Z",
+  "credentialScan": {
+    "textFilesScanned": 150,
+    "filesRedacted": 18
+  },
+  "note": null
+}

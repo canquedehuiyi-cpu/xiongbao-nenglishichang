@@ -1,0 +1,13 @@
+{
+  "name": "superun-ui-expert",
+  "version": "0.1.27",
+  "displayName": "superun 界面设计师",
+  "description": "页面美化高级设计专家，通过 superun 直接创建与优化网页和应用界面。",
+  "author": {
+    "name": "xiuyu.yi"
+  },
+  "skills": [
+    "./skills/superun-ui-expert"
+  ],
+  "logo": "./assets/team.png"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-id-photo",
+  "version": "1.1.0",
+  "displayName": "证件照修图师",
+  "description": "根据本人照片和接收方要求整理头肩照，处理允许的背景、裁切与光线，用于报名、简历及工作形象展示。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "报名换底",
+    "简历形象",
+    "头肩照整理"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-id-photo-brief",
+    "./skills/shenhuo-id-photo",
+    "./skills/shenhuo-id-photo-delivery"
+  ]
+}

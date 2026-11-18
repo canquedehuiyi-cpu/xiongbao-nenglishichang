@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-handwritten-newspaper",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_3b2c6cb3b531",
+    "slug": "office_handwritten_newspaper_designer",
+    "name": "手抄报"
+  }
+}

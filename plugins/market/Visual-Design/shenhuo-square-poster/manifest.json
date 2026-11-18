@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "ff6b3135-49d4-469c-bede-404341680561",
+  "name": "shenhuo-square-poster",
+  "displayName": "Shenhuo Square Posters",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181b0-0184-73fd-a110-2adddb911ea9/f1f73920_神火方形海报.zip",
+  "zipSha256": "eab21bb5b14abed8c81b9f94cee27edce8665a35c961d38e1a997bf6ae64c5f7",
+  "zipBytes": 434188,
+  "upstreamSha256": "eab21bb5b14abed8c81b9f94cee27edce8665a35c961d38e1a997bf6ae64c5f7",
+  "files": 17,
+  "treeSha256": "9e1c051ac812b60fd195e6d46de2a022fb58404cf95dec109b467280c290639b",
+  "fetchedAt": "2026-11-18T10:43:31.861Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

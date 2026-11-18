@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-handwritten-newspaper",
+  "version": "1.1.0",
+  "displayName": "手抄报设计师",
+  "description": "围绕学习和阅读主题制作手抄报图片，可排完整内容，也可保留填写、绘画与涂色空间，适合不同年级使用。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "主题手抄报",
+    "填写底稿",
+    "黑白涂色"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-handwritten-newspaper-brief",
+    "./skills/shenhuo-handwritten-newspaper",
+    "./skills/shenhuo-handwritten-newspaper-delivery"
+  ]
+}

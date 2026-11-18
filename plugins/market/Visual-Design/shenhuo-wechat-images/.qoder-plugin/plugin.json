@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-wechat-images",
+  "version": "1.1.0",
+  "displayName": "新媒体设计师",
+  "description": "根据公众号文章内容设计正文配图、知识图解和栏目套图，让图片承担解释、停顿与分享作用，统一文章视觉。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "正文配图",
+    "知识图解",
+    "栏目套图"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-wechat-images-brief",
+    "./skills/shenhuo-wechat-images",
+    "./skills/shenhuo-wechat-images-delivery"
+  ]
+}

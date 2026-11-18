@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-ecommerce-main",
+  "version": "1.1.0",
+  "displayName": "主图设计师",
+  "description": "上传商品图片，生成清楚可辨的方形电商主图，突出真实外观、使用场景与选购信息，支持限量试用。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "商品主图",
+    "轮播辅图",
+    "场景展示"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-ecommerce-main-brief",
+    "./skills/shenhuo-ecommerce-main",
+    "./skills/shenhuo-ecommerce-main-delivery"
+  ]
+}

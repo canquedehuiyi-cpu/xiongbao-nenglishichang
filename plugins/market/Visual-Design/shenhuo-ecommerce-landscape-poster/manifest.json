@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "8d6ac27a-425d-4da3-b599-1f0b8c1170ef",
+  "name": "shenhuo-ecommerce-landscape-poster",
+  "displayName": "Ecommerce Landscape Posters",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181a9-a3c2-79d3-88f3-7fc9fc1242e6/7b438dbe_电商横版海报.zip",
+  "zipSha256": "c13e1e4e93162352f2430272aefbf3e64faeaa62614a915ac9f5121e896ed87f",
+  "zipBytes": 409639,
+  "upstreamSha256": "c13e1e4e93162352f2430272aefbf3e64faeaa62614a915ac9f5121e896ed87f",
+  "files": 17,
+  "treeSha256": "dd11f5951b76e950e196899ea579f059bd6583c945f555c281b236286c03969e",
+  "fetchedAt": "2026-11-18T10:43:28.449Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

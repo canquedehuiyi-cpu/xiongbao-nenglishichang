@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "22a91a27-bc8f-4c24-8595-071d5703ced6",
+  "name": "shenhuo-recruitment-poster",
+  "displayName": "Shenhuo Recruitment Posters",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181af-f6cb-7175-8162-73119d862302/4e525026_神火招聘海报.zip",
+  "zipSha256": "99d6be9b6c25741ee860f68511f26ab43de7717f5dcfd71510c46b40902bc12f",
+  "zipBytes": 414231,
+  "upstreamSha256": "99d6be9b6c25741ee860f68511f26ab43de7717f5dcfd71510c46b40902bc12f",
+  "files": 17,
+  "treeSha256": "450be35ab7fee34682d5b7b14e383609be998086ccfb44191e4b538ec6c2884f",
+  "fetchedAt": "2026-11-18T10:43:32.507Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

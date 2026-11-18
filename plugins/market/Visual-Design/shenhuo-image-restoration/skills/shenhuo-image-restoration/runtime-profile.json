@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-image-restoration",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_fd8210320864",
+    "slug": "image_optimization_designer",
+    "name": "图片修复与精修"
+  }
+}

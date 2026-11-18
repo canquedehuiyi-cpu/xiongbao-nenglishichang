@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-xiaohongshu-cover",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_3a24d842bdad",
+    "slug": "xhs_seeding_image_designer",
+    "name": "小红书封面"
+  }
+}

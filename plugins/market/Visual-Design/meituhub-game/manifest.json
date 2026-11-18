@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "327e6e77-0a83-422e-b96e-ff6580f4c6c1",
+  "name": "meituhub-game",
+  "displayName": "Game Asset Generation · MeituHub",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.4.0",
+  "publisher": "Meitu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1e860-b9f1-787c-82c6-cfac2016c47d/57ca18f003d34dc4f6aa3a7f26e2d0874d887d1c57237c8fb7f70c720ee8941f.zip",
+  "zipSha256": "57ca18f003d34dc4f6aa3a7f26e2d0874d887d1c57237c8fb7f70c720ee8941f",
+  "zipBytes": 285794,
+  "upstreamSha256": "57ca18f003d34dc4f6aa3a7f26e2d0874d887d1c57237c8fb7f70c720ee8941f",
+  "files": 36,
+  "treeSha256": "84dcc4716e31a4b5e8d0f615a96e984fcad6be5b6b7353a70c2e41510020ca25",
+  "fetchedAt": "2026-11-18T10:43:34.915Z",
+  "credentialScan": {
+    "textFilesScanned": 35,
+    "filesRedacted": 0
+  },
+  "note": null
+}

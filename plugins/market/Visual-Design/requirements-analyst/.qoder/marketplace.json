@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "5e31dde8-0b5e-486a-9a7e-07fc28c345c8",
+  "itemName": "requirements-analyst",
+  "displayName": "Requirements Analyst",
+  "version": "0.1.0",
+  "packageKind": "plugin"
+}

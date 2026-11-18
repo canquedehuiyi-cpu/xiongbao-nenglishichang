@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "2193adc2-e324-4e95-bef1-a87140a5994c",
+  "itemName": "technical-document-editor",
+  "displayName": "Technical Documentation Editor",
+  "version": "0.1.0",
+  "packageKind": "plugin"
+}

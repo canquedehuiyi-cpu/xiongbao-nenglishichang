@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "57b8cb5d-41d4-439d-b679-fcab2ed3ab3b",
+  "itemName": "smart-image-edit",
+  "displayName": "Smart Image Edit",
+  "version": "1.0.0",
+  "packageKind": "plugin"
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "eac24ede-df7c-40ef-8a38-9d7f2cbe2a40",
+  "name": "shenhuo-ai-portrait",
+  "displayName": "Shenhuo AI Portrait",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a18188-94be-7550-9a3d-4d5df30972c7/cc7df353_shenhuo-ai-portrait-1.1.0.zip",
+  "zipSha256": "5847b4b83cd3c1bdbc9fa50269d05512d4494acb57d990f193ddc904f38d5b73",
+  "zipBytes": 454920,
+  "upstreamSha256": "5847b4b83cd3c1bdbc9fa50269d05512d4494acb57d990f193ddc904f38d5b73",
+  "files": 17,
+  "treeSha256": "ff06b4e858daf164f1412d280701cb9bc9d16324d754b14182aa25a674c052d9",
+  "fetchedAt": "2026-11-18T10:43:22.825Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

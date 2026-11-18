@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "efd6b134-5f14-4394-b847-97829baae809",
+  "name": "aigei-creative-assets",
+  "displayName": "Aigei Assets",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.2",
+  "publisher": "爱给网",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1ed56-5cb5-7824-8283-1c815a80766f/f51a848a6d130adc71f57c489f5145c9a1e1ad95fbb01ebefd15c9d50899bbd4.zip",
+  "zipSha256": "f51a848a6d130adc71f57c489f5145c9a1e1ad95fbb01ebefd15c9d50899bbd4",
+  "zipBytes": 15176,
+  "upstreamSha256": "f51a848a6d130adc71f57c489f5145c9a1e1ad95fbb01ebefd15c9d50899bbd4",
+  "files": 9,
+  "treeSha256": "f46241e7e3d5aac41cc64c9396a08741c5afe6a23c0b1a3a3187e4ab301be8d2",
+  "fetchedAt": "2026-11-18T10:43:38.797Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

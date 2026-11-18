@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-ecommerce-portrait-poster",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_4d00ac0bc035",
+    "slug": "ecommerce_portrait_poster",
+    "name": "电商竖版海报"
+  }
+}

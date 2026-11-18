@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "b4404ad0-2575-4b4b-8f5d-656abd4cc020",
+  "name": "shenhuo-work-badge",
+  "displayName": "Employee Badge Images",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181b0-10eb-7d0a-8766-216969125dbe/a38c3441_工牌工作证.zip",
+  "zipSha256": "5a0e05ffe9be86741456e3d1360f4d3e24ba6639e89e4323bf64a45c51f17db4",
+  "zipBytes": 392501,
+  "upstreamSha256": "5a0e05ffe9be86741456e3d1360f4d3e24ba6639e89e4323bf64a45c51f17db4",
+  "files": 17,
+  "treeSha256": "d96e15898d3aab400ba39da2837c64c37b3037069688bfe234f86e5b3123da5a",
+  "fetchedAt": "2026-11-18T10:43:30.874Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

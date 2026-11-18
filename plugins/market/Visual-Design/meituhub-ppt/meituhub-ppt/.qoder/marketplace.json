@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "3272efac-d48d-481c-aa81-9d0eb91af392",
+  "itemName": "meituhub-ppt",
+  "displayName": "PPT Creation/Enhancement · MeituHub",
+  "version": "0.4.0",
+  "packageKind": "plugin"
+}

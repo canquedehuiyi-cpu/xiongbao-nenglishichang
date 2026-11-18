@@ -1,0 +1,13 @@
+{
+  "name": "shenhuo-image-layers",
+  "version": "1.0.2",
+  "displayName": "神火图文分层",
+  "description": "把图片上的文字变成可编辑图层。上传已有图片，或先由神火 AI 设计师生成并确认作品，再确认分层积分，获得网页编辑地址。复用市场“神火设计师”连接器。",
+  "author": {
+    "name": "chenyth"
+  },
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-image-layers-flow"
+  ]
+}

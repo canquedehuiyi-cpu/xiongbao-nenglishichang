@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "aigei-assets": {
+      "type": "streamable-http",
+      "url": "https://www.aigei.com/mcp"
+    }
+  }
+}

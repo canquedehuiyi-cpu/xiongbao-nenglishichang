@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "2a6ddcee-3f7b-46be-8c41-b4c8966d4645",
+  "name": "shenhuo-check-in-planner",
+  "displayName": "Check-in Planner",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a18189-aca6-7684-9dda-55dcca40ef5d/9ef569b7_shenhuo-check-in-planner-1.1.0.zip",
+  "zipSha256": "110ad6a4077ae6212a0866f1d87b83b6e31bbd6ac8a027334d5f3b7b3e3a9bba",
+  "zipBytes": 417681,
+  "upstreamSha256": "110ad6a4077ae6212a0866f1d87b83b6e31bbd6ac8a027334d5f3b7b3e3a9bba",
+  "files": 17,
+  "treeSha256": "5815579ce6ee3dd148915536a032c1a66323d2e88561711f011be862d2cb1b43",
+  "fetchedAt": "2026-11-18T10:43:22.104Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

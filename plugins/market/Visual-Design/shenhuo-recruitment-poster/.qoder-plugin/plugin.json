@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-recruitment-poster",
+  "version": "1.1.0",
+  "displayName": "招聘海报美工",
+  "description": "把真实岗位、任职要求与投递方式整理成招聘海报，单岗位重点明确，多岗位条件分别对应，待遇按资料呈现。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "门店招聘",
+    "企业招聘",
+    "多岗位海报"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-recruitment-poster-brief",
+    "./skills/shenhuo-recruitment-poster",
+    "./skills/shenhuo-recruitment-poster-delivery"
+  ]
+}

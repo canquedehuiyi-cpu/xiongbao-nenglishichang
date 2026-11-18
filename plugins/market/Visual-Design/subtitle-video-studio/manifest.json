@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "8b490074-875c-40f8-a916-508b248c150e",
+  "name": "subtitle-video-studio",
+  "displayName": "Subtitle Video Studio",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "tulink",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1d751-3c0a-7865-ba1e-70173c5adb2a/c8787560e017a2ff35ae7e8a8ba7af9a2e9291f85a24b9baa0f9faa8ca974088.zip",
+  "zipSha256": "c8787560e017a2ff35ae7e8a8ba7af9a2e9291f85a24b9baa0f9faa8ca974088",
+  "zipBytes": 2229118,
+  "upstreamSha256": "c8787560e017a2ff35ae7e8a8ba7af9a2e9291f85a24b9baa0f9faa8ca974088",
+  "files": 9,
+  "treeSha256": "5c4ca9cd9b853a29c9143da721a040807d55ef07af072954b9ff2e0e35943786",
+  "fetchedAt": "2026-11-18T10:43:36.043Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

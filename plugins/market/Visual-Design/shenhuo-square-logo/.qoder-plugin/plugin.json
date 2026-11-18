@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-square-logo",
+  "version": "1.1.0",
+  "displayName": "标志设计师",
+  "description": "从准确品牌名称和主营业务出发，制作方形标志图片，组织简洁图形与清楚字标，也支持旧标志局部调整。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "店铺标志",
+    "品牌字标",
+    "旧标修改"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-square-logo-brief",
+    "./skills/shenhuo-square-logo",
+    "./skills/shenhuo-square-logo-delivery"
+  ]
+}

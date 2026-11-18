@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "9d46d7c6-5fa3-4cd3-9698-a82a07d616df",
+  "itemName": "meituhub-portrait",
+  "displayName": "Portrait Retouch · MeituHub",
+  "version": "0.4.0",
+  "packageKind": "plugin"
+}

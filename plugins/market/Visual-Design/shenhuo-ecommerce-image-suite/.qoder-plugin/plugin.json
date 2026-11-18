@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-ecommerce-image-suite",
+  "version": "1.1.0",
+  "displayName": "电商设计师",
+  "description": "依据商品原图和真实卖点设计主图、场景与详情套图，统一商品识别和视觉风格，逐张说明购买时关心的信息。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "商品套图",
+    "使用场景",
+    "规格展示"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-ecommerce-image-suite-brief",
+    "./skills/shenhuo-ecommerce-image-suite",
+    "./skills/shenhuo-ecommerce-image-suite-delivery"
+  ]
+}

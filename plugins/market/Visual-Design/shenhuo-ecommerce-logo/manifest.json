@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "1b65c83c-9238-4f41-9a17-d5c9c98be0a1",
+  "name": "shenhuo-ecommerce-logo",
+  "displayName": "Ecommerce Logo Images",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181a9-a622-7c6d-bbfd-b4f1c98d33fc/5320870e_电商_LOGO.zip",
+  "zipSha256": "6f964b585612f3a01632fce364c3e311b002e70678534b1648510260fb5e10a5",
+  "zipBytes": 406804,
+  "upstreamSha256": "6f964b585612f3a01632fce364c3e311b002e70678534b1648510260fb5e10a5",
+  "files": 17,
+  "treeSha256": "87c4d8d0195cc821684b4b66f6ded90d07e1a5940bf7a77f979cff8ed961ca3a",
+  "fetchedAt": "2026-11-18T10:43:25.411Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

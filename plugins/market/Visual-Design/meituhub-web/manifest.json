@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "feae13fc-8bd8-4183-857e-d80be2fb0fce",
+  "name": "meituhub-web",
+  "displayName": "Web Design · MeituHub",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.4.0",
+  "publisher": "Meitu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1e860-c735-7b74-b30f-6b044c0f00de/1503f996aae71de272b216cb6b4218cacadfd73ffdce99e9e59fd2d8f3248064.zip",
+  "zipSha256": "1503f996aae71de272b216cb6b4218cacadfd73ffdce99e9e59fd2d8f3248064",
+  "zipBytes": 202004,
+  "upstreamSha256": "1503f996aae71de272b216cb6b4218cacadfd73ffdce99e9e59fd2d8f3248064",
+  "files": 24,
+  "treeSha256": "fbf489fd50a9585fe7516c2df09cfd9c0bdc77d5f79b175bc7e9685c3beac535",
+  "fetchedAt": "2026-11-18T10:43:35.206Z",
+  "credentialScan": {
+    "textFilesScanned": 23,
+    "filesRedacted": 0
+  },
+  "note": null
+}

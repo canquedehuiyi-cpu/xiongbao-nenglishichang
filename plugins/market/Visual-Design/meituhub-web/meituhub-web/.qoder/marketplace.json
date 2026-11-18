@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "feae13fc-8bd8-4183-857e-d80be2fb0fce",
+  "itemName": "meituhub-web",
+  "displayName": "Web Design · MeituHub",
+  "version": "0.4.0",
+  "packageKind": "plugin"
+}

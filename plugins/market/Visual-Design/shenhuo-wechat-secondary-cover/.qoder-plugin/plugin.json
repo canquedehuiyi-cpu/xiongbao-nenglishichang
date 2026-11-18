@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-wechat-secondary-cover",
+  "version": "1.1.0",
+  "displayName": "封面设计师",
+  "description": "将文章主题提炼成公众号次条方形封面，用清楚标题和必要图形建立识别，也能统一同一栏目的系列风格。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "次条封面",
+    "文章入口",
+    "栏目系列"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-wechat-secondary-cover-brief",
+    "./skills/shenhuo-wechat-secondary-cover",
+    "./skills/shenhuo-wechat-secondary-cover-delivery"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-business-card",
+  "version": "1.1.0",
+  "displayName": "名片设计师",
+  "description": "根据真实身份、品牌与联系方式，制作横版名片、竖版电子卡和正反面图片，让介绍与联系更清楚。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "电子名片",
+    "人物介绍",
+    "正反面设计"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-business-card-brief",
+    "./skills/shenhuo-business-card",
+    "./skills/shenhuo-business-card-delivery"
+  ]
+}

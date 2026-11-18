@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "ee5e7c80-e0d5-40b0-8d84-9af11fdfe8e3",
+  "name": "shenhuo-wechat-follow-card",
+  "displayName": "WeChat Follow Card Design",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181b0-0951-7bfb-b694-d3248b303088/853b9688_公众号二维码关注图.zip",
+  "zipSha256": "bc3a7ba05246e61e5171645611601cab3e53bedd5adcd2e1fcc44f883795d208",
+  "zipBytes": 408208,
+  "upstreamSha256": "bc3a7ba05246e61e5171645611601cab3e53bedd5adcd2e1fcc44f883795d208",
+  "files": 17,
+  "treeSha256": "977e8c92759785697c6b074e499893087c7909356214a09cf683d08e8d395440",
+  "fetchedAt": "2026-11-18T10:43:30.363Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

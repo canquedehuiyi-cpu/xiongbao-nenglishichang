@@ -1,0 +1,13 @@
+{
+  "name": "superun-prototype-expert",
+  "version": "0.1.15",
+  "displayName": "superun 演示设计师",
+  "description": "通过 superun 澄清需求、生成风格并持续修改交互演示的独立专家。",
+  "author": {
+    "name": "xiuyu.yi"
+  },
+  "skills": [
+    "./skills/superun-prototype-expert"
+  ],
+  "logo": "./assets/team.png"
+}

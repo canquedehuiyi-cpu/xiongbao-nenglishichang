@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "8a303b52-8274-4eb3-a916-619dbeddeb09",
+  "name": "shenhuo-id-photo",
+  "displayName": "ID Photo Designer",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181a9-b4f4-77b5-9c4f-39c49676255f/534ade05_证件照设计师.zip",
+  "zipSha256": "b0bf21eae20af3bec4d071e7f37a4bfe854f4f4f3b4fb1c5fc1b20668f4a5556",
+  "zipBytes": 399985,
+  "upstreamSha256": "b0bf21eae20af3bec4d071e7f37a4bfe854f4f4f3b4fb1c5fc1b20668f4a5556",
+  "files": 17,
+  "treeSha256": "3301ad0043d8df264439a9089f84eefa0222beb73055b971f64edf682e66736a",
+  "fetchedAt": "2026-11-18T10:43:24.357Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

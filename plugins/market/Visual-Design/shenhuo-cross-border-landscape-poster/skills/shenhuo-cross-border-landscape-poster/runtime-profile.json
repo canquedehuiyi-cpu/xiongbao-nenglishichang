@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-cross-border-landscape-poster",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_34912c6b5a10",
+    "slug": "cross_border_ecommerce_landscape_poster",
+    "name": "跨境电商横版海报"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-ppt-images",
+  "version": "1.1.0",
+  "displayName": "演示设计师",
+  "description": "把汇报、课程与项目材料整理成演示封面、内容页和统一系列图片，可插入演示软件，不含可编辑文件。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "PPT封面",
+    "演示页面图片",
+    "系列配图"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-ppt-images-brief",
+    "./skills/shenhuo-ppt-images",
+    "./skills/shenhuo-ppt-images-delivery"
+  ]
+}

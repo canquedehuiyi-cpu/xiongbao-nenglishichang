@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "78610176-9680-493c-a9a4-9ce7f458795e",
+  "name": "shenhuo-ppt-images",
+  "displayName": "Shenhuo Presentation Images",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a181af-f1d8-7565-974f-ad532ce73106/a7a0342d_神火PPT图片设计.zip",
+  "zipSha256": "fa2ac060ba9b3131f13b697493cc63787fbda848496a82d159dcce7dd7d4d4a4",
+  "zipBytes": 398657,
+  "upstreamSha256": "fa2ac060ba9b3131f13b697493cc63787fbda848496a82d159dcce7dd7d4d4a4",
+  "files": 17,
+  "treeSha256": "24a3ee171c80f0b86024f09ba29da5cb82179e413de92a8e547ebd8bd55d6936",
+  "fetchedAt": "2026-11-18T10:43:19.256Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

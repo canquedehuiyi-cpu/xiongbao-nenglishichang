@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-tattoo-design",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_60c0082400b0",
+    "slug": "tattoo_design_designer",
+    "name": "纹身图案设计"
+  }
+}

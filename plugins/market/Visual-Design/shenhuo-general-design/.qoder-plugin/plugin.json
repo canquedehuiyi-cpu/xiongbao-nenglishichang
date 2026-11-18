@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-general-design",
+  "version": "1.1.0",
+  "displayName": "平面设计师",
+  "description": "把创意需求或已有图片做成海报、配图与视觉作品，结合用途安排构图、文字和风格，并支持图片修改。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "创意图片",
+    "图文设计",
+    "图片修改"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-general-design-brief",
+    "./skills/shenhuo-general-design",
+    "./skills/shenhuo-general-design-delivery"
+  ]
+}

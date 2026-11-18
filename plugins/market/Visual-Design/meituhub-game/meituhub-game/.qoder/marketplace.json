@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "327e6e77-0a83-422e-b96e-ff6580f4c6c1",
+  "itemName": "meituhub-game",
+  "displayName": "Game Asset Generation · MeituHub",
+  "version": "0.4.0",
+  "packageKind": "plugin"
+}

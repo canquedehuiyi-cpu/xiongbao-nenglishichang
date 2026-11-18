@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-square-poster",
+  "version": "1.1.0",
+  "displayName": "海报设计师",
+  "description": "为朋友圈与客户群制作方形海报，清楚呈现商品、活动和营业通知，让主题、关键条件与行动信息各有位置。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "朋友圈方图",
+    "活动推广",
+    "营业通知"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-square-poster-brief",
+    "./skills/shenhuo-square-poster",
+    "./skills/shenhuo-square-poster-delivery"
+  ]
+}

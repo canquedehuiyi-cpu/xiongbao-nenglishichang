@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-hairstyle-preview",
+  "version": "1.1.0",
+  "displayName": "发型设计师",
+  "description": "在本人照片上预览短发、刘海、卷度与发色，围绕头发进行变化并保留其他特征，帮助比较方案和沟通造型。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "发型试戴",
+    "刘海对比",
+    "发色预览"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-hairstyle-preview-brief",
+    "./skills/shenhuo-hairstyle-preview",
+    "./skills/shenhuo-hairstyle-preview-delivery"
+  ]
+}

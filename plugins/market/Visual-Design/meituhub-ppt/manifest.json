@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "3272efac-d48d-481c-aa81-9d0eb91af392",
+  "name": "meituhub-ppt",
+  "displayName": "PPT Creation/Enhancement · MeituHub",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.4.0",
+  "publisher": "Meitu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1e8b1-1c50-7788-bf90-dca97c59c402/0fce304267caf507c84093ab142d9267ebd48203610994a65b57b4f3e2a50f54.zip",
+  "zipSha256": "0fce304267caf507c84093ab142d9267ebd48203610994a65b57b4f3e2a50f54",
+  "zipBytes": 210670,
+  "upstreamSha256": "0fce304267caf507c84093ab142d9267ebd48203610994a65b57b4f3e2a50f54",
+  "files": 28,
+  "treeSha256": "f9f89fd498ef9d098bd594f5f2e8c0adef50d7a49affe04bc4b6c346c62a188e",
+  "fetchedAt": "2026-11-18T10:43:35.557Z",
+  "credentialScan": {
+    "textFilesScanned": 27,
+    "filesRedacted": 0
+  },
+  "note": null
+}

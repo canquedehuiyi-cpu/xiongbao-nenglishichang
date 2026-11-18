@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-cross-border-detail-images",
+  "version": "1.1.0",
+  "displayName": "跨境详情美工",
+  "description": "围绕海外买家的用途、细节和选购疑问制作详情图片，默认英文，并区分页面图片与模块配套文字。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "海外详情图片",
+    "A+静态素材",
+    "独立站配图"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-cross-border-detail-images-brief",
+    "./skills/shenhuo-cross-border-detail-images",
+    "./skills/shenhuo-cross-border-detail-images-delivery"
+  ]
+}

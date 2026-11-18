@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-brand-design",
+  "version": "1.1.0",
+  "displayName": "品牌设计师",
+  "description": "从品牌名称和业务出发，设计清楚好认的Logo、产品包装与品牌物料，让不同场景呈现统一的品牌形象。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "Logo设计",
+    "产品包装",
+    "品牌应用"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-brand-design-brief",
+    "./skills/shenhuo-brand-design",
+    "./skills/shenhuo-brand-design-delivery"
+  ]
+}

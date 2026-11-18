@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-designers",
+  "version": "1.0.5",
+  "displayName": "神火设计师",
+  "description": "连接神火 AI，在 Qoder 中委托专业 AI 设计师完成图片设计。覆盖电商主图与详情、小红书封面与图文、运营海报、品牌 Logo、名片、办公资料、人像写真与图片修复等场景。支持按需求匹配设计师、上传素材、补全需求、获取设计提案、确认积分报价、生成和下载作品，并可在神火网站打开同一项目。绑定个人账号即可使用，新注册账号赠送积分，可用于体验设计与作品交付。",
+  "author": {
+    "name": "chenyth"
+  },
+  "homepage": "https://www.shenhuoai.com",
+  "keywords": [
+    "AI设计",
+    "图片设计",
+    "电商设计",
+    "海报",
+    "品牌视觉",
+    "小红书"
+  ],
+  "skills": [
+    "./skills/shenhuo-designers-flow"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-wechat-images",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_be31700a2ac2",
+    "slug": "official_account_image_designer",
+    "name": "公众号图片"
+  }
+}

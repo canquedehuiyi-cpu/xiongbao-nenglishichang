@@ -1,0 +1,21 @@
+{
+  "name": "shenhuo-cross-border-portrait-poster",
+  "version": "1.1.0",
+  "displayName": "跨境海报美工",
+  "description": "为海外商品上新、礼赠、系列与促销制作竖版海报，默认英文，让商品、利益和必要条件顺序清楚。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "keywords": [
+    "海外上新",
+    "竖版促销",
+    "礼赠系列"
+  ],
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-cross-border-portrait-poster-brief",
+    "./skills/shenhuo-cross-border-portrait-poster",
+    "./skills/shenhuo-cross-border-portrait-poster-delivery"
+  ]
+}

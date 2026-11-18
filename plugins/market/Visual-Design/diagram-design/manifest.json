@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "diagram-design",
+  "name": "diagram-design",
+  "displayName": "diagram-design",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Visual-Design",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "2.6.131",
+  "publisher": "Cathryn Lavery",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/cathrynlavery/diagram-design",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a17d2c-87d3-7ee1-980a-3d9e9fb81a05/b4bae019_diagram-design-2.6.131-original.zip",
+  "zipSha256": "bc7569c48f0c784803c4ddbbfa279177c07d4c1441ad22be851d3f224e0c9f01",
+  "zipBytes": 1409907,
+  "upstreamSha256": "bc7569c48f0c784803c4ddbbfa279177c07d4c1441ad22be851d3f224e0c9f01",
+  "files": 307,
+  "treeSha256": "b2c32368cfaeb13632e1b5b97a0b0d3504896cab5bcdbfa0099224fa4880d230",
+  "fetchedAt": "2026-11-18T10:43:17.399Z",
+  "credentialScan": {
+    "textFilesScanned": 303,
+    "filesRedacted": 0
+  },
+  "note": null
+}

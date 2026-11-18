@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-product-promotion-image",
+  "skill_version": "1.1.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_44c1cfe8492e",
+    "slug": "ecommerce_promotion_image",
+    "name": "商品推广图专家"
+  }
+}
