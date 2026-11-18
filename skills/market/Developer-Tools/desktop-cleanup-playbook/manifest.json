@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PsWKAhm6",
+  "name": "desktop-cleanup-playbook",
+  "displayName": "桌面整理作战手册",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "52yuanchangxing",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/desktop-cleanup-playbook/latest/desktop-cleanup-playbook.zip",
+  "zipSha256": "78e5bf85193c56de7320ab5059dd9d6d3285222a66898cf6b961f5ea1e6ebf4e",
+  "zipBytes": 11810,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "119d1309b9f48363b4c89d8d3025da0436dadb146ffd4659f9a03be917c4c7e4",
+  "fetchedAt": "2026-11-18T10:37:43.997Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

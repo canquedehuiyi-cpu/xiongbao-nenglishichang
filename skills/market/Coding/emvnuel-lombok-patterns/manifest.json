@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EtPdmCtI",
+  "name": "emvnuel-lombok-patterns",
+  "displayName": "Lombok开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "emvnuel",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/emvnuel-lombok-patterns/latest/emvnuel-lombok-patterns.zip",
+  "zipSha256": "db1a2a179ede10bedf5b82cbb77959f5efc1c4e0e94aef230d2e2fa5cd66719f",
+  "zipBytes": 23391,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "69b762cb32b4bdb0e7f74b45a1fd5db19b781354b3f3f1e2e141efd101cacab9",
+  "fetchedAt": "2026-11-18T10:35:13.906Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

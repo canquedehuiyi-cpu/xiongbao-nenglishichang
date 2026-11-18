@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_gOHJ1g7z",
+  "name": "aiskillstore-unity-ecs-patterns",
+  "displayName": "Unity处理",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-unity-ecs-patterns/latest/aiskillstore-unity-ecs-patterns.zip",
+  "zipSha256": "0af109f858d723755e96b044a465b3674b5c8c13c133e04a92331a3b82ab360f",
+  "zipBytes": 8786,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "51d549447855a36981bff45d3ed910874de00443589b619b1765c1ea327379d4",
+  "fetchedAt": "2026-11-18T10:34:45.066Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

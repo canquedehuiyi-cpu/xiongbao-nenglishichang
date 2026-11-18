@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1L5qkRC7",
+  "name": "ai-news-xiaohongshu",
+  "displayName": "AI 资讯小红书创作专家",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ai-news-xiaohongshu/latest/ai-news-xiaohongshu.zip",
+  "zipSha256": "12ada5b01b0a7a3e511dc5ebd7fb7a76ecc6ae4f3555f653fbff80089b752293",
+  "zipBytes": 33347,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "77b1957ce0dcc81c4fad354ff61a7ba2fd763cd8b31281c461a3fe270b8db463",
+  "fetchedAt": "2026-11-18T10:39:47.063Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

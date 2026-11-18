@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "28b3ff89-d716-40d7-9fdd-2e7d3a5565c2",
+  "name": "list-cache-guard",
+  "displayName": "前端列表缓存控制SKILL（通用方案）",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019fb210-750c-7b7c-9cb0-9b397a3c1736",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcc31-834e-7437-9fa8-0c3234cb0f49/50206c83_list-cache-guard.zip",
+  "zipSha256": "f43261f4846534bfcef9064ff1c2eb8af81fae81cb2dfb7e38448a48b55dfe3f",
+  "zipBytes": 2218,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "62bee402198335cb621d939d6d6675c920f3cc3e5db44b4c0a270a9be822a0fc",
+  "fetchedAt": "2026-11-18T10:34:59.126Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_AKc9o2pR",
+  "name": "duru-obsidian-kb",
+  "displayName": "Duru Obsidian 知识库",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/duru-obsidian-kb/latest/duru-obsidian-kb.zip",
+  "zipSha256": "3292f5a47520120e6f3d5aa543e03050fa9beb78c4e9e3e5a2fe1a8f3c95e732",
+  "zipBytes": 44203,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 21,
+  "treeSha256": "0b5ae76a81f2b167d35ca128faca192e9dad3efa9333b0c6fdf76866d51dafeb",
+  "fetchedAt": "2026-11-18T10:39:20.258Z",
+  "credentialScan": {
+    "textFilesScanned": 21,
+    "filesRedacted": 0
+  },
+  "note": null
+}

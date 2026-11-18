@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Qmm9sxrg",
+  "name": "websocket-reconnect",
+  "displayName": "WebSocket 重连管理技能",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "qwe123sddfsdfs",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/websocket-reconnect/latest/websocket-reconnect.zip",
+  "zipSha256": "2a4d9d78c20c00238990c0df2ae40c3b251ec037da7250790ee7f6dc9774c494",
+  "zipBytes": 15136,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "6163f653d3afdb7b9bcd6bf1dc860e108a13998c00eb352aedecac9937581488",
+  "fetchedAt": "2026-11-18T10:38:09.165Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

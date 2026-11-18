@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YJScXWbi",
+  "name": "stt-simple",
+  "displayName": "简易本地语音识别",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lkisme",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/stt-simple/latest/stt-simple.zip",
+  "zipSha256": "06b5d3fbcba664ba891a4d132c0751ad6f04c52104abd5ba8e25da42e938c7a8",
+  "zipBytes": 6994,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "afe627feedfef6d69e5555a0613561d33c9961307796d62dcb8e8fac8cec80ec",
+  "fetchedAt": "2026-11-18T10:37:43.333Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

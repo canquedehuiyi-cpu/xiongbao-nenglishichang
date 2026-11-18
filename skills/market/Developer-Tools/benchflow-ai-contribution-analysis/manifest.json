@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_hHzbe9q4",
+  "name": "benchflow-ai-contribution-analysis",
+  "displayName": "金融贡献分析",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "benchflow-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/benchflow-ai-contribution-analysis/latest/benchflow-ai-contribution-analysis.zip",
+  "zipSha256": "0ddb66983d2abe8008d0fb00bee82e74c607002e76d5eaa7961354271999787b",
+  "zipBytes": 1479,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "5abf011809f5bc2b23a61ecbb76b324502a7f2e0e42571d95081b6077450a804",
+  "fetchedAt": "2026-11-18T10:38:04.529Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

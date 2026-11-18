@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bD08vUZK",
+  "name": "market-competitor-research",
+  "displayName": "竞争对手研究",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0c39a-f1aa-7c86-baf5-aa40620a1462/ss_a76441c0f5400e120f46aee6027c43f06f155c71dece2f9d3cb74f643489.zip",
+  "zipSha256": "cc5cae9e163ecfffecc32f0e20403054d2df90393112d540f60fb94247fe93c5",
+  "zipBytes": 6770,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "c7d3f8f6b3c9c1b29dc3faa52ec9347f8760f8ef206946f3adc03293f854f57c",
+  "fetchedAt": "2026-11-18T10:39:37.195Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

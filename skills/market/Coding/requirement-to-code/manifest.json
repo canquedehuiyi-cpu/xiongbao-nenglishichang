@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "f7e2d80b-c702-4dd4-bc6b-59f78e40532c",
+  "name": "requirement-to-code",
+  "displayName": "需求到代码",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f7de8-b462-7258-b8d4-e3b36e8826fe",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ec14-5b5a-7c5a-a7a1-b2c311851ae0/72f1728f_requirement-to-code.zip",
+  "zipSha256": "5c941220d77586f9e557a93848906d070ca08a160dfa7a964bb7c573bdfbae05",
+  "zipBytes": 24377,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "83df6ceaa2e34ca9e7960c17d19cfbb63cd9ed0194b948484a534ef7b576b4bc",
+  "fetchedAt": "2026-11-18T10:34:43.435Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

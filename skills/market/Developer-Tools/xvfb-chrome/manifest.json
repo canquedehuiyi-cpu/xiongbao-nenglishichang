@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8ijGDUIi",
+  "name": "xvfb-chrome",
+  "displayName": "Linux服务器无头Chrome浏览器自动化指南",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "codinglink",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/xvfb-chrome/latest/xvfb-chrome.zip",
+  "zipSha256": "71f0502c6d7eccb2b425f5798ebaa190e37a13b0478e1003a1f26dac834d1729",
+  "zipBytes": 2239,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "032eaa49c3f180c32019b485c3dca6f9cec74deaab401c48d0be546e9404a89c",
+  "fetchedAt": "2026-11-18T10:37:34.190Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

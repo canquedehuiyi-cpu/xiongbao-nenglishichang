@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "d10cb81a-86f4-4cd0-af54-d50e57754ab1",
+  "name": "codeplan-multireview",
+  "displayName": "代码方案多轮评审",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.2",
+  "publisher": "019f1e4d-372a-74d8-b1bb-7a65c9e2ecb3",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a130a0-4c56-7e43-9147-ba0d7d1abd49/b042df64_codeplan-multireview-Skill-v0.6.0.zip",
+  "zipSha256": "77f4ef6b9abc43901eedde3da406555416c60a2867bf954c2995fde6ed0b9b6c",
+  "zipBytes": 113651,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 21,
+  "treeSha256": "3b5e35ace6620c21845c79061d34b6959edc2b6cc0547c7389387addbc83ba04",
+  "fetchedAt": "2026-11-18T10:34:57.667Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

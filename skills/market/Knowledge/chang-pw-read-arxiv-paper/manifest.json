@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_C5uKlkiK",
+  "name": "chang-pw-read-arxiv-paper",
+  "displayName": "READ论文创作",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Chang-pw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/chang-pw-read-arxiv-paper/latest/chang-pw-read-arxiv-paper.zip",
+  "zipSha256": "43e526891c8f68049fc38e49067019ac8751660a6b6e717c3bfd90f227b6f0ef",
+  "zipBytes": 4397,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4f028bfe237579d09b8bd8d9d2158b7b5b6711ae3b61b90c20f29b7ecd723f68",
+  "fetchedAt": "2026-11-18T10:39:10.135Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

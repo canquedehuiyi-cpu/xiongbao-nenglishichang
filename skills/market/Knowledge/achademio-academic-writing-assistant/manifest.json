@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_C10rATGa",
+  "name": "achademio-academic-writing-assistant",
+  "displayName": "achademio 学术写作助理",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "tajo9128",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/achademio-academic-writing-assistant/latest/achademio-academic-writing-assistant.zip",
+  "zipSha256": "ef287b7cf27ec600d98e6588a31bae7fccf8e1885b68da94adb495342ecd1ce1",
+  "zipBytes": 732,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8c2f6846303357b08c76bbc9abde1bbcd3af2cfe0a3e3abc3338d138c6b802d3",
+  "fetchedAt": "2026-11-18T10:39:40.847Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

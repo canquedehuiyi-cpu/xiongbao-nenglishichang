@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KvlUJZye",
+  "name": "tech-trending-on-github",
+  "displayName": "GitHub趋势分析器",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "testmeitu1",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/tech-trending-on-github/latest/tech-trending-on-github.zip",
+  "zipSha256": "f494dd1a61e8f67b6ac8f07db8ba94af115803a26389b555a1f8607bd3c7b1e8",
+  "zipBytes": 3341,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "1ff40b5cb90d70cce331ac1e51817f3bfa04e99606123dc473a9727c2371e3d5",
+  "fetchedAt": "2026-11-18T10:38:08.616Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

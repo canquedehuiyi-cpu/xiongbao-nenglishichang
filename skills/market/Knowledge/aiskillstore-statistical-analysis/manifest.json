@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XzZQ0nUd",
+  "name": "aiskillstore-statistical-analysis",
+  "displayName": "研究报告写作",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-statistical-analysis/latest/aiskillstore-statistical-analysis.zip",
+  "zipSha256": "bafdd530f86969f9c003535ff32a6818cfb2356f2724305414a18a75f35b70ce",
+  "zipBytes": 43209,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "549ebcd77b557235531a7bbbde3da29921df7b3e74a1f117a77db4f23dff2a03",
+  "fetchedAt": "2026-11-18T10:39:16.134Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

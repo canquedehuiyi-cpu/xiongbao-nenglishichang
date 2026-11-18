@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Mrajr2RI",
+  "name": "storage-cleanup",
+  "displayName": "存储清理工具",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "camopel",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/storage-cleanup/latest/storage-cleanup.zip",
+  "zipSha256": "6613ef4ae230521cd494d2be27c3a92cf91b0bc2b47d2ac70f0364aa08b5177e",
+  "zipBytes": 5787,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "eda9519c7e7a6f9d96795e79f7869df585e4894112f5aaf4d101b9ac873e99ee",
+  "fetchedAt": "2026-11-18T10:37:34.827Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

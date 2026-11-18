@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LE1lIowV",
+  "name": "a5c-ai-mcp-tool-schema-generator",
+  "displayName": "文档生成",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "a5c-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/a5c-ai-mcp-tool-schema-generator/latest/a5c-ai-mcp-tool-schema-generator.zip",
+  "zipSha256": "8a445fe68215c8ee926ced5357cec63dd0852a91c340de9da0d7489527d4765e",
+  "zipBytes": 5417,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "fc468b00fd35fc3c6edc34c9fc61e3110425da6fe67b9a8efb2279bf4aa9614e",
+  "fetchedAt": "2026-11-18T10:35:01.347Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_G9UvrZwW",
+  "name": "slopbuster",
+  "displayName": "去 AI 化助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/slopbuster/latest/slopbuster.zip",
+  "zipSha256": "4f4b8b6e97042125525345c790f300195ee60432a555c68378cd6f0bae7126ac",
+  "zipBytes": 58326,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 23,
+  "treeSha256": "1fd9202e214f8a6813138c1b85974dc536c65a5478f809140a919acc20f5ba0e",
+  "fetchedAt": "2026-11-18T10:39:09.340Z",
+  "credentialScan": {
+    "textFilesScanned": 23,
+    "filesRedacted": 0
+  },
+  "note": null
+}

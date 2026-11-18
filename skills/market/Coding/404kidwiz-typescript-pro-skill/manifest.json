@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6QMiQOHF",
+  "name": "404kidwiz-typescript-pro-skill",
+  "displayName": "安全TS开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "404kidwiz",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/404kidwiz-typescript-pro-skill/latest/404kidwiz-typescript-pro-skill.zip",
+  "zipSha256": "f2569309c7712ef9c3e6d1b9db6056b11d60d997a8a26241dfef5db9e5a05724",
+  "zipBytes": 4502,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "263332a86656be77441f36651b066f91a0fc495d0c9115b12302217a20abaeb0",
+  "fetchedAt": "2026-11-18T10:34:44.057Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

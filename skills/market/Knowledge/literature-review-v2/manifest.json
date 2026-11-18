@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KxISvI5b",
+  "name": "literature-review-v2",
+  "displayName": "文献综述",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/literature-review-v2/latest/literature-review-v2.zip",
+  "zipSha256": "7cf01718282843541fd593bd3838859a2a75b41624a5872f3b8d97f858981257",
+  "zipBytes": 33451,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "fe49c6d33113145523a909a3ebe8bd13d37d734d52e32bf92cccafd3939d41a2",
+  "fetchedAt": "2026-11-18T10:39:03.929Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

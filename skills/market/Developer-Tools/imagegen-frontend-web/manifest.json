@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_52ojJL17",
+  "name": "imagegen-frontend-web",
+  "displayName": "imagegen 前端网络",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Leonxlnx",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/imagegen-frontend-web/latest/imagegen-frontend-web.zip",
+  "zipSha256": "e6742a134561686fcceb65f74923d60a9883c5a5793ee0f82213a3d86a3372ed",
+  "zipBytes": 14023,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "fa53797a314bf0f06ec91113bc7786893d6620650bd1b8e9a303a619fae048cc",
+  "fetchedAt": "2026-11-18T10:37:57.108Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

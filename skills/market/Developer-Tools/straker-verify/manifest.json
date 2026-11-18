@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1Oz2nv93",
+  "name": "straker-verify",
+  "displayName": "Straker Verify 专业翻译与审核服务",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "indy-at-straker",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/straker-verify/latest/straker-verify.zip",
+  "zipSha256": "87fd5e5c7d3f65822b8558632d585a96d2b5bf7a438463576eec67b37ab1f4eb",
+  "zipBytes": 2590,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "cb63b876d3e8f99ddd350bf1e834f5c00cfca89273ea8d882b00733a6c00a90c",
+  "fetchedAt": "2026-11-18T10:38:12.602Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

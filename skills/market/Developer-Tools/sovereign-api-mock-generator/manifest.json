@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0Jp0mDLw",
+  "name": "sovereign-api-mock-generator",
+  "displayName": "API 模拟服务器生成器",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ryudi84",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/sovereign-api-mock-generator/latest/sovereign-api-mock-generator.zip",
+  "zipSha256": "80380e929d65d81d6df6b7bdbb22d98d30c958d1396f71225f0178b376a0cdc3",
+  "zipBytes": 815,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "156fc90390d4738a77329a71804491fa8e1a05273f23a338ba8a5d0380d193ff",
+  "fetchedAt": "2026-11-18T10:37:52.839Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

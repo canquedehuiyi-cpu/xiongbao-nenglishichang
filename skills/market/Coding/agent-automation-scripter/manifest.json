@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Jab9yJiu",
+  "name": "agent-automation-scripter",
+  "displayName": "自动化脚本专家",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-automation-scripter/latest/agent-automation-scripter.zip",
+  "zipSha256": "0aba0d8cc2a91c8ff32edfb99b6d9aa3a7d30af5d1ef1f9c8a6249127a63a304",
+  "zipBytes": 2022,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9d99284ac51f472d0b1b570e78f5cc91668d4cf538e4e9c253d9d1e03c602c32",
+  "fetchedAt": "2026-11-18T10:34:37.904Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

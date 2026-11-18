@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PLjrxn2N",
+  "name": "jackspace-scientific-pkg-deepchem",
+  "displayName": "科研测试",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jackspace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jackspace-scientific-pkg-deepchem/latest/jackspace-scientific-pkg-deepchem.zip",
+  "zipSha256": "f9d9adeee1f3f2437ecf06b1da606f9fda59bbce8935913795cd3f730fcb8feb",
+  "zipBytes": 16984,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "4335b99206765d41bc2204e0a5562c397ddcf85a73b72b59600204b5730ee7cf",
+  "fetchedAt": "2026-11-18T10:37:42.622Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

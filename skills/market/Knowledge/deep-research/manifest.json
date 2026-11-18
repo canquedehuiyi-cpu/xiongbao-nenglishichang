@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official03866510",
+  "name": "deep-research",
+  "displayName": "深入研究",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Jose-Luis-Nunez",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/deep-research/latest/deep-research.zip",
+  "zipSha256": "33d9657a0390647938f09939afa4b0eb45137c4d6b45aeda4ca0ac6fd15dedc9",
+  "zipBytes": 11931,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "5e48050c88a77269ce37cfaaa1ce7f492d39fbcef993540476e5e8ae954f8921",
+  "fetchedAt": "2026-11-18T10:38:59.874Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

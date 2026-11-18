@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Lha5lPnd",
+  "name": "academic-expert-skills",
+  "displayName": "学术论文优化专家技能包",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "official",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/academic-expert-skills/latest/academic-expert-skills.zip",
+  "zipSha256": "8b85eca585b2de2b47d474551756e94469175faae013c45071a441db227fb26d",
+  "zipBytes": 19693,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "2fa35a925aa8e1c9c648454047b4d8fc72593221eef90e8ef6d65d9cb1ec2cea",
+  "fetchedAt": "2026-11-18T10:39:35.981Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

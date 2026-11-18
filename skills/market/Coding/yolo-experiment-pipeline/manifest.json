@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "45ea7ed9-c3c9-4fa9-973d-5c3fbbe12768",
+  "name": "yolo-experiment-pipeline",
+  "displayName": "YOLO 对比实验流程",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a1335b-a944-725d-91c3-ff48379c6d94",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a15716-368f-7814-80fe-a09da4bbed5a/1d859ed3_yolo-experiment-pipeline.zip",
+  "zipSha256": "d3d01bcf8cb0bbe9b08956dfa1371bb254afc9776282f1fe3f2f19d947c02f35",
+  "zipBytes": 20108,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "4db9fa8b024ec3a2b5b147f5b0b8380c410f219e15c51bf9bbf8ef12dcbb20f8",
+  "fetchedAt": "2026-11-18T10:35:16.150Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dp7QDc0E",
+  "name": "dqz00116-unity-mcp",
+  "displayName": "UnityMCP开发",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dqz00116",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dqz00116-unity-mcp/latest/dqz00116-unity-mcp.zip",
+  "zipSha256": "ca1ecaffd97e56ff798b357c9eeff2db2247ab9aaf5b0b9eedf63018d6eaf9f5",
+  "zipBytes": 6041,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "685182e90a947183d58f1fc0d473163cec34ef6dd93e380e26bf78c7a8722d2d",
+  "fetchedAt": "2026-11-18T10:37:30.861Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

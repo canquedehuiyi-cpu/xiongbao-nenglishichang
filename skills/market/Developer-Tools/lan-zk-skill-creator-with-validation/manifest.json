@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Sn4lOpzs",
+  "name": "lan-zk-skill-creator-with-validation",
+  "displayName": "技能创建",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Lan-zk",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/lan-zk-skill-creator-with-validation/latest/lan-zk-skill-creator-with-validation.zip",
+  "zipSha256": "67874248c49a72c13c3b4a46f127f564cce89c27f0b31ebd58e3a4b4bdadc034",
+  "zipBytes": 14439,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "4b74c1c7c61068d6066535ca816ebaf4a6646b05c95adb0e344306ac3746dc13",
+  "fetchedAt": "2026-11-18T10:37:22.959Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

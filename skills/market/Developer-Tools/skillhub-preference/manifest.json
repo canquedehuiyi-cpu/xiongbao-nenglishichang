@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PKuBeoF7",
+  "name": "skillhub-preference",
+  "displayName": "Skillhub 偏好策略",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/skillhub-preference/latest/skillhub-preference.zip",
+  "zipSha256": "d631196e886a1ba9d7df4226224713fb79e04c06e332b88bd66a92d7b23b82bb",
+  "zipBytes": 907,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e1e78d1d9afeeda8cb279e7859cae32d8e76e9c6998df97c95f1c4ae6f7ffe6e",
+  "fetchedAt": "2026-11-18T10:37:32.079Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

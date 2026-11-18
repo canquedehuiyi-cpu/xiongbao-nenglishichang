@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "60218edb-c1b1-4bf6-a073-30685ad527d4",
+  "name": "sci-employee-deep-research",
+  "displayName": "深度研究",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f1ba1-7866-799e-a029-d511201f94b9",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f1c5a-5d2b-7d63-91f4-9f42beb88f0c/ac5cedc7_sci-employee-deep-research.zip",
+  "zipSha256": "b6dd8a2fa6477a820b9a357ba7a7ce27cf0397118aefccf54e613df38811a864",
+  "zipBytes": 13390,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "73b7c6fff60b15e175e435dea1526c77e75aa5141a996743ecdc6a9d51104ad1",
+  "fetchedAt": "2026-11-18T10:39:15.896Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 1
+  },
+  "note": null
+}

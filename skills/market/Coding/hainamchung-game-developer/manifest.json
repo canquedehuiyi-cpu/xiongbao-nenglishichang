@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vUSsckUG",
+  "name": "hainamchung-game-developer",
+  "displayName": "游戏GAME开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "hainamchung",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/hainamchung-game-developer/latest/hainamchung-game-developer.zip",
+  "zipSha256": "18e14bb9cc1260c6b7854f2c4eec52655dff79b0d5fd75f77efd2bff32e50b4a",
+  "zipBytes": 17390,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "7a5ab035ff97e333face612b367fc12ca20c2ab6aa06d9150f9a60666d706483",
+  "fetchedAt": "2026-11-18T10:34:59.652Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

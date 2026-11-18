@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "12121a68-4e58-4408-87e4-8ff905c0406f",
+  "name": "dakuan-workingflow",
+  "displayName": "dakuan 软件开发工作流",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.2",
+  "publisher": "019fff4f-7031-7e03-a0ea-1ae2a225ae41",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a1a576-2865-7303-85e8-900271a493cb/71691d3d_dakuan-workingflow.zip",
+  "zipSha256": "568e63cec63cbffa4c44429d6113c7924082633805345dd50b32e53c9baae846",
+  "zipBytes": 9278,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "ecde440fed5f7fd9533f42f41906cb5f5937a2b8c56fdcadba0be1de4bb55d59",
+  "fetchedAt": "2026-11-18T10:35:14.085Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

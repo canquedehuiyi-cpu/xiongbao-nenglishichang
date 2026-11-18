@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_24fpr9Sz",
+  "name": "medical-translation",
+  "displayName": "医学翻译",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/medical-translation/latest/medical-translation.zip",
+  "zipSha256": "df643b7ae81f7a427ebe07fbf4f058367cf7c497829c297762da1065759ce187",
+  "zipBytes": 8974,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "ca914af30ae80af68070c43f249725d8395a268293b0a662d3a4368a71ce9773",
+  "fetchedAt": "2026-11-18T10:39:33.680Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

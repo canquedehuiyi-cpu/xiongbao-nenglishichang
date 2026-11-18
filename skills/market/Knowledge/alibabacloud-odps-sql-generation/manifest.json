@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rhyR7Ogq",
+  "name": "alibabacloud-odps-sql-generation",
+  "displayName": "MaxCompute SQL 智能生成与编写",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-odps-sql-generation/latest/alibabacloud-odps-sql-generation.zip",
+  "zipSha256": "cdbe4d7ad77fad38f740ccc00faab9f047b999b385d1d400dc22df4646a02d24",
+  "zipBytes": 29569,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "0ca1554d9392c5f3db894f7f1300c8cc4b0b3df756f816bb68272bb045ba725f",
+  "fetchedAt": "2026-11-18T10:39:29.026Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

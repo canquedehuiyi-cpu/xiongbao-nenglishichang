@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FO2bl8ok",
+  "name": "taste-dante-alighieri",
+  "displayName": "但丁·阿利吉耶里文学品味",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/taste-dante-alighieri/latest/taste-dante-alighieri.zip",
+  "zipSha256": "274a4ab31b948bcf00cd9010cc9be3a3eb8e15fd90b0ebf1107feaba496a229b",
+  "zipBytes": 6488,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "5fbe66d8f559a54c9277a6a22c0da103f0790faef4b8a17c3676aa743b6458c9",
+  "fetchedAt": "2026-11-18T10:37:58.933Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

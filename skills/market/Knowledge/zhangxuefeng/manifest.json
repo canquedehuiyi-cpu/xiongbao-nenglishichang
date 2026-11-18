@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ib8BCsDq",
+  "name": "zhangxuefeng",
+  "displayName": "高考志愿顾问",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/zhangxuefeng/latest/zhangxuefeng.zip",
+  "zipSha256": "f0f2dfb82b703961ffb93a726ae91b82a1c22fcf6e9a162ed67f5bb3fbc5734e",
+  "zipBytes": 54004,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "4f62c61421c901083f449d1b1aee93dc08e63cfe236c63d72350d544bce86444",
+  "fetchedAt": "2026-11-18T10:39:12.311Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

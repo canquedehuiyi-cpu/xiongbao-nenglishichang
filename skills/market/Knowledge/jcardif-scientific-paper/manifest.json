@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RJw8e6Fl",
+  "name": "jcardif-scientific-paper",
+  "displayName": "论文科研",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jcardif",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jcardif-scientific-paper/latest/jcardif-scientific-paper.zip",
+  "zipSha256": "5530e547aaba244eade2bd4c0ef3372206ee4373ee7c67bf2c86c61f2ab7549c",
+  "zipBytes": 14976,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "39390ddbd5da6be82f8953d84ef5691304bc72db4368084c8d5c0af1620d0234",
+  "fetchedAt": "2026-11-18T10:39:01.812Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

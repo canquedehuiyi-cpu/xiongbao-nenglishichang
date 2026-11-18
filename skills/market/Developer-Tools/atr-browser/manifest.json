@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_n8gmRPNP",
+  "name": "atr-browser",
+  "displayName": "浏览器",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "imyousuf",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/atr-browser/latest/atr-browser.zip",
+  "zipSha256": "2e12e1d4a9e75c97e804b0c6a6a139f50004fc4ff9464ea3f885f58cb7fb4da1",
+  "zipBytes": 3913,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c16a8ba6b367c1d479167761d0377f7e6a4f98297078e0bea494e725440da137",
+  "fetchedAt": "2026-11-18T10:37:19.363Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

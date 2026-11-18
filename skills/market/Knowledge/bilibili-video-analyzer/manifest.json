@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3BfyTUGg",
+  "name": "bilibili-video-analyzer",
+  "displayName": "Bilibili 视频分析器",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "railgun9983",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bilibili-video-analyzer/latest/bilibili-video-analyzer.zip",
+  "zipSha256": "ce833326124ec512e07314d8bd71d295175d07aae24d690f0da2a753f1f1f253",
+  "zipBytes": 43549,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "b4562f40c42d050df6c779cd173ac55dd5bf6459d8e5b08dfa5075a5b8deafc1",
+  "fetchedAt": "2026-11-18T10:39:15.209Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

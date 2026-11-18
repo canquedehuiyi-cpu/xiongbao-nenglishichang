@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rSBPan0e",
+  "name": "idotta-dotnet-recommended",
+  "displayName": "Dotnet开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "idotta",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/idotta-dotnet-recommended/latest/idotta-dotnet-recommended.zip",
+  "zipSha256": "6db5f6c75c0d9684178cf9927cf72c511c7752a0576cf5149c53dc9f32af7ca3",
+  "zipBytes": 26678,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "c6ca03f61cac2e2a915765ff3ecb7a3de74f335f3af305c6a68f3112e4875f7f",
+  "fetchedAt": "2026-11-18T10:34:50.853Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

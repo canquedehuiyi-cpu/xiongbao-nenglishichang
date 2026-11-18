@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_A6HI4Dnq",
+  "name": "context7-usage",
+  "displayName": "context7 用法",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/context7-usage/latest/context7-usage.zip",
+  "zipSha256": "e3199dfc61480f1e83255b06eec34c9805a4c6e3b8f69720b2d99677df12aedb",
+  "zipBytes": 1353,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "52b2e44330ced062905f5abd5c3537d73786bbd7558113579a998da6baa4e98d",
+  "fetchedAt": "2026-11-18T10:37:31.039Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

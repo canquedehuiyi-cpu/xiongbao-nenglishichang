@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_pItHpelV",
+  "name": "aiskillstore-project-knowledge",
+  "displayName": "项目开发",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-project-knowledge/latest/aiskillstore-project-knowledge.zip",
+  "zipSha256": "062941308d4d3be2365b20b2326ae06d6c5497dd482164de2d530493f933bee5",
+  "zipBytes": 3664,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "194479fd2d7766bc91bbe036df047d55e2994180e08704ead6ffa492daa5debd",
+  "fetchedAt": "2026-11-18T10:37:17.734Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

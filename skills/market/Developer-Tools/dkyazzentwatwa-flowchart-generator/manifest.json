@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_h2DXhlkL",
+  "name": "dkyazzentwatwa-flowchart-generator",
+  "displayName": "Python生成助手",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dkyazzentwatwa",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dkyazzentwatwa-flowchart-generator/latest/dkyazzentwatwa-flowchart-generator.zip",
+  "zipSha256": "73953e01466f2091fabbcf6fae56c35b92b136399eb813c333ada59cb179ecec",
+  "zipBytes": 7948,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "5d26d571e32913e1797655f86dceb30e960126c12eeb07d9150351eb1385ea12",
+  "fetchedAt": "2026-11-18T10:37:45.261Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

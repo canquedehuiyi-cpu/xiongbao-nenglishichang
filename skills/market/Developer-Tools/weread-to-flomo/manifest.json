@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Xjah3PPL",
+  "name": "weread-to-flomo",
+  "displayName": "微信读书同步至 flomo",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/weread-to-flomo/latest/weread-to-flomo.zip",
+  "zipSha256": "42167d49b9d83fec673146bb0a1993f53b30a03fd07747f22d1b5e92602c4de5",
+  "zipBytes": 5099,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "25a13472a9e320abc94b83a1d76fff6031102e18474c6e98e0b3fcca4687fcee",
+  "fetchedAt": "2026-11-18T10:37:44.455Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

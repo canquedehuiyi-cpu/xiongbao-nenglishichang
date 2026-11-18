@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_lan4Pxex",
+  "name": "claude-dev-suite-dotnet-quality",
+  "displayName": "质量Dotnet",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "claude-dev-suite",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/claude-dev-suite-dotnet-quality/latest/claude-dev-suite-dotnet-quality.zip",
+  "zipSha256": "3a132004777092ca184a1c4341e02332afd3f2d8165522276fc3612f62761e5b",
+  "zipBytes": 4761,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "deb38275625dbd7a0bcde9df9aff8922e617f72a1395d86c6d897655cd886b9f",
+  "fetchedAt": "2026-11-18T10:35:07.787Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

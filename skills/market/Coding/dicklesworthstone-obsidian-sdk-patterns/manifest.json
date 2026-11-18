@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_o3T2MbxC",
+  "name": "dicklesworthstone-obsidian-sdk-patterns",
+  "displayName": "Obsidian模式",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-obsidian-sdk-patterns/latest/dicklesworthstone-obsidian-sdk-patterns.zip",
+  "zipSha256": "895a268b0092b5f314ca08788ada4badca40e953b09f760b56b88f7f9476e22b",
+  "zipBytes": 3334,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ce9295552a8bd0ee4de78f2c37d5649e39d5478fa650746974f1768f7e54c83c",
+  "fetchedAt": "2026-11-18T10:35:05.537Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

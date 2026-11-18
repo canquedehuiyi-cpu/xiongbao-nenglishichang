@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_nE1kc3wc",
+  "name": "web-scraping-automation",
+  "displayName": "网页抓取自动化",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "NeverSight",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/web-scraping-automation/latest/web-scraping-automation.zip",
+  "zipSha256": "5fb3b2cc22fc843eab7243c5acc34ed2d04dd8d4c689d16b202538aa6e5bf324",
+  "zipBytes": 2061,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "79a8f22cc8e9850ebf1906880c37cc866512394fc04689568fc9150b283a7c0f",
+  "fetchedAt": "2026-11-18T10:34:30.012Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

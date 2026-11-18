@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_73ACXimC",
+  "name": "intranet",
+  "displayName": "轻量级本地 HTTP 文件服务器",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "odrobnik",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/intranet/latest/intranet.zip",
+  "zipSha256": "44fb101e0eb9546b588b7db1448ae53e71239fdaf811210aef5eaa36d28e1aea",
+  "zipBytes": 16073,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "9f337f4fdcb9143510f4a99c60fcb6bf5dd5b7932e32edf13a641176ccaae65f",
+  "fetchedAt": "2026-11-18T10:38:12.793Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

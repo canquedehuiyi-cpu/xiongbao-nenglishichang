@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Fba2Ijo9",
+  "name": "travily",
+  "displayName": "Tavily 搜索",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/travily/latest/travily.zip",
+  "zipSha256": "c64ae59d043a947575b044eeef9bc9194ba1e64723e2b1f87a878d9d6f6a6015",
+  "zipBytes": 6200,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "5fe60e6016fef0829b850e29fc1e6635d45c3cffee2d8f5f9b83f167e1b9cba6",
+  "fetchedAt": "2026-11-18T10:39:14.775Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

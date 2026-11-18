@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_X0oQ16Lr",
+  "name": "henriqueatila-golang-gin-api",
+  "displayName": "APIGIN开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "henriqueatila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/henriqueatila-golang-gin-api/latest/henriqueatila-golang-gin-api.zip",
+  "zipSha256": "44e2dea35959356bbe75f07a6dd4e4cd4d11c36509ca10a2921a7c429310c596",
+  "zipBytes": 33069,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "81a1ef69afb0545184567ea6ab4f76cd5ddd430fecfe62ae5d9ab41496b27a66",
+  "fetchedAt": "2026-11-18T10:35:10.813Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

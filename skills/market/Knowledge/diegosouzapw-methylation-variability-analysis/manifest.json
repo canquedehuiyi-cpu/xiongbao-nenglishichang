@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_wHwGyRIf",
+  "name": "diegosouzapw-methylation-variability-analysis",
+  "displayName": "金融数据分析",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-methylation-variability-analysis/latest/diegosouzapw-methylation-variability-analysis.zip",
+  "zipSha256": "a4b283c4295e4103988c4315c8315f47320b3be118a5a9ea534606d2de3b7686",
+  "zipBytes": 3660,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "fe007be1af631dd2cff5e3c3de465584a5998d8a2d6d4a2db63bbb1281eaf7ad",
+  "fetchedAt": "2026-11-18T10:39:16.295Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

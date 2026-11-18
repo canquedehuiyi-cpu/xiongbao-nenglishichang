@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EThyWph2",
+  "name": "huiali-rust-concurrency",
+  "displayName": "Rust开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "huiali",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/huiali-rust-concurrency/latest/huiali-rust-concurrency.zip",
+  "zipSha256": "23feb140bc497695250393e3c8f4f10d5ca3e1db05f8ec66d08b2646c09bc16f",
+  "zipBytes": 6754,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "867430e1d365a6b70da351cb85d5b7737badc615f98d63e7b8b82997140a0254",
+  "fetchedAt": "2026-11-18T10:34:51.241Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

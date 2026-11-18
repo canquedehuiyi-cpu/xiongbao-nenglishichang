@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GkOjKTe1",
+  "name": "obsidian-wiki",
+  "displayName": "Obsidian 维基",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/obsidian-wiki/latest/obsidian-wiki.zip",
+  "zipSha256": "8aeea1d2c31e5fb3f3e991b5261eda14a15fde147f5c3efc20886efb0a3125d3",
+  "zipBytes": 35727,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "fcae518ed0fc19a3e17b1270e085f03c92e14d130eab1462399d115644cfd18e",
+  "fetchedAt": "2026-11-18T10:37:27.887Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

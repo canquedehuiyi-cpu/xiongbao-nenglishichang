@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_akSVm9qd",
+  "name": "game-quality-gates",
+  "displayName": "游戏开发质量门禁与检查清单",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "abczsl520",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/game-quality-gates/latest/game-quality-gates.zip",
+  "zipSha256": "868fd9c712202ccc7e7b714da76b4bcf4fc3830c9cb02b2450cf2870e7d74bda",
+  "zipBytes": 19161,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "93022f21bef203056c4b99a50bb765b77d3cc040dc265bc1175452a58afbdfe3",
+  "fetchedAt": "2026-11-18T10:39:14.331Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

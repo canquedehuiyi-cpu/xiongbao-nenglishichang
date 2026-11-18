@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7H2OuJl7",
+  "name": "ssh-handoff",
+  "displayName": "SSH 交接",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ssh-handoff/latest/ssh-handoff.zip",
+  "zipSha256": "8e1b6689b2a237ab72e36a77956d69fab97353dc2256d125c0518fbe03af3c27",
+  "zipBytes": 17322,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "7f9eac908ccf72ed7f997cccde3eb46ee9cb7d224462d356fe87fb4b8d945085",
+  "fetchedAt": "2026-11-18T10:37:26.776Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

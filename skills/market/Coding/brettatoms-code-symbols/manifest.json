@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_VpnGTLSo",
+  "name": "brettatoms-code-symbols",
+  "displayName": "Python开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "brettatoms",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/brettatoms-code-symbols/latest/brettatoms-code-symbols.zip",
+  "zipSha256": "2d661f9fc12bc7a8b07f8147f85fb6ec54159f7adba789c6999c85f84f963542",
+  "zipBytes": 5268,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "310179204c20d6bbd9d238b9eb993f8fea7f52ac09fd114ba9add82a3410ade6",
+  "fetchedAt": "2026-11-18T10:34:30.261Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

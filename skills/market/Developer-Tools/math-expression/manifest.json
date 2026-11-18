@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vpYJg5Od",
+  "name": "math-expression",
+  "displayName": "数学表达式",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/math-expression/latest/math-expression.zip",
+  "zipSha256": "5f92b6c5871c65ffc2f6635635f8443e23f17c0bcd830d3d00fadddff79768ec",
+  "zipBytes": 7177,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "2e20d3777b9c35382f34da1e631db49a4576144a9fa42a8cba0360ea56560071",
+  "fetchedAt": "2026-11-18T10:37:50.248Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

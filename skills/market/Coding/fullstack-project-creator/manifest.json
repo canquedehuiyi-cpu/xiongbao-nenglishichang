@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mHefNBtN",
+  "name": "fullstack-project-creator",
+  "displayName": "全栈项目创建器",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "superchao9",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/fullstack-project-creator/latest/fullstack-project-creator.zip",
+  "zipSha256": "7b9a20db5c6ad20228528e608c8336a1d062a0e9066fd9d92a443154647614e9",
+  "zipBytes": 5274,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c756ac58414189a02a22b6bb7ea940f671a564696f296bbf796f0cecda145b3f",
+  "fetchedAt": "2026-11-18T10:34:35.102Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

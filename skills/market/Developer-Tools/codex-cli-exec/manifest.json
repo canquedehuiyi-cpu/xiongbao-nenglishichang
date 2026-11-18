@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SIFooXb6",
+  "name": "codex-cli-exec",
+  "displayName": "Codex CLI 执行",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/codex-cli-exec/latest/codex-cli-exec.zip",
+  "zipSha256": "e129b412949269eb62bd5a267c0238276c545be5c89e3eac9455d27098ab811c",
+  "zipBytes": 2983,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "34cca038371fd2324b02b7aca71f38fe21bbad3b03684845cf4f2694f864350d",
+  "fetchedAt": "2026-11-18T10:38:09.522Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_85P5jweh",
+  "name": "boisenoise-superpowers-community-using-git-worktrees",
+  "displayName": "工作树开发",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-superpowers-community-using-git-worktrees/latest/boisenoise-superpowers-community-using-git-worktrees.zip",
+  "zipSha256": "f91a15d62fb1cb8c40d2ebe0a4c7044961fd8320b945c6686a4a19a926b8b3e8",
+  "zipBytes": 2429,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "585edd14ff3f089ab9057aa48f271607decba1e945b0ebb91510ab3ac3156252",
+  "fetchedAt": "2026-11-18T10:37:18.129Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0uQuxsIu",
+  "name": "pubmed",
+  "displayName": "PubMed 生物医学文献检索与评估指南",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivangdavila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pubmed/latest/pubmed.zip",
+  "zipSha256": "6ddd78a27f4b7d541ad7c9ee0f962d0c06e44baf2b24e4b59cd4ed3406e30c32",
+  "zipBytes": 2652,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "265ca3a8c38267fde982e69d4aaa5344b9bd72dc72c112643afe264bba5077ab",
+  "fetchedAt": "2026-11-18T10:39:47.427Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

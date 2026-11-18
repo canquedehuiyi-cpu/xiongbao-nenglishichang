@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_C0aWXgVX",
+  "name": "bbgnsurftech-brainstorming-skill",
+  "displayName": "营销头脑风暴",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "BbgnsurfTech",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bbgnsurftech-brainstorming-skill/latest/bbgnsurftech-brainstorming-skill.zip",
+  "zipSha256": "06c6f99ad2681d39ae3bf59c0b026198eb1af59893d7b9c8c7fe840af8b2f721",
+  "zipBytes": 96402,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 19,
+  "treeSha256": "911d50024e6c444d6289ab98a66d63777efeb781bfde0a737313f9c3664fbcaa",
+  "fetchedAt": "2026-11-18T10:39:41.452Z",
+  "credentialScan": {
+    "textFilesScanned": 19,
+    "filesRedacted": 0
+  },
+  "note": null
+}

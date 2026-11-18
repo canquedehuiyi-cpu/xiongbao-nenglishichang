@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4ZrNb8kg",
+  "name": "tech-solution-research",
+  "displayName": "技术方案调研",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/tech-solution-research/latest/tech-solution-research.zip",
+  "zipSha256": "647c888c8b42199b5ea6c0d1e00650376004005394c4d0c9aaa27b3d54839700",
+  "zipBytes": 25745,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "3fd0d9eabcaa0eae161875746e80da8a6f363020dc68da3383ef7130663687d6",
+  "fetchedAt": "2026-11-18T10:39:11.624Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

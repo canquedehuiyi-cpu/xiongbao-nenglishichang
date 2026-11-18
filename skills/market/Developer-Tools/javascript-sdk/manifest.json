@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_AENJvept",
+  "name": "javascript-sdk",
+  "displayName": "JavaScript/TypeScript SDK",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "okaris",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/javascript-sdk/latest/javascript-sdk.zip",
+  "zipSha256": "bc67b0d9bc8cdb9ba8fa3908c5ce3b6065e2f3120fa099f34ef192959dd22b63",
+  "zipBytes": 30534,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "51dc556930bbf55c2ee6ff2c023916fad6b46b55be43059c5b07895e29fd0c21",
+  "fetchedAt": "2026-11-18T10:37:58.763Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

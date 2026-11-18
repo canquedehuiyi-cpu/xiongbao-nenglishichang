@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_eoNE1li0",
+  "name": "kousen-spring-boot-skill",
+  "displayName": "Spring实践",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kousen",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kousen-spring-boot-skill/latest/kousen-spring-boot-skill.zip",
+  "zipSha256": "2f412b9f2acd27c01aac2f5d1d0a81e3cf06b858346875c3b7dbac066f83a4bd",
+  "zipBytes": 2611,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "32ac2466e91dee1b7101ad4be50bb6e235bfbe539ba85a63ebaee6a92371e030",
+  "fetchedAt": "2026-11-18T10:34:41.917Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

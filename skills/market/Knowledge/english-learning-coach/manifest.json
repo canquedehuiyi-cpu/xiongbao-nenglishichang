@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_IFZThINZ",
+  "name": "english-learning-coach",
+  "displayName": "英语学习教练",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/english-learning-coach/latest/english-learning-coach.zip",
+  "zipSha256": "27c2d2ea1fc190c4f766d1c302a65522612b0dce035d8a382b449f69d4c4f30e",
+  "zipBytes": 3191,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8d171ca6e3b2ded4f627bcd3fb6380008e44da39ad0e1e8b799673fd13c5a596",
+  "fetchedAt": "2026-11-18T10:39:24.486Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

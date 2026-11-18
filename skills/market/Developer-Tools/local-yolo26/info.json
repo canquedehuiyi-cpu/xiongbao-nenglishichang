@@ -1,0 +1,19 @@
+{
+    "venv_name": "yolo26",
+    "python_version": "3.11",
+    "mem_need_gb": 4,
+    "server_alive_timeout": -1,
+    "downloads": [
+        {
+            "url": "https://gitcode.com/gcw_ggDjjkY3/kjfile/releases/download/ai-skills/yolo26s.pt",
+            "dest": "yolo26s.pt"
+        },
+        {
+            "url": "https://gitcode.com/gcw_ggDjjkY3/kjfile/releases/download/ai-skills/coco8.zip",
+            "dest": "datasets/coco8.zip",
+            "unzip_to": "datasets",
+            "validate_dir": "datasets/coco8"
+        }
+    ],
+    "models": []
+}

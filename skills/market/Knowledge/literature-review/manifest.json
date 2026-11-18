@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "0b53de55-1c8f-43db-8130-05d08d0f24eb",
+  "name": "literature-review",
+  "displayName": "文献综述 Literature Review",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f1b63-8920-7d55-82c7-71fec86f9582",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a01458-0a2a-727c-b965-796a3d993659/00068cc1_literature-review.zip",
+  "zipSha256": "bd7340e37c33aea5739da084a083efeffada653716c1143fdc7e8228a909b2bf",
+  "zipBytes": 49985,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "b7fed3d8ad0e1aebd6f772334c0fb36d7759ba180fcb80470678644a7f18cec1",
+  "fetchedAt": "2026-11-18T10:39:26.539Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

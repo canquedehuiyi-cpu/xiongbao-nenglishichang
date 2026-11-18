@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "959d1315-6e68-4d8a-b0ca-1834d240c7b6",
+  "name": "lisp-programming-assistant",
+  "displayName": "Lisp编程助手",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "2.0.1",
+  "publisher": "019f2076-760a-7b70-9700-cdd29297eb9d",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a14d13-d33d-752f-8867-83b3cd03a3cf/9ebb6e79_lisp-programming-assistant.zip",
+  "zipSha256": "a397d111570b5a6fc7ef2b51d66132de798bf7009d1eefc5312156f3779fb5f8",
+  "zipBytes": 27583,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "df2e8bc6233872c0203a0973f6b989fc4a026785ccc6535a44eb96f9548fc314",
+  "fetchedAt": "2026-11-18T10:34:43.613Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

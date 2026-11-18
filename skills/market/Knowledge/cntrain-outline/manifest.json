@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HafnHKVy",
+  "name": "cntrain-outline",
+  "displayName": "企业培训大纲生成",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cntrain-outline/latest/cntrain-outline.zip",
+  "zipSha256": "744752ea900af2ec92fb8ee960bf5560d1848418c1d22f7553e55011b58d8a1c",
+  "zipBytes": 4353,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "95a78b93cd16031010de529a6d442272282202527600dcd7824f808968ec6736",
+  "fetchedAt": "2026-11-18T10:39:37.874Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

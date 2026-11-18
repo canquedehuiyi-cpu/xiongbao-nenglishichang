@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_eysz5PaS",
+  "name": "joyfun-ai",
+  "displayName": "趣味视频剪辑助手",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/joyfun-ai/latest/joyfun-ai.zip",
+  "zipSha256": "6f8cfc9faba46dae8b3d48ab4d608d4ba8feb2d0c6c9bb91c74db04605b0ea36",
+  "zipBytes": 3961,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5696ebd1304991ae2b3b9e565ad6f0100052075457ee221b918cbabd4aa25bee",
+  "fetchedAt": "2026-11-18T10:38:04.375Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

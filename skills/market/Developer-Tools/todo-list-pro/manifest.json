@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_53eTxFkI",
+  "name": "todo-list-pro",
+  "displayName": "待办事项列表",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/todo-list-pro/latest/todo-list-pro.zip",
+  "zipSha256": "356d25ac3c17a80bf155c2bb880b64b4c9bd4a214e6407ca0d64482df017e9e7",
+  "zipBytes": 10799,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "13f6c5a5c38edb4be549e04923b812a787d791e8a74a093eedd79cd12960b3ae",
+  "fetchedAt": "2026-11-18T10:37:53.278Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

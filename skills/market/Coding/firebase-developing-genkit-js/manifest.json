@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_pxkPapIx",
+  "name": "firebase-developing-genkit-js",
+  "displayName": "JSGenkit开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "firebase",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/firebase-developing-genkit-js/latest/firebase-developing-genkit-js.zip",
+  "zipSha256": "09bde0c88cf4eca3a39ad2c46f3a132223405f12fbf8e17828c5aadc9ffe13ac",
+  "zipBytes": 10187,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "59d5a1a7a9e7aac74bd6c6e13b1be66ed59c47c0530713f080d1375437e17c5f",
+  "fetchedAt": "2026-11-18T10:35:09.615Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

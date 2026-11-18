@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MbJmQei7",
+  "name": "mattpocock-improve-codebase-architecture",
+  "displayName": "代码库Improve",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mattpocock",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mattpocock-improve-codebase-architecture/latest/mattpocock-improve-codebase-architecture.zip",
+  "zipSha256": "e7dc36ec0b077bc1fa983572ff2a113d97babf700b1484d0b078f365c1a663af",
+  "zipBytes": 3637,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2c0b733585df92513acbc98f553a845d743d23314f6a042d66c6bd67ab1af584",
+  "fetchedAt": "2026-11-18T10:34:38.084Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

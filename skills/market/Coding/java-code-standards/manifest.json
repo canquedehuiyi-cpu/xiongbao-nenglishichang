@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "6333c122-0574-4252-b195-a0d9ddfbc14e",
+  "name": "java-code-standards",
+  "displayName": "Java 编码规范",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f7de8-b462-7258-b8d4-e3b36e8826fe",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ec17-2276-79d0-baf5-1e61a017ddae/1a8d852d_java-coding-standards.zip",
+  "zipSha256": "1cca48fb7e847a6a15fbe539626a01eacc28987dd7c3624c8729dfe759a94986",
+  "zipBytes": 16620,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "85673521c7d39366f19359f36c26cd41ca20dced6fff73871664157c5d993b21",
+  "fetchedAt": "2026-11-18T10:34:48.243Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

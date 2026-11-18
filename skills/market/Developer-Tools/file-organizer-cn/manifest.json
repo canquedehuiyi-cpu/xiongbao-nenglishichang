@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2bVMLIF7",
+  "name": "file-organizer-cn",
+  "displayName": "文件整理助手",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "guohongbin-git",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/file-organizer-cn/latest/file-organizer-cn.zip",
+  "zipSha256": "5c6d7b27e4ebcd1b16aa302a9679bd54c64b5bbe81f047316c483be6a67cd5f7",
+  "zipBytes": 5140,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "629a0ae2472a53e3afcbec32b6358cbb6d9d83795c90b2975d999590f9e586cd",
+  "fetchedAt": "2026-11-18T10:37:18.984Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

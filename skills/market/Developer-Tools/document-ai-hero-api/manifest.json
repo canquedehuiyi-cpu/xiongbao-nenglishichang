@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XslHHegx",
+  "name": "document-ai-hero-api",
+  "displayName": "文档 AI Hero API",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mattpocock",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/document-ai-hero-api/latest/document-ai-hero-api.zip",
+  "zipSha256": "bedb61a42082aebd971d1906ad118b48af4716117204bddf96f811815bad3466",
+  "zipBytes": 1237,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "10c952b2629d425c9e6358afc959613603e5c32e5619b86eec4ede6fb9211c05",
+  "fetchedAt": "2026-11-18T10:37:38.676Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

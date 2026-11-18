@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_eDZAiKLJ",
+  "name": "boisenoise-antigravity-rust-pro",
+  "displayName": "Rust开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-rust-pro/latest/boisenoise-antigravity-rust-pro.zip",
+  "zipSha256": "faf18a14160230c922a1e0efdbf0042c3d94aa1b8ffb36b6ff32eefde5af2262",
+  "zipBytes": 3292,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "496eab1594c867a403a957b64731ec6494771dbe64b5000d30468ce862bcee78",
+  "fetchedAt": "2026-11-18T10:34:34.345Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

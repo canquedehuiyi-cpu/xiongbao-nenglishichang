@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2jX2tOXG",
+  "name": "diegosouzapw-karpathy",
+  "displayName": "Karpathy开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-karpathy/latest/diegosouzapw-karpathy.zip",
+  "zipSha256": "4987d803ded60cd5d9b877a7bd48bd52832ad52e8ce071e056832b5a08b1b2fe",
+  "zipBytes": 2210,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "4ab5e8764f9a57fe76fe3fc0375109fcc7e9fd24ab38a5969d35f182f6d363ff",
+  "fetchedAt": "2026-11-18T10:34:38.236Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

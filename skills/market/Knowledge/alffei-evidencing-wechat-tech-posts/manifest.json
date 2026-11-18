@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_g4SzF9iI",
+  "name": "alffei-evidencing-wechat-tech-posts",
+  "displayName": "公众号Wechat",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "alffei",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alffei-evidencing-wechat-tech-posts/latest/alffei-evidencing-wechat-tech-posts.zip",
+  "zipSha256": "746be2f9549cdeb8ab20db80b233f63c823b4bebb313270b4a5cd52c1dc7bfcd",
+  "zipBytes": 1675,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e89b6e41bc082e5a7253ca3f6d332deef3683af9f178e5b6d7482131d27f5444",
+  "fetchedAt": "2026-11-18T10:39:37.014Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

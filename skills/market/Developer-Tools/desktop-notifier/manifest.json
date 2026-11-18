@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2aVhHtBG",
+  "name": "desktop-notifier",
+  "displayName": "桌面通知器",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/desktop-notifier/latest/desktop-notifier.zip",
+  "zipSha256": "905d44117631e897033031a37d7900bdcfa18f01296c3550097fc48279e7f797",
+  "zipBytes": 5493,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "3e2ac539f1094ad98ec179b60cf97f972a424ff5a99e1973ff084241af77570d",
+  "fetchedAt": "2026-11-18T10:38:07.104Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

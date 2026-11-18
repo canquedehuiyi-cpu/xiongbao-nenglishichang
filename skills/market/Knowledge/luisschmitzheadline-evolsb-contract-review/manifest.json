@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0LBsqXpT",
+  "name": "luisschmitzheadline-evolsb-contract-review",
+  "displayName": "合同Evolsb",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "luisschmitzheadline",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/luisschmitzheadline-evolsb-contract-review/latest/luisschmitzheadline-evolsb-contract-review.zip",
+  "zipSha256": "834f73e48a1c9b6111556c8b3f1cca8fe6bc6b35add0566b550bca141fdf8d75",
+  "zipBytes": 6074,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "e9d3fecf8e766e7c8d2ee5e6f7094e46b795bdbfb6bda345c77c2968390df68c",
+  "fetchedAt": "2026-11-18T10:39:43.661Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

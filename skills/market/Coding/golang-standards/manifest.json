@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "27973efe-5d5c-4688-89d5-846b5a0fc094",
+  "name": "golang-standards",
+  "displayName": "Go 编码规范",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f7de8-b462-7258-b8d4-e3b36e8826fe",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ec14-5abd-75b7-8ad4-1ca9ccef8a21/c096cfc8_golang-standards.zip",
+  "zipSha256": "3b98047ef4d1e1ae5045d0c8ac2828bf99dc973fbcc18ed08e7d5c8dedc003ce",
+  "zipBytes": 6379,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f3a45add5d1a87719b4071bbb5b1ead551cf18e68eb79c6da65bfd5b4314a2f5",
+  "fetchedAt": "2026-11-18T10:34:57.395Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

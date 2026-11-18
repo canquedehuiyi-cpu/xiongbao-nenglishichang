@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "bdd4c8d2-56b6-4e31-b464-3c48213e4635",
+  "name": "dknowc-trusted-search-qoder",
+  "displayName": "深知可信搜索（法律、政策、标准）",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.2",
+  "publisher": "019f8909-4055-7f1c-afa0-4e3690366360",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019ffa15-29bd-76b8-b848-094269ec66ae/30aeb106_dknowc-trusted-search-qoder-v1.1.2.zip",
+  "zipSha256": "fb347c8ef1ab27e4c80e5d99ea31679a1304a6b577f25d806a1b392ff1dac060",
+  "zipBytes": 43675,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "6e00d18930a5e46a722ec3286a792725a55d5947c2d2481889139d10bd1f9822",
+  "fetchedAt": "2026-11-18T10:39:16.605Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "c39241ac-4195-4998-ac4a-3083fc18cef9",
+  "name": "dingtalk-sso-login",
+  "displayName": "钉钉企业应用免登 (SSO)",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019ec9a7-9aa1-7c82-91ca-aad404884a16",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f985e-01f2-718c-9ed3-44f725fff372/2c4201e4_dingtalk-sso-login.zip",
+  "zipSha256": "26c0c909b2b4b3df2c56cc3ff189ecab5e8be0c3782d4475f4741ffd9dac4321",
+  "zipBytes": 6842,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "07a1d92507883f0bce0752b15fc8bd3ca3ff1550f275bee8c6d796a8771d3785",
+  "fetchedAt": "2026-11-18T10:35:01.642Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

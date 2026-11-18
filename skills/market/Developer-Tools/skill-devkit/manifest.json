@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "4a8e651f-3297-4c90-a856-9e9d066fbe90",
+  "name": "skill-devkit",
+  "displayName": "Skill 开发工具包",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.6",
+  "publisher": "019f1e4d-372a-74d8-b1bb-7a65c9e2ecb3",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a13902-c0cc-76a0-8a70-c7666307c8ac/3749dddf_skill-devkit-Skill-v0.11.3.zip",
+  "zipSha256": "1d5d9a722756d36aa56954de0290745722edaef99d12c700bf5b7e9a5c792642",
+  "zipBytes": 112831,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 83,
+  "treeSha256": "2a8deb399ddc74b77820ae620980f7b575e36e666b4bce0cc5e7f5dbf32eb73c",
+  "fetchedAt": "2026-11-18T10:37:20.239Z",
+  "credentialScan": {
+    "textFilesScanned": 69,
+    "filesRedacted": 0
+  },
+  "note": null
+}

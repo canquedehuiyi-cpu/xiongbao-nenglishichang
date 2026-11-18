@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Kg6TDhBg",
+  "name": "bahayonghang-xray-paper-skill",
+  "displayName": "论文XRAY",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bahayonghang",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bahayonghang-xray-paper-skill/latest/bahayonghang-xray-paper-skill.zip",
+  "zipSha256": "c420a1eb4204798c7f779cefc42e05f3cf5bed42f5b19af0ce9cd05954772d25",
+  "zipBytes": 11490,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "8c58a8e8b9e32f33d4f60fa68af7d3f16b4ef5d98cd2a5547a21d24559ee2767",
+  "fetchedAt": "2026-11-18T10:39:11.813Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

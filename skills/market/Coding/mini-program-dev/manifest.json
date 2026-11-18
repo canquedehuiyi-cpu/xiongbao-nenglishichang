@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ffgauZf8",
+  "name": "mini-program-dev",
+  "displayName": "微信小程序开发辅助",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "chandler0714",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mini-program-dev/latest/mini-program-dev.zip",
+  "zipSha256": "2501b2164c3fbac5518565ee815addd97d1a227fb6244f34d69d6cbc2340612a",
+  "zipBytes": 2359,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "96144d18bcac5b25876ce57f22fa27974bbb744dde7d634e93196cbedb1b2af7",
+  "fetchedAt": "2026-11-18T10:34:30.535Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

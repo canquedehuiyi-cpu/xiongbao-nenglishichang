@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MDUfXAGL",
+  "name": "boisenoise-antigravity-planning-with-files",
+  "displayName": "研究规划",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-planning-with-files/latest/boisenoise-antigravity-planning-with-files.zip",
+  "zipSha256": "c4c5b07df4b5eb2da696a80cba14221f34664bbd115f70c89961ec3da92d8cb8",
+  "zipBytes": 15637,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "c8f4a459e487b8e35adceaaa4e241b11b7fabff46ab35c1f690082543ef61884",
+  "fetchedAt": "2026-11-18T10:39:43.833Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

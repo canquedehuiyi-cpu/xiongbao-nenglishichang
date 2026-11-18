@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_193v9YVl",
+  "name": "irisgo-humanizer",
+  "displayName": "人类化写作助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lmanchu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/irisgo-humanizer/latest/irisgo-humanizer.zip",
+  "zipSha256": "fd5be359bd982539131652209123c3557244b8642bf57cbe3f8f0673f29cbdd2",
+  "zipBytes": 9172,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5e3d38f8183d641a7b5b517c5d67e5f2f28b0b2d3ac44782cbfdb59baf1b57ab",
+  "fetchedAt": "2026-11-18T10:39:02.150Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

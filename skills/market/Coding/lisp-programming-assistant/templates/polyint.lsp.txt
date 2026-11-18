@@ -1,0 +1,95 @@
+;; [双模式模板] 交点统计: 选中多段线, 统计所有与之相交图元的交点并输出 CSV
+;; 交互: 命令 POLYINT (选线 + 弹窗选 CSV 保存路径)
+;; 调试: 直接注入两行 (无需包装函数, *pi-csv* 按需覆盖):
+;;   (setq *pi-mode* 't *pi-ent* nil *pi-csv* "C:/.../out.csv")
+;;   (tm-polyint)
+;; 唯一分支点在 tm-polyint 开头, 其余逻辑交互/调试共用
+;; 候选粗筛用 ssget "_X" + 包围盒重叠过滤, 与当前视图无关 (ssget "_C" 只认视野内实体)
+;; 输出用 AutoLISP write-line 写文件: 中文表头在中文 Windows 落盘为 ANSI(GBK), AI 读回核对按 GBK 解码
+;; 排错: 注入时 (setq *pi-log* T) 开调试日志(默认 DWGPREFIX/polyint_debug.log), 用 scripts/read_log.py 按 GBK 读; 交付前删本段
+(vl-load-com)
+
+;; ---- 可选调试日志(返回值不足以定位时用; 不用时保持 *pi-log* 为 nil, 交付前整段删除) ----
+(setq *pi-log* nil)
+(setq *pi-logfile* (strcat (getvar "DWGPREFIX") "polyint_debug.log"))
+(defun tm-log (x / lf)
+  (if *pi-log*
+    (progn (setq lf (open *pi-logfile* "a"))
+           (write-line (vl-princ-to-string x) lf)
+           (close lf)))
+  x)
+
+(setq *pi-mode* nil)   ; 'i=交互  't=调试
+(setq *pi-ent*  nil)   ; 调试模式: 预设多段线实体(nil=最后创建的实体)
+(setq *pi-csv*  (strcat (getvar "DWGPREFIX") "polyint.csv"))  ; 默认输出到当前图目录, 调试时注入方 setq 覆盖
+
+(defun tm-join (lst / s)
+  (setq s "")
+  (foreach x lst
+    (setq s (if (= s "") x (strcat s "," x))))
+  s)
+
+;; 主函数: 返回交点总数(未选线/取消保存返回 nil)
+(defun tm-polyint (/ pl csv obj mn mx mnl mxl ss i ent eg raw fh total seen key
+                     en ex obj2)
+  ;; ===== 唯一分支点: 按模式取参数 =====
+  (if (eq *pi-mode* 'i)
+    (progn
+      (setq pl (car (entsel "\n选择多段线: ")))
+      (setq csv (if pl (getfiled "保存交点CSV" "C:/" "csv" 1))))
+    (setq pl (if *pi-ent* *pi-ent* (entlast))
+          csv *pi-csv*))
+  ;; ===== 以下共用, 零分支 =====
+  (if (and pl csv)
+    (progn
+      (setq obj (vlax-ename->vla-object pl))
+      (vla-getBoundingBox obj 'mn 'mx)
+      (setq mnl (vlax-safearray->list mn)
+            mxl (vlax-safearray->list mx)
+            ss  (ssget "_X" '((-4 . "<OR") (0 . "LINE") (0 . "LWPOLYLINE") (0 . "POLYLINE")
+                              (0 . "ARC") (0 . "CIRCLE") (0 . "ELLIPSE") (0 . "SPLINE")
+                              (-4 . "OR>")))
+            fh  (open csv "w") total 0)
+      (write-line "序号,交线类型,交线句柄,交点X,交点Y" fh)
+      (if ss
+        (progn
+          (setq i 0)
+          (while (< i (sslength ss))
+            (setq ent (ssname ss i) i (1+ i) seen nil)
+            (if (not (eq ent pl))
+              (progn
+                (setq obj2 (vlax-ename->vla-object ent))
+                (vla-getBoundingBox obj2 'en 'ex)
+                ;; 包围盒重叠才精算, 替代 ssget "_C" 的视图相关粗筛
+                (if (and (< (car mnl) (car (vlax-safearray->list ex)))
+                         (< (car (vlax-safearray->list en)) (car mxl))
+                         (< (cadr mnl) (cadr (vlax-safearray->list ex)))
+                         (< (cadr (vlax-safearray->list en)) (cadr mxl)))
+                  (progn
+                    (setq raw (vlax-invoke obj2 'IntersectWith obj acExtendNone)
+                          eg (entget ent))
+                    (while raw
+                      (setq key (strcat (rtos (car raw) 2 4) "," (rtos (cadr raw) 2 4)))
+                      (if (not (member key seen))
+                        (progn
+                          (setq seen (cons key seen) total (1+ total))
+                          (write-line (tm-join (list (itoa total)
+                                                     (cdr (assoc 0 eg))
+                                                     (cdr (assoc 5 eg))
+                                                     (rtos (car raw) 2 4)
+                                                     (rtos (cadr raw) 2 4)))
+                                      fh)))
+                      (setq raw (cdddr raw))))))))))
+      (close fh)
+      (princ (strcat "\n共 " (itoa total) " 个交点, 已输出 " csv))
+      total)
+    (progn (princ "\n未选择多段线或已取消保存") nil)))
+
+;; 交互模式: 命令入口 —— 设置交互模式变量, 启动主函数
+(defun c:POLYINT ()
+  (setq *pi-mode* 'i)
+  (tm-polyint)
+  (princ))
+
+(princ "\nPOLYINT 已加载: 命令 POLYINT=交互 / 注入两行 setq+调用=调试")
+(princ)

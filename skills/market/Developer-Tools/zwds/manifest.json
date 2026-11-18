@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_K0V5y1wi",
+  "name": "zwds",
+  "displayName": "紫微斗数排盘与解盘",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/zwds/latest/zwds.zip",
+  "zipSha256": "2f72192b218b6fac5d8a3f1412a0dadd65fc99f17a134e4e8c2811c3d424f55b",
+  "zipBytes": 129480,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 22,
+  "treeSha256": "8ccb17e44dbdcc25d8fe289378ecbef826e03ac0e6b7f6088655a96c866068be",
+  "fetchedAt": "2026-11-18T10:37:31.884Z",
+  "credentialScan": {
+    "textFilesScanned": 22,
+    "filesRedacted": 0
+  },
+  "note": null
+}

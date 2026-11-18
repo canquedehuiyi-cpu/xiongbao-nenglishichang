@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZKHoUaxN",
+  "name": "boisenoise-antigravity-unreal-engine-cpp-pro",
+  "displayName": "Engine开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-unreal-engine-cpp-pro/latest/boisenoise-antigravity-unreal-engine-cpp-pro.zip",
+  "zipSha256": "f5b5130dea1ce3c57a0d644061907c0ebd41c546580bc78da1bc243c406a4931",
+  "zipBytes": 4188,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "1c1e221e4f17bb487627b715ff66c6d5cf7805f0cecc22229fa1989f15d63849",
+  "fetchedAt": "2026-11-18T10:35:03.420Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

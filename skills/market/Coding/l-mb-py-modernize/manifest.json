@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_061qsdMI",
+  "name": "l-mb-py-modernize",
+  "displayName": "PythonPy开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "l-mb",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/l-mb-py-modernize/latest/l-mb-py-modernize.zip",
+  "zipSha256": "aec336d57cc8666dfaabc03ab2c331395262f7cb0403d265754e5dca9b8fa46d",
+  "zipBytes": 3212,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "89f827d2bd358b2f8467ffacccc07200ea2fb6ecd33b821ce683ded5a44c7dcf",
+  "fetchedAt": "2026-11-18T10:34:43.244Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

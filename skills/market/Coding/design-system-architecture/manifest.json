@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fEZriwMl",
+  "name": "design-system-architecture",
+  "displayName": "设计系统架构",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "NickCrew",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/design-system-architecture/latest/design-system-architecture.zip",
+  "zipSha256": "0407c4e7b192e2a79f3250008123634c28a735df119d5a0bab2e817ceab19afd",
+  "zipBytes": 2439,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6ecbd82ebede03d6aa4277e4ef74351322a4b20f96d80a29614814f7424b6cb7",
+  "fetchedAt": "2026-11-18T10:35:13.221Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

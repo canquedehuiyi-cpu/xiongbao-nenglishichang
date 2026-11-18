@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1bgP31zq",
+  "name": "agentika-labs-learn-codebase",
+  "displayName": "代码库Learn",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "agentika-labs",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agentika-labs-learn-codebase/latest/agentika-labs-learn-codebase.zip",
+  "zipSha256": "c0157b8c09b12a3be59e8e688104e7258eb3c3d9d4767589ed790986c5e1413f",
+  "zipBytes": 4198,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a792d549d3da4ebddc98c591e3c14aaed81cb2c3f9ac8e3424ab4905c2d1037d",
+  "fetchedAt": "2026-11-18T10:37:37.786Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

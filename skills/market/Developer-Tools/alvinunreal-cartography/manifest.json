@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_z4MceBdC",
+  "name": "alvinunreal-cartography",
+  "displayName": "代码生成",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "alvinunreal",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alvinunreal-cartography/latest/alvinunreal-cartography.zip",
+  "zipSha256": "d920917861f80c7cf02d6c3c92f96a63b8dadfa63f490e3a7757991f706db8db",
+  "zipBytes": 8612,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "4d39de0cf8ebd9cdeca93a1edb1e04fc9977500f137bb9a43b54281f6b24b6fb",
+  "fetchedAt": "2026-11-18T10:37:45.678Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

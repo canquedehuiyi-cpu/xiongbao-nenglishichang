@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "a80b81e0-8ba4-4de7-9e80-a62d347b6b00",
+  "name": "windows-software-true-migration",
+  "displayName": "Windows 软件跨盘迁移",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "3.7.0",
+  "publisher": "019f5e4b-4b1c-7901-9a8a-99956e22a76a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fc5a2-2669-7355-8328-71c14fc00976/442c0654_windows-software-true-migration.zip",
+  "zipSha256": "23439135d7b0f9e2a40fe600543af37135e0c04b25e06972604c1f0a2459ea69",
+  "zipBytes": 32789,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "cace1fee5358172ba902c9cae3ad4fa8e71c098383efb0edc30e6892393eda41",
+  "fetchedAt": "2026-11-18T10:37:54.375Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

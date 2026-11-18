@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2tvHNAez",
+  "name": "dicklesworthstone-tailwind-class-optimizer",
+  "displayName": "前端Tailwind",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-tailwind-class-optimizer/latest/dicklesworthstone-tailwind-class-optimizer.zip",
+  "zipSha256": "57152a6f218d465a779eeb3ac7b548813c0fbe7a70b74cc173a54c5e9be40ed7",
+  "zipBytes": 1205,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "2e4798fff0cf58851774fc384e45a5d251e4c35f7c03f4345aeeabd4c8780263",
+  "fetchedAt": "2026-11-18T10:35:11.193Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

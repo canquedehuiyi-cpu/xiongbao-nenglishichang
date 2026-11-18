@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FcJh3qUh",
+  "name": "diegosouzapw-project-analysis-codenamev",
+  "displayName": "项目分析",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-project-analysis-codenamev/latest/diegosouzapw-project-analysis-codenamev.zip",
+  "zipSha256": "432e57fbc15b83f2c685b9dd922bad52dd9c392d5208f00d6464c716e76deed9",
+  "zipBytes": 2569,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "34002a0da2e468ef39238a0d1dc3989f09736b93d189084f49c122f891f17fbb",
+  "fetchedAt": "2026-11-18T10:37:51.632Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

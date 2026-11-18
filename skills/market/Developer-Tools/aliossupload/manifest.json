@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_O67sCRJZ",
+  "name": "aliossupload",
+  "displayName": "阿里云 OSS 上传工具",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aliossupload/latest/aliossupload.zip",
+  "zipSha256": "f8dfcba84d8b1c1d6d81230201f228aef7030906bf66cb66a3008fecce45751f",
+  "zipBytes": 6619,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "25552801e378a56ef014bc5ba27e7ff4c8ff70cca649c248565357c030fab9a6",
+  "fetchedAt": "2026-11-18T10:38:02.748Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

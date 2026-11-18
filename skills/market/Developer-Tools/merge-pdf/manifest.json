@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_oG43yOKQ",
+  "name": "merge-pdf",
+  "displayName": "合并 PDF 文件",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "crossservicesolutions",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/merge-pdf/latest/merge-pdf.zip",
+  "zipSha256": "c02fe89ce2d6d96dbf2d37a0a4fdb867c77ec5aa80df8923ec71bcb2c3b84e6b",
+  "zipBytes": 5221,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "6f82565353542071a72f3405bc0d99a2d99a692ca9e1f2c5a2c20a0d498673cb",
+  "fetchedAt": "2026-11-18T10:38:05.568Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5mbVErb7",
+  "name": "icon-system",
+  "displayName": "图标系统",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "marvinrichter",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/icon-system/latest/icon-system.zip",
+  "zipSha256": "e5abf9e5b1d52ab4c5155e305e8fd4b2a8ef52338d06e2844ad3ba9300909cd4",
+  "zipBytes": 4486,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "9b78f43961f4b4eae718e266e677df762f3626cb4a63cddf75281ff2d7b8e815",
+  "fetchedAt": "2026-11-18T10:37:39.198Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

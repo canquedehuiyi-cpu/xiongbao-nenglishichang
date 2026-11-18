@@ -1,0 +1,49 @@
+{
+  "data": "D:/path/to/dataset/data.yaml",
+  "project": "results",
+  "common": {
+    "epochs": 200,
+    "imgsz": 640,
+    "batch": 64,
+    "device": "0",
+    "workers": 0,
+    "seed": 42,
+    "optimizer": "SGD",
+    "lr0": 0.005,
+    "lrf": 0.01,
+    "weight_decay": 0.003,
+    "warmup_epochs": 15,
+    "patience": 60,
+    "close_mosaic": 10,
+    "amp": true,
+    "mosaic": 1.0,
+    "mixup": 0.0,
+    "copy_paste": 0.0,
+    "val": true,
+    "save": true
+  },
+  "experiments": [
+    {
+      "name": "baseline_lr0005",
+      "model": "yolo12n.pt",
+      "desc": "baseline: YOLO12n, lr0=0.005, 200 epochs",
+      "params": {}
+    },
+    {
+      "name": "copy_paste_05",
+      "model": "yolo12n.pt",
+      "desc": "copy_paste=0.5",
+      "params": {
+        "copy_paste": 0.5
+      }
+    },
+    {
+      "name": "lr0005_cos",
+      "model": "yolo12n.pt",
+      "desc": "cosine learning-rate schedule",
+      "params": {
+        "cos_lr": true
+      }
+    }
+  ]
+}

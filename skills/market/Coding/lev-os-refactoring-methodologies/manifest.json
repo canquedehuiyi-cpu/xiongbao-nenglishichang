@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_j2nvMnLG",
+  "name": "lev-os-refactoring-methodologies",
+  "displayName": "代码重构",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lev-os",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/lev-os-refactoring-methodologies/latest/lev-os-refactoring-methodologies.zip",
+  "zipSha256": "2b229fa22dd1c7e033a6907aacace14afc5685db9362fc55bb37ac85b8a86b72",
+  "zipBytes": 3462,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "354eecca4f7dbed08a8926eb0f5c3a599628741c7a4264e1abf9fd56778cda61",
+  "fetchedAt": "2026-11-18T10:35:15.300Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9okHbddr",
+  "name": "doro-git-essentials",
+  "displayName": "Git 核心命令与工作流指南",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "a2mus",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/doro-git-essentials/latest/doro-git-essentials.zip",
+  "zipSha256": "0023913e4f22889b4ace5743b1c40886b305b9dfbb7137971bd69fcd60bf49c9",
+  "zipBytes": 2974,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "6fd0c541198639f1aed6dfe57451c2c91f96ff169aa500721c5b6092d816882a",
+  "fetchedAt": "2026-11-18T10:37:46.541Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

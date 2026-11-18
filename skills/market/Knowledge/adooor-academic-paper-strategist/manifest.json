@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_QCOwy9uf",
+  "name": "adooor-academic-paper-strategist",
+  "displayName": "论文Academic",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AAASS554",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/adooor-academic-paper-strategist/latest/adooor-academic-paper-strategist.zip",
+  "zipSha256": "2fb800274e35c6ae9d070c4bb76e79fc7d558eadced3f16896ee384b6cd6778f",
+  "zipBytes": 4972,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "e588fcb5121142eccdab2785d96c9652481c4ad022db746505285e877bd43044",
+  "fetchedAt": "2026-11-18T10:39:29.169Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

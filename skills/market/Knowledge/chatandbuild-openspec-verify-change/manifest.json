@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZZC69Mdg",
+  "name": "chatandbuild-openspec-verify-change",
+  "displayName": "Openspec验证",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ChatAndBuild",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/chatandbuild-openspec-verify-change/latest/chatandbuild-openspec-verify-change.zip",
+  "zipSha256": "5602e6f9d241f91e18c6fe40abdc8bd186c8f8b8e4ea6f79cc18d2628853021e",
+  "zipBytes": 2709,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7549d11aedafef9c66b59b1d1310faf07d6a16b261de4704ae23bbb899f65c73",
+  "fetchedAt": "2026-11-18T10:39:13.185Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

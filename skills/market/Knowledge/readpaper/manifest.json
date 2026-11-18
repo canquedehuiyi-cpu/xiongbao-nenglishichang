@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_oTI4F5hY",
+  "name": "readpaper",
+  "displayName": "论文阅读报告生成器",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/readpaper/latest/readpaper.zip",
+  "zipSha256": "e299cda64d55272968934f28a94c4ce162bf0510ccd35bbddfea4333d1db65db",
+  "zipBytes": 17049,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "167e84b3f4603c12e1a785aa0908fcccb504d4f537d51dcec3d866bc1968f5c6",
+  "fetchedAt": "2026-11-18T10:39:48.122Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

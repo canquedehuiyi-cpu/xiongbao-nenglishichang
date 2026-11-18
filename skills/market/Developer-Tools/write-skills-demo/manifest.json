@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2tGAVfD3",
+  "name": "write-skills-demo",
+  "displayName": "编写技能",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "freshman94",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/write-skills-demo/latest/write-skills-demo.zip",
+  "zipSha256": "f6e1dcbaa0db4cafe05d783b8af464968a30c9ac28a58bb25e55f5508644a070",
+  "zipBytes": 35629,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "d4df2d0345b9389ad0069b7bdc8eaab9627a6c618c538aea1ad73fefa889b2b8",
+  "fetchedAt": "2026-11-18T10:38:02.001Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tda29DIs",
+  "name": "majesticlabs-dev-competitive-positioning",
+  "displayName": "市场分析",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majesticlabs-dev",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majesticlabs-dev-competitive-positioning/latest/majesticlabs-dev-competitive-positioning.zip",
+  "zipSha256": "f680f0a51e4fcbc1a883503849784108ea8737c79496ca1cdc575dee6a403df3",
+  "zipBytes": 3006,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "55bb9a5079b008870ef0a6f42c96f8d86b36b6d760ba545cff27d5068c95faa6",
+  "fetchedAt": "2026-11-18T10:39:34.062Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

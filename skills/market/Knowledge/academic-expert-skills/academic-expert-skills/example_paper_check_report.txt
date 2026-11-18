@@ -1,0 +1,41 @@
+============================================================
+学术论文检查报告
+============================================================
+
+📄 文件信息:
+  filename: example_paper.tex
+  size_bytes: 2576
+  lines: 70
+  words: 319
+
+📊 统计信息:
+  总错误数: 2
+  总警告数: 16
+
+❌ 发现错误:
+  1. [typo] teh → the
+     上下文: ... cloud models trained from scratch. We found that teh model is vulnerable to invisible backdoors insert...
+  2. [style] got → obtained
+     上下文: ...oisoning
+3. Model training with poisoned data
+
+We got good results with our approach. The model perform...
+
+⚠️ 警告和建议:
+  1. [LaTeX格式] 检查引用格式
+  2. [LaTeX格式] 检查引用格式
+  3. [LaTeX格式] 检查引用格式
+  4. [LaTeX格式] 检查引用格式
+  5. [LaTeX格式] 检查图表引用
+  6. [LaTeX格式] 检查标签定义
+  7. [LaTeX格式] 检查环境开始
+  8. [LaTeX格式] 检查环境开始
+  9. [LaTeX格式] 检查环境开始
+  10. [LaTeX格式] 检查环境开始
+  ... 还有6个警告
+
+📈 总体评估:
+  ⚠️ 发现2个基础错误需要修复
+  💡 有16个格式和风格建议
+
+============================================================

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2uo9xS1h",
+  "name": "encoding-formats",
+  "displayName": "数据编码与格式转换指南",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "gitgoodordietrying",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/encoding-formats/latest/encoding-formats.zip",
+  "zipSha256": "5f75af020d8ee5002582858e0cbcd5104a9c8defe2098c6474113c13c1c410f3",
+  "zipBytes": 5134,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0d110a6ee7df85ff36710e6c8617c150adc373e96c486f89774fd12e7d604cf8",
+  "fetchedAt": "2026-11-18T10:38:07.337Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 1
+  },
+  "note": null
+}

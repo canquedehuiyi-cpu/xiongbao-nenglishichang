@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3AWibcyX",
+  "name": "code-project-analyzer",
+  "displayName": "代码项目分析助手",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ttjsndx",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-project-analyzer/latest/code-project-analyzer.zip",
+  "zipSha256": "48beb74e59391ec781e1bd30b0019fd9c3d7a6bb15d28ca986d2c96128dd4422",
+  "zipBytes": 4863,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "e6b10ea900dfbda796824b6fd02832d7f05262f26a951471de066f92d2cbd7cb",
+  "fetchedAt": "2026-11-18T10:37:31.476Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

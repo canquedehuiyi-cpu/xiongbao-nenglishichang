@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_13xkm8wK",
+  "name": "unibase-membase",
+  "displayName": "Membase 内存管理",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ibitnoah",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/unibase-membase/latest/unibase-membase.zip",
+  "zipSha256": "9ff0f347447be46293d53d256f11abffbdfa12bb62bd604d6370851d58882a1e",
+  "zipBytes": 12116,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "a3b1b18f0597ebd5ee2521c3b0d8f3057d011845efea076b1562d7cea492e4a2",
+  "fetchedAt": "2026-11-18T10:38:11.714Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

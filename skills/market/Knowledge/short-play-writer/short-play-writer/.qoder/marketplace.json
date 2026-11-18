@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "skill",
+  "marketItemId": "official_rgGPKGAg",
+  "itemName": "short-play-writer",
+  "displayName": "short-play-writer",
+  "version": "1.0.1",
+  "packageKind": "skill"
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5K2u9KD9",
+  "name": "laurigates-code-refactor",
+  "displayName": "代码重构",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "laurigates",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/laurigates-code-refactor/latest/laurigates-code-refactor.zip",
+  "zipSha256": "5d6d3bc948f77c704c075566efd7f2c6957c7d980faee71afdb61648228a580b",
+  "zipBytes": 1665,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "60b12ebfa0f7609b748e4c5beaab456a2191d1395a3b47082bc6ef842eb0423a",
+  "fetchedAt": "2026-11-18T10:34:29.694Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

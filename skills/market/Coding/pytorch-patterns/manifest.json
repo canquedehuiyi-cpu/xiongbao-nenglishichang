@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_F5Ep4Asn",
+  "name": "pytorch-patterns",
+  "displayName": "PyTorch开发模式与最佳实践",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0c39a-f47b-7f41-b095-84f190f36193/ss_bdb4dd2adf1a76c7c393eefad0695ebd3e5e94bcea5afc860ce51c90d035.zip",
+  "zipSha256": "78f9720888cddf22ffbbf5e574b85faa8935ed7d422b7ef2b9289437fdd22cb7",
+  "zipBytes": 4912,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "991f182406ea2820342b75bebe3200f6d3179f77815462be2c485e014f53fdde",
+  "fetchedAt": "2026-11-18T10:34:46.000Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cpZ3YlGr",
+  "name": "diegosouzapw-anti-duplication",
+  "displayName": "Anti开发",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-anti-duplication/latest/diegosouzapw-anti-duplication.zip",
+  "zipSha256": "e37a08383a07a606f7001cb550455ebe32ad87218fbe2287004b5c6a7098381c",
+  "zipBytes": 11838,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "889ccf663587fc300315f9b3dad577902d730673489473721591c91f852c8652",
+  "fetchedAt": "2026-11-18T10:37:47.096Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

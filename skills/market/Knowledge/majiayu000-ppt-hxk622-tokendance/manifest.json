@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_sqafoU3W",
+  "name": "majiayu000-ppt-hxk622-tokendance",
+  "displayName": "PPT演示标题",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-ppt-hxk622-tokendance/latest/majiayu000-ppt-hxk622-tokendance.zip",
+  "zipSha256": "f17665f260d9ff6271759c9e1bfc90349b2414bcc61014b2cf78d3b275a8c7e5",
+  "zipBytes": 4303,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a5ed2a683ec55e8b48c471684a14e2e80ce65272f792b89ca83689b72797f2e7",
+  "fetchedAt": "2026-11-18T10:39:01.489Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

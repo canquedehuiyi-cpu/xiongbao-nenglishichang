@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_IL7TYFkD",
+  "name": "exa-search",
+  "displayName": "Exa 搜索",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "affaan-m",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/exa-search/latest/exa-search.zip",
+  "zipSha256": "5df32fc19f45b32d6b841de090547ee87156799ddca575688c8caab4ef242354",
+  "zipBytes": 2249,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "959b6b0f4ab9a2db8bda2414ad1fdcf4dc903da3452927fbba2f89d3f9190b85",
+  "fetchedAt": "2026-11-18T10:37:25.603Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

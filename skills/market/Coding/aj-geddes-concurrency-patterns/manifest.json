@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2duPeq2l",
+  "name": "aj-geddes-concurrency-patterns",
+  "displayName": "安全并发模式",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aj-geddes",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aj-geddes-concurrency-patterns/latest/aj-geddes-concurrency-patterns.zip",
+  "zipSha256": "293742d05916911364483d0af9a647e25946670382f4aff19aec47af95fbfd1f",
+  "zipBytes": 7919,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "cc4cf3d8a3af987275f05dab99f9352552933ba226301a05ce0735750d9667e7",
+  "fetchedAt": "2026-11-18T10:34:58.127Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

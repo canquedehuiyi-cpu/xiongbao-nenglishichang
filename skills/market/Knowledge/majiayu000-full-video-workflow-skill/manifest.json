@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_TC3AVk4w",
+  "name": "majiayu000-full-video-workflow-skill",
+  "displayName": "视频FULL",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-full-video-workflow-skill/latest/majiayu000-full-video-workflow-skill.zip",
+  "zipSha256": "33fbbbf805d69c5adf775c477e888eee656d445d1686939be40047fa4a97dccf",
+  "zipBytes": 5614,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d5be3961ac4386e97c7a0dee57a040ed7ce2b618d3c4058c9056680a61d011ea",
+  "fetchedAt": "2026-11-18T10:39:45.497Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

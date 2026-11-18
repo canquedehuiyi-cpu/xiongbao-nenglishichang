@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LuAlWKPi",
+  "name": "math-worksheets",
+  "displayName": "数学工作表生成器",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "trondw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/math-worksheets/latest/math-worksheets.zip",
+  "zipSha256": "9aa37e2d214d37d36f9dca00844a6e95f4aa3526c5ea8604fb9b2114111cbfd3",
+  "zipBytes": 20724,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "401cddc8d813aae8d3914dc8261bd51c5036beaa39eaebb7eb538948212a0464",
+  "fetchedAt": "2026-11-18T10:39:44.717Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

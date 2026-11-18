@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "79f7411c-1845-4269-8c97-f7d3157b749c",
+  "name": "ai-capability-workflow",
+  "displayName": "AI 技能与智能体开发工作流",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a0f7d3-1e5e-74cd-8d81-2d8d5cd4d656",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a10024-cb37-762f-8ae6-fad7d4159dd5/a5858006_ai-capability-workflow-skill.zip",
+  "zipSha256": "acdd5b989b81ae17493aab91d908e987cfddea55ffe26c5b27ba3153639b3384",
+  "zipBytes": 17402,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "1404c9bc2597984f96e6a5508aa106586b7738ec61697547865727f60f2af8a1",
+  "fetchedAt": "2026-11-18T10:35:04.742Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

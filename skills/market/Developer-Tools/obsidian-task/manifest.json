@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Q558dkdI",
+  "name": "obsidian-task",
+  "displayName": "Obsidian 任务管理",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boyd4y",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/obsidian-task/latest/obsidian-task.zip",
+  "zipSha256": "425ed01f6599e3bbdfc0bbcba655606f9327cce4fae8d5cdea07843fb7a7c2ea",
+  "zipBytes": 1355,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "819ac1e24ef89d858ac1e023ec1d965dae26974b1ae14a3fec92d1be0649bfad",
+  "fetchedAt": "2026-11-18T10:37:52.063Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

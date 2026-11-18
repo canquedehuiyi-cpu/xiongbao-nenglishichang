@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9dScyoxu",
+  "name": "majiayu000-paper-writing",
+  "displayName": "图表论文写作",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-paper-writing/latest/majiayu000-paper-writing.zip",
+  "zipSha256": "89cbdba3a05c49ea6c9198acb59a092ca52572678656639047dd4a7d5878d566",
+  "zipBytes": 3323,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2fd14e03bf24b8337404fbe32b1e97624d66d3d1e659de7c7397a8d6bd7b11d4",
+  "fetchedAt": "2026-11-18T10:39:35.606Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

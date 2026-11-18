@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "058254af-1edf-4ff5-acc5-1dce9cfe19c8",
+  "name": "swagger-api-parser",
+  "displayName": "swagger接口解析",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f8e5d-5aee-7a7f-9cad-685288149c71",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fd5ab-d600-7910-87cb-c4c9493e4452/ae43be3a_swagger-api-parser.zip",
+  "zipSha256": "2e556d80a60d61560f1cfec05c86a47b5f6af3eea48164a413aae6cfee1e54e4",
+  "zipBytes": 4548,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "f5f8961893937c6d3d2e403ee88fd19245ec5de58cf1fd97a9baed817f3d8f62",
+  "fetchedAt": "2026-11-18T10:37:53.641Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

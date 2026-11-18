@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HvfLPuAC",
+  "name": "teacher-ai-preparing-lesson",
+  "displayName": "中小学教师智能备课助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/teacher-ai-preparing-lesson/latest/teacher-ai-preparing-lesson.zip",
+  "zipSha256": "250aa4c10095ac02c417a33d50a002b796f2790f392a2c6b0788df06d0b393ac",
+  "zipBytes": 38831,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "d5c283c29808e5a0f3162bf1453c74f8e7263b6870af0b74bb7456869b4e90aa",
+  "fetchedAt": "2026-11-18T10:39:12.034Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0TUCOH9E",
+  "name": "boisenoise-antigravity-frontend-security-coder",
+  "displayName": "前端Coder",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-frontend-security-coder/latest/boisenoise-antigravity-frontend-security-coder.zip",
+  "zipSha256": "b38f2f47199a71b74739a4dc3ab7eba6552cbe9bca909dbe2782df1c3a0739a6",
+  "zipBytes": 4387,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "0a558a655b2fa9dd872b4ea537037d709dd97d16ee758d465b2989caa8060583",
+  "fetchedAt": "2026-11-18T10:34:31.943Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

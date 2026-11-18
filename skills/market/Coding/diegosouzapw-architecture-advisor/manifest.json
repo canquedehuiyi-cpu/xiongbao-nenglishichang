@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EYyJgl7H",
+  "name": "diegosouzapw-architecture-advisor",
+  "displayName": "架构开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-architecture-advisor/latest/diegosouzapw-architecture-advisor.zip",
+  "zipSha256": "02d0afb76dd6a70333d71b907347dca2934b7be8d059190592d75280bd0cbf99",
+  "zipBytes": 7353,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d086a606aa953eecbd465d6221902cf155026368c70f75740150106da8705cf6",
+  "fetchedAt": "2026-11-18T10:35:03.587Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

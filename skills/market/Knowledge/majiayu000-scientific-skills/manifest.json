@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ThkJFMxL",
+  "name": "majiayu000-scientific-skills",
+  "displayName": "数据库科研管理",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-scientific-skills/latest/majiayu000-scientific-skills.zip",
+  "zipSha256": "e3bea850b29b1bb0938298ed02388c2f68e0ca8adf9572b1e385efad03daf891",
+  "zipBytes": 4608,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8a5806de52795f10fd3ce753b578e1c00d0bd0e1981b73f65af367db676cc4e6",
+  "fetchedAt": "2026-11-18T10:39:09.052Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

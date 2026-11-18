@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_lRzNa1U6",
+  "name": "claude-dev-suite-spring-graphql",
+  "displayName": "安全Spring开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "claude-dev-suite",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/claude-dev-suite-spring-graphql/latest/claude-dev-suite-spring-graphql.zip",
+  "zipSha256": "18683c1277a498a37fcbab707604dcdfb0050bd132e963e109f009946843abc5",
+  "zipBytes": 4215,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8ea5c29c41b7c9d49a9f1b256706d075a0c5913520111b565c2100fbc59b3f11",
+  "fetchedAt": "2026-11-18T10:34:58.917Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

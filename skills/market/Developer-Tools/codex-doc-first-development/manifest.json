@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "a6e17e05-07bc-4a69-8ff7-e0db9286e109",
+  "name": "codex-doc-first-development",
+  "displayName": "以文档优先的开发技能",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f7a32-cebb-7e84-956d-ab8356e0d08a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f8dde-3cc3-7afe-8795-8f25e7ce33b1/d978dfdd_doc-first-development.zip",
+  "zipSha256": "ad3c01288a8299f4f29bc340b6c10284a2ed8ecd65370c8ebaf7c8384bc4aa3a",
+  "zipBytes": 49344,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 14,
+  "treeSha256": "c0ed99e9e30f3a21ab88d824da8cb686c7e3f0fd64c88d545004f5c1c207ead3",
+  "fetchedAt": "2026-11-18T10:38:01.022Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

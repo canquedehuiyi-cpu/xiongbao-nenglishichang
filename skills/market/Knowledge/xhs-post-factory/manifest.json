@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_trcTwPOn",
+  "name": "xhs-post-factory",
+  "displayName": "小红书博文生成工厂",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "chen-li-17",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/xhs-post-factory/latest/xhs-post-factory.zip",
+  "zipSha256": "d9f35ebbf5bc6197ba94e31c8ae30ddf8627257b63e59fd8b579bf7ffd7f6b8a",
+  "zipBytes": 6689,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "40ac76049ca2f57673d548ac4a9c8d49d55581be22585241801f94e85fbe89cf",
+  "fetchedAt": "2026-11-18T10:39:14.492Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tn2NjwY5",
+  "name": "404kidwiz-game-developer-skill",
+  "displayName": "游戏GAME",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "404kidwiz",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/404kidwiz-game-developer-skill/latest/404kidwiz-game-developer-skill.zip",
+  "zipSha256": "eb18bef895543c27636c5f8ef6229cecf9f97e477ad2b5deae2afe25e6bd1a20",
+  "zipBytes": 4628,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a6f67d06f9a00e749807c080dfcd31c6b46848c89b6db44a8986fae35599ad66",
+  "fetchedAt": "2026-11-18T10:34:31.051Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

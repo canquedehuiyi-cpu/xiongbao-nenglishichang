@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FQC6FSXf",
+  "name": "openviking-context",
+  "displayName": "OpenViking 上下文数据库",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openviking-context/latest/openviking-context.zip",
+  "zipSha256": "c41ff5d073d18d679948a970949a902acdd942a152a9d8ad09742d83202d82b3",
+  "zipBytes": 22894,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "0d3f7eebc047d2c310e06f5940fe77c2d7d668ca64781a59bd384209969b79f7",
+  "fetchedAt": "2026-11-18T10:37:32.383Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

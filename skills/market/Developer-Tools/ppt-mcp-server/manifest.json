@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_gDc4FVjw",
+  "name": "ppt-mcp-server",
+  "displayName": "PPT 大师",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ppt-mcp-server/latest/ppt-mcp-server.zip",
+  "zipSha256": "d1fd6aa615f0d4e1539790f108ec3b1016feefc5afc0e0bcedd3db5b8fb59659",
+  "zipBytes": 6713,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "d27f8e028965f3aab3f7ea994bfa335ab1cfdce1764e3e4bca72fc71bad2495f",
+  "fetchedAt": "2026-11-18T10:37:17.427Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

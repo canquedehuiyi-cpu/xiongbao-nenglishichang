@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MlUvFFWg",
+  "name": "alicoder001-javascript",
+  "displayName": "JS开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Alicoder001",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alicoder001-javascript/latest/alicoder001-javascript.zip",
+  "zipSha256": "7e112e6bf5c91fec3fbd960521366cd05de7a3dc423b216bcac95fe1a7eebbbb",
+  "zipBytes": 1664,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0dc4e965ac3d3c28a1980bc78aea126baf0e18f71cf66fa1a9496df29ad3c874",
+  "fetchedAt": "2026-11-18T10:34:44.210Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

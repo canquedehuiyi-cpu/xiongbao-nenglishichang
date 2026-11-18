@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_424bMSYg",
+  "name": "diegosouzapw-agentic-architecture-majiayu000",
+  "displayName": "架构智能体",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-agentic-architecture-majiayu000/latest/diegosouzapw-agentic-architecture-majiayu000.zip",
+  "zipSha256": "51d34802ab0d7ab8deb14e4f0e32a2e45aa7f4d752d091a0f2bf2f71f4b8d292",
+  "zipBytes": 1852,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3158d50eb02970f84a61eec692cb8bbe1947c998cf926f91644d6a79c694996d",
+  "fetchedAt": "2026-11-18T10:34:36.050Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

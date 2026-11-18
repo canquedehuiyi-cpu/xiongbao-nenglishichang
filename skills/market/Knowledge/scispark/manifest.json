@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "a9f4be71-bbf3-4c4d-9a8f-9618f1dfaac9",
+  "name": "scispark",
+  "displayName": "科学假设生成",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f1ba1-7866-799e-a029-d511201f94b9",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f92c7-f210-7dd4-9d6e-e1da259c7ab3/a32d3819_scispark.zip",
+  "zipSha256": "02804e54e68da7c373a22d7a5189bb3a4865c40fa6005103f47094eef907c0a1",
+  "zipBytes": 16163,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 21,
+  "treeSha256": "b3b2b09d23aeb4165a9f3a0fbc3639f02642fea9f5b402b3801fb73989aa95b4",
+  "fetchedAt": "2026-11-18T10:39:39.335Z",
+  "credentialScan": {
+    "textFilesScanned": 14,
+    "filesRedacted": 0
+  },
+  "note": null
+}

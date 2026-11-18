@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "cfcf0b7b-85dd-4116-aa5e-20dea81cb349",
+  "name": "wechat-miniprogram",
+  "displayName": "微信小程序开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd75-0783-7908-8c34-a4c444c9af51/95037c6f_wechat-miniprogram.zip",
+  "zipSha256": "177ee965fdc93894461bdbe61e0de972968590c699edee82e91397c8d3a78275",
+  "zipBytes": 92118,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "74f7989779e4111786898046af4eb4a78a0cb455c0a09d3a63124602e21ec6e8",
+  "fetchedAt": "2026-11-18T10:34:33.325Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

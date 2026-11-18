@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DLgzhCt1",
+  "name": "skill-to-agent-converter",
+  "displayName": "技能转智能体",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/skill-to-agent-converter/latest/skill-to-agent-converter.zip",
+  "zipSha256": "1df3f91b7ff57b38d427a0de0152bd3e41cfcf1f65f5364c3a5fbc38d49e647a",
+  "zipBytes": 24016,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "391df6999eb3afe4eb0877dc155a07a502fc4e4e4f95415f950af7bb9e034ba6",
+  "fetchedAt": "2026-11-18T10:37:58.596Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

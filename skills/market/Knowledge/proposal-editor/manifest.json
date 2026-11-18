@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GjiHNcM8",
+  "name": "proposal-editor",
+  "displayName": "项目建议书编辑器",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/proposal-editor/latest/proposal-editor.zip",
+  "zipSha256": "c00c7ac045700f9095284abde0c42e20de109a3eed89dfade45986211511124b",
+  "zipBytes": 3361,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "284c0db3c806bd7df581b993cf2fadae661fb65a53d0d1fe86a3b3f5b765a71d",
+  "fetchedAt": "2026-11-18T10:39:48.536Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

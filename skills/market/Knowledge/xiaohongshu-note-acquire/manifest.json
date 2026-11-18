@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "6c57f17b-f10d-4754-b2e7-5fa29b5e6efc",
+  "name": "xiaohongshu-note-acquire",
+  "displayName": "小红书笔记作品数据获取",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.4",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08f2f-d99a-7269-ba87-2741c776e0dd/26320aff_xiaohongshu-openclaw-skill-master.zip",
+  "zipSha256": "605ec987ec67ccd87b245eb65cdbe1945376bdcbeeb284f9f6b74e8db0aeee24",
+  "zipBytes": 41112,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 25,
+  "treeSha256": "e150f3fc71a880e207adcca175e2e2ad1e102bb35daa190032ffa13f5689ddc3",
+  "fetchedAt": "2026-11-18T10:39:10.411Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

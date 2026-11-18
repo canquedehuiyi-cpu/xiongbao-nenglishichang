@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0G9jBVt3",
+  "name": "amnadtaowsoam-robotics-ros",
+  "displayName": "ROS开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AmnadTaowsoam",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amnadtaowsoam-robotics-ros/latest/amnadtaowsoam-robotics-ros.zip",
+  "zipSha256": "1e91099fa1434696e9d0045b4218b0d64d668eba20f8d1a4c4421030901e00bb",
+  "zipBytes": 3927,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7f92bc4a5851f6e32d5a91c009db47e16ff6b2b4999c87c115b71d8d620186ca",
+  "fetchedAt": "2026-11-18T10:35:02.670Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

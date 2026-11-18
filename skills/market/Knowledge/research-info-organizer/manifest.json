@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "577e886d-5293-4a04-ba0b-1938d33c2bb0",
+  "name": "research-info-organizer",
+  "displayName": "公司尽调Skill",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f3cad-b691-7cdb-84d7-f5bbf13a33cd",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f59a2-e5c2-76dd-9bb2-4d7662a07d80/e0e9a6d3_research-info-organizer.zip",
+  "zipSha256": "92c110accf8b327b144ff52d97bbcd38b734ed70cd08b0d19213abaed04c076b",
+  "zipBytes": 6332,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "d88ba82c1eaa781fd6585e31e9779b555ab9fd89fbc1b6bf7e23b690e52168ca",
+  "fetchedAt": "2026-11-18T10:39:44.220Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

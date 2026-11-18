@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8TA5Wvgs",
+  "name": "cnxiafc-fireworks-tech-graph",
+  "displayName": "Graph开发",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "cnxiafc",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cnxiafc-fireworks-tech-graph/latest/cnxiafc-fireworks-tech-graph.zip",
+  "zipSha256": "88a7723bcd5ebe32d686f50098b8c62d828f4b8244b4a3614a79473f9217998c",
+  "zipBytes": 1603059,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 48,
+  "treeSha256": "0f2ff26490b6518e76e7d77a536f7ef129f79c9943c1ff7ba301ac52665bba3a",
+  "fetchedAt": "2026-11-18T10:37:36.307Z",
+  "credentialScan": {
+    "textFilesScanned": 27,
+    "filesRedacted": 0
+  },
+  "note": null
+}

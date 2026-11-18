@@ -1,0 +1,27 @@
+{
+  "author": "Github",
+  "author_icon": "https://static.marvis.qq.com/wupload/skill-author-icons/1778639349473_GitHub.png",
+  "description": "|",
+  "detail_describe": "调用本地摄像头实时检测画面中的物体\n基于 YOLO26 + OpenVINO 本地推理\n支持在 Intel CPU/GPU/NPU 上切换运行\nINT8 量化模型, 低延迟实时检测\n全程离线, 零云端成本",
+  "display_description": "基于本地AI模型的实时摄像头目标检测 (仅限英特尔AIPC平台)",
+  "display_name": "本地实时物体检测",
+  "icon": "",
+  "icon_url": "",
+  "id": 0,
+  "is_downloaded": false,
+  "name": "local-yolo26",
+  "scope": [
+    "main"
+  ],
+  "show_description": "基于本地AI模型的实时摄像头目标检测 (仅限英特尔AIPC平台)",
+  "show_name": "本地实时物体检测",
+  "type": "英特尔用户专区",
+  "use_cases": [
+    "打开实时目标检测",
+    "用摄像头实时识别物体",
+    "启动本地目标检测, 看看摄像头里有什么",
+    "用 NPU 运行实时目标检测",
+    "开启摄像头实时检测并显示检测框"
+  ],
+  "version": "1.0.5"
+}

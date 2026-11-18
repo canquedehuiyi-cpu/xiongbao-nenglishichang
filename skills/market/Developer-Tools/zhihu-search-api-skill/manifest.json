@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WpJvMB6z",
+  "name": "zhihu-search-api-skill",
+  "displayName": "知乎搜索 API 技能",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "browser-act",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/zhihu-search-api-skill/latest/zhihu-search-api-skill.zip",
+  "zipSha256": "f8a048d6530d5d4287dc444db605f1ee134a5161d528f02ebc6f65f1afd682b9",
+  "zipBytes": 3028,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "2f9c3cf33f1802b6c20f76077ba84fdd87468f58b4bd45e23b65af9ebae628b5",
+  "fetchedAt": "2026-11-18T10:38:10.029Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

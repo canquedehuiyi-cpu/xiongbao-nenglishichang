@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_a1tlOkzQ",
+  "name": "word-memory",
+  "displayName": "单词记忆助手",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/word-memory/latest/word-memory.zip",
+  "zipSha256": "cea96f01b589c5a5e9c1e7221440a7ade62fa7286602f05c948f854c5544c320",
+  "zipBytes": 7983,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "008ab947feb5e39476f5eeb69567780d6e88ddd6911d57804241cec8c33720f5",
+  "fetchedAt": "2026-11-18T10:37:48.900Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

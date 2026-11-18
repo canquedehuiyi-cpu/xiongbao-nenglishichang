@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EYEmG6Za",
+  "name": "dicklesworthstone-vue-composable-creator",
+  "displayName": "Vue创建",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-vue-composable-creator/latest/dicklesworthstone-vue-composable-creator.zip",
+  "zipSha256": "f097b62f45dd2dd9e54b07d6d8fc4d054da5ed972df8e3332f6e119af448fc53",
+  "zipBytes": 1201,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "15d957f8a07b1f5c2ebdc0afe852791c33fdc03122e11f263809437bbf115e68",
+  "fetchedAt": "2026-11-18T10:34:32.809Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_IrYods4A",
+  "name": "jonathimer-technical-tutorials",
+  "displayName": "技术教程",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jonathimer",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jonathimer-technical-tutorials/latest/jonathimer-technical-tutorials.zip",
+  "zipSha256": "096b9210b24d9d97a05069d6eea3cbe4bf32d673f11be4ecd71a3a030349c28b",
+  "zipBytes": 6338,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "6fdaa411cffd87df309a2a5e32ccb2bce0661ff4c5a95791527f57ce079bec32",
+  "fetchedAt": "2026-11-18T10:37:35.512Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

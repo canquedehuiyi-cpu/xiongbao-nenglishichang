@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "13bc5c98-59fd-4699-934d-649ac4c6117d",
+  "name": "ponytail",
+  "displayName": "Ponytail 极简开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a12de1-4510-76d7-9a3a-532584dc771d",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a18b86-21e9-7a84-8a96-17bc09af76e9/31f98bff_ponytail.zip",
+  "zipSha256": "39c6f57b14c27fc5926cc0146e23cbaec592e0144ffd2d7802f25c4694982142",
+  "zipBytes": 2087,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "62cac7d72ee48167e80f95ed3600b6492716beb98f5e2ca15dd82df0064071cb",
+  "fetchedAt": "2026-11-18T10:34:50.067Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

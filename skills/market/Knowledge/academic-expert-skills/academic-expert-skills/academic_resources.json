@@ -1,0 +1,172 @@
+{
+  "research_field": "自动驾驶感知系统攻防研究 - 点云后门攻击",
+  "last_updated": "2026-03-01T20:05:51.525104",
+  "papers": [
+    {
+      "id": "paper_001",
+      "title": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation",
+      "authors": [
+        "Charles R. Qi",
+        "Hao Su",
+        "Kaichun Mo",
+        "Leonidas J. Guibas"
+      ],
+      "venue": "CVPR",
+      "year": 2017,
+      "url": "https://arxiv.org/abs/1612.00593",
+      "abstract": "We design a novel type of neural network that directly consumes point clouds...",
+      "keywords": [
+        "point cloud",
+        "deep learning",
+        "3D classification",
+        "segmentation"
+      ],
+      "added_date": "2026-03-01T20:05:51.523181",
+      "relevance_score": 0
+    },
+    {
+      "id": "paper_002",
+      "title": "BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain",
+      "authors": [
+        "Tianyu Gu",
+        "Brendan Dolan-Gavitt",
+        "Siddharth Garg"
+      ],
+      "venue": "arXiv",
+      "year": 2017,
+      "url": "https://arxiv.org/abs/1708.06733",
+      "abstract": "Deep learning models are vulnerable to backdoor attacks...",
+      "keywords": [
+        "backdoor attack",
+        "machine learning security",
+        "supply chain"
+      ],
+      "added_date": "2026-03-01T20:05:51.523373",
+      "relevance_score": 0
+    },
+    {
+      "id": "paper_003",
+      "title": "Clean-Label Backdoor Attacks",
+      "authors": [
+        "Alexander Turner",
+        "Dimitris Tsipras",
+        "Aleksander Madry"
+      ],
+      "venue": "ICLR",
+      "year": 2019,
+      "url": "https://arxiv.org/abs/1905.03809",
+      "abstract": "We study clean-label backdoor attacks where the adversary does not control the labeling process...",
+      "keywords": [
+        "clean-label attack",
+        "backdoor",
+        "adversarial machine learning"
+      ],
+      "added_date": "2026-03-01T20:05:51.523595",
+      "relevance_score": 0
+    }
+  ],
+  "datasets": [
+    {
+      "id": "dataset_001",
+      "name": "ModelNet40",
+      "description": "A large-scale 3D CAD model dataset containing 12,311 models from 40 categories",
+      "url": "http://modelnet.cs.princeton.edu/",
+      "size": "~1.5GB",
+      "format": ".off files",
+      "tasks": [
+        "3D classification",
+        "object recognition"
+      ],
+      "added_date": "2026-03-01T20:05:51.523931"
+    },
+    {
+      "id": "dataset_002",
+      "name": "ShapeNet",
+      "description": "A richly-annotated, large-scale dataset of 3D shapes",
+      "url": "https://www.shapenet.org/",
+      "size": "~1TB",
+      "format": "Various 3D formats",
+      "tasks": [
+        "3D reconstruction",
+        "segmentation",
+        "classification"
+      ],
+      "added_date": "2026-03-01T20:05:51.524194"
+    }
+  ],
+  "tools": [
+    {
+      "id": "tool_001",
+      "name": "PointNet PyTorch Implementation",
+      "description": "PyTorch implementation of PointNet for point cloud classification and segmentation",
+      "url": "https://github.com/charlesq34/pointnet",
+      "language": "Python",
+      "purpose": "Point cloud deep learning",
+      "added_date": "2026-03-01T20:05:51.524470"
+    }
+  ],
+  "conferences": [
+    {
+      "id": "conf_001",
+      "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+      "abbreviation": "CVPR",
+      "url": "https://cvpr.thecvf.com/",
+      "deadline": "",
+      "topics": [
+        "computer vision",
+        "deep learning",
+        "3D vision",
+        "security"
+      ],
+      "added_date": "2026-03-01T20:05:51.524777"
+    },
+    {
+      "id": "conf_002",
+      "name": "International Conference on Learning Representations",
+      "abbreviation": "ICLR",
+      "url": "https://iclr.cc/",
+      "deadline": "",
+      "topics": [
+        "deep learning",
+        "representation learning",
+        "security"
+      ],
+      "added_date": "2026-03-01T20:05:51.525096"
+    }
+  ],
+  "research_groups": [],
+  "update_log": [
+    {
+      "timestamp": "2026-03-01T20:05:51.523193",
+      "action": "添加论文: PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation"
+    },
+    {
+      "timestamp": "2026-03-01T20:05:51.523384",
+      "action": "添加论文: BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain"
+    },
+    {
+      "timestamp": "2026-03-01T20:05:51.523607",
+      "action": "添加论文: Clean-Label Backdoor Attacks"
+    },
+    {
+      "timestamp": "2026-03-01T20:05:51.523938",
+      "action": "添加数据集: ModelNet40"
+    },
+    {
+      "timestamp": "2026-03-01T20:05:51.524200",
+      "action": "添加数据集: ShapeNet"
+    },
+    {
+      "timestamp": "2026-03-01T20:05:51.524476",
+      "action": "添加工具: PointNet PyTorch Implementation"
+    },
+    {
+      "timestamp": "2026-03-01T20:05:51.524784",
+      "action": "添加会议: IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+    },
+    {
+      "timestamp": "2026-03-01T20:05:51.525101",
+      "action": "添加会议: International Conference on Learning Representations"
+    }
+  ]
+}

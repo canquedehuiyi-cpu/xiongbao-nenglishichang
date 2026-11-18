@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "5a12ca3f-478c-47fc-af7a-43399d5f4cad",
+  "name": "dingtalk-h5-signature-pad",
+  "displayName": "钉钉 H5 电子签名 (signature_pad)",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019ec9a7-9aa1-7c82-91ca-aad404884a16",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f986b-f92b-7871-a124-792bacc860f2/8a3605f5_dingtalk-h5-signature-pad.zip",
+  "zipSha256": "48b25961bab6cca7eed31e286ea4b41b0d1dd095748eb4372a29dcb42a613819",
+  "zipBytes": 3123,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "542b8cfb3b52b1c98bc3df0445be66fc9dfa755228f48699c61a9f09b9862810",
+  "fetchedAt": "2026-11-18T10:35:13.677Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

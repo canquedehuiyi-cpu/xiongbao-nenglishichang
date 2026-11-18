@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "8062c1e7-93ec-417d-b3b7-a45abed602c7",
+  "name": "sql-standards",
+  "displayName": "SQL 编写规范",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f7de8-b462-7258-b8d4-e3b36e8826fe",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ec14-5b00-71a4-b7a4-fa2577e03bf8/8cb0b9b8_sql-standards.zip",
+  "zipSha256": "dcda3fbf39708e32ce2faa118a068ace8e23cf94756cc4e12e1a3a591f8bb919",
+  "zipBytes": 4535,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "60fbe3c45400afc98e34be0b08813a6f0f011f6b94794c6c22542e46b16235b3",
+  "fetchedAt": "2026-11-18T10:34:44.909Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

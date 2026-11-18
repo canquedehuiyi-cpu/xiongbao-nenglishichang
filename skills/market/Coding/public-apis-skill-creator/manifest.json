@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KIsXIua4",
+  "name": "public-apis-skill-creator",
+  "displayName": "公共 API 技能生成器",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "547895019",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/public-apis-skill-creator/latest/public-apis-skill-creator.zip",
+  "zipSha256": "066c037fcb26c00389c4ea4c70e204062f521248f5a1e721bb7f7210a995201a",
+  "zipBytes": 9100,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "3927fcd99afa65f440ee61604fd7f2120c6bc00f5525f9e6ad508d34431c901b",
+  "fetchedAt": "2026-11-18T10:35:02.836Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

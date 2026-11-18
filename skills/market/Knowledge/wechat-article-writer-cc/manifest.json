@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MyAVqrPX",
+  "name": "wechat-article-writer-cc",
+  "displayName": "公众号文章写作助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/wechat-article-writer-cc/latest/wechat-article-writer-cc.zip",
+  "zipSha256": "dd24e282b19afc502c1dbd420a6b3121d6cf0fc3858a75fd9c3cf612e7ad9224",
+  "zipBytes": 32725,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 14,
+  "treeSha256": "2985f169e61bead347ef3b7a34d90d28fdbc3c42fd16e02057b6bc5dba78c48f",
+  "fetchedAt": "2026-11-18T10:39:09.979Z",
+  "credentialScan": {
+    "textFilesScanned": 14,
+    "filesRedacted": 0
+  },
+  "note": null
+}

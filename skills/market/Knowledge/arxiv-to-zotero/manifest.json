@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_G4BqLzg4",
+  "name": "arxiv-to-zotero",
+  "displayName": "arXiv 论文自动导入 Zotero",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/arxiv-to-zotero/latest/arxiv-to-zotero.zip",
+  "zipSha256": "594ea286a0de1f80396407bc228aaa55ea6f9f8088646c2fdc016d3c89dc4a35",
+  "zipBytes": 27498,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "18b2cbded9481e4442ee9a910590f9f8f56428b6b7472a22586ff2513c7dff24",
+  "fetchedAt": "2026-11-18T10:39:42.448Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

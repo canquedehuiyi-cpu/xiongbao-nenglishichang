@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5tKZe1rR",
+  "name": "kishorkukreja-optimization-ml-hybrid",
+  "displayName": "机器学习Hybrid",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kishorkukreja",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kishorkukreja-optimization-ml-hybrid/latest/kishorkukreja-optimization-ml-hybrid.zip",
+  "zipSha256": "6616f058fbde17cf93db83aff8b0a822103f30e946919e505df0509c27270d7d",
+  "zipBytes": 1955,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "5830109157a4d2ac317e8b1a3bcfbcedd9cb7f01c48c7fa9f73b7c2bbaf79283",
+  "fetchedAt": "2026-11-18T10:35:03.725Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

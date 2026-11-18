@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_G96nf7to",
+  "name": "paper-checking",
+  "displayName": "论文查重系统",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/paper-checking/latest/paper-checking.zip",
+  "zipSha256": "2893e852b14dc2074ffa76d15e40c7606ff752cc14d17ee1b075222ab6c39a84",
+  "zipBytes": 13439,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "d044b08e2c850a53c9d012a80da4e20d1c648f736ef264745833844f6332184b",
+  "fetchedAt": "2026-11-18T10:39:14.995Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

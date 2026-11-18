@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "skill",
+  "marketItemId": "0c75ff4e-f7e2-438d-9583-23a7e6de7853",
+  "itemName": "token-panel",
+  "displayName": "Token Meter",
+  "version": "0.5.0",
+  "packageKind": "skill"
+}

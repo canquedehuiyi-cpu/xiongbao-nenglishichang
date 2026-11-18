@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_jrSApYIA",
+  "name": "toolweb-digital-forensics-tools",
+  "displayName": "数字取证工具评估",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/toolweb-digital-forensics-tools/latest/toolweb-digital-forensics-tools.zip",
+  "zipSha256": "8a4165e3079312b32751fd17187bcc3422e0960b6ddfc4167f31a86765fbb89d",
+  "zipBytes": 4037,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "e55d89284aea1896c46b1c04ae084516623bf2cbe09e573e0e0d031ac4754434",
+  "fetchedAt": "2026-11-18T10:38:04.856Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

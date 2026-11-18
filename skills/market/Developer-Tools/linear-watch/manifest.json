@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_57pIkEdU",
+  "name": "linear-watch",
+  "displayName": "Linear 观察",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Finesssee",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/linear-watch/latest/linear-watch.zip",
+  "zipSha256": "1e1d2660137bd0405efd5919a7985a7ca0471e3f33a10a54f3d6ddf0cd3a66d5",
+  "zipBytes": 431,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6109dcd96f8f733dbd5c828ad8f108b4f132e539ee45fc1f43f03e371f93a207",
+  "fetchedAt": "2026-11-18T10:37:59.775Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

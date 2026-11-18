@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LWxZYHZp",
+  "name": "marketing-brand-playbook",
+  "displayName": "世界级营销与品牌实战指南",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "chilu18",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/marketing-brand-playbook/latest/marketing-brand-playbook.zip",
+  "zipSha256": "161606f8ffa3a65be19bf23c8e82ce80f51616e2e2176fa73d35a88471bc9b4c",
+  "zipBytes": 22499,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "6a971aebd54cfb385c0e954e64f1395516a4faad186ef62b14a3bf517c2d964a",
+  "fetchedAt": "2026-11-18T10:39:48.850Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

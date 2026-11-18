@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_koPDvcdI",
+  "name": "diegosouzapw-2000s-visualization-expert",
+  "displayName": "音频视频生成",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-2000s-visualization-expert/latest/diegosouzapw-2000s-visualization-expert.zip",
+  "zipSha256": "f1c220a267efccf8dc91fa8d06afeee5c1c27abd1baeeda1714537b6a42051f9",
+  "zipBytes": 3876,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "7d921e1da73bf07e0c9ca76f76d0ed8f5c33171499d828a33d90cabeb3ec694b",
+  "fetchedAt": "2026-11-18T10:39:24.342Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

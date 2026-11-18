@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_eezTmcMc",
+  "name": "last30days-skill-cn",
+  "displayName": "中国平台深度研究引擎",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/last30days-skill-cn/latest/last30days-skill-cn.zip",
+  "zipSha256": "38424ef5a74050f73fa49bce54baab692ede586955e98e922ba6b3b7f92eee82",
+  "zipBytes": 97961,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 54,
+  "treeSha256": "c95fca4abfa4b94cbda257e144561c8ab0f60780e8190fa666cc889e472b69fa",
+  "fetchedAt": "2026-11-18T10:39:46.044Z",
+  "credentialScan": {
+    "textFilesScanned": 54,
+    "filesRedacted": 0
+  },
+  "note": null
+}

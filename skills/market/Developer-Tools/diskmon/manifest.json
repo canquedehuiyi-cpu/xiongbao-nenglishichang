@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_F1xd4cVY",
+  "name": "diskmon",
+  "displayName": "磁盘监控",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diskmon/latest/diskmon.zip",
+  "zipSha256": "e1502153ffbf6cc87b94892c03265a371e5404d89b88b516c1cbe0ecd51718da",
+  "zipBytes": 5376,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "4fd88bcf91ee05ed54a454f7358c641dabc8832903aba05c2d4cd90c5d1bc30a",
+  "fetchedAt": "2026-11-18T10:37:26.493Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

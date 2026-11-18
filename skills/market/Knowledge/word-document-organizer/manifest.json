@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bSJxeWw6",
+  "name": "word-document-organizer",
+  "displayName": "Word 文档整理助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/word-document-organizer/latest/word-document-organizer.zip",
+  "zipSha256": "d728d3d1200a0835fec38a9c0439992a25ebf01f864675f50c352624ff67c8a3",
+  "zipBytes": 4298,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "98f28e9b31fde998919989c34aff1f6b07e88d3df5734046e5b980aa6fe4bb4a",
+  "fetchedAt": "2026-11-18T10:39:06.193Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

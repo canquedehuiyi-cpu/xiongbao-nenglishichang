@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_v0nM2fdd",
+  "name": "google-gemini-vertex-ai-api-dev",
+  "displayName": "Vertex开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "google-gemini",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/google-gemini-vertex-ai-api-dev/latest/google-gemini-vertex-ai-api-dev.zip",
+  "zipSha256": "1ef4d3b23b83e177f339f020a9e52f75d5385ae2ea691a7519b78679ff24f9c1",
+  "zipBytes": 13545,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "0c4713c37ef7f3481c9a3f4badefcbb75dde14293da6055360086ccf53e0e9c2",
+  "fetchedAt": "2026-11-18T10:35:12.241Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

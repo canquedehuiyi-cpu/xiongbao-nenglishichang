@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_29qwL9lB",
+  "name": "logger-gen",
+  "displayName": "日志生成器",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lxgicstudios",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/logger-gen/latest/logger-gen.zip",
+  "zipSha256": "aa7a6a75da3654ee4bfb0f70af2842a9c7e857f02d35531cd3ef1d07c7987113",
+  "zipBytes": 14967,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "67ab4e21cad8b421004f899bd2b5fdd21e3dd9c35b35a57a15ff5fdf0d217617",
+  "fetchedAt": "2026-11-18T10:34:55.590Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

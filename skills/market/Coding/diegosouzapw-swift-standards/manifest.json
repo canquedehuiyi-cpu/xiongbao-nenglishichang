@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NYPnAcdy",
+  "name": "diegosouzapw-swift-standards",
+  "displayName": "iOSSwift开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-swift-standards/latest/diegosouzapw-swift-standards.zip",
+  "zipSha256": "dab45fcdf412aa4d36e4bc59f776b3af0b5f07b8357bd69535c8bfce1053738a",
+  "zipBytes": 11966,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "76ee9f680919cf1a357395e35442721e0739dfc87434bdc01c0370e0d2eb2751",
+  "fetchedAt": "2026-11-18T10:35:00.353Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

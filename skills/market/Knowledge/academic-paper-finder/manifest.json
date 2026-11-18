@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ucL0BGQe",
+  "name": "academic-paper-finder",
+  "displayName": "学术论文查找器",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "merdeng",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/academic-paper-finder/latest/academic-paper-finder.zip",
+  "zipSha256": "76863fa09c2c240f610002f3b1165f592b640a5e60173fdbc36d3171a5dccc18",
+  "zipBytes": 9405,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "2f47d3f1ffdd2759fa346687b6266b4577a1ac1a8f2529b739640a86e881d65a",
+  "fetchedAt": "2026-11-18T10:39:30.896Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

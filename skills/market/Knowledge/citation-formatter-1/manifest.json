@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_b6VS5u3m",
+  "name": "citation-formatter-1",
+  "displayName": "引用格式化工具",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/citation-formatter-1/latest/citation-formatter-1.zip",
+  "zipSha256": "1fd520cfaeb56ca56e7c129aa3933ba94862004dc54e2e5c4bc243b396b3556d",
+  "zipBytes": 12401,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "b4e4280f79a9c738d6257f69bf7e7fa22c458674e61fe7c2c6117db18615fbc8",
+  "fetchedAt": "2026-11-18T10:39:36.610Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

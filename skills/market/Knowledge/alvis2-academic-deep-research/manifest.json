@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Gb8J1WqD",
+  "name": "alvis2-academic-deep-research",
+  "displayName": "学术深度研究",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alvis2-academic-deep-research/latest/alvis2-academic-deep-research.zip",
+  "zipSha256": "a1982a9734c2eea21ffc8fb0c5eb6e12d99f4503aad9df90b1be09a9adbe1a89",
+  "zipBytes": 9775,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "81a9b0b3401817808529b0b6c97c5013f43b94d359e2e3028da675228096bb38",
+  "fetchedAt": "2026-11-18T10:39:28.763Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

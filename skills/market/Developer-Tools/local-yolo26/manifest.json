@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "172086be-899e-429d-ae68-32f610cb829e",
+  "name": "local-yolo26",
+  "displayName": "本地实时目标检测",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a01dcb-6f06-7530-aadb-b440e40b34cd",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a01e02-b332-7f28-b5cc-01eec16208a3/1be7a990_skill-local-yolo26-1.0.5-20260709-130722.zip",
+  "zipSha256": "9b743c75dcfa60cd45825b680fde763059f357e19fe5953840182a9af422f902",
+  "zipBytes": 232079,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 17,
+  "treeSha256": "67c99e64a19fefe91328b73564b6f9162fc5d03921f2672720da9b373411b478",
+  "fetchedAt": "2026-11-18T10:37:58.259Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

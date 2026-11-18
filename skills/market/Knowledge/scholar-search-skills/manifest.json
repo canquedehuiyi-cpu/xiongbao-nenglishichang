@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RKZMuazc",
+  "name": "scholar-search-skills",
+  "displayName": "学术论文搜索与下载技能",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "wowcharlotte",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/scholar-search-skills/latest/scholar-search-skills.zip",
+  "zipSha256": "98b08196dd3a0ece897439fec7f38df02c3ef37ed2c3bfb1ffcacf936fb7fef6",
+  "zipBytes": 11776,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "85f3dd09fcdd51599cc6ffcaaeaf23a65c396258a49d8da2046344abdc692509",
+  "fetchedAt": "2026-11-18T10:39:16.949Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

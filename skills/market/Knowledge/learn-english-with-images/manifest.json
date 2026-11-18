@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7MsgyKpV",
+  "name": "learn-english-with-images",
+  "displayName": "英语视觉词汇",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/learn-english-with-images/latest/learn-english-with-images.zip",
+  "zipSha256": "c5ae87ba371da3b52f056198414f4bad6b2029ab7b6c8325ec61086109967441",
+  "zipBytes": 28037,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 14,
+  "treeSha256": "f66bd7ba2d650046a355c8b8a20d750ba54846b25268ae8f7d7cd2bc883d9ad7",
+  "fetchedAt": "2026-11-18T10:39:36.848Z",
+  "credentialScan": {
+    "textFilesScanned": 14,
+    "filesRedacted": 0
+  },
+  "note": null
+}

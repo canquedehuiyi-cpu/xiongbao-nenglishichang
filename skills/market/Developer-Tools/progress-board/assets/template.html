@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{项目名}} · 进度看板</title>
+<!--
+  进度看板模板 v1（progress-board 技能自带）
+  用法：整份复制成 <项目>/docs/进度看板.html，把 {{...}} 与示例条目替换成实测内容。
+  不要改样式结构；要加一段就照 .item / .ask .row / .rail li 的现有写法复制一行。
+  状态色只有三档：ok=已验/完成，pend=待拍/部分验，gap=未验/缺口，todo=未开工（灰）。
+-->
+<style>
+:root{
+  --ink:#15181b; --ink2:#3d4348; --muted:#767c82; --hair:#e1e3e4; --hair2:#c9ccce;
+  --page:#f1f2f1; --card:#fff; --accent:#1f4e79;
+  --ok:#2f6f4f; --pend:#8a6210; --gap:#8f3232; --todo:#5a6066;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;padding:18px 14px 56px;background:var(--page);color:var(--ink);
+  font:14px/1.68 "Microsoft YaHei","PingFang SC","Hiragino Sans GB",system-ui,sans-serif;
+  font-variant-numeric:tabular-nums}
+.wrap{max-width:760px;margin:0 auto}
+@media (min-width:900px){body{padding:34px 28px 72px}}
+
+.mast{background:var(--card);border:1px solid var(--hair2);border-top:3px solid var(--accent);padding:14px 16px 15px}
+.mast h1{margin:0;font-size:17px;letter-spacing:.4px;font-weight:700}
+.mast .sub{margin-top:7px;font-size:12.5px;color:var(--muted);line-height:1.6}
+.mast .sub i{font-style:normal;color:var(--ink2)}
+.now{margin-top:13px;padding-top:12px;border-top:1px solid var(--hair)}
+.now .lab{font-size:11.5px;color:var(--muted);letter-spacing:.6px}
+.now .val{font-size:15px;font-weight:700;color:var(--accent);margin-top:2px}
+.now .val small{font-weight:400;font-size:12.5px;color:var(--ink2)}
+
+.figs{display:flex;flex-wrap:wrap;gap:1px;margin-top:12px;background:var(--hair)}
+.figs div{flex:1 1 78px;background:var(--card);padding:9px 10px}
+.figs b{display:block;font-size:19px;line-height:1.2;font-weight:700}
+.figs span{font-size:11.5px;color:var(--muted)}
+
+section{margin-top:26px}
+h2{font-size:12.5px;font-weight:700;letter-spacing:1.2px;color:var(--ink2);margin:0 0 3px}
+h2 + p.note{margin:0 0 10px;font-size:12.5px;color:var(--muted)}
+.rule{height:1px;background:var(--hair2);margin:0 0 11px}
+
+.rail{list-style:none;margin:0;padding:0;border-left:1px solid var(--hair2)}
+.rail li{position:relative;padding:0 0 0 16px;margin:0 0 11px}
+.rail li:before{content:"";position:absolute;left:-4.5px;top:8px;width:8px;height:8px;background:var(--hair2)}
+.rail li.done:before{background:var(--ok)}
+.rail li.cur:before{background:var(--accent);outline:3px solid #dbe6f0}
+.rail .t{font-size:13.5px;font-weight:600}
+.rail li.cur .t{color:var(--accent)}
+.rail li.done .t{color:var(--ink2)}
+.rail li.todo .t{color:var(--muted);font-weight:500}
+.rail .d{font-size:12px;color:var(--muted);line-height:1.55}
+
+.item{background:var(--card);border:1px solid var(--hair);border-left:3px solid var(--hair2);padding:10px 12px 11px;margin:0 0 8px}
+.item.pend{border-left-color:var(--pend)}
+.item.ok{border-left-color:var(--ok)}
+.item.gap{border-left-color:var(--gap)}
+.item.todo{border-left-color:var(--hair2)}
+.item .hd{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.item .id{font:600 12px/1.5 Consolas,"Courier New",monospace;color:var(--ink2);letter-spacing:.3px}
+.item .ti{font-size:13.5px;font-weight:600;flex:1 1 auto}
+.item .st{font-size:11.5px;color:var(--muted);white-space:nowrap}
+.item .st.ok{color:var(--ok)} .item .st.pend{color:var(--pend)} .item .st.gap{color:var(--gap)}
+.item p{margin:5px 0 0;font-size:12.5px;color:var(--ink2);line-height:1.62}
+.item p.mut{color:var(--muted)}
+.item .why{margin-top:6px;padding-top:6px;border-top:1px dotted var(--hair2);font-size:12px;color:var(--muted)}
+code{font:12.5px/1.5 Consolas,"Courier New",monospace;background:#eef0ef;padding:0 3px;color:#26303a;word-break:break-all}
+
+.ask{background:var(--card);border:1px solid var(--hair);border-left:3px solid var(--pend)}
+.ask .row{padding:10px 12px;border-bottom:1px solid var(--hair)}
+.ask .row:last-child{border-bottom:none}
+.ask .q{font:600 12px/1.5 Consolas,monospace;color:var(--pend);letter-spacing:.4px}
+.ask .t{font-size:13.5px;font-weight:600;margin-top:1px}
+.ask p{margin:4px 0 0;font-size:12.5px;color:var(--ink2)}
+.ask p em{font-style:normal;color:var(--accent);font-weight:600}
+
+ul.tight{margin:0;padding-left:19px}
+ul.tight li{margin:0 0 5px;font-size:12.5px;color:var(--ink2)}
+.foot{margin-top:30px;padding-top:11px;border-top:1px solid var(--hair2);font-size:11.5px;color:var(--muted);line-height:1.7}
+@media print{body{background:#fff;padding:0} .item,.mast,.ask{border-color:#bbb}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="mast">
+  <h1>{{项目名}} · 进度看板</h1>
+  <div class="sub">项目 <i>{{标识/包名}}</i>｜主线 <i>{{主线一句话}}</i>｜更新 <i>{{YYYY-MM-DD HH:mm}}</i></div>
+  <div class="now">
+    <div class="lab">当前</div>
+    <div class="val">{{现在在哪一期·哪张卡}} <small>｜{{一句话补充：什么已收口}}</small></div>
+  </div>
+  <div class="figs">
+    <div><b>{{N}}</b><span>提交{{是否已推送}}</span></div>
+    <div><b>{{N}}</b><span>项已交付</span></div>
+    <div><b>{{N}}</b><span>等你拍板</span></div>
+    <div><b>{{N}}</b><span>未验事项</span></div>
+  </div>
+</div>
+
+<section>
+  <h2>阶段</h2>
+  <p class="note">主线只有这一条；支线不进这条轨，另在"临时件债务"里写明为什么插、何时回。</p>
+  <div class="rule"></div>
+  <ol class="rail">
+    <li class="done"><div class="t">{{P0 阶段名}}</div><div class="d">{{一句话成果}}</div></li>
+    <li class="cur"><div class="t">{{当前阶段}}</div><div class="d">{{还差什么、下一步}}</div></li>
+    <li class="todo"><div class="t">{{后续阶段}}</div><div class="d">{{依赖哪个待拍事项}}</div></li>
+  </ol>
+</section>
+
+<section>
+  <h2>一　{{当前阶段}}的卡清单</h2>
+  <p class="note">施工单全文：<code>{{docs/xxx-spec.md}}</code></p>
+  <div class="rule"></div>
+
+  <div class="item todo">
+    <div class="hd"><span class="id">{{卡号}}</span><span class="ti">{{名称}}</span><span class="st">未开工</span></div>
+    <p>{{做什么，一到两句；关键约束加粗}}</p>
+    <div class="why">验收：{{用什么判过没过——要能机器查或明确谁来看}}</div>
+  </div>
+</section>
+
+<section>
+  <h2>二　已交付</h2>
+  <p class="note">状态分三档：<span style="color:var(--ok)">真机/实测已验</span>／<span style="color:var(--pend)">只有单测</span>／<span style="color:var(--gap)">未验</span></p>
+  <div class="rule"></div>
+
+  <div class="item ok"><div class="hd"><span class="id">{{卡号}}</span><span class="ti">{{名称}}</span><span class="st ok">{{验到什么程度 · 提交号}}</span></div>
+    <p class="mut">{{可选：踩过的坑、为什么保留某段代码}}</p></div>
+</section>
+
+<section>
+  <h2>三　等你拍板</h2>
+  <p class="note">按号回答即可；<em>斜体</em>是我推荐的那一个。新事项只追加编号，不要重排。</p>
+  <div class="rule"></div>
+  <div class="ask">
+    <div class="row"><div class="q">D1</div><div class="t">{{要定什么}}</div>
+      <p><em>{{推荐项}}</em>／{{另一项}}。{{代价与影响面，一句}}</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>四　临时件债务</h2>
+  <p class="note">为验证或取证临时加的东西，验收后必须一次删干净，不能留在主线里。</p>
+  <div class="rule"></div>
+  <ul class="tight">
+    <li><code>{{文件/代码位置}}</code>：{{是什么、为什么加}}</li>
+    <li><b>留下</b>：<code>{{可复用的工具/测试}}</code></li>
+    <li>删除时机：{{哪个验收做完之后}}</li>
+  </ul>
+</section>
+
+<section>
+  <h2>五　还没验，别当成已验</h2>
+  <div class="rule"></div>
+  <div class="item gap"><div class="hd"><span class="ti">{{事项}}</span><span class="st gap">{{未做/未验/只在本机}}</span></div>
+    <p>{{为什么它还算缺口，以及什么条件下能补上}}</p></div>
+</section>
+
+<section>
+  <h2>六　约束与红线</h2>
+  <div class="rule"></div>
+  <ul class="tight">
+    <li><b>{{环境或流程硬约束}}</b>：{{它否决了哪些做法}}</li>
+    <li>{{不许承诺的事、隐私边界、不可回退的操作}}</li>
+  </ul>
+</section>
+
+<div class="foot">
+口径：本页数字都是实测或带 <code>文件:行号</code> 出处的；卡号沿用 <code>{{spec 文件}}</code>。
+相关文档：{{列表}}。每轮推进后由我更新本页。
+</div>
+
+</div>
+</body>
+</html>

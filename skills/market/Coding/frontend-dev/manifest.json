@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "460ea0fa-6a89-4a84-932a-a7c6cc2b8517",
+  "name": "frontend-dev",
+  "displayName": "前端开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.1",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd97-d5f8-7cf6-b811-6cc11e5d1e13/0f41a649_frontend-dev.zip",
+  "zipSha256": "2ca6618a9f8284660e8f823792564f26225c141248f1542f07ad3b902dd0d790",
+  "zipBytes": 2604819,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 99,
+  "treeSha256": "6924b9ef85912f5c9f70c978a4183527c8a5f6c5b31196d9595b5c219a42b9cd",
+  "fetchedAt": "2026-11-18T10:34:32.647Z",
+  "credentialScan": {
+    "textFilesScanned": 45,
+    "filesRedacted": 0
+  },
+  "note": null
+}

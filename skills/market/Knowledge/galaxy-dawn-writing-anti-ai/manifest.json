@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_C7Pb0LBp",
+  "name": "galaxy-dawn-writing-anti-ai",
+  "displayName": "ANTI写作",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Galaxy-Dawn",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/galaxy-dawn-writing-anti-ai/latest/galaxy-dawn-writing-anti-ai.zip",
+  "zipSha256": "b5143ff11e8094f422860a78bc27c453b53ff666ac5e03cd03a507019e2075f3",
+  "zipBytes": 18304,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "03a78c6725bad0028002be475b2ae0f06b6e38aa08fadc30bbb9b7377d72abdb",
+  "fetchedAt": "2026-11-18T10:39:23.813Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

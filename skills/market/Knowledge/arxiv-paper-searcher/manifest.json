@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BRlROS8i",
+  "name": "arxiv-paper-searcher",
+  "displayName": "arXiv 论文搜索与分析助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "songxf1024",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/arxiv-paper-searcher/latest/arxiv-paper-searcher.zip",
+  "zipSha256": "5bb560439b0eaafbc0e47be374492183a21085b0f9461cb611fe85360ef32b11",
+  "zipBytes": 12764,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "d514090ca31f5cbbdacf57b04782290fd24564c5e5926f151e3ac08cf1814504",
+  "fetchedAt": "2026-11-18T10:39:19.999Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

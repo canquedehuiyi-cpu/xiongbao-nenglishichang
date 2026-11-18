@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JGxtfaV5",
+  "name": "diegosouzapw-app-component",
+  "displayName": "Vue组件开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-app-component/latest/diegosouzapw-app-component.zip",
+  "zipSha256": "0670364316687c1bb69d3364e072c885c6a431549a95df5a791c4cc088dfe222",
+  "zipBytes": 2418,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "19db4005bc535663cfc1514e80cb9be50d854aea1033d5e59bfbb51aab37ac60",
+  "fetchedAt": "2026-11-18T10:34:34.684Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

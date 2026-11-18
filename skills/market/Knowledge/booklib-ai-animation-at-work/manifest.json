@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9LA9Tzjt",
+  "name": "booklib-ai-animation-at-work",
+  "displayName": "动画At",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "booklib-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/booklib-ai-animation-at-work/latest/booklib-ai-animation-at-work.zip",
+  "zipSha256": "0c961f78d55e6f586983b20b7e4776338e3d3e3d4498e38da559884f47a291ff",
+  "zipBytes": 24590,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "e93d47c43163da1bb0a960573eb08e222596aa8c3ecb74f068f9ae186130fe5d",
+  "fetchedAt": "2026-11-18T10:39:27.825Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

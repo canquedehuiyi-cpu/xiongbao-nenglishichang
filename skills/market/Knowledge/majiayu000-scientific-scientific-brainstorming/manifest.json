@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_TvLXTxaY",
+  "name": "majiayu000-scientific-scientific-brainstorming",
+  "displayName": "科研头脑风暴",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-scientific-scientific-brainstorming/latest/majiayu000-scientific-scientific-brainstorming.zip",
+  "zipSha256": "5f300a3e7471efd62f9dc0a50f93682107070b6e09003c86813272a9853dbe9c",
+  "zipBytes": 4472,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "95bd0b6893af24703d266a01d45af12f3a7c7d075c0659c919a79d5b2a7ce36b",
+  "fetchedAt": "2026-11-18T10:39:39.100Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EDY0Laik",
+  "name": "spec-kit",
+  "displayName": "规范驱动开发工具",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aungmyokyaw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/spec-kit/latest/spec-kit.zip",
+  "zipSha256": "90c04491d9fa477f7021ce5c3e5f570c9f7fcaa048f3ee916743734d08749408",
+  "zipBytes": 4634,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5aec000d62d83391719a7a75f827a2042307b8992191e8280d4a55f09bc911ed",
+  "fetchedAt": "2026-11-18T10:34:41.115Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

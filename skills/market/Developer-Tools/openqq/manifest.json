@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_iSnwxGrB",
+  "name": "openqq",
+  "displayName": "OpenQQ 机器人",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "zaohon",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openqq/latest/openqq.zip",
+  "zipSha256": "9a461765dd961f45152f90e7a988fb11d61df9685776a778114c2731422ead51",
+  "zipBytes": 18280,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "4418c18b3c8cbf9db9e8aa0e0e039937c4ace21087c5390512efa66ff9a45b0e",
+  "fetchedAt": "2026-11-18T10:38:11.520Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

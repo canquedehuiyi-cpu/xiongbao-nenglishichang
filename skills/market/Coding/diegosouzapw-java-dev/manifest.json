@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_k1SEb538",
+  "name": "diegosouzapw-java-dev",
+  "displayName": "Java开发规范",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-java-dev/latest/diegosouzapw-java-dev.zip",
+  "zipSha256": "8cef6dad9052844ee4bb2419a83472a1fd2717f9c9ba9bc4be617f1766f14478",
+  "zipBytes": 3376,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c30b6a9288f0d2e6336c7f41025098572703e897392afa2b6d19d67bda7d2c84",
+  "fetchedAt": "2026-11-18T10:34:38.791Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

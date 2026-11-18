@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_aXZpPmvy",
+  "name": "404kidwiz-embedded-systems-skill",
+  "displayName": "Embedded开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "404kidwiz",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/404kidwiz-embedded-systems-skill/latest/404kidwiz-embedded-systems-skill.zip",
+  "zipSha256": "b8be6e4bb27df1141aa24020be1e2428fce631860ded9aecf8120c5975c008e2",
+  "zipBytes": 2760,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ddf7f54a50c747b38b0b65ccd2c33599e8db83b85afaa4c101ba7899a0630ca6",
+  "fetchedAt": "2026-11-18T10:34:40.972Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

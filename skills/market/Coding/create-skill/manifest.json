@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "09a3a580-6541-423d-9e7c-fbf7432b24a1",
+  "name": "create-skill",
+  "displayName": "技能创建向导",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f7de8-b462-7258-b8d4-e3b36e8826fe",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ec14-5b03-76f6-91b6-2fa4d463b752/92f77402_create-skill.zip",
+  "zipSha256": "1650717e57145af66e9961226f79688fc35ac44e27363a9ee7a4625a00261c74",
+  "zipBytes": 8726,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "1ff621372cbd08917713e334a40f5571a9b128ce78c8c97af98010cdc43de6a6",
+  "fetchedAt": "2026-11-18T10:35:09.831Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

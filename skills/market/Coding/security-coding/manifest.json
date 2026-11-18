@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "514b1c74-736d-4482-935c-f4ae636d1ee7",
+  "name": "security-coding",
+  "displayName": "安全编码规范",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f7de8-b462-7258-b8d4-e3b36e8826fe",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ec14-5ae9-78e5-b1d8-b513f0a5be50/f1b249b6_security-coding.zip",
+  "zipSha256": "ddaaa54e734abe808621feb7b4c70da7f0ed663a464a53acfaff8518ad23056c",
+  "zipBytes": 3830,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c60de00b027e29c91184cac3c5bc54f52e3849bf7fa5be1d9a44c5752aa099c1",
+  "fetchedAt": "2026-11-18T10:34:53.287Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

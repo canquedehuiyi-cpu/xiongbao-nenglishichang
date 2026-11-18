@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ShLYAg77",
+  "name": "claude-remote-control",
+  "displayName": "Claude 远程控制",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/claude-remote-control/latest/claude-remote-control.zip",
+  "zipSha256": "6207b78bc8b53c1b10e2cdaee515af29c081148661b1a77ffa7e9b067793afa0",
+  "zipBytes": 12111,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "293892e0b61c273e9cc799ebcce94009bf5ad7bd2abaec35fd7cc26019fc06fb",
+  "fetchedAt": "2026-11-18T10:37:49.611Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

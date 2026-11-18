@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LPzLaHpl",
+  "name": "mikonos-deep-reading",
+  "displayName": "深度阅读",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mikonos-deep-reading/latest/mikonos-deep-reading.zip",
+  "zipSha256": "c21b8c822e6c9bfbcc3911de4783200a2bfa7e5974496d00fb5ae766c49e0d1e",
+  "zipBytes": 20262,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "2559386b824f8787b1f8d1e55ed40f701b7271c706e85339e5198ae808781d03",
+  "fetchedAt": "2026-11-18T10:39:42.048Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

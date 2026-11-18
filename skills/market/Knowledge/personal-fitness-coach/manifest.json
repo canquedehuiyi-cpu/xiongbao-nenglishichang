@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0tP7s2Xu",
+  "name": "personal-fitness-coach",
+  "displayName": "专业健身与营养教练系统",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ekintkara",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/personal-fitness-coach/latest/personal-fitness-coach.zip",
+  "zipSha256": "9a62bdc8c059c47a88823e23b609b11f27ace951d668e33e793ff3b3e13b6557",
+  "zipBytes": 10522,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "16b0b869bf6b4ae0f5562a1e5b2bdb7c5d81eabd6ebd69d3f8d3b705f19cafc3",
+  "fetchedAt": "2026-11-18T10:39:27.321Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

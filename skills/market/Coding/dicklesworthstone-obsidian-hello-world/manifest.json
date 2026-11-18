@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_amIq6Ybf",
+  "name": "dicklesworthstone-obsidian-hello-world",
+  "displayName": "Obsidian测试",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-obsidian-hello-world/latest/dicklesworthstone-obsidian-hello-world.zip",
+  "zipSha256": "097d3b5f681df3fbb1fbfc3bed3bfcf5162b392425bbfc199fa4030d24145745",
+  "zipBytes": 2305,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ab9fe56d822e4d10352b98db133c521c12024704d054335598bc01a7da59985d",
+  "fetchedAt": "2026-11-18T10:34:42.664Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Xuh1IksS",
+  "name": "video-trimmer-in-vlc",
+  "displayName": "VLC 视频剪辑器",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/video-trimmer-in-vlc/latest/video-trimmer-in-vlc.zip",
+  "zipSha256": "d49164f6b53dc715e3053b0468b159eb63f6afbd2e0d10255055425bede65c11",
+  "zipBytes": 3946,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9b0157186c83adbf4866e01f99c71130c02b5c4d49509d567570051783768392",
+  "fetchedAt": "2026-11-18T10:37:44.862Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

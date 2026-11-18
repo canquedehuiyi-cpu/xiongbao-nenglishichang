@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GUR5byZx",
+  "name": "jwynia-electron-best-practices",
+  "displayName": "Electron实践",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "agent-skills",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jwynia-electron-best-practices/latest/jwynia-electron-best-practices.zip",
+  "zipSha256": "e5e1dded88637dae3675b2cf9edb9214a081199b66b9544076dece90f5c4a63f",
+  "zipBytes": 124434,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 35,
+  "treeSha256": "b7627505c0b254f0213260862c163d5014f5af355d16154d4bfb4a81bdf2214c",
+  "fetchedAt": "2026-11-18T10:34:48.587Z",
+  "credentialScan": {
+    "textFilesScanned": 35,
+    "filesRedacted": 0
+  },
+  "note": null
+}

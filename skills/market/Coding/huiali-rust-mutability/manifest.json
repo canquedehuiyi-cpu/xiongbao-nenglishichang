@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_E47wtyZ2",
+  "name": "huiali-rust-mutability",
+  "displayName": "安全Rust开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "huiali",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/huiali-rust-mutability/latest/huiali-rust-mutability.zip",
+  "zipSha256": "3a1e1d3785163f816281028b4cd35a54ad882ddf286cd8948bc02bc82dfdf8e1",
+  "zipBytes": 6162,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "c6c33f598dc31711cf8199103f093a93cdb0160669110373bc77e6c85a916646",
+  "fetchedAt": "2026-11-18T10:35:01.965Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1BSgldae",
+  "name": "aaaaqwq-electron-app-dev",
+  "displayName": "Electron开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aAAaqwq",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aaaaqwq-electron-app-dev/latest/aaaaqwq-electron-app-dev.zip",
+  "zipSha256": "0a63acf303340d8dbac7d32461f68cbc95e029f14ec3e00bef618fa43c461ead",
+  "zipBytes": 24772,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "df4b78f0e7092b92b24ae5dffdcd98a5208a814b74dca4843fc41113711e82de",
+  "fetchedAt": "2026-11-18T10:34:31.791Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 1
+  },
+  "note": null
+}

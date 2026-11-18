@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_o0kdPXiW",
+  "name": "github-actions-runtime-regression-audit",
+  "displayName": "GitHub Actions 运行时间回归审计",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "daniellummis",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/github-actions-runtime-regression-audit/latest/github-actions-runtime-regression-audit.zip",
+  "zipSha256": "9d79bc80e015111a1568f8c0ca5d1c40081d435776bb881881207bc01bb50b9b",
+  "zipBytes": 7569,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "f7d43782051a1d6004a71e81cae116fa9f91b308361f9475d4648fe94fb601da",
+  "fetchedAt": "2026-11-18T10:39:40.141Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

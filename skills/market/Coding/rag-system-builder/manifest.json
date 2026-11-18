@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GR6qZpv7",
+  "name": "rag-system-builder",
+  "displayName": "本地 RAG 系统构建器",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "alexfeng75",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/rag-system-builder/latest/rag-system-builder.zip",
+  "zipSha256": "8dc93d08a84b25ac1b3f5fb0afa50053d17f0ae31900b9bdff08327371194997",
+  "zipBytes": 8477,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "008fdfd1aab7661265e4d29267b8827823c02b651423de123589eca97d8e0347",
+  "fetchedAt": "2026-11-18T10:34:46.258Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

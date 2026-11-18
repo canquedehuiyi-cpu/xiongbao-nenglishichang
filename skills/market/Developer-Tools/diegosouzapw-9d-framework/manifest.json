@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0nbMBESu",
+  "name": "diegosouzapw-9d-framework",
+  "displayName": "产品框架助手",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-9d-framework/latest/diegosouzapw-9d-framework.zip",
+  "zipSha256": "09bfa64d982f4f7614a16e17ed8dfa45d5740a7fe5f55f5bfb2c913142f05f99",
+  "zipBytes": 2404,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "ace060e2fa3abfabaeb7018ee1b9cba850c043ca28735a253341f57a7b49a0f3",
+  "fetchedAt": "2026-11-18T10:38:11.870Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

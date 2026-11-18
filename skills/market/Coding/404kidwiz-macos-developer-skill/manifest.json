@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_78Hn1taN",
+  "name": "404kidwiz-macos-developer-skill",
+  "displayName": "macOS开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "404kidwiz",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/404kidwiz-macos-developer-skill/latest/404kidwiz-macos-developer-skill.zip",
+  "zipSha256": "961598d63f029f7c994cc06afb7c00b4726c5b7536ce857df8e63386bdaa80db",
+  "zipBytes": 3678,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "89f9f1767ce1f97d8c6f82897773b4a4188b00eff50f4eb8b32993e0431bc8cc",
+  "fetchedAt": "2026-11-18T10:34:49.066Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

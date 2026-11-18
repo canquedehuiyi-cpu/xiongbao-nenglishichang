@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_hdmWGz37",
+  "name": "diegosouzapw-golang-backend-development",
+  "displayName": "后端Golang",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-golang-backend-development/latest/diegosouzapw-golang-backend-development.zip",
+  "zipSha256": "25668a25c978f70cf9a2d67b8e19a584ae3bdfd8d25c4aabc1fce1147c1a0297",
+  "zipBytes": 5890,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f164c81e1be6b61027866d0fdc8d14d6b4c9878019b10b20b524854a29605493",
+  "fetchedAt": "2026-11-18T10:34:37.524Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

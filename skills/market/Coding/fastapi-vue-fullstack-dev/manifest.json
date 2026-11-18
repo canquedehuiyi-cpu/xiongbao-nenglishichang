@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "2e6299d9-06f4-459d-befd-9df630a7927b",
+  "name": "fastapi-vue-fullstack-dev",
+  "displayName": "FastAPI Vue3 全栈开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a00d92-e2d4-7ae7-9026-0b13ce0cbbdc",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a07fe2-531e-7071-91e5-9903cc9a40dd/264a61f3_fastapi-vue-fullstack-dev.zip",
+  "zipSha256": "26c2d23a2e757f333f6d9af1f76ba593327ad0007576296a7104b930f7ed5235",
+  "zipBytes": 118991,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 144,
+  "treeSha256": "bcbbb381a8045bb5cb8d53a2dc34ce0cc7e9e1b4ae9bbeb2e2b44255cadcd89a",
+  "fetchedAt": "2026-11-18T10:34:39.696Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

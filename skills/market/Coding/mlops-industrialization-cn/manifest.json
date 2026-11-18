@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_nvbwOusg",
+  "name": "mlops-industrialization-cn",
+  "displayName": "MLOps 工业化：从原型到生产级 Python 包",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "guohongbin-git",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mlops-industrialization-cn/latest/mlops-industrialization-cn.zip",
+  "zipSha256": "0d228a4f9ef0f38faffc098b1e94667a643f9e1a0cad033052be4ba72e576ea5",
+  "zipBytes": 3073,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "3861fc74c02fb14083242243e0677ff6bd78a54c9275eb3a0aa4b7f8fafae30d",
+  "fetchedAt": "2026-11-18T10:35:03.013Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

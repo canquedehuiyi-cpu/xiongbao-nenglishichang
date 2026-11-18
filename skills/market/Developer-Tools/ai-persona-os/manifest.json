@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_CtASENXc",
+  "name": "ai-persona-os",
+  "displayName": "AI 人格操作系统",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jeffjhunter",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ai-persona-os/latest/ai-persona-os.zip",
+  "zipSha256": "05e6c54e8ad5f4ef0f428ec66eb534064747f385c1a5070326f2dd40b9273473",
+  "zipBytes": 167707,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 66,
+  "treeSha256": "1c49caf9a035566bab382449eb605b40c2bf8df63bd4f462304b0e0b4d2d9aad",
+  "fetchedAt": "2026-11-18T10:37:49.386Z",
+  "credentialScan": {
+    "textFilesScanned": 66,
+    "filesRedacted": 0
+  },
+  "note": null
+}

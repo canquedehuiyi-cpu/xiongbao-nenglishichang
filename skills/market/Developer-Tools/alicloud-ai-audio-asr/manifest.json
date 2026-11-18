@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qotZw9aN",
+  "name": "alicloud-ai-audio-asr",
+  "displayName": "阿里云通义千问语音识别",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alicloud-ai-audio-asr/latest/alicloud-ai-audio-asr.zip",
+  "zipSha256": "0d8436df47e2719055359a3ba281c1580cca3ff59d9657bab2f7e2f55b500b42",
+  "zipBytes": 8509,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "6af38975249699c61d5550c4db9d29a0c369bd5c6a1bf6c40fad7f091560be2d",
+  "fetchedAt": "2026-11-18T10:37:29.788Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

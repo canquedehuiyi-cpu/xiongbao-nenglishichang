@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dfXEbrpI",
+  "name": "iserter-laravel-caching-strategies",
+  "displayName": "缓存策略",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "iSerter",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/iserter-laravel-caching-strategies/latest/iserter-laravel-caching-strategies.zip",
+  "zipSha256": "d268f86bcda3a193d3fdd7f4b7d9039fa2b7f76eafc621888c0e813ad5b12b64",
+  "zipBytes": 2656,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "60f38a9311a96a0c64304427002357db67999b54a26b756ab75673894180328e",
+  "fetchedAt": "2026-11-18T10:35:02.109Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

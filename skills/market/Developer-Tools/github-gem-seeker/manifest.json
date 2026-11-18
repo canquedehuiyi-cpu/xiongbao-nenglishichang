@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_oW3S9t5X",
+  "name": "github-gem-seeker",
+  "displayName": "GitHub 宝藏搜寻者",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "wells1137",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/github-gem-seeker/latest/github-gem-seeker.zip",
+  "zipSha256": "372ce7ffa59cc70acecc7523ceb6207979f02c752b7d57737878e90198678c0c",
+  "zipBytes": 2535,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f52d77a6f6868a40ab0b5c993071013ce236f8986ec89cd543fbc710c8b6c792",
+  "fetchedAt": "2026-11-18T10:37:56.531Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

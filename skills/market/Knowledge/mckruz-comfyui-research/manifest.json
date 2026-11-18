@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_QYLk2InN",
+  "name": "mckruz-comfyui-research",
+  "displayName": "研究ComfyUI",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "MCKRUZ",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mckruz-comfyui-research/latest/mckruz-comfyui-research.zip",
+  "zipSha256": "4b13b6fca77ff08c49a4695759b3b8657fd451c4b92540927f39c4d81b261b49",
+  "zipBytes": 4336,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0c5e4732a63d0f9c9bc4220eae6ccf030c380fdf799d5e77c4e42337d88dc987",
+  "fetchedAt": "2026-11-18T10:39:44.367Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

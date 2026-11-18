@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "9a520fa1-0507-4e00-8471-0a2a758c15dc",
+  "name": "citation-manager",
+  "displayName": "文献引用管理",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd5d-e35a-7b61-b10e-37d12f67ef9a/6815030a_citation-manager.zip",
+  "zipSha256": "baa5c8aad0e094d1990983bc30534da92871cf6140db683a573466b4d0bb6dcc",
+  "zipBytes": 61551,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "eb8024ab1503ccb2925f474a68b6932e64869af454f979e3049bf5769b1b3386",
+  "fetchedAt": "2026-11-18T10:39:43.004Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_iIHeJnxo",
+  "name": "asyncio",
+  "displayName": "异步并发编程",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/asyncio/latest/asyncio.zip",
+  "zipSha256": "676fd246d0b1bc454ded614ef652f7e18c92cf8ded056f2e23af0093faf905e0",
+  "zipBytes": 1736,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "45b97e1fc851329d4b1153f21c72aa3ca70a4345e70f7036656840ad8c0ee75f",
+  "fetchedAt": "2026-11-18T10:34:50.222Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

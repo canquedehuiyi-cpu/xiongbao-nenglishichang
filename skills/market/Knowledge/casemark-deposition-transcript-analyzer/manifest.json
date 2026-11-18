@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_F6KbIlmV",
+  "name": "casemark-deposition-transcript-analyzer",
+  "displayName": "研究分析",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "CaseMark",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/casemark-deposition-transcript-analyzer/latest/casemark-deposition-transcript-analyzer.zip",
+  "zipSha256": "e3f8edb194c8f34e9d087a96fb3846383ebfd020c87d5678451e4915564674b8",
+  "zipBytes": 2402,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "49be34c5721b885888eff4666e5b856e82fc47bf772cbea5c3b1d5bc839aeb49",
+  "fetchedAt": "2026-11-18T10:39:08.650Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

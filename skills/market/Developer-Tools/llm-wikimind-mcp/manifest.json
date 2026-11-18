@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YhvNDI21",
+  "name": "llm-wikimind-mcp",
+  "displayName": "LLM-WikiMind MCP 设置",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/llm-wikimind-mcp/latest/llm-wikimind-mcp.zip",
+  "zipSha256": "03b6f1207e690f5b8eeef3132289b4c4acea50b41ee1aa31c490f048ef26a4c1",
+  "zipBytes": 2600,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3f4a6d34a29137e702c303a77edcf9b6ee5d8171e8b42889cbdd0529bddb9b4c",
+  "fetchedAt": "2026-11-18T10:38:10.614Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

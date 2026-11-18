@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_sM95gIFt",
+  "name": "lecion-github-kb",
+  "displayName": "GitHubKb开发",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lecion",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/lecion-github-kb/latest/lecion-github-kb.zip",
+  "zipSha256": "73b7f6ce61994ec6d1c7ecd45417b7cfb1b676ee879df3bef74ddae961054bbf",
+  "zipBytes": 2823,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "39deed48a128e0d598c4924cc78d79a30af90453ba9a8059ed7a84830b702cbe",
+  "fetchedAt": "2026-11-18T10:39:20.678Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

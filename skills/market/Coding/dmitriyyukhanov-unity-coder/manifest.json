@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_43WtFsgI",
+  "name": "dmitriyyukhanov-unity-coder",
+  "displayName": "Coder开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "DmitriyYukhanov",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dmitriyyukhanov-unity-coder/latest/dmitriyyukhanov-unity-coder.zip",
+  "zipSha256": "d7bf70126cfba93bcf3a7375294b1261ddc8e893cc329bc0714fff73e44438d7",
+  "zipBytes": 3904,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c7e2e352a34cad89c7e06d7aecc327d0ba4516ab0833eb604394b2f1a91c04c9",
+  "fetchedAt": "2026-11-18T10:34:52.780Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

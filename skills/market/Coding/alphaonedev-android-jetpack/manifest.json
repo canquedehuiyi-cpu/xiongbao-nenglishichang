@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mlhg6tHj",
+  "name": "alphaonedev-android-jetpack",
+  "displayName": "安卓Android",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "alphaonedev",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alphaonedev-android-jetpack/latest/alphaonedev-android-jetpack.zip",
+  "zipSha256": "f2b682a85d4f2d53a5e299f6bd5f66e22dbd5ee9846ee7ea6dce3a26151f2a93",
+  "zipBytes": 3835,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "70deb8b2257119103bf756bb90c27248ea3ec24bec4092dc5dbdef3a46bb0c24",
+  "fetchedAt": "2026-11-18T10:34:33.804Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

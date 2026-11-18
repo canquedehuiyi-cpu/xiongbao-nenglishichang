@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dhl1wDMh",
+  "name": "car-advisor",
+  "displayName": "汽车顾问技能",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "deusyu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/car-advisor/latest/car-advisor.zip",
+  "zipSha256": "e79fa35736c96901b496246707d37c00e1abd050d8702aafbde3105b4c5a53cc",
+  "zipBytes": 9614,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "99a8be3d837e7b1e4015192fd1034ee3b0f2962fd233f32688ef37fe00a5be5f",
+  "fetchedAt": "2026-11-18T10:39:34.534Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

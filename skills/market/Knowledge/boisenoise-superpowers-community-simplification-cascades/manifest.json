@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_xLJI6E04",
+  "name": "boisenoise-superpowers-community-simplification-cascades",
+  "displayName": "Cascades开发",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-superpowers-community-simplification-cascades/latest/boisenoise-superpowers-community-simplification-cascades.zip",
+  "zipSha256": "4b475785c38d463734fc54d3bfa4f6aa5f2bb167e9d8013bb509fb41eb896081",
+  "zipBytes": 1569,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "881cba5110d50e00f445669e8a79d4df26ff9754bb8ab2b9b5ae1a6183e3967b",
+  "fetchedAt": "2026-11-18T10:39:21.814Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

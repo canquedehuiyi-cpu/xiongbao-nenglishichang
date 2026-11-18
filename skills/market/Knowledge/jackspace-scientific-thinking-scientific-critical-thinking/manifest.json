@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HBu20OmM",
+  "name": "jackspace-scientific-thinking-scientific-critical-thinking",
+  "displayName": "研究科研",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jackspace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jackspace-scientific-thinking-scientific-critical-thinking/latest/jackspace-scientific-thinking-scientific-critical-thinking.zip",
+  "zipSha256": "937290208a1ac3e92dbab076cd5ab438a078a657354e4bab574c494ae43f604e",
+  "zipBytes": 24089,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "9943204f3ee021633f3051eb43f3f44f82b85c8cb529abaadc890a9e6e64780b",
+  "fetchedAt": "2026-11-18T10:39:31.357Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

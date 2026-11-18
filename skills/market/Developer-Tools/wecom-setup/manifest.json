@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_X5a7FipL",
+  "name": "wecom-setup",
+  "displayName": "企业微信对话配置",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/wecom-setup/latest/wecom-setup.zip",
+  "zipSha256": "0d788d9aa2faad15ea3509cf094c36ee152365d8e726d01415c2612f7574603d",
+  "zipBytes": 2317,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c3144c22560f4aadebd09cf11fc9cc9a9a2840a25989c07dea7cd7dcc6785556",
+  "fetchedAt": "2026-11-18T10:37:30.446Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

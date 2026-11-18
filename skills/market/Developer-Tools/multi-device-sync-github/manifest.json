@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dBMoqvUe",
+  "name": "multi-device-sync-github",
+  "displayName": "多设备 OpenClaw 数据同步",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "regulusz",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/multi-device-sync-github/latest/multi-device-sync-github.zip",
+  "zipSha256": "98261a5b5b891009e00375f1afce573ce9ef0199be35c79a26d9288ad90db465",
+  "zipBytes": 23308,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "27d8e1f9da09d97f8b7a14963c43b31edab6e5b10906b7ee5ed38547403e229e",
+  "fetchedAt": "2026-11-18T10:38:00.422Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

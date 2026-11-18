@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_AytZhOFK",
+  "name": "majiayu000-canvas-design-samhvw8-dotfiles",
+  "displayName": "画布Samhvw8",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-canvas-design-samhvw8-dotfiles/latest/majiayu000-canvas-design-samhvw8-dotfiles.zip",
+  "zipSha256": "20f66f961db62aebfbc3a41c3f7a7178c5bfe6f490ae1394dd29d2b9d534efe8",
+  "zipBytes": 5815,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5ea7852cfb594ae77822b13a9918e066491ba1a8b229baa27d92337c9c856c45",
+  "fetchedAt": "2026-11-18T10:39:29.867Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

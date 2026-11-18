@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Sz3yhFqu",
+  "name": "anthropics-review-contract",
+  "displayName": "法律合同审查",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "anthropics",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/anthropics-review-contract/latest/anthropics-review-contract.zip",
+  "zipSha256": "6374dcf09673c524cade5988e8ff6964c34d879c4e0fb8714a79bd2c3e96e489",
+  "zipBytes": 6429,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a07847c8710e05ec7515f188242be7c49d99629ce2263142fd42f79a3c42e487",
+  "fetchedAt": "2026-11-18T10:39:08.104Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

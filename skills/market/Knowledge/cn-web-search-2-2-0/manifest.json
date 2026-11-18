@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_g07tOkjZ",
+  "name": "cn-web-search-2-2-0",
+  "displayName": "中文网页搜索",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cn-web-search-2-2-0/latest/cn-web-search-2-2-0.zip",
+  "zipSha256": "1efaa4e96cbb5c8b2635946da3110d050cc6cbbce8437b806fe1a0304bd28d06",
+  "zipBytes": 4656,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "606ffbb736ad0f64fb45ab653fba6170b50db9f1fac044f783d4c69bf0b9d933",
+  "fetchedAt": "2026-11-18T10:39:33.202Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

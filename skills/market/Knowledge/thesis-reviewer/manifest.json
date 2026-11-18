@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_jd9OznSS",
+  "name": "thesis-reviewer",
+  "displayName": "学位论文评审",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/thesis-reviewer/latest/thesis-reviewer.zip",
+  "zipSha256": "94ef1a5e30f8878482c9c0ea2ec07bed1efb5fc1f1ccbfc8329ce217430493d9",
+  "zipBytes": 39704,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 14,
+  "treeSha256": "06d29a463ef4aec0ab9754caa544974ec0aad8fe4f772f86ccabd27c3bb4aa72",
+  "fetchedAt": "2026-11-18T10:39:26.332Z",
+  "credentialScan": {
+    "textFilesScanned": 14,
+    "filesRedacted": 0
+  },
+  "note": null
+}

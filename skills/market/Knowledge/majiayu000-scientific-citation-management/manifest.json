@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FzTvvqfQ",
+  "name": "majiayu000-scientific-citation-management",
+  "displayName": "科研论文助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-scientific-citation-management/latest/majiayu000-scientific-citation-management.zip",
+  "zipSha256": "6ed3637e52b3aea37eb51bfcf9f6b51a200328fa03fef3ced728f76146922388",
+  "zipBytes": 10915,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b15fbc1d6f763e4a144e7beb2ab05a65ff9c832d085cc0acda66e818ed929e81",
+  "fetchedAt": "2026-11-18T10:39:01.646Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

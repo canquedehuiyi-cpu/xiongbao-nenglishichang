@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_yxpGVhf8",
+  "name": "github-issue-resolver",
+  "displayName": "GitHub 问题解析器",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ashwinhegde19",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/github-issue-resolver/latest/github-issue-resolver.zip",
+  "zipSha256": "524419d8228c4f56aafd6d32ee7a64b6571c241c4a50fc5ac91b7b3802737fa1",
+  "zipBytes": 30526,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "c19c71ae3d18d8db63985c8447b58e451510e4fafe0713d3c4977a4710d5863b",
+  "fetchedAt": "2026-11-18T10:34:59.335Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PWPx1ime",
+  "name": "bartundmett-intershop",
+  "displayName": "SQL代码审查",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "intershop-engineering",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bartundmett-intershop/latest/bartundmett-intershop.zip",
+  "zipSha256": "01eb548d978d56eac63a806605c7b629cf936a1df0c89bd92dfe8ca798bcb0c3",
+  "zipBytes": 161108,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 74,
+  "treeSha256": "079e039f0feb69dab37fdeec2ab5fc71df26678dd39e190be71dca2a2bde0ef8",
+  "fetchedAt": "2026-11-18T10:39:28.364Z",
+  "credentialScan": {
+    "textFilesScanned": 74,
+    "filesRedacted": 0
+  },
+  "note": null
+}

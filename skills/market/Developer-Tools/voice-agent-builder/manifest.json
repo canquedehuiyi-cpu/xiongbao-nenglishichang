@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1zi8hdsy",
+  "name": "voice-agent-builder",
+  "displayName": "语音智能体构建器",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiwithabidi",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/voice-agent-builder/latest/voice-agent-builder.zip",
+  "zipSha256": "2c83d7ba646a74c3bf67fa290a52a5a5275033f082b89f670c06b1122aebe811",
+  "zipBytes": 7437,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "f8153a286c753e731199642c64519160a2277b7b01e44695619695b3d62970fe",
+  "fetchedAt": "2026-11-18T10:37:56.962Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

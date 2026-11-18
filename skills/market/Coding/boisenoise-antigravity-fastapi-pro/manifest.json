@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UHLh8v7t",
+  "name": "boisenoise-antigravity-fastapi-pro",
+  "displayName": "FastAPI开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-fastapi-pro/latest/boisenoise-antigravity-fastapi-pro.zip",
+  "zipSha256": "ad1c0736efab2ead4c584e688a77f505be51290fb574c4831dbb5a98168bcaf2",
+  "zipBytes": 3109,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "0f104c20fd1254919db95a0a790ec849d7468d4041bbef9b2cf6463e1df12b88",
+  "fetchedAt": "2026-11-18T10:34:33.649Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

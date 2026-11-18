@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dFrILhnR",
+  "name": "josiahsiegel-powershell-shell-detection",
+  "displayName": "Shell检测",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "JosiahSiegel",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/josiahsiegel-powershell-shell-detection/latest/josiahsiegel-powershell-shell-detection.zip",
+  "zipSha256": "72dac53dea028cb667792af2d938c8b3006782e4edf943b27773fdcea1d5d6fb",
+  "zipBytes": 4873,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1763bfc613050514183b4031df910bbd03dac9ac9bde1921dd558d928a789cc0",
+  "fetchedAt": "2026-11-18T10:37:38.210Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

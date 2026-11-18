@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_aTVqyTSg",
+  "name": "jkitchin-citation-verifier",
+  "displayName": "Citation网页",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jkitchin",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jkitchin-citation-verifier/latest/jkitchin-citation-verifier.zip",
+  "zipSha256": "9c509aa34962e7af2519cc0d27af7449e20d030f4c2c0b9ad584f8b64d06fc6e",
+  "zipBytes": 3826,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "796fe8fca95a2c43de688c2f7d80bdf784fb9c8c7ae8f31cad4002f7cf34afd4",
+  "fetchedAt": "2026-11-18T10:39:45.340Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

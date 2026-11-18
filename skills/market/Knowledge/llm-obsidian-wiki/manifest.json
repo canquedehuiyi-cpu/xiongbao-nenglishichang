@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_TjR1g8Eb",
+  "name": "llm-obsidian-wiki",
+  "displayName": "大语言模型维基",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/llm-obsidian-wiki/latest/llm-obsidian-wiki.zip",
+  "zipSha256": "226e6dee1881576cd954762c9b198009c518c1c092b2dd263e013b66a4b2d454",
+  "zipBytes": 10874,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "c641bfb4bd12fc7d2ae7a4d4901215ee2e5a87a70a086ecde729b1f8a9ca9010",
+  "fetchedAt": "2026-11-18T10:39:46.622Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

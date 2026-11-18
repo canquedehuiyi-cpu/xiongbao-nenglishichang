@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Qf1ChDvQ",
+  "name": "boisenoise-superpowers-community-defense-in-depth",
+  "displayName": "数据Defense",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-superpowers-community-defense-in-depth/latest/boisenoise-superpowers-community-defense-in-depth.zip",
+  "zipSha256": "5d0c36da8f5fbd6782a86edcdcb18d3cceb9f55ca4c301ded0822d425c4acfef",
+  "zipBytes": 1839,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a005f10636e375d30c3d523b27fd5c69ef929fa66e3dda39fd6a9e568cb4e127",
+  "fetchedAt": "2026-11-18T10:34:38.625Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

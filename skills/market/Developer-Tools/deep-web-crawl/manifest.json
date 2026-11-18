@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "b7c0d5e3-95be-4d6e-b265-393e154f7a03",
+  "name": "deep-web-crawl",
+  "displayName": "深度网站抓取工作流",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019ec9a7-9aa1-7c82-91ca-aad404884a16",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f986d-b432-7d8c-ac51-cd45fb82d086/9b2761b4_deep-web-crawl.zip",
+  "zipSha256": "f7453a20cbcd50ff74ed3e5e6a76b18ea8b932f891c88111e1dab65d4bd710cd",
+  "zipBytes": 3454,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ecbc585b9054325ec717f884077dff89c059aaf60520e570ced5256c451535c1",
+  "fetchedAt": "2026-11-18T10:37:37.149Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

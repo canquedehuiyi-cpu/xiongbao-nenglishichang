@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vjfY86uO",
+  "name": "frontend-slides",
+  "displayName": "前端幻灯片",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Limlin-Qs",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/frontend-slides/latest/frontend-slides.zip",
+  "zipSha256": "3e4a9417b88a91636dc73a3cdc12b0d2a6800c3d754346ca6b35f8e10585e1bc",
+  "zipBytes": 4873,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "29e5fd2ab71ec9596cb66b01f6bd4ff2f20de29ec138311f7427e788a772bf53",
+  "fetchedAt": "2026-11-18T10:35:08.750Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

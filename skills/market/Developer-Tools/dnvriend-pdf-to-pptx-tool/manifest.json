@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GYyXt1eY",
+  "name": "dnvriend-pdf-to-pptx-tool",
+  "displayName": "PDFTo开发",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dnvriend",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dnvriend-pdf-to-pptx-tool/latest/dnvriend-pdf-to-pptx-tool.zip",
+  "zipSha256": "558f53f5d98c46c1bcf43daf51b4a63742a91143b27f85e1c5b6a6c921ca2aad",
+  "zipBytes": 4761,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "948581abbe5656682adef08eb9a7467ee6bbc8cd53b5349406c76f7198b29fa6",
+  "fetchedAt": "2026-11-18T10:37:32.887Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LUzuHNuu",
+  "name": "boisenoise-superpowers-community-tracing-knowledge-lineages",
+  "displayName": "Lineages开发",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-superpowers-community-tracing-knowledge-lineages/latest/boisenoise-superpowers-community-tracing-knowledge-lineages.zip",
+  "zipSha256": "9784a0360fc136672449f0623d78e3d8f068345387e94e5b16b1d004eb014d5e",
+  "zipBytes": 3361,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "811400c14aded018d751544b41ba4625cf7ae468c9fc31fd54568a39025dbbde",
+  "fetchedAt": "2026-11-18T10:37:23.721Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

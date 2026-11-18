@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_iOIirwqG",
+  "name": "hermes-agent-yuhu",
+  "displayName": "赫尔墨斯代理",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/hermes-agent-yuhu/latest/hermes-agent-yuhu.zip",
+  "zipSha256": "f4000e3aa3383b1e52f3368848b863b32fc8d29d2c35ce781ce803d07e201af7",
+  "zipBytes": 10482,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b8a824f90c8058cf885c7be75f31b1e7342744aee0c8739d894767738c784419",
+  "fetchedAt": "2026-11-18T10:37:21.574Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

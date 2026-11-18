@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "5c45fb19-986a-4854-9518-767dbeac9df5",
+  "name": "fastapi-react-windows-setup",
+  "displayName": null,
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f22c2-29f0-77e2-9efe-82fc7fe776b2",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f324f-1e36-7730-b471-08b79247ac7f/b25baaad_fastapi-react-windows-setup.zip",
+  "zipSha256": "3a27747f32141c2a0ede740d1f8f75bc87b4379e62d4a3377a057e09f43a8f9f",
+  "zipBytes": 8536,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "0d63a11e4cba803a78a109427ede0ca8702258ba3082e83f54e91a15cbbfc2e8",
+  "fetchedAt": "2026-11-18T10:35:04.547Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 1
+  },
+  "note": null
+}

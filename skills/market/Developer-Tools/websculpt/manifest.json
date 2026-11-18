@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "fe49a569-f992-4a3c-afaa-5f598bb40862",
+  "name": "websculpt",
+  "displayName": "WebSculpt：带有记忆的浏览器自动化",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f836e-4513-73ea-bca9-91561e877cd2",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f8370-e77b-700c-9f90-5cc652060f1a/383ec054_websculpt.zip",
+  "zipSha256": "244176076716e64653c37309e66e04c9d04d26560ec79e7da06daeda1cb69b2c",
+  "zipBytes": 4160,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "36586e04e97ad6027f647e0067352a9171301eb33499a5a10df62aa1181d87ea",
+  "fetchedAt": "2026-11-18T10:37:22.642Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

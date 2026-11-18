@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_uQHhi2yL",
+  "name": "pmp-agentclaw",
+  "displayName": "AI 项目管理助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "cyberneticsplus",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pmp-agentclaw/latest/pmp-agentclaw.zip",
+  "zipSha256": "2badddb2b2254bc442ca2a580ee0c0a0625c54f732813c036bff096a89f705a8",
+  "zipBytes": 106461,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 65,
+  "treeSha256": "cc160d2b54b7907dc82a904b44c1f9d38b4e3217369406817611a405544cc31c",
+  "fetchedAt": "2026-11-18T10:39:21.508Z",
+  "credentialScan": {
+    "textFilesScanned": 65,
+    "filesRedacted": 0
+  },
+  "note": null
+}

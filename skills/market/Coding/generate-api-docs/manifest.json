@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "07f856cb-99a9-4826-836b-d6ca20bdb4c3",
+  "name": "generate-api-docs",
+  "displayName": "接口文档生成",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a0239d-d6e8-70d8-8ed4-617815ac29d3",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08ab8-570d-7567-aeda-f29769368b03/3efca840_generate-api-docs.zip",
+  "zipSha256": "7efafc620f1936d9f3bda76ae6afa141b011cece1287b3cd751b8b5141bb4c0d",
+  "zipBytes": 4262,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "555d5b53669f0315e8d7ea5f0500e40806bfc944099f384fd36cc4866c690494",
+  "fetchedAt": "2026-11-18T10:34:37.318Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

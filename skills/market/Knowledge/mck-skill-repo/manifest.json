@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_w9TJ82Rm",
+  "name": "mck-skill-repo",
+  "displayName": "麦肯锡风格专业演示文稿生成",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "likaku",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mck-skill-repo/latest/mck-skill-repo.zip",
+  "zipSha256": "07727b1e319e0c2b2e4e40f9b91a8f565861fb4c028d46d4b39006a2e0db76aa",
+  "zipBytes": 41643,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "f0001d9c6e19342b0be4dd67ff051b73964224518c1e85209baf6320c06a90b6",
+  "fetchedAt": "2026-11-18T10:39:27.638Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

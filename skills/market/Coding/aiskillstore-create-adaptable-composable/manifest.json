@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1FoqxrWp",
+  "name": "aiskillstore-create-adaptable-composable",
+  "displayName": "VueReact开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "github.com/vuejs-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-create-adaptable-composable/latest/aiskillstore-create-adaptable-composable.zip",
+  "zipSha256": "9e334a4372243c54783dffbb9efdb5b3bcfd7f9866a6e602b722183c0255ef8f",
+  "zipBytes": 5294,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f2837770d382f2e60865bd82356e15bba765f1339e5d7b3f4691ccfaf0104bcd",
+  "fetchedAt": "2026-11-18T10:34:58.527Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

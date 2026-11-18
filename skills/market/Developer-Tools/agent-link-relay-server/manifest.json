@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_I3c7t2j3",
+  "name": "agent-link-relay-server",
+  "displayName": "智能体互联",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-link-relay-server/latest/agent-link-relay-server.zip",
+  "zipSha256": "3ce270aa24ba16e05f13ff4be17afe62719d9b57809b39bef86bcf5c505533a2",
+  "zipBytes": 10085,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "4afa74bc25a7406681a241041f5a03833dbbdda9d26b254eb2fb1f1b5dbc101c",
+  "fetchedAt": "2026-11-18T10:37:50.662Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 1
+  },
+  "note": null
+}

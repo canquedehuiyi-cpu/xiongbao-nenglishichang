@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HVoKrHUE",
+  "name": "multi-search-aggregator",
+  "displayName": "多搜索聚合器",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/multi-search-aggregator/latest/multi-search-aggregator.zip",
+  "zipSha256": "5dcf122916c568c00970fb0b7a856548dd3be9cf1637d143e4f10840ba9048c5",
+  "zipBytes": 5292,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "1ab3d848a838466d13e52eb8a96f5881e6d0bc91d65364c2bace34ac2c914e73",
+  "fetchedAt": "2026-11-18T10:37:50.092Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

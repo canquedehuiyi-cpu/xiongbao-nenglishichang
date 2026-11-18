@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_F8BWpsS7",
+  "name": "obsidian-cli-official",
+  "displayName": "Obsidian 官方命令行工具",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "alexanderkinging",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/obsidian-cli-official/latest/obsidian-cli-official.zip",
+  "zipSha256": "f3261957e8d7adbd2182ae2eb51f088afbf33c9d9791d0130b26af6bbb1c5175",
+  "zipBytes": 17369,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "b198832fe3565cc678eb20c70cfb8a309e10b4aa81bcd2f1e8095f11d5adc7c7",
+  "fetchedAt": "2026-11-18T10:37:19.531Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

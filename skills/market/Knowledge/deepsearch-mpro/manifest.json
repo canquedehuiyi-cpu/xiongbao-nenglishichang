@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JEDrRHO1",
+  "name": "deepsearch-mpro",
+  "displayName": "深度研究专家",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/deepsearch-mpro/latest/deepsearch-mpro.zip",
+  "zipSha256": "6590ff5d55b90e2f20eca1b2079a54326836fda42307cac2fe769f5caaf057e3",
+  "zipBytes": 182878,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 80,
+  "treeSha256": "a209cb23041b34967fe82103f2c7bd8b94d664ce77d13f684c93c9c34f6035b2",
+  "fetchedAt": "2026-11-18T10:39:13.751Z",
+  "credentialScan": {
+    "textFilesScanned": 80,
+    "filesRedacted": 0
+  },
+  "note": null
+}

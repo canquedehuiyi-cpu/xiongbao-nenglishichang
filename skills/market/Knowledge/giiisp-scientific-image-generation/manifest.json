@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "ca70c88d-53fe-43c5-b6d2-fe08cd1dccc4",
+  "name": "giiisp-scientific-image-generation",
+  "displayName": "科研绘图",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f1ba1-7866-799e-a029-d511201f94b9",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f25c7-dee4-7b8e-ae37-1bd5ec2cccef/495db0c1_giiisp-scientific-image-generation.zip",
+  "zipSha256": "78f2142431fc2058065830bc83276b9171b9b99afe51015fc0b36fc86c9b74a8",
+  "zipBytes": 54317,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 20,
+  "treeSha256": "0635f4f6a3e0da88f15dd7dae74c616b31f79f843fe76a39f787a52dc821c718",
+  "fetchedAt": "2026-11-18T10:39:05.373Z",
+  "credentialScan": {
+    "textFilesScanned": 19,
+    "filesRedacted": 0
+  },
+  "note": null
+}

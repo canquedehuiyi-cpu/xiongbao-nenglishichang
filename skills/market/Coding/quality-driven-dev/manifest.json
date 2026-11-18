@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_usHc4lmJ",
+  "name": "quality-driven-dev",
+  "displayName": "质量驱动开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kimky1122",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/quality-driven-dev/latest/quality-driven-dev.zip",
+  "zipSha256": "6c6261ce7f2c32d48396315b0b130d976c5ca11944154757a7b4c37dfb12888f",
+  "zipBytes": 9147,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "e3fcb9cdf29c24906fbec5404e2b0147c984dd625e8deb6e6d6456c6e8d6d8db",
+  "fetchedAt": "2026-11-18T10:35:11.350Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

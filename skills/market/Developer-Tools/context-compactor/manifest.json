@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bSCMEZVb",
+  "name": "context-compactor",
+  "displayName": "上下文压缩器",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "emberdesire",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/context-compactor/latest/context-compactor.zip",
+  "zipSha256": "d0f7865e4cef9c1d21354d31dfe8a1e38a92396f1fd7af4e2e833c1de0a61b38",
+  "zipBytes": 15095,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "6ed97b292337023fcc8263604f513768640f204806180f9723248f8253bcfcf7",
+  "fetchedAt": "2026-11-18T10:37:39.537Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

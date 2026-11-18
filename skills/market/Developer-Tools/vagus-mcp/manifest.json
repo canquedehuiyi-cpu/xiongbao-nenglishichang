@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_QSQT12Tl",
+  "name": "vagus-mcp",
+  "displayName": "VAGUS 手机 MCP 连接",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "embodiedsystems-org",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/vagus-mcp/latest/vagus-mcp.zip",
+  "zipSha256": "160bbf694bdfccdf822c791b01b7875963972c38dd2100358b76e4f0541e2ffe",
+  "zipBytes": 10639,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "65ad11d8fefd981b966948593a3627eaba40fdc2f0e94cc8341caf64dec10c0d",
+  "fetchedAt": "2026-11-18T10:38:09.334Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

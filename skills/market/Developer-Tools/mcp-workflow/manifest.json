@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JM3eIpri",
+  "name": "mcp-workflow",
+  "displayName": "MCP工作流自动化技能",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "slemo54",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mcp-workflow/latest/mcp-workflow.zip",
+  "zipSha256": "eff075bc4c6090099283b5b442bf052cb5fbec4dc3e16ac51719676d9316b593",
+  "zipBytes": 18333,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "d7381a2c69d6a2b4911db39c4bb49e350d5a2c1eb6bca93402193ad734176422",
+  "fetchedAt": "2026-11-18T10:37:50.914Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

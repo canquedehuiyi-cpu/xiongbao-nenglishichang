@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "0c75ff4e-f7e2-438d-9583-23a7e6de7853",
+  "name": "token-panel",
+  "displayName": "Token 消耗面板",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.5.0",
+  "publisher": "01a10231-9d4a-72ea-a17f-e2406b5a1116",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a1e325-a1af-747b-a87c-09eaec1dde91/2bca8255ca4c6dfe959a3a2f0c45026800c85f50d4cb58f807a2945ba692941a.zip",
+  "zipSha256": "2bca8255ca4c6dfe959a3a2f0c45026800c85f50d4cb58f807a2945ba692941a",
+  "zipBytes": 33354,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "d0651ad0fd4e87b84fbda7fdad2317228d8c0cf0c9a56d3b97d9a474ee1f34de",
+  "fetchedAt": "2026-11-18T10:47:47.780Z",
+  "credentialScan": {
+    "textFilesScanned": 14,
+    "filesRedacted": 0
+  },
+  "note": null
+}

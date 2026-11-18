@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1DeXnfsK",
+  "name": "github-rust-mcp-server-generator",
+  "displayName": "Rust生成",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "github",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/github-rust-mcp-server-generator/latest/github-rust-mcp-server-generator.zip",
+  "zipSha256": "47ad401acf1d09428ee02408ded0ea0d25564385bbdee7675fd6f14077680e1d",
+  "zipBytes": 4056,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "df7d2b7ac706ea20613499bb1cfa8cdbc62e1458caada7a330b87d06eba0bb38",
+  "fetchedAt": "2026-11-18T10:35:14.973Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

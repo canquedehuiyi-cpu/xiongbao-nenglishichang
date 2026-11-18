@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_16QzAWya",
+  "name": "xhs-research",
+  "displayName": "小红书调研工具",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/xhs-research/latest/xhs-research.zip",
+  "zipSha256": "2685bea886d0a59dbfd64d048801c25f4573566d7c6d4d92f07a8e17899bd588",
+  "zipBytes": 37298,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "abcc595ff1786f8ae44859707af0d5dcf415e1b0c2f89a15eba45a953e302689",
+  "fetchedAt": "2026-11-18T10:39:08.303Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

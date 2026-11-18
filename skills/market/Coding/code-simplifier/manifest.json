@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_180JmBZt",
+  "name": "code-simplifier",
+  "displayName": "代码简化器",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-simplifier/latest/code-simplifier.zip",
+  "zipSha256": "bd831652e47b634a3d78145ae95271c83df60d8bec954579aafc1435395fc514",
+  "zipBytes": 1750,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "566628ccdc42e979736caa501a22aa75ac01b5bf258961a779257dea17c23a21",
+  "fetchedAt": "2026-11-18T10:34:35.486Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

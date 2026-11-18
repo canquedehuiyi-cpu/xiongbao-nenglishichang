@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6qCxcU7J",
+  "name": "persistent-code-terminal",
+  "displayName": "持久化编码终端",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "justinzhq",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/persistent-code-terminal/latest/persistent-code-terminal.zip",
+  "zipSha256": "30e0648cdc78a67a7ae9b32e445c05a800ee3fae4aef9258f83896ae88b1122b",
+  "zipBytes": 30017,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 24,
+  "treeSha256": "dbb36167bdd4845dbb58b8deb98d85077b44e41d9ea122b392cf0fc1802a1a16",
+  "fetchedAt": "2026-11-18T10:38:07.793Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

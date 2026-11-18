@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_i5qj23mw",
+  "name": "notion-enhanced",
+  "displayName": "Notion 增强",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "gginesta",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/notion-enhanced/latest/notion-enhanced.zip",
+  "zipSha256": "9c97ee8394e22411ad99a0308aa8d086193aeedfb09a2f00095e43a1b65ab5a7",
+  "zipBytes": 2226,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8ab6d60613bcd633e3b9bf21ad8f3f7551612d6ffe3c3247b30d7194d154f919",
+  "fetchedAt": "2026-11-18T10:37:56.398Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

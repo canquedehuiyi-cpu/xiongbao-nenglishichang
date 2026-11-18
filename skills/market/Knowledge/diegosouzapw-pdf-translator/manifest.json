@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_r6GdcwvE",
+  "name": "diegosouzapw-pdf-translator",
+  "displayName": "研究翻译",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Haze Lee",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-pdf-translator/latest/diegosouzapw-pdf-translator.zip",
+  "zipSha256": "b8fcca90b062d9a1cfdfb1ab987f7f810f0ace88bab9717f0d8f41a7912c3d0a",
+  "zipBytes": 6823,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2a8944eee0f370e950be0e8b6337460e3deb3cc3f0591f4f76bb0f823fbda5da",
+  "fetchedAt": "2026-11-18T10:39:04.291Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

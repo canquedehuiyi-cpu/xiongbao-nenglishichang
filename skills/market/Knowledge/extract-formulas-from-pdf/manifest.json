@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6xqVDuo4",
+  "name": "extract-formulas-from-pdf",
+  "displayName": "从 PDF 提取公式",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/extract-formulas-from-pdf/latest/extract-formulas-from-pdf.zip",
+  "zipSha256": "7dacd74c64378ddd08281ee2a450510e1d277e93177d77ad3ec1d8c8e3afdc7a",
+  "zipBytes": 1907,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "bcbb4e04fe6e25ad1467e3fe5c8adda43eb89fccdbb8958a217cb458f3a300a2",
+  "fetchedAt": "2026-11-18T10:39:06.900Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

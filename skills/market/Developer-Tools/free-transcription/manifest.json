@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Zzeokz1P",
+  "name": "free-transcription",
+  "displayName": "免费音频转录",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "xiaoyinqu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/free-transcription/latest/free-transcription.zip",
+  "zipSha256": "9e38f668c9b1ed711e775d8151f874fad6caf9d4b772d57a1e9129cf5061de50",
+  "zipBytes": 1225,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0e9a743b26eb66aaf2a34ea36f6ec6b77124186f55b1472414ea2b8b55f130ea",
+  "fetchedAt": "2026-11-18T10:37:33.097Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

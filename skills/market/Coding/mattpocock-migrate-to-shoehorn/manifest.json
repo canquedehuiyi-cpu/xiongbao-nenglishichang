@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_uODXe6jt",
+  "name": "mattpocock-migrate-to-shoehorn",
+  "displayName": "Migrate处理",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mattpocock",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mattpocock-migrate-to-shoehorn/latest/mattpocock-migrate-to-shoehorn.zip",
+  "zipSha256": "33382119547c5e3606ba45c7137d18c3cef9adef22bae2e9ac3b7fdfe14c209f",
+  "zipBytes": 1264,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "5d323340f487ba4114fa5396aba52f759fc3cc605170d67e926df15c9e4fc8ae",
+  "fetchedAt": "2026-11-18T10:34:55.282Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

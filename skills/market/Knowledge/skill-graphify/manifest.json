@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_S7XRlFSg",
+  "name": "skill-graphify",
+  "displayName": "技能图谱化",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/skill-graphify/latest/skill-graphify.zip",
+  "zipSha256": "bc42ff1f634b7fc7f05ceb8e919fc71fa4e72c3116a91beb8c3fd7af77c65c96",
+  "zipBytes": 6210,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "19c28a285b015d64d1d183867316f44b078f0cd563c4edc5973229d399a38316",
+  "fetchedAt": "2026-11-18T10:39:22.468Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

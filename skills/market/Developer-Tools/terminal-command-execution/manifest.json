@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7kiJ2O60",
+  "name": "terminal-command-execution",
+  "displayName": "终端命令执行",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "big-fox",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/terminal-command-execution/latest/terminal-command-execution.zip",
+  "zipSha256": "463d3486c9538c642e486d097cd7293f106983868d900910645da143f0ad3e87",
+  "zipBytes": 2225,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "25fc1070bfc064ff88042467af01659bd84072273bc544d9747f89239ccf9acc",
+  "fetchedAt": "2026-11-18T10:37:42.145Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_J7iKnWE4",
+  "name": "animation-shader",
+  "displayName": "动画风格着色器技能",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "yuki001",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/animation-shader/latest/animation-shader.zip",
+  "zipSha256": "ab0c91aed3ec5231f3dc2b38c873408c1d8d9713c5b86e8ed42b28897aa4f6d7",
+  "zipBytes": 101232,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 48,
+  "treeSha256": "f3a6c6f52191d679a1b7a89c549c963c4cad991bce48da1cb08f48e44e93a7ed",
+  "fetchedAt": "2026-11-18T10:34:45.457Z",
+  "credentialScan": {
+    "textFilesScanned": 48,
+    "filesRedacted": 0
+  },
+  "note": null
+}

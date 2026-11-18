@@ -1,0 +1,7 @@
+{
+  "name": "开源项目评分器",
+  "version": "1.0.0",
+  "description": "Search, score, and track GitHub open source projects based on user-defined preferences",
+  "tags": ["github", "open-source", "project-rating", "code-search"],
+  "author": "agent_created"
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rgGPKGAg",
+  "name": "short-play-writer",
+  "displayName": "短剧剧本创作大师",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "kenz1117",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a1e4ad-e825-7a9a-a491-1f86dc6e9170/2ec2469b1bba626b74336b8b5f2c87aa731c2f330ee99b194a8941b41c07009f.zip",
+  "zipSha256": "2ec2469b1bba626b74336b8b5f2c87aa731c2f330ee99b194a8941b41c07009f",
+  "zipBytes": 32987,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "e289b02530e45f85ed852ec17e29f8fc5fcbb720c142f0edb120bf82bda4893f",
+  "fetchedAt": "2026-11-18T10:47:50.549Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

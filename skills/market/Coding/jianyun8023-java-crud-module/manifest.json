@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_yGyduTpi",
+  "name": "jianyun8023-java-crud-module",
+  "displayName": "CRUD模块脚手架",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jianyun8023",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jianyun8023-java-crud-module/latest/jianyun8023-java-crud-module.zip",
+  "zipSha256": "f5f41d53005857445ccafa7d4f6f21a9811a6a33197c8f2f7a8006298bf924fd",
+  "zipBytes": 6627,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "671c9cda75c63683caefe437fc7d5e0427cc7d5cb2ba370210a6f4963025930b",
+  "fetchedAt": "2026-11-18T10:35:15.971Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

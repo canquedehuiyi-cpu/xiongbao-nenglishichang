@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official17225023",
+  "name": "market-research-reports",
+  "displayName": "市场研究报告",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "K-Dense-AI",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/market-research-reports/latest/market-research-reports.zip",
+  "zipSha256": "2518edf20f50eecba419ce49eda89b18730f229910b87ba3ba095641f7533f50",
+  "zipBytes": 9669,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "e09d509592ec46e516d2286bb794a4fac42ea8e3075a90bd4af8b01915b094a8",
+  "fetchedAt": "2026-11-18T10:39:00.979Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

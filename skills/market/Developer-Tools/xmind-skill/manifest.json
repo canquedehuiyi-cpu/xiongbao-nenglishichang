@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_O0iAvN9K",
+  "name": "xmind-skill",
+  "displayName": "XMind思维导图生成与读取",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bangyizhang",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/xmind-skill/latest/xmind-skill.zip",
+  "zipSha256": "68051d5e2c64b33fa8c7cee4e5e0d9b319223d86840c222d95b79f363a0974ea",
+  "zipBytes": 2935,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "ad5a3a2210564942792feb352237c370e5fd08cb7111c96c447ced6d83ebd9ec",
+  "fetchedAt": "2026-11-18T10:37:18.290Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

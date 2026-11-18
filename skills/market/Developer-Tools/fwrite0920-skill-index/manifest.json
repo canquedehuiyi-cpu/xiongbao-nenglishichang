@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vBxhT98Z",
+  "name": "fwrite0920-skill-index",
+  "displayName": "安卓Index",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "fwrite0920",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/fwrite0920-skill-index/latest/fwrite0920-skill-index.zip",
+  "zipSha256": "9997f470241475cf12ffd456b659b8321aa8d957f8b23fc99949f9d4bb1c8db0",
+  "zipBytes": 5234,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ac3e6698646f1ba6c9648ae2fe53a0014dd98b79490437348c55f19b0313f0fd",
+  "fetchedAt": "2026-11-18T10:37:45.852Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

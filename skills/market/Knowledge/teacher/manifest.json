@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Rsad1vam",
+  "name": "teacher",
+  "displayName": "教学专家",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivangdavila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/teacher/latest/teacher.zip",
+  "zipSha256": "24ba12cb90d1a2e0522a86e22d6dd59c07783f65818d4c7ab6b9de2e683e7bf5",
+  "zipBytes": 2464,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0195243e41530d6ff5f68a09ab3056d5160513e6064de3094b188da99bac8d37",
+  "fetchedAt": "2026-11-18T10:39:33.503Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

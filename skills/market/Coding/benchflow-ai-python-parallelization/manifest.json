@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7yhb0QvH",
+  "name": "benchflow-ai-python-parallelization",
+  "displayName": "金融Python开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "benchflow-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/benchflow-ai-python-parallelization/latest/benchflow-ai-python-parallelization.zip",
+  "zipSha256": "e42b2bce7bedea650938ce80d471c740a9ea62f59fd8e0cfc80a75b3b02a53cd",
+  "zipBytes": 4563,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "6514fc96bf3ce94375d1291f544747d81183e7c60cab0195a274f4625278f004",
+  "fetchedAt": "2026-11-18T10:34:56.660Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

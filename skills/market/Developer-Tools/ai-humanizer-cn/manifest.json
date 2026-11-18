@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KjS1Zl4r",
+  "name": "ai-humanizer-cn",
+  "displayName": "中文 AI 文本优化",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ai-humanizer-cn/latest/ai-humanizer-cn.zip",
+  "zipSha256": "433463d6b1b4a17794670a14a92ded44b19f141c1d453aa253556c5096f7c823",
+  "zipBytes": 34784,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 17,
+  "treeSha256": "6e47353a9992967dd4f8989b63119c7b2fec9f7a3b70895028dabb4c5055761a",
+  "fetchedAt": "2026-11-18T10:37:18.768Z",
+  "credentialScan": {
+    "textFilesScanned": 17,
+    "filesRedacted": 0
+  },
+  "note": null
+}

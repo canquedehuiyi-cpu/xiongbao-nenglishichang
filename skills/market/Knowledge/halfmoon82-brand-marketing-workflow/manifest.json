@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZcVf7MHQ",
+  "name": "halfmoon82-brand-marketing-workflow",
+  "displayName": "品牌营销工作流",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/halfmoon82-brand-marketing-workflow/latest/halfmoon82-brand-marketing-workflow.zip",
+  "zipSha256": "21531a7b4790ea7dbd0d021d447b20d9e9439c5f5398a71140438ace81674f7e",
+  "zipBytes": 70640,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 44,
+  "treeSha256": "c6de5cdc74e8e9852787099e29907a88dbc162f7845722c618838bc8ac457eec",
+  "fetchedAt": "2026-11-18T10:39:25.441Z",
+  "credentialScan": {
+    "textFilesScanned": 44,
+    "filesRedacted": 0
+  },
+  "note": null
+}

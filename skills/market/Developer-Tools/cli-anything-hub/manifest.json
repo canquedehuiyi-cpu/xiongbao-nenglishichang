@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "f3c94bd8-dbfb-4ae4-b722-09cbb7dd041e",
+  "name": "cli-anything-hub",
+  "displayName": "Agent CLI 发现中心",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd83-08d7-7be2-85fb-6180071dffb2/905c26c1_cli-anything-hub.zip",
+  "zipSha256": "72b3c5c3d92b0deaa26e02d8c2df49d177578b9ac285f0d40035adf1a92be3b6",
+  "zipBytes": 2453,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "0a146908c09a0194ffa1ac2c2bf2238d7109a9b131a00e8e8ce099a4b8feed30",
+  "fetchedAt": "2026-11-18T10:37:54.194Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

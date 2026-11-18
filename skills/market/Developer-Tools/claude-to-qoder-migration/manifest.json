@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7luD8FJ5",
+  "name": "claude-to-qoder-migration",
+  "displayName": "ClaudeCode迁移工具",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Qoder",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/claude-to-qoder-migration/latest/claude-to-qoder-migration.zip",
+  "zipSha256": "d9b72236363c40a4bd545bdaaf97c94d840c0a525c9041928645c62f7124b062",
+  "zipBytes": 19713,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "b9fa5997c72a16f3a2699095800511f4734cde6b2f5ec5d257432e73396189f9",
+  "fetchedAt": "2026-11-18T10:37:42.851Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

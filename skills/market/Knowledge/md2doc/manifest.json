@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2FknzLNd",
+  "name": "md2doc",
+  "displayName": "Markdown 文档转换器",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/md2doc/latest/md2doc.zip",
+  "zipSha256": "8f7da8a3d8aafcdc90746867e3360a5331c6d04965dea76cf8e7566eb7b8454c",
+  "zipBytes": 20564,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "b6d8cd83e994e75824474ef6e44b92c32f32fc32ecc5bd4af4c6e6ccb83f20e1",
+  "fetchedAt": "2026-11-18T10:39:10.857Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

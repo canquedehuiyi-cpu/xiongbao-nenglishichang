@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HAcbgCXd",
+  "name": "research-paper-writing",
+  "displayName": "研究论文写作",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "NousResearch",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/research-paper-writing/latest/research-paper-writing.zip",
+  "zipSha256": "0761403d9adf7f6b1e1e4959fe1269af9e354aa94b1c323d7e3a7b1e74c4dece",
+  "zipBytes": 39318,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "b47ac37286b649175970a369ef525769754cde8dbd80f52470952a58a77099cd",
+  "fetchedAt": "2026-11-18T10:39:38.036Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

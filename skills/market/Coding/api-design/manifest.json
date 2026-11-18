@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "22176332-b8e0-46b1-b356-b00caff281b5",
+  "name": "api-design",
+  "displayName": "API 设计规范",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f7de8-b462-7258-b8d4-e3b36e8826fe",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ec14-5ad3-74fd-b6bd-c9e79af07df9/0aa2b6c0_api-design.zip",
+  "zipSha256": "18d02e27dc0c24c6a6f4c3c09748826cb9fa3bba401677f32c824979481d9278",
+  "zipBytes": 2260,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ad57bb06887c74bc75f18cbf618e0381fe565627376d6e521f0d5d90ab4bd94c",
+  "fetchedAt": "2026-11-18T10:34:51.564Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

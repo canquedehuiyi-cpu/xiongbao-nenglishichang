@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vjrsyxbH",
+  "name": "rust-rebuilder",
+  "displayName": "Rust 项目增量重构助手",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dandandujie",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/rust-rebuilder/latest/rust-rebuilder.zip",
+  "zipSha256": "b10e4c7bc59976afe356db248f3b677421766ce7828ce86d383a06c708900b6f",
+  "zipBytes": 14269,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "4ca8360f07f876c5543fd95936c78a088ac974e536f201e8eb76cc0e678a6b44",
+  "fetchedAt": "2026-11-18T10:35:12.483Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_CPagMFt7",
+  "name": "julianobarbosa-python-resilience-skill",
+  "displayName": "Python韧性开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "julianobarbosa",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/julianobarbosa-python-resilience-skill/latest/julianobarbosa-python-resilience-skill.zip",
+  "zipSha256": "0a8c2ca5c25f743ebec069278f88fb27f55472ea3ac65fe1f74f3cb18d6493be",
+  "zipBytes": 3743,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8ae6a23a8dff3e59585ab917e720adfea216a2b538cae3573db548c119f5cc9c",
+  "fetchedAt": "2026-11-18T10:35:14.416Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

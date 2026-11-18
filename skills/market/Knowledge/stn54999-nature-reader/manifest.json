@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SAra4YF5",
+  "name": "stn54999-nature-reader",
+  "displayName": "Nature开发",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Yuan1z0825",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/stn54999-nature-reader/latest/stn54999-nature-reader.zip",
+  "zipSha256": "39f85d2a86c04f9aca31f7aa9ea416337b1241eb6e5d9c697852aa9bd5f383b8",
+  "zipBytes": 9701,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "d18fce0c3be467780117fdac98fee4209a4e06822899acb3e1122d144179cb88",
+  "fetchedAt": "2026-11-18T10:39:21.670Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

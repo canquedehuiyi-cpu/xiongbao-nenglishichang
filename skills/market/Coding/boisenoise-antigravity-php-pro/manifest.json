@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_M9omgU5N",
+  "name": "boisenoise-antigravity-php-pro",
+  "displayName": "代码PHP",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-php-pro/latest/boisenoise-antigravity-php-pro.zip",
+  "zipSha256": "9935ab47b7e3f5a78dc08d976105f63fb3a0733aa8d6e9b49190309e22a0622b",
+  "zipBytes": 1644,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "f616ba8465f82456c0ccecfb641816637ee257a6a9614ca0f7069838c80fa8cf",
+  "fetchedAt": "2026-11-18T10:34:42.086Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YBcTJzuc",
+  "name": "consumer-research",
+  "displayName": "消费者调研",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/consumer-research/latest/consumer-research.zip",
+  "zipSha256": "45d6fcb5b8d158531b99199b8ee130d31684bb7d5b224103ba40a4c8f31847ea",
+  "zipBytes": 7368,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "d22f8efcd51baed679a982324ef2e8ceed28ac82ef3427923f059672368e8b66",
+  "fetchedAt": "2026-11-18T10:39:38.223Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

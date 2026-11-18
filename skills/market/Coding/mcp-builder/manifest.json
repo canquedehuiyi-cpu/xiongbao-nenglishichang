@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "084a50ef-3765-4fb2-9fbf-46373e3277a5",
+  "name": "mcp-builder",
+  "displayName": "MCP 服务构建",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd9f-1cce-7c35-9d66-55ae932d7a9b/37802b56_mcp-builder.zip",
+  "zipSha256": "fbbc06126b8ce0e4fb76a4fd5737bb0be5b9797a60d9c7d0864117570bbb0535",
+  "zipBytes": 38806,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "8c090936d9aaf25681b8773bda38682a46f73f0b7d97fc167a3f607197f4875d",
+  "fetchedAt": "2026-11-18T10:34:40.372Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

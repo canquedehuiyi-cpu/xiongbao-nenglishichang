@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GLV5z1eP",
+  "name": "jamie-bitflight-bash-53-features",
+  "displayName": "Bash功能",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jamie-bitflight",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jamie-bitflight-bash-53-features/latest/jamie-bitflight-bash-53-features.zip",
+  "zipSha256": "8efd8beba1f1c0259ea41482ec0db0755dd62d79be5365df9570d9efdfe29cfa",
+  "zipBytes": 5404,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "185e8f5cd916b73957a6fd8d7389b467877ed27bf5e0d469bc98d41de61a9d49",
+  "fetchedAt": "2026-11-18T10:35:10.403Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

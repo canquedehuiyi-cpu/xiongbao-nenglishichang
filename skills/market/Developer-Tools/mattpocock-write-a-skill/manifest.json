@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_afvwEcnl",
+  "name": "mattpocock-write-a-skill",
+  "displayName": "Write代理开发",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mattpocock",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mattpocock-write-a-skill/latest/mattpocock-write-a-skill.zip",
+  "zipSha256": "3b20e8659d13cb1d513d0ba2ec850aad9692e0503606ee8a8ff33b5f739ef2d7",
+  "zipBytes": 1629,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "f1605751c4c334935805db0084e8c158a9896af2c1781154ab64636f46140ebe",
+  "fetchedAt": "2026-11-18T10:37:28.940Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

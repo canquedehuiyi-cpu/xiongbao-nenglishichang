@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SKoTsYOq",
+  "name": "extension-dev-skill",
+  "displayName": "嘉立创 EDA 插件构建器",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/extension-dev-skill/latest/extension-dev-skill.zip",
+  "zipSha256": "d5566b335e505f8334b650a9805f72cd76a29c084d37d56f35adda940753068b",
+  "zipBytes": 13875,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "089c8ede3d4b41b26d6fa6896ea8e9f09b1c4dbef65f29692464666523612d71",
+  "fetchedAt": "2026-11-18T10:34:49.672Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

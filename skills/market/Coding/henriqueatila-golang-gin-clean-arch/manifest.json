@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_hR5A5mfu",
+  "name": "henriqueatila-golang-gin-clean-arch",
+  "displayName": "Golang清理",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "henriqueatila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/henriqueatila-golang-gin-clean-arch/latest/henriqueatila-golang-gin-clean-arch.zip",
+  "zipSha256": "041e0ad0e36e49b6964a07c6cfe52c5115890d3fdf466b91a0905921f83a15e0",
+  "zipBytes": 38154,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "c1715c4160e9b541773e8e0ccf1f6ef3233956686299054c363adcf0ae0e2fb9",
+  "fetchedAt": "2026-11-18T10:34:57.207Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

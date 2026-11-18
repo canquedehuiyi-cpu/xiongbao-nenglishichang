@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "1674a8c3-d6ac-420e-8ef6-c572675d0b26",
+  "name": "git-standards",
+  "displayName": "Git 工作规范",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f7de8-b462-7258-b8d4-e3b36e8826fe",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ec14-5afa-7bcd-b8f2-c073564cf5ca/2c99e85c_git-standards.zip",
+  "zipSha256": "bdfca66c8e2377d13b93c42c5e2d4fc9e65c90aca22aa67a731b03797f5ba290",
+  "zipBytes": 2527,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6b7b7942b8eab243b21167c27e980c0d633f69ba92de6043503abca78dc62d71",
+  "fetchedAt": "2026-11-18T10:34:47.317Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

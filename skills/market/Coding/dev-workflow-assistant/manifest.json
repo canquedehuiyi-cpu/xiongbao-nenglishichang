@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "9fac6425-9915-4ad2-b677-fa21a976db85",
+  "name": "dev-workflow-assistant",
+  "displayName": "开发流程助手",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019ef8bc-9c13-74ba-b4b3-67a5832adb2a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f5ab0-2a62-7ca7-80b8-0f363fcadf14/4c653f12_dev-workflow-assistant.zip",
+  "zipSha256": "3403bff2effaf6d8b4a21b1036f42eb7b1457cf361de0b1c77b473639b19b31e",
+  "zipBytes": 10422,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8c7df51cd95455e02e74c899f9e4054df008a44e6a411098506b8bc0ec60048c",
+  "fetchedAt": "2026-11-18T10:34:36.550Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

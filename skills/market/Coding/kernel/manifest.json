@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_yDoF7psQ",
+  "name": "kernel",
+  "displayName": "Linux内核编程陷阱与最佳实践",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivangdavila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kernel/latest/kernel.zip",
+  "zipSha256": "86d0acf108a8ee7eca322bc892459d249a51fd291ef5532c902e5e8348702b8c",
+  "zipBytes": 1603,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "fcd29291e488ca08b9fdbaae8996f898c1a7bf276ddc12da225879f426b22ec6",
+  "fetchedAt": "2026-11-18T10:34:54.442Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

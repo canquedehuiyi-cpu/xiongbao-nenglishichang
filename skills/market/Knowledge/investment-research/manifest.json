@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "b7f36aa5-f1e7-43ac-99a6-b49fd80038b5",
+  "name": "investment-research",
+  "displayName": "投资研究skill",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f3cad-b691-7cdb-84d7-f5bbf13a33cd",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f59a2-51a2-7ba9-b3a2-5628c7fe84d8/e8505d91_investment-research.zip",
+  "zipSha256": "30f19bc621579ee4daeb5fad08d6b921b1874bd80cbf012755a25615c22e61d5",
+  "zipBytes": 9031,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "012825db34e9f85d9ce56ff9d0f48909336de096c72697bf7471de8acf5267cb",
+  "fetchedAt": "2026-11-18T10:39:12.457Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

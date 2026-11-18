@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rtG4bqki",
+  "name": "literature-search-skill",
+  "displayName": "学术文献搜索",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/literature-search-skill/latest/literature-search-skill.zip",
+  "zipSha256": "83bae1f0fd4143ec39abf90bf27fdca7a105a7c94cffa4aa2c2dc5cdd22a9030",
+  "zipBytes": 1825,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "7dd706e9fc915d8d385427564a4f6e23a2fda65685f2fe7118dd893e46b88eee",
+  "fetchedAt": "2026-11-18T10:39:24.192Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

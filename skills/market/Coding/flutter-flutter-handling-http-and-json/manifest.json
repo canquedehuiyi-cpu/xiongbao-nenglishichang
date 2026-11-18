@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8Za6DvrP",
+  "name": "flutter-flutter-handling-http-and-json",
+  "displayName": "HTTP开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "flutter",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/flutter-flutter-handling-http-and-json/latest/flutter-flutter-handling-http-and-json.zip",
+  "zipSha256": "aea33f9d13f7e5155a47382e415cff4bbc08e72ae2914d3c31ca64b66fd73687",
+  "zipBytes": 2899,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "edce66f8cf48e010cb58d71c3a2153868fab5c26134a3728338b626dcf6f2c7e",
+  "fetchedAt": "2026-11-18T10:35:00.199Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

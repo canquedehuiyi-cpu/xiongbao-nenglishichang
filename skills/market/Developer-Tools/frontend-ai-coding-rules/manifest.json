@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "21b508b1-c8f5-42b7-abec-5fd32ba2077c",
+  "name": "frontend-ai-coding-rules",
+  "displayName": "前端 AI 编码规则生成器",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a01270-db99-7883-a1f2-8ceb1bb9f74d",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a107f7-93c6-7207-a9ba-f42d81eeddce/feacada6_frontend-ai-coding-rules-skill-1.0.0.zip",
+  "zipSha256": "b333b25c6eaa0b3e08508b95061525f3d183ea48e458bfe3cc814a417eaa2d8d",
+  "zipBytes": 28832,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "277936fb585dfca8cadc330f9dd087f86f613f6f2cdce98a7955af80e9a86d29",
+  "fetchedAt": "2026-11-18T10:37:38.486Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

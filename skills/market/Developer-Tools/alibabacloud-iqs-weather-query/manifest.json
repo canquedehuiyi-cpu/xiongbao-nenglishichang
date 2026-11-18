@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_xpqBmYbo",
+  "name": "alibabacloud-iqs-weather-query",
+  "displayName": "iqs未来7天天气查询",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-iqs-weather-query/latest/alibabacloud-iqs-weather-query.zip",
+  "zipSha256": "703e42205c979e04a125e963aaf2a470e3321f2094cd9775fb00108461ca6fd2",
+  "zipBytes": 11011,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d9d36513a10ab0bda6f0a35a644c075ffccca07660d0650445b0dd1d7b2d6246",
+  "fetchedAt": "2026-11-18T10:37:35.802Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

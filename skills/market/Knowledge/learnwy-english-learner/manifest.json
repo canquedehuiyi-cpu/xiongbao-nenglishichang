@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qjdJknnP",
+  "name": "learnwy-english-learner",
+  "displayName": "English构建",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "learnwy",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/learnwy-english-learner/latest/learnwy-english-learner.zip",
+  "zipSha256": "afc6dc659764edaf554f55f0b8c69e6a8b078393cf67b95b3977ea028023d9e2",
+  "zipBytes": 10493,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "d56f1fec2bda362726891dbb4681ec53ea3bef6e63a6b16adfef19b14e03d13a",
+  "fetchedAt": "2026-11-18T10:39:41.184Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

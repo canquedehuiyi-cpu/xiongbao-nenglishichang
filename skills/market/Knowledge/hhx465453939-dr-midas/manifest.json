@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_IIPxdD86",
+  "name": "hhx465453939-dr-midas",
+  "displayName": "Dr论文助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "hhx465453939",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/hhx465453939-dr-midas/latest/hhx465453939-dr-midas.zip",
+  "zipSha256": "5342a0471d2017b4c20e6737bf4451806a8f3f38a7cc0c91a8a2c2578c567c07",
+  "zipBytes": 3019,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "bd671f9a668e799dc1fb90715f1852d8a01b6436cc50044a9e7c2650cd111d10",
+  "fetchedAt": "2026-11-18T10:39:30.198Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

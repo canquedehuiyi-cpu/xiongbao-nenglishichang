@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_05eCrF7g",
+  "name": "seo-content-pro",
+  "displayName": "高级 SEO 内容创作专家",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "fly3094",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/seo-content-pro/latest/seo-content-pro.zip",
+  "zipSha256": "25306b80f7ed92c3a7b47032779041fd6fc3368310b446a66a7266c3760314ca",
+  "zipBytes": 3806,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e9d03b4f54099ac939b62c88161d9b38cff302dda5633b6ef6bc44cfa372e20a",
+  "fetchedAt": "2026-11-18T10:39:44.514Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

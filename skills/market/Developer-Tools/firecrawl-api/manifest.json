@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_jkgZ8Ko8",
+  "name": "firecrawl-api",
+  "displayName": "火爬 API",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/firecrawl-api/latest/firecrawl-api.zip",
+  "zipSha256": "a13713a7c7a07d4b65521209e58edf70a501feef51dd3892ad148225cdb8de2a",
+  "zipBytes": 1363,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "860f042b1128dfd944342204acd3823ccfb8e3e558ca1bcb1c20f78ab000b89f",
+  "fetchedAt": "2026-11-18T10:37:46.175Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

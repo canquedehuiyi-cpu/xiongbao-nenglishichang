@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ddgwr50O",
+  "name": "paper-research-assistant",
+  "displayName": "科研论文研读与复现助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "limax666",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/paper-research-assistant/latest/paper-research-assistant.zip",
+  "zipSha256": "91934ef32d1db5e409a69ee257ba9ea5df05c66066bd6ddceeb7d1d262c22592",
+  "zipBytes": 15343,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "d419daaed9ceee3448fc3614646c9a6d660b5bd92724aa2d7997eac40de26dc4",
+  "fetchedAt": "2026-11-18T10:39:10.633Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

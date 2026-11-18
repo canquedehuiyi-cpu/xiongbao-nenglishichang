@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_hWCJ3Eyc",
+  "name": "arustydev-convert-java-c",
+  "displayName": "Java转换",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aRustyDev",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/arustydev-convert-java-c/latest/arustydev-convert-java-c.zip",
+  "zipSha256": "71918cfc1ee9a3312a87c00c6a05dfc9106693cd31adbda654eea749d623526b",
+  "zipBytes": 10770,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "fd885a0a767c39c0b41bfb56597087c26eb4885b8c83bf30dc23c85a70be4ad2",
+  "fetchedAt": "2026-11-18T10:35:06.698Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

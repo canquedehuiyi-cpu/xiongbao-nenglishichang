@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_QXgfVlDU",
+  "name": "diegosouzapw-claude-code-task",
+  "displayName": "法律Claude分析",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-claude-code-task/latest/diegosouzapw-claude-code-task.zip",
+  "zipSha256": "f26ee26d05b4837c46181f00314fdb0dbd592ee68815a06c89777f3908aa333b",
+  "zipBytes": 9355,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9ab1a644009ec13a446dbccc77cff0df5fe2ecc5d082b1cfc2139fc1da96b2b1",
+  "fetchedAt": "2026-11-18T10:39:38.402Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

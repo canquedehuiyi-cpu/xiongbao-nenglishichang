@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_uPGp0PRH",
+  "name": "diegosouzapw-analyze-codebase",
+  "displayName": "代码库分析",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-analyze-codebase/latest/diegosouzapw-analyze-codebase.zip",
+  "zipSha256": "f60ffeb9c2f0383c62e0ef0e5c0613e27f6339a38a3e79fe76b701754996f0d9",
+  "zipBytes": 3834,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "ce78c69f13c1498e942bb434816d2870d5061d12a915379c4ae5907dd92d90d2",
+  "fetchedAt": "2026-11-18T10:39:02.942Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

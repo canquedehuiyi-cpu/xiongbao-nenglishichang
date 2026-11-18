@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RFmOljzd",
+  "name": "jcastillotx-wordpress-best-practices",
+  "displayName": "APIWP开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jcastillotx",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jcastillotx-wordpress-best-practices/latest/jcastillotx-wordpress-best-practices.zip",
+  "zipSha256": "1aaf0d3e83902689b0409e25f70926a271915f120911aef14e348cf50b4bfd7b",
+  "zipBytes": 6440,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "d0b6f83196553281ed3f460e59f8c7d65ec1bd3488732895f05fb79b94b05b90",
+  "fetchedAt": "2026-11-18T10:35:05.876Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

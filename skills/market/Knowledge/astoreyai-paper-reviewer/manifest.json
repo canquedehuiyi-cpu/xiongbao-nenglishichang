@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_20em4KWd",
+  "name": "astoreyai-paper-reviewer",
+  "displayName": "论文审查",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "astoreyai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/astoreyai-paper-reviewer/latest/astoreyai-paper-reviewer.zip",
+  "zipSha256": "d08a1a71e9bd4690f0bac87f8d53b4f060093e7a9dfcd18f6b9cd061f88b4094",
+  "zipBytes": 1669,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ff4a9a071697c70add733387eac5d0174cf8de2e92c2b26b0a4b2be09dbdee00",
+  "fetchedAt": "2026-11-18T10:39:13.040Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

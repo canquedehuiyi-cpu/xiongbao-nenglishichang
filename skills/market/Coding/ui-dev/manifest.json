@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8qIDdJqj",
+  "name": "ui-dev",
+  "displayName": "UI 开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "elirantutia",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ui-dev/latest/ui-dev.zip",
+  "zipSha256": "17efe3dc0889079b74842260206e576a94b5bb4ae2b8a452163e7397e987e311",
+  "zipBytes": 3627,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "fdfcd8ce7a2d8be8c2db30a29c76aa8d6eef2bb951168a3d472d77b78d14b26f",
+  "fetchedAt": "2026-11-18T10:34:59.482Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

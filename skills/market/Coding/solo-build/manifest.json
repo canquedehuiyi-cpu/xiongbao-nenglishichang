@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RXMB0Dpz",
+  "name": "solo-build",
+  "displayName": "构建执行技能",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "fortunto2",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/solo-build/latest/solo-build.zip",
+  "zipSha256": "8ab30148af0ba4249a194723d060a778ce8c19c11184c3981c6a09f2e8e522ab",
+  "zipBytes": 8152,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2040914f21d06c8e1da1114d25877cae6c9797338f828fddae51e62c66c0346a",
+  "fetchedAt": "2026-11-18T10:35:09.354Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

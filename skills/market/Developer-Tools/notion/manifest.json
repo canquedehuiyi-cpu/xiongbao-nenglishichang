@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_a8B8qygR",
+  "name": "notion",
+  "displayName": "Notion 知识库集成",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "atrislabs",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/notion/latest/notion.zip",
+  "zipSha256": "883b030af0c9ca8ed97e7d8b051ef46717134860f9b372276c171e2051584692",
+  "zipBytes": 3914,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c81b12651b5448a63bfff0aba2d8cc52e7e04992a40f435910aa641d2bf02a9b",
+  "fetchedAt": "2026-11-18T10:37:53.457Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

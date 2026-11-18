@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tislmeBY",
+  "name": "vercel-react-best-practices",
+  "displayName": "vercel React 最佳实践",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "vercel",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/vercel-react-best-practices/latest/vercel-react-best-practices.zip",
+  "zipSha256": "3840f6286fc483b5850aa1fd370cd177480093e8cc70dc2b901f062cbb2acc6e",
+  "zipBytes": 2689,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "02931cb92cba1ed2d1f6d6be0504d6f8e60331089414fbb4f99251efb7ba8f52",
+  "fetchedAt": "2026-11-18T10:34:52.220Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

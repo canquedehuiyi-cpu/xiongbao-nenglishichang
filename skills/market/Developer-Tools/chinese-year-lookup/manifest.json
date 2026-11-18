@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_emD6ik4Y",
+  "name": "chinese-year-lookup",
+  "displayName": "中国历史年份查询",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/chinese-year-lookup/latest/chinese-year-lookup.zip",
+  "zipSha256": "98669659114e46f9f5e889fd3988a7bed6523f608d177c344081e5a0c9463d92",
+  "zipBytes": 14937,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "73bf74f99ca9486421ac282b09d5f3010c8f86f9f32daa8d1b215d4cf23a2f9f",
+  "fetchedAt": "2026-11-18T10:38:05.096Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

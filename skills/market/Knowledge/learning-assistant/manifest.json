@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Vr8tckNL",
+  "name": "learning-assistant",
+  "displayName": "学习助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "chenchen913",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/learning-assistant/latest/learning-assistant.zip",
+  "zipSha256": "3f474438c4ed3623e3595767bce078a6581ed0029ec354c704ddc581c91ab64b",
+  "zipBytes": 20407,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "58a9e6b976a9c7cebc1e45cdb7f9d882ed25366dacaa45c66ceafaa118898d72",
+  "fetchedAt": "2026-11-18T10:39:46.831Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

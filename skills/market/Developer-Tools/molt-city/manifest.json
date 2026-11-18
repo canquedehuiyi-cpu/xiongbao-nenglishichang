@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qQvtaK9N",
+  "name": "molt-city",
+  "displayName": "MoltCity：AI代理领土控制游戏",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "gonzih",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/molt-city/latest/molt-city.zip",
+  "zipSha256": "26a6611f2245e8ad7eadb01ebdfb4b5c014d6f37441265702b6d169df717fa1c",
+  "zipBytes": 2432,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "cd05671fc54456625ca183c928ad3d3dfe8a43afbd49c072c31919f9dc622ee0",
+  "fetchedAt": "2026-11-18T10:37:59.503Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

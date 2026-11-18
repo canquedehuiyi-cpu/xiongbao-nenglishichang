@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1T5eReRM",
+  "name": "research-ts-decisions",
+  "displayName": "研究 ts 决策",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mattpocock",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/research-ts-decisions/latest/research-ts-decisions.zip",
+  "zipSha256": "de447c9f62cd9e778de7454d404da59dc06bf5ba145be07f83c24b57429295ad",
+  "zipBytes": 2116,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4399af1ee718489d64ccf5191b34b04245b31e1f3e03e908e32a223f82b77e3c",
+  "fetchedAt": "2026-11-18T10:39:48.694Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

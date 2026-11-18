@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7xLGj28D",
+  "name": "presentations",
+  "displayName": "演示文稿",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jkitchin",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/presentations/latest/presentations.zip",
+  "zipSha256": "e2e0d3df5a56fe706904624ed72f5bd912934d09c78c47ec38a46750aa8f935d",
+  "zipBytes": 8996,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a14e5976a7ff952590d2145f413e5e90a16811c73393d8e5a1a33b9d7c459f14",
+  "fetchedAt": "2026-11-18T10:35:14.838Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

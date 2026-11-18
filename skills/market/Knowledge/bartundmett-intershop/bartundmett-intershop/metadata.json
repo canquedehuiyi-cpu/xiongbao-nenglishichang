@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "organization": "Benedikt Grimm",
+  "date": "January 2026",
+  "abstract": "Comprehensive best practices guide for Intershop Commerce Management (ICM) backend development, designed for AI agents and LLMs. Contains 50+ rules across 8 categories, prioritized by impact from critical (customization patterns, performance optimization, B2B features) to incremental (advanced patterns). Each rule includes detailed explanations, real-world examples comparing incorrect vs. correct implementations, and specific impact metrics to guide automated refactoring and code generation.",
+  "references": [
+    "https://knowledge.intershop.com",
+    "https://support.intershop.com",
+    "https://github.com/intershop/intershop-pwa",
+    "https://www.intershop.com/en/e-commerce-platform"
+  ]
+}

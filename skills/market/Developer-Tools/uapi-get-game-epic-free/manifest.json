@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_pWu7FcZz",
+  "name": "uapi-get-game-epic-free",
+  "displayName": "UAPI Epic 免费游戏接口",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "shuakami",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/uapi-get-game-epic-free/latest/uapi-get-game-epic-free.zip",
+  "zipSha256": "91a3467b3bf073ac474a903688af02ff8bdcdc807ee1ac0f39d5dab5a8fa2273",
+  "zipBytes": 6613,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "394460eace9bf0f0c37f6aba5794a87479c36800377f0a5331947d33f9db59b4",
+  "fetchedAt": "2026-11-18T10:38:11.287Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

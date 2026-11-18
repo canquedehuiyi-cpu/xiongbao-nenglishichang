@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_QvQfBsYo",
+  "name": "rich",
+  "displayName": "富文本终端美化",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/rich/latest/rich.zip",
+  "zipSha256": "010aa5be20ffb8ff875b678799ce46ec7373485e48affe984dd0591ac29b7d38",
+  "zipBytes": 18517,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "53966cfc4f8bd993dbe20f0b6dbd9a81b6c02fc766829db377e157156f2ed049",
+  "fetchedAt": "2026-11-18T10:35:11.020Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

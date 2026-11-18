@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Z0l5hKG6",
+  "name": "pdf-to-latex",
+  "displayName": "PDF 转 LaTeX",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/pdf-to-latex/latest/pdf-to-latex.zip",
+  "zipSha256": "f7eaca0ac68e73ba711c327cd9e12e1e5b9b07a07a97787a3bd3dc69bec57048",
+  "zipBytes": 1962,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "022d78eb7dee21f78263ff8fe5c983d34a79e1e0a5a4559097727cc76be4f702",
+  "fetchedAt": "2026-11-18T10:39:34.368Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

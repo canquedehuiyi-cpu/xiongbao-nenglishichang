@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_36NCVbJu",
+  "name": "aiskillstore-component-refactoring",
+  "displayName": "React代码重构",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-component-refactoring/latest/aiskillstore-component-refactoring.zip",
+  "zipSha256": "828f7f4c42ff5bc68658c29d2fe30b7d9010e99b13c308865049d4bc5ece8d50",
+  "zipBytes": 19909,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "7120dee03eb2ba3bd826c0d7cf5833002cf7ce1a4ed48a87455d85480392757f",
+  "fetchedAt": "2026-11-18T10:34:36.400Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

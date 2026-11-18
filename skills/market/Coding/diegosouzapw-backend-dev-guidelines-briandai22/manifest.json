@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2opglKvZ",
+  "name": "diegosouzapw-backend-dev-guidelines-briandai22",
+  "displayName": "Express开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-backend-dev-guidelines-briandai22/latest/diegosouzapw-backend-dev-guidelines-briandai22.zip",
+  "zipSha256": "98e15eb43961f69eec9b3977cdbb626f5dbb5cd77296f77d9adb8b6295a0cc0c",
+  "zipBytes": 4208,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f83366c2c890a0e3e8945026a76877003057ab09a4b94f3f6ccd5bf00ec242e9",
+  "fetchedAt": "2026-11-18T10:35:12.786Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

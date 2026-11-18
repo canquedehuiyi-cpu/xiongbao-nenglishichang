@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5vCOMiJ8",
+  "name": "boisenoise-antigravity-arm-cortex-expert",
+  "displayName": "Cortex开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-arm-cortex-expert/latest/boisenoise-antigravity-arm-cortex-expert.zip",
+  "zipSha256": "80f0be98d66ea5ce4a97b732500f7f6c983ddca7ea4ecf64743268c589ea3dc6",
+  "zipBytes": 6138,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "cd40a670b7083231f6dc2d4c6524f7cdbc7380161a201f2d8819ead5028c7f00",
+  "fetchedAt": "2026-11-18T10:34:40.560Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

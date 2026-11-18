@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_xJdd23is",
+  "name": "meeting-note",
+  "displayName": "会议与谈话纪要专家",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mikonos",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/meeting-note/latest/meeting-note.zip",
+  "zipSha256": "6949f20f2e232e8da8015204e3abb8fcfd0a053e16b08361af82c8df5896074d",
+  "zipBytes": 7519,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "6c8bb56ec997193bbf718ee00546aa666047fbf409c1bf8a4f5da6aecc7d0413",
+  "fetchedAt": "2026-11-18T10:37:52.280Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

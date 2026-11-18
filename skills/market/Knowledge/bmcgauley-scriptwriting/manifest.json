@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_hbBi78OU",
+  "name": "bmcgauley-scriptwriting",
+  "displayName": "视频播客制作",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bmcgauley",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bmcgauley-scriptwriting/latest/bmcgauley-scriptwriting.zip",
+  "zipSha256": "9784d25a6783f50b340a6a20cecbeca689777624ef669de27746b3daf9796f26",
+  "zipBytes": 30635,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "d337ffe5128b054319a5b58bc9b4219c0ea0476e991228402e52fd55a0a6cc7c",
+  "fetchedAt": "2026-11-18T10:39:30.053Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

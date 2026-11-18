@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_xX5g69Ev",
+  "name": "armanzeroeight-native-module-helper",
+  "displayName": "安卓Native开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "armanzeroeight",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/armanzeroeight-native-module-helper/latest/armanzeroeight-native-module-helper.zip",
+  "zipSha256": "dfbf05327be6bc8952d0145713858273290a4294e399f6f05ca43697a77aa4f6",
+  "zipBytes": 16854,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "5512e9ebd3863575cb68c09b805d74d95194e47ae01bd99aedde79d23ccc0bf0",
+  "fetchedAt": "2026-11-18T10:35:06.120Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

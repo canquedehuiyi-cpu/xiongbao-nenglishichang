@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_imefOxY9",
+  "name": "coding-1-0-3",
+  "displayName": "编码风格记忆",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "chayjan",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/coding-1-0-3/latest/coding-1-0-3.zip",
+  "zipSha256": "53d4362a0e0d71eaa40a02890d4da77e20b915e39dbaa267a07c09b92914e9fb",
+  "zipBytes": 4975,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "0dbc8d486d871f6300e8773138fc5648c041b0f29027e6e5636d4b0da2cd66a1",
+  "fetchedAt": "2026-11-18T10:34:42.512Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

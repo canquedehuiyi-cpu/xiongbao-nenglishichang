@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_kgmrEas7",
+  "name": "diegosouzapw-ui-ux-intelligence-expert",
+  "displayName": "UI设计",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-ui-ux-intelligence-expert/latest/diegosouzapw-ui-ux-intelligence-expert.zip",
+  "zipSha256": "c3e84c381345f8d210a252bc5d49398e282f4279b471e2d9d0b21c3a7612751d",
+  "zipBytes": 3910,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5bff5b44920b2f1599f51c567deabe8d64304971e8a369f0254c2d248511c6cb",
+  "fetchedAt": "2026-11-18T10:39:01.972Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

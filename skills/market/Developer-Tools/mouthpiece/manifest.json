@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4saWP0H1",
+  "name": "mouthpiece",
+  "displayName": "职场嘴替",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mouthpiece/latest/mouthpiece.zip",
+  "zipSha256": "686c70279457a2c08236d4f6d3cea98d6b354624b4a7090eb685de8ff8881fc0",
+  "zipBytes": 15187,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "3cda844d54563c50f32a8b46045bfb844bf6608883f00b567d8fe7642166cd0b",
+  "fetchedAt": "2026-11-18T10:38:08.381Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7M6VGxFc",
+  "name": "89jobrien-golang-performance",
+  "displayName": "性能Golang",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "89jobrien",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/89jobrien-golang-performance/latest/89jobrien-golang-performance.zip",
+  "zipSha256": "9dc2a148d9638e2670d5eb30fff691beb0db91b08a684de52073c46807fe0d9c",
+  "zipBytes": 3370,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6d77a69544279ffd432b5b24970f056951a326e9296e40ddee19ae76d0953b77",
+  "fetchedAt": "2026-11-18T10:34:48.080Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

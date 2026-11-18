@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bjIxPI8b",
+  "name": "agent-browser-core",
+  "displayName": "Agent Browser 核心技能",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "codedao12",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-browser-core/latest/agent-browser-core.zip",
+  "zipSha256": "316c5ba002b3ace5df9b5e603ec4cd08b92001a4fc2f94c89f8c843f54e39309",
+  "zipBytes": 5217,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "afe919480e2be4f5a455d88510010d85a980f8a02e60184e28e619e50d511b64",
+  "fetchedAt": "2026-11-18T10:37:22.095Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

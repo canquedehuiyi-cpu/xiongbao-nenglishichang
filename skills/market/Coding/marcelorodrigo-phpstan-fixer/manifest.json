@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0ihgcoYm",
+  "name": "marcelorodrigo-phpstan-fixer",
+  "displayName": "Phpstan开发",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "marcelorodrigo",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/marcelorodrigo-phpstan-fixer/latest/marcelorodrigo-phpstan-fixer.zip",
+  "zipSha256": "373e6f169486ccf05072dc130d92499fcf0b1fd560144573467a26cda613aa06",
+  "zipBytes": 5043,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "9eb48c39d7ca9bc86c0187386257e7608f6cc00eabc0e92659fb650b9fc17f37",
+  "fetchedAt": "2026-11-18T10:35:14.251Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

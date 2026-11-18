@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Bi4QXBSc",
+  "name": "giuseppe-trisciuoglio-langchain4j-spring-boot-integration",
+  "displayName": "Spring集成",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "giuseppe-trisciuoglio",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/giuseppe-trisciuoglio-langchain4j-spring-boot-integration/latest/giuseppe-trisciuoglio-langchain4j-spring-boot-integration.zip",
+  "zipSha256": "428ec68d24b837ab53d30ef7f939ab7938e06c27beeb1a03f98bafc5f99977dc",
+  "zipBytes": 15978,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "dd784259cfec7c670ffbca5e0700f10048ac62f38d02d9360abaa5fb9a2d4eb2",
+  "fetchedAt": "2026-11-18T10:34:53.772Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

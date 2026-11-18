@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PLyArh8y",
+  "name": "nano-poster-generator",
+  "displayName": "海报生成器",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/nano-poster-generator/latest/nano-poster-generator.zip",
+  "zipSha256": "f2aafc7d84144ffdfab79533c0e8c86f96a9ab0e637b98057e6d024a149d6c80",
+  "zipBytes": 45605,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 18,
+  "treeSha256": "43f1615844451a636f5ae70a807bef325a50636ab9d48bfdb10e36f2cd18e424",
+  "fetchedAt": "2026-11-18T10:39:09.584Z",
+  "credentialScan": {
+    "textFilesScanned": 18,
+    "filesRedacted": 0
+  },
+  "note": null
+}

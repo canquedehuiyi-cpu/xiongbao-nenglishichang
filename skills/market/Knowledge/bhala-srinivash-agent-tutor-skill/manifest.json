@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_i3lF3BM1",
+  "name": "bhala-srinivash-agent-tutor-skill",
+  "displayName": "代理Tutor",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Bhala-Srinivash",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bhala-srinivash-agent-tutor-skill/latest/bhala-srinivash-agent-tutor-skill.zip",
+  "zipSha256": "48f65902b5bea686b2c23968190fbcc95c26d0718a998be42c3844dabb18276f",
+  "zipBytes": 14648,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "f9dca00d2a8ee8eb0f71bd01c872576364b431dc07a34f5a85af9b0ea3d91ba2",
+  "fetchedAt": "2026-11-18T10:39:23.042Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

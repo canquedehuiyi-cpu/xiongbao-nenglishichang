@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2AIdx8xZ",
+  "name": "academic-research-conflict",
+  "displayName": "学术研究",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "feiyang2007",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/academic-research-conflict/latest/academic-research-conflict.zip",
+  "zipSha256": "4d90a5ea5efd2054cbe487021333cc4358bca4d1e4cb9e738ba6a3ad63a8ce7c",
+  "zipBytes": 14607,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "9181d172d0d1dfd33cb9684032566524d481b295457de45b3e2ccfd36b24705b",
+  "fetchedAt": "2026-11-18T10:39:18.617Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

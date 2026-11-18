@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "7cdeb476-639a-4aa4-8d25-4469915a9035",
+  "name": "yolo-training-experiments",
+  "displayName": "YOLO 批量训练实验",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a1335b-a944-725d-91c3-ff48379c6d94",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a15716-36b5-7724-a022-97adf03fc3da/d7741bcb_yolo-training-experiments.zip",
+  "zipSha256": "0b67e62d16f08332b3c95a1c2eabc97a6c7d224e828f78eadbd893e52e98159f",
+  "zipBytes": 21439,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "cf7bf0d2be441b8cc8102413c41669f96534a9cfd956c879bacc3966590f7bb2",
+  "fetchedAt": "2026-11-18T10:35:14.585Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

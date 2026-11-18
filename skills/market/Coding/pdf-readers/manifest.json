@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "c2c42c37-70f9-4b94-81ca-1d850eba788f",
+  "name": "pdf-readers",
+  "displayName": "PDF 内容提取",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f7de8-b462-7258-b8d4-e3b36e8826fe",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ec19-a6f3-76a3-a3cd-c7f3e971005b/c0624910_pdf-reader.zip",
+  "zipSha256": "0d0c4576040804172ea1c5141c71476bfbe8fbcc2e8914977737ddd1320b93e7",
+  "zipBytes": 1353721,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "4629d691f16f68c05824dd0cc4efaa2b6e3ce5212da7adbddf1accb2c3c722f0",
+  "fetchedAt": "2026-11-18T10:34:40.830Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

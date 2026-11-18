@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Dw6dVhO6",
+  "name": "applescript",
+  "displayName": "AppleScript 自动化脚本",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivangdavila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/applescript/latest/applescript.zip",
+  "zipSha256": "59fe24a732812d420f4c5e537cd424afc3d2f050adc8fe72194d415e913be740",
+  "zipBytes": 7236,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "0c40c2cb0f1ac53ad594eecbdd63c7b53bd6d63c59833a253767c28747ea648f",
+  "fetchedAt": "2026-11-18T10:35:07.150Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_thHcgiVc",
+  "name": "trip-guide-pdf-lodging",
+  "displayName": "旅行指南住宿规划",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/trip-guide-pdf-lodging/latest/trip-guide-pdf-lodging.zip",
+  "zipSha256": "f0f3246040eb1efaea1cab46fab8a1b319bec2ef11c71939ea505c2de3c2ae2e",
+  "zipBytes": 4643,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "7a36a20d432be650718278c1ec550e597c7ed6d13591508ef2224fc00cd81cda",
+  "fetchedAt": "2026-11-18T10:39:43.373Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

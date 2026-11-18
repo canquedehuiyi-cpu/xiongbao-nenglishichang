@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_772Qm6oq",
+  "name": "next-config-gen",
+  "displayName": "Next.js 配置生成器",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lxgicstudios",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/next-config-gen/latest/next-config-gen.zip",
+  "zipSha256": "0d67ab702dae9f1993752bcfcc5cdfcc07d1bc1a91a448a5c8dca947d40c62ec",
+  "zipBytes": 12228,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "2fb04f15bbbc8081d1ec0dc7cded89077cc1f3cc516ace7cc041938e34300584",
+  "fetchedAt": "2026-11-18T10:35:00.792Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_pGHD1dIi",
+  "name": "sopaper-evidence",
+  "displayName": "Sopaper 证据：以证据为先的论文写作工作流",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "sheepxux",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/sopaper-evidence/latest/sopaper-evidence.zip",
+  "zipSha256": "3a9a7a193625df62fa39fad38d878aebd180bbc1b0e338b2b685c20b68f70ad7",
+  "zipBytes": 18313,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 18,
+  "treeSha256": "8e4e3925198f3f5d244a7b9ac5caecf2247957a81e0f1365210669ce2a63817d",
+  "fetchedAt": "2026-11-18T10:39:29.573Z",
+  "credentialScan": {
+    "textFilesScanned": 18,
+    "filesRedacted": 0
+  },
+  "note": null
+}

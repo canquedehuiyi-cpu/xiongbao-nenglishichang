@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KBQ1r2aR",
+  "name": "dotnet-expert",
+  "displayName": ".NET 专家",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jgarrison929",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dotnet-expert/latest/dotnet-expert.zip",
+  "zipSha256": "7e126e519e5421293c5361748023c4c6ab1b8ff9364b394f616f979684f97f55",
+  "zipBytes": 6210,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3f23dc36d27070acbe4e305dfd38aa802aa487c890cf8d0f597786d312a68c60",
+  "fetchedAt": "2026-11-18T10:34:34.522Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

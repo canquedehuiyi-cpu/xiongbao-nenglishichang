@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7mAtlUgL",
+  "name": "xiaozhua-academic-research",
+  "displayName": "学术文献检索",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/xiaozhua-academic-research/latest/xiaozhua-academic-research.zip",
+  "zipSha256": "0eabcaaa61b5e982319d673d0179ac0e73e1700ce00355b3694a2f622d9e52d0",
+  "zipBytes": 1369,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "291c3af558923d98d39c288f6ea7dc9ad9fb4fa6fb8df2d5a6a12f0565fd2eda",
+  "fetchedAt": "2026-11-18T10:39:07.051Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

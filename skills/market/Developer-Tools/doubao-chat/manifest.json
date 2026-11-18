@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_TcclZlqE",
+  "name": "doubao-chat",
+  "displayName": "豆包大模型对话",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bseye520",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/doubao-chat/latest/doubao-chat.zip",
+  "zipSha256": "0a0d9952ac81898ac48239f6a840796ad7c84d1b1040d7601834f09cff179ffb",
+  "zipBytes": 2011,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "a5349d8e899d16e37f48a251ef41bdf0a1f87e9c868020c18e4350725783cc11",
+  "fetchedAt": "2026-11-18T10:37:48.551Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

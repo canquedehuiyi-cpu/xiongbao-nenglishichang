@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tWgTus2G",
+  "name": "graphify-helpers",
+  "displayName": "graphify 助手",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "emrecdr",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/graphify-helpers/latest/graphify-helpers.zip",
+  "zipSha256": "1602eb6a51ae954220dbaf8f30dcf97b6768649adb33b8902740747819b3cddf",
+  "zipBytes": 4932,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "15d2f21f0f33e0da7d0830f6e7271536637e97d9d09a0a1d524e03d61961baee",
+  "fetchedAt": "2026-11-18T10:37:52.649Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

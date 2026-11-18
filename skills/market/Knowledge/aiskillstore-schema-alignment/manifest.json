@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_djHN86XN",
+  "name": "aiskillstore-schema-alignment",
+  "displayName": "SQL开发",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-schema-alignment/latest/aiskillstore-schema-alignment.zip",
+  "zipSha256": "86c3a689864d72ee4107162dfd5c385fcaa07b05772a6452390236eb29b61651",
+  "zipBytes": 14243,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "9a588c83ff7b56d7f463254a366e36bd87b07564a7d22d5dbf8163ec285edeab",
+  "fetchedAt": "2026-11-18T10:39:04.939Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

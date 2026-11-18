@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_66qamM7G",
+  "name": "4444j99-code-refactoring-patterns",
+  "displayName": "模式重构",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "organvm-iv-taxis",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/4444j99-code-refactoring-patterns/latest/4444j99-code-refactoring-patterns.zip",
+  "zipSha256": "be2953807401c935ce3f7d9550bc890f12be798b937131fd5d1fac9b7e0b83e4",
+  "zipBytes": 5216,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "310395c76fa0257989cc7ce5f84c90f58c372d2d1e6f5f29ead168405c0efe18",
+  "fetchedAt": "2026-11-18T10:34:44.502Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

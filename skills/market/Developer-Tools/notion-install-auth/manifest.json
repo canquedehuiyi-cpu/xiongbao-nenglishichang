@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cDYxi7oe",
+  "name": "notion-install-auth",
+  "displayName": "Notion 安装授权",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ZenProjectGit",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/notion-install-auth/latest/notion-install-auth.zip",
+  "zipSha256": "7d3cce5e9659bfe84712f2ff3cbc9c0dba1a6e508972226e70be9cd08a192568",
+  "zipBytes": 2217,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ba097b0ed149c04b646b7a696dffa66c7a525534683a9f5890fff55e3cc7fa9c",
+  "fetchedAt": "2026-11-18T10:37:59.213Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

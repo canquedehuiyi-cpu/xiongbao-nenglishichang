@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bLqm0zXJ",
+  "name": "mineru-document-extractor",
+  "displayName": "MinerU 文档提取器",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mineru-document-extractor/latest/mineru-document-extractor.zip",
+  "zipSha256": "490b7cc459b2240bfcad5ed95b6428a98674b80c21a8e60efe0a80eec2acee6c",
+  "zipBytes": 6062,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "93d000d31026b8a582a77dcd94e90cacf0d341ebde9fbb2e09fa8b835bdb0619",
+  "fetchedAt": "2026-11-18T10:39:19.649Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

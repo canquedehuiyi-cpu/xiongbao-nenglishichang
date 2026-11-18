@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_eFKBWu0K",
+  "name": "boomsystel-code-video-cog",
+  "displayName": "视频COG",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boomsystel-code",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boomsystel-code-video-cog/latest/boomsystel-code-video-cog.zip",
+  "zipSha256": "4377360de72aec16f2092d8e38a6ea58bf6d91fed5487a40a899f53297bd7f63",
+  "zipBytes": 3610,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "30f5df229c3087e32e553c9f1b4dcc1b5a693553a8ee72541f79f27355be2f33",
+  "fetchedAt": "2026-11-18T10:39:39.963Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

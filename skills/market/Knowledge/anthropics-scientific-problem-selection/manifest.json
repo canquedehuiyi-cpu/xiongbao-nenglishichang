@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BWTo6MLu",
+  "name": "anthropics-scientific-problem-selection",
+  "displayName": "科研分析",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "anthropics",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/anthropics-scientific-problem-selection/latest/anthropics-scientific-problem-selection.zip",
+  "zipSha256": "23e73567ff9e3c626139f6a52d1a13ed5a5e472256fd165ba640e5439e159a9a",
+  "zipBytes": 48662,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "3722512cadd4ee64ffc331ac08aa3a328de1be5abc3f1ed775879bd89d554217",
+  "fetchedAt": "2026-11-18T10:39:03.350Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

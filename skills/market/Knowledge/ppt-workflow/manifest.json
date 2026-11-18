@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_xSkLmLZU",
+  "name": "ppt-workflow",
+  "displayName": "PPT 自动化工作流技能",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "earthwalking",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ppt-workflow/latest/ppt-workflow.zip",
+  "zipSha256": "32c988f471a46e8a4d4ae645e9ef605513ca9fd0853b62589d608d1ce563529c",
+  "zipBytes": 19550,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "07b244eb3109bdef876203bad28f39a0efa3afe227b3041e934b31cb449280fb",
+  "fetchedAt": "2026-11-18T10:39:17.861Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Opc0Wlwf",
+  "name": "dashscope-llm",
+  "displayName": "阿里云 DashScope 大语言模型调用",
+  "categoryCode": "Developer Tools",
+  "categoryDir": "Developer-Tools",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dashscope-llm/latest/dashscope-llm.zip",
+  "zipSha256": "a6a39f0b29cdec6eb2221ad7abb37d24b92bcf051eeb72b8ab8f53ba14a856b8",
+  "zipBytes": 1951,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "e02b88e2a9010d5dd0b4fcaeb2ce78d56d990f168629c06eef1461ff0eccd30f",
+  "fetchedAt": "2026-11-18T10:38:08.916Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

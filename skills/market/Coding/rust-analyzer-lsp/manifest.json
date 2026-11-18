@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_J0MVgbvG",
+  "name": "rust-analyzer-lsp",
+  "displayName": "Rust 语言服务器",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bowen31337",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/rust-analyzer-lsp/latest/rust-analyzer-lsp.zip",
+  "zipSha256": "289cf90c99bf6f93b3dcaefa1c97f7b221fe855800c4a8dc0c43eed2d5088e53",
+  "zipBytes": 1548,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "37e247a5a99c166295b4a324d0d751dc90d358973f512e91510fd522e187e988",
+  "fetchedAt": "2026-11-18T10:34:56.985Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

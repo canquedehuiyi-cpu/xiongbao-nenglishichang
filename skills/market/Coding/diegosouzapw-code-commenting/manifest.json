@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FPttfeQD",
+  "name": "diegosouzapw-code-commenting",
+  "displayName": "Python代码",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-code-commenting/latest/diegosouzapw-code-commenting.zip",
+  "zipSha256": "df3854808b44425c74b742e9a3e9ec7d5e6716b609a32062575a48ad9468c9e9",
+  "zipBytes": 3251,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "ab242236e39eedb8ac84166f33b41984f359f70c3970c7b6b3c46f7c3f55e352",
+  "fetchedAt": "2026-11-18T10:34:47.175Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}
