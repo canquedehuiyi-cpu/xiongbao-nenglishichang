@@ -1,0 +1,17 @@
+{
+  "name": "verification-shop",
+  "version": "1.0.0",
+  "displayName": "插件发布前核对质检团",
+  "description": "一个发布前核对质检专家套件：以虚拟团队形态对技能包/插件做上线前核对。按目标平台各自口径（Qoder 用 Qoder 规则、WorkBuddy 用 WorkBuddy 规则，双平台都发就各自核一遍）核对结构、功能、文档、合规四个维度，只核不修，最后按严重度给出 PASS / REVIEW / BLOCKED 放行裁决。内嵌 6 个角色（经理·质检总监、主管·结构核对员、员工A·功能核对员、员工B·文档与引用核对员、员工C·合规与安全核对员、员工D·发布裁决员）与 1 个核对技能。咨询可发邮件 linksass@126.com。",
+  "keywords": [
+    "release-check",
+    "verification",
+    "qa",
+    "plugin-review",
+    "compliance",
+    "evidence-chain",
+    "pre-release",
+    "team"
+  ],
+  "skills": "./skills"
+}

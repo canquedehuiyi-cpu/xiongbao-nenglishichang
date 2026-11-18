@@ -1,0 +1,31 @@
+name: leaky
+on:
+  issue_comment:
+    types: [created]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - uses: actions/checkout@v4
+      - uses: some-org/setup-node@v3
+      - name: 用评论文字做点什么
+        run: |
+          echo "comment: ${{ github.event.comment.body }}"
+          npm ci
+          curl -sSfL "https://api.example.com/x?title=${{ github.event.issue.title }}" -o /tmp/t
+      - run: echo "${{ secrets.GITHUB_TOKEN }}" > /tmp/token.txt
+  deploy:
+    runs-on: ubuntu-latest
+    # 流式写法：只认块状缩进 permissions 的实现会在这里读出「零个写权限」，
+    # 于是 write-all 大摇大摆过检（第 3 轮变异测试实测）。
+    permissions: {contents: write-all, id-token: write}
+    steps:
+      - run: echo ok
+
+  deploy:
+    runs-on: ubuntu-latest
+    # 流式写法：只认块状缩进的实现会在这里读出「零个写权限」
+    permissions: {contents: write-all, id-token: write}
+    steps:
+      - run: echo ok

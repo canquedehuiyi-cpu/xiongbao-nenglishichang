@@ -1,0 +1,28 @@
+{
+  "name": "site-audit",
+  "version": "1.0.0",
+  "author": {
+    "name": "site-audit"
+  },
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "audit",
+    "static-site",
+    "csp",
+    "accessibility",
+    "supply-chain",
+    "review"
+  ],
+  "category": "Coding",
+  "tags": [
+    "security",
+    "code-review",
+    "accessibility",
+    "seo"
+  ],
+  "hooks": "./.qoder-plugin/qoder-hooks.json",
+  "skills": [
+    "./skills/site-audit"
+  ]
+}

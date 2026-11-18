@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "8c83d21f-88ad-4cb0-aab4-d09d5834b6a7",
+  "name": "tauri-debug-expert",
+  "displayName": "Tauri Debug Expert",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "wuwenzhan",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1156c-70f0-727b-ac8e-dc0ab088a094/406763c9_Tauri调试专家.zip",
+  "zipSha256": "fe0927f98d97cd8245bb03efe7a485846966205d0aa149eafcff5b38857bcaf6",
+  "zipBytes": 13623,
+  "upstreamSha256": "fe0927f98d97cd8245bb03efe7a485846966205d0aa149eafcff5b38857bcaf6",
+  "files": 6,
+  "treeSha256": "b6cfa6a5f7ce7d5c1de3929b35230d8f5d3b55020de099988e2ad0e0ca75ac7f",
+  "fetchedAt": "2026-11-18T10:44:17.576Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

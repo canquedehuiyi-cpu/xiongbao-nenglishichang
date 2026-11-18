@@ -1,0 +1,9 @@
+{
+  "generatedAt": "2026-01-02",
+  "note": "合成基线。刻意漏掉 ADV-0004，以便同时测「新增告警应红」这条路径。",
+  "entries": [
+    { "url": "https://advisories.example/ADV-0001", "package": "packer-a" },
+    { "url": "https://advisories.example/ADV-0002", "package": "packer-a" },
+    { "url": "https://advisories.example/ADV-0003", "package": "bundler-b" }
+  ]
+}

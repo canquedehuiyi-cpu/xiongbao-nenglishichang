@@ -1,0 +1,39 @@
+{
+  "cran": [
+    "tidyverse",
+    "remotes"
+  ],
+  "bioconductor": [
+    "DESeq2",
+    "edgeR",
+    "limma",
+    "GenomicRanges",
+    "clusterProfiler",
+    "enrichplot",
+    "GO.db",
+    "tximport",
+    "Biostrings",
+    "org.Hs.eg.db",
+    "org.Mm.eg.db",
+    "ggtree",
+    "treeio",
+    "fgsea",
+    "GOSemSim",
+    "DOSE",
+    "apeglm",
+    "ashr",
+    "HDO.db",
+    "affy",
+    "SingleCellExperiment",
+    "mouse4302cdf",
+    "mouse4302.db",
+    "primeviewcdf",
+    "primeviewprobe"
+  ],
+  "github": [
+    {
+      "package": "lionessR",
+      "repo": "kuijjerlab/lionessR"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "agent-design-studio",
+  "displayName": "智能体设计工坊",
+  "version": "1.1.0",
+  "description": "Guided four-step workshop (topic selection, design, generation, testing) that helps K-12 teachers turn teaching pain points into reusable AI teaching agents, with two ready-made example agents.",
+  "descriptionZh": "智能体设计工坊：引导一线教师完成选题→设计→制作→测试的完整教学智能体设计流程，并附两个成品示例智能体（二年级数学随堂学案、周记评语生成）。",
+  "author": { "name": "世外智慧教育 AI应用研究院" },
+  "homepage": "https://github.com/qoder",
+  "logo": "./assets/avatar.svg",
+  "keywords": ["qoder-plugin", "skill", "education", "teaching-agent", "agent-design"],
+  "category": "developer-tools",
+  "tags": ["skill", "education", "教学智能体", "智能体工坊"],
+  "skills": "./skills/"
+}

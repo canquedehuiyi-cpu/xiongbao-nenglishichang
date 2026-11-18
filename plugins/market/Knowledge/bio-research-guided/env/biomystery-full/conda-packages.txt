@@ -1,0 +1,27 @@
+# Runtime and CLI packages; not a cross-platform lock file.
+python=3.11
+r-base=4.3
+bwa
+bowtie2
+blast=2.17.0
+samtools
+bcftools
+htslib
+bedtools
+seqtk
+minimap2
+mmseqs2
+fastp
+fastqc
+nextflow
+trimmomatic
+entrez-direct
+megahit
+plink2
+kmc
+gatk4
+crispresso2
+pip
+git
+openjdk=21
+nodejs=20

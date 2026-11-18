@@ -1,0 +1,12 @@
+{
+  "numpy": "numpy",
+  "pandas": "pandas",
+  "scipy": "scipy",
+  "statsmodels": "statsmodels",
+  "scikit-learn": "sklearn",
+  "matplotlib": "matplotlib",
+  "seaborn": "seaborn",
+  "pymc": "pymc",
+  "polars": "polars",
+  "pint": "pint"
+}

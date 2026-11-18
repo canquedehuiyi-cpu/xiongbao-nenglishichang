@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "1d347cc0-859e-4f9c-a523-81c5bcaff282",
+  "name": "site-audit",
+  "displayName": "site-audit",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "site-audit",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0cd86-779d-7ed8-98fc-958c6d0de04e/ac7f099e_site-audit.zip",
+  "zipSha256": "5e5e04853be6e310f05692b58d11e2cdd915cc619ddde22bea531969c0678120",
+  "zipBytes": 202239,
+  "upstreamSha256": "5e5e04853be6e310f05692b58d11e2cdd915cc619ddde22bea531969c0678120",
+  "files": 57,
+  "treeSha256": "cc01f8b312566274fe7945964c1ef67adabd555890b0b19e9e62500c79ed8f11",
+  "fetchedAt": "2026-11-18T10:44:17.397Z",
+  "credentialScan": {
+    "textFilesScanned": 56,
+    "filesRedacted": 1
+  },
+  "note": null
+}

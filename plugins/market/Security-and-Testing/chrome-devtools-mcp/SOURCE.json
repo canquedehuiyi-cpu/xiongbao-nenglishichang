@@ -1,0 +1,17 @@
+{
+  "upstream": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "commit": "cdc365ca95f53e67a724ec45d4fca7e62cff0824",
+  "upstream_version": "1.9.0",
+  "upstream_subdir": "",
+  "checked_date": "2026-09-11",
+  "baseline_plugin_id": "chrome-devtools-mcp",
+  "baseline_environment": "cn",
+  "baseline_version": "1.2.0",
+  "baseline_sha256": "23ad0497d2912f47447796db34c46a869aa5b092104ac2f511395d3d4e51fce7",
+  "package_version": "1.9.0",
+  "version_policy": "使用高于存量的插件版本；无递增版本使用存量版本+qoder.提交，避免伪造上游发布",
+  "adaptation": [
+    "更新存量已包含的完整源码目录",
+    "文档按来源分流：上游 README 随新版；Qoder 自定义 README 保留形式更新内容；Qoder UPSTREAM.md 保留并刷新。"
+  ]
+}

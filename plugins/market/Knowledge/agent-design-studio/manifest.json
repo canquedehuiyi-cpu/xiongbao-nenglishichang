@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "34b1a454-2840-49a1-b71e-0f071f8f85d4",
+  "name": "agent-design-studio",
+  "displayName": "Agent Design Studio",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "世外智慧教育 AI 应用研究院",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019f828d-a06e-7b0e-8e98-ec946f6a5bca/96c8286e_agent-design-studio-plugin-v1.1.0.zip",
+  "zipSha256": "183ac8527c272c22ce531f4391145f032e48eb6cc044d9e6fa344e91ba232fec",
+  "zipBytes": 32778,
+  "upstreamSha256": "183ac8527c272c22ce531f4391145f032e48eb6cc044d9e6fa344e91ba232fec",
+  "files": 12,
+  "treeSha256": "a287e319d06b5b4d730f1b0b3b5a1ad6a6aa9665079cf9461a7f7cb0a415b6d6",
+  "fetchedAt": "2026-11-18T10:43:54.418Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

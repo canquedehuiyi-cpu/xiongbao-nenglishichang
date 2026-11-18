@@ -1,0 +1,4 @@
+{
+  "cran": ["pheatmap"],
+  "bioconductor": ["ComplexHeatmap"]
+}

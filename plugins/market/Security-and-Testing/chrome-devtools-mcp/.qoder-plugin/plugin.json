@@ -1,0 +1,26 @@
+{
+  "name": "chrome-devtools-mcp",
+  "version": "1.9.0",
+  "displayName": "Chrome DevTools",
+  "description": "Use Chrome DevTools and Puppeteer through MCP for browser automation, debugging, accessibility checks, performance analysis, and troubleshooting.",
+  "author": {
+    "name": "Google Chrome"
+  },
+  "homepage": "https://developer.chrome.com/docs/devtools/agents",
+  "repository": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "license": "Apache-2.0",
+  "category": "Debug & Testing",
+  "keywords": [
+    "chrome",
+    "devtools",
+    "mcp",
+    "browser-automation",
+    "debugging",
+    "performance",
+    "accessibility"
+  ],
+  "logo": "./assets/avatar.svg",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "preserveUpstreamMetadata": true
+}

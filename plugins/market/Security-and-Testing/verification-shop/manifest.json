@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "47adf351-d2d8-4e27-b915-a5c8738609e6",
+  "name": "verification-shop",
+  "displayName": "Plugin Pre-Publish Check",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a06d4e-8afe-7d02-be66-ba6465bda3d9",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a196fe-f74c-7205-8817-e4828f1a0a81/518ca466_verification-shop.zip",
+  "zipSha256": "6e34ef7106bd6ebaf4cb70f5c9bbfd633720e6ffc337a61fc13121383d865129",
+  "zipBytes": 16869,
+  "upstreamSha256": "6e34ef7106bd6ebaf4cb70f5c9bbfd633720e6ffc337a61fc13121383d865129",
+  "files": 11,
+  "treeSha256": "e792ca4ba184e95f54982f04f0b91e38c3cd855f2ead1ec42c115941bd05dd3c",
+  "fetchedAt": "2026-11-18T10:44:17.774Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

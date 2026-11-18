@@ -1,0 +1,15 @@
+{
+  "name": "tauri-debug-expert",
+  "displayName": "Tauri 调试专家",
+  "version": "1.0.0",
+  "description": "Diagnose event-chain failures in Tauri v2 framework-less (vanilla HTML + hand-written JS bridge) desktop apps: the frontend never receives emitted events, menu/tray clicks do nothing, emit fires but the callback never runs. Instruments each layer (Rust emit -> on_menu_event -> plugin:event|listen registration -> transformCallback -> frontend payload) with file logging to pinpoint the break, and documents high-frequency pitfalls such as EventTarget serialization, double-wrapped payloads, duplicate tray event dispatch, and frontend edits not triggering a rebuild.",
+  "descriptionZh": "诊断 Tauri v2 无框架（vanilla HTML + 自写 JS 桥接）桌面应用的事件链路故障：前端收不到事件、菜单/托盘点击无反应、emit 了但回调不触发。按 Rust emit → on_menu_event → plugin:event|listen 注册 → transformCallback 回调 → 前端 payload 逐层插桩定位断点，并给出 EventTarget 格式、payload 双层包裹、托盘事件双重触发、前端改动不触发重编译等高频陷阱的根因与修法。",
+  "author": {
+    "name": "wuwenzhan"
+  },
+  "category": "engineering",
+  "tags": ["tauri", "debugging", "desktop", "event-chain", "rust", "javascript"],
+  "skills": [
+    "./skills/桌面事件链路诊断"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "b7007979-9038-47ca-bd1c-5c2be3c0f40a",
+  "itemName": "agentloop",
+  "displayName": "AgentLoop",
+  "version": "0.1.2",
+  "packageKind": "plugin"
+}

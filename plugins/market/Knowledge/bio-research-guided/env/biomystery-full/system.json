@@ -1,0 +1,179 @@
+{
+  "tools": [
+    {
+      "name": "bwa",
+      "why": "Dockerfile package: bwa",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "bowtie2",
+      "why": "Dockerfile package: bowtie2",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "blastn",
+      "why": "Dockerfile package: blast=2.17.0",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "samtools",
+      "why": "Dockerfile package: samtools",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "bcftools",
+      "why": "Dockerfile package: bcftools",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "bgzip",
+      "why": "Dockerfile package: htslib",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "bedtools",
+      "why": "Dockerfile package: bedtools",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "seqtk",
+      "why": "Dockerfile package: seqtk",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "minimap2",
+      "why": "Dockerfile package: minimap2",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "mmseqs",
+      "why": "Dockerfile package: mmseqs2",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "fastp",
+      "why": "Dockerfile package: fastp",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "fastqc",
+      "why": "Dockerfile package: fastqc",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "nextflow",
+      "why": "Dockerfile package: nextflow",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "trimmomatic",
+      "why": "Dockerfile package: trimmomatic",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "esearch",
+      "why": "Dockerfile package: entrez-direct",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "megahit",
+      "why": "Dockerfile package: megahit",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "plink2",
+      "why": "Dockerfile package: plink2",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "kmc",
+      "why": "Dockerfile package: kmc",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "gatk",
+      "why": "Dockerfile package: gatk4",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "CRISPResso",
+      "why": "Dockerfile package: crispresso2",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "git",
+      "why": "Dockerfile package: git",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "java",
+      "why": "Java 21 runtime",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "node",
+      "why": "Node.js 20 runtime",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "uv",
+      "why": "Dockerfile alternate Python installer",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    },
+    {
+      "name": "ossutil",
+      "why": "OSS data transfer utility",
+      "install": {
+        "guide": "env/biomystery-full/README.md"
+      }
+    }
+  ]
+}

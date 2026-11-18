@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <!-- workbench / studio table -->
+  <rect x="28" y="78" width="72" height="8" rx="4" fill="#FFFFFF" opacity="0.9"/>
+  <!-- four-step blocks -->
+  <rect x="30" y="58" width="14" height="16" rx="3" fill="#FDE68A"/>
+  <rect x="48" y="50" width="14" height="24" rx="3" fill="#FCA5A5"/>
+  <rect x="66" y="42" width="14" height="32" rx="3" fill="#86EFAC"/>
+  <rect x="84" y="34" width="14" height="40" rx="3" fill="#93C5FD"/>
+  <!-- spark above -->
+  <path d="M64 14 l4 9 9 4 -9 4 -4 9 -4-9 -9-4 9-4z" fill="#FFFFFF"/>
+  <!-- pencil accent -->
+  <g transform="rotate(35 40 96)">
+    <rect x="34" y="92" width="26" height="7" rx="2" fill="#FBBF24"/>
+    <path d="M60 92 l7 3.5 -7 3.5z" fill="#F87171"/>
+  </g>
+</svg>

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "b7007979-9038-47ca-bd1c-5c2be3c0f40a",
+  "name": "agentloop",
+  "displayName": "AgentLoop",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.2",
+  "publisher": "loongsuite",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1ed0f-74fc-765a-9c39-0c33d78da15c/efbfce316f4a37ab73547e08320af4a961e0b3adc9952bea3b28a7ea4b0d5269.zip",
+  "zipSha256": "efbfce316f4a37ab73547e08320af4a961e0b3adc9952bea3b28a7ea4b0d5269",
+  "zipBytes": 320687,
+  "upstreamSha256": "efbfce316f4a37ab73547e08320af4a961e0b3adc9952bea3b28a7ea4b0d5269",
+  "files": 118,
+  "treeSha256": "50622b4e8e3e626f1fa01162b2eacaae50027e47b02948f33ac57ea2c4000c28",
+  "fetchedAt": "2026-11-18T10:44:19.630Z",
+  "credentialScan": {
+    "textFilesScanned": 118,
+    "filesRedacted": 0
+  },
+  "note": null
+}

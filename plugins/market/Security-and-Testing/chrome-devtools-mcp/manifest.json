@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "chrome-devtools-mcp",
+  "name": "chrome-devtools-mcp",
+  "displayName": "Chrome DevTools",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.9.0",
+  "publisher": "Google Chrome",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a08fed-97e2-7474-a115-926a421410a1/fc3b0544_chrome-devtools-mcp-1.9.0.zip",
+  "zipSha256": "d7ef9cae03ed095a507da626034621ec008e5b758f1bb884f79d4dff2dc89dae",
+  "zipBytes": 3631333,
+  "upstreamSha256": "d7ef9cae03ed095a507da626034621ec008e5b758f1bb884f79d4dff2dc89dae",
+  "files": 321,
+  "treeSha256": "092e7fbeeb9964e75353353a8ffa8bff9559e48fa4f1ea4e6a5df8aaf74da175",
+  "fetchedAt": "2026-11-18T10:44:21.565Z",
+  "credentialScan": {
+    "textFilesScanned": 285,
+    "filesRedacted": 0
+  },
+  "note": null
+}

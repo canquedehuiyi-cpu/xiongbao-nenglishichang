@@ -1,0 +1,14 @@
+# foundation: statistics, ML, data handling and reporting.
+# Minimum versions come from the method documents; generate requirements.lock
+# for a reproducible install.
+
+numpy>=1.25
+pandas>=2.0
+scipy>=1.11
+statsmodels>=0.14
+scikit-learn>=1.3
+matplotlib>=3.8
+seaborn>=0.13
+pymc>=5.10
+polars>=1.0
+pint>=0.23

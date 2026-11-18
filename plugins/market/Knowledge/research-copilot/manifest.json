@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "research-copilot",
+  "name": "research-copilot",
+  "displayName": "Research Copilot",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "4d0d9fb6-878a-4f13-89c0-fd1c3795647b",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fda4b-9fe0-7329-8b64-e21d7750a117/837c0a9a_research-copilot.zip",
+  "zipSha256": "87642b33133748b7fe79e0aedec4a27662956c1c9840338828259f51822dbbc7",
+  "zipBytes": 2525556,
+  "upstreamSha256": "87642b33133748b7fe79e0aedec4a27662956c1c9840338828259f51822dbbc7",
+  "files": 785,
+  "treeSha256": "03fa0fa8462019f035b157b0e27b8a8345160a12ab5df39a1fc3c1172a2cfeed",
+  "fetchedAt": "2026-11-18T10:44:11.728Z",
+  "credentialScan": {
+    "textFilesScanned": 655,
+    "filesRedacted": 1
+  },
+  "note": null
+}

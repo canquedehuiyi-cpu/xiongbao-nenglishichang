@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="Chrome DevTools MCP">
+  <rect width="128" height="128" rx="24" fill="#202124"/>
+  <circle cx="64" cy="64" r="42" fill="none" stroke="#4285f4" stroke-width="10"/>
+  <path d="M64 22a42 42 0 0 1 36.4 21H64z" fill="#ea4335"/>
+  <path d="M100.4 43A42 42 0 0 1 64 106L82.2 74.5z" fill="#fbbc04"/>
+  <path d="M64 106A42 42 0 0 1 27.6 43L45.8 74.5z" fill="#34a853"/>
+  <circle cx="64" cy="64" r="20" fill="#8ab4f8" stroke="#e8eaed" stroke-width="6"/>
+  <path d="M35 92h58" stroke="#e8eaed" stroke-width="6" stroke-linecap="round"/>
+</svg>

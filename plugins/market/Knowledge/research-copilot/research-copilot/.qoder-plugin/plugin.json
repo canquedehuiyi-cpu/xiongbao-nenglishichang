@@ -1,0 +1,36 @@
+{
+  "name": "research-copilot",
+  "displayName": "科研 Copilot",
+  "version": "1.0.0",
+  "description": "An end-to-end research toolkit covering literature evidence, research ideation, experiment design, academic writing, scientific visualization, collaboration memory, and tool evaluation.",
+  "descriptionZh": "覆盖科研全流程的助手插件：文献检索与证据、科研构思与实验设计、学术写作与润色、科研配图与可视化汇报、协作记忆与画像、以及技能/MCP工具评测，一站式支持从选题到发表。",
+  "category": "research",
+  "tags": [
+    "research",
+    "academic-writing",
+    "literature",
+    "experiment-design",
+    "visualization",
+    "peer-review"
+  ],
+  "skills": [
+    "./skills/find-science-skills-mcp",
+    "./skills/giiisp-paper-search-apis",
+    "./skills/sci-employee-deep-research",
+    "./skills/thesis-audit-reviewer",
+    "./skills/scispark",
+    "./skills/research-baseline-builder",
+    "./skills/experiment-design",
+    "./skills/academic-writing",
+    "./skills/scientific-humanization",
+    "./skills/giiisp-scientific-image-generation",
+    "./skills/visual-deck-builder",
+    "./skills/manim-agent",
+    "./skills/practical-course-producer",
+    "./skills/papercheck",
+    "./skills/cognitive-profile",
+    "./skills/world-threads-entry",
+    "./skills/mcp-criticagent",
+    "./skills/skill-criticagent"
+  ]
+}

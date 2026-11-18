@@ -1,0 +1,7 @@
+{
+  "displayName": "生物科研助手",
+  "description": "Helps with literature review, experimental design, data analysis, and visualization in biological research, with guidance on methods, scripts, and environment setup.",
+  "descriptionZh": "辅助开展生物科研中的文献检索、实验设计、数据分析与可视化，提供分析方法、脚本和环境安装指引。",
+  "name": "bio-research-guided",
+  "version": "0.1.0"
+}

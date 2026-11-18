@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "be27edca-cdcd-4b8e-909c-b9a59ee06c4f",
+  "name": "prompt-design-studio",
+  "displayName": "Prompt Design Studio",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.0",
+  "publisher": "019f2845-b40d-73db-a92a-eca3c42ca9e9",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019f8284-e76a-7a36-bf51-838d5a4863d7/0f229da3_prompt-design-studio-v1.1.zip",
+  "zipSha256": "fa03dd4d3d39afdd4914103e8fa10edc12e5fc532ed4b6da975310a0f8d724d5",
+  "zipBytes": 18813,
+  "upstreamSha256": "fa03dd4d3d39afdd4914103e8fa10edc12e5fc532ed4b6da975310a0f8d724d5",
+  "files": 4,
+  "treeSha256": "323ebc417f5b3f968df6ff765c90438191181e7297261eb82869bfe7a1808ce4",
+  "fetchedAt": "2026-11-18T10:43:54.063Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

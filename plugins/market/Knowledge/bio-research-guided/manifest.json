@@ -1,0 +1,32 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "bio-research-guided",
+  "name": "bio-research-guided",
+  "displayName": "生物科研助手",
+  "categoryCode": "Knowledge",
+  "categoryDir": "Knowledge",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": {
+    "name": "",
+    "display_name": "Qwen&DT",
+    "email": ""
+  },
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1a173-5840-7ade-87b8-0437aa4bae60/7b207e00_bio-research.zip",
+  "zipSha256": "5096eccda9767f6ac71ee17bee6d3a531e65fa85396e5951165bd47517e02ea8",
+  "zipBytes": 3513266,
+  "upstreamSha256": "5096eccda9767f6ac71ee17bee6d3a531e65fa85396e5951165bd47517e02ea8",
+  "files": 834,
+  "treeSha256": "b38f1385d46a798e8ef7342df548428eb786f1f92efbb50365d0078e53d5fe01",
+  "fetchedAt": "2026-11-18T10:44:05.738Z",
+  "credentialScan": {
+    "textFilesScanned": 780,
+    "filesRedacted": 0
+  },
+  "note": null
+}
