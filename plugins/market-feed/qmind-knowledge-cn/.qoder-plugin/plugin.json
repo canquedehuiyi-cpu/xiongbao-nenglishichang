@@ -1,0 +1,14 @@
+{
+  "name": "qmind-knowledge-cn",
+  "version": "0.2.2",
+  "displayName": "QMind Knowledge",
+  "description": "QMind knowledge toolkit: RAG Q&A, knowledge retrieval, shared notebook discovery, notebook management, batch upload, folder synchronization and file management.",
+  "author": {
+    "name": "Qoder"
+  },
+  "keywords": ["qmind", "knowledge", "rag", "notebook", "knowledge-engine"],
+  "category": "Coding",
+  "tags": ["knowledge", "rag", "notebook", "qmind"],
+  "logo": "./assets/icon.svg",
+  "skills": "./skills/"
+}

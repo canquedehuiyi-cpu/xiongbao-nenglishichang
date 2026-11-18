@@ -1,0 +1,11 @@
+{
+  "source": "qoder curated feed marketplace.json",
+  "name": "qgraphflow",
+  "version": "0.0.7",
+  "publisher": "Max Zheng",
+  "license": "UNKNOWN",
+  "archiveSha256": "8d8854610fd253ebe09cd3045799e513024642ca6e34ebab38b7c3492c983370",
+  "sha256VerifiedAgainstFeed": true,
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a117d6-e424-759d-a7eb-ed504f94f9b2/444cfa6c_qgraphflow-0.0.7.zip",
+  "files": 104
+}

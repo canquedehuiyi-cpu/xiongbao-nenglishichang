@@ -1,0 +1,11 @@
+{
+  "source": "qoder curated feed marketplace.json",
+  "name": "qoder-credits-inspector",
+  "version": "2.7.4",
+  "publisher": "ocean.cui",
+  "license": "UNKNOWN",
+  "archiveSha256": "f1963949e0367ac36ae7ec1b7a86a4933e82fd9f27986446916b37ec7fc0ee48",
+  "sha256VerifiedAgainstFeed": true,
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0b333-9f59-7dbc-a065-0dbf47250e06/f1303a4d_qoder-credits-inspector-2.7.4.zip",
+  "files": 21
+}

@@ -1,0 +1,11 @@
+{
+  "source": "qoder curated feed marketplace.json",
+  "name": "dingtalk",
+  "version": "0.1.0",
+  "publisher": "DingTalk",
+  "license": "UNKNOWN",
+  "archiveSha256": "3d8cea9cc64d6b00f1da1f974ec4a8c25b73b39b919784b692100638d8ff1554",
+  "sha256VerifiedAgainstFeed": true,
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a09ecf-2fba-7b21-853f-6ba3108c3fa1/21aaa94b_90fb77d1_dingtalk-plugin.zip",
+  "files": 277
+}

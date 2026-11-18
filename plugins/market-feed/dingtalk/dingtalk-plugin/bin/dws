@@ -1,0 +1,52 @@
+#!/bin/sh
+# Stable plugin entrypoint. It delegates to a Qoder-managed or public DWS runtime.
+set -eu
+
+SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+
+if [ -n "${DWS_RUNTIME_EXECUTABLE:-}" ] && [ -x "$DWS_RUNTIME_EXECUTABLE" ]; then
+  exec "$DWS_RUNTIME_EXECUTABLE" "$@"
+fi
+
+for candidate in \
+  "$HOME/.qoder/bin/dws" \
+  "$HOME/.qoder/bin/dws.exe" \
+  "$HOME/.qoder-cn/bin/dws" \
+  "$HOME/.qoder-cn/bin/dws.exe"
+do
+  if [ -x "$candidate" ]; then
+    exec "$candidate" "$@"
+  fi
+done
+
+OLD_IFS="$IFS"
+IFS=:
+for dir in ${PATH:-}; do
+  [ -n "$dir" ] || dir=.
+  [ "$dir" = "$SCRIPT_DIR" ] && continue
+  if [ -x "$dir/dws" ]; then
+    IFS="$OLD_IFS"
+    exec "$dir/dws" "$@"
+  fi
+  if [ -x "$dir/dws.exe" ]; then
+    IFS="$OLD_IFS"
+    exec "$dir/dws.exe" "$@"
+  fi
+done
+IFS="$OLD_IFS"
+
+for candidate in "$HOME/.local/bin/dws" "$HOME/.local/bin/dws.exe"; do
+  if [ -x "$candidate" ]; then
+    exec "$candidate" "$@"
+  fi
+done
+
+case " $* " in
+  *" --format json "*)
+    printf '%s\n' '{"ok":false,"error":{"reason":"runtime_missing","message":"DWS CLI is not installed","hint":"Ask the user for permission, then run dws-install."}}'
+    ;;
+  *)
+    printf '%s\n' 'DWS CLI is not installed. Ask the user for permission, then run dws-install.' >&2
+    ;;
+esac
+exit 127

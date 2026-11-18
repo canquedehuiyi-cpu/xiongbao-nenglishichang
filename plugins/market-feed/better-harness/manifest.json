@@ -1,0 +1,11 @@
+{
+  "source": "qoder curated feed marketplace.json",
+  "name": "better-harness",
+  "version": "0.2.20",
+  "publisher": "Qoder",
+  "license": "UNKNOWN",
+  "archiveSha256": "cabe6fdaf2a786272ae2857cb4b8136cf01cb3bb7c7bd7cc5081de3a6b4a23cf",
+  "sha256VerifiedAgainstFeed": true,
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0b4a0-1596-72a7-b7ab-d294e84e60b2/ed2674d6_9d1445c5_better-harness-runtime.zip",
+  "files": 67
+}

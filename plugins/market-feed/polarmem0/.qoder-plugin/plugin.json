@@ -1,0 +1,16 @@
+{
+  "name": "polarmem0",
+  "version": "0.1.0",
+  "displayName": "PolarDB-PG 记忆管理",
+  "description": "为 Qoder 开启长时记忆：自动记录并召回项目上下文、技术决策与个人偏好。需配合已部署的 PolarDB-PG 记忆管理服务使用。",
+  "keywords": ["memory", "记忆", "polardb", "mem0"],
+  "license": "Apache-2.0",
+  "skills": ["./skills/polarmem0-onboarding"],
+  "commands": {
+    "polarmem0-setup": {
+      "source": "./commands/polarmem0-setup.md",
+      "description": "安装并接入 PolarDB-PG 记忆管理，开启记忆自动召回与自动沉淀",
+      "argumentHint": "[api-key] [base-url]"
+    }
+  }
+}

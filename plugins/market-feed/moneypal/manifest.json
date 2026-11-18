@@ -1,0 +1,11 @@
+{
+  "source": "qoder curated feed marketplace.json",
+  "name": "moneypal",
+  "version": "1.0.9",
+  "publisher": "mengzai",
+  "license": "UNKNOWN",
+  "archiveSha256": "dcba81fb59ed32d04aad4e90f89c240ea70394927d255bdd21280fbf29db244c",
+  "sha256VerifiedAgainstFeed": true,
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a14e9b-4642-745d-a80b-2e17f4c87e45/3312a0f8_moneypal-qoder-1.0.9.zip",
+  "files": 16
+}

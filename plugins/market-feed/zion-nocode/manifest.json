@@ -1,0 +1,11 @@
+{
+  "source": "qoder curated feed marketplace.json",
+  "name": "zion-nocode",
+  "version": "2.7.5",
+  "publisher": "Zion",
+  "license": "UNKNOWN",
+  "archiveSha256": "2cf0a585bd57b18e0b7d899fdf242c3c4c6315465930068396cc3bb3317687bb",
+  "sha256VerifiedAgainstFeed": true,
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a08fee-183b-7e5e-aea9-5efdc70b9e83/e3b27a3d_zion-nocode-2.7.5.zip",
+  "files": 66
+}

@@ -1,0 +1,11 @@
+{
+  "source": "qoder curated feed marketplace.json",
+  "name": "grillme-matt",
+  "version": "0.1.0",
+  "publisher": "hapicomputer",
+  "license": "UNKNOWN",
+  "archiveSha256": "ebc42ac1cfaee535119f7a83a0ac9b0512bac0541366ef6834ef265feddef8c2",
+  "sha256VerifiedAgainstFeed": true,
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0b364-4355-7456-b0ca-f6eb3535f051/8441f0ab_grillme-matt.zip",
+  "files": 15
+}

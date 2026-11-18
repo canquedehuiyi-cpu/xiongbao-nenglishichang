@@ -1,0 +1,11 @@
+{
+  "source": "qoder curated feed marketplace.json",
+  "name": "polarmem0",
+  "version": "0.1.0",
+  "publisher": "019fdafb-cf77-734b-8fe0-f3b33922bfdb",
+  "license": "UNKNOWN",
+  "archiveSha256": "ee732cbf03477e351ac10fe90f8ac61f35e2340d1b90842e661c85abc94ab06a",
+  "sha256VerifiedAgainstFeed": true,
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fdcce-3f37-7949-951f-0a0812f27d96/96805bbe_polarmem0-0.1.0.zip",
+  "files": 5
+}

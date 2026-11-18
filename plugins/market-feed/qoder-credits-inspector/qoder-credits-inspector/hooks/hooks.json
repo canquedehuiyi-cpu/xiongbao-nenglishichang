@@ -1,0 +1,43 @@
+{
+  "description": "Ocean's Credits Inspector — regenerate the session token/credits report each time the Agent stops, and keep the BYOK usage-recording proxy alive from session start",
+  "hooks": {
+    "SessionStart": [
+      {
+        "async": false,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd.exe",
+            "args": [
+              "/d",
+              "/c",
+              "${QODER_PLUGIN_ROOT}/bin/credits-inspector.cmd",
+              "on-session-start"
+            ],
+            "name": "credits-inspector-ensure-proxy",
+            "timeout": 10
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "async": false,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cmd.exe",
+            "args": [
+              "/d",
+              "/c",
+              "${QODER_PLUGIN_ROOT}/bin/credits-inspector.cmd",
+              "on-stop"
+            ],
+            "name": "credits-inspector-refresh",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

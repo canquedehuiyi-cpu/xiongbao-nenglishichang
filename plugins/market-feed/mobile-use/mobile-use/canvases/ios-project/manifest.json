@@ -1,0 +1,5 @@
+{
+  "id": "ios-project",
+  "label": "iOS Simulator",
+  "pathGlobs": ["**/*.xcodeproj/project.pbxproj", "**/Package.swift"]
+}

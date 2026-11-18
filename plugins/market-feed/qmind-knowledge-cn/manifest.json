@@ -1,0 +1,11 @@
+{
+  "source": "qoder curated feed marketplace.json",
+  "name": "qmind-knowledge-cn",
+  "version": "0.2.2",
+  "publisher": "Qoder",
+  "license": "UNKNOWN",
+  "archiveSha256": "479fa960016d463b909dd2d56c229b7b18c592b2a9d82b792514e9d9a2fdd1fd",
+  "sha256VerifiedAgainstFeed": true,
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a08443-6187-76bf-97e1-ea8559d8232a/179df583_qmind-knowledge-cn-v0.2.2.zip",
+  "files": 5
+}

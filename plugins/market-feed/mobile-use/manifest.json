@@ -1,0 +1,11 @@
+{
+  "source": "qoder curated feed marketplace.json",
+  "name": "mobile-use",
+  "version": "0.7.6",
+  "publisher": "Qoder",
+  "license": "UNKNOWN",
+  "archiveSha256": "52b78f8c943457e966bbcaaf1d053c29365b2cc860d494e0cbbc1abd168d96ee",
+  "sha256VerifiedAgainstFeed": true,
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a15db8-efa1-7306-bb3d-6eaf0e244c5d/d291aea6_mobile-use.zip",
+  "files": 66
+}
