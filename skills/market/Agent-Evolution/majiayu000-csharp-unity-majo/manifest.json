@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9Qe9yu81",
+  "name": "majiayu000-csharp-unity-majo",
+  "displayName": "Unity开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Mark Joshwel <mark@joshwel.co>",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-csharp-unity-majo/latest/majiayu000-csharp-unity-majo.zip",
+  "zipSha256": "7ccc9692bbdac43b6a18a77f8a6ea6c74a561ce4a5d336f90a52f8f43b124460",
+  "zipBytes": 3276,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c616ba43fba6b4aaceb9f3dfb1ecfd07da777559199f614772447ff3878717fb",
+  "fetchedAt": "2026-11-18T10:33:04.520Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

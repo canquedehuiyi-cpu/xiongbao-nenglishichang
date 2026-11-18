@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_k5KLSTfP",
+  "name": "wiki-js",
+  "displayName": "Wiki.js 部署与配置指南",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivangdavila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/wiki-js/latest/wiki-js.zip",
+  "zipSha256": "08256fa518a41a34a7c6dd42e8385b3cfa9e06b5485499b7f25b2c8029014ae4",
+  "zipBytes": 1566,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "29daf4d030741865217860a0d738df8caf9da41b55dc085d83bf702e67c6dcf7",
+  "fetchedAt": "2026-11-18T10:38:51.556Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

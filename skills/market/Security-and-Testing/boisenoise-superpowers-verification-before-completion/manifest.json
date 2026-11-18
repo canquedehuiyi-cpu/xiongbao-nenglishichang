@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UKXaDroH",
+  "name": "boisenoise-superpowers-verification-before-completion",
+  "displayName": "Before验证助手",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-superpowers-verification-before-completion/latest/boisenoise-superpowers-verification-before-completion.zip",
+  "zipSha256": "76296d687e5609542a71f4e5f192a656a95139237fef9fe50f7b4efec7da1a3f",
+  "zipBytes": 2209,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7fadab4c642f6e3fa3592537e810b7514049c8797dcede049edf5467a4b65d90",
+  "fetchedAt": "2026-11-18T10:40:47.206Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

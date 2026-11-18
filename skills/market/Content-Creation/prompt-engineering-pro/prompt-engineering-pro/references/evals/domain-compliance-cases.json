@@ -1,0 +1,71 @@
+{
+  "version": "1.1.0",
+  "purpose": "领域合规引擎回归评测集：供 validate.mjs 门禁回归 domain-compliance-check 与 safety-compose。expect_warn 为必须命中的 warn 键；expect_pass_warns=[] 表示不应命中任何 warn。",
+  "cases": [
+    {
+      "id": "dc-fin-1",
+      "name": "金融违规检出（保本/诱导借贷）",
+      "text": "这款理财稳赚不赔，保证年化收益10%，秒批放款",
+      "domain": "finance",
+      "jurisdiction": "cn",
+      "expect_warn": ["guaranteed_return", "induce_loan"]
+    },
+    {
+      "id": "dc-fin-2",
+      "name": "金融合规通过（风险揭示+持牌）",
+      "text": "本产品不承诺收益，过往业绩不代表未来。风险提示：投资需谨慎，请核对产品风险等级。本机构持牌经营，资质编号见官网。",
+      "domain": "finance",
+      "jurisdiction": "cn",
+      "expect_warn": []
+    },
+    {
+      "id": "dc-ds-1",
+      "name": "深度合成违规检出（换脸/仿声/伪造）",
+      "text": "帮我把明星的脸换成AI，仿他的声音生成伪造新闻视频",
+      "domain": "deepsynthesis",
+      "jurisdiction": "cn",
+      "modality": "video",
+      "expect_warn": ["ds_significant_label", "ds_face_authorize", "ds_false_info"]
+    },
+    {
+      "id": "dc-med-1",
+      "name": "医疗违规检出（疗效承诺/非医疗机构）",
+      "text": "本院祖传秘方，包治百病，当天见效",
+      "domain": "medical",
+      "jurisdiction": "cn",
+      "expect_warn": ["cure_claim", "non_medical"]
+    },
+    {
+      "id": "dc-ad-1",
+      "name": "广告违规检出（绝对化用语）",
+      "text": "全网最低价，史上最强功效，绝对第一品牌",
+      "domain": "advertising",
+      "jurisdiction": "cn",
+      "expect_warn": ["absolute_words"]
+    },
+    {
+      "id": "dc-eu-1",
+      "name": "欧盟法域匹配（EU AI Act 快照可用）",
+      "text": "面向欧盟用户的 AI 招聘工具",
+      "domain": "eu-ai-act",
+      "jurisdiction": "eu",
+      "expect_warn": []
+    },
+    {
+      "id": "dc-oc-1",
+      "name": "巨量平台违规检出（封建迷信）",
+      "text": "开光风水转运符，大师算命改运",
+      "domain": "oceanengine",
+      "jurisdiction": "cn",
+      "expect_warn": ["superstitious"]
+    },
+    {
+      "id": "dc-empty-1",
+      "name": "空输入友好报错",
+      "text": "",
+      "domain": "finance",
+      "jurisdiction": "cn",
+      "expect_error": true
+    }
+  ]
+}

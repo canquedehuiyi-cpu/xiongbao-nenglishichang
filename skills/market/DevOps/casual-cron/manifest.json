@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7hn8NRJp",
+  "name": "casual-cron",
+  "displayName": "休闲定时任务",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "gostlightai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/casual-cron/latest/casual-cron.zip",
+  "zipSha256": "a1faa223632335dc20d3f4de2f0037dc2d80aba57416ec82f89de22dbacd35a0",
+  "zipBytes": 18972,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "4106c7e06ce5c6534d48879ce1bff3d30cd656d9ca2706d0fa0a372bbcc0eab0",
+  "fetchedAt": "2026-11-18T10:38:35.019Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

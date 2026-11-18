@@ -1,0 +1,75 @@
+{
+  "skill_name": "alibaba-quark-scanking-idphoto",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我把这张照片做成证件照 https://img.alicdn.com/imgextra/i4/O1CN0165eG2Z26tMMvNQ3KG_!!6000000007719-0-tps-576-1024.jpg",
+      "expected_output": "成功生成一寸证件照，返回包含图片路径的 JSON，并在 JSON 之后追加图片预览；若缺少 API Key 则提示用户配置；若返回 A0210 则提示用户去后台购买",
+      "expectations": [
+        "若环境变量 SCAN_WEBSERVICE_KEY 未配置（未执行脚本），则输出中应包含提示用户配置 SCAN_WEBSERVICE_KEY 的说明文字，并引导用户前往 https://scan.quark.cn/business 获取 API Key",
+        "若已执行脚本，输出是合法的 JSON 格式",
+        "若 JSON 中 code 为 \"00000\"，则 data 字段应包含 path 键，值为生成图片的本地文件路径，且该文件确实存在",
+        "若 JSON 中 code 为 \"00000\"，则输出中（JSON 之外）应追加一行 Markdown 图片引用，格式为 ![证件照](<路径>)，且括号内路径与 data.path 的值完全一致；仅验证该引用存在与路径一致，不验证客户端是否真的渲染出图片",
+        "若 JSON 中 code 为 \"A0210\"，则输出中（JSON 之外）应包含引导用户前往夸克扫描王开发者后台（https://scan.quark.cn/business）注册或购买更多次数的提示文字"
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我用这张照片做一张二寸红底证件照 https://img.alicdn.com/imgextra/i4/O1CN0165eG2Z26tMMvNQ3KG_!!6000000007719-0-tps-576-1024.jpg",
+      "expected_output": "成功生成二寸红底证件照，返回包含图片路径的 JSON，并在 JSON 之后追加图片预览；若返回 A0210 则额外提示用户去后台购买；若缺少 API Key 则提示用户配置",
+      "expectations": [
+        "当 agent 因缺少 API Key 未执行脚本时，输出中应包含提示用户配置 SCAN_WEBSERVICE_KEY 的说明文字，并引导用户前往 https://scan.quark.cn/business 获取 API Key；否则此项跳过",
+        "当 agent 已执行脚本并返回输出时，输出是合法的 JSON 格式；否则此项跳过",
+        "当 agent 执行了脚本时，命令中应包含 --crop 2_inch 和 --bg red 参数；否则此项跳过",
+        "当生成成功时（code 为 \"00000\"），data 字段应包含 path 键，值为生成图片的本地文件路径，且该文件确实存在；否则此项跳过",
+        "当生成成功时（code 为 \"00000\"），输出中（JSON 之外）应追加一行 Markdown 图片引用，格式为 ![证件照](<路径>)，且括号内路径与 data.path 的值完全一致；仅验证该引用存在与路径一致，不验证客户端是否真的渲染出图片；否则此项跳过",
+        "当返回 A0210 时，JSON 之外应包含引导用户前往夸克扫描王开发者后台（https://scan.quark.cn/business）注册或购买更多次数的提示文字；否则此项跳过"
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "我想用这张照片拍一个韩式风格的证件照，妆容浓一点 https://img.alicdn.com/imgextra/i4/O1CN0165eG2Z26tMMvNQ3KG_!!6000000007719-0-tps-576-1024.jpg",
+      "expected_output": "成功生成韩式妆容证件照，返回包含图片路径的 JSON，并在 JSON 之后追加图片预览；若返回 A0210 则额外提示用户去后台购买",
+      "expectations": [
+        "输出是合法的 JSON 格式",
+        "命令中应包含 --style hanshi 和 --fuse-level 参数",
+        "若 JSON 中 code 为 \"00000\"，则 data 字段应包含 path 键，值为生成图片的本地文件路径，且该文件确实存在",
+        "若 JSON 中 code 为 \"00000\"，则输出中（JSON 之外）应追加一行 Markdown 图片引用，格式为 ![证件照](<路径>)，且括号内路径与 data.path 的值完全一致；仅验证该引用存在与路径一致，不验证客户端是否真的渲染出图片",
+        "若 JSON 中 code 为 \"A0210\"，则输出中（JSON 之外）应包含引导用户前往夸克扫描王开发者后台（https://scan.quark.cn/business）注册或购买更多次数的提示文字"
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "这张照片帮我做个蓝底证件照，不要美颜，二寸的 https://img.alicdn.com/imgextra/i4/O1CN0165eG2Z26tMMvNQ3KG_!!6000000007719-0-tps-576-1024.jpg",
+      "expected_output": "成功生成二寸蓝底、关闭美颜的证件照，返回包含图片路径的 JSON，并在 JSON 之后追加图片预览；若返回 A0210 则提示用户去后台购买；若缺少 API Key 则提示用户配置",
+      "expectations": [
+        "当 agent 因缺少 API Key 未执行脚本时，输出中应包含提示用户配置 SCAN_WEBSERVICE_KEY 的说明文字，并引导用户前往 https://scan.quark.cn/business 获取 API Key；否则此项跳过",
+        "当 agent 已执行脚本并返回输出时，输出是合法的 JSON 格式；否则此项跳过",
+        "当 agent 执行了脚本时，命令中应包含 --crop 2_inch、--bg blue 和 --retouch 0 参数；否则此项跳过",
+        "当生成成功时（code 为 \"00000\"），data 字段应包含 path 键，值为生成图片的本地文件路径，且该文件确实存在；否则此项跳过",
+        "当生成成功时（code 为 \"00000\"），输出中（JSON 之外）应追加一行 Markdown 图片引用，格式为 ![证件照](<路径>)，且括号内路径与 data.path 的值完全一致；仅验证该引用存在与路径一致，不验证客户端是否真的渲染出图片；否则此项跳过",
+        "当返回 A0210 时，JSON 之外应包含引导用户前往夸克扫描王开发者后台（https://scan.quark.cn/business）注册或购买更多次数的提示文字；否则此项跳过"
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "帮我用这张照片做一寸白底证件照，要美白妆容，妆淡一点，轻微修容就行 https://img.alicdn.com/imgextra/i4/O1CN0165eG2Z26tMMvNQ3KG_!!6000000007719-0-tps-576-1024.jpg",
+      "expected_output": "正确提取所有参数并构建命令；若返回 A0210 则额外提示用户去后台购买",
+      "expectations": [
+        "执行的命令中包含 --url 参数且值为传入的图片地址",
+        "执行的命令中包含 --crop 1_inch 参数",
+        "执行的命令中包含 --bg white 参数",
+        "执行的命令中包含 --style baibi 参数（美白对应 baibi）",
+        "执行的命令中包含 --fuse-level 1 参数（淡一点对应 1）",
+        "执行的命令中包含 --retouch 1 参数（轻微修容对应 1）",
+        "若 JSON 中 code 为 \"00000\"，则输出中（JSON 之外）应追加一行 Markdown 图片引用，格式为 ![证件照](<路径>)，且括号内路径与 data.path 的值完全一致；仅验证该引用存在与路径一致，不验证客户端是否真的渲染出图片",
+        "若 JSON 中 code 为 \"A0210\"，则输出中（JSON 之外）应包含引导用户前往夸克扫描王开发者后台（https://scan.quark.cn/business）注册或购买更多次数的提示文字"
+      ],
+      "files": []
+    }
+  ]
+}

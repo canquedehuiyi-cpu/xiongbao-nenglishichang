@@ -1,0 +1,14 @@
+{
+  "schema_version": "2",
+  "description": "领域合规规则快照自校验 schema：validate.mjs 与 domain-compliance-check.mjs 共用。新增快照须满足全部必填字段与合法枚举值。",
+  "required_fields": ["domain", "label", "jurisdiction", "modalities", "law_level", "snapshot_checked", "status", "sources", "rules", "meta"],
+  "optional_fields": ["effective_date", "superseded_by", "notes"],
+  "law_level_values": ["admin", "civil", "criminal", "mixed"],
+  "status_values": ["current", "superseded", "draft"],
+  "jurisdiction_values": ["cn", "eu", "us", "global"],
+  "modality_values": ["text", "image", "video", "audio", "code"],
+  "rule_required_fields": ["key", "name", "type", "severity", "basis", "suggestion"],
+  "rule_type_values": ["warn", "remind", "pass"],
+  "severity_values": ["high", "medium", "low"],
+  "meta_required_fields": ["policy_lock", "auto_update"]
+}

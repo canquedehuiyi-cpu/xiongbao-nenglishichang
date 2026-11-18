@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4HDsv6TN",
+  "name": "majiayu000-context-recall",
+  "displayName": "上下文检索",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-context-recall/latest/majiayu000-context-recall.zip",
+  "zipSha256": "abf99445179e6c1bc72237249db8341f1bdb87e4ee184663e31d8009bfa4ef9f",
+  "zipBytes": 3095,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "65c51fa2c68a13ef978b76d96dbadb2ebcdabb6342734c34116eb8c51f7ce888",
+  "fetchedAt": "2026-11-18T10:33:18.188Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

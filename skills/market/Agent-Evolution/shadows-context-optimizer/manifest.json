@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DnlubOZY",
+  "name": "shadows-context-optimizer",
+  "displayName": "上下文优化器",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "nakedoshadow",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/shadows-context-optimizer/latest/shadows-context-optimizer.zip",
+  "zipSha256": "6be359939393545b52a9cb73a849c423100b3dcade83423061d17c9952f6dd7f",
+  "zipBytes": 3150,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c2953db763f318a8241985931175b31da91a043c5ffbc6679c308b274a5554ce",
+  "fetchedAt": "2026-11-18T10:33:04.701Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

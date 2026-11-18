@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GLIREGbr",
+  "name": "404kidwiz-kafka-engineer-skill",
+  "displayName": "SQLKafka开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "404kidwiz",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/404kidwiz-kafka-engineer-skill/latest/404kidwiz-kafka-engineer-skill.zip",
+  "zipSha256": "83cfc6c1bbd21abd4659ce9274da97093087bcbee536ff3930e27db313a9b6a9",
+  "zipBytes": 4210,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "43e4b823270657372709a265ca8b5162de16b9f17e69a6a991dc4f48699f9f19",
+  "fetchedAt": "2026-11-18T10:38:48.453Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

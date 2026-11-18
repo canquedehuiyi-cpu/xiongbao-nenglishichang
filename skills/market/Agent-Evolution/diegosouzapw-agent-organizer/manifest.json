@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_OJ663sH8",
+  "name": "diegosouzapw-agent-organizer",
+  "displayName": "流程编排",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-agent-organizer/latest/diegosouzapw-agent-organizer.zip",
+  "zipSha256": "1312bc9100e67b9fb9c5315f1c7bbae98a5c8bdfb77d49ff2e98da907d3a6ff5",
+  "zipBytes": 2526,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d7ae84849ae5a2eee18bfdf34e29154833426f8011bc10a20e0182c6d4568817",
+  "fetchedAt": "2026-11-18T10:33:27.983Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

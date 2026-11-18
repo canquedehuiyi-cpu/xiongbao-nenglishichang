@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HSjl3jmg",
+  "name": "deploying-tailscale-for-zero-trust-vpn",
+  "displayName": "部署 Tailscale 实现零信任 VPN",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mukul975",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/deploying-tailscale-for-zero-trust-vpn/latest/deploying-tailscale-for-zero-trust-vpn.zip",
+  "zipSha256": "8cdcbe72ecd84d8ed0ed299a4b99bad94bbbc7192862521b3aabeb46dc351544",
+  "zipBytes": 4381,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7acd1a5e7fe0c47cc872fe2ed92a12e71d05d1dfef9454b3bd8342ce245f8736",
+  "fetchedAt": "2026-11-18T10:38:41.958Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

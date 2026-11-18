@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6Sc6YpRx",
+  "name": "dicklesworthstone-triton-inference-config",
+  "displayName": "Triton配置",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-triton-inference-config/latest/dicklesworthstone-triton-inference-config.zip",
+  "zipSha256": "98477fb3a644d80f51ada6a4f34a88613742232bb6e0a054cb546156f118a919",
+  "zipBytes": 1206,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "5e22a280038ade70bbef30e94f2586a73ff7020ae64e319e35963e61e175aec9",
+  "fetchedAt": "2026-11-18T10:38:56.110Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

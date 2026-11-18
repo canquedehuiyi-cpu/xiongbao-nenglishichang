@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_r5HmZi2s",
+  "name": "team-collab-skill",
+  "displayName": "多智能体团队协作系统",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aboutyao",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/team-collab-skill/latest/team-collab-skill.zip",
+  "zipSha256": "d6bcbba8c2b673a83d6751c9a2c2cff52ec785ed31cb74b4a9055d261022be96",
+  "zipBytes": 9469,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "0f75a3d0fda0818177baae6a41b0ce958b22cc05ee0b869f94b1495d09a1cfa4",
+  "fetchedAt": "2026-11-18T10:33:14.659Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

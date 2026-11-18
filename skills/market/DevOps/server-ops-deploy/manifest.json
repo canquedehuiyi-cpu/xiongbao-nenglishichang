@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "b6a36a85-7314-4f14-8605-5352c10cde40",
+  "name": "server-ops-deploy",
+  "displayName": "Linux服务器运维与部署工具包",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a0f8a4-2bd6-7dd9-a70e-d34f9c5cb9d4",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0f9de-ddfe-702a-be01-fcf8e9c1ee99/7436ffb3_server-ops-deploy.zip",
+  "zipSha256": "857d89bae6c1997608838ac31918af29ffba081fb777f20f164364260c59e7da",
+  "zipBytes": 11140,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "fd42cefa46d23e2fbbeb7e8a03c9dffe4de189b6ea29c700ea6a9e1df759f04e",
+  "fetchedAt": "2026-11-18T10:38:18.870Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

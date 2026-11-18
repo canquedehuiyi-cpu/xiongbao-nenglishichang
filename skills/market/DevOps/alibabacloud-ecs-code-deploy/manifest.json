@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_hICDPd47",
+  "name": "alibabacloud-ecs-code-deploy",
+  "displayName": "一键部署本地或git项目到阿里云 ECS",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-ecs-code-deploy/latest/alibabacloud-ecs-code-deploy.zip",
+  "zipSha256": "23a67cef04532999c7ee6cbe87536d438d8cd0dd26918a3c0d130abc78da58b9",
+  "zipBytes": 50289,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "210fc233544b653bafe3e6f5d1773e40929927ea5a5e80495102ef36879dd336",
+  "fetchedAt": "2026-11-18T10:38:14.016Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "note": "能力摘要引擎（capability-digest.mjs）回归集：从文档文本提取能力信号与模型名"
+  },
+  "cases": [
+    {
+      "id": "CD-01",
+      "label": "完整能力信号",
+      "text": "Claude 4.5 支持 200k context window, function calling, extended thinking, vision 图像输入。知识截止 2025 年。支持 structured outputs。",
+      "expect": { "signals_include": ["context_window", "function_calling", "reasoning", "vision"], "models_include": ["claude 4.5"] }
+    },
+    {
+      "id": "CD-02",
+      "label": "无信号文本",
+      "text": "这是一段与模型能力无关的普通说明文字，不涉及任何技术指标。",
+      "expect": { "signals_present_min": 0, "signals_present_max": 2 }
+    }
+  ]
+}

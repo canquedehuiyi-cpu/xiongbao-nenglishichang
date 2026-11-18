@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_isBgeeS1",
+  "name": "alibabacloud-sas-install-agent",
+  "displayName": "云安全中心主机安全客户端接入与管理",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-sas-install-agent/latest/alibabacloud-sas-install-agent.zip",
+  "zipSha256": "548db9f31b94a8d4310a750c3774cd9f3aba5e38c4a3219436f85158b68af390",
+  "zipBytes": 53137,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "7d2ec452293569b91b3528e684d56a943e05cf67f382c6dfb458b38a0f2f382b",
+  "fetchedAt": "2026-11-18T10:41:10.470Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 1
+  },
+  "note": null
+}

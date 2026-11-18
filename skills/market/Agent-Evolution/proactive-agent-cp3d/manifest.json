@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_062yWFQ1",
+  "name": "proactive-agent-cp3d",
+  "displayName": "主动型智能体",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/proactive-agent-cp3d/latest/proactive-agent-cp3d.zip",
+  "zipSha256": "f0397fbb1de574acdbb28676becbac9abfb25555b3eb9c724412334f1975d186",
+  "zipBytes": 23174,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "facbba597b2fd47ce5241d34198d8700ba3d43044d3af6cc32c26552d191a5ed",
+  "fetchedAt": "2026-11-18T10:33:05.819Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

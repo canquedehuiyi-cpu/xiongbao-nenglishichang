@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qCTiRV4Y",
+  "name": "majiayu000-build123d",
+  "displayName": "CAD建模",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-build123d/latest/majiayu000-build123d.zip",
+  "zipSha256": "c5eee2f899323855b37df6eeefddea050a52fc5156f0f8fae5c693089c7f2a3f",
+  "zipBytes": 5235,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2d129d76842ec4520a655ff25ee60879b6aeebb160b417bf791689b1c2692c2a",
+  "fetchedAt": "2026-11-18T10:33:03.474Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

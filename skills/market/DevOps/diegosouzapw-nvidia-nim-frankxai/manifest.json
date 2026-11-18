@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3hDm6nZ4",
+  "name": "diegosouzapw-nvidia-nim-frankxai",
+  "displayName": "Nvidia分析",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-nvidia-nim-frankxai/latest/diegosouzapw-nvidia-nim-frankxai.zip",
+  "zipSha256": "d702ddd9f7e58e054c5c3555bb9748a18aef90f8bb40d5ec76f4b9c2e601ad15",
+  "zipBytes": 5412,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "64fe9436017e25d7899813185d72a1b7619f194c9a1b9d6a509ccdad0d479eee",
+  "fetchedAt": "2026-11-18T10:38:45.098Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

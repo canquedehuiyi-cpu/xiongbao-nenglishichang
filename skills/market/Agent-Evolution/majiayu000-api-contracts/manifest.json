@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_I45KYID8",
+  "name": "majiayu000-api-contracts",
+  "displayName": "法律生成",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-api-contracts/latest/majiayu000-api-contracts.zip",
+  "zipSha256": "bbf3c58565d0349443f17204a58265d143b397ca8d180947e0d85b09cc978869",
+  "zipBytes": 6521,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "33ae3d636c46bf529ee9c9dfc93dbe6ca634db31fc6467dab02bd4e30f424385",
+  "fetchedAt": "2026-11-18T10:33:43.858Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

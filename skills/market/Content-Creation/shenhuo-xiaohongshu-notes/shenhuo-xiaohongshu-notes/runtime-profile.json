@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-xiaohongshu-notes",
+  "skill_version": "1.0.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_bcb5653e7316",
+    "slug": "xiaohongshu_notes_designer",
+    "name": "小红书笔记"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ItKgs5hX",
+  "name": "diegosouzapw-senior-ml-engineer-aiskillstore",
+  "displayName": "机器学习Senior",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-senior-ml-engineer-aiskillstore/latest/diegosouzapw-senior-ml-engineer-aiskillstore.zip",
+  "zipSha256": "2b2f4ba3c1d99b914852065a15d9e1bfa3e86f551583477da825a1b6324063c2",
+  "zipBytes": 3520,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d236789ea2c400aa03100ef1a14d8fe31428bc14a1084d9b0565ec92503d74c5",
+  "fetchedAt": "2026-11-18T10:38:48.786Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

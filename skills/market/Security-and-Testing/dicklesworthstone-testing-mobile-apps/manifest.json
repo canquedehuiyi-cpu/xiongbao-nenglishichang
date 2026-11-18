@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BQb3eJWj",
+  "name": "dicklesworthstone-testing-mobile-apps",
+  "displayName": "iOS测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-testing-mobile-apps/latest/dicklesworthstone-testing-mobile-apps.zip",
+  "zipSha256": "234dbae8338245a8f4e72b68a36dd812f9d5f8bf83e8de69b2b6f25d36aa8d6c",
+  "zipBytes": 2975,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "67c77973275e345b1f001dbbca5510f3624381f8dd6501004b8b61be88a37508",
+  "fetchedAt": "2026-11-18T10:41:02.007Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

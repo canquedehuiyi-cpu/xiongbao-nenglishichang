@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BELjyHBq",
+  "name": "alibabacloud-kafka-capacity-assessment",
+  "displayName": "Kafka实例容量评估",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-kafka-capacity-assessment/latest/alibabacloud-kafka-capacity-assessment.zip",
+  "zipSha256": "a546abe92fd9687b865c0af79d63fe0aeb8ce73cb00e386076c2af14a96cddce",
+  "zipBytes": 23639,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "dfc27bbe468fc04b6b332b4acda8fdc416a62762010a894a5dfd5a5d46d1757d",
+  "fetchedAt": "2026-11-18T10:40:54.752Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 1
+  },
+  "note": null
+}

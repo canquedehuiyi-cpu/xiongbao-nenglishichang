@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4JgIaEaM",
+  "name": "dotnet-incremental-build",
+  "displayName": "构建开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dotnet",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dotnet-incremental-build/latest/dotnet-incremental-build.zip",
+  "zipSha256": "88d83b6dc8a25859d315d26e9f43909bd4fe6f337b28685d5aeabcbf91115aaa",
+  "zipBytes": 5083,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c5dfac863ef53c94787ceb4ae7970fa3a9762ac4af3b6aac52fc3c5caeb72c11",
+  "fetchedAt": "2026-11-18T10:38:45.378Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

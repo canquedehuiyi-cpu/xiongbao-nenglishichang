@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_j6cPSuI6",
+  "name": "majiayu000-create-handoff-tfunk1030-vibe",
+  "displayName": "Handoff创建",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-create-handoff-tfunk1030-vibe/latest/majiayu000-create-handoff-tfunk1030-vibe.zip",
+  "zipSha256": "f67ab4a0b40c414849fc3035597eac2af6fc193c58442c936bf14d74d8220740",
+  "zipBytes": 3811,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "29c5c4d58536c1eb927c9db6bb742a7f688426abe4f122faef5424648a80a77e",
+  "fetchedAt": "2026-11-18T10:33:31.118Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

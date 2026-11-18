@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Tlt9dzm1",
+  "name": "agents-inc-web-testing-vue-test-utils",
+  "displayName": "网页Vue",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "agents-inc",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agents-inc-web-testing-vue-test-utils/latest/agents-inc-web-testing-vue-test-utils.zip",
+  "zipSha256": "faf047188adc7fcbf07a5b92a49c3ba061f07def816c831da0693ede1c178a71",
+  "zipBytes": 24712,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "d924cfbba45280dabdb6db6ff8a93fb3daec5d43a2387e7c3e143855106f6c7d",
+  "fetchedAt": "2026-11-18T10:41:25.022Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

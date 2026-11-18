@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_A8PpXodA",
+  "name": "majiayu000-ai-multimodal-mrgoonie",
+  "displayName": "图表写作",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-ai-multimodal-mrgoonie/latest/majiayu000-ai-multimodal-mrgoonie.zip",
+  "zipSha256": "bd587af38b6839c71cdbc310429ec588dfc25515f276cc1650615bcc7f9aa607",
+  "zipBytes": 4402,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e19c84a724203f631f4a79956a12876e2cc5d2dc48c2b99cd87b9196c9216ae6",
+  "fetchedAt": "2026-11-18T10:33:40.765Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

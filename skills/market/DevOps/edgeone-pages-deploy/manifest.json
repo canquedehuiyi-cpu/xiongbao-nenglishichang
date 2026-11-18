@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "0f2d8f90-fb33-4b00-a2ae-3f631d6e4a71",
+  "name": "edgeone-pages-deploy",
+  "displayName": "EdgeOne Pages 部署",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.5",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd95-f412-7a4a-9fb4-f7e9c5ef21c0/d2164da8_edgeone-pages-deploy.zip",
+  "zipSha256": "8e76d6dbc9e0f3c7c1aa05bc9972ce8b48c54e6acb4e4520f7665d601cde6a1a",
+  "zipBytes": 6243,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "c0ecede3321bae1be41c4655613d04570981dfe3249d2c93250c11c77584189f",
+  "fetchedAt": "2026-11-18T10:38:27.468Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

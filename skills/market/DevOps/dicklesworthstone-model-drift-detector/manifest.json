@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9Yer2s4a",
+  "name": "dicklesworthstone-model-drift-detector",
+  "displayName": "模型Drift检测",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-model-drift-detector/latest/dicklesworthstone-model-drift-detector.zip",
+  "zipSha256": "e32442859dcaa6d08bdd9cf642082bd121774a881905853f94398fa2bc111167",
+  "zipBytes": 1202,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8a252f1861d6c37430f2d31bb016d3d1efb25abbd7c33a1f811564ac72b4d8fa",
+  "fetchedAt": "2026-11-18T10:38:58.822Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

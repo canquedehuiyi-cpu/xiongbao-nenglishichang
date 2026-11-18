@@ -1,0 +1,9 @@
+{
+  "name": "Cloudflare Worker Builder",
+  "installedAt": 1784362494894,
+  "source": "marketplace",
+  "iconSource": "cloudflare-worker-builder",
+  "version": "1.0.0",
+  "skillId": "skill_2057443892848996352",
+  "skillName": "cloudflare-worker-builder"
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_wHOy0Ah7",
+  "name": "monica-three-tier-memory",
+  "displayName": "记忆管理器",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "forvendettaw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/monica-three-tier-memory/latest/monica-three-tier-memory.zip",
+  "zipSha256": "c31e3fe3deb2e903f19c4a02560f07ae11c74000ee0277c19e3f6e81db202aa2",
+  "zipBytes": 7470,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "3cf44fb2f523d0b7bf5ad3ae27993b075501c3ddb9f2675583a9c92f5a415f0b",
+  "fetchedAt": "2026-11-18T10:33:25.421Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

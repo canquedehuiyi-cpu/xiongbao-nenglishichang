@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GvYO4ZGT",
+  "name": "dotnet-wpf-e2e-testing",
+  "displayName": "dotnet wpf e2e 测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "j0ruge",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dotnet-wpf-e2e-testing/latest/dotnet-wpf-e2e-testing.zip",
+  "zipSha256": "e384e1dc0a4336f91a806e4b2185fc2a9238632fa59b7b7355113257c0967d8d",
+  "zipBytes": 7807,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "83eafd95a860d04a8e4586b75ae29045b50b879d8b766902d04f57dec74937ae",
+  "fetchedAt": "2026-11-18T10:41:12.668Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

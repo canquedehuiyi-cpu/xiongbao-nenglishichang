@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Spfx9WZI",
+  "name": "skill-trust-auditor",
+  "displayName": "技能信任审计器",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jonathanjing",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/skill-trust-auditor/latest/skill-trust-auditor.zip",
+  "zipSha256": "99ed374ec92a84c2b28a30aaf5fe3688248edfe0226380a06ab8736c058f9a63",
+  "zipBytes": 24054,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "e6746e41941e7d748e6ffc2611e03384e05a5ec7b7653787955152929b21726e",
+  "fetchedAt": "2026-11-18T10:41:27.226Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

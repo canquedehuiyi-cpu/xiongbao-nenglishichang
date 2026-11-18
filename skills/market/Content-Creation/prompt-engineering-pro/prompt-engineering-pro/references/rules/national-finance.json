@@ -1,0 +1,45 @@
+{
+  "domain": "national-finance",
+  "label": "金融国家法律层（中国）",
+  "jurisdiction": "cn",
+  "modalities": ["text"],
+  "law_level": "criminal",
+  "snapshot_checked": "2026-09-03",
+  "effective_date": null,
+  "status": "current",
+  "superseded_by": null,
+  "sources": [
+    { "name": "金融产品网络营销管理办法", "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7066927.htm", "last_verified": "2026-09-03" },
+    { "name": "防范和处置非法集资条例", "url": "https://www.gov.cn/zhengce/content/2021-05/01/content_5604532.htm", "last_verified": "2026-09-03" }
+  ],
+  "rules": [
+    {
+      "key": "licensed_business",
+      "name": "金融业务持牌",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["代客理财", "集资", "私募", "信托", "保险销售", "证券代销", "外汇交易", "虚拟币交易"],
+      "basis": "金融监管要求：未经金融监管部门批准，任何单位和个人不得从事金融业务",
+      "suggestion": "涉及金融业务内容需核对持牌资质，无资质不得营销金融产品"
+    },
+    {
+      "key": "illegal_fundraising",
+      "name": "非法集资红线",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["高息回报", "保本高收益", "拉人头返利", "传销", "众筹理财", "原始股骗局", "以房养老骗局"],
+      "basis": "防范和处置非法集资条例：非法集资是违法犯罪行为，宣传参与者可能承担连带责任",
+      "suggestion": "识别并拒绝任何涉及非法集资特征的宣传话术"
+    },
+    {
+      "key": "scam_red",
+      "name": "诈骗话术红线",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["杀猪盘", "刷单返利", "冒充客服退款", "冒充公检法", "博彩返利", "虚拟币投资骗局"],
+      "basis": "刑法第二百六十六条：诈骗公私财物数额较大的追究刑事责任",
+      "suggestion": "禁止生成任何诈骗/诱导话术，识别典型诈骗模板并警示"
+    }
+  ],
+  "meta": { "policy_lock": true, "auto_update": false }
+}

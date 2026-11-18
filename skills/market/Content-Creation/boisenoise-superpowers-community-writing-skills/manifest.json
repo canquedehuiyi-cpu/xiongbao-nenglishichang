@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_T0Ulpwh4",
+  "name": "boisenoise-superpowers-community-writing-skills",
+  "displayName": "流程写作",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-superpowers-community-writing-skills/latest/boisenoise-superpowers-community-writing-skills.zip",
+  "zipSha256": "04df7751d8bca4cd27e05783ff2ecd56176b0132b3ea30368058f23ed14ae9d5",
+  "zipBytes": 12808,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "ebfa5cd75b9bb7c50ec826529d3302ea9db8f0f10418788765f59a4326d3093a",
+  "fetchedAt": "2026-11-18T10:35:16.704Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UArwI6F3",
+  "name": "alibabacloud-cfw-status-overview",
+  "displayName": "云防火墙状态总览",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-cfw-status-overview/latest/alibabacloud-cfw-status-overview.zip",
+  "zipSha256": "04f2f3b53a8c92381e13d005d0ec768cbd8a8bfb3f4160b508927aeb22736fda",
+  "zipBytes": 24165,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "e1ff23aa0ed09aa149880aca42313a3ded8ddf17de6c9abb24aef78e8fba78ab",
+  "fetchedAt": "2026-11-18T10:38:26.269Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 1
+  },
+  "note": null
+}

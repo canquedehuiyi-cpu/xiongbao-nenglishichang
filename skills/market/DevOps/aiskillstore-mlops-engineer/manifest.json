@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9hz4y2f1",
+  "name": "aiskillstore-mlops-engineer",
+  "displayName": "Mlops开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-mlops-engineer/latest/aiskillstore-mlops-engineer.zip",
+  "zipSha256": "f58103c38857aa7f9cc7610ff345741d4218f26aa14b6c9b10b6a3ea32a806ea",
+  "zipBytes": 7556,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "bb6ec42b22b0eb90c8e2e760c23e1832a8b0225b90c42607a1455ec68b336176",
+  "fetchedAt": "2026-11-18T10:38:58.988Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

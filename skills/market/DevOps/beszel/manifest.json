@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4YHcbNOf",
+  "name": "beszel",
+  "displayName": "Beszel 监控部署与运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivangdavila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/beszel/latest/beszel.zip",
+  "zipSha256": "d580631e2d920a8ec9d48e2ed317838f03c740acbb184ade19436e9bb1b10ba2",
+  "zipBytes": 7303,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "b8ebfadf0b9ad8bd1b79c55adb93def07c98db1d3cc36318971cc62adc734345",
+  "fetchedAt": "2026-11-18T10:38:37.659Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

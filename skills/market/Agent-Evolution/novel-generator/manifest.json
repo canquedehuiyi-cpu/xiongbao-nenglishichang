@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RtcoQREL",
+  "name": "novel-generator",
+  "displayName": "novel generator: 根据用户提供的内容方向自动生成提示词并创作爽文小说。适用场景",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/novel-generator/latest/novel-generator.zip",
+  "zipSha256": "8d14c2147c2c2a9206ac40c0782dca892f2cd1971de908572eb6f5dcbb8a625a",
+  "zipBytes": 9165,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c590a35ab14df80b5cd95aecc7a1dcf5ddfc40815cc7210b80889d2534744375",
+  "fetchedAt": "2026-11-18T10:33:18.893Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

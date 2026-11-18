@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fmreWAOa",
+  "name": "agent-security-skill-scanner",
+  "displayName": "智能体安全技能扫描器",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-security-skill-scanner/latest/agent-security-skill-scanner.zip",
+  "zipSha256": "4a9dfda9d9c557809655d2be9b30ae4571c75c937cc63cf18e3148346e8070ab",
+  "zipBytes": 167963,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 52,
+  "treeSha256": "4b02afa78d17ca056a900a6d855a798c056be74674a5c437e75831c309fe2c2e",
+  "fetchedAt": "2026-11-18T10:40:59.750Z",
+  "credentialScan": {
+    "textFilesScanned": 52,
+    "filesRedacted": 0
+  },
+  "note": null
+}

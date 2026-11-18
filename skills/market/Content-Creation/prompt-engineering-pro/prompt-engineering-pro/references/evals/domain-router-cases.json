@@ -1,0 +1,14 @@
+{
+  "version": "1.0.4",
+  "purpose": "领域路由引擎回归用例（供 validate.mjs 引用）",
+  "cases": [
+    { "id": "DR-01", "request": "帮我写微信小游戏的 IAA 广告文案", "expect": "game" },
+    { "id": "DR-02", "request": "设计一个电商详情页提示词", "expect": "ecommerce" },
+    { "id": "DR-03", "request": "写个小红书种草笔记", "expect": "content" },
+    { "id": "DR-04", "request": "封装一个 skill 系统提示词", "expect": "ai" },
+    { "id": "DR-05", "request": "设计角色原画提示词", "expect": "visual" },
+    { "id": "DR-06", "request": "今天天气怎么样", "expect": "general" },
+    { "id": "DR-07", "forced": "game", "expect": "game" },
+    { "id": "DR-08", "request": "", "expect": "general" }
+  ]
+}

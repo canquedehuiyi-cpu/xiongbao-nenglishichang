@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "4e8be75e-3cf4-4a00-b316-e5853c5e30fa",
+  "name": "douyin-realtime-searchs",
+  "displayName": "抖音作品实时搜索",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08ac0-69e1-7d6d-9306-0a2e9d9c7378/07097454_douyin-search-openclaw-master.zip",
+  "zipSha256": "6396aeefec60388560134d2d712c14a3866ea58c1d17de797ee7254e4adf5887",
+  "zipBytes": 42423,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 33,
+  "treeSha256": "1af3b34dabd5f14f77b046169b36b7e119ea48d49082fb7f54e06e6ca36e5a4d",
+  "fetchedAt": "2026-11-18T10:35:28.654Z",
+  "credentialScan": {
+    "textFilesScanned": 33,
+    "filesRedacted": 0
+  },
+  "note": null
+}

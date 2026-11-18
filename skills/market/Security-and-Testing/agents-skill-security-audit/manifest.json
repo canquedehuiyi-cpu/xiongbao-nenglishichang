@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RUyDiddw",
+  "name": "agents-skill-security-audit",
+  "displayName": "安全审计工具",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "cerbug45",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agents-skill-security-audit/latest/agents-skill-security-audit.zip",
+  "zipSha256": "489c4fe49ddb43af7f39240f612750e3978f28043b3abd65ab41c2803a77d495",
+  "zipBytes": 2773,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "5beb43388336165760ab8d23f498a1b2717f768712ec4243f7d73567a701034a",
+  "fetchedAt": "2026-11-18T10:41:18.402Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

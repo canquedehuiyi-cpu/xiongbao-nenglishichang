@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cW29Glxk",
+  "name": "majiayu000-rust-testing-excellence",
+  "displayName": "Rust开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Main Agent",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-rust-testing-excellence/latest/majiayu000-rust-testing-excellence.zip",
+  "zipSha256": "47de721b79bd9edbf835ba8aa298e7565396c9bd6ebee16dadaf07248b84b3ac",
+  "zipBytes": 5041,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "ab53ab91e90e457f1a3658ab684d2315e22bb001767b9502284fd2ed544c6b17",
+  "fetchedAt": "2026-11-18T10:33:34.632Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0suIgR4U",
+  "name": "self-improving-legal",
+  "displayName": "自我进化法律技能",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/self-improving-legal/latest/self-improving-legal.zip",
+  "zipSha256": "207539e711f28e02b46e21cb3d963fa391109e9ef61570ef2723856cd30f1096",
+  "zipBytes": 32444,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "5c678964cc61b2451d65a5a6915b685acbed5226b1d200cedae8424c1252f0dc",
+  "fetchedAt": "2026-11-18T10:33:10.655Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

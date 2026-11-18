@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Oqk0XTJ3",
+  "name": "carmandale-braintrust-tracing",
+  "displayName": "链路开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "carmandale",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/carmandale-braintrust-tracing/latest/carmandale-braintrust-tracing.zip",
+  "zipSha256": "8eee900d7ead0f0d46499a837b77e75cfc87c0e77a9fe46c4c44059f27228716",
+  "zipBytes": 4353,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "05e2a8b592ce1832eb4c15d540ecf4173b480f924664c9d8809a71e6d0f7315e",
+  "fetchedAt": "2026-11-18T10:38:50.255Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

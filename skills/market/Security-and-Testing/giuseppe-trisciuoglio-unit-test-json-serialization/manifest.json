@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_51x7VKB5",
+  "name": "giuseppe-trisciuoglio-unit-test-json-serialization",
+  "displayName": "JSON测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "giuseppe-trisciuoglio",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/giuseppe-trisciuoglio-unit-test-json-serialization/latest/giuseppe-trisciuoglio-unit-test-json-serialization.zip",
+  "zipSha256": "d3bd6fb99804cf5b8a0f086cc002f0bc07076a5d49c808044f4d577c3be55b24",
+  "zipBytes": 3767,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "3a62ac92dcdcb3ba501e661e662a7b43ec38a2ae135db5f68b7880dc259ca7f6",
+  "fetchedAt": "2026-11-18T10:41:30.246Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

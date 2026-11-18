@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rW3I78rh",
+  "name": "datadog-automation",
+  "displayName": "Datadog 自动化",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "sickn33",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/datadog-automation/latest/datadog-automation.zip",
+  "zipSha256": "840866252087a60622debac2912b3578f4f7f2aba6fb804279765ed0a104e19d",
+  "zipBytes": 3885,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "57e7aa416bc3297a770a6237a63452bae81934b44e8d39b08cbdb7ce5bc500d4",
+  "fetchedAt": "2026-11-18T10:38:33.772Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1uc4MEtq",
+  "name": "dispatching-parallel-agents-2",
+  "displayName": "分发并行智能体",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dispatching-parallel-agents-2/latest/dispatching-parallel-agents-2.zip",
+  "zipSha256": "d6a9c072603d07215d8ebce99ff98d205d5b54209308aa05d0fd0bad8659c5cd",
+  "zipBytes": 3163,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "fc9341c71d231318c44c101ca57efc30d4597f798622282228e52c2d54b7ca02",
+  "fetchedAt": "2026-11-18T10:33:32.297Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

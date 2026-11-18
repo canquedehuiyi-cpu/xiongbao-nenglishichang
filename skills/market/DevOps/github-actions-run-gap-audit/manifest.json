@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EwU6PP78",
+  "name": "github-actions-run-gap-audit",
+  "displayName": "GitHub Actions 运行间隙审计",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "daniellummis",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/github-actions-run-gap-audit/latest/github-actions-run-gap-audit.zip",
+  "zipSha256": "8af74c5f2f31592d217c0a233a14bfc1da2ea339fef54dc813f450a3d7eee218",
+  "zipBytes": 8749,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "86ee9ba037ca3bda8e5df8932b213eb22901af813b35bacc135db288eaea2ffb",
+  "fetchedAt": "2026-11-18T10:38:41.824Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

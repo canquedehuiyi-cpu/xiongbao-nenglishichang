@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8H3i2oOb",
+  "name": "alicloud-ai-chatbot",
+  "displayName": "阿里云智能对话机器人",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alicloud-ai-chatbot/latest/alicloud-ai-chatbot.zip",
+  "zipSha256": "2ec7b0c8b098b921bdb28f63fd49950ff1802b702cb458ba60322755627cc19d",
+  "zipBytes": 4142,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "d1e9d32b4749a5368d469f43af4610acb9942b9ab8849ff11dcd9bc34e7ca0e3",
+  "fetchedAt": "2026-11-18T10:38:40.558Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

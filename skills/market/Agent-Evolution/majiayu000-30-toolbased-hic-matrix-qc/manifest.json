@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_F0ornvIr",
+  "name": "majiayu000-30-toolbased-hic-matrix-qc",
+  "displayName": "iOS质控",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-30-toolbased-hic-matrix-qc/latest/majiayu000-30-toolbased-hic-matrix-qc.zip",
+  "zipSha256": "02094939a8480704c16612249de645be65c47c56ef9565e8a3d01df7ec13dc22",
+  "zipBytes": 4439,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "94d0e0984085e29d53496cb2782deefc66a0a309368f6ae9bae197659c1bd0c6",
+  "fetchedAt": "2026-11-18T10:33:45.945Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

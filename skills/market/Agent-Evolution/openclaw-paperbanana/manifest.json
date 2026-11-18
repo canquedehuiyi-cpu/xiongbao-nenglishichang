@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DvTxHnbk",
+  "name": "openclaw-paperbanana",
+  "displayName": "学术插图生成器",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "goatinahat",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-paperbanana/latest/openclaw-paperbanana.zip",
+  "zipSha256": "e5aa3689db1ed8457c6cd1d99b9038396f38a04249e629e648c8ec93a4b28ec8",
+  "zipBytes": 17895,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "03727ba030583ecb95292cbe7ca1119e4477b06d02ac3acfb1ea6d33f1341f95",
+  "fetchedAt": "2026-11-18T10:33:30.045Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "a4c7bfc2-12e0-4d9d-aab1-62bccc2cab5f",
+  "name": "ssh-remote-device-config",
+  "displayName": "SSH远程登录设备及配置",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a0a2e5-2388-78c4-a061-d9707aaef7a4",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0a41c-e7eb-7f0f-b189-2c173dff8bed/f0fb7a32_ssh-remote-device-config.zip",
+  "zipSha256": "a431440dc160d0bc9b6e06530f31f107cdeba8a94be5716ccf1e6da9dd6a8f3b",
+  "zipBytes": 10256,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "1afadc67eb120c3dd3052d7b75a63607471048d7ac195c6ed6b2daa133797b9b",
+  "fetchedAt": "2026-11-18T10:48:59.281Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

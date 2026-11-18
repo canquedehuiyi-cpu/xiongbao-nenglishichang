@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rj4sAK2v",
+  "name": "majiayu000-godot-optimization",
+  "displayName": "Godot优化",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-godot-optimization/latest/majiayu000-godot-optimization.zip",
+  "zipSha256": "24bc8a935a055147664bac93f793c5d23e33fd5917cdcd37d444464650f04fa5",
+  "zipBytes": 5268,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c3084fb16b5118881f87c8e6697b979d4b5f9236dafeae9273ddff012ef411b9",
+  "fetchedAt": "2026-11-18T10:33:12.940Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

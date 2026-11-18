@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_n7asNQZI",
+  "name": "tianyi-self-upgrade",
+  "displayName": "自我升级与维护",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "fffdz",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/tianyi-self-upgrade/latest/tianyi-self-upgrade.zip",
+  "zipSha256": "2a140f1294de7642b46222fa54220e05afba4e1f311380a55936385cbe17fb47",
+  "zipBytes": 3057,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "46ab7e218f5eb10a048ae9d1d491dccc58b76fee433d237a8a7b9bc53db4e012",
+  "fetchedAt": "2026-11-18T10:38:40.161Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

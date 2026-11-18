@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "55cdd6c6-8851-42c7-8d4e-1bda693719fd",
+  "name": "mcp-criticagent",
+  "displayName": "科学MCP测评",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f1ba1-7866-799e-a029-d511201f94b9",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f358a-b388-7d54-a703-02ff96725706/c79d368b_mcp-criticagent.zip",
+  "zipSha256": "e3f088cf426247d5b1c4766b5d2a374f20061fd81b6f1d8bfd9fd425b0e42561",
+  "zipBytes": 4134,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "ff5cc162ce6bd89893170a492b5a3fb51baca21694efcb504c0a531610616859",
+  "fetchedAt": "2026-11-18T10:33:21.648Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

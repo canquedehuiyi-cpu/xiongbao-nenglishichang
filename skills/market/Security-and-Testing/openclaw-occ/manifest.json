@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0qnjL9pE",
+  "name": "openclaw-occ",
+  "displayName": "OpenClaw受控起源计算插件",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mikeargento",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-occ/latest/openclaw-occ.zip",
+  "zipSha256": "b81ae5f770302f29b8d695ac36bae82e23129ffa5f25aa17ed253e35ec009b75",
+  "zipBytes": 3170,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "54d6fda3d93e534024b06a6203819dd0b9d32a4f82ff2f1ff5421d1a43edbdb2",
+  "fetchedAt": "2026-11-18T10:41:28.034Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

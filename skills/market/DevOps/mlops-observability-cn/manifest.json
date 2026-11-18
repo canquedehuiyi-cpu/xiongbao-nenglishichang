@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_jKEK8K8H",
+  "name": "mlops-observability-cn",
+  "displayName": "MLOps全栈可观测性指南",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "guohongbin-git",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mlops-observability-cn/latest/mlops-observability-cn.zip",
+  "zipSha256": "6693064849fceb2c74fc89ce395a16c154ac4407d414c48c4148ce4fc5a881bb",
+  "zipBytes": 3126,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "210819911c29404ef6675ce50e875fd31e8354a3501539c62473a932091668df",
+  "fetchedAt": "2026-11-18T10:38:51.412Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

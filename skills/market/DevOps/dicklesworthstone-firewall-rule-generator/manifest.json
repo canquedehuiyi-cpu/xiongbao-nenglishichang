@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_IvenXdgQ",
+  "name": "dicklesworthstone-firewall-rule-generator",
+  "displayName": "Firewall生成",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-firewall-rule-generator/latest/dicklesworthstone-firewall-rule-generator.zip",
+  "zipSha256": "49322b3e74b4149b61f1f554734c39e30d306b14d01077f61dbdd2a4df38b443",
+  "zipBytes": 1211,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "0576434775d728f16b4b987eb467c5a96425aa9a9da3ba02b21eb2cdefbfc44a",
+  "fetchedAt": "2026-11-18T10:38:39.040Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

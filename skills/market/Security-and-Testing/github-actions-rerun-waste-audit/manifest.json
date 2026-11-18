@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cCjRc46f",
+  "name": "github-actions-rerun-waste-audit",
+  "displayName": "GitHub Actions 重跑浪费审计",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "daniellummis",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/github-actions-rerun-waste-audit/latest/github-actions-rerun-waste-audit.zip",
+  "zipSha256": "02c0fd650e15c01ce30f0867f2f106193a22274dfab5e1cc2df79e3d2f175610",
+  "zipBytes": 7193,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "a661d998be9a237f404951f6ad977ab703c92d20099913329363d0cf812fbbdc",
+  "fetchedAt": "2026-11-18T10:41:15.131Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

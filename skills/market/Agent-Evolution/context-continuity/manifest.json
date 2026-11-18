@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cweFSMiq",
+  "name": "context-continuity",
+  "displayName": "上下文续接与记忆管理",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "cjstate",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0c39a-ebe8-73bf-8ad1-79b172d947cd/ss_a8ee6e7dc9b4873dbd12bfba2a0b05085d295c17f023145dec3424bd5f92.zip",
+  "zipSha256": "3ea4f4dce4d7d8c7e4afc407b3c82631786205e940c2df6aa44208da77802f62",
+  "zipBytes": 28654,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "c454c13b226b447a49a382a2dc76d32710bea7336ee8e74fcdd6a908478f349d",
+  "fetchedAt": "2026-11-18T10:33:04.124Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

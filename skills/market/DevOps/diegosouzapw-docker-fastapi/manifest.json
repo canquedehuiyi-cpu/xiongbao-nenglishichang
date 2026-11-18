@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_TWpUItDj",
+  "name": "diegosouzapw-docker-fastapi",
+  "displayName": "FastAPI开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-docker-fastapi/latest/diegosouzapw-docker-fastapi.zip",
+  "zipSha256": "e06213f6f2dc1e3f06fc149204b9a9b188210d14a92f302ced108d46733c0287",
+  "zipBytes": 5956,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "49425c025c09355118b81887906cd6ba83db3d1338514a342c41d2ffe96fb75b",
+  "fetchedAt": "2026-11-18T10:38:28.688Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

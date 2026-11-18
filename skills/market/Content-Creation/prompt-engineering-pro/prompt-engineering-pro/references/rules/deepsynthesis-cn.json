@@ -1,0 +1,54 @@
+{
+  "domain": "deepsynthesis",
+  "label": "深度合成 / 多模态 AI 生成（中国）",
+  "jurisdiction": "cn",
+  "modalities": ["text", "image", "video", "audio"],
+  "law_level": "admin",
+  "snapshot_checked": "2026-09-03",
+  "effective_date": null,
+  "status": "current",
+  "superseded_by": null,
+  "sources": [
+    { "name": "互联网信息服务深度合成管理规定", "url": "https://www.cac.gov.cn/2022-12/11/c_1672221949354811.htm", "last_verified": "2026-09-03" },
+    { "name": "人工智能生成合成内容标识办法", "url": "https://www.gov.cn/zhengce/zhengceku/202503/content_7014286.htm", "last_verified": "2026-09-03" }
+  ],
+  "rules": [
+    {
+      "key": "ds_significant_label",
+      "name": "深度合成显著标识",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["换脸", "一键换脸", "人脸合成", "声音克隆", "AI 仿声", "数字人", "深度伪造", "明星的脸", "合成人脸", "伪造视频", "明星形象", "AI 换脸"],
+      "basis": "人工智能生成合成内容标识办法：AI 生成/合成内容需显著标识并含元数据标识",
+      "suggestion": "AI 换脸/仿声/数字人内容必须显著标识，不得用于伪造身份或虚假信息"
+    },
+    {
+      "key": "ds_face_authorize",
+      "name": "人脸/声音合成授权",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["用某人的脸", "模仿某人声音", "生成明星形象", "生成名人配音", "未经同意使用肖像", "明星的脸", "他的声音", "她的声音", "公众人物", "名人形象"],
+      "basis": "深度合成管理规定：合成人脸、声音等生物特征需取得权利人同意，不得侵害他人合法权益",
+      "suggestion": "涉及真人肖像/声音的合成必须取得授权并标注合成属性"
+    },
+    {
+      "key": "ds_disclose",
+      "name": "深度合成内容披露",
+      "type": "remind",
+      "severity": "medium",
+      "triggers": [],
+      "basis": "深度合成管理规定第十六条：深度合成服务提供者需对合成内容显著标识、说明",
+      "suggestion": "深度合成内容应在显著位置说明'本内容由 AI 生成'"
+    },
+    {
+      "key": "ds_false_info",
+      "name": "虚假信息治理",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["伪造新闻", "生成虚假事件", "伪造视频证据", "合成谣言", "AI 造谣"],
+      "basis": "深度合成管理规定：不得利用深度合成技术制作、发布虚假新闻信息",
+      "suggestion": "禁止提示词引导生成虚构的新闻、事件或证据类内容"
+    }
+  ],
+  "meta": { "policy_lock": true, "auto_update": false }
+}

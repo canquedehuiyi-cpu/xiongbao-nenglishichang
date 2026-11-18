@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_EQgcEU7H",
+  "name": "diegosouzapw-administering-linux-majiayu000",
+  "displayName": "Linux开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-administering-linux-majiayu000/latest/diegosouzapw-administering-linux-majiayu000.zip",
+  "zipSha256": "e80528a328e92b691299c9ca8765cb0ba0220f1a36983b581e622f2619a1362e",
+  "zipBytes": 6723,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b1b314f0aacb2be6f1893d9497d31c2ba686c59a2aa4f66e39a1e88a62415995",
+  "fetchedAt": "2026-11-18T10:38:14.188Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

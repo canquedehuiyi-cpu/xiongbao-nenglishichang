@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8XpFznmT",
+  "name": "codexstar69-recon",
+  "displayName": "Recon开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "codexstar69",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/codexstar69-recon/latest/codexstar69-recon.zip",
+  "zipSha256": "ac32b43d3b88f7e4fef38a82eb96d924fa1fd991c8664c66f31fdbf036ae9c10",
+  "zipBytes": 3644,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "955d4dc22bd098188a8e8719c45fb49066bbad8c5292769eaeab97142398f845",
+  "fetchedAt": "2026-11-18T10:41:10.088Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

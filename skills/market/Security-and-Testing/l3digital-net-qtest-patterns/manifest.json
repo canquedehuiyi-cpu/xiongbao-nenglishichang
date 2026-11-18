@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NjHApPoB",
+  "name": "l3digital-net-qtest-patterns",
+  "displayName": "Qtest测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "L3DigitalNet",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/l3digital-net-qtest-patterns/latest/l3digital-net-qtest-patterns.zip",
+  "zipSha256": "ecfb89ad5b04c048da6b211c48f1059ade5afb5e20dc24039c1cc1b40a2ded66",
+  "zipBytes": 11855,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "f5f76f5dd2333c9d00824f5b56bba11696c0a828f6fd3e77591712b95b167ccb",
+  "fetchedAt": "2026-11-18T10:40:55.539Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

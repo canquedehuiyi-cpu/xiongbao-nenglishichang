@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_y2JQCAAg",
+  "name": "majiayu000-networking-essentials",
+  "displayName": "网络基础",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-networking-essentials/latest/majiayu000-networking-essentials.zip",
+  "zipSha256": "cf8b453ae0a5bcc628c4f2e4ec634d224936c545dc8c56af71d0587840590b2d",
+  "zipBytes": 3698,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d06f5094dbe0be8731dafc0d852fb370c06f670c0b94a7554636aaf0d2292c0e",
+  "fetchedAt": "2026-11-18T10:33:16.113Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_l0ciwwMk",
+  "name": "modelscope-studio",
+  "displayName": "魔搭创空间部署",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "modelscope",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/modelscope-studio/latest/modelscope-studio.zip",
+  "zipSha256": "c68e131fb92b143488d069e292ba65df726c4822e78015e3e57d39f83bfee5ba",
+  "zipBytes": 5759,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "9d101369f7939e321b163dfc1e4faf736f4596d144870309e2122d106c7fd1f6",
+  "fetchedAt": "2026-11-18T10:38:39.567Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

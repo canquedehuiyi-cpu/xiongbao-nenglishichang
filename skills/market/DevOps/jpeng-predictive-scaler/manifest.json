@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_682MofCc",
+  "name": "jpeng-predictive-scaler",
+  "displayName": "预测性扩缩容器",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jpeng-predictive-scaler/latest/jpeng-predictive-scaler.zip",
+  "zipSha256": "081ad9dd2a834c06cf5542f872c02c7c2c5741fbc6404987b7b9d06738290e10",
+  "zipBytes": 7006,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "a43503310ae35593684a225b17c9fde76d4b5a3a9ddce2e96e97e09692d914bb",
+  "fetchedAt": "2026-11-18T10:38:41.133Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9lm0Ru0X",
+  "name": "diegosouzapw-deploying-applications-neversight",
+  "displayName": "K8s应用部署",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-deploying-applications-neversight/latest/diegosouzapw-deploying-applications-neversight.zip",
+  "zipSha256": "402e9e19a0661249cab62f6ebd96f549a36230bd57e9efc72e10e2a2cea6b616",
+  "zipBytes": 6042,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3cbe97ddeaa71a7ed5e7d73d90eb0d174f3579c8538b86b24836aac53f5da0b7",
+  "fetchedAt": "2026-11-18T10:38:21.931Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

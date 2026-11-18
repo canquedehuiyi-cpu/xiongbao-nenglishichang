@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "df340c41-c47a-4f13-9b27-160cc353257b",
+  "name": "nodejs-security-guard",
+  "displayName": "Node.js漏洞扫描",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Qoder",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a162e5-436d-741b-bb25-c4efc59b197b/6b261d9f_nodejs-security-guard.zip",
+  "zipSha256": "f9e1e3033531508aeeca625587de469e5acdfeaf66c99fb7aa6d0e572e27bf8f",
+  "zipBytes": 21245,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "f2dbb81c3efac02ae6463d05452da6ff82bd7013774e4a147d482b26ef623ff5",
+  "fetchedAt": "2026-11-18T10:40:45.245Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

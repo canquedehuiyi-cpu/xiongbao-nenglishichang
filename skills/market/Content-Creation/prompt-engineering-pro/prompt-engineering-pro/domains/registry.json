@@ -1,0 +1,326 @@
+{
+  "version": "1.1.0",
+  "description": "领域适配层注册表：定义提示词工程系统的领域/平台/模板/词库/规范源/评分权重。新增领域 = 在 domains 下新增目录并在本表注册一条，核心引擎无需改动。spec_sources 与 references/spec-sources.json 的 domain 字段一一对应（供 verify-spec 按领域核验）；领域合规规则快照由 references/rules/ 目录直接驱动（schema 校验后执行），不在此重复登记。 技能健康度字段（success_rate/usage/first_seen/last_seen）由 track-outcome/learner 动态计算，注册表仅预留 schema。",
+  "domains": {
+    "game": {
+      "label": "游戏",
+      "platforms": [
+        "wechat-minigame",
+        "douyin-minigame",
+        "qq-minigame",
+        "kuaishou-minigame",
+        "alipay-minigame",
+        "baidu-minigame",
+        "quickgame-alliance",
+        "huawei-quickgame",
+        "vivo-minigame",
+        "unity",
+        "cocos",
+        "steam",
+        "taptap",
+        "national-game",
+        "general"
+      ],
+      "templates": [
+        "GAME-DEV",
+        "GAME-NPC",
+        "GAME-DESIGN",
+        "GAME-ASSET",
+        "GAME-STORE"
+      ],
+      "lexicons": [
+        "game-platform"
+      ],
+      "spec_sources": [
+        "wechat-minigame",
+        "douyin-minigame",
+        "qq-minigame",
+        "kuaishou-minigame",
+        "alipay-minigame",
+        "baidu-minigame",
+        "quickgame-alliance",
+        "huawei-quickgame",
+        "vivo-minigame",
+        "national-game"
+      ],
+      "score_weights": {
+        "compliance": 1.2,
+        "clarity": 1.1
+      },
+      "hint": "所有平台小游戏/游戏类提示词：开发、NPC、策划案、美术素材、上架物料；合规统一遵循国家层（防沉迷/版号/实名/内容安全）",
+      "health": {
+        "success_rate": null,
+        "usage": 0,
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    "visual": {
+      "label": "视觉设计",
+      "platforms": [
+        "image-gen",
+        "character-design",
+        "3d-model",
+        "ui-design",
+        "video",
+        "general"
+      ],
+      "templates": [
+        "IMAGE-GEN",
+        "CHARACTER-DESIGN",
+        "UI-DESIGN",
+        "VIDEO-SCRIPT"
+      ],
+      "lexicons": [],
+      "spec_sources": [
+        "deepsynthesis-cn",
+        "ai-label-cn"
+      ],
+      "score_weights": {
+        "instruction": 1.2,
+        "detail": 1.1
+      },
+      "hint": "视觉类提示词：文生图、角色设计、3D 建模、UI 设计、视频脚本；多模态 AI 生成须遵循深度合成与 AI 标识规范",
+      "health": {
+        "success_rate": null,
+        "usage": 0,
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    "ai": {
+      "label": "AI 工程",
+      "platforms": [
+        "agent",
+        "skill-pack",
+        "mcp",
+        "workflow",
+        "general"
+      ],
+      "templates": [
+        "AGENT-SYSTEM",
+        "SKILL-PACK",
+        "MCP-DECL"
+      ],
+      "lexicons": [],
+      "spec_sources": [
+        "wechat-ai-skill",
+        "skillhub",
+        "openai",
+        "anthropic",
+        "aliyun",
+        "volcengine",
+        "eu-ai-act",
+        "app-store",
+        "google-play"
+      ],
+      "score_weights": {
+        "safety": 1.2,
+        "verifiability": 1.1
+      },
+      "hint": "AI 工程类提示词：Agent 系统提示词、Skill 封装、MCP 声明、多智能体编排；面向欧盟需满足 EU AI Act 透明度与风险分级",
+      "health": {
+        "success_rate": null,
+        "usage": 0,
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    "ecommerce": {
+      "label": "电商",
+      "platforms": [
+        "taobao",
+        "jd",
+        "douyin-shop",
+        "pdd",
+        "amazon",
+        "general"
+      ],
+      "templates": [
+        "PRODUCT-TITLE",
+        "DETAIL-PAGE",
+        "LIVE-SCRIPT",
+        "CS-SCRIPT"
+      ],
+      "lexicons": [],
+      "spec_sources": [
+        "oceanengine",
+        "finance-cn"
+      ],
+      "score_weights": {
+        "clarity": 1.1,
+        "compliance": 1.1
+      },
+      "hint": "电商类提示词：商品标题、详情页、直播脚本、客服话术；营销文案须遵循广告法与平台审核规范",
+      "health": {
+        "success_rate": null,
+        "usage": 0,
+        "first_seen": null,
+        "last_seen": null
+      }
+    },
+    "content": {
+      "label": "内容创作",
+      "platforms": [
+        "xiaohongshu",
+        "wechat-article",
+        "short-video",
+        "seo",
+        "general"
+      ],
+      "templates": [
+        "XHS-NOTE",
+        "WECHAT-ARTICLE",
+        "SEO"
+      ],
+      "lexicons": [],
+      "spec_sources": [],
+      "score_weights": {
+        "clarity": 1.1
+      },
+      "hint": "内容创作类提示词：小红书、公众号、短视频、SEO；推广/种草内容须具备广告可识别性",
+      "health": {
+        "success_rate": null,
+        "usage": 0,
+        "first_seen": null,
+        "last_seen": null
+      }
+    }
+  },
+  "dependency_graph": {
+    "version": "1.1.0",
+    "description": "依赖关系有向图（DAG）：模板依赖引擎、引擎依赖词库/规范快照/运行时数据；health-report 据此做依赖图一致性校验，engine-catalog 为引擎全量注册表。",
+    "templates_depend_on": {
+      "CO-STAR": [
+        "build-prompt",
+        "token-count",
+        "scan-safety",
+        "score-prompt"
+      ],
+      "GAME-DEV": [
+        "build-prompt",
+        "domain-compliance-check",
+        "wechat-minigame-check",
+        "national-game-check",
+        "scan-safety",
+        "score-prompt"
+      ],
+      "GAME-NPC": [
+        "build-prompt",
+        "scan-safety",
+        "score-prompt"
+      ],
+      "GAME-DESIGN": [
+        "build-prompt",
+        "domain-compliance-check",
+        "scan-safety",
+        "score-prompt"
+      ],
+      "GAME-ASSET": [
+        "build-prompt",
+        "scan-safety",
+        "score-prompt"
+      ],
+      "GAME-STORE": [
+        "build-prompt",
+        "domain-compliance-check",
+        "wechat-minigame-check",
+        "national-game-check",
+        "scan-safety",
+        "score-prompt"
+      ],
+      "IMAGE-GEN": [
+        "build-prompt",
+        "scan-safety",
+        "score-prompt"
+      ],
+      "CHARACTER-DESIGN": [
+        "build-prompt",
+        "scan-safety",
+        "score-prompt"
+      ],
+      "UI-DESIGN": [
+        "build-prompt",
+        "scan-safety",
+        "score-prompt"
+      ],
+      "VIDEO-SCRIPT": [
+        "build-prompt",
+        "scan-safety",
+        "score-prompt"
+      ]
+    },
+    "engines_depend_on": {
+      "build-prompt": [
+        "references/templates.md",
+        "references/environment-matrix.md",
+        "domains/registry.json"
+      ],
+      "technique-router": [
+        "references/techniques.md",
+        "references/techniques/model-techniques/"
+      ],
+      "model-adapt": [
+        "references/techniques.md",
+        "references/techniques/model-techniques/"
+      ],
+      "scan-safety": [
+        "references/lexicon/red.json",
+        "references/lexicon/gray.json"
+      ],
+      "verify-spec": [
+        "references/spec-sources.json",
+        "references/platform-spec-registry.md"
+      ],
+      "domain-compliance-check": [
+        "references/rules/",
+        "domains/registry.json"
+      ],
+      "safety-compose": [
+        "references/rules/",
+        "references/lexicon/"
+      ],
+      "domain-router": [
+        "domains/registry.json"
+      ],
+      "wechat-minigame-check": [
+        "references/platform-spec-registry.md",
+        "references/lexicon/"
+      ],
+      "national-game-check": [
+        "references/platform-spec-registry.md"
+      ],
+      "track-outcome": [
+        "data/outcomes"
+      ],
+      "skill-evo": [
+        "references/proposals"
+      ],
+      "learner": [
+        "data/habit-profile",
+        "data/learning",
+        "data/outcomes"
+      ],
+      "version-store": [
+        "references/versions"
+      ],
+      "host-adapt": [
+        "SKILL.md"
+      ],
+      "health-report": [
+        "scripts/",
+        "references/",
+        "references/lexicon/red.json"
+      ],
+      "run-eval": [
+        "eval-case-gen"
+      ],
+      "diagnose-failures": [
+        "track-outcome"
+      ],
+      "output-check": [
+        "prompt-contract-check"
+      ]
+    }
+  }
+}

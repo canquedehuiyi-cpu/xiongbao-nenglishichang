@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_iawfIm4G",
+  "name": "cicd-workflow",
+  "displayName": "CI/CD 工作流",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a1e4a7-226e-78c1-96af-d73d34e6d9fa/5618385fe45897573d5008429e15b3a8057cd2750995c64bd162739aa0c3ef8b.zip",
+  "zipSha256": "5618385fe45897573d5008429e15b3a8057cd2750995c64bd162739aa0c3ef8b",
+  "zipBytes": 23980,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "36ce85f015afb9c0f6dbcbd0d7d9aa3088eac97d9959447e10b30c920dd6203f",
+  "fetchedAt": "2026-11-18T10:47:49.129Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

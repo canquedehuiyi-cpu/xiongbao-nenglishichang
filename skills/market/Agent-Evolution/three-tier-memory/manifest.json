@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_IYeWllqC",
+  "name": "three-tier-memory",
+  "displayName": "AI Agent 三层记忆系统",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "official",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/three-tier-memory/latest/three-tier-memory.zip",
+  "zipSha256": "11a8f67652427480ce4fbd022ddd9c91759e0c6360dabb27f9c35a1c7bf16496",
+  "zipBytes": 8030,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "23351f3c40f27ba6d449678f90e4d658d9b3b2b0a71f070e18a42ef1e7524573",
+  "fetchedAt": "2026-11-18T10:33:19.666Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

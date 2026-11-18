@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PSZa17pM",
+  "name": "alibabacloud-aes-sysom-os-diagnosis",
+  "displayName": "Sysom-Linux操作系统-一键内核级别性能诊断与自动告警",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-aes-sysom-os-diagnosis/latest/alibabacloud-aes-sysom-os-diagnosis.zip",
+  "zipSha256": "1174906cc5100efaa709460162720c4590c8764422c37714c2b0c701e4d6a874",
+  "zipBytes": 34039,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "25877245425a71ebba0943c0e830818dd1328625cc9f12951d728c8149a37981",
+  "fetchedAt": "2026-11-18T10:38:35.206Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 1
+  },
+  "note": null
+}

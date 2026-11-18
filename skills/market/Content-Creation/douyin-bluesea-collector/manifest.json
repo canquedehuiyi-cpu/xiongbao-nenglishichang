@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "967b455b-b4e1-4073-8465-d863878ff2d6",
+  "name": "douyin-bluesea-collector",
+  "displayName": "抖音蓝海爆品采集助手",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08b84-3f8d-761b-8aa7-c3875e0a1608/dee750e1_douyin-bluesea-collector-main.zip",
+  "zipSha256": "152ac73a4c843ec70e7d7cfe111510130ee670915dd71d2d4908a59ce3cd4e90",
+  "zipBytes": 43126,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 34,
+  "treeSha256": "2575ecc73141a284801b493861ea45a494a89f472dbd39935fdb3368d22e3bd2",
+  "fetchedAt": "2026-11-18T10:35:30.505Z",
+  "credentialScan": {
+    "textFilesScanned": 33,
+    "filesRedacted": 0
+  },
+  "note": null
+}

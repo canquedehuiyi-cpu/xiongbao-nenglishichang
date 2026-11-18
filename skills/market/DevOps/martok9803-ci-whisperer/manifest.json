@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_217MBvEV",
+  "name": "martok9803-ci-whisperer",
+  "displayName": "CI 诊断专家",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "martok9803",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/martok9803-ci-whisperer/latest/martok9803-ci-whisperer.zip",
+  "zipSha256": "8d48859bbc6aeda6a12572ac5cf1e3551b70e745db9fd3b094ecd9a0e02c8cc7",
+  "zipBytes": 3853,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "50a21da67d4d128765a92c8f625d34b0ecea56651f81795cba886445138dbb8d",
+  "fetchedAt": "2026-11-18T10:38:33.137Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

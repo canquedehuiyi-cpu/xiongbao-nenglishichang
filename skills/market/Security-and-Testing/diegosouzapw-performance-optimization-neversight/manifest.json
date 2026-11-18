@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6ksTl3kJ",
+  "name": "diegosouzapw-performance-optimization-neversight",
+  "displayName": "性能优化",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-performance-optimization-neversight/latest/diegosouzapw-performance-optimization-neversight.zip",
+  "zipSha256": "c5934ec05f1e18f9be47541972908ad43c743800c763a23d83c64f9d4a50d456",
+  "zipBytes": 4449,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9643427e363ff22b6d8caa2156c6d7d4b42f46effcb943b33810ef152a29eae7",
+  "fetchedAt": "2026-11-18T10:41:02.964Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

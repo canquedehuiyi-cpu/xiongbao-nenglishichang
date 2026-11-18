@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DtpGzQCU",
+  "name": "89jobrien-golang-testing",
+  "displayName": "GoGolang测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "89jobrien",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/89jobrien-golang-testing/latest/89jobrien-golang-testing.zip",
+  "zipSha256": "d1d66f0c2d83bee57b01866fa0f4eca988e387a39fa88218887e8dbd0f53d271",
+  "zipBytes": 3330,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "5d38fbe626a729d39385fc03b190197b9438408815a9197005e4dc5924d9f3d3",
+  "fetchedAt": "2026-11-18T10:41:09.280Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

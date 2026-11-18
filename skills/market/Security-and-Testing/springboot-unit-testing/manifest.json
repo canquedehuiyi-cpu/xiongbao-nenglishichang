@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MIbyF7JS",
+  "name": "springboot-unit-testing",
+  "displayName": "Spring Boot MyBatis 单元测试专家",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/springboot-unit-testing/latest/springboot-unit-testing.zip",
+  "zipSha256": "f7947487dad607d801c1333a05b74fc4a6371b13633a8c410d6ef63669fca259",
+  "zipBytes": 63601,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "7d47679d8c6e438da4a217d4aa7f2129a4dc7f0484e106138ddd1e10c0ac2cdf",
+  "fetchedAt": "2026-11-18T10:40:47.633Z",
+  "credentialScan": {
+    "textFilesScanned": 14,
+    "filesRedacted": 0
+  },
+  "note": null
+}

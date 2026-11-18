@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tEkA2VlP",
+  "name": "openclaw-triage",
+  "displayName": "OpenClaw 事件排查",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "atlaspa",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-triage/latest/openclaw-triage.zip",
+  "zipSha256": "383eaec00e9e15e2917e54a1f3a7f59cbcf1602e291e91ab58e00d858e878633",
+  "zipBytes": 18518,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "99dfcdd6df13711f93c4ac7c794a553aca8f290331dfcfb62d9d9a48cfe2804b",
+  "fetchedAt": "2026-11-18T10:41:10.775Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

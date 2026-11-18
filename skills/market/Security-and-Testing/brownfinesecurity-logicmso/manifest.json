@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2v3XnkBD",
+  "name": "brownfinesecurity-logicmso",
+  "displayName": "Logicmso开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "BrownFineSecurity",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/brownfinesecurity-logicmso/latest/brownfinesecurity-logicmso.zip",
+  "zipSha256": "d9e5335fe5a7a74bfaf9617e707de36a719ad696ec42d244ba566dbb8df7179b",
+  "zipBytes": 9313,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "2150d9ab9855b50dc6bb7d8beddd02805481dd9c72c179733a60c929dfce3404",
+  "fetchedAt": "2026-11-18T10:41:11.190Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_G8fG2hpT",
+  "name": "zgglj2-ai-security-scanner",
+  "displayName": "AI Agent 安全检测工具",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "zgglj2",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/zgglj2-ai-security-scanner/latest/zgglj2-ai-security-scanner.zip",
+  "zipSha256": "14f10862eeecbd2c134f23d3d461c64ec831d8e4ce1e4c70c82dacbec2b28d58",
+  "zipBytes": 56362,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 24,
+  "treeSha256": "65d623ab7014159b709920a20c99f2414ab385ac7158078765f23ebc86efb80d",
+  "fetchedAt": "2026-11-18T10:41:04.047Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

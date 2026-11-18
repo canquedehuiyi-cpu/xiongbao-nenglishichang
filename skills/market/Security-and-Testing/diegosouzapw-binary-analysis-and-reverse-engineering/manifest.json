@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FT0sGTTY",
+  "name": "diegosouzapw-binary-analysis-and-reverse-engineering",
+  "displayName": "工程Binary",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-binary-analysis-and-reverse-engineering/latest/diegosouzapw-binary-analysis-and-reverse-engineering.zip",
+  "zipSha256": "52edebc78ce740e70a18e522265f47329b60759fee7f0d2a13c6d6a221e6292f",
+  "zipBytes": 6208,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "04a04e1fb22e9460c0c3ad336ab4648583643a1df257fb130ee9b2bba7a4fea8",
+  "fetchedAt": "2026-11-18T10:41:02.752Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

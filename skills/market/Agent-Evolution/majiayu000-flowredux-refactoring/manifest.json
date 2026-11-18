@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZqOiSEXH",
+  "name": "majiayu000-flowredux-refactoring",
+  "displayName": "安卓代码重构",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-flowredux-refactoring/latest/majiayu000-flowredux-refactoring.zip",
+  "zipSha256": "773d3aa950d5285b509c805a195ecb71c291ded29cadf3da7eaf1d7d0c1518c4",
+  "zipBytes": 4164,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "dbc1606705bb54cb39c37016f48b47e916966817d41063f7d110939d6a1c90c4",
+  "fetchedAt": "2026-11-18T10:33:23.635Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

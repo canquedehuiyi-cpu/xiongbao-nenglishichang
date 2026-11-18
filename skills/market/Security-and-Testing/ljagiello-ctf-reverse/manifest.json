@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_NgFdTOoc",
+  "name": "ljagiello-ctf-reverse",
+  "displayName": "Reverse开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ljagiello",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ljagiello-ctf-reverse/latest/ljagiello-ctf-reverse.zip",
+  "zipSha256": "63c86116cfdfecd457e804bd0da752fee1b45909275b9af5b3ca4f3a08a47306",
+  "zipBytes": 43839,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "7e19733ed5b091733d442ff429f2801e85586c51b528767ef4a22cf66f01f89d",
+  "fetchedAt": "2026-11-18T10:40:48.111Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

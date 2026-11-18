@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5XkOFqqV",
+  "name": "majiayu000-cplusplus-ecosystem",
+  "displayName": "Cpp生态",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-cplusplus-ecosystem/latest/majiayu000-cplusplus-ecosystem.zip",
+  "zipSha256": "d947410610d9e0ba47e3d0b334ac2c20b6bffaaf245d5ce2bb000433ce22b0a2",
+  "zipBytes": 8344,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d15ba50f21a57a62a6f655362624ae7b65919c47c5e96171798399c830728163",
+  "fetchedAt": "2026-11-18T10:33:15.826Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7HdmimRY",
+  "name": "flutter-flutter-setting-up-on-linux",
+  "displayName": "Up开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "flutter",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/flutter-flutter-setting-up-on-linux/latest/flutter-flutter-setting-up-on-linux.zip",
+  "zipSha256": "f857950fea2d1ef83bba2b70dee90f5d74e824994e23522a85b71f881ae46ad3",
+  "zipBytes": 2162,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "76d0be28312aaf65e394398ebf681f62347a970381cbb635ccb946a00ceb1552",
+  "fetchedAt": "2026-11-18T10:38:38.021Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

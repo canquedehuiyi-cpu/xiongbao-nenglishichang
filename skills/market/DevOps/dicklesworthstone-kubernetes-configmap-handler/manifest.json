@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_QFi42lC5",
+  "name": "dicklesworthstone-kubernetes-configmap-handler",
+  "displayName": "Handler运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-kubernetes-configmap-handler/latest/dicklesworthstone-kubernetes-configmap-handler.zip",
+  "zipSha256": "64fe8f0ca8a2cddd25cc03eeb03efe9206dcb77d824552ab1876edf81423f427",
+  "zipBytes": 1217,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "2b00cff6a58a21764f8b69732905879342da426661caad3ea27371a9b8f61b6f",
+  "fetchedAt": "2026-11-18T10:38:30.403Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

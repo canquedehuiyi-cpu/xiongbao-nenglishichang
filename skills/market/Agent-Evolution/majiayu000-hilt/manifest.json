@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fxSPgKJE",
+  "name": "majiayu000-hilt",
+  "displayName": "安卓HILT",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-hilt/latest/majiayu000-hilt.zip",
+  "zipSha256": "7f3382f31cfe682719f4f216595f30e9c641968b458d21c44ab7adc0743a335a",
+  "zipBytes": 20466,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "028b8a8536866c554064c9e81c93789c1191e0e577323dd6e51cb7ffc6b8cc1e",
+  "fetchedAt": "2026-11-18T10:33:41.811Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

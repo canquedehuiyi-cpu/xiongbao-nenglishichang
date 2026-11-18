@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_OGKiy0lj",
+  "name": "amnadtaowsoam-pytest-patterns",
+  "displayName": "Pytest模式",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AmnadTaowsoam",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amnadtaowsoam-pytest-patterns/latest/amnadtaowsoam-pytest-patterns.zip",
+  "zipSha256": "8cc3f24f4b8aefe3f1fbe159ca9c924e4d681b838814631c9de0ff14661f1e7e",
+  "zipBytes": 3001,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "0213cbec6989abbbff13f2c75622c9d05467fa320f4c5a349cd4cabde43e89a7",
+  "fetchedAt": "2026-11-18T10:41:08.034Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

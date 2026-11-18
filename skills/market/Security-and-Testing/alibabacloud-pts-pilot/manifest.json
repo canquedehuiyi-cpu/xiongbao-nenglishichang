@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_gHlaS9pn",
+  "name": "alibabacloud-pts-pilot",
+  "displayName": "PTS压测全流程路由与调优引导",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-pts-pilot/latest/alibabacloud-pts-pilot.zip",
+  "zipSha256": "464f9010c3b094316b7e6dd789dc803c560608a1628421c62bdbecbf9316248b",
+  "zipBytes": 9739,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "ab11e62fca39713dab85dfe1884d219fbeffbc3e40888ec338f7f55b09c1c291",
+  "fetchedAt": "2026-11-18T10:41:13.101Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

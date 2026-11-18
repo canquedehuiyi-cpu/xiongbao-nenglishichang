@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "e3bd912b-f156-4f04-bd32-5f7f23b93a1a",
+  "name": "self-improvement",
+  "displayName": "自我提升·三法则",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019ef3cc-7669-7543-b558-1a226ab4c2be",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcc98-3fd9-708c-988d-eb8d5d2df35d/295def3e_self-improvement-v1.0.0.zip",
+  "zipSha256": "d00d0045fffa7169fefcc74d55f5f67c21ed063e5ba4158b52be597ec8e7789b",
+  "zipBytes": 3422,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6ac3ecdf54b82ddc136ae32f0994508a3cf62d1b36cc0add7083b85f1e9ae03b",
+  "fetchedAt": "2026-11-18T10:33:22.516Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

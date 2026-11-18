@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_agGsbQRa",
+  "name": "majiayu000-java-optimize-quarkus-native",
+  "displayName": "Java优化",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-java-optimize-quarkus-native/latest/majiayu000-java-optimize-quarkus-native.zip",
+  "zipSha256": "f3440d419c22375c6c1aafb0f0baad916b7dd9646dca3a9578c1e6230f5c4b4e",
+  "zipBytes": 2041,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "aa85e9315a7f7ad26f354aaf91f9f171607f51c3930b39cfbdb22d8ed43b79d3",
+  "fetchedAt": "2026-11-18T10:33:38.945Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

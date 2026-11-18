@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JCQg8JQf",
+  "name": "automation-testing",
+  "displayName": "自动化测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "naodeng",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/automation-testing/latest/automation-testing.zip",
+  "zipSha256": "93231ea414fbc5c9d215c74483ae9a6d65bcb85c35118c7ffdeed63251fd35c8",
+  "zipBytes": 963,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "bdf7908774efa6367421b757fcd9a052c8063bc839629150fbec6e01ac54daf8",
+  "fetchedAt": "2026-11-18T10:40:44.892Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

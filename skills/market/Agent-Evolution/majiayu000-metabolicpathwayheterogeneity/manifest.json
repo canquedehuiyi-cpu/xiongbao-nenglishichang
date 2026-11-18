@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PmxUJzQq",
+  "name": "majiayu000-metabolicpathwayheterogeneity",
+  "displayName": "金融代谢异质",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-metabolicpathwayheterogeneity/latest/majiayu000-metabolicpathwayheterogeneity.zip",
+  "zipSha256": "57f7d0204bc30d5cefa19d5253c9ddc6e274f3563b6ee5724747ae388e134d5c",
+  "zipBytes": 6828,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8e3fe403e7c6127259dca20489a200a365174f823c8ed7580edc45e889c3265a",
+  "fetchedAt": "2026-11-18T10:33:43.700Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9CXOCjsk",
+  "name": "404kidwiz-penetration-tester-skill",
+  "displayName": "Tester测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "404kidwiz",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/404kidwiz-penetration-tester-skill/latest/404kidwiz-penetration-tester-skill.zip",
+  "zipSha256": "31b380bc78d879f0c552b3bcaaea0b4d80051cd39cd24b106e97273ff2934b2b",
+  "zipBytes": 36335,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "1bfb51a1d3b16a79f8c0d980ab75ab0c37448ec949b891db254024daf5fe861b",
+  "fetchedAt": "2026-11-18T10:40:54.203Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

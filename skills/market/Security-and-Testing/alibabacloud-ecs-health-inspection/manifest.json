@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8XBZudA9",
+  "name": "alibabacloud-ecs-health-inspection",
+  "displayName": "ECS健康巡检",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-ecs-health-inspection/latest/alibabacloud-ecs-health-inspection.zip",
+  "zipSha256": "9b5947ef725be15ec1f8019625fba61e6fdce4b08b6283ae9aef6265a2d74377",
+  "zipBytes": 32858,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "0297938083ba18ae840573d16604599fb004dd1f95bffbdd66456d02d8415fe7",
+  "fetchedAt": "2026-11-18T10:40:56.042Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

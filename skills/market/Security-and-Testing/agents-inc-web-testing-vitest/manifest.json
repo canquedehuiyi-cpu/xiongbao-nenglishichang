@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MDxmMlW3",
+  "name": "agents-inc-web-testing-vitest",
+  "displayName": "网页Vitest",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "agents-inc",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agents-inc-web-testing-vitest/latest/agents-inc-web-testing-vitest.zip",
+  "zipSha256": "96bffe5762d8cbd6e168aebee218e1200b343b1a5c49167cdde7e54bdfe9eb69",
+  "zipBytes": 12202,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "47d99991c72096ee8bc38ad46cee7277cf7ed216fe130b7d56de4e9b2ae706ca",
+  "fetchedAt": "2026-11-18T10:41:06.099Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

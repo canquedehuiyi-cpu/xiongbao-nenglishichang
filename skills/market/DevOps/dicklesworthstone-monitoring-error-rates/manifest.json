@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6zQjkCGt",
+  "name": "dicklesworthstone-monitoring-error-rates",
+  "displayName": "错误监控",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-monitoring-error-rates/latest/dicklesworthstone-monitoring-error-rates.zip",
+  "zipSha256": "a79030eac464b21cc443223f511f3d3e1cc84265dc67af7c78f198a0755a5fb9",
+  "zipBytes": 8097,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "e5cb68f96299081d85ee1c75780463b6ba8e8b05bad85d63bd6f7a978b3cb6e8",
+  "fetchedAt": "2026-11-18T10:38:31.528Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

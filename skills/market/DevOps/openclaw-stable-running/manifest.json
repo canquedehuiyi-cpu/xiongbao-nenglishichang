@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_OjcPX2lb",
+  "name": "openclaw-stable-running",
+  "displayName": "OpenClaw 长稳运行方案",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-stable-running/latest/openclaw-stable-running.zip",
+  "zipSha256": "101b87c06149f1e171b50f4df03d406c7e49a4fe693dbaeacf32a8c8d588437f",
+  "zipBytes": 12092,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "90243b170041a0566b6db207e1f981e7ddcd7cb5956bfb7d36e8cedf2db54de4",
+  "fetchedAt": "2026-11-18T10:38:50.118Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

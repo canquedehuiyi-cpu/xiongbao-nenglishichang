@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8B9kiW03",
+  "name": "arustydev-cicd-gitea-actions-dev",
+  "displayName": "Gitea运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aRustyDev",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/arustydev-cicd-gitea-actions-dev/latest/arustydev-cicd-gitea-actions-dev.zip",
+  "zipSha256": "8b1c2417d002eb77be54f7c0ecc485d0919ea2017438fffd0fe7ebcdcd5d50ba",
+  "zipBytes": 3581,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "333cccf6b94e3e63ec54dca0e36dda15324e0824774acdadec710f910b01dec4",
+  "fetchedAt": "2026-11-18T10:38:40.754Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

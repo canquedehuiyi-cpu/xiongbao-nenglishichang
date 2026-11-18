@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "c2a3f3e8-c89f-48ab-b4a8-d863668bcdce",
+  "name": "cloudflare-worker-builder",
+  "displayName": "Cloudflare Worker 构建",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd84-4e6f-78d1-ad00-3daeb3dc6687/2447f593_cloudflare-worker-builder.zip",
+  "zipSha256": "04335d2af8ba88f74721122176ec2688e4c6947670422fc4530b4b5b3454dac7",
+  "zipBytes": 25118,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "d9088921a6bf9f209ddec86436c0c9b82d63705ee3733763762200eb66a66637",
+  "fetchedAt": "2026-11-18T10:38:29.709Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

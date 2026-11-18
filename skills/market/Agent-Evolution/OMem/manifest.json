@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "fb200a07-052b-486e-b229-2bd4cca551b3",
+  "name": "OMem",
+  "displayName": null,
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f3b87-0075-7d6a-adaa-19b07624a5cd",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f40d6-2219-76c5-aa11-12d7c0e7366d/c8795857_omem.zip",
+  "zipSha256": "eae5d1777f5aa235d73f774ddad8562755747462d666f07b763a9bdbff79129f",
+  "zipBytes": 19705,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 14,
+  "treeSha256": "a37600984846d0b4f88b06725b6a774b310cacd24015a9dc2e89e515b5b34b32",
+  "fetchedAt": "2026-11-18T10:33:44.752Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

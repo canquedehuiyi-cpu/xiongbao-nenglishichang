@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2bLMDFd0",
+  "name": "mlx-audio-server",
+  "displayName": "MLX 音频服务器",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/mlx-audio-server/latest/mlx-audio-server.zip",
+  "zipSha256": "376c091b792b3287899a4969e8c8da632d5f46a695aae7f5e9e4d10d898e346f",
+  "zipBytes": 4193,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "87d15f2eb9579a98e1a80e484a06a2457a4c31cc6084343fedcba150493a93ca",
+  "fetchedAt": "2026-11-18T10:38:43.845Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

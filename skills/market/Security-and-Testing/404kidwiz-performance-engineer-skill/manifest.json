@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GRkpf1Dz",
+  "name": "404kidwiz-performance-engineer-skill",
+  "displayName": "性能优化",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "404kidwiz",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/404kidwiz-performance-engineer-skill/latest/404kidwiz-performance-engineer-skill.zip",
+  "zipSha256": "6b1ebde41f369493a6aa29dcc82ca460a34429b217e6445b24f21021a8af2293",
+  "zipBytes": 4475,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "3c44f555301d0bd4983e1f25999b9506f7cf6c08c9235075a9b9a4b57e5c10ca",
+  "fetchedAt": "2026-11-18T10:40:51.490Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_C5tCnPCx",
+  "name": "boisenoise-antigravity-obsidian-clipper-template-creator",
+  "displayName": "Obsidian设计",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-obsidian-clipper-template-creator/latest/boisenoise-antigravity-obsidian-clipper-template-creator.zip",
+  "zipSha256": "24bcbbfa957821ad84f5f7d90a25b1621c01c9f1759c43ea9f96b9c3c7fccfd3",
+  "zipBytes": 11150,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "ed3bf9b481e8846e1601330753abd75bc6d92ecd4816490e0d0cc8e980569814",
+  "fetchedAt": "2026-11-18T10:35:23.076Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

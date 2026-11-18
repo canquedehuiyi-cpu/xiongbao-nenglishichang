@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_yf8GmTbn",
+  "name": "alibabacloud-tech-solution-animation-creation-auto-deploy",
+  "displayName": "AI 剧本生成与动画创作自动部署",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-tech-solution-animation-creation-auto-deploy/latest/alibabacloud-tech-solution-animation-creation-auto-deploy.zip",
+  "zipSha256": "dad87c3001041038a660f1ee3ea7f40cd467fbac0c8a1967d1cde7d3158655da",
+  "zipBytes": 24090,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "a5d7c82c52037066607a0202852c9c7fc4544aa071311d9b6bcd785956159824",
+  "fetchedAt": "2026-11-18T10:35:19.392Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 1
+  },
+  "note": null
+}

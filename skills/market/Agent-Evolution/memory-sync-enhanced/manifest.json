@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PQWYteNM",
+  "name": "memory-sync-enhanced",
+  "displayName": "增强版记忆系统",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "guohongbin-git",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/memory-sync-enhanced/latest/memory-sync-enhanced.zip",
+  "zipSha256": "846bb54035ca87aa7e8036f6c8897493eaac450025c1f696344e46dc83b86e67",
+  "zipBytes": 6435,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "50bee8b5f8fb8ec1b9810820f2b3300110b98938db8e46627813b883d13122a1",
+  "fetchedAt": "2026-11-18T10:33:08.622Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,20 @@
+{
+  "version": "1.0.4",
+  "purpose": "反馈采集与自动学习引擎回归用例（供 validate.mjs 引用）",
+  "cases": [
+    {
+      "id": "FB-01",
+      "records": [
+        { "action": "build", "domain": "game", "template": "GAME-DEV", "score": 78, "len": 1500 },
+        { "action": "build", "domain": "game", "template": "GAME-NPC", "score": 85, "len": 2400 },
+        { "action": "build", "domain": "game", "template": "GAME-DEV", "score": 80, "len": 900 }
+      ],
+      "expect": { "suggest_keys": ["domain"], "total_ge": 3 }
+    },
+    {
+      "id": "FB-02",
+      "records": [],
+      "expect": { "suggest_count": 0, "total_ge": 0 }
+    }
+  ]
+}

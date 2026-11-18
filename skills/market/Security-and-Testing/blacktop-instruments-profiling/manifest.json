@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SSCgPsxK",
+  "name": "blacktop-instruments-profiling",
+  "displayName": "iOS开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "blacktop",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/blacktop-instruments-profiling/latest/blacktop-instruments-profiling.zip",
+  "zipSha256": "5215b7333bcc5c7586a4082bf25e606ff455df60f08b521e5de4fac0798c4a12",
+  "zipBytes": 1885,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "5183753847c9da815a083759bd1c452c505f551067a57ede8a361107c506b56e",
+  "fetchedAt": "2026-11-18T10:41:08.415Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

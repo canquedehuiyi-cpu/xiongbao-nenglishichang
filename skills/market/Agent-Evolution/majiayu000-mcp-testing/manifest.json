@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1UHgiSLO",
+  "name": "majiayu000-mcp-testing",
+  "displayName": "安全MCP开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-mcp-testing/latest/majiayu000-mcp-testing.zip",
+  "zipSha256": "94279e0b71803de80df1414f8cba89a8df1a1e29dcd376eb3ca79e5e6ba504f8",
+  "zipBytes": 1334,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "770e1e80918dc01c5734b599134e12fd9fa9b1e6b9dcfd728801b27c71d2cad0",
+  "fetchedAt": "2026-11-18T10:33:20.909Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

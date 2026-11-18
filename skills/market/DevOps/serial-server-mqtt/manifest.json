@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4veaI8Cy",
+  "name": "serial-server-mqtt",
+  "displayName": "SP501LW 串口网关纯 MQTT 管理技能",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/serial-server-mqtt/latest/serial-server-mqtt.zip",
+  "zipSha256": "4d9fab1acff6b85c0bf8e787615f1f8f673c5756a684586d76498635687a8f70",
+  "zipBytes": 22407,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "73bfd34e603c88b5cd81ae847a241d6abc1877865af2afa740cff4f7f04f9b66",
+  "fetchedAt": "2026-11-18T10:38:39.748Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

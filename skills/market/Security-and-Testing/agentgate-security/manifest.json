@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_hCXT3Jls",
+  "name": "agentgate-security",
+  "displayName": "AgentGate - OpenClaw企业级安全防火墙",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "wiserautomation",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agentgate-security/latest/agentgate-security.zip",
+  "zipSha256": "58260493ad2dcddb9030c599379d7f2bb4e7690f8211698ec0fa44ea52d5382c",
+  "zipBytes": 2351,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3502327f6ced68a6ca1fd30e99cd2d0d253db10e07490d0aa41200ee8dfc1687",
+  "fetchedAt": "2026-11-18T10:41:11.851Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

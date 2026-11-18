@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "cd79cd31-7838-4374-a7d4-ca96a1711b86",
+  "name": "zkrj-aigc-detect",
+  "displayName": "AIGC内容检测",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019fff01-f47a-7347-b817-f609230d92d8",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a018a6-b598-7b4a-8279-1c3cf7163bf4/c3a501ef_skill.zip",
+  "zipSha256": "7b99f5287d7a4c8b75e386eee7cacbcdb66ad58ba63d6d1b88caccdbaeb9dd59",
+  "zipBytes": 6616,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "3f416025004b7b06e07c3373ad738314c5c73803e7ccc673fc668b02c42942db",
+  "fetchedAt": "2026-11-18T10:41:04.657Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

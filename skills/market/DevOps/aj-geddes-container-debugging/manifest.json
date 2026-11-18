@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tpERdrzS",
+  "name": "aj-geddes-container-debugging",
+  "displayName": "调试运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aj-geddes",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aj-geddes-container-debugging/latest/aj-geddes-container-debugging.zip",
+  "zipSha256": "a84beadc6585c9318792605923c667f6f7d443be1b207fef412e8ad2d61b9300",
+  "zipBytes": 4679,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "41ab0b7f08f8addca12c96b7ef38d5dc5280fa8705af29cc64d7025952d2ad15",
+  "fetchedAt": "2026-11-18T10:38:19.606Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

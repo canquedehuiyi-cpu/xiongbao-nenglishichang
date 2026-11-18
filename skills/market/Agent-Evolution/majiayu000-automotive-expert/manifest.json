@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_kOnlrZia",
+  "name": "majiayu000-automotive-expert",
+  "displayName": "汽车专家",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-automotive-expert/latest/majiayu000-automotive-expert.zip",
+  "zipSha256": "c718200ffda8b9da59b65908d2e0a8b815335152a20c763e8c1249c8bcbff9eb",
+  "zipBytes": 7556,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "18c6c700d532e9dc16345991bb12d7ea299e1e0df400bf5fffe02141264e71c6",
+  "fetchedAt": "2026-11-18T10:33:26.585Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_izfNRfOZ",
+  "name": "agency-agents-caller",
+  "displayName": "智能体调用器",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agency-agents-caller/latest/agency-agents-caller.zip",
+  "zipSha256": "411e9d66099f6dc5f65b919099222815d5a24d65ce009a61e76c0b794e5a25b6",
+  "zipBytes": 771247,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "cd151197702b560eb074fb33a27ef64aa243f366a913fe1f5e9631860eab69e2",
+  "fetchedAt": "2026-11-18T10:33:23.977Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

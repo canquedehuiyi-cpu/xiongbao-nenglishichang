@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7233hdfn",
+  "name": "whatisagent",
+  "displayName": "智能体自我认知",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/whatisagent/latest/whatisagent.zip",
+  "zipSha256": "7b34deef38f82a708c23dc98fdad4f41a1e75aab480e600469934a84efc58dd7",
+  "zipBytes": 4171,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "89bf41f1ca1c3304738131384bf7243ba518be9a6ae40d2555a6ba4401ed5fcb",
+  "fetchedAt": "2026-11-18T10:33:23.483Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

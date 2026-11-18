@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "297853da-c71a-4cfb-bf5f-b42ef37ba72d",
+  "name": "ruankao-essay-scoring",
+  "displayName": "软考论文评分",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.5.2",
+  "publisher": "01a05fdd-28aa-7f0a-92ba-d6888153a228",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0ecba-ee4f-71d3-9797-0b5b75c16263/8d94f154_ruankao-essay-scoring-1.5.2.zip",
+  "zipSha256": "dd0ff6b34f91b8e84a5dbf40bddaabdf52d10237b4bb4bc82370f1f2096bb6f4",
+  "zipBytes": 17197,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "0ec7a12bfdc54f3e330f95f1d93c1c1ceb9bc974badb1f4d3f2d440f58f3a632",
+  "fetchedAt": "2026-11-18T10:35:31.340Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

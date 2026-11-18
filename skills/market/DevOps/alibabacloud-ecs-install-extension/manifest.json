@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9HdqkZkt",
+  "name": "alibabacloud-ecs-install-extension",
+  "displayName": "用于在ECS上安装扩展程序",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-ecs-install-extension/latest/alibabacloud-ecs-install-extension.zip",
+  "zipSha256": "e3d8cfb250db86ee0704bef9226f675b561551f12f3ece4185c549942fcea96d",
+  "zipBytes": 19277,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "67b5ca29521bf40b1741a43291f387972e97553b63912fb6a510ae5326a7911f",
+  "fetchedAt": "2026-11-18T10:38:30.256Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 1
+  },
+  "note": null
+}

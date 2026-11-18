@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rqXXCrYt",
+  "name": "edwinhu-dev-test-chrome",
+  "displayName": "Chrome测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "edwinhu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/edwinhu-dev-test-chrome/latest/edwinhu-dev-test-chrome.zip",
+  "zipSha256": "52aff26cda56b3210919efbfbbe177571e10fbb75ecf16da48b24e895caa1a93",
+  "zipBytes": 4328,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "375cfe449f0b53bbf06bcbf661c81d021cf99b8e623a05c0b7c4631567314e7e",
+  "fetchedAt": "2026-11-18T10:40:45.815Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

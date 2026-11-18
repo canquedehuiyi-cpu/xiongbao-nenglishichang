@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "19712386-ba95-4255-b370-0008f625de1a",
+  "name": "tencentos-expert",
+  "displayName": "騰訊专家",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "2.0.1",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd6c-26e3-776d-a13a-2bfb2a29c93b/2a68d3a1_tencentos-expert.zip",
+  "zipSha256": "fad76b5855398a6fa3103005a786c27d081068531450d65cff929c64c865e450",
+  "zipBytes": 314730,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 65,
+  "treeSha256": "90ef950c424e97e251b337c57a4f022c72029b472fdaf570308ba15d66db5d98",
+  "fetchedAt": "2026-11-18T10:38:44.857Z",
+  "credentialScan": {
+    "textFilesScanned": 65,
+    "filesRedacted": 0
+  },
+  "note": null
+}

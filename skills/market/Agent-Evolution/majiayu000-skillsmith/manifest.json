@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_kDUYwDw7",
+  "name": "majiayu000-skillsmith",
+  "displayName": "技能管理",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-skillsmith/latest/majiayu000-skillsmith.zip",
+  "zipSha256": "81ad8398578cbb919b9b68c190a41b0a80bf80f1fb000ae41ad28ea5765b1170",
+  "zipBytes": 2658,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d2161ddf718e87392a2e9d2ff4da0c0f31661ded329143456bf1bae964cec31c",
+  "fetchedAt": "2026-11-18T10:33:01.443Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

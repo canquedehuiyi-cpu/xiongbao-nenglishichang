@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2PLdvpI1",
+  "name": "atalovesyou-logging-observability",
+  "displayName": "可观测日志",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "atalovesyou",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/atalovesyou-logging-observability/latest/atalovesyou-logging-observability.zip",
+  "zipSha256": "aee6d19e915ea69f6fe70c8eb0212ec440c7dd54fa8d2f8ed3e2ddfcfb1b8b13",
+  "zipBytes": 9117,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "55325b1ec69eb88bb39bac71eaf9081fde33d802f4a99608e21e63ed12fc6324",
+  "fetchedAt": "2026-11-18T10:38:23.825Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

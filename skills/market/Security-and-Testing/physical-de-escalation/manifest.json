@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0cImYVvU",
+  "name": "physical-de-escalation",
+  "displayName": "物理空间冲突降级",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/physical-de-escalation/latest/physical-de-escalation.zip",
+  "zipSha256": "282e3bd7d26b95adb7548b5d8f0c3f748b864f8dd887db079c9e8d8c31b1c66f",
+  "zipBytes": 9581,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "db9ee09ebf59a29034d563e120562896689f0fdd9e1059919889f63ef90344bc",
+  "fetchedAt": "2026-11-18T10:41:25.306Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "a3082fb5-1f48-4db9-b943-1cce5f1db442",
+  "name": "ai-subtitle-remover",
+  "displayName": "550W AI去字幕",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "UNKNOWN",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a13863-7038-7851-949b-d40b1a86bd5f/a68eef2c_550w-qoder-cn.zip",
+  "zipSha256": "29a2c5c717e36a2bb31145902a7b956b0058086dc063867b3667ceef0be0037d",
+  "zipBytes": 2270430,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "3fd8b6c5c27a13bfffd7c1729f2c877f01435b207a690283ac927b6500389f60",
+  "fetchedAt": "2026-11-18T10:35:35.901Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 1
+  },
+  "note": null
+}

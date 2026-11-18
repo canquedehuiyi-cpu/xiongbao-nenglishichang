@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_A1aTQZlL",
+  "name": "majiayu000-java-concurrency",
+  "displayName": "Java开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-java-concurrency/latest/majiayu000-java-concurrency.zip",
+  "zipSha256": "26b2b1acf6cac87f5e270075363b7e23a5fec0d5112a241a827b9fd8080142ce",
+  "zipBytes": 5978,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f28efe86c223893e231a86fc514512304edb88c2e6af4bbc32ab72928a881bd6",
+  "fetchedAt": "2026-11-18T10:33:24.149Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_D6dOb3oM",
+  "name": "github-actions-retry-recovery-audit",
+  "displayName": "GitHub Actions 重试恢复审计",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "daniellummis",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/github-actions-retry-recovery-audit/latest/github-actions-retry-recovery-audit.zip",
+  "zipSha256": "c41e990c9bab2579cb03032c0a044b5b5df77a55dd34dcdd36a10c34baea6250",
+  "zipBytes": 4974,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "0386f23a00d8d04a6fb19ff412a61ec76a8fa52af83de4d5a12baae4aa6c18c2",
+  "fetchedAt": "2026-11-18T10:40:51.182Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

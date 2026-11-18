@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0F6yDsCc",
+  "name": "majesticlabs-dev-python-debugger",
+  "displayName": "Python开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majesticlabs-dev",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majesticlabs-dev-python-debugger/latest/majesticlabs-dev-python-debugger.zip",
+  "zipSha256": "5fe8e660a20476325338b33da92aa47499292cc59a4206c0d4258ff62e1c6f78",
+  "zipBytes": 3929,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "c61b7acfbf203436cb1cc1a401e57dda7f8537e1a781d87a72adc5c0d23eb752",
+  "fetchedAt": "2026-11-18T10:40:58.060Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

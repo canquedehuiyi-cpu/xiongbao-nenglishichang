@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_53Rx9siS",
+  "name": "huashu-book-pdf",
+  "displayName": "华书书籍级 PDF 手册生成",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/huashu-book-pdf/latest/huashu-book-pdf.zip",
+  "zipSha256": "3960dc6d8cda4950e6e4eb399e82442c3e95d84b4422967592b222cf7d8854b2",
+  "zipBytes": 17857,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "c9ae1b1b2327216e9a3523aac67dc55ad549f8cfe2b3038c468e7cff53bd9168",
+  "fetchedAt": "2026-11-18T10:33:35.568Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

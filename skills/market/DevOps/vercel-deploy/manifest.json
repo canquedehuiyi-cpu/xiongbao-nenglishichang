@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official17224754",
+  "name": "vercel-deploy",
+  "displayName": "Vercel 部署",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Vercel Labs",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/vercel-deploy/latest/vercel-deploy.zip",
+  "zipSha256": "3c22a734327c38fd837d23278bd75c137d67c3994f2212df05a445dc27215759",
+  "zipBytes": 8539,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "77d3c64f07460a1df63050a4f4c18006ffd3466c48792dc94bf4114bdee19d01",
+  "fetchedAt": "2026-11-18T10:38:13.363Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

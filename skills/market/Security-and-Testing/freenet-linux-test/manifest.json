@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0a9KD2xc",
+  "name": "freenet-linux-test",
+  "displayName": "Linux测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "freenet",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/freenet-linux-test/latest/freenet-linux-test.zip",
+  "zipSha256": "f9d72a750e55c133a0741567efd146dcc48a9ce38ce75fb4fb904dee01030de7",
+  "zipBytes": 1705,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6a7a1ab201d5e045b17f23017e953305fdc42bcf8bd230be6b3257c2e6c687b1",
+  "fetchedAt": "2026-11-18T10:41:04.816Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

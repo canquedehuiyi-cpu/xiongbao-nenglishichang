@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_aTXIxzkb",
+  "name": "majiayu000-automating-powerpoint",
+  "displayName": "PPT自动化",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-automating-powerpoint/latest/majiayu000-automating-powerpoint.zip",
+  "zipSha256": "c082282fb0eb10b4779d967e37ab22aa987ea33be6b491a51ce1f9fe9bdfb5a7",
+  "zipBytes": 2051,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5a8ea04e936f62a6cffe2902f850aaab903bb95bb6c54215bd3c9b098f80a589",
+  "fetchedAt": "2026-11-18T10:33:05.609Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

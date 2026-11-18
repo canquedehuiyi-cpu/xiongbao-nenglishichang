@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dwc0n2ND",
+  "name": "carmandale-test-browser",
+  "displayName": "浏览器测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "carmandale",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/carmandale-test-browser/latest/carmandale-test-browser.zip",
+  "zipSha256": "de5ca68ecc3646944382240a11450dbced401f7ff3e7558da160255b9512433f",
+  "zipBytes": 3549,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "87caf84b46eafe1bc1c55aebe570fa862bdfdbd6f2cfdc615f613ac3ad52e970",
+  "fetchedAt": "2026-11-18T10:40:45.039Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

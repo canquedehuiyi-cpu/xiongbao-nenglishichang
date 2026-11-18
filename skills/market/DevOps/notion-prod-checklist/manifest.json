@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_jTMwEewd",
+  "name": "notion-prod-checklist",
+  "displayName": "Notion prod 检查清单",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ZenProjectGit",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/notion-prod-checklist/latest/notion-prod-checklist.zip",
+  "zipSha256": "468b0ee31e5458c58a08f6518cdd5a09b5737dae39722d7261eb52843f84803f",
+  "zipBytes": 7317,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "1e31f09fa156d4982c70c5fa9da9d790b28d98c965ee47c54525e53b5744c47a",
+  "fetchedAt": "2026-11-18T10:38:36.664Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YaVLAKNQ",
+  "name": "alibabacloud-solution-deploy",
+  "displayName": "阿里云官网解决方案部署",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-solution-deploy/latest/alibabacloud-solution-deploy.zip",
+  "zipSha256": "6cd7c937ab6bf16b3d400390b9f45d8ff6711ac3481147fb9153652bb73af676",
+  "zipBytes": 48965,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "280540bc96d06ae01d5d4c385f521359728f878228273130da5ea8120d2e1d8c",
+  "fetchedAt": "2026-11-18T10:38:16.678Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 1
+  },
+  "note": null
+}

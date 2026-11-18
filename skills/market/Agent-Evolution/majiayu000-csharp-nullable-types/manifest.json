@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_m7DMMwbq",
+  "name": "majiayu000-csharp-nullable-types",
+  "displayName": "安全Csharp",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-csharp-nullable-types/latest/majiayu000-csharp-nullable-types.zip",
+  "zipSha256": "9f28b85dc3a78b8aafa0348e626e5595107e47a0712ab5b281f1e00e21d5ae17",
+  "zipBytes": 5292,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2560b824fdd5447b71de0aa1791935bf27d6df081c4de8cf85f189510662ab23",
+  "fetchedAt": "2026-11-18T10:33:42.145Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

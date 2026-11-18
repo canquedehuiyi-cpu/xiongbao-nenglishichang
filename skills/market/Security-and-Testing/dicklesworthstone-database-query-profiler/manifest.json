@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_E2hP2geN",
+  "name": "dicklesworthstone-database-query-profiler",
+  "displayName": "数据库Query开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-database-query-profiler/latest/dicklesworthstone-database-query-profiler.zip",
+  "zipSha256": "5bd0ba831c464992802692060f50aa629464f9dd35c041e5ad82d96cc13528fd",
+  "zipBytes": 1199,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "f2a8024d3f800bd7be2095c2e11e944a06d95625c34e2232d68f105a93fcc5b9",
+  "fetchedAt": "2026-11-18T10:41:21.776Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

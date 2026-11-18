@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_nicRaLRF",
+  "name": "boisenoise-superpowers-community-scale-game",
+  "displayName": "Scale开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-superpowers-community-scale-game/latest/boisenoise-superpowers-community-scale-game.zip",
+  "zipSha256": "e8104678d2acc834cc64e466fe88af24415ab16d36a1447c40ace3195156f275",
+  "zipBytes": 1352,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "b2dd65feaab8b13a7c1673850e42ed3a7fabccdba868ffeaa10813341caacbfc",
+  "fetchedAt": "2026-11-18T10:40:47.361Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2aBIOcel",
+  "name": "alibabacloud-ddos-security-monitor",
+  "displayName": "DDoS产品告警监控巡检",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-ddos-security-monitor/latest/alibabacloud-ddos-security-monitor.zip",
+  "zipSha256": "a322b96e9f67b7f50e3f29216d117d8a06644ed1f7a5eca73f4c178736b52340",
+  "zipBytes": 16052,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "08414f2215cb64ccedc9edddc36a45ac29b40567228793772f39f30b639e8fd5",
+  "fetchedAt": "2026-11-18T10:41:05.765Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official09861459",
+  "name": "cloudflare-deploy",
+  "displayName": "cloudflare 部署",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "davila7",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cloudflare-deploy/latest/cloudflare-deploy.zip",
+  "zipSha256": "80b691d4a523074da9db9eeb7f45952de30fbbe2f1d694d5fe5219d8603f7bde",
+  "zipBytes": 2862,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "d64d86f80122374154e8fbb4ccdcd7a8c081a9e0616d7cb7810c39b2ac622c43",
+  "fetchedAt": "2026-11-18T10:38:12.432Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

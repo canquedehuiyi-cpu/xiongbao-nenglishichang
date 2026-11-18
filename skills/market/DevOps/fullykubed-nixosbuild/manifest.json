@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6z7cTFKa",
+  "name": "fullykubed-nixosbuild",
+  "displayName": "NixOS构建",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "fullykubed",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/fullykubed-nixosbuild/latest/fullykubed-nixosbuild.zip",
+  "zipSha256": "3e52d4aa49bf1be559f7180af35fb87986aa2fafa875c1cf044c62366160d745",
+  "zipBytes": 31001,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 30,
+  "treeSha256": "9d44d1699d607c65e53f7fba2c576a68f99197b846b6bfe417d530b812c1edc4",
+  "fetchedAt": "2026-11-18T10:38:57.063Z",
+  "credentialScan": {
+    "textFilesScanned": 29,
+    "filesRedacted": 0
+  },
+  "note": null
+}

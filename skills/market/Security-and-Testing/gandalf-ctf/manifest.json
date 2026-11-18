@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tXWcWzrc",
+  "name": "gandalf-ctf",
+  "displayName": "甘道夫夺旗赛",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "hannah-schiebener",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/gandalf-ctf/latest/gandalf-ctf.zip",
+  "zipSha256": "fe0a91e8205aa94203083a6eb32785d4bffe9ac8292e8dad76d54975c4531f35",
+  "zipBytes": 1739,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "05809e18be8d337aa25c68f4c49ebdc29128188f52165c08d985b4219f2fb276",
+  "fetchedAt": "2026-11-18T10:41:08.249Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

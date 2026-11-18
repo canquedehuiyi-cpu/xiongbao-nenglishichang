@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_89hkiciC",
+  "name": "happy-technologies-llc-instance-management",
+  "displayName": "Instance测试",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Happy-Technologies-LLC",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/happy-technologies-llc-instance-management/latest/happy-technologies-llc-instance-management.zip",
+  "zipSha256": "e84b0e1d14cb15a4ffc2162a4479881dcc8a66a5ac9144d45fd9877812300d79",
+  "zipBytes": 4194,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c906d50574bdac33a27eac004f979965b0019c0de45acfa97258443f66ce068a",
+  "fetchedAt": "2026-11-18T10:38:58.293Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

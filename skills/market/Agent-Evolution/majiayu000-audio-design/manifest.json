@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_BUs0fNwR",
+  "name": "majiayu000-audio-design",
+  "displayName": "音频设计",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-audio-design/latest/majiayu000-audio-design.zip",
+  "zipSha256": "d38709a73676ed56678aa1b01a6e5be818e19f74e76211e468017182a4a88268",
+  "zipBytes": 6322,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "4a62fdc42e3165bf913133d66bd480aa53afcdefb48d372acd3df6dd1682dcec",
+  "fetchedAt": "2026-11-18T10:33:40.615Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

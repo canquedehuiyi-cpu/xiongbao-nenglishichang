@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9sPqoWSP",
+  "name": "doyoonear-deploy-with-cloudflare",
+  "displayName": "React部署开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "doyoonear",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/doyoonear-deploy-with-cloudflare/latest/doyoonear-deploy-with-cloudflare.zip",
+  "zipSha256": "6fa1c74380e2ee143783b71198ae8dde98f9b608e741d6c1b084a7c3cb4f96fe",
+  "zipBytes": 3082,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a20264e0409cb421a661410188fd2c4aed82ea23dc7ee5d826bf32adfd0d27e1",
+  "fetchedAt": "2026-11-18T10:38:47.154Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

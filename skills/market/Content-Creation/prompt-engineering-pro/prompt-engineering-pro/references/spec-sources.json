@@ -1,0 +1,250 @@
+{
+  "version": "1.1.0",
+  "purpose": "全行业规范源注册表：供 verify-spec.mjs 按需拉取官方规范并核验变更。仅收录官方域名（防 SSRF）。分层字段 layer（national/industry/platform/overseas）、jurisdiction（法域）、modalities（内容模态）驱动领域合规引擎；联网失败时降级到内置领域速查。",
+  "platforms": {
+    "wechat-minigame": {
+      "label": "微信小游戏",
+      "domain": "game",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "接入指南", "url": "https://developers.weixin.qq.com/minigame/introduction/guide" },
+        { "name": "运营规范", "url": "https://developers.weixin.qq.com/miniprogram/product/index.html" },
+        { "name": "审核机制", "url": "https://developers.weixin.qq.com/miniprogram/product/reject" }
+      ]
+    },
+    "wechat-ai-skill": {
+      "label": "微信 AI 开发模式",
+      "domain": "ai",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "开发模式接入指南", "url": "https://developers.weixin.qq.com/miniprogram/dev/ai/guide" },
+        { "name": "开发模式 FAQ", "url": "https://developers.weixin.qq.com/miniprogram/dev/ai/faq.html" }
+      ]
+    },
+    "skillhub": {
+      "label": "腾讯 SkillHub",
+      "domain": "ai",
+      "layer": "platform",
+      "jurisdiction": "global",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "Skills 文件规范", "url": "https://cloud.tencent.com/document/product/1759/134602" },
+        { "name": "平台", "url": "https://skillhub.cloud.tencent.com/" }
+      ]
+    },
+    "openai": {
+      "label": "OpenAI",
+      "domain": "ai",
+      "layer": "overseas",
+      "jurisdiction": "global",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "提示词工程指南", "url": "https://platform.openai.com/docs/guides/prompt-engineering" }
+      ]
+    },
+    "anthropic": {
+      "label": "Anthropic",
+      "domain": "ai",
+      "layer": "overseas",
+      "jurisdiction": "global",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "提示词工程指南", "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering" }
+      ]
+    },
+    "aliyun": {
+      "label": "阿里云百炼",
+      "domain": "ai",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "提示词工程指南", "url": "https://help.aliyun.com/zh/model-studio/prompt-engineering-guide" }
+      ]
+    },
+    "volcengine": {
+      "label": "火山引擎",
+      "domain": "ai",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "提示词工程指南", "url": "https://www.volcengine.com/docs/82379/1221660" }
+      ]
+    },
+    "douyin-minigame": {
+      "label": "抖音小游戏",
+      "domain": "game",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "小游戏文档指引", "url": "https://developer.open-douyin.com/m/docs/resource/zh-CN/mini-game/guide/overview" },
+        { "name": "基础信息审核规范", "url": "https://partner.open-douyin.com/docs/resource/zh-CN/mini-game/operation1/norms/game-info-audit" },
+        { "name": "广告小游戏运营规范", "url": "https://partner.open-douyin.com/docs/resource/zh-CN/mini-game/operation1/norms/norms" }
+      ]
+    },
+    "qq-minigame": {
+      "label": "QQ小游戏",
+      "domain": "game",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "QQ游戏开放平台规范", "url": "https://open.qqgame.qq.com/wiki/24/34/38/42/246/246.html" },
+        { "name": "QQ游戏接入指引", "url": "http://qqgame.qq.com/wiki/140401772428914688" }
+      ]
+    },
+    "kuaishou-minigame": {
+      "label": "快手小游戏",
+      "domain": "game",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "快手小游戏开发流程", "url": "https://open.kuaishou.com/miniGameDocs/gameDev/start/start" },
+        { "name": "快手小游戏开发者工具", "url": "https://open.kuaishou.com/miniGameDocs/gameDev/start/devtool.html" }
+      ]
+    },
+    "alipay-minigame": {
+      "label": "支付宝小游戏",
+      "domain": "game",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "小游戏文档指引", "url": "https://opendocs.alipay.com/mini-game" },
+        { "name": "支付宝开放平台·小游戏", "url": "https://open.alipay.com/module/miniGame" }
+      ]
+    },
+    "baidu-minigame": {
+      "label": "百度小游戏",
+      "domain": "game",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "百度小游戏文档", "url": "https://smartprogram.baidu.com/docs/game/" }
+      ]
+    },
+    "quickgame-alliance": {
+      "label": "快游戏联盟（vivo/OPPO/小米/荣耀）",
+      "domain": "game",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "快游戏文档", "url": "https://www.quickapp.cn/doc/game/" }
+      ]
+    },
+    "huawei-quickgame": {
+      "label": "华为快游戏",
+      "domain": "game",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "快游戏接入", "url": "https://developer.huawei.com/consumer/cn/quickGame/" }
+      ]
+    },
+    "vivo-minigame": {
+      "label": "vivo 小游戏",
+      "domain": "game",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "vivo 小游戏开发者文档", "url": "https://minigame.vivo.com.cn/documents/" }
+      ]
+    },
+    "national-game": {
+      "label": "国家层游戏合规（全平台统一）",
+      "domain": "game",
+      "layer": "national",
+      "jurisdiction": "cn",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "防沉迷通知（国新出发〔2021〕14号）", "url": "https://www.nppa.gov.cn/xxfb/tzgs/202108/t20210830_666285.html" },
+        { "name": "网络游戏出版物审批", "url": "https://www.nppa.gov.cn/bsfw/xksx/cbfxl/wlcbfwspsx/202210/t20221013_600725.html" },
+        { "name": "防沉迷政策解读（中国政府网）", "url": "https://www.gov.cn/zhengce/2021-08/30/content_5634208.htm" }
+      ]
+    },
+    "deepsynthesis-cn": {
+      "label": "深度合成（多模态 AI 生成）",
+      "domain": "visual",
+      "layer": "industry",
+      "jurisdiction": "cn",
+      "modalities": ["text", "image", "video", "audio"],
+      "sources": [
+        { "name": "互联网信息服务深度合成管理规定", "url": "https://www.cac.gov.cn/2022-12/11/c_1672221949354811.htm" }
+      ]
+    },
+    "ai-label-cn": {
+      "label": "AI 生成合成内容标识",
+      "domain": "visual",
+      "layer": "national",
+      "jurisdiction": "cn",
+      "modalities": ["text", "image", "video", "audio"],
+      "sources": [
+        { "name": "人工智能生成合成内容标识办法", "url": "https://www.gov.cn/zhengce/zhengceku/202503/content_7014286.htm" }
+      ]
+    },
+    "eu-ai-act": {
+      "label": "欧盟 AI 法案（EU AI Act）",
+      "domain": "ai",
+      "layer": "overseas",
+      "jurisdiction": "eu",
+      "modalities": ["text"],
+      "sources": [
+        { "name": "Regulation (EU) 2024/1689", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689" },
+        { "name": "AI Act 官方政策页", "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" }
+      ]
+    },
+    "app-store": {
+      "label": "App Store 审核指南",
+      "domain": "ai",
+      "layer": "platform",
+      "jurisdiction": "global",
+      "modalities": ["text", "image"],
+      "sources": [
+        { "name": "App Review Guidelines", "url": "https://developer.apple.com/app-store/review/guidelines/" }
+      ]
+    },
+    "google-play": {
+      "label": "Google Play 政策",
+      "domain": "ai",
+      "layer": "platform",
+      "jurisdiction": "global",
+      "modalities": ["text", "image"],
+      "sources": [
+        { "name": "Google Play 开发者政策", "url": "https://developer.android.com/distribute/play-policies" }
+      ]
+    },
+    "oceanengine": {
+      "label": "巨量引擎广告规则中心",
+      "domain": "ecommerce",
+      "layer": "platform",
+      "jurisdiction": "cn",
+      "modalities": ["text", "image", "video"],
+      "sources": [
+        { "name": "巨量广告规则中心", "url": "https://support.oceanengine.com/support?pageId=297&spaceId=171" },
+        { "name": "广告投放管理规范", "url": "https://support.oceanengine.com/support/content/130539" }
+      ]
+    },
+    "finance-cn": {
+      "label": "金融产品网络营销（国家层）",
+      "domain": "ecommerce",
+      "layer": "industry",
+      "jurisdiction": "cn",
+      "modalities": ["text", "image"],
+      "sources": [
+        { "name": "金融产品网络营销管理办法", "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7066927.htm" },
+        { "name": "办法答记者问", "url": "https://www.gov.cn/zhengce/202604/content_7066934.htm" }
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "version": "1.0.4",
+  "purpose": "Skill 包发布合规引擎回归用例（供 validate.mjs 引用；在临时目录构造最小 skill 包验证）",
+  "cases": [
+    { "id": "SP-01", "name": "check-and-build", "expect_check_ok": true, "expect_zip_sig": true }
+  ]
+}

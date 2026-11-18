@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Stn3JblC",
+  "name": "alibabacloud-avatar-video",
+  "displayName": "视频与数字人",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-avatar-video/latest/alibabacloud-avatar-video.zip",
+  "zipSha256": "da9bb8f21510c7cc7b55d6810013d764c5763b00c97c16100dfde8836537204e",
+  "zipBytes": 44644,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "b0a53cd2861f1761da695c3b4c2756866117fad196349e67de30f20f9bfb6aec",
+  "fetchedAt": "2026-11-18T10:35:22.137Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

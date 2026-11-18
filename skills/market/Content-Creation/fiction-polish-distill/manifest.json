@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "8ae600dc-a987-4cc2-b8c8-112c68c0b19e",
+  "name": "fiction-polish-distill",
+  "displayName": "小说润色蒸馏专家",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.7",
+  "publisher": "019fc0ef-9fba-77b0-8c35-4f611b528d2f",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a05885-3310-7afd-99f9-3dbd6cf35682/f4cf2f75_小说润色蒸馏专家1.0.7.zip",
+  "zipSha256": "d41b7035bee93fe8a5f0c6f5184e4ed052362dc668c4dc59d77cf883c2880b75",
+  "zipBytes": 209837,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 45,
+  "treeSha256": "0611463cf9707745d8b4bf47ef8c22efe9b26711744757003e052544579a3f3d",
+  "fetchedAt": "2026-11-18T10:35:18.538Z",
+  "credentialScan": {
+    "textFilesScanned": 45,
+    "filesRedacted": 0
+  },
+  "note": null
+}

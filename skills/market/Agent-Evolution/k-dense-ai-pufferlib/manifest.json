@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_pRxCfn2U",
+  "name": "k-dense-ai-pufferlib",
+  "displayName": "高性能强化学习框架",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "k-dense-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/k-dense-ai-pufferlib/latest/k-dense-ai-pufferlib.zip",
+  "zipSha256": "e1be9cef2a105a7129fbdc49ada09d4c58eab3f27f08029c8eb1aa013540cea2",
+  "zipBytes": 30026,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "2b807fa964a987c908aab97fb42995734b6b54013e33ceec9073e9b692c21c30",
+  "fetchedAt": "2026-11-18T10:33:20.300Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

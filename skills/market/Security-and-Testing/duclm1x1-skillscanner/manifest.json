@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rRJLc7dD",
+  "name": "duclm1x1-skillscanner",
+  "displayName": "GitAPI开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "duclm1x1",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/duclm1x1-skillscanner/latest/duclm1x1-skillscanner.zip",
+  "zipSha256": "9fac902bd73db694decba724ef558beabfdccb50eefece1d7e3c978e8235847a",
+  "zipBytes": 1712,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "116b3f0a0a76b064ffd5f0c5baa503aac1b1badd21809d77fb12fccb1488cccf",
+  "fetchedAt": "2026-11-18T10:41:16.065Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

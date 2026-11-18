@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8BhbEong",
+  "name": "auto-clipper",
+  "displayName": "自动视频剪辑与高光生成器",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "runeweaverstudios",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/auto-clipper/latest/auto-clipper.zip",
+  "zipSha256": "4b6d27a13de1ac2f6fd0e207ec808c6c915a6a90a713b5fc163a153e6bf873cf",
+  "zipBytes": 7922,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "d0918d04062ead7c1b10c19d3e2598a248842fa22ba61631147dcec81986c791",
+  "fetchedAt": "2026-11-18T10:33:13.475Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

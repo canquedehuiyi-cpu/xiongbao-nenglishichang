@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9a5DAmIO",
+  "name": "xiaoding-deep-research",
+  "displayName": "深度研究",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/xiaoding-deep-research/latest/xiaoding-deep-research.zip",
+  "zipSha256": "4bea99ab9b65cbc46b6fe8cd9fdc1ac0a1ae8162761de5516e14f1d5bd7c173f",
+  "zipBytes": 3666,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "d86f58a48c16e45cf5e29d180c5d383ab561ef021583e5cd7f709bfeb279dd91",
+  "fetchedAt": "2026-11-18T10:33:38.266Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

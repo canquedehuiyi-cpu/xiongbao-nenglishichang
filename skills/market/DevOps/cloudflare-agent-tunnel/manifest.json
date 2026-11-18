@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mG3V3YVI",
+  "name": "cloudflare-agent-tunnel",
+  "displayName": "Cloudflare 代理隧道配置指南",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "maverick-software",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cloudflare-agent-tunnel/latest/cloudflare-agent-tunnel.zip",
+  "zipSha256": "6c9fcaf90337f3b36cd53bc0b8f509098ae06f29460ad064797b62a8bc0e8386",
+  "zipBytes": 7821,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "68f2080c56f29d09b4cc8c13d6a581a586aa2480407e6c136d0faee1209e3993",
+  "fetchedAt": "2026-11-18T10:38:28.003Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

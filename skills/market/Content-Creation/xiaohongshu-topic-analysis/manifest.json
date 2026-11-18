@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "335c558b-62c9-4b4d-97d6-bd12db232cbb",
+  "name": "xiaohongshu-topic-analysis",
+  "displayName": "小红书选题分析",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.4",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08f1d-a747-79fb-8870-993f268d6236/fc1e7059_xiaohongshu-openclaw-skill-master.zip",
+  "zipSha256": "21b1713788db5bf404dbc6fb9290b2451d2022ea7f596c21575180db50986a0a",
+  "zipBytes": 41030,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 25,
+  "treeSha256": "d51be27f84a022db45a736437f7cded5b996ed62d05e33ce95416cb7b6a06409",
+  "fetchedAt": "2026-11-18T10:35:23.835Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

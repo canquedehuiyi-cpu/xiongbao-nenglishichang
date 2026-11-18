@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_OaukkagZ",
+  "name": "openclaw-skill-obsidian-cloudflare-pages",
+  "displayName": "Obsidian 至 Cloudflare Pages 自动化发布技能",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "davidyoh",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-skill-obsidian-cloudflare-pages/latest/openclaw-skill-obsidian-cloudflare-pages.zip",
+  "zipSha256": "a8730c9b767a6d55ccacaf8a6d02d0add810a968a8db06d5304fdda818faa026",
+  "zipBytes": 14583,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "4c1de2332869b9ad35561ea1d18fbd619a5b5372b381917edd33af08d0c2c9e2",
+  "fetchedAt": "2026-11-18T10:38:32.429Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

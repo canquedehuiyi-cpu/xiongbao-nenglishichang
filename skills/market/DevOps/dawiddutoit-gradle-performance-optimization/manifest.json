@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_AZ9R8Evo",
+  "name": "dawiddutoit-gradle-performance-optimization",
+  "displayName": "性能Gradle",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dawiddutoit",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dawiddutoit-gradle-performance-optimization/latest/dawiddutoit-gradle-performance-optimization.zip",
+  "zipSha256": "baa5f36123ee46a04baaca19dccf7bdad6a6aaf91fdd3a9f6f005fc0b4d17cbf",
+  "zipBytes": 5151,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "592f2db71ccdb081079c9d7cf4e71aef8eb82fe901aa4b0b4fac0df2f551ceef",
+  "fetchedAt": "2026-11-18T10:38:46.988Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

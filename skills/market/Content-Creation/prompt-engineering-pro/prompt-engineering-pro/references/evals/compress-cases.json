@@ -1,0 +1,19 @@
+{
+  "meta": {
+    "note": "压缩回归引擎（compress-verify.mjs）回归集：自动模式应实现可观的 token 缩减且分数不回退"
+  },
+  "cases": [
+    {
+      "id": "CV-01",
+      "label": "重复行+套话可压缩",
+      "prompt": "你是一位代码评审专家。\n请务必认真检查代码。\n要充分发挥您的专业能力。\n请务必认真检查代码。\n输出格式：JSON。",
+      "expect": { "reduction_min_pct": 10, "score_not_worse": true }
+    },
+    {
+      "id": "CV-02",
+      "label": "干净稿无大幅压缩",
+      "prompt": "你是一位资深编辑。请审阅这段新闻稿。完成标准：指出事实错误并给出修改建议。不要编造信息。输出格式：Markdown。",
+      "expect": { "reduction_max_pct": 10, "score_not_worse": true }
+    }
+  ]
+}

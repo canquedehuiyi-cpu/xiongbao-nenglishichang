@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_CMHMqVgS",
+  "name": "amnadtaowsoam-queue-monitoring",
+  "displayName": "Queue开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AmnadTaowsoam",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amnadtaowsoam-queue-monitoring/latest/amnadtaowsoam-queue-monitoring.zip",
+  "zipSha256": "f527063e7065394490043fd9c4fec79fbd4098af5eb64694303a1f5665b96888",
+  "zipBytes": 3122,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "e691f986b2b4d2241be9cd44815b29d85d27dfd72b0b54a51f5b9effc7798d26",
+  "fetchedAt": "2026-11-18T10:38:47.542Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

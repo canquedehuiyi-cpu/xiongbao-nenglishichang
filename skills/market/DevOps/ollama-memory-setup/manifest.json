@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8AsTwu1R",
+  "name": "ollama-memory-setup",
+  "displayName": "Ollama 记忆设置",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ollama-memory-setup/latest/ollama-memory-setup.zip",
+  "zipSha256": "13178450e0e57e02f2c5da3f53b49020cd37cb569ef815dbce239fe9b69c69ff",
+  "zipBytes": 5635,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "c261cce873ef5b1eabb865182f7e9f7a768323e5e8f80726a830a76cbda5824e",
+  "fetchedAt": "2026-11-18T10:38:46.393Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

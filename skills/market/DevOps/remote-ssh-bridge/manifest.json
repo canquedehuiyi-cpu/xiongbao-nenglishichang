@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_cN1looYe",
+  "name": "remote-ssh-bridge",
+  "displayName": "远程 SSH 桥接工具",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "highlander89",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/remote-ssh-bridge/latest/remote-ssh-bridge.zip",
+  "zipSha256": "f48af8b5a5c1acb24da0efdeb922b3987aaa7fb0749b74237ef3d50933fdda17",
+  "zipBytes": 2173,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "3cc66fbd73460c3a374766cdea2f478bc864344752e00f1e53613e4fa4649029",
+  "fetchedAt": "2026-11-18T10:38:14.349Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

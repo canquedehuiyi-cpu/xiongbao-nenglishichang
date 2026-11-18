@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KDu2cguo",
+  "name": "docker-essentials-1-0-0",
+  "displayName": "Docker核心指南",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "pespringer",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/docker-essentials-1-0-0/latest/docker-essentials-1-0-0.zip",
+  "zipSha256": "6d02da6bd443681137da99da46af8dae4fcd72fa769703eb2ea9d0354eb3ca43",
+  "zipBytes": 2621,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "fe0c8ce03141923502b8d59d6a1929c2c7bab0a5428f53df7a4a048fef5d3ab3",
+  "fetchedAt": "2026-11-18T10:38:25.621Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

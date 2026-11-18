@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3IChVfpv",
+  "name": "ds-ref-archetypes",
+  "displayName": "ds ref 原型",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lyderhansen",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ds-ref-archetypes/latest/ds-ref-archetypes.zip",
+  "zipSha256": "a234f3f380a0d2ed955c4d385dcf4e5a8e53486a7ee5a870749b6f22cbe5110f",
+  "zipBytes": 5674,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "67f494f33bf5e2b2275581a9bc1be491c5e2daeb44520005c01aaa364dd70d89",
+  "fetchedAt": "2026-11-18T10:38:53.078Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

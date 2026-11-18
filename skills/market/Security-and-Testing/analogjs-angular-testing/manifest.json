@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MsdJ8Hu7",
+  "name": "analogjs-angular-testing",
+  "displayName": "Angular开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "analogjs",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/analogjs-angular-testing/latest/analogjs-angular-testing.zip",
+  "zipSha256": "5cc8c65982f9652033ef860dfd1948596b86d4285b9d1ddddebe08f2ee4c6486",
+  "zipBytes": 9613,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "a602160cf7d3d0fa48225fe3c04c9d476e9c79c8359ec40cd9ee25932f20ad11",
+  "fetchedAt": "2026-11-18T10:41:14.177Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

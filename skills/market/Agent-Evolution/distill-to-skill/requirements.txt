@@ -1,0 +1,3 @@
+# 本包仅依赖 Python 标准库（3.8+）。
+# scripts/ 下脚本（stamp_signature.py 等）只用标准库，无需 pip install 任何第三方依赖。
+# 不启用脚本、不装依赖，技能一切功能照常。

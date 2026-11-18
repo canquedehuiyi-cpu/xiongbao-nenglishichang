@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4D5UJSH3",
+  "name": "monitoring-gen",
+  "displayName": "监控生成器",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lxgicstudios",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/monitoring-gen/latest/monitoring-gen.zip",
+  "zipSha256": "9a0503e1f992e8859d2101b016107da11ad7e71d2423445c8bd7af1b9da90b0f",
+  "zipBytes": 12045,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "891327e92a248effab09e2f75dcc88106199911cf324a0db2ea0835c5d48e4d9",
+  "fetchedAt": "2026-11-18T10:38:24.163Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

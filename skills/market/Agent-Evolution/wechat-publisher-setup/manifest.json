@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tX4EorL1",
+  "name": "wechat-publisher-setup",
+  "displayName": "微信公众号发布团队部署",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/wechat-publisher-setup/latest/wechat-publisher-setup.zip",
+  "zipSha256": "c185b9838e09e3fc30c46ddfadcaa5ef2fc630f88ac29910e0904686118e56e0",
+  "zipBytes": 23345,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 20,
+  "treeSha256": "163b1bd6be43201171e179105c348ca82cdd0793a5b9fcd2151c7d8387ca6daa",
+  "fetchedAt": "2026-11-18T10:33:19.137Z",
+  "credentialScan": {
+    "textFilesScanned": 20,
+    "filesRedacted": 0
+  },
+  "note": null
+}

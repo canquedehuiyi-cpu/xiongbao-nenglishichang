@@ -1,0 +1,63 @@
+{
+  "domain": "medical",
+  "label": "医疗健康（中国）",
+  "jurisdiction": "cn",
+  "modalities": ["text", "image"],
+  "law_level": "admin",
+  "snapshot_checked": "2026-09-03",
+  "effective_date": null,
+  "status": "current",
+  "superseded_by": null,
+  "sources": [
+    { "name": "医疗广告管理办法", "url": "https://www.gov.cn/zhengce/2019-06/03/content_5723750.htm", "last_verified": "2026-09-03" },
+    { "name": "医疗广告认定指南（2025）", "url": "https://www.gov.cn/zhengce/zhengceku/202508/content_7036390.htm", "last_verified": "2026-09-03" }
+  ],
+  "rules": [
+    {
+      "key": "review_cert",
+      "name": "医疗广告审查证明",
+      "type": "remind",
+      "severity": "high",
+      "triggers": ["医疗广告审查", "审查证明", "已取得审查"],
+      "basis": "医疗广告管理办法第三条：医疗机构发布医疗广告，应当在发布前申请医疗广告审查，未取得《医疗广告审查证明》不得发布",
+      "suggestion": "医疗/医美类广告需先取得审查证明，否则不得发布"
+    },
+    {
+      "key": "cure_claim",
+      "name": "疗效承诺",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["治愈", "根治", "包治", "100% 有效", "疗效显著", "彻底治愈", "当天见效"],
+      "basis": "医疗广告管理办法第七条：医疗广告不得含有表示功效、安全性的断言或者保证",
+      "suggestion": "删除功效断言，避免承诺治愈率/有效率"
+    },
+    {
+      "key": "patient_testimonial",
+      "name": "患者名义证明",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["患者自述", "康复案例", "患者推荐", "病人亲述", "治愈案例"],
+      "basis": "医疗广告管理办法：不得利用患者、卫生技术人员、教育科研机构的名义作证明",
+      "suggestion": "删除以患者/医生名义的推荐或证明性表述"
+    },
+    {
+      "key": "rx_drug",
+      "name": "处方药广告",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["处方药", "靶向药", "化疗", "抗生素促销", "处方药促销"],
+      "basis": "广告法第十五条：处方药不得在大众传播媒介发布广告",
+      "suggestion": "处方药广告仅限医学药学专业刊物，禁止面向大众宣传"
+    },
+    {
+      "key": "non_medical",
+      "name": "非医疗机构发布",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["保健食品治百病", "保健品替代药品", "民间偏方", "祖传秘方治病", "祖传秘方", "偏方治病"],
+      "basis": "医疗广告管理办法第五条：非医疗机构不得发布医疗广告",
+      "suggestion": "非医疗机构不得发布医疗广告；保健食品不得宣称治疗功能"
+    }
+  ],
+  "meta": { "policy_lock": true, "auto_update": false }
+}

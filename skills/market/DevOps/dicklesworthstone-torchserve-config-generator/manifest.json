@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4SyYLPXu",
+  "name": "dicklesworthstone-torchserve-config-generator",
+  "displayName": "生成助手",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-torchserve-config-generator/latest/dicklesworthstone-torchserve-config-generator.zip",
+  "zipSha256": "1672d1b2b5b6f9e2b94e4b54c1c22aad3a930adc3d79bb77a8568a8da946a17f",
+  "zipBytes": 1220,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "eef9f2f1fcb7d62330559d8e4bd1f1e88ed0b38bdd87f21e2b8708a8623951a9",
+  "fetchedAt": "2026-11-18T10:38:55.418Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

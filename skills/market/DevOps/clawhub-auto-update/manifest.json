@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_VGjgP9Me",
+  "name": "clawhub-auto-update",
+  "displayName": "ClawHub技能自动更新工具",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jimmieting",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/clawhub-auto-update/latest/clawhub-auto-update.zip",
+  "zipSha256": "37cf3ea2feee58e68b46e656bb87bf181906b52b83af100cea8375f66b2f841f",
+  "zipBytes": 1823,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "469f51776f3c3e5bd34310eeafbdb917e00601dda6a76530d9775e265a31430e",
+  "fetchedAt": "2026-11-18T10:38:52.568Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

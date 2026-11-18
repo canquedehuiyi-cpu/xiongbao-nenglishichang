@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7WAXm4h7",
+  "name": "notion-ci-integration",
+  "displayName": "Notion CI 集成",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ZenProjectGit",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/notion-ci-integration/latest/notion-ci-integration.zip",
+  "zipSha256": "1be970bfbea87eca8a8826d6658f29fbf1bf8cdd7057895a46bc9bc0f50dead6",
+  "zipBytes": 5338,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4ea0430bd8541125ef00b91ffbf12496145b25201d4727197298d06e7462e30e",
+  "fetchedAt": "2026-11-18T10:38:38.400Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "skill_name": "shenhuo-brand-design",
+  "skill_version": "1.0.0",
+  "routing_enabled": false,
+  "fixed_designer": {
+    "id": "des_99521d49696c",
+    "slug": "brand_identity_design_designer",
+    "name": "品牌视觉"
+  }
+}

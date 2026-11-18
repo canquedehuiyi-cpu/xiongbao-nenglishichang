@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Li8oYmjp",
+  "name": "security-audit-hand",
+  "displayName": "自主安全审计助手",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bandwe",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/security-audit-hand/latest/security-audit-hand.zip",
+  "zipSha256": "cf9372b1de4901ef15f099f4f544dd6cf7a29aa1892f0fbd85a213e0a406325a",
+  "zipBytes": 4172,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "1c3691362167f190b8e826076d17ba766a8cb8fed81f2b6195b8eb6fda66f4f4",
+  "fetchedAt": "2026-11-18T10:41:17.923Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

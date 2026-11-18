@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4QLlReIa",
+  "name": "dawiddutoit-pihole-dns-troubleshoot",
+  "displayName": "Pihole运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dawiddutoit",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dawiddutoit-pihole-dns-troubleshoot/latest/dawiddutoit-pihole-dns-troubleshoot.zip",
+  "zipSha256": "cf00a2ba30b525eb81f5c8c408ae58c45a3be0d6ff84d7ff465537e355179d91",
+  "zipBytes": 3161,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ad3adefb5733c8a0db9e99f6fa05c70c3a9edab3e39886c53d6cb1c1febe7caa",
+  "fetchedAt": "2026-11-18T10:38:45.970Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

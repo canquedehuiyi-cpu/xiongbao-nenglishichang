@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9tVYoQ0M",
+  "name": "teamagent",
+  "displayName": "团队智能体协作平台",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "arplus",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/teamagent/latest/teamagent.zip",
+  "zipSha256": "a85f72c788d437d126373f2590324d5d01ac3f6d17e6b943627e7589a5441bd2",
+  "zipBytes": 28540,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "7340235c3df630ccf19ff8cf5003878596ea9c562f2df63797c6591dc11ffb97",
+  "fetchedAt": "2026-11-18T10:33:30.252Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 1
+  },
+  "note": null
+}

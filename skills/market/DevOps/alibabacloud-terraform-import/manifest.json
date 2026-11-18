@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_eRxzeLf5",
+  "name": "alibabacloud-terraform-import",
+  "displayName": "阿里云资源 Terraform 导入",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-terraform-import/latest/alibabacloud-terraform-import.zip",
+  "zipSha256": "b92ac24c7cf8e59f56d0fe6ba39b72da8807be8e913446c0ea01210efcbe2f3a",
+  "zipBytes": 30386,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "8dbabe46cc7295e19cc25760aedd72090917f3d44f35013342188f5f11692faf",
+  "fetchedAt": "2026-11-18T10:38:51.740Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

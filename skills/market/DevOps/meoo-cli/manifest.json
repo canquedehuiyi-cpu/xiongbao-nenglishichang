@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_nOQstwFJ",
+  "name": "meoo-cli",
+  "displayName": "秒悟 CLI",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Meoo Team",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/meoo-cli/latest/meoo-cli.zip",
+  "zipSha256": "0ced71b1da3cc954e09fd4fbd4265cad4f0154df6844f599deb52bd62c8de08a",
+  "zipBytes": 22735,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "32200384bedb3a8c7fb01fda2f37928b7133946458ecda9b947d957b522768d1",
+  "fetchedAt": "2026-11-18T10:38:25.936Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

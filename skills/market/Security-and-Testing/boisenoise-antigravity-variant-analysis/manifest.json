@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0qnNaFo1",
+  "name": "boisenoise-antigravity-variant-analysis",
+  "displayName": "无障碍分析",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-antigravity-variant-analysis/latest/boisenoise-antigravity-variant-analysis.zip",
+  "zipSha256": "880938b8e5b93d5e0fb0fad68462e7832bb533cf0cfe0dd77e6ac85c3bcb577b",
+  "zipBytes": 2881,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7167a3eaa169c8eda35f00cd7cacc251911f91598db817162761c6b059ae0fad",
+  "fetchedAt": "2026-11-18T10:41:25.903Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

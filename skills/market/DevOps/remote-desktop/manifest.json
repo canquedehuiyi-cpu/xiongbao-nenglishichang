@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_wkFfP0jU",
+  "name": "remote-desktop",
+  "displayName": "远程桌面连接助手",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivangdavila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/remote-desktop/latest/remote-desktop.zip",
+  "zipSha256": "d7f1a158a062af0d4a0f2c342231c782d2208f661003f5cb2b329c1acf77a175",
+  "zipBytes": 8110,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "03438dbf4349b6c8dcbac363ec00cbbe266d2602f5a873574b859985f75ade69",
+  "fetchedAt": "2026-11-18T10:38:20.990Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

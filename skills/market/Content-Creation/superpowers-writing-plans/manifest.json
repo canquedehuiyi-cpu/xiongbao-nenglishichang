@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_zgO8s9K3",
+  "name": "superpowers-writing-plans",
+  "displayName": "超级能力：编写实现计划",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/superpowers-writing-plans/latest/superpowers-writing-plans.zip",
+  "zipSha256": "684c4e8e0da76365b6901e7389ed0838216646b205f47e58d9b5a868e274cf1a",
+  "zipBytes": 3458,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "511898f1221eb0e39be2569a27ba88c9e2c100c66798fa09e19da396fc2f55e1",
+  "fetchedAt": "2026-11-18T10:35:17.880Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

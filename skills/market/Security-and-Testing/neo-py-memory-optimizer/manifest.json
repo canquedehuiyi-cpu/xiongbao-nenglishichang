@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_AxbNU6AI",
+  "name": "neo-py-memory-optimizer",
+  "displayName": "Python 内存优化分析器",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "martinforsulu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/neo-py-memory-optimizer/latest/neo-py-memory-optimizer.zip",
+  "zipSha256": "4bbeca44a1e52a2a7175b6542635a7f6b3c234a7a76f3d3c34379865a786e808",
+  "zipBytes": 20136,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "eabf0ad619cb3db58eac2873c12cec90ce0b7de0859dab2e22ea2dcfe491fa35",
+  "fetchedAt": "2026-11-18T10:41:30.071Z",
+  "credentialScan": {
+    "textFilesScanned": 15,
+    "filesRedacted": 0
+  },
+  "note": null
+}

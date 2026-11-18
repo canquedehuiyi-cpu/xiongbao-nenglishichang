@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3SBAvvw6",
+  "name": "retrospective-agent",
+  "displayName": "复盘智能体",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/retrospective-agent/latest/retrospective-agent.zip",
+  "zipSha256": "d095412894a19d2b0e48f4b25b7de4baf56aed74d455bda06932d1d863ead04f",
+  "zipBytes": 11979,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 20,
+  "treeSha256": "84ae4c5f7ea9a5476a17d6bec68af262352bda897817903fb1da71a07ad7b8bd",
+  "fetchedAt": "2026-11-18T10:33:38.087Z",
+  "credentialScan": {
+    "textFilesScanned": 20,
+    "filesRedacted": 0
+  },
+  "note": null
+}

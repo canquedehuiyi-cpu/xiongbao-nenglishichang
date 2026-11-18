@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2wfcyDj8",
+  "name": "git-secrets-scanner",
+  "displayName": "Git 安全扫描器",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "guohongbin-git",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/git-secrets-scanner/latest/git-secrets-scanner.zip",
+  "zipSha256": "632f621ede1babe5c5e81df92244a5bebef2fe3e4202ce108be87a877e690d63",
+  "zipBytes": 3011,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "df64f632de4cab24255459c0088f2da3003be2cffba27a5cd2d1a4cfe88f6ae1",
+  "fetchedAt": "2026-11-18T10:40:59.181Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

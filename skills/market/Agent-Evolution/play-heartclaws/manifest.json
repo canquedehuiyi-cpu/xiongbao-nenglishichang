@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_wz4vlkli",
+  "name": "play-heartclaws",
+  "displayName": "体验 HeartClaws 无头 AI 策略游戏",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "angelstreet",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/play-heartclaws/latest/play-heartclaws.zip",
+  "zipSha256": "d80861d494d116592b02c6fa4b51221e815d9d62ae94c8169528b747fb3b81f4",
+  "zipBytes": 5823,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e112335ec9cfd57cf49a1f367d50ad823afe2ca76a1a60ea426262a1af59b82b",
+  "fetchedAt": "2026-11-18T10:33:38.799Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

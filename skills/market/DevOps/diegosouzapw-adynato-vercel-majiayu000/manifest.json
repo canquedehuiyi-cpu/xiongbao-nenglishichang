@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4TjBDodt",
+  "name": "diegosouzapw-adynato-vercel-majiayu000",
+  "displayName": "Adynato构建",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-adynato-vercel-majiayu000/latest/diegosouzapw-adynato-vercel-majiayu000.zip",
+  "zipSha256": "08a1e28ef05fdd3dc354d0639ffc7c6c22f44b3a6f6c3a7a2c5fee555a023122",
+  "zipBytes": 3564,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e5b20e7f6a5b60c7416e4a938789c4452d104b4699b164664837dbe3e019310c",
+  "fetchedAt": "2026-11-18T10:38:45.828Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

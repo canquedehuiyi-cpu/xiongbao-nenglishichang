@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1dGzg1dc",
+  "name": "multi-agent-dev-team",
+  "displayName": "多智能体开发团队",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "chloepark85",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/multi-agent-dev-team/latest/multi-agent-dev-team.zip",
+  "zipSha256": "49de49a5208128e45224ac3c773782b13d6f2a5ac933c25a842e35b61959c4c4",
+  "zipBytes": 18266,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "402ab945ddc7d727ed6f1c2814c03d720374023b2963789910f7d6d1d305cdb7",
+  "fetchedAt": "2026-11-18T10:33:10.153Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

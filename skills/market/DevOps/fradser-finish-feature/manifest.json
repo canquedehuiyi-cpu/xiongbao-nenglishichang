@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_61YTIlbq",
+  "name": "fradser-finish-feature",
+  "displayName": "Finish功能",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "FradSer",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/fradser-finish-feature/latest/fradser-finish-feature.zip",
+  "zipSha256": "63028257c92f8e59c3fed0376ffa29b9c9e8b8a979346f4c02a784d5226a5c2c",
+  "zipBytes": 908,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "165f5c5978b11443e508a2900ea4ccecbe24b9465af3383deab6f34664b1e921",
+  "fetchedAt": "2026-11-18T10:38:45.581Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

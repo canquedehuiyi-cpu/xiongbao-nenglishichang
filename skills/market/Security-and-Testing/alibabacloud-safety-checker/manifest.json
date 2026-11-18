@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dVw1MW5R",
+  "name": "alibabacloud-safety-checker",
+  "displayName": "AI安全护栏+内容安全自动化测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-safety-checker/latest/alibabacloud-safety-checker.zip",
+  "zipSha256": "aba5f7d25920f7dcfec9971c6b6656aab427f8a75ed943273d6161df92bc25c6",
+  "zipBytes": 93781,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 27,
+  "treeSha256": "fbc7f7df4d41b1f29c6512b476c5f2da526390e70b8f0abd71ea5ec002d19c40",
+  "fetchedAt": "2026-11-18T10:41:19.862Z",
+  "credentialScan": {
+    "textFilesScanned": 27,
+    "filesRedacted": 0
+  },
+  "note": null
+}

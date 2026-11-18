@@ -1,0 +1,27 @@
+{
+  "id": "qoder-cn",
+  "version": "3.1.3",
+  "region": "cn",
+  "locale": "zh-CN",
+  "supportedAccess": [
+    "oauth-mcp",
+    "openapi"
+  ],
+  "hostRequirements": [
+    "approved-mcp-or-node18",
+    "private-user-credentials",
+    "outbound-https"
+  ],
+  "runtimeValidated": false,
+  "submissionReady": false,
+  "capabilities": [
+    "video-hard-subtitle-removal",
+    "subtitle-task-query",
+    "credits-query"
+  ],
+  "excludedCapabilities": [
+    "image-processing",
+    "video-watermark-removal",
+    "content-link-resolution"
+  ]
+}

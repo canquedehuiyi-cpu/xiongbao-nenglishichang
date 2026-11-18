@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qvcbgcfq",
+  "name": "diegosouzapw-production-dockerfile",
+  "displayName": "Python运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-production-dockerfile/latest/diegosouzapw-production-dockerfile.zip",
+  "zipSha256": "c6aef6042144b258f797a1d2af6077acc58c35919331ffdc410b97dddf622e1d",
+  "zipBytes": 3225,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "1f0389761afa96494998943e7994ea8e9250746a9e1b152a0d58cd6eac384da1",
+  "fetchedAt": "2026-11-18T10:38:52.102Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

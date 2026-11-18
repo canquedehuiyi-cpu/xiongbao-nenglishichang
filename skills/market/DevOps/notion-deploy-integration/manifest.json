@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vko8qMX2",
+  "name": "notion-deploy-integration",
+  "displayName": "Notion 部署集成",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ZenProjectGit",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/notion-deploy-integration/latest/notion-deploy-integration.zip",
+  "zipSha256": "8bf09600dea3b96c123be939a378c5bfd4d7abac66e158a6715818371b22b03a",
+  "zipBytes": 6095,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "c126b4e7950e8eb3141ba46c9681588a67ab5022c6dd378b2ba678f89c964b1e",
+  "fetchedAt": "2026-11-18T10:38:27.215Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

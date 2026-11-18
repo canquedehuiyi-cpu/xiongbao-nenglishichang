@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LScRJxvR",
+  "name": "laurigates-helm-debugging",
+  "displayName": "Helm调试",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "laurigates",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/laurigates-helm-debugging/latest/laurigates-helm-debugging.zip",
+  "zipSha256": "f586cc926c8ff7c30798c8173789b53afe53d301fde983faf0244963264eb032",
+  "zipBytes": 6268,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3698a4bb230ca1d30ee27cacdbaa805af664248be97297dffd976d010c489e5c",
+  "fetchedAt": "2026-11-18T10:38:42.116Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

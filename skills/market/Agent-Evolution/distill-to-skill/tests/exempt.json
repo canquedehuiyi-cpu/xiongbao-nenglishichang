@@ -1,0 +1,29 @@
+{
+  "note": "脚本接线豁免台账。规则：scripts/*.py 每个必须【要么带 --self-test，要么在本表登记】；两者皆无 -> 清单对账 FAIL。每条豁免必填 since + reason，且必须【二选一】：expires_in=<版本>（到该版本仍无自测即 FAIL）或 permanent=true（结构性常驻：入参/环境依赖）。既无 expires_in 又无 permanent -> FAIL。豁免项在 selfcheck 与 --full 输出中以 WARN 可见。",
+  "exempt": {
+    "verify_multiformat.py": {
+      "since": "initial",
+      "permanent": true,
+      "reason": "跨格式一致性门禁，运行必须传 --outline 与真实产物路径（入参依赖）；无法离线自测，改由 --full 的 --outline/--artifacts 透传执行。",
+      "revisit": "常驻：除非将来产物能内联构造，否则不补离线自测"
+    },
+    "verify_d3.py": {
+      "since": "initial",
+      "permanent": true,
+      "reason": "D3 深度档骨架自检，运行必须传真实产物入参（入参依赖）；无入参不可执行。",
+      "revisit": "常驻：入参依赖"
+    },
+    "intake.py": {
+      "since": "initial",
+      "permanent": true,
+      "reason": "统一接料层，运行必须传 --url/--file/--dir/--text 之一（入参依赖）；且联网分支不应在离线回归里真发请求。",
+      "revisit": "常驻：入参/网络依赖"
+    },
+    "verify_render_combos.py": {
+      "since": "initial",
+      "permanent": true,
+      "reason": "多格式组合联测，需真实渲染环境；已明示不进离线回归，属出包前联测（由 --full 与 assemble 自举门禁强制调用）。",
+      "revisit": "常驻：环境依赖"
+    }
+  }
+}

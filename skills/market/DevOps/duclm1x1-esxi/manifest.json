@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2cp1z4e4",
+  "name": "duclm1x1-esxi",
+  "displayName": "Esxi开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "duclm1x1",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/duclm1x1-esxi/latest/duclm1x1-esxi.zip",
+  "zipSha256": "47b760c089ac577d41a95afd740f9bb0a3c3aa5cc08622ec35bfcf54cad6e121",
+  "zipBytes": 2197,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7c631369833d70f5f4930cd34fe6448cd6cba54f0c6449c6838bf072c0e224c9",
+  "fetchedAt": "2026-11-18T10:38:43.993Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "aa317b38-8586-46cd-9e71-2dfe034de052",
+  "name": "shenhuo-ppt-images",
+  "displayName": "神火PPT图片设计",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a01d98-f102-7903-a679-ec4060573e9a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a17618-aac3-7e8e-8f3b-9d0d1bb111fb/cc3e8f20_神火ppt_图片.zip",
+  "zipSha256": "75707221d9b83f7e46e6ddb59e386bcce26d14602de1ef91219f3132eae4935b",
+  "zipBytes": 43411,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "5cdfe557b6d01f4de3a13f673425d5d5f8a238e052014d2e48908c1c166ad6e9",
+  "fetchedAt": "2026-11-18T10:35:33.184Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

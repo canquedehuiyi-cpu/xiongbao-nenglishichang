@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9A9zgzkD",
+  "name": "phy-websocket-audit",
+  "displayName": "WebSocket 安全审计器",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/phy-websocket-audit/latest/phy-websocket-audit.zip",
+  "zipSha256": "b4780eed3f686743365ab05954880c73e151bae12fd2af93221d2d3abe8139c3",
+  "zipBytes": 10814,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d71dc6fbc91963eff1bf465a0c27d56cc0f741ee34d96bb3d4e1f873e0e465f3",
+  "fetchedAt": "2026-11-18T10:41:01.199Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

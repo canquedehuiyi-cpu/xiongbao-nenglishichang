@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2VxwkOUd",
+  "name": "florianbuetow-pasta-scope",
+  "displayName": "Pasta处理",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "florianbuetow",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/florianbuetow-pasta-scope/latest/florianbuetow-pasta-scope.zip",
+  "zipSha256": "89cb52fb497acb8cab6c6075bc7b82142096c54d3de3417adbe38ec26a3afaaf",
+  "zipBytes": 2617,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "03b333990a1d99d6a2ee09cbe9db0b9083a9155a6510c7c3d1583bc11aa7ea32",
+  "fetchedAt": "2026-11-18T10:41:23.703Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

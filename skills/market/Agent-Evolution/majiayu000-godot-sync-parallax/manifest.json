@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_r2Wp8nfK",
+  "name": "majiayu000-godot-sync-parallax",
+  "displayName": "Parallax开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-godot-sync-parallax/latest/majiayu000-godot-sync-parallax.zip",
+  "zipSha256": "05e4936f01f8ebe05ddb84ee83d603e973ed5bbbaef0022e51c6150d5bd3e948",
+  "zipBytes": 3857,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "6574a4b41e5b242f0c98884f1bdf9e47acbaf118a3db3cd15687c6fa6e49c511",
+  "fetchedAt": "2026-11-18T10:33:27.823Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

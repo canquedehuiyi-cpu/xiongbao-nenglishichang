@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "note": "好稿学习引擎（golden-learner.mjs）回归集：用 setup 数据写入临时目录，断言建议数量与关键模式"
+  },
+  "cases": [
+    {
+      "id": "GL-01",
+      "label": "两个高分稿产出建议",
+      "setup": {
+        "versions": [
+          { "qscore": 85, "prompt": "你是一个专业助手。请完成任务。输出格式：JSON。不要编造。无法确定按 null 处理。" },
+          { "qscore": 88, "prompt": "你是一位工程师。完成标准：全部通过。不要编造，注明来源。默认输出表格。步骤：先分析后求解。" }
+        ],
+        "golden": []
+      },
+      "expect": { "good_min": 2, "suggestions_min": 3, "patterns_include": ["role"] }
+    },
+    {
+      "id": "GL-02",
+      "label": "样本不足优雅降级",
+      "setup": { "versions": [], "golden": [] },
+      "expect": { "good_min": 0, "suggestions_min": 0, "insufficient": true }
+    }
+  ]
+}

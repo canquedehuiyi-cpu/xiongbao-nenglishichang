@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "f0d363cf-9695-459e-a197-caae4383c855",
+  "name": "shadow-ai-governance-screener",
+  "displayName": "Shadow AI 治理可执行性初筛",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f80d0-6883-7635-8bdc-0b20380f01e7",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f94e5-4741-7ae8-a350-19b7047bb8c0/c8f66fb8_shadow-ai-governance-screener-qoder-public-v0.2.4-qoder.1.zip",
+  "zipSha256": "8c686527418e5d9a94a94f072e56fb837dc91b29a1ae6e293e7355523b603859",
+  "zipBytes": 5402,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "d99f94c264d22d99d2473ecc62e103864a5a0fad38a738f61a5fa34efc0bf2d2",
+  "fetchedAt": "2026-11-18T10:41:13.421Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

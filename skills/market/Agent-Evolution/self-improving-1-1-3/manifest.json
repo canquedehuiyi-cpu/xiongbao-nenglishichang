@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Dvd3r6B3",
+  "name": "self-improving-1-1-3",
+  "displayName": "自我改进智能体",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "sieyer",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/self-improving-1-1-3/latest/self-improving-1-1-3.zip",
+  "zipSha256": "842033dc91629e2425231eff598e70bcef680d8f7201c35709cd4108b51a4b44",
+  "zipBytes": 13530,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "b633cc00e8be302a7b907d1905ee7f6c379df73f40c27f83d630cf21dbf67610",
+  "fetchedAt": "2026-11-18T10:33:25.753Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

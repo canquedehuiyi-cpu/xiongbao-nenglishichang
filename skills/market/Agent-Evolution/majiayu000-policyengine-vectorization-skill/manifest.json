@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_yeNL5j2o",
+  "name": "majiayu000-policyengine-vectorization-skill",
+  "displayName": "金融向量化模式",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-policyengine-vectorization-skill/latest/majiayu000-policyengine-vectorization-skill.zip",
+  "zipSha256": "b15af1fe4a4f391d14a66512d85472c83ce1a2e16f2827d17c2736e6377113a3",
+  "zipBytes": 5291,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "7040f7dba466ff8aa0130f492054da155416c1b991e6310aa00c53f364ff7bb4",
+  "fetchedAt": "2026-11-18T10:33:16.383Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

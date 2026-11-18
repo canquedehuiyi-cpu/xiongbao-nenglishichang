@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_v42dftgz",
+  "name": "hz-context-optimizer",
+  "displayName": "上下文压缩策略",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lidekahdjdhdhsjjs-lang",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/hz-context-optimizer/latest/hz-context-optimizer.zip",
+  "zipSha256": "593a070c2cf0713c0d77b4cfcce99127d6be51c8e80bcae8ba598f8f4f2608a3",
+  "zipBytes": 14280,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "3ada7bb8e0cafaa27c9ab82cf4d026b59409a42ab5770ca46a9c720ba44328e3",
+  "fetchedAt": "2026-11-18T10:33:23.007Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

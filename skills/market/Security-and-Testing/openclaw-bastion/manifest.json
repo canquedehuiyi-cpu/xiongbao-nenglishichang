@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4adhTDGp",
+  "name": "openclaw-bastion",
+  "displayName": "OpenClaw 堡垒",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "atlaspa",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-bastion/latest/openclaw-bastion.zip",
+  "zipSha256": "b0a3f976155229eee72e4b2ccd87e57ecaba5a6983624fd8283b3bdc62052ffb",
+  "zipBytes": 20998,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "1d956d88cecc750ae524812d3d68efa7c70553009f97dd55c407d357bc170190",
+  "fetchedAt": "2026-11-18T10:41:23.872Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

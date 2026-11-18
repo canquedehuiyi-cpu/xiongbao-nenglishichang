@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_oK4vfgAh",
+  "name": "anti-injection-skill",
+  "displayName": "防注入安全技能",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "georges91560",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/anti-injection-skill/latest/anti-injection-skill.zip",
+  "zipSha256": "82be563e953fe73ce0e2576710ae461ee36a5334871a713d348c4ada7631966a",
+  "zipBytes": 13008,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "65a0f2d7f96dd60e0d6456b0031f376d96fcfa10630796a63f5c59b0c65d353d",
+  "fetchedAt": "2026-11-18T10:40:49.644Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

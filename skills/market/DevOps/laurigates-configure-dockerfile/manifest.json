@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Dy8XrQtb",
+  "name": "laurigates-configure-dockerfile",
+  "displayName": "容器Docker运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "laurigates",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/laurigates-configure-dockerfile/latest/laurigates-configure-dockerfile.zip",
+  "zipSha256": "f3736487be19485df2e38544f1e1bb8e65f00bc8b5b66b3ac65d499b43fdacd1",
+  "zipBytes": 3247,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ae96afaa5411c5a7fa50a18823cbbbd7cb388b890633fbdd4b32c5deb6e8215a",
+  "fetchedAt": "2026-11-18T10:38:15.532Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

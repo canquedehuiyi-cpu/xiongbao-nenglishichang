@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KA4pjdFQ",
+  "name": "jgtolentino-iac-executor",
+  "displayName": "Executor管理",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jgtolentino",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jgtolentino-iac-executor/latest/jgtolentino-iac-executor.zip",
+  "zipSha256": "d70b1a0e0f8ff0122152c3e672325b75b6485a86da87afc1db1028728af2321d",
+  "zipBytes": 2880,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "df1b1f78ff2e145aaf362b4c6ab83bbb5d44e5853f392b67b1ad38d242c0c09a",
+  "fetchedAt": "2026-11-18T10:38:49.329Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

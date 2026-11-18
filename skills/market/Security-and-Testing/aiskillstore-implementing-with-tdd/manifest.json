@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4jnqjaw7",
+  "name": "aiskillstore-implementing-with-tdd",
+  "displayName": "TDD开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-implementing-with-tdd/latest/aiskillstore-implementing-with-tdd.zip",
+  "zipSha256": "e13228db81651167889a4e7749524302268f62e6025795c2008e8999b7527471",
+  "zipBytes": 4140,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f60b785f47eef72c12255895d66bc2712a620bd96a11718bc174417ffc0f76d7",
+  "fetchedAt": "2026-11-18T10:41:17.251Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

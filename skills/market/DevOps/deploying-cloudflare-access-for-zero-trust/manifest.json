@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_nCxRM0KT",
+  "name": "deploying-cloudflare-access-for-zero-trust",
+  "displayName": "部署 cloudflare 访问以实现零信任",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "mukul975",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/deploying-cloudflare-access-for-zero-trust/latest/deploying-cloudflare-access-for-zero-trust.zip",
+  "zipSha256": "9400dccfe190bd3490386e58d62cde2c08b380d95380c579aa95b2dc175579b5",
+  "zipBytes": 5465,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "ae5d0738b147ce43a675e6b51abdb2eac575203568d6f77f08ef487f31fa3171",
+  "fetchedAt": "2026-11-18T10:38:28.948Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

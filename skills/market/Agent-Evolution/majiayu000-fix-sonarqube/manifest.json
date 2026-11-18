@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FhDyFmbb",
+  "name": "majiayu000-fix-sonarqube",
+  "displayName": "代码质量",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-fix-sonarqube/latest/majiayu000-fix-sonarqube.zip",
+  "zipSha256": "492ca6c18d5db1e41d8760c9d493c6bafe7ec257b8e938502668789e5869a31d",
+  "zipBytes": 2161,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "dd781f718f6ce48b39a406c12d528c97c2b28ccf5366b27697dc60ee50a36b98",
+  "fetchedAt": "2026-11-18T10:33:33.578Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

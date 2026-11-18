@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0uC5rs1M",
+  "name": "alibabacloud-waf-security-monitor",
+  "displayName": "WAF重保巡检",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-waf-security-monitor/latest/alibabacloud-waf-security-monitor.zip",
+  "zipSha256": "a1f68666adc62d1f859c50aa1f052d79902e1ad1ddea8b2671c3ea02ade62a5c",
+  "zipBytes": 29200,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "568544272c94fa66ea6823d4d8397ecd64fd47d5d4e2a5531889e16efbf8bb52",
+  "fetchedAt": "2026-11-18T10:41:04.262Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 1
+  },
+  "note": null
+}

@@ -1,0 +1,63 @@
+{
+  "domain": "finance",
+  "label": "金融营销（中国）",
+  "jurisdiction": "cn",
+  "modalities": ["text"],
+  "law_level": "admin",
+  "snapshot_checked": "2026-09-03",
+  "effective_date": "2026-09-30",
+  "status": "current",
+  "superseded_by": null,
+  "sources": [
+    { "name": "金融产品网络营销管理办法", "url": "https://www.gov.cn/zhengce/zhengceku/202604/content_7066927.htm", "last_verified": "2026-09-03" },
+    { "name": "办法答记者问", "url": "https://www.gov.cn/zhengce/202604/content_7066934.htm", "last_verified": "2026-09-03" }
+  ],
+  "rules": [
+    {
+      "key": "guaranteed_return",
+      "name": "保本/收益承诺",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["保本", "保收益", "稳赚不赔", "无风险", "固定收益", "保证盈利", "年化 8% 以上", "稳赚", "躺赚", "零风险"],
+      "basis": "金融产品网络营销管理办法：不得对收益作出保证性承诺，不得明示或暗示保本保收益",
+      "suggestion": "删除保本/保收益承诺，改为如实提示风险与过往业绩不代表未来"
+    },
+    {
+      "key": "risk_disclosure",
+      "name": "风险揭示",
+      "type": "remind",
+      "severity": "high",
+      "triggers": ["风险提示", "风险揭示", "风险等级", "风险说明"],
+      "basis": "金融产品网络营销管理办法：营销内容应当显著提示金融消费者注意风险",
+      "suggestion": "金融营销文案需附带显著风险提示，说明产品风险等级"
+    },
+    {
+      "key": "qualification",
+      "name": "资质与身份展示",
+      "type": "remind",
+      "severity": "high",
+      "triggers": ["具备资质", "持牌", "资质编号", "机构名称", "已取得资质"],
+      "basis": "金融产品网络营销管理办法：开展金融营销应具备相应资质；不得以'内幕消息''荐股'等诱导",
+      "suggestion": "金融信息/荐股类内容需具备相应资质并如实标注机构信息"
+    },
+    {
+      "key": "induce_loan",
+      "name": "诱导借贷/过度营销",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["秒批", "无条件放款", "无视征信", "借钱不用还", "高额贷款", "快速下款", "砍头息"],
+      "basis": "金融产品网络营销管理办法：不得以诱导性话术营销贷款，禁止虚假承诺放款条件",
+      "suggestion": "删除诱导借贷话术，如实说明贷款条件与征信影响"
+    },
+    {
+      "key": "hot_topic",
+      "name": "蹭热点营销",
+      "type": "warn",
+      "severity": "medium",
+      "triggers": ["借势营销", "蹭热点", "利用突发事件营销", "疫情赚钱", "灾情理财"],
+      "basis": "金融产品网络营销管理办法：不得利用突发事件、灾情等开展营销活动",
+      "suggestion": "禁止借突发事件/灾情进行金融产品营销"
+    }
+  ],
+  "meta": { "policy_lock": true, "auto_update": false }
+}

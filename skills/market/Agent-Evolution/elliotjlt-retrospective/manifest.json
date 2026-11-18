@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4gDpUL2T",
+  "name": "elliotjlt-retrospective",
+  "displayName": "任务复盘总结",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ElliotJLT",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/elliotjlt-retrospective/latest/elliotjlt-retrospective.zip",
+  "zipSha256": "de070838aecfc6a04dd61cf2fe1a3c50a613ee27e22c2e4ac5f7f5a23da20b13",
+  "zipBytes": 2375,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "fed6dd4b2896ff932f845af3066ddf2e2fb66056964765cb00e2f09c2c78ff3d",
+  "fetchedAt": "2026-11-18T10:33:40.216Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

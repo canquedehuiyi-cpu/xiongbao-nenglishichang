@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LOs2FTYI",
+  "name": "iliaal-testing-laravel",
+  "displayName": "Laravel测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "iliaal",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/iliaal-testing-laravel/latest/iliaal-testing-laravel.zip",
+  "zipSha256": "ddcd1da91e43fc4fcd9d14551858e7b942b6ff9d708be1c071151aaf901d14c3",
+  "zipBytes": 7749,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "2f6c52728bf5f08a7eced6ef42c81e74d1e527c3e85ee2e2a835533820d1fa75",
+  "fetchedAt": "2026-11-18T10:41:05.591Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

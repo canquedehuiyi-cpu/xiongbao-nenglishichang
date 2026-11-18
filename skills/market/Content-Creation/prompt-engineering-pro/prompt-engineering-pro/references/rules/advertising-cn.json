@@ -1,0 +1,63 @@
+{
+  "domain": "advertising",
+  "label": "广告营销（中国）",
+  "jurisdiction": "cn",
+  "modalities": ["text", "image"],
+  "law_level": "mixed",
+  "snapshot_checked": "2026-09-03",
+  "effective_date": null,
+  "status": "current",
+  "superseded_by": null,
+  "sources": [
+    { "name": "中华人民共和国广告法（2021修正）", "url": "https://www.gov.cn/guoqing/2021-10/29/content_5647620.htm", "last_verified": "2026-09-03" },
+    { "name": "互联网广告管理办法", "url": "https://www.gov.cn/zhengce/202305/content_6858084.htm", "last_verified": "2026-09-03" }
+  ],
+  "rules": [
+    {
+      "key": "absolute_words",
+      "name": "绝对化用语",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["最", "第一", "首个", "唯一", "国家级", "顶级", "史上最强", "绝对", "100%", "全网最低", "极品", "全网第一"],
+      "basis": "广告法第九条：广告不得使用'国家级''最高级''最佳'等用语",
+      "suggestion": "改为可验证的客观描述并注明数据来源，或删去绝对化限定词"
+    },
+    {
+      "key": "false_claims",
+      "name": "虚假/夸大承诺",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["保证见效", "根治", "永不复发", "无效退款", "包治", "立竿见影", "一次搞定", "稳赚", "无风险"],
+      "basis": "广告法第二十八条：以虚假或引人误解的内容欺骗、误导消费者的广告构成虚假广告",
+      "suggestion": "删除无法证实的功效承诺，改用客观功能描述"
+    },
+    {
+      "key": "ad_identify",
+      "name": "广告可识别标识",
+      "type": "remind",
+      "severity": "medium",
+      "triggers": ["标注广告", "标明广告", "广告标识", "广告字样"],
+      "basis": "互联网广告管理办法第九条：互联网广告应当具有可识别性，显著标明'广告'",
+      "suggestion": "推广/种草类文案应显著标注'广告'字样，避免软文误导"
+    },
+    {
+      "key": "minor_ads",
+      "name": "未成年人广告限制",
+      "type": "warn",
+      "severity": "medium",
+      "triggers": ["面向儿童", "儿童专用", "孩子必备", "小学生必看"],
+      "basis": "广告法第四十条：不得利用不满十周岁的未成年人作为广告代言人",
+      "suggestion": "涉及未成年人内容的广告需谨慎，避免诱导与夸大"
+    },
+    {
+      "key": "banned_categories",
+      "name": "违禁品类资质",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["医疗", "药品", "医疗器械", "保健食品", "金融", "教育"],
+      "basis": "广告法及行业特别规定：医疗/药品/保健食品/金融/教育培训广告需相应资质或审查",
+      "suggestion": "涉及上述品类时核对资质与审查要求（见 medical/finance 领域快照）"
+    }
+  ],
+  "meta": { "policy_lock": true, "auto_update": false }
+}

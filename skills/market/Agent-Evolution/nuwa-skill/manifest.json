@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "f2f4af3f-dbd4-496c-a721-0df6ec8d5819",
+  "name": "nuwa-skill",
+  "displayName": "女娲造人",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcda4-3df9-761a-a3b5-674831b7187a/7527bec2_nuwa-skill.zip",
+  "zipSha256": "cfd965972617322862d932d325c0ac5445e7f0889a715f7bb648db13d4bdd20f",
+  "zipBytes": 28301,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "e6d8fb97d15a10b61b9ad70683ad97c87d0c9c5d14034fb6cd0d29d33680f64a",
+  "fetchedAt": "2026-11-18T10:33:06.866Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,1 @@
+{"name":"alibaba-quark-scanking-idphoto","version":"0.1.0","description":"由夸克扫描王提供的智能证件照生成工具。支持传入人像照片，智能裁剪为标准证件照尺寸（一寸/二寸），支持妆容风格调整、修容增强、背景更换（红底/白底/蓝底）。输出符合尺寸规范的高清证件照图片。","publishConfig":{"registry":"https://contextlab.alibaba-inc.com/skill"}}

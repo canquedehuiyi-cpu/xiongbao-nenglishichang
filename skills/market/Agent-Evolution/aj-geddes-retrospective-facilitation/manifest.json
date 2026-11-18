@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Ef4zEKhT",
+  "name": "aj-geddes-retrospective-facilitation",
+  "displayName": "会议助手",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aj-geddes",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aj-geddes-retrospective-facilitation/latest/aj-geddes-retrospective-facilitation.zip",
+  "zipSha256": "b4c87ab1325dd5373b94ef442ee9b32803913dbefad1bd72d16c959d4118f3a2",
+  "zipBytes": 6768,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "c76f43f04437795300e18e48fe6e114b1e1e7c40b8dd0bcda035f0049827a385",
+  "fetchedAt": "2026-11-18T10:33:12.380Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

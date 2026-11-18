@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_uEr3bvys",
+  "name": "majiayu000-cocos2d-x",
+  "displayName": "XCocos2d开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-cocos2d-x/latest/majiayu000-cocos2d-x.zip",
+  "zipSha256": "8bc27704e46c7ea7a212638a2cef9ca628f1395b851dc1a6d76986184d438204",
+  "zipBytes": 3283,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e3989e0fc0110070d6702bb53d53b4c7d0a81d4ad46181b68c6c916205770501",
+  "fetchedAt": "2026-11-18T10:33:19.821Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

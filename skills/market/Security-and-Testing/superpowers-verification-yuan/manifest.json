@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_U0jDsa6Z",
+  "name": "superpowers-verification-yuan",
+  "displayName": "超能力验证",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/superpowers-verification-yuan/latest/superpowers-verification-yuan.zip",
+  "zipSha256": "a9535d3ab3b62275d5b149e04c236691d3ede4ed19d987904fbdfb9eabdcd57f",
+  "zipBytes": 2499,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c308d58fe789d055ece5c131b24b20b9660d8ebbda9de991488c9b4d59e252c3",
+  "fetchedAt": "2026-11-18T10:40:46.426Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

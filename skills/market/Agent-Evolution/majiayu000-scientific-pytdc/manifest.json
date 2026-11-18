@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_N0MyaH3F",
+  "name": "majiayu000-scientific-pytdc",
+  "displayName": "Pytdc数据处理",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-scientific-pytdc/latest/majiayu000-scientific-pytdc.zip",
+  "zipSha256": "04f38ab2b0472903160f0f8c0bf7b6354e443f40843c745aeb63fb9315dde477",
+  "zipBytes": 5541,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9476d3f6f4f7ef2290722400f528d337b14be075da2c4b784f73a8af3dba5e05",
+  "fetchedAt": "2026-11-18T10:33:28.170Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_z9cLT7mx",
+  "name": "sanitize",
+  "displayName": "文本脱敏工具",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "agentward-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/sanitize/latest/sanitize.zip",
+  "zipSha256": "03ec0b5d533298a810fc712950ab64b2b0654a50863fe4a29f06550b45c386a9",
+  "zipBytes": 9314,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "c99ded5995cfe078d80618cef1df59f851b4b5f4f4e7176b41d30928b5c484bc",
+  "fetchedAt": "2026-11-18T10:41:10.970Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

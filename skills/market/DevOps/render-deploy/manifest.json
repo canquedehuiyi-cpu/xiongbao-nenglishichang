@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official88441354",
+  "name": "render-deploy",
+  "displayName": "渲染部署",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "davila7",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/render-deploy/latest/render-deploy.zip",
+  "zipSha256": "25892f4ebbe05029fbb1fba8f8190479ecc4e08bc32e57d144bdbe89cced4c3b",
+  "zipBytes": 6518,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "60ae7ff640575a4db3db7ed03e2a0294b7cf972c099007285e5dcbfb19a8ba76",
+  "fetchedAt": "2026-11-18T10:38:13.517Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

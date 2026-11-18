@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1Mmg9J1j",
+  "name": "majiayu000-github-project",
+  "displayName": "GitHub开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-github-project/latest/majiayu000-github-project.zip",
+  "zipSha256": "7f8c85acc7d30a1bbf38ba05704b1800150f7093d59383518b26533003d22c10",
+  "zipBytes": 4868,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "ba553dddd13778fe6ee666768c2723c152657881bb87a250e65f3a99f71638e4",
+  "fetchedAt": "2026-11-18T10:33:19.298Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

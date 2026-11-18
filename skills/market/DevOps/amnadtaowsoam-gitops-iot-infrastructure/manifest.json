@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZvDROWys",
+  "name": "amnadtaowsoam-gitops-iot-infrastructure",
+  "displayName": "IOT开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AmnadTaowsoam",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amnadtaowsoam-gitops-iot-infrastructure/latest/amnadtaowsoam-gitops-iot-infrastructure.zip",
+  "zipSha256": "19ded3e31d28ee7347a0070ed92167b2110687ad2006548726c81563f6de4bd4",
+  "zipBytes": 3754,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "eab60b21fbef960685a1dca11ade2c5dcd681a89cab40bd30ebaab9f15752063",
+  "fetchedAt": "2026-11-18T10:38:32.261Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

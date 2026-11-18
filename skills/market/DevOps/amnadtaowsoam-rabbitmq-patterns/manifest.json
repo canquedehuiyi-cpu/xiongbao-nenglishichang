@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SuK97pLQ",
+  "name": "amnadtaowsoam-rabbitmq-patterns",
+  "displayName": "Rabbitmq开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AmnadTaowsoam",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amnadtaowsoam-rabbitmq-patterns/latest/amnadtaowsoam-rabbitmq-patterns.zip",
+  "zipSha256": "13f8425d5567595a9f12e2e41ed2d4654e02b26b550c375ddb49732d76b20f39",
+  "zipBytes": 3159,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "f58f9af24b78cb41a3068eda665d4653c063966592561c6e95ee669cd039a9d1",
+  "fetchedAt": "2026-11-18T10:38:33.291Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "360ecc05-3ff5-4f00-a38a-22013814e9a5",
+  "name": "iga-pages",
+  "displayName": "IGA Pages 部署",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a153a5-1fc6-7dd8-9d14-84b8a4b065d7",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a153b6-5f25-7b05-9763-f950bb5f8efb/834d614c_iga-pages-skill.zip",
+  "zipSha256": "ead5ee762bc9d7a50487a81ec6a5c52f157d8adc50729bb73fe0320a923728a9",
+  "zipBytes": 23638,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 17,
+  "treeSha256": "bc793251014e58b59ec4398730d6cd25bbb65cc0acdda158e6c7ce17dc082277",
+  "fetchedAt": "2026-11-18T10:38:15.381Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

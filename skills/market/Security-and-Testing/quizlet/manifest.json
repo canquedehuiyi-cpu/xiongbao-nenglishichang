@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RQf5Dc9L",
+  "name": "quizlet",
+  "displayName": "Quizlet 学习集优化专家",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivangdavila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/quizlet/latest/quizlet.zip",
+  "zipSha256": "9c47fdd2d00d78bb1a5ec29ff017b696ac51c868e5aac954007a2636c0cdfaea",
+  "zipBytes": 8185,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "218597208d02b0454c49b6e1b08dc19f7a7c5911cc5fa0502174c609b88cf453",
+  "fetchedAt": "2026-11-18T10:41:21.955Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

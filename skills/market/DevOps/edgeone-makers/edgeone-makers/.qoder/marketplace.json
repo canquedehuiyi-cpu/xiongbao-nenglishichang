@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "skill",
+  "marketItemId": "516b0908-de50-4663-81c7-df91a5a39ad7",
+  "itemName": "edgeone-makers",
+  "displayName": "EdgeOne Makers",
+  "version": "2.0.1",
+  "packageKind": "skill"
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_619czIoQ",
+  "name": "dicklesworthstone-cloud-run-service-config",
+  "displayName": "云RUN",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-cloud-run-service-config/latest/dicklesworthstone-cloud-run-service-config.zip",
+  "zipSha256": "bd3ea3c4d8e4e801db0158a411f39b65f087904cb52624b25b0064321ff2a6a1",
+  "zipBytes": 1209,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "9c7f6bb171ac71d986359737d891240c64401d9d66e047223eb9179eaac12c3e",
+  "fetchedAt": "2026-11-18T10:38:57.715Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

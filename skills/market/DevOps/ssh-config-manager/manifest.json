@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_eZG6NlIV",
+  "name": "ssh-config-manager",
+  "displayName": "SSH配置管理器",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "derick001",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ssh-config-manager/latest/ssh-config-manager.zip",
+  "zipSha256": "30dfeba511092f28dece92757214829d0d558350405ff2674793020a7c3ff987",
+  "zipBytes": 7440,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "9655ecb0834efa1aaecd57faa81c283081b7d6b8102f072b7ce74206a1e07c1f",
+  "fetchedAt": "2026-11-18T10:38:17.187Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

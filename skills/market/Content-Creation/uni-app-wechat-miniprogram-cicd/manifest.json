@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_H5C8uwma",
+  "name": "uni-app-wechat-miniprogram-cicd",
+  "displayName": "uni-app 微信小程序开发与持续集成",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/uni-app-wechat-miniprogram-cicd/latest/uni-app-wechat-miniprogram-cicd.zip",
+  "zipSha256": "742e9154e199d2385ec4d6f77108ecdb1d68dfd88c3c41f97ba0207a21a5c6e7",
+  "zipBytes": 15024,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "6dd87f09225cf285509f3df52b634edac683be064b77740778ad7360debef3f4",
+  "fetchedAt": "2026-11-18T10:35:21.633Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

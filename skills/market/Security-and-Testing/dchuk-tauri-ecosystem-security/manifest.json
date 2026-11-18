@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_G3HYp0sv",
+  "name": "dchuk-tauri-ecosystem-security",
+  "displayName": "报告Tauri",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dchuk",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dchuk-tauri-ecosystem-security/latest/dchuk-tauri-ecosystem-security.zip",
+  "zipSha256": "cf9340e1b8766f52825188130fefdfe7bc74dcb618b2e8bea20cfe33b9f1beb2",
+  "zipBytes": 4649,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "34be9df3e57543747643d657fc11cbb5751a8d77b98bad5ebd9b633f53664851",
+  "fetchedAt": "2026-11-18T10:41:03.437Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

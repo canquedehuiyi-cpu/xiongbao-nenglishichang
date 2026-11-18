@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_08cSe6HM",
+  "name": "agent-memory-patterns",
+  "displayName": "智能体内存架构模式",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "byron-mckeeby",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-memory-patterns/latest/agent-memory-patterns.zip",
+  "zipSha256": "3d9ce832f92cd884fb88760ae44e2ffc19a30a3214c1f6c6cc07f5a3b0b56fda",
+  "zipBytes": 4425,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c81b46c8c4453a991b4c16227189ef8175d43c37ab48e2d2964f76bcbdc6a47b",
+  "fetchedAt": "2026-11-18T10:33:11.596Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MhVAMwE9",
+  "name": "wecom-connect",
+  "displayName": "企业微信连接",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/wecom-connect/latest/wecom-connect.zip",
+  "zipSha256": "bd74673f453c8ef6f8a397a7f9f5edcd998dbec5cd354b246d00af665ce79f59",
+  "zipBytes": 1862,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "353b61f4194392382a93752b41f9ff9e7b419484ce37303fde356ed72f57cdb5",
+  "fetchedAt": "2026-11-18T10:38:14.848Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

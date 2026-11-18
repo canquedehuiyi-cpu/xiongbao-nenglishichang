@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1GTxT4v9",
+  "name": "diegosouzapw-root-cause-analysis-fabioc-aloha",
+  "displayName": "根因Cause",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-root-cause-analysis-fabioc-aloha/latest/diegosouzapw-root-cause-analysis-fabioc-aloha.zip",
+  "zipSha256": "b427b525512ccdcba18c2d8f8ee027a806b5b7cd5d19fde7cb5e1a58596c9f18",
+  "zipBytes": 3498,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2eb575ca88f08587f2095d9ff6ce115d26ce19028eea4278b892aa1cb0500d51",
+  "fetchedAt": "2026-11-18T10:41:28.187Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

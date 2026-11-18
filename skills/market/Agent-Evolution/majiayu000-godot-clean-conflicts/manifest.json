@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_e1vghb1a",
+  "name": "majiayu000-godot-clean-conflicts",
+  "displayName": "Godot清理",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-godot-clean-conflicts/latest/majiayu000-godot-clean-conflicts.zip",
+  "zipSha256": "00d1c04d918a8e2a11804231497e600e50b097cbfbc24418a0b0c84ad257a819",
+  "zipBytes": 4035,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "39080680aede0aefcc7d78a4570bccc35aa1d1c2221f9610299fe5b541aa98f9",
+  "fetchedAt": "2026-11-18T10:33:14.270Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

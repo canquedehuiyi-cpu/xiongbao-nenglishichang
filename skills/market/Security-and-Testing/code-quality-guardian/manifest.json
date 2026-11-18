@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_V1jISCA5",
+  "name": "code-quality-guardian",
+  "displayName": "代码质量守护者",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/code-quality-guardian/latest/code-quality-guardian.zip",
+  "zipSha256": "cf919c829e415a12f9f50912ec9e87e75404c7d5cebb623638c3be84668a8b98",
+  "zipBytes": 40877,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 24,
+  "treeSha256": "14b0be260ba3f630fdb8d3ff47d5346a214a743df460cad33ff36faf282467f2",
+  "fetchedAt": "2026-11-18T10:40:57.308Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

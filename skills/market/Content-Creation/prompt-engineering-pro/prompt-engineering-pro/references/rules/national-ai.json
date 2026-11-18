@@ -1,0 +1,45 @@
+{
+  "domain": "national-ai",
+  "label": "生成式 AI 国家法律层（中国）",
+  "jurisdiction": "cn",
+  "modalities": ["text", "image", "video", "audio"],
+  "law_level": "admin",
+  "snapshot_checked": "2026-09-03",
+  "effective_date": null,
+  "status": "current",
+  "superseded_by": null,
+  "sources": [
+    { "name": "生成式人工智能服务管理暂行办法", "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm", "last_verified": "2026-09-03" },
+    { "name": "互联网信息服务算法推荐管理规定", "url": "https://www.cac.gov.cn/2022-01/04/c_1642894606364259.htm", "last_verified": "2026-09-03" }
+  ],
+  "rules": [
+    {
+      "key": "algorithm_filing",
+      "name": "算法备案",
+      "type": "remind",
+      "severity": "high",
+      "triggers": ["算法备案", "已备案", "备案号"],
+      "basis": "生成式AI暂行办法/算法推荐规定：具有舆论属性或社会动员能力的服务需履行算法备案",
+      "suggestion": "面向公众的 AI 服务上线前核对算法备案要求"
+    },
+    {
+      "key": "content_red_line",
+      "name": "生成内容红线",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["煽动颠覆", "分裂国家", "色情低俗", "暴力恐怖", "歧视仇恨", "虚假新闻"],
+      "basis": "生成式AI暂行办法第四条：不得生成煽动颠覆国家政权、色情暴力、歧视仇恨等违法内容",
+      "suggestion": "AI 提示词必须约束生成边界，禁止引导违法内容"
+    },
+    {
+      "key": "deepfake_fraud",
+      "name": "深度伪造防诈骗",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["冒充身份", "伪造转账", "AI 换脸诈骗", "仿声诈骗", "冒充领导"],
+      "basis": "深度合成管理规定：不得利用深度合成实施诈骗等违法犯罪活动",
+      "suggestion": "禁止提示词引导深度伪造用于诈骗、冒充等非法目的"
+    }
+  ],
+  "meta": { "policy_lock": true, "auto_update": false }
+}

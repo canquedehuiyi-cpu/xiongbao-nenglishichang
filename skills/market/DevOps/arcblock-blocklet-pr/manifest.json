@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7b9L3oGz",
+  "name": "arcblock-blocklet-pr",
+  "displayName": "Pr开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ArcBlock",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/arcblock-blocklet-pr/latest/arcblock-blocklet-pr.zip",
+  "zipSha256": "0740a33067415ad32fb0dd5ecef4f1bb4b3cd0bc7e91fe6494eb961eba54d58a",
+  "zipBytes": 5870,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4b762d3716e07ba8ee72eaf3e91030fe3e35dd00fe2f4236fbd70387e38c475c",
+  "fetchedAt": "2026-11-18T10:38:58.006Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

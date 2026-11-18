@@ -1,0 +1,171 @@
+{
+  "skill_name": "qoder-cloud-agents-cn",
+  "evals": [
+    {
+      "id": 1,
+      "name": "hello-world-end-to-end",
+      "prompt": "当前客户端未安装 QCA MCP，使用 HTTP API。帮我在 Qoder 云端建一个 agent，跑个 hello world：发一条消息让它自我介绍，然后把它的回复打印出来。我的 PAT 已经设置在环境变量 $PAT 里了。",
+      "expected_output": "通过 HTTP 查询可用模型并按当前 API schema 复用或创建 Environment/Agent，创建 Session（agent 字段），发送 content-block 数组消息；用 accepted event ID 作为 SSE cursor 或先建立 SSE 再发消息，检查 stop_reason 和最终回复。",
+      "files": [],
+      "assertions": [
+        {
+          "text": "创建 session 时使用字段名 \"agent\" 而非 \"agent_id\"",
+          "type": "manual"
+        },
+        {
+          "text": "发送消息的 body 把事件包裹在 events 数组里，且 content 为 content block 数组：{\"events\":[{\"type\":\"user.message\",\"content\":[{\"type\":\"text\",\"text\":\"...\"}]}]}，而非纯字符串 content",
+          "type": "manual"
+        },
+        {
+          "text": "以 session.status_idle 作为停止信号读取流，而非 span.model_request_end",
+          "type": "manual"
+        },
+        {
+          "text": "从 agent.message 提取文本时使用 content[0].text（数组格式），而非把 content 当字符串",
+          "type": "manual"
+        },
+        {
+          "text": "查询模型而非硬编码；SSE 不依赖无 cursor 的历史回放；requires_action 不算成功完成。",
+          "type": "manual"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "sse-reconnect-resume",
+      "prompt": "当前客户端未安装 QCA MCP，使用 HTTP API。我用 SSE 监听 Qoder 云端 session 的事件流，结果网络抖动连接断了。怎么从断点继续接收、又不会把之前收到的事件重复处理一遍？",
+      "expected_output": "说明用标准 SSE Last-Event-ID 请求头（值为最后收到的 SSE id:）重连恢复，并按 event.id 去重（边界事件可能被重放）；若开了 event_deltas 增量流，需提及进行中事件的重放语义；可附带退避重连示例。",
+      "files": [],
+      "assertions": [
+        {
+          "text": "重连时使用 Last-Event-ID 请求头（而非 after_id query 参数）携带最后收到的事件 id",
+          "type": "manual"
+        },
+        {
+          "text": "明确按 event.id 做去重，处理服务端重放边界事件的情况",
+          "type": "manual"
+        },
+        {
+          "text": "提到断线后带退避(backoff)重连，而非立即无限重试",
+          "type": "manual"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "cleanup-test-resources",
+      "prompt": "当前客户端未安装 QCA MCP，使用 HTTP API。我刚才测试创建了一个 session、一个 agent 和一个临时 environment，现在想全部清理掉，别留垃圾。给我步骤。",
+      "expected_output": "按 取消运行中 session(等 idle) → 删 session → 删 agent → archive 本次测试 environment 的顺序清理；说明 session 和 agent 可直接 delete，但已删 session 可能仍保留 environment 引用，导致 DELETE environment 返回 409；提醒共享/长期 environment 不要误处理。",
+      "files": [],
+      "assertions": [
+        {
+          "text": "清理顺序为 session → agent → archive environment（先处理依赖方）",
+          "type": "manual"
+        },
+        {
+          "text": "运行中的 session 先 cancel 并等待结算到 idle 再删除",
+          "type": "manual"
+        },
+        {
+          "text": "说明 session 和 agent 可直接 DELETE，但用过的 environment 应 archive；已删 session 可能仍保留 environment 引用",
+          "type": "manual"
+        },
+        {
+          "text": "提醒只删本次测试创建的 environment，共享/长期 environment 不要误删",
+          "type": "manual"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "rate-limit-429-handling",
+      "prompt": "当前客户端未安装 QCA MCP，使用 HTTP API。我批量给好几个 Qoder 云端 session 发消息，偶尔会收到 429。客户端应该怎么处理才稳妥？",
+      "expected_output": "说明 429 为限频，应做指数退避重试（可参考 Retry-After），避免立即重试加剧限流。",
+      "files": [],
+      "assertions": [
+        {
+          "text": "识别 429 为限频(rate limited)状态码",
+          "type": "manual"
+        },
+        {
+          "text": "建议指数退避重试而非立即重试",
+          "type": "manual"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "upload-and-bind-skill",
+      "prompt": "当前客户端未安装 QCA MCP，使用 HTTP API。我写好了一个自定义 skill，想上传到 Qoder 云端并绑定到我已有的 agent 上。怎么做？agent id 我有。",
+      "expected_output": "说明 skill 须打包为含根级 SKILL.md 的 zip（≤50 MiB，frontmatter 优先），用 multipart/form-data（非 JSON）上传 POST /skills；再通过 POST /agents/{id}（非 PUT）带当前 version 和 skills 数组绑定；提醒 skills 是整表替换，需合并已有绑定；可通过 GET /agents/{id} 读回 skills 字段验证。",
+      "files": [],
+      "assertions": [
+        {
+          "text": "skill 打包为 zip 且 SKILL.md 在 zip 根目录",
+          "type": "manual"
+        },
+        {
+          "text": "上传用 multipart/form-data 而非 JSON body",
+          "type": "manual"
+        },
+        {
+          "text": "绑定时用 POST /agents/{id}（非 PUT）带上当前 version 做乐观锁",
+          "type": "manual"
+        },
+        {
+          "text": "说明 skills 字段是整表替换，绑定时需合并已有绑定；可通过 GET /agents/{id} 读回 skills 验证",
+          "type": "manual"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "installed-mcp-with-pat",
+      "prompt": "客户端已经安装 QCA MCP，PAT 已在客户端本地凭据设置中。帮我创建一个云端任务并返回结果。",
+      "expected_output": "复用 PAT 认证的 MCP 连接，发现并使用对应工具；按 schema 传业务参数，由连接携带 Authorization，不改用 HTTP。",
+      "files": []
+    },
+    {
+      "id": 7,
+      "name": "installed-mcp-needs-pat",
+      "prompt": "我安装了 QCA MCP，但还没有配 PAT。帮我连接后运行一个任务。",
+      "expected_output": "引导在客户端本地配置 PAT Bearer 认证，认证成功后发现并调用 MCP 工具；不声称托管 Gateway 无需 PAT，不把 pat 编造为业务参数。",
+      "files": []
+    },
+    {
+      "id": 8,
+      "name": "no-mcp-sat",
+      "prompt": "客户端没有 QCA MCP。我已配置正确区域的 QODER_ACCESS_TOKEN（SAT）和 HTTP base，帮我查询现有 Agent。",
+      "expected_output": "使用 HTTP GET agents 和 SAT Authorization，读取 data；无需安装 MCP 或重复索要 PAT。",
+      "files": []
+    },
+    {
+      "id": 9,
+      "name": "mcp-write-timeout",
+      "prompt": "QCA MCP 创建 Session 超时了，帮我确认创建结果。",
+      "expected_output": "通过原连接查询状态和已有资源，避免通过 HTTP 再次创建；不把超时视为未安装 MCP。",
+      "files": []
+    },
+    {
+      "id": 10,
+      "name": "opposite-region-mcp",
+      "prompt": "目标是 CN 生产账号，但客户端目前只安装了另一区域的 QCA MCP。对应目标区域的 HTTP PAT 已在本地配置，帮我列出现有 Agent。",
+      "expected_output": "先发现是否有匹配区域的 MCP；若没有则使用目标区域 HTTP GET agents。不得调用另一区域 MCP 或跨区复用 PAT。",
+      "files": []
+    },
+    {
+      "id": 11,
+      "name": "language-does-not-select-region",
+      "prompt": "请用中文查询我已配置的 CN 账号的现有任务。",
+      "expected_output": "保留 CN 账号和部署选择，不因中文切到另一服务区；匹配 MCP 优先。",
+      "files": []
+    },
+    {
+      "id": 12,
+      "name": "mcp-auth-error",
+      "prompt": "当前目标区域的 QCA MCP 返回 401，帮我排查。",
+      "expected_output": "检查原连接的 PAT、区域和权限，不自动使用 HTTP 重试，也不尝试其他区域。",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_47xRQhbc",
+  "name": "alibabacloud-csas-user-device-ops",
+  "displayName": "SASE（办公安全平台）用户账号和终端设备运维管理",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-csas-user-device-ops/latest/alibabacloud-csas-user-device-ops.zip",
+  "zipSha256": "f877bb175956afa02715fb41b6c7523cbb5631fc6f8cbc65afc69b25d0c0e9f6",
+  "zipBytes": 28600,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "e8c4303c0287d6aa8d979cd41102c0df7740ebd6d997eb1d45929f0c50cf9e73",
+  "fetchedAt": "2026-11-18T10:38:25.240Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 1
+  },
+  "note": null
+}

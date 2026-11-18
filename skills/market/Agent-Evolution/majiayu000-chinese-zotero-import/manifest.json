@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_OhQbFQru",
+  "name": "majiayu000-chinese-zotero-import",
+  "displayName": "Chinese开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-chinese-zotero-import/latest/majiayu000-chinese-zotero-import.zip",
+  "zipSha256": "c739271bf1ca81d8c86cf8d68503a942aa8d031a6db7edc17f3d36421cd0f45a",
+  "zipBytes": 3830,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "08ca99e3618e9f835533c5080f857e7424515613d9a29545b39f88dba2b557f7",
+  "fetchedAt": "2026-11-18T10:33:38.418Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

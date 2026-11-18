@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "11db809b-c9d3-4e31-abd0-3f4c2f3c62df",
+  "name": "find-science-skills",
+  "displayName": "科学技能查找",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f1ba1-7866-799e-a029-d511201f94b9",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f92c9-48b8-7aee-92b9-a85739a61959/600060e2_find-science-skills.zip",
+  "zipSha256": "56a71761c17f904aa32d8ad5ae9e8a41a7496905651b3992bdde4cd199505146",
+  "zipBytes": 310838,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 17,
+  "treeSha256": "db999e20b5cbb385b8ea2fc1dc65d505ff8e98b5a63ffae8614cc198ce30bb63",
+  "fetchedAt": "2026-11-18T10:33:10.415Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

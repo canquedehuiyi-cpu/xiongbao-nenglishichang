@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6TeMISYJ",
+  "name": "chasebuild-deployer",
+  "displayName": "Deployer开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "uniswap",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/chasebuild-deployer/latest/chasebuild-deployer.zip",
+  "zipSha256": "f9db0bc9c1b5aaad61df2ea81122fc744df686d93fbf07f2d9170edd2272234a",
+  "zipBytes": 6303,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "a44b196c9abdc3d3308f20a1820db07e02ee51655e7c17a4617f8ef15162b30b",
+  "fetchedAt": "2026-11-18T10:38:56.254Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

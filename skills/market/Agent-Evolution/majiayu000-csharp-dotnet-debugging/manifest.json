@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_smju86Tn",
+  "name": "majiayu000-csharp-dotnet-debugging",
+  "displayName": "Csharp调试",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-csharp-dotnet-debugging/latest/majiayu000-csharp-dotnet-debugging.zip",
+  "zipSha256": "bb384f600314b96b211ba8e28f9fe1353f684103947ca103671f558af037cfc1",
+  "zipBytes": 3658,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "bb13de5c8d143697208e9b36476d70d0de9420b3968d110c01fc4ec2234c9732",
+  "fetchedAt": "2026-11-18T10:33:21.230Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

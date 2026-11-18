@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_P7eYN8Lx",
+  "name": "alibabacloud-ram-permission-diagnose",
+  "displayName": "阿里云 RAM 权限诊断与策略生成助手",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-ram-permission-diagnose/latest/alibabacloud-ram-permission-diagnose.zip",
+  "zipSha256": "e40d43f197c56187e03966cbbe0322303da6588e356dcd2073d2b1f8a6325ba7",
+  "zipBytes": 13952,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "186b5435127fb9d9cf881e9cbe43bb77b5509141669df75eced9842374f93a05",
+  "fetchedAt": "2026-11-18T10:40:46.790Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

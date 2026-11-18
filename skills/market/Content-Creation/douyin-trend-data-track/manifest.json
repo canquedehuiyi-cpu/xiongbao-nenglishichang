@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "c4fef827-629f-44b0-b1ed-eb3122b1de89",
+  "name": "douyin-trend-data-track",
+  "displayName": "抖音热点数据追踪",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.3.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a09f17-4fca-7693-b7db-386d61e8014a/2172ce65_douyin-competitor-analysis-1.3.0.zip",
+  "zipSha256": "ed5cb14b4287e5e01f58a6d2f739e59b9fd89a535f12e6b8ad79e8e91cba8572",
+  "zipBytes": 44664,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 33,
+  "treeSha256": "56dcbe54dc5b50ab58faf35a9c7ceeab17458e445f9986455db57f9e6dd102fe",
+  "fetchedAt": "2026-11-18T10:35:28.093Z",
+  "credentialScan": {
+    "textFilesScanned": 33,
+    "filesRedacted": 0
+  },
+  "note": null
+}

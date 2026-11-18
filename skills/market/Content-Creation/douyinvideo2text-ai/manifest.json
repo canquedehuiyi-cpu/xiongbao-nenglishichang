@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "238f0403-dad2-412b-9de4-8ea4f7cc201d",
+  "name": "douyinvideo2text-ai",
+  "displayName": "抖音内容提取总结",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08b83-b4e6-7332-8555-270810c96a46/cdcee1f3_video2text-ai-1.0.1.zip",
+  "zipSha256": "397c23fadd73a188739dbb31a5958deb117e4009eb0d42a9573b498683a215aa",
+  "zipBytes": 30015,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "cb88a7434c48ba6b5f32bb2ceb981dd3cf922a8b967b35f2b55ca9b92c28bb89",
+  "fetchedAt": "2026-11-18T10:35:24.966Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

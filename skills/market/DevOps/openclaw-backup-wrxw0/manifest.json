@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZO6gYPVg",
+  "name": "openclaw-backup-wrxw0",
+  "displayName": "OpenClaw 配置备份与恢复工具",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "hightower6eu",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-backup-wrxw0/latest/openclaw-backup-wrxw0.zip",
+  "zipSha256": "d8f18f0b5e4144b20abd1396f3e6652a3c32a1041fedf95d584688d75b4b2de6",
+  "zipBytes": 5618,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "15696045ec9e9a535df7e0925b3294036df9110e3e1d5e711b6df111e2be67f6",
+  "fetchedAt": "2026-11-18T10:38:39.195Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

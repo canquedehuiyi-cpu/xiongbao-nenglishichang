@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_52VEznsP",
+  "name": "golem-deploy",
+  "displayName": "golem 部署",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "golemcloud",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/golem-deploy/latest/golem-deploy.zip",
+  "zipSha256": "698660c76dfc10c4e3f046c2d543541d322beddac117e3ee50428e339596572b",
+  "zipBytes": 1496,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4e32afe745e0d47975d6463bdbb7b38ccb61c75b1df750a78cd11f10aab8921e",
+  "fetchedAt": "2026-11-18T10:38:55.294Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

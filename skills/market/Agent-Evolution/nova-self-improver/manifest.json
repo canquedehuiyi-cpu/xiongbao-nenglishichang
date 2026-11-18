@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_048t66A6",
+  "name": "nova-self-improver",
+  "displayName": "Nova 自进化器",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/nova-self-improver/latest/nova-self-improver.zip",
+  "zipSha256": "bfe1fa2784b2d1120d50452dd297b012b555366f97aaea4fb16d5ae1a82c29c2",
+  "zipBytes": 3392,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b034ec043367ce35559a53f25112403dfe9dd76994fcc0e047c662c1250472f7",
+  "fetchedAt": "2026-11-18T10:33:42.655Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

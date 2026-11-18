@@ -1,0 +1,27 @@
+{
+  "version": "1.1.0",
+  "purpose": "法域/模态识别触发词库：供 domain-router.mjs 与 safety-compose.mjs 识别输入所属法域（jurisdiction）与内容模态（modality）。未命中返回 null（不虚构）。",
+  "jurisdictions": {
+    "cn": ["中国", "国内", "大陆", "内地", "工信部", "新闻出版署", "网信办", "广告法", "国家广电", "微信", "抖音", "快手", "支付宝", "百度", "巨量", "vivo", "oppo", "小米", "华为"],
+    "eu": ["欧盟", "EU", "欧洲", "GDPR", "AI Act", "eu ai act", "gdpr", "欧标"],
+    "us": ["美国", "FTC", "CCPA", "COPPA", "us market", "美国市场", "美区"]
+  },
+  "model_families": {
+    "claude": ["claude", "anthropic"],
+    "gpt": ["gpt-", "gpt4", "gpt5", "o1", "o3", "o4", "openai", "chatgpt"],
+    "gemini": ["gemini", "bard", "gemma"],
+    "deepseek": ["deepseek", "ds-"],
+    "doubao": ["豆包", "doubao", "volcengine", "字节大模型"],
+    "glm": ["glm", "智谱", "zhipu"],
+    "qwen": ["qwen", "通义", "通义千问"],
+    "kimi": ["kimi", "moonshot"],
+    "open": ["llama", "mistral", "llm开源", "开源模型"]
+  },
+  "modalities": {
+    "text": ["文案", "文本", "文章", "标题", "话术", "广告语", "prompt", "提示词"],
+    "image": ["图像", "图片", "海报", "插画", "主图", "原画", "视觉", "image", "封面"],
+    "video": ["视频", "短视频", "分镜", "视频脚本", "video", "微电影", "宣传片"],
+    "audio": ["音频", "声音", "配音", "语音", "audio", "旁白", "播客"],
+    "code": ["代码", "脚本", "program", "code", "sql", "json", "html"]
+  }
+}

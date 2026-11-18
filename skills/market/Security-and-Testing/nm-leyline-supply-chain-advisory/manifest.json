@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SS1f6SDp",
+  "name": "nm-leyline-supply-chain-advisory",
+  "displayName": "供应链安全顾问",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/nm-leyline-supply-chain-advisory/latest/nm-leyline-supply-chain-advisory.zip",
+  "zipSha256": "195686206bd976ea586722a7208eb484ac6d329dd47de1e6dbdb7362235823c0",
+  "zipBytes": 4737,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "64c54c4a400189903db8602470129c1d7801ba518715dca9f91eee4506af0572",
+  "fetchedAt": "2026-11-18T10:41:29.547Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

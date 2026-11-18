@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "5f81e83b-5488-40af-9bbe-0bc44d94aada",
+  "name": "pptx-lite",
+  "displayName": "轻量级 PPT 生成",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a08077-61c5-74a1-b147-24729c04b60b",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0a3a2-dd6c-7102-903a-70a20f258b5c/4a6e9053_pptx-lite.zip",
+  "zipSha256": "df9a6dd78e771d7334b762da40db0ad46421f7816cfc4740361799637d0f48c8",
+  "zipBytes": 5181,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "141bdd850ad6b8f5c732670303c99950d3206db60d369fde9e8f874536e40f13",
+  "fetchedAt": "2026-11-18T10:35:25.680Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

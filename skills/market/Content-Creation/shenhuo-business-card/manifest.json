@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "fcb6738e-2f4c-43e3-bf3d-929f6f9aa6b9",
+  "name": "shenhuo-business-card",
+  "displayName": "神火名片",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a01d98-f102-7903-a679-ec4060573e9a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a1761d-9934-7409-88cf-0a96883133fd/8ac70db0_名片设计.zip",
+  "zipSha256": "ebf68cc014626be8a5d0014f6d08f94854ee46359495244e6e0e2f50d9b31fd2",
+  "zipBytes": 43327,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "c4b53734190f6a82c4ea7a792d32c36ba747b1938b2145c07fc8ccca3e96a8e2",
+  "fetchedAt": "2026-11-18T10:35:33.974Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6IycAlgA",
+  "name": "sx-security-audit-1-0-0",
+  "displayName": "全方位安全审计",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/sx-security-audit-1-0-0/latest/sx-security-audit-1-0-0.zip",
+  "zipSha256": "6c0e142a01af74e302ad73fc475222f707702097f498190cc81cb5630e666a7c",
+  "zipBytes": 29579,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "1d091192f86a4d1d602fa3f628bf1cd20a8f3ad84b387a008825bfb95517211d",
+  "fetchedAt": "2026-11-18T10:41:06.916Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 2
+  },
+  "note": null
+}

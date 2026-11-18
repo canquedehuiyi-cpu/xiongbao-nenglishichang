@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6ebzypIJ",
+  "name": "diegosouzapw-checking-quality",
+  "displayName": "质量Checking",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-checking-quality/latest/diegosouzapw-checking-quality.zip",
+  "zipSha256": "6ef08be09384a1b5ddb68f2df9e5b09c050a2e12f333dc6ce97aac0345352f31",
+  "zipBytes": 2894,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "46db0373aa33de66f7fdaac6caab7176ef7bc8319d8535204bf5ac46caa16b7a",
+  "fetchedAt": "2026-11-18T10:41:26.081Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

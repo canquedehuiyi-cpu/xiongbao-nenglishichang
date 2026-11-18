@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "9f93cd3e-c23c-460c-af20-a618955898c1",
+  "name": "api-monitor",
+  "displayName": "API 接口监控",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019ff757-1073-7e64-aeec-61f98fe13d21",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a10a20-67ea-7f1c-b47f-f4ef09324bc8/fd75fa0e_api-monitor-0.0.1.zip",
+  "zipSha256": "c0a507a03cbbf81b634c372237fab437f87a2cefa76ee5e3cfdd5e0c4b9859e6",
+  "zipBytes": 29604,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 15,
+  "treeSha256": "35fa66b3ef72b88b4e6e20a5fa1e53d95c358a288b1d68eb4d7cfa8e8363fc0a",
+  "fetchedAt": "2026-11-18T10:40:55.834Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UBO0Y95v",
+  "name": "dockerfile-builder",
+  "displayName": "Dockerfile 构建器",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dockerfile-builder/latest/dockerfile-builder.zip",
+  "zipSha256": "b34ce6c98c6b622eb04a8e44b9670a81b515146a24575395a6beb4c87034f415",
+  "zipBytes": 8933,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "0fa6e32bcb49951304588d34157182a5e448d9388bf372dbfdbd2b95b48e6911",
+  "fetchedAt": "2026-11-18T10:38:31.359Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

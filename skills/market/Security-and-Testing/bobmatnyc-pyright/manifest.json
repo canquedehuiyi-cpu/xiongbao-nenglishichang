@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_T6hwPhWL",
+  "name": "bobmatnyc-pyright",
+  "displayName": "Python检查",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bobmatnyc",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bobmatnyc-pyright/latest/bobmatnyc-pyright.zip",
+  "zipSha256": "6b8dfa0a2e4493c1139f3d75b03b69ff496dfee7dac4dffa98309ee2b637715d",
+  "zipBytes": 5157,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "aa4b41e0dead6fb0c9729ca01d864bc7639cf51489c9ad54e7f4a4adf6b5767c",
+  "fetchedAt": "2026-11-18T10:41:18.646Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

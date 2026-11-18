@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_AYTFlfkg",
+  "name": "affaan-m-swift-protocol-di-testing",
+  "displayName": "Swift测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "affaan-m",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/affaan-m-swift-protocol-di-testing/latest/affaan-m-swift-protocol-di-testing.zip",
+  "zipSha256": "45cec38e687b8555a86499f77e6ebe7dba080203ccd3bb2acd9b933028427837",
+  "zipBytes": 2393,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "7e4b4352a733a112b54552492fe2da0af7842443e4ba90304434b121765be9c2",
+  "fetchedAt": "2026-11-18T10:41:28.738Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

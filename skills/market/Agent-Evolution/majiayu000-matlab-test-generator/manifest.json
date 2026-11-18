@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GWAxv4fz",
+  "name": "majiayu000-matlab-test-generator",
+  "displayName": "Matlab生成",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-matlab-test-generator/latest/majiayu000-matlab-test-generator.zip",
+  "zipSha256": "cc05569d5c3d5ed6838760b3456ef04c5cbe3e33b82e6163c0da49ed7ebdf48e",
+  "zipBytes": 4209,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "187c53c97a89c1c99451f1c5afcc2e567bd35825815b8d48b1fea2dd036004ca",
+  "fetchedAt": "2026-11-18T10:33:16.512Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

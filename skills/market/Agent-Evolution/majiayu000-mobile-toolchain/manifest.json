@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_oTaLo1mJ",
+  "name": "majiayu000-mobile-toolchain",
+  "displayName": "React移动端开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-mobile-toolchain/latest/majiayu000-mobile-toolchain.zip",
+  "zipSha256": "3744ec2238d785c8e7da8e7afb18c7c59f55ce8d4e31cf253ce096ea5e40738e",
+  "zipBytes": 3846,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "bdc2133ab31f69a73fbf911780b262af0b4475393b23af90bc72623e4f60d72a",
+  "fetchedAt": "2026-11-18T10:33:28.578Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

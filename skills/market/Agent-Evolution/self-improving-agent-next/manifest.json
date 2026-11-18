@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PpCTOekX",
+  "name": "self-improving-agent-next",
+  "displayName": "自我改进智能体",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "weiyunbyte",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/self-improving-agent-next/latest/self-improving-agent-next.zip",
+  "zipSha256": "f3a9d7a984b2b791b4fed3fddefccb920c6ee189dd0b8a480d9b451d3c109a66",
+  "zipBytes": 20238,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 13,
+  "treeSha256": "00128e3d941b461bdefb29f0a2b9547d7a4b42e72b2a574f30d2a286e36ba256",
+  "fetchedAt": "2026-11-18T10:33:01.845Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

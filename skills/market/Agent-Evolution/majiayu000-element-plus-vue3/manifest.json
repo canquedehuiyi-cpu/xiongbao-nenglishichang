@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tKTnOdpf",
+  "name": "majiayu000-element-plus-vue3",
+  "displayName": "Element开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-element-plus-vue3/latest/majiayu000-element-plus-vue3.zip",
+  "zipSha256": "04819767b0cc80dacfb87d104203c25e50b57ed3174b439295dbfcf7824c4ac9",
+  "zipBytes": 3481,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f436cfb54fa6eff10384ca1e16124b804e0997104bc67043bcf3fbe36c431487",
+  "fetchedAt": "2026-11-18T10:33:02.897Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

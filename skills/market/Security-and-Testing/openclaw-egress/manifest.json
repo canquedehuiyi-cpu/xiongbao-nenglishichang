@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vih9kBwe",
+  "name": "openclaw-egress",
+  "displayName": "OpenClaw 出站流量检测工具",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "atlaspa",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-egress/latest/openclaw-egress.zip",
+  "zipSha256": "d00a463b8254b90b20ac2758ff183bfe65b1524d6556482419b73959d1e0159b",
+  "zipBytes": 9584,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "d63a871ddd8e915c3c3ca632087e2d5fad8a30d77c57f9ccba9cf41df2f0ea1c",
+  "fetchedAt": "2026-11-18T10:41:16.409Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "skill",
+  "marketItemId": "53991dc5-6bf5-4dc8-aa19-8c0a8f3bb3a6",
+  "itemName": "douyin-creator-profile",
+  "displayName": "douyin-creator-profile",
+  "version": "1.0.1",
+  "packageKind": "skill"
+}

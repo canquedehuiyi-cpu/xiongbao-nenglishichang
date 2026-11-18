@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_SOfVghp1",
+  "name": "majiayu000-browser-automation-core",
+  "displayName": "浏览器CORE",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-browser-automation-core/latest/majiayu000-browser-automation-core.zip",
+  "zipSha256": "24d89b70f8a36413ae8667e60b73bad583bba2e17382fe4c5652313330584cc3",
+  "zipBytes": 6734,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "1efa1b3689a7bd6edf114b7923ae07f13f38e242fb373965504cc3564ed1b2ee",
+  "fetchedAt": "2026-11-18T10:33:36.783Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

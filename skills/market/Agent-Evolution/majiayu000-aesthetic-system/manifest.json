@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JDoswGX3",
+  "name": "majiayu000-aesthetic-system",
+  "displayName": "UI美学",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-aesthetic-system/latest/majiayu000-aesthetic-system.zip",
+  "zipSha256": "8b12d5298a963d0450906925c16c7b3224d3c2a0b879e6d602ba63260ad84b23",
+  "zipBytes": 3676,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "13bd2a741f79a51b63c0a594f9b72c23ed83156c4084d03d1c3988602f7d77ff",
+  "fetchedAt": "2026-11-18T10:33:13.867Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

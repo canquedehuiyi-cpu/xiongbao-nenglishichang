@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_G6yjPghh",
+  "name": "diegosouzapw-distributed-tracing-sorawittj",
+  "displayName": "链路开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-distributed-tracing-sorawittj/latest/diegosouzapw-distributed-tracing-sorawittj.zip",
+  "zipSha256": "1e1adee145ad46a7e970e5c1306b0c67caf4a6500be715d304129ecc1aa7ace4",
+  "zipBytes": 5150,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2ee629451b1122b693e0a380672bd934681f53defc511f2f71585c49c10a7459",
+  "fetchedAt": "2026-11-18T10:38:26.738Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

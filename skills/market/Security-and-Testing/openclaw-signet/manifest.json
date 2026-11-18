@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_21OVwDYL",
+  "name": "openclaw-signet",
+  "displayName": "OpenClaw 技能签名与验证",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "atlaspa",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-signet/latest/openclaw-signet.zip",
+  "zipSha256": "4c09c6ba2fe247190e6b0ac8a4e63e16a71adf709a5f95729bbf0867f3d9bdb8",
+  "zipBytes": 8547,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "4446d7eebb4cbb1c0b18406a14cf050f285f529e59dfdcdc696c316577a3437c",
+  "fetchedAt": "2026-11-18T10:41:28.587Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

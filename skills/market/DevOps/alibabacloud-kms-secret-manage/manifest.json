@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_OB2ADDmw",
+  "name": "alibabacloud-kms-secret-manage",
+  "displayName": "KMS凭据管理",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-kms-secret-manage/latest/alibabacloud-kms-secret-manage.zip",
+  "zipSha256": "c4167c056f3af86ec0536f8e7d189c443982711d9ea5375d97701875141aff34",
+  "zipBytes": 20949,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "cd0ba8fb78b957f0c78f1f1460859d868aa888b5fe42b5d25a3c4479021371e2",
+  "fetchedAt": "2026-11-18T10:38:49.937Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 1
+  },
+  "note": null
+}

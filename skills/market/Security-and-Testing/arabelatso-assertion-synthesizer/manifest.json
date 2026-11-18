@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_E6NkDSdM",
+  "name": "arabelatso-assertion-synthesizer",
+  "displayName": "Python综合提炼",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ArabelaTso",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/arabelatso-assertion-synthesizer/latest/arabelatso-assertion-synthesizer.zip",
+  "zipSha256": "eabb02a8bfe4453499802de7a9ef29755925d617dfb64a0e0684df4b19c612c8",
+  "zipBytes": 3978,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "033eba4a508acf72e2bce120c3dc770f49a3e13fef2b183bf8bf945b479e240c",
+  "fetchedAt": "2026-11-18T10:41:07.507Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

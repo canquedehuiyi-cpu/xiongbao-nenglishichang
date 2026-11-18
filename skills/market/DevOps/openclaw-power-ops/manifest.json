@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_wVrqqomj",
+  "name": "openclaw-power-ops",
+  "displayName": "OpenClaw运维指南",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kapslap",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-power-ops/latest/openclaw-power-ops.zip",
+  "zipSha256": "70cfbe8db7642811bd1a4a42a7fc59298492ff7a97e25fcef66fafe4a50e186b",
+  "zipBytes": 5730,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "64e7abece8a0c5bb858bc2d92699c41d840a1a8fd4f5048ccff65d4f6cdc0b13",
+  "fetchedAt": "2026-11-18T10:38:52.401Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

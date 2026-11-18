@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_tRhZEdgE",
+  "name": "majiayu000-esp32-debugging",
+  "displayName": "Esp32调试",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-esp32-debugging/latest/majiayu000-esp32-debugging.zip",
+  "zipSha256": "7938654f5b50238b0470958ffa557b74a332ab6fa3029ed343c2652bfd9287be",
+  "zipBytes": 2382,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "212188f123261d30dc5fb97d9ad085e2df48ef3eeff3903ce9af9eeee18b6837",
+  "fetchedAt": "2026-11-18T10:33:15.378Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "687944fa-f972-45e6-b325-51d1e160839a",
+  "name": "videos-content-analyzer",
+  "displayName": "视频内容智能分析工具",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08fcb-56a3-79b3-8da4-2d30a82f976e/16d717a5_video2text-ai-1.0.1.zip",
+  "zipSha256": "acd2991095d3c2e2b5fa8ad1fde32f98000ea6845bffb946a67468242ec3f079",
+  "zipBytes": 30076,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "8b0ead7e69f5ffe2b1f4f63d10f638a6ea88ecddf5eec780974cd6f67c819667",
+  "fetchedAt": "2026-11-18T10:35:24.140Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

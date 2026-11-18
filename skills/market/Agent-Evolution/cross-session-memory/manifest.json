@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_yQgkzRm7",
+  "name": "cross-session-memory",
+  "displayName": "跨会话记忆连续性系统",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "2426758093",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cross-session-memory/latest/cross-session-memory.zip",
+  "zipSha256": "df342805943c10de1f266e5765ef880d229e99e2687df5d80ef589e0a5a24c9f",
+  "zipBytes": 3046,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a39a4a773e2380e8feb2a0c8180442669f277fa3ed9e5dafd015454515029015",
+  "fetchedAt": "2026-11-18T10:33:39.644Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

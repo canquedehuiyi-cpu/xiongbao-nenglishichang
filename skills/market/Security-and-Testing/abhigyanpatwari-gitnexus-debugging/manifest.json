@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WiSVdI4m",
+  "name": "abhigyanpatwari-gitnexus-debugging",
+  "displayName": "Gitnexus修复",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "abhigyanpatwari",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/abhigyanpatwari-gitnexus-debugging/latest/abhigyanpatwari-gitnexus-debugging.zip",
+  "zipSha256": "20de0f3fdf9b9306f9cc67a0656968880d2ab651f16afca935cac465b2321aa5",
+  "zipBytes": 1705,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "1c54e1999f621a8a537493a56155899ed08ab14460fc9cc9b62bb235d50ffee6",
+  "fetchedAt": "2026-11-18T10:41:18.920Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

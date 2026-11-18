@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "19db8b0c-fc48-461d-a3d5-a3354457767c",
+  "name": "cloudbase",
+  "displayName": "CloudBase 技能集",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "2.25.1",
+  "publisher": "019fb299-5d38-75b0-ad0f-f903069c5aec",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fb2df-451e-7b1f-bbde-d6dad928f8f6/272754fb_cloudbase-skill-v2.25.1.zip",
+  "zipSha256": "fece191e31c601406e29d44a452ec7cd9666de9d8ba615437b703191ba7d034a",
+  "zipBytes": 16680,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "a8435cc38fea1b4d9949d6d60f0b3983b5c821d789fc8224995265c6f014feee",
+  "fetchedAt": "2026-11-18T10:38:29.482Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

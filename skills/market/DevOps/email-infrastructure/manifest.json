@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3gYhWOpw",
+  "name": "email-infrastructure",
+  "displayName": "邮件基础设施",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "vibeeval",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/email-infrastructure/latest/email-infrastructure.zip",
+  "zipSha256": "e3eb22108e64ad85069937ad23c63fc3de36ea91a4c7eae7cb10c70d85325afe",
+  "zipBytes": 3955,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "e7c5679d5d4cfe67c540ad017aeebb1b80f6390a76395e689f8d168467f70363",
+  "fetchedAt": "2026-11-18T10:38:53.873Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

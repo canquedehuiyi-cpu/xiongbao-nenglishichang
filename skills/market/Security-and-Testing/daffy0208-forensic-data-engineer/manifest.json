@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ezSGLbBW",
+  "name": "daffy0208-forensic-data-engineer",
+  "displayName": "Forensic开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "daffy0208",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/daffy0208-forensic-data-engineer/latest/daffy0208-forensic-data-engineer.zip",
+  "zipSha256": "0adf98878027e44b33daa6d980f1b46c1043f36b36f6cb2150240fb0501e0aed",
+  "zipBytes": 9481,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "cf8955c4ffdfc62bc6e8d85ef93a6f4b67175536e477f1cec3f219477ac70824",
+  "fetchedAt": "2026-11-18T10:41:22.886Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

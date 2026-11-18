@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qPZ0byFe",
+  "name": "wifi",
+  "displayName": "无线网络优化与故障排查指南",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivangdavila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/wifi/latest/wifi.zip",
+  "zipSha256": "c5f11c44d76a5f0faa781d817d3cd16f0a80e49a0dda9e504f9622150aca16c6",
+  "zipBytes": 2192,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "cc1fd150707300bd1ad2a47bf7fd3f5f9e5fa98e9f0c946dfe989396d34be6f7",
+  "fetchedAt": "2026-11-18T10:40:58.938Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

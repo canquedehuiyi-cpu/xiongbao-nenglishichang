@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Dj8t6FZn",
+  "name": "launchagent-manager",
+  "displayName": "LaunchAgent 管理器",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "runeweaverstudios",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/launchagent-manager/latest/launchagent-manager.zip",
+  "zipSha256": "59dd0fa6d126a374e75a2b675c821d41013426a0b73377d892794c9c71409e64",
+  "zipBytes": 6506,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "12f75f7feb7d175107ca5054b938f3515cd1bbbc60b25881e822336c6dc79029",
+  "fetchedAt": "2026-11-18T10:38:47.693Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

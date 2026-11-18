@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_co6l2GHQ",
+  "name": "majiayu000-matlab-performance-optimizer",
+  "displayName": "性能Matlab",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-matlab-performance-optimizer/latest/majiayu000-matlab-performance-optimizer.zip",
+  "zipSha256": "1c70ff44409d58440d7a33f43054e5e7f77747ea0122431d2bb7c972d8ad4fa1",
+  "zipBytes": 5223,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "8d4941e0dead041f4db9f14f5caf47ef2cb085cea8b37926670541837ffe735e",
+  "fetchedAt": "2026-11-18T10:33:08.863Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

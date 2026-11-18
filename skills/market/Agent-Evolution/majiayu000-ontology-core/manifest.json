@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8A2FG0wW",
+  "name": "majiayu000-ontology-core",
+  "displayName": "Ontology生成",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-ontology-core/latest/majiayu000-ontology-core.zip",
+  "zipSha256": "68266353f0d5006708b42be4f54e163dab65ea0857c23874a89539b39514c0e6",
+  "zipBytes": 2917,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f9e9072e5a9c912d2cbe4a262a2b3a9cc5749d384b4f25d6442401b87e74b4fa",
+  "fetchedAt": "2026-11-18T10:33:45.647Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

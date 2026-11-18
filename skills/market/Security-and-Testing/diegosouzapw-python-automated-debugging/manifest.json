@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WmJIdx0i",
+  "name": "diegosouzapw-python-automated-debugging",
+  "displayName": "Python调试开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-python-automated-debugging/latest/diegosouzapw-python-automated-debugging.zip",
+  "zipSha256": "cbe1280cd165b991eae7708756617356a7685923c994c851df9372546600eaea",
+  "zipBytes": 2633,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "dcf14d181d941337275af2a3b87af23ffa0844d8ce94dce25806746e791d9d5e",
+  "fetchedAt": "2026-11-18T10:41:04.984Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

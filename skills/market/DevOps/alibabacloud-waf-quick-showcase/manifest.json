@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_wao9YiuK",
+  "name": "alibabacloud-waf-quick-showcase",
+  "displayName": "Web应用防火墙(WAF)快速实践",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-waf-quick-showcase/latest/alibabacloud-waf-quick-showcase.zip",
+  "zipSha256": "3b76bc789569467fa5c6ffd577aa84ae41468cc0f45a3212675fae92ffc17704",
+  "zipBytes": 17585,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "a8193d9d3d9ecbf39a877bc021641b2ca4b374e97155065b19ea6895214d127a",
+  "fetchedAt": "2026-11-18T10:38:21.481Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

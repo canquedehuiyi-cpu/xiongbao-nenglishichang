@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5hlMXefb",
+  "name": "majiayu000-backend-python-testing",
+  "displayName": "FastAPI开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-backend-python-testing/latest/majiayu000-backend-python-testing.zip",
+  "zipSha256": "c9ac172bc0269b01f582f968c9e5f5f20248e08c80142b648a65085cac5fbb40",
+  "zipBytes": 7361,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "f1b3f6473b9f1e41622f4f668b8b9f11c6d75a16f52aaae2f2ed1f975a923b1f",
+  "fetchedAt": "2026-11-18T10:33:17.761Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

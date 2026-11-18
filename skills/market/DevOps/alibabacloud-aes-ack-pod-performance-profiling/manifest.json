@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_YUsOeZaa",
+  "name": "alibabacloud-aes-ack-pod-performance-profiling",
+  "displayName": "ACK Pod 性能深度诊断",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-aes-ack-pod-performance-profiling/latest/alibabacloud-aes-ack-pod-performance-profiling.zip",
+  "zipSha256": "098d6dcde8dccf4b3af392f9e8a2c7e3973b02ba3e7da990e18ed6ef789d855a",
+  "zipBytes": 33388,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "9dfb8cd12b52c3b9620b803b62e6102fae3b8cfe0e19bcaa0d0a2fa317c4e409",
+  "fetchedAt": "2026-11-18T10:38:20.271Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 1
+  },
+  "note": null
+}

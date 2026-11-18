@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KQxW9juJ",
+  "name": "alibabacloud-bailian-videoanalysis",
+  "displayName": "阿里云百炼-视频理解",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-bailian-videoanalysis/latest/alibabacloud-bailian-videoanalysis.zip",
+  "zipSha256": "d4abb23a048aa83cf81e46bc545ecb6d280c8a1385971c5da141bd666faf1824",
+  "zipBytes": 23968,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "a9b046837554fbfca7d11c0afe0e82d61a8e86976ec73627060313ca1869f485",
+  "fetchedAt": "2026-11-18T10:35:19.148Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 1
+  },
+  "note": null
+}

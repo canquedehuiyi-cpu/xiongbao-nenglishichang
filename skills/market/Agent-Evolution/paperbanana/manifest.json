@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Be4Jhz8f",
+  "name": "paperbanana",
+  "displayName": "论文香蕉",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/paperbanana/latest/paperbanana.zip",
+  "zipSha256": "36aef8e55d761c7dfa738c8bf125fe8f2071b39a2427c9cdb2d28285b323ce58",
+  "zipBytes": 5705,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "a213cc673dde5029300b739a60bbb658c3a2f63b2940fa94443bd46bdf6e9e2a",
+  "fetchedAt": "2026-11-18T10:33:33.115Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

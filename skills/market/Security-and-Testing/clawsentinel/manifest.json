@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_dBa2183r",
+  "name": "clawsentinel",
+  "displayName": "爪牙哨兵",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "chuddyrudd",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/clawsentinel/latest/clawsentinel.zip",
+  "zipSha256": "bb0928166660580ed1d3223621b6f434b61788dce2cb6706724647f1cfcce4b0",
+  "zipBytes": 997,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5e5882669d9f4d13b663aafb0accf992e00c0e7e9d905542a981e79a4250e600",
+  "fetchedAt": "2026-11-18T10:41:19.095Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

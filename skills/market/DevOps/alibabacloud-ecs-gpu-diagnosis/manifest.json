@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1D6UVm0l",
+  "name": "alibabacloud-ecs-gpu-diagnosis",
+  "displayName": "gpu云服务器一键诊断",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-ecs-gpu-diagnosis/latest/alibabacloud-ecs-gpu-diagnosis.zip",
+  "zipSha256": "d95710069133c216754379ffb86c50eeff7d9d6966d18683a6adeb8b7e556591",
+  "zipBytes": 3979,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "2ed8b7118e2b1f811a11f66a7fbeca07fbf5cf1301ec9bd9111cb4af6ffc771e",
+  "fetchedAt": "2026-11-18T10:38:34.092Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

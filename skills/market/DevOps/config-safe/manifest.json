@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_GllZ0pkE",
+  "name": "config-safe",
+  "displayName": "安全配置修改指南",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "glfruit",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/config-safe/latest/config-safe.zip",
+  "zipSha256": "b213706aa6c26b0b62a35766db57e2afbd3646c5475d0392399173c25ff404c1",
+  "zipBytes": 2860,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "6b2a6b3d78b8c58a803aeb052b70f718f06af46c609ded7829258c4b06ee1793",
+  "fetchedAt": "2026-11-18T10:38:38.820Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

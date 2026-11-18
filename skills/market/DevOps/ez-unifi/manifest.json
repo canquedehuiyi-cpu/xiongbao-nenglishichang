@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MBhdQZ0u",
+  "name": "ez-unifi",
+  "displayName": "UniFi 网络管理工具",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "araa47",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ez-unifi/latest/ez-unifi.zip",
+  "zipSha256": "f1c90a39bec0f2aa67145b1e72a9258afe1d531f6044cdc2cd2c399ddc84d515",
+  "zipBytes": 11151,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "958484d8f86576d0ebee31cd068df4fbaadfe617f9c5b3e69ce43f6a0ec39281",
+  "fetchedAt": "2026-11-18T10:38:32.973Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

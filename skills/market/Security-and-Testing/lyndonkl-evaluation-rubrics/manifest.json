@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KR89Q07x",
+  "name": "lyndonkl-evaluation-rubrics",
+  "displayName": "Rubrics开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "lyndonkl",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/lyndonkl-evaluation-rubrics/latest/lyndonkl-evaluation-rubrics.zip",
+  "zipSha256": "86dee061eb87d2bb2c3efef7d163ba14eb2117a4f8eb1588bf98821b31676a1d",
+  "zipBytes": 24683,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "7fb57043c769389b3cf0d224e31764ecbf2c39e5d1592f0b298151fc4154e4fc",
+  "fetchedAt": "2026-11-18T10:41:24.437Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

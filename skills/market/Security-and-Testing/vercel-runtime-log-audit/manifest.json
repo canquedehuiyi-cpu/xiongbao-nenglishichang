@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_80h1euLs",
+  "name": "vercel-runtime-log-audit",
+  "displayName": "vercel 运行时日志审核",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/vercel-runtime-log-audit/latest/vercel-runtime-log-audit.zip",
+  "zipSha256": "2b7a67b328381c890b303f0a62a219bb4aacfee8fb252ca791bcf36eb9b0bb68",
+  "zipBytes": 9583,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "748278c0cab0c0aa1ed55cd0c2411bccfe41cc1640e57e8bf3f6a860934816d9",
+  "fetchedAt": "2026-11-18T10:41:13.715Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

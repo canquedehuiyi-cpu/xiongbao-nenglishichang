@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_T0pKPszT",
+  "name": "failure-memory",
+  "displayName": "失败记忆系统",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "leegitw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0c39a-e875-716e-af2e-e13727c5ee0d/ss_0234a7fcd6b98f19edeee7e51163752a23e17f26938d1bb128b7835c1562.zip",
+  "zipSha256": "5fe6fd4a8b207f9326bd43adb22e69917a4dc2aa2c362f39fc09f5fea9afe9e9",
+  "zipBytes": 1566,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "aa6cc20bfea340b12d215001ec9879e2093acb916ac9231a82a4408015b26609",
+  "fetchedAt": "2026-11-18T10:33:07.265Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 1
+  },
+  "note": null
+}

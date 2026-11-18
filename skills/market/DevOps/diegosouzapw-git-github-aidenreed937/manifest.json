@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7uPmGdJY",
+  "name": "diegosouzapw-git-github-aidenreed937",
+  "displayName": "GitHub开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-git-github-aidenreed937/latest/diegosouzapw-git-github-aidenreed937.zip",
+  "zipSha256": "5f730bfe946d8a522476392a7a7b4ab42cca3179a15dcc23081d14bdab5fcc1c",
+  "zipBytes": 5200,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "73ffdcf1f7047828c2a5f2e5227c4ebf55a26e8163f6359e7c0d980b8f282b25",
+  "fetchedAt": "2026-11-18T10:38:17.793Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

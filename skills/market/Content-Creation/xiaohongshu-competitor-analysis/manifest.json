@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "277e6091-242b-4e33-af76-66598470419b",
+  "name": "xiaohongshu-competitor-analysis",
+  "displayName": "小红书关键词搜索、竞品分析与评论舆情分析",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.4",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08bff-76f0-73aa-a2fd-d85a0b5c60c0/4c79fc7c_xiaohongshu-openclaw-skill.zip",
+  "zipSha256": "0374ebbfac68cfe2c8d3ed98da60f8a5e5ea941c9832875657ecaf055dc5b522",
+  "zipBytes": 41280,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 25,
+  "treeSha256": "ab3ba17e87a293a371a5bffab1092110ead0e5db8dfe5cd2e36e896eda840f3f",
+  "fetchedAt": "2026-11-18T10:35:22.445Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

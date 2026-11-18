@@ -1,0 +1,54 @@
+{
+  "domain": "eu-ai-act",
+  "label": "欧盟 AI 法案（EU AI Act）",
+  "jurisdiction": "eu",
+  "modalities": ["text"],
+  "law_level": "mixed",
+  "snapshot_checked": "2026-09-03",
+  "effective_date": "2026-08-02",
+  "status": "current",
+  "superseded_by": null,
+  "sources": [
+    { "name": "Regulation (EU) 2024/1689", "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R1689", "last_verified": "2026-09-03" },
+    { "name": "AI Act 官方政策页", "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai", "last_verified": "2026-09-03" }
+  ],
+  "rules": [
+    {
+      "key": "prohibited_practice",
+      "name": "禁止的 AI 实践",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["社会信用评分", "利用弱点操控", "无差别人脸识别", "预测性警务", "情绪识别"],
+      "basis": "EU AI Act Article 5：社会评分、利用弱点操控、无差别抓取人脸等实践被禁止",
+      "suggestion": "面向欧盟用户的 AI 方案不得包含被禁止的 AI 实践"
+    },
+    {
+      "key": "transparency",
+      "name": "透明度义务",
+      "type": "remind",
+      "severity": "high",
+      "triggers": ["披露", "透明", "AI 生成标注", "告知用户", "标注"],
+      "basis": "EU AI Act Article 50：AI 生成内容需披露，深度伪造需标注，与 AI 交互需告知",
+      "suggestion": "面向欧盟用户需披露 AI 生成内容与交互对象为 AI"
+    },
+    {
+      "key": "high_risk",
+      "name": "高风险系统提示",
+      "type": "remind",
+      "severity": "high",
+      "triggers": ["高风险", "风险管理", "人工监督"],
+      "basis": "EU AI Act 高风险分类：招聘/信贷/医疗等场景需满足高风险系统义务（风险管理、人工监督）",
+      "suggestion": "高风险场景 AI 方案需评估并满足 AI Act 高风险义务"
+    },
+    {
+      "key": "gpa",
+      "name": "通用 AI 模型义务",
+      "type": "remind",
+      "severity": "medium",
+      "triggers": ["GPAI", "通用 AI", "透明度", "版权"],
+      "basis": "EU AI Act GPAI：通用 AI 模型需满足透明度与版权义务，系统性风险模型有额外义务",
+      "suggestion": "面向欧盟提供通用 AI 模型需核对 GPAI 义务"
+    }
+  ],
+  "meta": { "policy_lock": true, "auto_update": false }
+}

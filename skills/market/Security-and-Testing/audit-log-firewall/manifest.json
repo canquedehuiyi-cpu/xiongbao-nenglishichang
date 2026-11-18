@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_urvq9bdR",
+  "name": "audit-log-firewall",
+  "displayName": "审计日志防火墙",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "balkanblbn",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/audit-log-firewall/latest/audit-log-firewall.zip",
+  "zipSha256": "0d83f2e661b7428af51453cb455297e29626ba4791356dccbf1be0e940ce72ad",
+  "zipBytes": 1060,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "df50343f9938fd4f7dc5e5ed086189fcbfaa46bf0f16a82539745cae9c2202dc",
+  "fetchedAt": "2026-11-18T10:41:12.001Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

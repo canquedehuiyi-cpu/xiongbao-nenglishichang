@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_64mTqD7K",
+  "name": "alibabacloud-resourcecenter-search",
+  "displayName": "资源中心全局资源搜索",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-resourcecenter-search/latest/alibabacloud-resourcecenter-search.zip",
+  "zipSha256": "faebeeda03a88999a6d724921356c1d5202bef0470402dfd24a35fc6594fac8a",
+  "zipBytes": 20638,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "cb7e7cef7466f01633a40f15e418ce7e49e73f156e4470ba853678232d616064",
+  "fetchedAt": "2026-11-18T10:38:30.084Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 1
+  },
+  "note": null
+}

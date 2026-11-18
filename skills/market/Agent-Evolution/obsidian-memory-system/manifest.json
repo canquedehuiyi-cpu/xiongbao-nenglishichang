@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bWaiYyf0",
+  "name": "obsidian-memory-system",
+  "displayName": "Obsidian 记忆系统",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/obsidian-memory-system/latest/obsidian-memory-system.zip",
+  "zipSha256": "404848052f7ce4c6644ac96ee557599f9a3c47a6adf9580576ba2a7461f3e892",
+  "zipBytes": 22101,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "25245ebf9e6b98c2b066b9caf36713c23bb87d4633e723ac3dcc12af371b9a74",
+  "fetchedAt": "2026-11-18T10:33:09.567Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

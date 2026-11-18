@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UoMdFmyg",
+  "name": "agent-memory-loop",
+  "displayName": "代理记忆循环",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "zurbrick",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-memory-loop/latest/agent-memory-loop.zip",
+  "zipSha256": "c0dbee27a85c5afb693b2bfec4c7a452a9e89dca24661f222557e6bc3af1e482",
+  "zipBytes": 6966,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "acccc02297e70bd03cd7fb20a9947f1ce81401beea792f1f98020e15f46d0dcd",
+  "fetchedAt": "2026-11-18T10:33:07.046Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

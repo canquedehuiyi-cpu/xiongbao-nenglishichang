@@ -1,0 +1,62 @@
+{
+  "domain": "app-store",
+  "label": "App Store 审核（全球）",
+  "jurisdiction": "global",
+  "modalities": ["text", "image"],
+  "law_level": "mixed",
+  "snapshot_checked": "2026-09-03",
+  "effective_date": null,
+  "status": "current",
+  "superseded_by": null,
+  "sources": [
+    { "name": "App Review Guidelines", "url": "https://developer.apple.com/app-store/review/guidelines/", "last_verified": "2026-09-03" }
+  ],
+  "rules": [
+    {
+      "key": "content_safety",
+      "name": "内容安全",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["色情", "暴力", "仇恨言论", "赌博", "违禁内容", "歧视"],
+      "basis": "App Review Guidelines 1.2-1.3：包含色情、骚扰、仇恨或不当内容的应用将被拒绝",
+      "suggestion": "应用描述与内容不得含色情/暴力/仇恨/赌博等不当内容"
+    },
+    {
+      "key": "privacy",
+      "name": "隐私披露",
+      "type": "remind",
+      "severity": "high",
+      "triggers": ["隐私政策", "数据收集", "隐私"],
+      "basis": "App Review Guidelines 5.1：应用需提供隐私政策、说明数据收集与使用",
+      "suggestion": "应用描述需配套隐私政策，如实披露数据收集范围"
+    },
+    {
+      "key": "placeholder",
+      "name": "占位/测试内容",
+      "type": "warn",
+      "severity": "medium",
+      "triggers": ["占位", "测试版", "TODO", "lorem", "示例内容未替换", "placeholder"],
+      "basis": "App Review Guidelines 3.2：含占位文本的应用将被拒绝",
+      "suggestion": "提交前清除所有占位/测试内容与示例数据"
+    },
+    {
+      "key": "business_model",
+      "name": "商业模式透明",
+      "type": "remind",
+      "severity": "medium",
+      "triggers": ["内购", "订阅", "付费方式", "购买"],
+      "basis": "App Review Guidelines 3.1：应用内购买需清晰呈现，禁止误导性商业模式",
+      "suggestion": "付费/订阅机制需明示，禁止诱导式自动扣费"
+    },
+    {
+      "key": "ai_claim",
+      "name": "AI 功能如实声明",
+      "type": "remind",
+      "severity": "medium",
+      "triggers": ["功能介绍", "AI 能力", "功能说明", "能力说明"],
+      "basis": "App Review Guidelines 5.6：AI 功能需如实描述能力，禁止夸大或虚构",
+      "suggestion": "AI 能力描述需与实际功能一致，避免夸大宣传"
+    }
+  ],
+  "meta": { "policy_lock": true, "auto_update": false }
+}

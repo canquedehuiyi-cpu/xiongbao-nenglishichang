@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bZwDz9JL",
+  "name": "alibabacloud-starops-chat",
+  "displayName": "查询阿里云各类观测数据（日志、指标、链路、事件）、异常发现、根因定位",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-starops-chat/latest/alibabacloud-starops-chat.zip",
+  "zipSha256": "1a0e98411db20beb5177833ef791abd9bcf39088e7b319e261994be2df1d566a",
+  "zipBytes": 20113,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "10c07b6ae2c90b36d4b6922b8f5084c97be2090b98c4e5c78bd53024ad32dcc9",
+  "fetchedAt": "2026-11-18T10:40:54.529Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

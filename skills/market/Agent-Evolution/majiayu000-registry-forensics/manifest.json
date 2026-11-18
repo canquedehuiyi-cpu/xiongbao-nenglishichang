@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_K1ZBIHcf",
+  "name": "majiayu000-registry-forensics",
+  "displayName": "Registry开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "SherifEldeeb",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-registry-forensics/latest/majiayu000-registry-forensics.zip",
+  "zipSha256": "fdb9a13aa73b3eaee2ca42b244ff845225f96f4d408547a6c597d96b0c448f4b",
+  "zipBytes": 7045,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "56fad54758b39e4e8c23bae869a705b11545fa1e10679af102c8c835d66deb9a",
+  "fetchedAt": "2026-11-18T10:33:43.409Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

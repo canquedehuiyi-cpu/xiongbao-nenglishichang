@@ -1,0 +1,12 @@
+{
+  "version": "1.0.4",
+  "purpose": "微信小游戏合规自检引擎回归用例（供 validate.mjs 引用）",
+  "cases": [
+    { "id": "WM-01", "text": "我的游戏广告占比 60%", "expect_warn": ["ads_ratio"] },
+    { "id": "WM-02", "text": "激励视频每天 5 次", "expect_warn": ["rewarded_freq"] },
+    { "id": "WM-03", "text": "使用了穿山甲 SDK", "expect_warn": ["third_party_ads"] },
+    { "id": "WM-04", "text": "这是全网最爽的游戏", "expect_warn": ["absolute_claims"] },
+    { "id": "WM-05", "text": "适龄 8+，接入防沉迷，软著备案齐全", "expect_warn": [] },
+    { "id": "WM-06", "text": "广告占比 30%，激励视频每天 2 次", "expect_warn": [] }
+  ]
+}

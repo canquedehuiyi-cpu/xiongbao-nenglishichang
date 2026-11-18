@@ -1,0 +1,62 @@
+{
+  "domain": "google-play",
+  "label": "Google Play 政策（全球）",
+  "jurisdiction": "global",
+  "modalities": ["text", "image"],
+  "law_level": "mixed",
+  "snapshot_checked": "2026-09-03",
+  "effective_date": null,
+  "status": "current",
+  "superseded_by": null,
+  "sources": [
+    { "name": "Google Play 开发者政策", "url": "https://developer.android.com/distribute/play-policies", "last_verified": "2026-09-03" }
+  ],
+  "rules": [
+    {
+      "key": "restricted_content",
+      "name": "受限内容",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["儿童色情", "血腥暴力", "赌博软件", "非法内容", "仇恨内容", "不当内容"],
+      "basis": "Google Play 政策 Restricted Content：儿童安全、不当内容、赌博等受限内容禁止",
+      "suggestion": "应用不得含儿童色情、赌博、非法等内容，需遵守本地法律"
+    },
+    {
+      "key": "age_restrict",
+      "name": "年龄分级",
+      "type": "remind",
+      "severity": "medium",
+      "triggers": ["年龄分级", "内容分级", "年龄限制", "分级声明"],
+      "basis": "Google Play 政策 Age-Restricted Content：需完成年龄分级内容声明",
+      "suggestion": "应用需完成内容分级声明，成人内容需符合年龄限制政策"
+    },
+    {
+      "key": "financial_services",
+      "name": "金融服务政策",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["贷款", "加密货币", "理财", "股票交易", "金融服务"],
+      "basis": "Google Play 政策 Financial Services：金融服务需满足特定要求并可能需资格",
+      "suggestion": "金融类应用需核对 Google Play 金融服务政策与地区要求"
+    },
+    {
+      "key": "ai_generated",
+      "name": "AI 生成内容声明",
+      "type": "remind",
+      "severity": "medium",
+      "triggers": ["AI 内容声明", "生成式 AI 声明", "AI 声明"],
+      "basis": "Google Play 政策 AI-generated content：使用生成式 AI 的应用需完成内容声明",
+      "suggestion": "含 AI 生成内容的应用需在 Play Console 完成 AI 内容声明"
+    },
+    {
+      "key": "data_safety",
+      "name": "数据安全",
+      "type": "remind",
+      "severity": "high",
+      "triggers": ["数据安全", "隐私政策", "数据声明", "数据表单"],
+      "basis": "Google Play 政策 Data Safety：应用需如实填写数据安全表单",
+      "suggestion": "需如实声明收集的数据类型与用途"
+    }
+  ],
+  "meta": { "policy_lock": true, "auto_update": false }
+}

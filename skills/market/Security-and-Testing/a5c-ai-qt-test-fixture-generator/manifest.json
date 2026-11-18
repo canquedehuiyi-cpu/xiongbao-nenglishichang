@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_D02DX4Y3",
+  "name": "a5c-ai-qt-test-fixture-generator",
+  "displayName": "Qt生成",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "a5c-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/a5c-ai-qt-test-fixture-generator/latest/a5c-ai-qt-test-fixture-generator.zip",
+  "zipSha256": "e533498c63d2038ea57ddd71b233074ef2d1cc59f7a75ba06072c0b668ee5469",
+  "zipBytes": 3791,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "4d53cb4b114b9d873b9f0257ee57842eca2399d93bf0b8c6f88c82e7ec011745",
+  "fetchedAt": "2026-11-18T10:40:58.760Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

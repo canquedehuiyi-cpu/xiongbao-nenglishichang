@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MAA92lne",
+  "name": "majiayu000-php-assistant",
+  "displayName": "Php开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-php-assistant/latest/majiayu000-php-assistant.zip",
+  "zipSha256": "1eb5c4f61f4e5131ca55468a6c286441847ca12d954a12abe07c6871dc648d0a",
+  "zipBytes": 3833,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "98f599e96eb0aea73ccac732e92655c36b6c4a8b878eccc3e0096b0df880366d",
+  "fetchedAt": "2026-11-18T10:33:34.064Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

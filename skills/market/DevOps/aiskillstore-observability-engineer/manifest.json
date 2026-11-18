@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2zgQILRz",
+  "name": "aiskillstore-observability-engineer",
+  "displayName": "可观测开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-observability-engineer/latest/aiskillstore-observability-engineer.zip",
+  "zipSha256": "8cc5bccb4a2854971a811a46808ffc0433940e84695a6c02bcb2e40384d538c6",
+  "zipBytes": 8592,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3a2eb5cad139ce312b45d73e7b903724c26db41253c8a144762f878c20bce4cd",
+  "fetchedAt": "2026-11-18T10:38:36.187Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

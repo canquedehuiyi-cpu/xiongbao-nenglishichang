@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_DRkuuSh6",
+  "name": "shellward-security-guide",
+  "displayName": "安全部署指南",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/shellward-security-guide/latest/shellward-security-guide.zip",
+  "zipSha256": "bcaa0763baec32fad1f957efee640e9aaa8b8cb300ccc1202da5b4860c72a569",
+  "zipBytes": 1967,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a20c836d6c2976f9443989ab20e0dffc27d2ccf75ae93b0891b89c64482bb310",
+  "fetchedAt": "2026-11-18T10:41:21.141Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

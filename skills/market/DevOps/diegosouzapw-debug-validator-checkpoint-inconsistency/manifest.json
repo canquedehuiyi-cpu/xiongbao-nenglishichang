@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_FgIYez2L",
+  "name": "diegosouzapw-debug-validator-checkpoint-inconsistency",
+  "displayName": "数据调试",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-debug-validator-checkpoint-inconsistency/latest/diegosouzapw-debug-validator-checkpoint-inconsistency.zip",
+  "zipSha256": "e44606d7238263a236ddf94162b50d7ca90d2227e962a5cc7b49ba68bc94a4e6",
+  "zipBytes": 5275,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "92c2efde0397eebc8b6d41fe9b106bec0836f1cbd8f831e10ab2d14dec7ba7ae",
+  "fetchedAt": "2026-11-18T10:38:48.965Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

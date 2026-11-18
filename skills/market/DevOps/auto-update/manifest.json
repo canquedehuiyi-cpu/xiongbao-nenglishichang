@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XogU51U4",
+  "name": "auto-update",
+  "displayName": "自动更新 (OpenClaw + 技能)",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ivangdavila",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/auto-update/latest/auto-update.zip",
+  "zipSha256": "c80acd50484991b5132878cedb70d315e0794be72dd129ea83a0241bed57b155",
+  "zipBytes": 16219,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 17,
+  "treeSha256": "a5e46dab777cca944e774cedf61388849779f7c98cdc5f52ec9ce9ccadd9a7c4",
+  "fetchedAt": "2026-11-18T10:38:23.648Z",
+  "credentialScan": {
+    "textFilesScanned": 17,
+    "filesRedacted": 0
+  },
+  "note": null
+}

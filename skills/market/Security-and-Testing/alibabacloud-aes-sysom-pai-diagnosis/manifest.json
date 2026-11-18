@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZhNbPOeu",
+  "name": "alibabacloud-aes-sysom-pai-diagnosis",
+  "displayName": "sysom pai诊断",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-aes-sysom-pai-diagnosis/latest/alibabacloud-aes-sysom-pai-diagnosis.zip",
+  "zipSha256": "090669bc849c5932457fa0faa19ab5efdc1c59e8788615de99286f902f4bea7d",
+  "zipBytes": 21126,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "72e992f5778a8cef0928eaee434daf691ab8d28e18621733041ffb54257f034e",
+  "fetchedAt": "2026-11-18T10:41:06.723Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

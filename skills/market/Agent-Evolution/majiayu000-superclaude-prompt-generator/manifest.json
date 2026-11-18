@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_beoPTrHU",
+  "name": "majiayu000-superclaude-prompt-generator",
+  "displayName": "记忆提示词生成",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-superclaude-prompt-generator/latest/majiayu000-superclaude-prompt-generator.zip",
+  "zipSha256": "1f24decaa72e7178a3a927e0c3090bb603ab45e7e8b3ce53f785521d3affd39a",
+  "zipBytes": 38996,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "56b6099fe1bf88158845db10e3ad271a26eeb360276f1ce758085510c5ae1825",
+  "fetchedAt": "2026-11-18T10:33:19.495Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

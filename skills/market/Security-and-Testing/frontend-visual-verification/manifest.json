@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LnRwyA5Q",
+  "name": "frontend-visual-verification",
+  "displayName": "前端视觉验证",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/frontend-visual-verification/latest/frontend-visual-verification.zip",
+  "zipSha256": "e951f3c0f5574b1217ec68483676c90843ae1476f3ae4dbb004ef8b46f5e41b9",
+  "zipBytes": 1775,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "d89189a69f3324dfa2a99155f5bf3981f41e3c8679414f60f3a179b95e33426f",
+  "fetchedAt": "2026-11-18T10:41:24.608Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

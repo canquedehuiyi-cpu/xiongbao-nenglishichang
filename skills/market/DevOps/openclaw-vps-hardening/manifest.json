@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XwTMz1BO",
+  "name": "openclaw-vps-hardening",
+  "displayName": "OpenClaw VPS 服务器加固",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "maverick-software",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-vps-hardening/latest/openclaw-vps-hardening.zip",
+  "zipSha256": "9728b14ac8eba3a4076a913b3012f5509e7e6915a352f3cbb07d217b3d36d041",
+  "zipBytes": 11121,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "cfaebfb61f127f9f32abd9400768652317e94120ec19bb7f8c23e9fe2310bca2",
+  "fetchedAt": "2026-11-18T10:38:50.845Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

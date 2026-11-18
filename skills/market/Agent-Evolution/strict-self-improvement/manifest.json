@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_fwqsIOWE",
+  "name": "strict-self-improvement",
+  "displayName": "自进化智能体",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "jayv29",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/strict-self-improvement/latest/strict-self-improvement.zip",
+  "zipSha256": "4652de8b040c08b68d4af2a707b9d90688057648c2070bedf2850efcc8e87133",
+  "zipBytes": 25377,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 14,
+  "treeSha256": "b7d3f3465d51d28e6a8f75f95fa7aca94a112d6943632818b3e234fd9a2151e7",
+  "fetchedAt": "2026-11-18T10:33:02.488Z",
+  "credentialScan": {
+    "textFilesScanned": 14,
+    "filesRedacted": 0
+  },
+  "note": null
+}

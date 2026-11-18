@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "8ad9c4f4-153a-4f25-a568-b0545ed4f2dc",
+  "name": "api-auto-test",
+  "displayName": "接口测试自动化",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.9.0",
+  "publisher": "019f8e5d-5aee-7a7f-9cad-685288149c71",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fd5ad-955c-7b34-a29f-2f35d55c6e04/e9b28fcd_api-auto-test.zip",
+  "zipSha256": "ed20b952257a3d33a16f17272747f64def1ac1bac043c303d70e74cf16802a40",
+  "zipBytes": 15671,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "0a3f4affcd693f801e951ce6044c4ea8fe96199c2f280c22d4c8e5e247c42ea9",
+  "fetchedAt": "2026-11-18T10:40:50.044Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

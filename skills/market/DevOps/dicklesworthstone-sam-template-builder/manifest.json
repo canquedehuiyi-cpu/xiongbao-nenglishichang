@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JBW8fZbi",
+  "name": "dicklesworthstone-sam-template-builder",
+  "displayName": "模板SAM",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-sam-template-builder/latest/dicklesworthstone-sam-template-builder.zip",
+  "zipSha256": "49879492b5fae709a960ef927aeb5b6e28376b152915835792ddab99e146afb7",
+  "zipBytes": 1200,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "80d4f8b0430b227243c6e1b393f7e0dee7f3b15906954c77fcf8477f0b453c07",
+  "fetchedAt": "2026-11-18T10:38:49.102Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

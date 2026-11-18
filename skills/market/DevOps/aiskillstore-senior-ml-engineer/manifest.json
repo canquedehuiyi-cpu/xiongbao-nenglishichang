@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mN5QuigR",
+  "name": "aiskillstore-senior-ml-engineer",
+  "displayName": "机器学习Senior",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aiskillstore",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/aiskillstore-senior-ml-engineer/latest/aiskillstore-senior-ml-engineer.zip",
+  "zipSha256": "95f0635fc842516cffe18c7bd9b825230d060a6aaf68aa15c49ca03adc8af6d1",
+  "zipBytes": 16758,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "0f9cd36923a58a7c5914b83e1ff782f64d96f458b27b670917ded290905460a7",
+  "fetchedAt": "2026-11-18T10:38:21.190Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_vUyLhUOS",
+  "name": "alibabacloud-sas-openclaw-security",
+  "displayName": "OpenClaw 安全运营 Skill",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-sas-openclaw-security/latest/alibabacloud-sas-openclaw-security.zip",
+  "zipSha256": "6f3e87b48ff69c5ed012e8ee7c09faf96f4742de49faf6dbb89795a64a82fdf0",
+  "zipBytes": 49103,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 19,
+  "treeSha256": "e5bdec9438047334b63ef5ec8646db5e5b949b4559498c0f35d43754bb636b47",
+  "fetchedAt": "2026-11-18T10:40:50.553Z",
+  "credentialScan": {
+    "textFilesScanned": 19,
+    "filesRedacted": 0
+  },
+  "note": null
+}

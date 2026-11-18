@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_OwGlpj2e",
+  "name": "majiayu000-python-guidelines",
+  "displayName": "Python开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-python-guidelines/latest/majiayu000-python-guidelines.zip",
+  "zipSha256": "2457be4022789da0252d390d46fb029bf52e7e01abb0dc46a90de171af0abab9",
+  "zipBytes": 2101,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "c39c7d6d87496ee2d4671b5023440e57064772eac2031903b668285a73fc1dd1",
+  "fetchedAt": "2026-11-18T10:33:28.759Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

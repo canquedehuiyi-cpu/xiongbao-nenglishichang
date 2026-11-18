@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_XLmdgrBk",
+  "name": "florianbuetow-ssrf",
+  "displayName": "SSRF分析",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "florianbuetow",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/florianbuetow-ssrf/latest/florianbuetow-ssrf.zip",
+  "zipSha256": "880b708263198129de04e277afdef738c0e20169e8cb0f6357fdf539ade5b269",
+  "zipBytes": 12237,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "afed8661232a18d35ea601afb41d7f6025ec3ca9cbed6d4a929009c3ff7a5447",
+  "fetchedAt": "2026-11-18T10:41:14.657Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

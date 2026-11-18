@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_g80OwEtt",
+  "name": "majiayu000-axiom-swiftui-performance",
+  "displayName": "iOS优化",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-axiom-swiftui-performance/latest/majiayu000-axiom-swiftui-performance.zip",
+  "zipSha256": "b961221a05cfbff047fa2b66360663f5b97229b15c0d0f29e8da44a3ae86d036",
+  "zipBytes": 12644,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "1220e3e1501593c3394ccaf6e2b025a8e445281b58fa89ca9ea1b34d475e5555",
+  "fetchedAt": "2026-11-18T10:33:30.822Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

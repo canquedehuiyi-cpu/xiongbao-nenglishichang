@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "e07db422-a009-40ae-9043-5ec5c8b75f56",
+  "name": "douyin-data-assistant",
+  "displayName": "抖音数据助手",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08abf-d3da-7436-a2f2-8d6e9a0853f7/bfd7ed4c_douyin-data-assistant-main.zip",
+  "zipSha256": "a167a1be53571e35a8d9e1024af30d3a2c1479234d2e74f0c332ecf4b062ca00",
+  "zipBytes": 42815,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 34,
+  "treeSha256": "888dafa796d37b851c4893aa611858ed42e7b748e1856ae91668e47022dced2b",
+  "fetchedAt": "2026-11-18T10:35:29.378Z",
+  "credentialScan": {
+    "textFilesScanned": 33,
+    "filesRedacted": 0
+  },
+  "note": null
+}

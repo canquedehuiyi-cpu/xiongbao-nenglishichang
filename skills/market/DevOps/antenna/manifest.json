@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6vfcXn8h",
+  "name": "antenna",
+  "displayName": "天线",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/antenna/latest/antenna.zip",
+  "zipSha256": "2b5cbf87a8486a1e664cf465a415a5626252255a740e6c40d9bb5742ddfd653f",
+  "zipBytes": 177163,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 38,
+  "treeSha256": "369b50ebcd7685193c543f29ca19cece98ce00deef97c8cd72395a8cdcc00fec",
+  "fetchedAt": "2026-11-18T10:38:57.421Z",
+  "credentialScan": {
+    "textFilesScanned": 38,
+    "filesRedacted": 1
+  },
+  "note": null
+}

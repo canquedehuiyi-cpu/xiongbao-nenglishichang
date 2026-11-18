@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_JhUTga6Y",
+  "name": "majiayu000-openspec-change-closure",
+  "displayName": "Closure开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-openspec-change-closure/latest/majiayu000-openspec-change-closure.zip",
+  "zipSha256": "d441fe6e1c1e799fddadb92b02b70d2b63050616311152d27c721e64e793b9f8",
+  "zipBytes": 1896,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "30e57dce0a20e54d9c5574518a7aac7f20309675a9186329fb84b9fe1a92a1e3",
+  "fetchedAt": "2026-11-18T10:33:13.305Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

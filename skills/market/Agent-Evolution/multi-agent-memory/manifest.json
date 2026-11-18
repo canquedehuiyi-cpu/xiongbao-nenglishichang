@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3WYAYWu4",
+  "name": "multi-agent-memory",
+  "displayName": "多智能体记忆与协作架构",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "brucey0017-cloud",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/multi-agent-memory/latest/multi-agent-memory.zip",
+  "zipSha256": "27f091443f85c40c748485f3863dc18d1cdfa3804f702daa45727588b622743a",
+  "zipBytes": 8400,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "0e2741c134f573b482b80e55da7c82ad90df6d8aaa2a13344de91f6ed49cc976",
+  "fetchedAt": "2026-11-18T10:33:06.441Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

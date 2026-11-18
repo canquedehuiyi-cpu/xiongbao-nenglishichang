@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "a7e99166-ba85-4f0e-b224-7cc0e420690d",
+  "name": "make-image-lite",
+  "displayName": "轻量级图片生成",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a08077-61c5-74a1-b147-24729c04b60b",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0a3a2-d324-73db-8fe8-8af485a9febc/f8abf763_make-image-lite.zip",
+  "zipSha256": "05de4e3add022f1fccf4c35493d15aeb088a225ba39b0750455ef53b35c43d69",
+  "zipBytes": 15738,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "a1d43d44d6781386969015272d4deedc708194e928a3bc67716eb0eb7046feee",
+  "fetchedAt": "2026-11-18T10:35:23.494Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

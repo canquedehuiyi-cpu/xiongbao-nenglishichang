@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_90dxMFEN",
+  "name": "jpeng-self-improving",
+  "displayName": "自我进化智能体",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/jpeng-self-improving/latest/jpeng-self-improving.zip",
+  "zipSha256": "8815ce5cb4213d59fc540f744194b3dc499a75cb438a7b905e8c4aa332e8f639",
+  "zipBytes": 14961,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "b437d1c82f99c046afb749766c576d98199d53710144448f685768b59c7dcd91",
+  "fetchedAt": "2026-11-18T10:33:16.736Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

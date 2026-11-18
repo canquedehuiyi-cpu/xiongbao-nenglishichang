@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_mkCnumxl",
+  "name": "alibabacloud-waf-bot-management",
+  "displayName": "WAF-Bot管理自动化配置",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-waf-bot-management/latest/alibabacloud-waf-bot-management.zip",
+  "zipSha256": "c278399c254542c61f13bddb5faf0d86c00dbe00468ae4ce9110fefbe082f3aa",
+  "zipBytes": 38173,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 12,
+  "treeSha256": "773b8f4fc74a412ba589c757c5f7e7d13c21e8597e374c4292a23ddefb2819b9",
+  "fetchedAt": "2026-11-18T10:40:56.491Z",
+  "credentialScan": {
+    "textFilesScanned": 12,
+    "filesRedacted": 0
+  },
+  "note": null
+}

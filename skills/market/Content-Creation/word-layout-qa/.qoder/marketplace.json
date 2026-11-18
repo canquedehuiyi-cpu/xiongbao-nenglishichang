@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "skill",
+  "marketItemId": "8b15069c-2adc-49a0-a7c6-0cace9cc495a",
+  "itemName": "word-layout-qa",
+  "displayName": "Word Layout QA",
+  "version": "1.0.0",
+  "packageKind": "skill"
+}

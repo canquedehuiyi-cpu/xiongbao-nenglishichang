@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WRcVqSNP",
+  "name": "alibabacloud-oss-manage-cron-upload",
+  "displayName": "本地文件定时同步到OSS",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-oss-manage-cron-upload/latest/alibabacloud-oss-manage-cron-upload.zip",
+  "zipSha256": "f07faea441612526f3c1dbd0afdc34b65df03fafb33862cc799f0b09323efd22",
+  "zipBytes": 24224,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "e48cfe8a6338b62117af4e28b9f64cef9dbafc9d992d77c8b70d71e252165411",
+  "fetchedAt": "2026-11-18T10:38:20.059Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 1
+  },
+  "note": null
+}

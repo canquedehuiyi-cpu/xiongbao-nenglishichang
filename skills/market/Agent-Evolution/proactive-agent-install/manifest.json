@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3BB64Vf3",
+  "name": "proactive-agent-install",
+  "displayName": "主动型智能体",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/proactive-agent-install/latest/proactive-agent-install.zip",
+  "zipSha256": "3b4ab2cec9afecf16c62d5bf72fbd5576114a688120523d66e3976e00f48f61d",
+  "zipBytes": 41130,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "c07defe28e58196d547271acc5e8b95ff6813ccef66c0c596307c7d234bdfad6",
+  "fetchedAt": "2026-11-18T10:33:32.565Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

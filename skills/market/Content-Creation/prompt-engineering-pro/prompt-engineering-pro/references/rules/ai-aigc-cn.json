@@ -1,0 +1,53 @@
+{
+  "domain": "ai-aigc",
+  "label": "生成式 AI / AIGC（中国）",
+  "jurisdiction": "cn",
+  "modalities": ["text"],
+  "law_level": "admin",
+  "snapshot_checked": "2026-09-03",
+  "effective_date": null,
+  "status": "current",
+  "superseded_by": null,
+  "sources": [
+    { "name": "生成式人工智能服务管理暂行办法", "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm", "last_verified": "2026-09-03" }
+  ],
+  "rules": [
+    {
+      "key": "ai_content_safety",
+      "name": "生成内容安全",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["生成违法内容", "生成色情", "生成暴力", "诱导歧视", "生成谣言"],
+      "basis": "生成式AI暂行办法第四条：不得生成煽动颠覆、色情暴力、歧视仇恨等违法内容",
+      "suggestion": "提示词应约束生成范围，禁止引导生成违法违规内容"
+    },
+    {
+      "key": "ai_label",
+      "name": "AI 生成内容标识",
+      "type": "remind",
+      "severity": "high",
+      "triggers": ["显著标识", "AI 生成", "人工智能生成", "标注为 AI", "AI 标识"],
+      "basis": "生成式AI暂行办法第十二条 + 人工智能生成合成内容标识办法：AI 生成内容需显著标识",
+      "suggestion": "AI 生成/合成的文本、图像应按规定添加显著标识与元数据标识"
+    },
+    {
+      "key": "ai_personal_info",
+      "name": "个人信息保护",
+      "type": "remind",
+      "severity": "high",
+      "triggers": ["个人信息保护", "隐私政策", "告知同意", "数据处理", "数据保护"],
+      "basis": "生成式AI暂行办法第十一条：对输入信息和使用记录依法履行保护义务，不得收集非必要个人信息",
+      "suggestion": "提示词不得引导收集非必要个人信息，需明确数据使用范围"
+    },
+    {
+      "key": "ai_minor",
+      "name": "未成年人保护",
+      "type": "remind",
+      "severity": "medium",
+      "triggers": ["未成年人保护", "适用人群", "防沉迷", "使用边界"],
+      "basis": "生成式AI暂行办法第十条：明确适用人群、场合、用途，防范未成年人过度依赖或沉迷",
+      "suggestion": "面向公众的 AI 服务应明确适用人群，说明使用边界"
+    }
+  ],
+  "meta": { "policy_lock": true, "auto_update": false }
+}

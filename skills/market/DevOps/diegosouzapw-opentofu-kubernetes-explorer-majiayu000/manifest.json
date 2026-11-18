@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ATFse610",
+  "name": "diegosouzapw-opentofu-kubernetes-explorer-majiayu000",
+  "displayName": "Explorer运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-opentofu-kubernetes-explorer-majiayu000/latest/diegosouzapw-opentofu-kubernetes-explorer-majiayu000.zip",
+  "zipSha256": "7d393474a23790551a78fd0527912cd791207049602e82581698b54b26e8534e",
+  "zipBytes": 8150,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5b6f788f96fcfecf041e0cc46cc638a8a34ae77a2948f5dcd27f2971ad393038",
+  "fetchedAt": "2026-11-18T10:38:38.633Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

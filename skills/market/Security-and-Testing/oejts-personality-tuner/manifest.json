@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bdAmIDpc",
+  "name": "oejts-personality-tuner",
+  "displayName": "OEJTS人格调优器",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "salvagedeck",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/oejts-personality-tuner/latest/oejts-personality-tuner.zip",
+  "zipSha256": "87f7849fec7389281d5ee2ba172c1820fab06b22e369a077914e902fd94d1391",
+  "zipBytes": 7537,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "a399b20e67ede9bd7bb154d5370764b3fb4ebd27aff8157c6ae78f21a44f4b27",
+  "fetchedAt": "2026-11-18T10:41:26.996Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

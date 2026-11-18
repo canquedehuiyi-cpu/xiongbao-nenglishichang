@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "53991dc5-6bf5-4dc8-aa19-8c0a8f3bb3a6",
+  "name": "douyin-creator-profile",
+  "displayName": "抖音达人数据 达人信息",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a1e4a8-5638-73c1-8c74-1254565e4274/419a6f5909bad6e577175bca90e99ba5072d7c6f76e9428f46ceda60f96497fe.zip",
+  "zipSha256": "419a6f5909bad6e577175bca90e99ba5072d7c6f76e9428f46ceda60f96497fe",
+  "zipBytes": 46679,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 35,
+  "treeSha256": "5be8c1cac08466a75487741ecf9925dcf47c5a3eea991a7c99f51c155f0a9868",
+  "fetchedAt": "2026-11-18T10:47:47.563Z",
+  "credentialScan": {
+    "textFilesScanned": 34,
+    "filesRedacted": 0
+  },
+  "note": null
+}

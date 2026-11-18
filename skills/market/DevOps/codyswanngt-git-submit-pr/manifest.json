@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3aVdXEeW",
+  "name": "codyswanngt-git-submit-pr",
+  "displayName": "Submit开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "CodySwannGT",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/codyswanngt-git-submit-pr/latest/codyswanngt-git-submit-pr.zip",
+  "zipSha256": "3d7f0b3c348491c2cd8912136859699f0ee0a5ff412b80f09d6814adca9136b4",
+  "zipBytes": 1267,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "8bcf3a93a31e87567d0118889d48406c62f6bbadf5dc794d9fc1b96dd08575f5",
+  "fetchedAt": "2026-11-18T10:38:54.033Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

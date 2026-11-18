@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Pv2ZWjO2",
+  "name": "majiayu000-backend-engineering",
+  "displayName": "后端开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-backend-engineering/latest/majiayu000-backend-engineering.zip",
+  "zipSha256": "e5b68bda9871cbfa2b902dd28dd8e666a6d54a76a5cdcf6c83feb5ae806940c5",
+  "zipBytes": 2591,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "bf5bd97653ea42d9b25218d31b2a996c2672b7468817a15bee7ace3b5617ac18",
+  "fetchedAt": "2026-11-18T10:33:17.277Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

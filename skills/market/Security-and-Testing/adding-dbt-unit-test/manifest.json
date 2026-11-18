@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_UgBFhy6D",
+  "name": "adding-dbt-unit-test",
+  "displayName": "为dbt模型添加单元测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.1",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0c39a-f3c8-728f-9363-8c48019b9b49/ss_029c6d929171fb997a722a27f0f7f4f1dc01ddc42ae4785f0295077bf3e2.zip",
+  "zipSha256": "794d41b50690e90c53f00689aef80521de03dcadae20b89feb0910a73b33712c",
+  "zipBytes": 14674,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 14,
+  "treeSha256": "e18e9fe0290479e2f31df28d88dfefdcad57c9ae519bb73b4c6107a44d0403d4",
+  "fetchedAt": "2026-11-18T10:41:07.117Z",
+  "credentialScan": {
+    "textFilesScanned": 14,
+    "filesRedacted": 0
+  },
+  "note": null
+}

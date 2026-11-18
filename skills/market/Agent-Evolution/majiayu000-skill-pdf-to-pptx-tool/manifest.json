@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MzKwNzPx",
+  "name": "majiayu000-skill-pdf-to-pptx-tool",
+  "displayName": "PDFPPTX开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-skill-pdf-to-pptx-tool/latest/majiayu000-skill-pdf-to-pptx-tool.zip",
+  "zipSha256": "1ea9bac70cc62923231a86d2f964052f2dc80f426f01642f14d68cc96d472539",
+  "zipBytes": 5109,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "86a638604e8ca994891c32ef8aee63066da68fe428f976e7ba93a7b59fe29ed7",
+  "fetchedAt": "2026-11-18T10:33:37.410Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

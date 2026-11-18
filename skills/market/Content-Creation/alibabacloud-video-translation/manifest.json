@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_rH4r7TmZ",
+  "name": "alibabacloud-video-translation",
+  "displayName": "视频翻译",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-video-translation/latest/alibabacloud-video-translation.zip",
+  "zipSha256": "fc4ab47a2a5eb84c85865e92ded8efb1a0b6adb9993bedd97917e5eccba4bef5",
+  "zipBytes": 32681,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 10,
+  "treeSha256": "b8e10bb1971b3d5dde728c251c4cf8978729b48c86c1c47fca0866d9d4833b78",
+  "fetchedAt": "2026-11-18T10:35:24.720Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 1
+  },
+  "note": null
+}

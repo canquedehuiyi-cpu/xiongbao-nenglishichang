@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_sIxGulAc",
+  "name": "alibabacloud-cfw-exposure-detection",
+  "displayName": "云防火墙暴露面分析",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-cfw-exposure-detection/latest/alibabacloud-cfw-exposure-detection.zip",
+  "zipSha256": "b1d6fb39a9d567d9fce7b334cf9032f1aff48142d3759779824f27b86574c7de",
+  "zipBytes": 23377,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "22fbc940ca1895d7096ff027fc5e0b407d5d9a6a36ee57ea99e517d4eec87e8b",
+  "fetchedAt": "2026-11-18T10:40:51.798Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 1
+  },
+  "note": null
+}

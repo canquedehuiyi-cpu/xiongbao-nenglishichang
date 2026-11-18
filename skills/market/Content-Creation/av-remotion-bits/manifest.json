@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_shJMTEJw",
+  "name": "av-remotion-bits",
+  "displayName": "Remotion设计",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "av",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/av-remotion-bits/latest/av-remotion-bits.zip",
+  "zipSha256": "8a5334fd6e1e1da3bda062b8b59da686bce475ecad3fe182bbb2d91ab0e1c648",
+  "zipBytes": 17567,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "b490b7ed137a8c8496baab6b4d8884482459b8728fc842cdbc3aa3837990e343",
+  "fetchedAt": "2026-11-18T10:35:21.120Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

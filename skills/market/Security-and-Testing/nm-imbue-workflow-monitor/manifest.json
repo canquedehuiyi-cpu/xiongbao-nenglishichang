@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_4qXTuIJW",
+  "name": "nm-imbue-workflow-monitor",
+  "displayName": "工作流监控器",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/nm-imbue-workflow-monitor/latest/nm-imbue-workflow-monitor.zip",
+  "zipSha256": "267856f3be8c0365dc93fe78c148d77a8a4f8238472ba6ce2f8fa7f6da978d5d",
+  "zipBytes": 9630,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "eb100d3846195e8c8d5f51a09943448029a7b5f17eeba863bd61780e64124aa4",
+  "fetchedAt": "2026-11-18T10:41:20.577Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

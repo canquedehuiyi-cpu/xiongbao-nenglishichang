@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_nj4bVVkc",
+  "name": "alibabacloud-nginx-ingress-to-api-gateway",
+  "displayName": "Nginx Ingress 迁移至云原生 API 网关",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-nginx-ingress-to-api-gateway/latest/alibabacloud-nginx-ingress-to-api-gateway.zip",
+  "zipSha256": "61925ede57eb15b72197077d9303557e6e443734208603686b64b92b0118f9e7",
+  "zipBytes": 60567,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 20,
+  "treeSha256": "3025b58f09c196ffbbccbee609c436cf34805b30c96ac4618cc960142cf44f25",
+  "fetchedAt": "2026-11-18T10:38:29.305Z",
+  "credentialScan": {
+    "textFilesScanned": 20,
+    "filesRedacted": 0
+  },
+  "note": null
+}

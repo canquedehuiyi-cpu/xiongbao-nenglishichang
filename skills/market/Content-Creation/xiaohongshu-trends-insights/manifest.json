@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "fd29af66-b977-4da1-9216-5b859250b2f7",
+  "name": "xiaohongshu-trends-insights",
+  "displayName": "小红书趋势洞察",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.4",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08e9e-75bf-7da0-af22-a0cd0cf35517/5a67b7ea_xiaohongshu-openclaw-skill-master.zip",
+  "zipSha256": "67522ed74538d58bc1c12be74b1bf53dbb23d3be3ea9cd0198e900725f6b8234",
+  "zipBytes": 41046,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 25,
+  "treeSha256": "6df22d3d922bff3667eb200e44fc73a1ede75b497c89b277ce473e6d086f735a",
+  "fetchedAt": "2026-11-18T10:35:25.303Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

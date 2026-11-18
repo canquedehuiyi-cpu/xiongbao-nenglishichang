@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MeL58tMw",
+  "name": "dchuk-tauri-debugging",
+  "displayName": "Tauri调试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "dchuk",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dchuk-tauri-debugging/latest/dchuk-tauri-debugging.zip",
+  "zipSha256": "f39282071c194b175f2b4304c8e947e4e8fcd6ae42ebcf56a0fddaddba15bb31",
+  "zipBytes": 4188,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "cb3445ccd79d1581ca41c7eeb546a5f473a7ac3251f02a3526319a75310ac8c5",
+  "fetchedAt": "2026-11-18T10:41:02.477Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

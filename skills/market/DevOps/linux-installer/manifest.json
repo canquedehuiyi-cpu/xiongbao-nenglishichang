@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_CWJHxPmR",
+  "name": "linux-installer",
+  "displayName": "Linux 安装器",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/linux-installer/latest/linux-installer.zip",
+  "zipSha256": "16e131340e2d2fee3cc77bc4141054a83bc37955a0f1002304ae7dfdf0185a33",
+  "zipBytes": 26283,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "d8247271c1b8cecb2dfa77baff47e0850ffd66c67303381fc7dd3671e891a7d5",
+  "fetchedAt": "2026-11-18T10:38:22.557Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

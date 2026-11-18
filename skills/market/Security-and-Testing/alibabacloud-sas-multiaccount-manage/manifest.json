@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_o27krPNp",
+  "name": "alibabacloud-sas-multiaccount-manage",
+  "displayName": "云安全中心多账号安全运营Skill",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-sas-multiaccount-manage/latest/alibabacloud-sas-multiaccount-manage.zip",
+  "zipSha256": "a47ed03e38cf758ab22dfe93a9e5c9738311203f866170e342ac8f1aec839583",
+  "zipBytes": 18851,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "bb84950622ac45d8812ed9f817d9c16d399e6db90af6122d3113e914699f4058",
+  "fetchedAt": "2026-11-18T10:41:09.122Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

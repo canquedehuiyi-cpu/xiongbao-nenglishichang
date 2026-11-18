@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_izZlxm2Y",
+  "name": "ssh-essentials",
+  "displayName": "SSH 核心命令指南",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "arnarsson",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/ssh-essentials/latest/ssh-essentials.zip",
+  "zipSha256": "89d528dce5356eb9837a2d57784b02685e1055662186989289de4b5707aa5f53",
+  "zipBytes": 3540,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "297a5aac73ea88f1399cea25d8345afcec86240d52e1735e765aab3b62423872",
+  "fetchedAt": "2026-11-18T10:38:18.673Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

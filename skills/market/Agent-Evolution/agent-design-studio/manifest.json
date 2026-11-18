@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "5e9faee3-4c92-4b0c-86e7-3727026ac9bb",
+  "name": "agent-design-studio",
+  "displayName": "智能体设计工作室",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f3beb-a8ac-76f0-aead-bf15446b2cc8",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f91af-727b-7da6-8459-6f769500747f/f518f340_agent-design-studio.zip",
+  "zipSha256": "a6ceb36afb73f6bf4afa44aee573fab69a9c4129488cad3ae339bb458e26c5f6",
+  "zipBytes": 16440,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "806741ed7c8438f78bb908c3904292a6e20a6c3c966655ad7c8e2ed12decbe51",
+  "fetchedAt": "2026-11-18T10:33:31.734Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

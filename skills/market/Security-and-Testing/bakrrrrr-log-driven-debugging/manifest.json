@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_qluqOhSA",
+  "name": "bakrrrrr-log-driven-debugging",
+  "displayName": "报告LOG",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "bakrrrrr",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bakrrrrr-log-driven-debugging/latest/bakrrrrr-log-driven-debugging.zip",
+  "zipSha256": "b5cfeda5ecbcf0d78054b576924412783bcac5cbb69d5bffbc71e82691822429",
+  "zipBytes": 3392,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "91e3fbad3a393a1867e505f62ef66e5bb7ef7179d5bd206bb1def39ad935353b",
+  "fetchedAt": "2026-11-18T10:41:19.589Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

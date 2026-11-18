@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "skill",
+  "marketItemId": "official_iawfIm4G",
+  "itemName": "cicd-workflow",
+  "displayName": "cicd-workflow",
+  "version": "1.0.1",
+  "packageKind": "skill"
+}

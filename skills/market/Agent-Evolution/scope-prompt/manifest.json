@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "02a9dd16-b684-437b-b924-2e6d7ab205b3",
+  "name": "scope-prompt",
+  "displayName": "范围提示词",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "019f2ad5-792d-7a32-9795-8dc8d8e51442",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f8274-0b2e-7287-938d-de8636f3e7c1/b3daf973_ScopePrompt-QoderWork-v0.1.0.zip",
+  "zipSha256": "d7a131831733eb27d3ce4281fe9b35266e4a3818fe492b84b84885e0e2ebc5f8",
+  "zipBytes": 5869,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "7b59716854cc5d8ea358c0e04018f6e74feb44b04a57d9624d8e278b989c381c",
+  "fetchedAt": "2026-11-18T10:33:15.669Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

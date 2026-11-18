@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WBvUsxDN",
+  "name": "auto-novel-writer",
+  "displayName": "长篇爽文小说写作助手",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/auto-novel-writer/latest/auto-novel-writer.zip",
+  "zipSha256": "3903b034a87c74e8d76d5895c789f890000bd414b1232439488a06cf8a9cdf78",
+  "zipBytes": 27942,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "5c7553d6da55649d405d44c3ab7207b2142e54a6f0107426b82cc3a7a9841431",
+  "fetchedAt": "2026-11-18T10:33:08.050Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

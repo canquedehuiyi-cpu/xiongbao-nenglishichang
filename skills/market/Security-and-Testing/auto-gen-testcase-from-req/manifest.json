@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "8bd5d119-6f50-433c-ba23-d952d011bd51",
+  "name": "auto-gen-testcase-from-req",
+  "displayName": "需求自动生成测试用例",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f82df-11ee-77d2-8d57-400a843e0ddf",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f83a0-4e6b-721a-8453-482e61f19da7/fea961d4_auto-gen-testcase-from-req.zip",
+  "zipSha256": "5797ca29c1f86dee4bb3be37d564948f6329cabbe1592ee8f4af23b1af789886",
+  "zipBytes": 10959,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "9e39dc4fbf34c16a410ec4a0039d5e9ab3900ec01790c5ebeb0f7c9e97ab688f",
+  "fetchedAt": "2026-11-18T10:40:48.565Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

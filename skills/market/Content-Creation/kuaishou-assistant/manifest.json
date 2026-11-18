@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "b0e7ccb9-155f-4846-bf58-9efea64c96e0",
+  "name": "kuaishou-assistant",
+  "displayName": "快手数据助手",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a094d0-432d-7d23-8060-40d52b991370/1201e6e5_kuaishou-data-miner-1.0.0.zip",
+  "zipSha256": "0b8e6ac7e93552c7e5729c674bbc400ca4f5af4644bd2c22c94f8033f5e71404",
+  "zipBytes": 28335,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 21,
+  "treeSha256": "5e02adaf6bd821d1fa4a3a11759562399ed262192964a7abd71d3cc1a5b2b7ea",
+  "fetchedAt": "2026-11-18T10:35:30.779Z",
+  "credentialScan": {
+    "textFilesScanned": 21,
+    "filesRedacted": 0
+  },
+  "note": null
+}

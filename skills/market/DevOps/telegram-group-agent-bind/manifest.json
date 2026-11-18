@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6hNsQeLA",
+  "name": "telegram-group-agent-bind",
+  "displayName": "Telegram 群组智能体绑定",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/telegram-group-agent-bind/latest/telegram-group-agent-bind.zip",
+  "zipSha256": "851910f0643a4d9d0631cdfa97f79a36ac4e8442552b98f0b31fd32078584c0a",
+  "zipBytes": 6655,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "a59d56dc58709e68548fa16777b9b84b8cb71e9c80e6bce7a58ff202198fbf71",
+  "fetchedAt": "2026-11-18T10:38:38.227Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_8iHCDrFs",
+  "name": "clawhub-memory-tiers",
+  "displayName": "智能体分层记忆",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/clawhub-memory-tiers/latest/clawhub-memory-tiers.zip",
+  "zipSha256": "7a43ef7d26dd096c32f935293cd9bbd7ebc57528438a6074783398061fef812c",
+  "zipBytes": 4587,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "24bc34f06ebd9fb799998f56a04c393db49c85566738a89740cf0a110513eaf5",
+  "fetchedAt": "2026-11-18T10:33:45.787Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

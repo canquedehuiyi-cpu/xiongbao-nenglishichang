@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ZTcmIBmm",
+  "name": "alibabacloud-sysom-diagnosis",
+  "displayName": "阿里云操作系统诊断",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-sysom-diagnosis/latest/alibabacloud-sysom-diagnosis.zip",
+  "zipSha256": "48f0bf857e5671283be2e3b5692245eeb8aea64cf039f0d78b4bd472c2150660",
+  "zipBytes": 15349,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "d9de4ce2f4456c6050f6c78ca677ab5f9efbdd5a030f76e222c8a342d8362fd3",
+  "fetchedAt": "2026-11-18T10:41:25.508Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

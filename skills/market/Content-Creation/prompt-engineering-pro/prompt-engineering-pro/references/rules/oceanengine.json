@@ -1,0 +1,63 @@
+{
+  "domain": "oceanengine",
+  "label": "巨量引擎广告审核（中国）",
+  "jurisdiction": "cn",
+  "modalities": ["text", "image", "video"],
+  "law_level": "mixed",
+  "snapshot_checked": "2026-09-03",
+  "effective_date": null,
+  "status": "current",
+  "superseded_by": null,
+  "sources": [
+    { "name": "巨量广告规则中心", "url": "https://support.oceanengine.com/support?pageId=297&spaceId=171", "last_verified": "2026-09-03" },
+    { "name": "广告投放管理规范", "url": "https://support.oceanengine.com/support/content/130539", "last_verified": "2026-09-03" }
+  ],
+  "rules": [
+    {
+      "key": "industry_qualification",
+      "name": "行业准入资质",
+      "type": "remind",
+      "severity": "high",
+      "triggers": ["资质", "准入", "资格", "资质证明"],
+      "basis": "巨量广告投放管理规范 P1-13：缺少行业必备资质或资质不符将被拒绝",
+      "suggestion": "涉资质行业投放前核对行业资质准入要求"
+    },
+    {
+      "key": "superstitious",
+      "name": "封建迷信",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["风水", "占卜", "算卦", "看相", "命理", "转运符", "开光"],
+      "basis": "巨量广告投放管理规范 P1-14：涉及封建迷信或命理的不当内容禁止",
+      "suggestion": "删除封建迷信相关内容"
+    },
+    {
+      "key": "industry_tips",
+      "name": "行业提示语",
+      "type": "remind",
+      "severity": "medium",
+      "triggers": ["风险提示", "行业提示语", "监管提示"],
+      "basis": "巨量广告投放管理规范 P1-15：缺少监管要求必须添加的行业提示语将被拒绝",
+      "suggestion": "金融类投放需补充监管要求的风险提示语"
+    },
+    {
+      "key": "ai_marketing",
+      "name": "AI 营销内容治理",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["AI 合成功效", "AI 生成虚假效果", "AI 夸大演示", "AI 换脸带货", "AI 批量生成营销"],
+      "basis": "巨量引擎 AI 违规营销专项治理：AI 制作违背常识、夸大效果的演示画面属于违规",
+      "suggestion": "AI 生成的营销素材不得夸大功效或违背常识，需保证内容真实合法"
+    },
+    {
+      "key": "absolute_ads",
+      "name": "绝对化用语（投放）",
+      "type": "warn",
+      "severity": "high",
+      "triggers": ["最优秀", "第一品牌", "全网最好", "唯一推荐", "效果最佳"],
+      "basis": "巨量广告审核：严禁绝对化用语（如'最优秀''第一品牌'），除非能提供充分证据",
+      "suggestion": "删除绝对化用语，改为可验证表述"
+    }
+  ],
+  "meta": { "policy_lock": true, "auto_update": false }
+}

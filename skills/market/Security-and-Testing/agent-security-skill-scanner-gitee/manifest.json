@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_RzW2w0LZ",
+  "name": "agent-security-skill-scanner-gitee",
+  "displayName": "智能体安全扫描器",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/agent-security-skill-scanner-gitee/latest/agent-security-skill-scanner-gitee.zip",
+  "zipSha256": "7fe3950c21f9b925179efd0270d44ad404d01bbd33b5cdb564d1360e2635244c",
+  "zipBytes": 72718,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 27,
+  "treeSha256": "5c67a42773dacb42e60f46ae1266e17dd053e40228464362649bbf71b2203dd1",
+  "fetchedAt": "2026-11-18T10:41:19.381Z",
+  "credentialScan": {
+    "textFilesScanned": 27,
+    "filesRedacted": 0
+  },
+  "note": null
+}

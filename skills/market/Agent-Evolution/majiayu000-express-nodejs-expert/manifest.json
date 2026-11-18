@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Y8UKHit3",
+  "name": "majiayu000-express-nodejs-expert",
+  "displayName": "安全NodeJS开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-express-nodejs-expert/latest/majiayu000-express-nodejs-expert.zip",
+  "zipSha256": "de5abe2723dff7d9369a419aec0fa874418e751b094e42bdb8e8bad3fc9a132a",
+  "zipBytes": 9178,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "6ebe36cd0ee8f8242f1e5defb3aff8fa23c6045d93373b00aa772b499b036cf3",
+  "fetchedAt": "2026-11-18T10:33:25.904Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

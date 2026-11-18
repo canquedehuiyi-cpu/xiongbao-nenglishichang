@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5ConPT2g",
+  "name": "claude-dev-suite-java-quality",
+  "displayName": "安全Java开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "claude-dev-suite",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/claude-dev-suite-java-quality/latest/claude-dev-suite-java-quality.zip",
+  "zipSha256": "ad2c9409645784863db6775463e2809429f8f9ca412d660a8aa79daff00b9af5",
+  "zipBytes": 4789,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "13bb8f618a79512ae095999b139ec5ca2f2e182a000ffb3d9d41b35e084800c6",
+  "fetchedAt": "2026-11-18T10:40:48.902Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

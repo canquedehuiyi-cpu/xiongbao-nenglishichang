@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6WgdVe4n",
+  "name": "majiayu000-silent-execution",
+  "displayName": "Python开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-silent-execution/latest/majiayu000-silent-execution.zip",
+  "zipSha256": "c7a0a23713a79de4aeff452e480996d6afe484738af862bc787a3096f90fd44d",
+  "zipBytes": 2820,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "7f51b243864403ee3940774b0a953020be58e68c7c30a03722d5fa9bff10e9c6",
+  "fetchedAt": "2026-11-18T10:33:21.807Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

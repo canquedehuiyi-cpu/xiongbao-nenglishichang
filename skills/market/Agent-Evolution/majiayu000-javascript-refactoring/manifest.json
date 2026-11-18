@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_2mrSg4Dt",
+  "name": "majiayu000-javascript-refactoring",
+  "displayName": "代码重构",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-javascript-refactoring/latest/majiayu000-javascript-refactoring.zip",
+  "zipSha256": "745e2679292b4e47b24aa17164a3f447104ba17057ea4e63a125aad149294633",
+  "zipBytes": 5016,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "63925dbec1a4f807aeb34f534fe548b2a61c6b138fbeb5dad008d6ccc8d06d1e",
+  "fetchedAt": "2026-11-18T10:33:37.831Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

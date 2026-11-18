@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Gpok7ZP9",
+  "name": "boisenoise-superpowers-systematic-debugging",
+  "displayName": "调试测试",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "boisenoise",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/boisenoise-superpowers-systematic-debugging/latest/boisenoise-superpowers-systematic-debugging.zip",
+  "zipSha256": "bcfce307f9e03d6ee3a49b70c15ed61d013fdff22b6ad0a85650259db15fc506",
+  "zipBytes": 19791,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "f6f75337e96dc5e22b9799309f938482d11ad217f24876faff5c327a5b9b671e",
+  "fetchedAt": "2026-11-18T10:40:44.153Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

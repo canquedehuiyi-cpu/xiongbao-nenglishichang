@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_CEL9Xgrv",
+  "name": "alon-github-security-audit",
+  "displayName": "GitHub 安全审计",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alon-github-security-audit/latest/alon-github-security-audit.zip",
+  "zipSha256": "df319a50a1ed4bd8a0a5db449884dc327a1421dd058991158afd5769e61c2f1d",
+  "zipBytes": 12160,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "a1e8a4d3fd8508d75298755ea93a63ebe22ee62ee42d020d047d257a28f0551b",
+  "fetchedAt": "2026-11-18T10:40:52.577Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

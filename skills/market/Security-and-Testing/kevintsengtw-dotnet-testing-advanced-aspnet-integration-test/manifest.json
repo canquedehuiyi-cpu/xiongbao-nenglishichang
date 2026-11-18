@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1sXsmXMg",
+  "name": "kevintsengtw-dotnet-testing-advanced-aspnet-integration-testing",
+  "displayName": "Dotnet测试集成",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "kevintsengtw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/kevintsengtw-dotnet-testing-advanced-aspnet-integration-testing/latest/kevintsengtw-dotnet-testing-advanced-aspnet-integration-testing.zip",
+  "zipSha256": "cdd9d07b17c7790aa66709f30d46a25b984ad40bc5797aaf5a66e7abb3ec1ed1",
+  "zipBytes": 14444,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "35bac8b6670b185e8d68cdee757e21669d4b38c0d8960f7f6fb4ad6f4c1b1240",
+  "fetchedAt": "2026-11-18T10:41:23.481Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

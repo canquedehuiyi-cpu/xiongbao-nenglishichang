@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official55159671",
+  "name": "general-ppt",
+  "displayName": "通用 PPTX",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "QoderWork",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/general-ppt/latest/general-ppt.zip",
+  "zipSha256": "297490816e3430786437afbd5daf169419f0aa9e572176d521444354ea4f5df5",
+  "zipBytes": 176627,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 60,
+  "treeSha256": "a738dda4831933f11337286b0de0674bab329b3f2bf103f15e27b1bf848c40a6",
+  "fetchedAt": "2026-11-18T10:35:17.443Z",
+  "credentialScan": {
+    "textFilesScanned": 21,
+    "filesRedacted": 0
+  },
+  "note": null
+}

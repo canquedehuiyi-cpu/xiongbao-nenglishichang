@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PpHzHrMc",
+  "name": "majiayu000-godot-setup-multiplayer",
+  "displayName": "Godot配置",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-godot-setup-multiplayer/latest/majiayu000-godot-setup-multiplayer.zip",
+  "zipSha256": "47bd8585d8a853dcd78bbd7fae3c164ddbd943bdafe3565d16efb3be9520f3f3",
+  "zipBytes": 7140,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "93174906e40f518acaf0d4f79ca2af0ed901ceab80522b7f431ef34a7a6e5539",
+  "fetchedAt": "2026-11-18T10:33:13.649Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

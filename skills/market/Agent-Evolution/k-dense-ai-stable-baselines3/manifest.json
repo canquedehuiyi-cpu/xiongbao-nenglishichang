@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_Fn4fdQ3O",
+  "name": "k-dense-ai-stable-baselines3",
+  "displayName": "金融Stable设计",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "k-dense-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/k-dense-ai-stable-baselines3/latest/k-dense-ai-stable-baselines3.zip",
+  "zipSha256": "4758cfbb58343e82ccecb106f65f7d60e10fa9ddaa8123347ef6361ccd40d2b9",
+  "zipBytes": 28312,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 8,
+  "treeSha256": "7fc1f5b41203b6cf29cd274bf7a5d39540db7c0931628631c5aed13dc361b2a5",
+  "fetchedAt": "2026-11-18T10:33:41.122Z",
+  "credentialScan": {
+    "textFilesScanned": 8,
+    "filesRedacted": 0
+  },
+  "note": null
+}

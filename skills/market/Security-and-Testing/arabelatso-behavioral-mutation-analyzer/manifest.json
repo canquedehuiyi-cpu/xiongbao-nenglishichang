@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6gAZobqZ",
+  "name": "arabelatso-behavioral-mutation-analyzer",
+  "displayName": "变异生成",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "ArabelaTso",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/arabelatso-behavioral-mutation-analyzer/latest/arabelatso-behavioral-mutation-analyzer.zip",
+  "zipSha256": "0d2dae34ccca14a273cbce85d729948f168ec2a8ca510bb82a32f7fddabbeabe",
+  "zipBytes": 19989,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 5,
+  "treeSha256": "76604c3faf155c6be4d32fe6b1e06b0fad06ad411380722a6d4a75b828cd8c56",
+  "fetchedAt": "2026-11-18T10:41:24.191Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

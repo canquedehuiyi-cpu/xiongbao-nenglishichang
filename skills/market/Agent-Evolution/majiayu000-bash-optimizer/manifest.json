@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9pxnnfIg",
+  "name": "majiayu000-bash-optimizer",
+  "displayName": "Bash优化",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-bash-optimizer/latest/majiayu000-bash-optimizer.zip",
+  "zipSha256": "7ead68d15814217264f16201d809d10bd29f35bd18a21e4f69c8b48ca176686c",
+  "zipBytes": 3023,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "6b30db66aa40814e8548c26ecc84871a4fb152c3223dc34c5d802ef0eef0309c",
+  "fetchedAt": "2026-11-18T10:33:33.316Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

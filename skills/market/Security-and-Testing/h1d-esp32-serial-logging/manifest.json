@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_lIj7lPOF",
+  "name": "h1d-esp32-serial-logging",
+  "displayName": "Esp32开发",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "H1D",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/h1d-esp32-serial-logging/latest/h1d-esp32-serial-logging.zip",
+  "zipSha256": "0dfcd9f39d31b9b346f027bd91a25082d67fb4e7b8fca473c5bfa6d682de9099",
+  "zipBytes": 1377,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "f7f52c63585e349d94f7a84d3cf2f2d2b68b2bc2965f3714a35d82d2559dcc56",
+  "fetchedAt": "2026-11-18T10:40:48.283Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

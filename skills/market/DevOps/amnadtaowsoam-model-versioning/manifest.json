@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_1EZ6LA0y",
+  "name": "amnadtaowsoam-model-versioning",
+  "displayName": "模型开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "AmnadTaowsoam",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/amnadtaowsoam-model-versioning/latest/amnadtaowsoam-model-versioning.zip",
+  "zipSha256": "2d9ffe12ff523c93e845db1e72a5d630de439f24af15b6a92bf4df93af8051cd",
+  "zipBytes": 2963,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "2eb335414cc9582be71e3ad91cb9a153dc8e1244c622c1cfda60f8a0365d1603",
+  "fetchedAt": "2026-11-18T10:38:25.761Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

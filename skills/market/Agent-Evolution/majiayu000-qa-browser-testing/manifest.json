@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LdfQ5TGN",
+  "name": "majiayu000-qa-browser-testing",
+  "displayName": "QA浏览器",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-qa-browser-testing/latest/majiayu000-qa-browser-testing.zip",
+  "zipSha256": "f105edeba6f4fa9e0fdb169740f1bb7210bd7a4443b8c63595cf747f9cc2aa89",
+  "zipBytes": 11830,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "700d3826b3c22c4472de41877231edd854abeaae78012d87f5d0a460647da227",
+  "fetchedAt": "2026-11-18T10:33:26.753Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

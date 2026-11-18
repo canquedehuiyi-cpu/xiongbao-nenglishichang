@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_bo17F09g",
+  "name": "alibabacloud-ecs-disaster-recovery-snapshot",
+  "displayName": "使用快照跨可用区恢复ECS",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-ecs-disaster-recovery-snapshot/latest/alibabacloud-ecs-disaster-recovery-snapshot.zip",
+  "zipSha256": "09d16c92ed288dc466805ef78db4ca03d152ebe258a1fc4be13413864d1f1919",
+  "zipBytes": 21071,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 6,
+  "treeSha256": "b200073e78931f60d5592b86854100a5be8af8c2ffcdc7bf6fcc429c0d896069",
+  "fetchedAt": "2026-11-18T10:38:24.788Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 1
+  },
+  "note": null
+}

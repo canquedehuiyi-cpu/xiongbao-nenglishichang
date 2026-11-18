@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_WDywxjKQ",
+  "name": "majiayu000-godot-modernize-input",
+  "displayName": "Input开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-godot-modernize-input/latest/majiayu000-godot-modernize-input.zip",
+  "zipSha256": "6818978b39081596354a8daf6c3d1cd16818ccc3956156744999f08ffd395ca8",
+  "zipBytes": 5567,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "fdd6760d41201e421ef403835cbce452d1bc17e6099ffa7d7e0e8d9d1354f777",
+  "fetchedAt": "2026-11-18T10:33:18.478Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

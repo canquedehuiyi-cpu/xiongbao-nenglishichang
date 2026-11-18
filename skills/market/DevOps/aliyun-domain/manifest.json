@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "59f08e67-4423-42a5-a7b3-68bbc99aa405",
+  "name": "aliyun-domain",
+  "displayName": "阿里云域名",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019e7b4d-58f4-7d47-9f0a-1252dcf8e4b8",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a0d137-4f4c-7a85-9a20-c47af5e6454e/befb2aad_aliyun-domain-0.1.5-qoder-skill.zip",
+  "zipSha256": "38c75458f36313f8ca403a7296c4b30dd721cc01e634dd983b20950b162229f0",
+  "zipBytes": 30722,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 11,
+  "treeSha256": "4abfde4eda13fc3fbc5e8fbc4c9073df10e0334b838a495c88831031cd895924",
+  "fetchedAt": "2026-11-18T10:38:22.758Z",
+  "credentialScan": {
+    "textFilesScanned": 11,
+    "filesRedacted": 0
+  },
+  "note": null
+}

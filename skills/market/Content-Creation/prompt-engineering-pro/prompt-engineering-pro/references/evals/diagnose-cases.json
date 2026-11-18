@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "note": "诊断引擎（diagnose.mjs）回归集：每条至少 1 项预期诊断 ID 命中；expect_ids 为空表示无 major 诊断（干净稿）"
+  },
+  "cases": [
+    { "id": "DG-01", "label": "含糊目标", "prompt": "帮我优化一下这段代码", "expect_ids": ["vague_goal"] },
+    { "id": "DG-02", "label": "有角色缺边界", "prompt": "你是一个专业助手，请给出建议", "expect_ids": ["missing_boundary"] },
+    { "id": "DG-03", "label": "有格式缺角色", "prompt": "请翻译这段话。输出格式：Markdown。", "expect_ids": ["missing_role"] },
+    { "id": "DG-04", "label": "冗余堆叠", "prompt": "请务必一定千万要认真检查每一行代码，检查完之后请务必仔细复核一遍", "expect_ids": ["verbosity"] },
+    { "id": "DG-05", "label": "完整稿低问题", "prompt": "你是一位资深代码评审专家。请审查下面的代码并指出问题。完成标准：列出所有缺陷并给出修复建议。不要编造问题，无法确定时说明。输出格式：Markdown 清单。如果代码无法解析，请说明。", "expect_ids": [] }
+  ]
+}

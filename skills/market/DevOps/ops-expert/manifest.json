@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "9438da33-e60b-4868-9b07-5381557d6216",
+  "name": "ops-expert",
+  "displayName": "运维专家",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a0d8bb-ac9c-7e33-b875-75c1f516e52a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a13830-8993-7330-8bc6-8a75b7c9bd35/8ec2c988_ops-expert-1.0.1.zip",
+  "zipSha256": "c59c19f7a6d627270e1a2ee22925c57cfb632dfa2de72cdd8a3aa8ca69dec62c",
+  "zipBytes": 83774,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 23,
+  "treeSha256": "b4e8906c959a13a51170c540e60cc3d02f668aaac374869a0bdb126d7c0ed6aa",
+  "fetchedAt": "2026-11-18T10:38:13.794Z",
+  "credentialScan": {
+    "textFilesScanned": 21,
+    "filesRedacted": 0
+  },
+  "note": null
+}

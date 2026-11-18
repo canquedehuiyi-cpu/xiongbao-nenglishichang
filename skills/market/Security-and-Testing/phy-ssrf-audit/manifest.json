@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_LDYVQI47",
+  "name": "phy-ssrf-audit",
+  "displayName": "服务器端请求伪造审计",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/phy-ssrf-audit/latest/phy-ssrf-audit.zip",
+  "zipSha256": "1abd06719f5084b304297ac8ffa910698e91688a7c7a7b48c15a1a8acf04c602",
+  "zipBytes": 9378,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "cf61af54d4c4a123eea977d21e1355a07adf557324b251097121f531e56551d6",
+  "fetchedAt": "2026-11-18T10:41:17.729Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

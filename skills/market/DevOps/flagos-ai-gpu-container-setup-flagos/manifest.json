@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MW7ssHYJ",
+  "name": "flagos-ai-gpu-container-setup-flagos",
+  "displayName": "GPU配置",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "flagos-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/flagos-ai-gpu-container-setup-flagos/latest/flagos-ai-gpu-container-setup-flagos.zip",
+  "zipSha256": "b7db5bc767c5a2c8412a363659107a1f27d4ce300ef7d22f83a096f22b8549ac",
+  "zipBytes": 16655,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "1fb4db668e5a195b9b1c5eefe8ec6b9221291135e0ace9adbd0ead25cb59d1bf",
+  "fetchedAt": "2026-11-18T10:38:27.826Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

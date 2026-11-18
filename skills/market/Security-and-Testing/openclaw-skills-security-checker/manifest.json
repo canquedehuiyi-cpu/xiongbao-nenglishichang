@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_T2Xddtkw",
+  "name": "openclaw-skills-security-checker",
+  "displayName": "安全技能扫描器",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "digitaladaption",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-skills-security-checker/latest/openclaw-skills-security-checker.zip",
+  "zipSha256": "f5db3ffe529516822dd50054431e7322a32c8df6ffb72907bfeb5101b6cac70f",
+  "zipBytes": 2640,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "274378ebdcef5f76ef709cf7de6eabeafa696225f1994a0a764a35338fddb24d",
+  "fetchedAt": "2026-11-18T10:41:05.935Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

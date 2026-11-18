@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_3WrhKGma",
+  "name": "diegosouzapw-hatch",
+  "displayName": "Hatch开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-hatch/latest/diegosouzapw-hatch.zip",
+  "zipSha256": "af8bf0bb4aa819711e0b9746a0e7d2239b1a70cfcac64c0738f032aa120811ed",
+  "zipBytes": 7344,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a248ea6105beb68f9685588a7181388872c3f059d4781a7dc6b73287dc0a17b7",
+  "fetchedAt": "2026-11-18T10:38:53.729Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

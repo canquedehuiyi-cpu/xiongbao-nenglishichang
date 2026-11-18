@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "fc242914-4b34-436b-ad23-89048a95332d",
+  "name": "douyinvideo-copy-extract",
+  "displayName": "抖音文案一键提取",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "01a089ff-8e67-75a6-9827-bb3f4da79846",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a08f61-3111-7456-a350-1d63529662ae/d508d23d_video2text-ai-1.0.1.zip",
+  "zipSha256": "b4f064c796d549fa315507abe1934d6e434ec32d735163bee99366edff35deab",
+  "zipBytes": 30016,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 16,
+  "treeSha256": "fbaa2b91750098a531f9bffbf42989d26c797a60e1205ae33806c5ce30a61e70",
+  "fetchedAt": "2026-11-18T10:35:27.768Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

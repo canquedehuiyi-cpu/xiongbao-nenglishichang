@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_MzlIMhjM",
+  "name": "memory-sync-cn",
+  "displayName": "记忆同步系统",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "guohongbin-git",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/memory-sync-cn/latest/memory-sync-cn.zip",
+  "zipSha256": "7e9084084695592d434edf16a095f00d66fd3bdbc2c7d8abba2817dd59a365c5",
+  "zipBytes": 7516,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "faedaed8ab45ea308ed1810d9100b4282962ee8646f03b04abe2e18e3379fc52",
+  "fetchedAt": "2026-11-18T10:33:30.683Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6Dd3ua4f",
+  "name": "openclaw-rescue-gateway-skill",
+  "displayName": "Rescue Gateway 2.0 配置指南",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "cchaojiejes",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/openclaw-rescue-gateway-skill/latest/openclaw-rescue-gateway-skill.zip",
+  "zipSha256": "bd3597e1a9573dd816527cdf1e5aa56be8ac632bd6c2ee67134954578a57e587",
+  "zipBytes": 3437,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "b7bdd5a0619cd33e4061965dff011ec80c0022377d0e54187151be49b97462ee",
+  "fetchedAt": "2026-11-18T10:38:55.859Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

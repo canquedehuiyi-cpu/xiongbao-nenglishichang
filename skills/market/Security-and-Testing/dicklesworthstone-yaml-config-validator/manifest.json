@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_A6DNoU98",
+  "name": "dicklesworthstone-yaml-config-validator",
+  "displayName": "Yaml验证",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-yaml-config-validator/latest/dicklesworthstone-yaml-config-validator.zip",
+  "zipSha256": "5d5efe8fb7c82d592309f95a5c566f96da3f795b4a62f8dc301fe7fe4239fd0e",
+  "zipBytes": 1211,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "3f653bbf3aa5403510cd829a27c238c8889ede2f146b28194c634adb27e64a3a",
+  "fetchedAt": "2026-11-18T10:41:24.007Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

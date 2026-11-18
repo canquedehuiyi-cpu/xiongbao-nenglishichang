@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_VOjwhtyw",
+  "name": "local-mail-server",
+  "displayName": "本地邮件服务器（无公网 IP 方案）",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "franklili3",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/local-mail-server/latest/local-mail-server.zip",
+  "zipSha256": "92c70b43f92192b61c24d0d71e2f596c3ab44f98dafaec2e13b6d02aaf943041",
+  "zipBytes": 4392,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "25e922b213b8b032ee6b43f3f24600b978641628f13954954be2daf5ddf5753d",
+  "fetchedAt": "2026-11-18T10:38:34.787Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1.0.4",
+  "purpose": "微信 AI 开发模式 Skill 脚手架引擎回归用例（供 validate.mjs 引用）",
+  "cases": [
+    { "id": "WS-01", "name": "order-query", "desc": "查询订单状态", "expect_ok": true },
+    { "id": "WS-02", "name": "Bad Name!", "desc": "非法名称", "expect_ok": false },
+    { "id": "WS-03", "name": "a", "desc": "过短名称", "expect_ok": false }
+  ]
+}

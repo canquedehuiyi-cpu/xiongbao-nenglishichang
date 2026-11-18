@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "5cce2eca-4db8-46ac-86ea-c50f274dc9f4",
+  "name": "agent-team-orchestration",
+  "displayName": "Agent 团队编排",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd54-6df3-70a4-a481-e8cb51354bc1/4d8285bf_agent-team-orchestration.zip",
+  "zipSha256": "48877894426aa372fd01bf7f0d11a85602f6ae382b4541a18bec1765a3d8cfbe",
+  "zipBytes": 11949,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "82b804e87115c4c1fec1e67c343a0f1da249ab2aba694bbb2a882a35c263888a",
+  "fetchedAt": "2026-11-18T10:33:07.447Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

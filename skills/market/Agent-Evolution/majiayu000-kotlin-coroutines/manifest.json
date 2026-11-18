@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9U6D9gA4",
+  "name": "majiayu000-kotlin-coroutines",
+  "displayName": "Kotlin开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-kotlin-coroutines/latest/majiayu000-kotlin-coroutines.zip",
+  "zipSha256": "6b4211ead9405651fe75b5ba4b9b896f445cf24d4b82d337fd011c3152e0317a",
+  "zipBytes": 6632,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "3fcf6972a3b5cbf680aebde35492645065285075b952b1501375bb0ed6da2d6b",
+  "fetchedAt": "2026-11-18T10:33:40.366Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_5g4jT7EP",
+  "name": "recursive-self-improvement",
+  "displayName": "递归自我改进系统",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "erichy777",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/recursive-self-improvement/latest/recursive-self-improvement.zip",
+  "zipSha256": "9aa3ed61db0447d0540c62dfb3035cdd6c225a186f632e366c6021e49aca3290",
+  "zipBytes": 5323,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "9ee6c9ecf1e58d148c4ae282ef1ee1ff0f064974400ead33215305b014a67226",
+  "fetchedAt": "2026-11-18T10:33:32.738Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

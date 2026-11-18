@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_y9Rja4nb",
+  "name": "lobsterops",
+  "displayName": "龙虾运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "-",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/lobsterops/latest/lobsterops.zip",
+  "zipSha256": "199130c04fcae0852608df3b785fffbbe3e43c2c29ebf491008b6c4a532d8437",
+  "zipBytes": 99228,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 23,
+  "treeSha256": "35e90fa5b3cd48985675bc460999330a0c787a2f1ba737c9a33793a1691f5315",
+  "fetchedAt": "2026-11-18T10:38:43.306Z",
+  "credentialScan": {
+    "textFilesScanned": 23,
+    "filesRedacted": 0
+  },
+  "note": null
+}

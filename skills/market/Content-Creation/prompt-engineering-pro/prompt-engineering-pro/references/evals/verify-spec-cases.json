@@ -1,0 +1,9 @@
+{
+  "version": "1.0.4",
+  "purpose": "规范核验引擎离线路径回归用例（供 validate.mjs 引用；不发起网络请求）",
+  "cases": [
+    { "id": "VS-01", "platform": "nonexist", "expect_error": true },
+    { "id": "VS-02", "domain": "ai", "expect_ok": true },
+    { "id": "VS-03", "platform": "wechat-minigame", "expect_ok": true }
+  ]
+}

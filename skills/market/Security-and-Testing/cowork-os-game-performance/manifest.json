@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_REZ6HYIF",
+  "name": "cowork-os-game-performance",
+  "displayName": "性能GAME",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "CoWork-OS",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/cowork-os-game-performance/latest/cowork-os-game-performance.zip",
+  "zipSha256": "85733d7aa19eb6095dec0b4f9eba51a8ecc15bc41eb4cd5a951138ab520b3cce",
+  "zipBytes": 4128,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "971695f57d4dcc009c17e625a6269a0d225ddc291fb1999701a5cfbdb665512e",
+  "fetchedAt": "2026-11-18T10:41:18.080Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

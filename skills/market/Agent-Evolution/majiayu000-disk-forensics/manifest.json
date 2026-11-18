@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_uQQxk5z7",
+  "name": "majiayu000-disk-forensics",
+  "displayName": "DISK分析",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "SherifEldeeb",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-disk-forensics/latest/majiayu000-disk-forensics.zip",
+  "zipSha256": "bb2be1648fce24d657f43d84b1a4b69bad937647d4f70a1ef381e4b7597821e5",
+  "zipBytes": 6962,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "0beec4fd391a7ccd8457b524c7d7b0cca3a815aba553a42050298557422d8c92",
+  "fetchedAt": "2026-11-18T10:33:31.554Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

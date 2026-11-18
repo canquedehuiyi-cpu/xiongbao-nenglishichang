@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "848494c0-582f-465e-aca0-83576b8a7d71",
+  "name": "darwin-skill",
+  "displayName": "达尔文系統",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019fccb1-f33f-75c5-bcc0-8c103cbcc31a",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019fcd86-42ec-738d-8a9d-4bf2dffcf244/c43208ee_darwin-skill.zip",
+  "zipSha256": "2c6347e99198011133cb0b9c8d10296a79bdf35e15956a933db2f9310c8a96d2",
+  "zipBytes": 61506,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 20,
+  "treeSha256": "4ac19208d91fe94dd54294bc30ed3a5cab7af253041c3e782ebe1ba2a5bf673d",
+  "fetchedAt": "2026-11-18T10:33:31.996Z",
+  "credentialScan": {
+    "textFilesScanned": 18,
+    "filesRedacted": 0
+  },
+  "note": null
+}

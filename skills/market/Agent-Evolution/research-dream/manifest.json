@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "e7862174-8543-4221-99e9-6d8de466ffde",
+  "name": "research-dream",
+  "displayName": "深度科研画像",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019f1ba1-7866-799e-a029-d511201f94b9",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/019f92c6-37ad-7274-a6ae-931a0ac85d51/f9f02b38_research-dream.zip",
+  "zipSha256": "94e0cf926a091aabc76b54ba68d5756cf42340010009c266316398e78bd30ed1",
+  "zipBytes": 11424,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 7,
+  "treeSha256": "9ab78d2857d9b393543f3fdebe95f07f8688e381e916f2b20ad217d925f054f4",
+  "fetchedAt": "2026-11-18T10:33:13.158Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

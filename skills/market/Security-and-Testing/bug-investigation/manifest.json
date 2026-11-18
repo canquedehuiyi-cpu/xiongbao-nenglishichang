@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_CFyvKHvR",
+  "name": "bug-investigation",
+  "displayName": "前端 Bug 排查指南",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "wangzhiming1999",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/bug-investigation/latest/bug-investigation.zip",
+  "zipSha256": "914347e4808afdc04e80cb38d4784bc8e9f1186f4b16c2d52c63d03c5fe234a4",
+  "zipBytes": 3672,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "27414e6fa61e28d2ac8d6a15a55f384b228a94b10872bcfd4de683b5e5486e42",
+  "fetchedAt": "2026-11-18T10:41:02.240Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

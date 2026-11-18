@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KOtDjZ7M",
+  "name": "dimitrigilbert-subagent-planificator",
+  "displayName": "子代理规划",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "DimitriGilbert",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dimitrigilbert-subagent-planificator/latest/dimitrigilbert-subagent-planificator.zip",
+  "zipSha256": "43b26c47d06af1bd65192de3b7dca2504d5ca5e63ed700c6e3ccd7be5dfe72b8",
+  "zipBytes": 11662,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 4,
+  "treeSha256": "a7c394425cb8409d1421fb9a774aa257221779be1f2af06e7ae216c478125720",
+  "fetchedAt": "2026-11-18T10:33:23.316Z",
+  "credentialScan": {
+    "textFilesScanned": 4,
+    "filesRedacted": 0
+  },
+  "note": null
+}

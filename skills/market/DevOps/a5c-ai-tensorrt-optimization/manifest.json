@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9b1fE9UA",
+  "name": "a5c-ai-tensorrt-optimization",
+  "displayName": "Tensorrt优化",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "babysitter-sdk",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/a5c-ai-tensorrt-optimization/latest/a5c-ai-tensorrt-optimization.zip",
+  "zipSha256": "f7e393a6297a9d525418d2faabbcec10e5034d7386984b01124a91de74a6b2c8",
+  "zipBytes": 4866,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "5ea3cba4b6db0a72414a840fc1c2695cb00e827cf02d6b580d57ade9e4f2d78b",
+  "fetchedAt": "2026-11-18T10:38:32.130Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9kab8K9a",
+  "name": "diegosouzapw-aws-cloudformation-cloudfront-majiayu000",
+  "displayName": "安全AWS开发",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-aws-cloudformation-cloudfront-majiayu000/latest/diegosouzapw-aws-cloudformation-cloudfront-majiayu000.zip",
+  "zipSha256": "65c1aea0ca9d09fe5047b8132ecf365379aab925e351798d5920d94da5ea6dec",
+  "zipBytes": 9854,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "a203d32740a7242c77452a9b4cd6afd3e6cf704fe6bfe132d70c6f0a04bcc674",
+  "fetchedAt": "2026-11-18T10:38:59.191Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_42hrRTX3",
+  "name": "dicklesworthstone-fireflies-debug-bundle",
+  "displayName": "Bundle调试",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Dicklesworthstone",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/dicklesworthstone-fireflies-debug-bundle/latest/dicklesworthstone-fireflies-debug-bundle.zip",
+  "zipSha256": "783c1cdf0fb6979293ae1c8853fc56a3dc93b45088f1e71b3b8193677fa612c8",
+  "zipBytes": 1614,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "6f36c34226461571f4cd040b9c7959478efab7300239540eeb7c0183047ddb34",
+  "fetchedAt": "2026-11-18T10:38:54.429Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

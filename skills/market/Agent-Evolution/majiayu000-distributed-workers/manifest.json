@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_KuUC97Vi",
+  "name": "majiayu000-distributed-workers",
+  "displayName": "后端Workers",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-distributed-workers/latest/majiayu000-distributed-workers.zip",
+  "zipSha256": "494ed86effd17b3aa28515591e1799b75e5c5bf80a5cf333c9d6e009c53875cd",
+  "zipBytes": 3558,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "e4dd3390553f9ee221d9161a2839abd86d74f78f501330edda7e243099afeaef",
+  "fetchedAt": "2026-11-18T10:33:07.838Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

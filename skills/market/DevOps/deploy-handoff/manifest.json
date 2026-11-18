@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_kd9EgEFd",
+  "name": "deploy-handoff",
+  "displayName": "部署交接",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Skills Marketplace",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/deploy-handoff/latest/deploy-handoff.zip",
+  "zipSha256": "d52841e381b723737b58e6c611d87df4adfdc5312242b9e94c46c56f67086a36",
+  "zipBytes": 3282,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "9a4965e1c3f37c0b922e653935ed366ae51299e51424d27e65d10d104edf20dd",
+  "fetchedAt": "2026-11-18T10:38:26.898Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

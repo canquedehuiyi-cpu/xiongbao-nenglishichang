@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_gKl8ZLue",
+  "name": "haloydev-dockerize",
+  "displayName": "K8s运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "haloydev",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/haloydev-dockerize/latest/haloydev-dockerize.zip",
+  "zipSha256": "8b7e76af9c47772889a8e295147f12573c87e3723d715776b6b34fa1511009c8",
+  "zipBytes": 8284,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 3,
+  "treeSha256": "63b4ce14fa541de960f85d75dd4bb15b092a191e4907107d137e8ca273291fbd",
+  "fetchedAt": "2026-11-18T10:38:15.699Z",
+  "credentialScan": {
+    "textFilesScanned": 3,
+    "filesRedacted": 0
+  },
+  "note": null
+}

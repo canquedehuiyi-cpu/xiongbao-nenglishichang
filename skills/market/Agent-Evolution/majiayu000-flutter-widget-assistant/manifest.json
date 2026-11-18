@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_PWEPJx3l",
+  "name": "majiayu000-flutter-widget-assistant",
+  "displayName": "Widget开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-flutter-widget-assistant/latest/majiayu000-flutter-widget-assistant.zip",
+  "zipSha256": "0e84b937ca4cd8eb8a54c603b6f079d5927204e0d670f859b44938c903ef5717",
+  "zipBytes": 3745,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "88106a216fc5cf4ee0448d62f55a18eb3d7a36ecaca3b6800b25866325c85994",
+  "fetchedAt": "2026-11-18T10:33:44.004Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

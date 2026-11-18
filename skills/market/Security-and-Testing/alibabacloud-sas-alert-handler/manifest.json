@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_ybieHulS",
+  "name": "alibabacloud-sas-alert-handler",
+  "displayName": "云安全中心查询并处置告警",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "aliyun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alibabacloud-sas-alert-handler/latest/alibabacloud-sas-alert-handler.zip",
+  "zipSha256": "d1b5cff807d90d036a029495f170c4f5a94a2c3913da77359ae940e92b92c1fa",
+  "zipBytes": 24613,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 9,
+  "treeSha256": "a75552973cf4abe564fa70f2ecca0781fbc3b9b18a56ef2ee557bba1da6f0878",
+  "fetchedAt": "2026-11-18T10:41:00.892Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 1
+  },
+  "note": null
+}

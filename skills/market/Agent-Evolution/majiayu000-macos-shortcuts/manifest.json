@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_HAibZdBp",
+  "name": "majiayu000-macos-shortcuts",
+  "displayName": "Macos开发",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-macos-shortcuts/latest/majiayu000-macos-shortcuts.zip",
+  "zipSha256": "0da9ba39a338d1fd678abca7478487af10a3858ebb2f104af60c715b780d816d",
+  "zipBytes": 1908,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "15bc926cae7aa034d3461dc569ffa969cf907809f51b478f1eded00656aebbb4",
+  "fetchedAt": "2026-11-18T10:33:40.909Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

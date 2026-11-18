@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "type": "skill",
+  "name": "three-tier-memory",
+  "displayName": "三层记忆系统",
+  "version": "1.0.0",
+  "author": "462324357",
+  "authorId": "u-4968f82bb623454f9101",
+  "description": "AI Agent 三层记忆系统。L1 工作记忆、L2 会话记忆、L3 长期记忆 + EvoMap 集成。实现跨会话记忆连续性和知识进化。",
+  "tags": [
+    "memory",
+    "evolution",
+    "evomap"
+  ],
+  "category": "",
+  "installedFrom": "openclawmp",
+  "registryId": "s-4a98f9cb396dd776",
+  "hasPackage": true
+}

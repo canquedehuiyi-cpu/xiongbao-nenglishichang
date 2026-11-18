@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_0su09I5j",
+  "name": "a5c-ai-startup-time-profiler",
+  "displayName": "启动Startup",
+  "categoryCode": "Security & Testing",
+  "categoryDir": "Security-and-Testing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "a5c-ai",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/a5c-ai-startup-time-profiler/latest/a5c-ai-startup-time-profiler.zip",
+  "zipSha256": "89a7ce76446020984231c7722f577038dbc3e958e851bcb58eb2a0fba638d073",
+  "zipBytes": 1438,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "35d7599dc8e9ee6aec15a5517605f211cc9010d811292e2ed78a1ae40be9c2e2",
+  "fetchedAt": "2026-11-18T10:41:23.309Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

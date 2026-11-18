@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "bc8041c9-d250-4700-bce2-49abe63339b2",
+  "name": "web-novel-writer-pro-max",
+  "displayName": "网文小说签约专家",
+  "categoryCode": "Content Creation",
+  "categoryDir": "Content-Creation",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.7.0",
+  "publisher": "019fc0ef-9fba-77b0-8c35-4f611b528d2f",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/skill/01a06b95-a97f-7a61-af76-bb80f65245fb/c13fbbb4_网文小说签约专家1.7.0.zip",
+  "zipSha256": "4982cf29b8b9c2bde741c876b58a167975c08e2dc9337733506f94fa3d886c27",
+  "zipBytes": 377897,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 68,
+  "treeSha256": "786adb0e0b186818c0b9dae39608dc7ddb7fbf83866953190dba2c879ad78c01",
+  "fetchedAt": "2026-11-18T10:49:00.545Z",
+  "credentialScan": {
+    "textFilesScanned": 68,
+    "filesRedacted": 0
+  },
+  "note": null
+}

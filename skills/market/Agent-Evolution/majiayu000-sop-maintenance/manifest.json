@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_6nPao4BW",
+  "name": "majiayu000-sop-maintenance",
+  "displayName": "Sop分析",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-sop-maintenance/latest/majiayu000-sop-maintenance.zip",
+  "zipSha256": "936d77730e8e314f3bd17aebb70077aa6848c1df1796ca4b07eb0ce11f9e3d99",
+  "zipBytes": 4989,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "98df7c7ff7bbdd6175bd06509d99155a150a9ede0fa006019e456b7ad60ecb1b",
+  "fetchedAt": "2026-11-18T10:33:45.257Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

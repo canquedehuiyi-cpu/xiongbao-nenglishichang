@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_P0Bb9wwW",
+  "name": "github-containerize-aspnetcore",
+  "displayName": "容器Docker运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "github",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/github-containerize-aspnetcore/latest/github-containerize-aspnetcore.zip",
+  "zipSha256": "d15518d1c2612b0cbaf87805670d47e3ade291278172d5f023bfa37a846c3d12",
+  "zipBytes": 5292,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "4087d517e2583673ee94a742f69707cf8ec4aa05286aa6288731bdb692dbe8b8",
+  "fetchedAt": "2026-11-18T10:38:15.095Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

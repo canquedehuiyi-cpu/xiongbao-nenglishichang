@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7Qsxuu8V",
+  "name": "majiayu000-incoherence",
+  "displayName": "文档检测",
+  "categoryCode": "Agent Evolution",
+  "categoryDir": "Agent-Evolution",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "majiayu000",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/majiayu000-incoherence/latest/majiayu000-incoherence.zip",
+  "zipSha256": "d20a1281b6316ed49777ce342785f710cd0947d659b34f3aa028a05e38654619",
+  "zipBytes": 2358,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "9f58c38f0c878fc95b489190c8069f4d083fa0507cdbfb07962b7b809138b9aa",
+  "fetchedAt": "2026-11-18T10:33:32.944Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}

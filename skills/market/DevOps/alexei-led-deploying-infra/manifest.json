@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_7MZ8jEuY",
+  "name": "alexei-led-deploying-infra",
+  "displayName": "Infra运维",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "alexei-led",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/alexei-led-deploying-infra/latest/alexei-led-deploying-infra.zip",
+  "zipSha256": "a5855a99923034381166877701958729657eaaaf9d22f5b5166cad062923bb8d",
+  "zipBytes": 2925,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 1,
+  "treeSha256": "00e91c4a90a4b297505d48a3ce2850abd57393be39fee20bb76f1c49b5252776",
+  "fetchedAt": "2026-11-18T10:38:57.859Z",
+  "credentialScan": {
+    "textFilesScanned": 1,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "skill",
+  "id": "official_9CuOR83z",
+  "name": "diegosouzapw-ml-engineer-ranbot-ai",
+  "displayName": "RanbotAI工程",
+  "categoryCode": "DevOps",
+  "categoryDir": "DevOps",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "diegosouzapw",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/skills/public/diegosouzapw-ml-engineer-ranbot-ai/latest/diegosouzapw-ml-engineer-ranbot-ai.zip",
+  "zipSha256": "c556e0c4ce8ae98bef0b0fc0a982872b21b8410077927da89a94190022e9ed5a",
+  "zipBytes": 3450,
+  "upstreamSha256": "UNAVAILABLE_REDACTED_BY_CLIENT",
+  "files": 2,
+  "treeSha256": "2891fd0d4ea9f87e248a9e7f9ffb439d7ff9038ac088d1a3ee9a4442f1974663",
+  "fetchedAt": "2026-11-18T10:38:58.476Z",
+  "credentialScan": {
+    "textFilesScanned": 2,
+    "filesRedacted": 0
+  },
+  "note": null
+}
