@@ -1,0 +1,29 @@
+{
+ "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+ "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+ "kind": "plugin",
+ "id": "e830da1b-8d75-4b40-ad52-aa103f780eea",
+ "name": "external-statement-reconcile",
+ "displayName": "Bank Statement Reconciliation",
+ "categoryCode": "Finance",
+ "categoryDir": "Finance",
+ "categoryResolveVia": "catalog-top.category",
+ "version": "0.1.0",
+ "publisher": "WB_TEST Plugin Team",
+ "license": "UNKNOWN",
+ "githubRepo": "UNKNOWN",
+ "githubPath": "UNKNOWN",
+ "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a163c4-3752-7bcc-b4cd-b5a187387ecb/eee65555_external-statement-reconcile.zip",
+ "zipSha256": "b112e25ce0855706dc2c2189692a912f12206a95701a0c3afd024f48561ddd24",
+ "zipBytes": 104826,
+ "upstreamSha256": "b112e25ce0855706dc2c2189692a912f12206a95701a0c3afd024f48561ddd24",
+ "files": 29,
+ "treeSha256": "cb20a99adc81fb7393ee43e2274d068312c54b73ea1bf96a90380c45406c08c0",
+ "fetchedAt": "2026-11-18T10:11:54.262Z",
+ "credentialScan": {
+  "textFilesScanned": 27,
+  "filesRedacted": 0
+ },
+ "note": null,
+ "integrityNote": "upstream file_hash baseline verified equal to downloaded zip sha256 (backfilled from intact detail after redaction-rule fix)"
+}

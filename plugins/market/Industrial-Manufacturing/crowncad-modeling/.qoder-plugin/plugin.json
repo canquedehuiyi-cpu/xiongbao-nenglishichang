@@ -1,0 +1,27 @@
+{
+  "name": "crowncad-modeling",
+  "displayName": "CrownCAD ReGen智能体",
+  "version": "1.0.3",
+  "description": "A mechanical modeling assistant for CrownCAD, supporting modeling from engineering drawings, parametric reconstruction of 3D models, and modeling from text descriptions, with model modification, assembly, and geometry verification.",
+  "descriptionZh": "面向 CrownCAD 的机械建模助手，支持根据工程图建模、三维模型参数化重建和文本描述建模，并提供模型修改、装配与几何验证能力。",
+  "author": {
+    "name": "hanjiao sun"
+  },
+  "homepage": "https://dev.crowncad.com",
+  "logo": "./assets/favicon.png",
+  "keywords": [
+    "qoder-plugin",
+    "skill",
+    "cad",
+    "crowncad",
+    "crownscript"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "skill",
+    "cad"
+  ],
+  "skills": "./skills/",
+  "rules": "./rules/",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "4adac1c4-9132-4997-8a43-029cac4556cc",
+  "name": "weekly-report-check",
+  "displayName": "Weekly Report Health Check",
+  "categoryCode": "Productivity",
+  "categoryDir": "Productivity",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.3.0",
+  "publisher": "TuLink_SZ",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a163b2-ab76-7f3b-98ce-b88f19e54fc0/242f1c67_qoder-weekly-report-check.zip",
+  "zipSha256": "68ad3b9a26678c2445f639371a12adcf1600ffadb909422d90da76f6dc6bf467",
+  "zipBytes": 66192,
+  "upstreamSha256": "68ad3b9a26678c2445f639371a12adcf1600ffadb909422d90da76f6dc6bf467",
+  "files": 17,
+  "treeSha256": "0916629f8529f685c5ae25ef96660a78d63f34652b8431d644048e08ba9b7cda",
+  "fetchedAt": "2026-11-18T10:44:16.924Z",
+  "credentialScan": {
+    "textFilesScanned": 17,
+    "filesRedacted": 0
+  },
+  "note": null
+}

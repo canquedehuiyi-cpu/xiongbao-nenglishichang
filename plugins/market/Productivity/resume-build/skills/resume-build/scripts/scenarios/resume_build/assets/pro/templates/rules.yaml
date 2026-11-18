@@ -1,0 +1,12 @@
+# 展示层文案与数据面。判定阈值(覆盖率/断档月数/锚点规则)一律在 code/_core.py 顶部常量。
+title: "简历制作报告"
+section_label: "FINDINGS"
+# 草稿里要验据的节(其余节如「基本信息」「自我评价」不核,边界见报告口径节)
+verify_sections: ["教育经历", "工作经历", "项目经历", "实习经历", "技能"]
+# JD 硬性词表(用户可加):命中 JD 即抽取为硬性要求,逐条对照终稿
+jd_degree_words: ["大专", "本科", "硕士", "博士", "研究生"]
+jd_cert_words: ["CET-6", "CET6", "英语六级", "PMP", "CPA", "法考", "软考", "教师资格证"]
+jd_tool_words: ["Python", "Java", "JavaScript", "Go", "C++", "SQL", "MySQL", "Redis", "Kubernetes", "Docker", "Spring", "React", "Vue", "Excel", "PPT", "Figma", "Photoshop"]
+
+# 报告页脚(品牌获客位,单点配置):品牌名定稿后只改这里
+footer: "本报告由 <品牌名待定> 判定引擎生成,每个结论可手验。同厂出品:周报体检 / PPT 内容核对"

@@ -1,0 +1,17 @@
+{
+  "name": "supplier-identity-vet",
+  "version": "0.1.0",
+  "displayName": "供应商主体一致性核验",
+  "description": "把台账侧与证照侧的供应商主体字段（名称/法定代表人/开户行/统一社会信用代码）做归一化一致性核验，输出 PASS/CONFLICT/UNKNOWN，无法解析（扫描件/缺侧）一律转人工——当要核验供应商是否同一主体、证件与台账是否相符时使用",
+  "author": {
+    "name": "WB_TEST Plugin Team",
+    "email": "team@example.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "supplier-vetting",
+    "identity-consistency",
+    "compliance-audit"
+  ],
+  "logo": "./logo.png"
+}

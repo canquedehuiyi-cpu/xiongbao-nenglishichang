@@ -1,0 +1,3 @@
+interface:
+  display_name: "CrownCAD建模助手"
+  short_description: "统筹二维与三维输入到零件及装配建模，协调鉴权、过程展示和验证交付"

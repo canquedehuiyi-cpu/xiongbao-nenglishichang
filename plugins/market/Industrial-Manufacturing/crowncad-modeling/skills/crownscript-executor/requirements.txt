@@ -1,0 +1,2 @@
+# 仅 scripts/render_topology.py 的拓扑预览需要。
+Pillow>=11,<13

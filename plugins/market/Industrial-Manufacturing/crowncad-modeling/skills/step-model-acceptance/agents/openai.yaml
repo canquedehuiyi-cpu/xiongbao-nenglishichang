@@ -1,0 +1,4 @@
+interface:
+  display_name: "STEP 模型验收"
+  short_description: "导出当前 CAD 模型并与参考 STEP 对照，记录逐项验收证据"
+  default_prompt: "使用 $step-model-acceptance 对照参考 STEP 与 CrownCAD 当前模型，逐项验收并记录证据。"

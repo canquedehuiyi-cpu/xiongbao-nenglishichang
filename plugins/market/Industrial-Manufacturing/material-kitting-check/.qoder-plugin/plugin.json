@@ -1,0 +1,17 @@
+{
+  "name": "material-kitting-check",
+  "version": "0.1.0",
+  "displayName": "物料齐套核对",
+  "description": "按生产订单展开 BOM，比对库存+在途，标记齐套/缺套及缺口数量：物料编码为跨表主键，单位/批次口径一律由你声明（如 单位=PC、批次=合并、安全库存=5），引擎不自行换算单位、不跨批自动合并、无法判定的项判 UNKNOWN 转人工、绝不输出采购/补货建议——当要用订单/BOM/库存/在途四张导出表核对物料是否齐套时使用",
+  "author": {
+    "name": "WB_TEST Plugin Team",
+    "email": "team@example.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "material-kitting",
+    "gap-calculation",
+    "production-planning"
+  ],
+  "logo": "./logo.png"
+}

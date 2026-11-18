@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "66e2cb62-d7e5-4e18-b0af-f1345651282d",
+  "name": "bid-disqualification-terms",
+  "displayName": "Bid Disqualification Terms Check",
+  "categoryCode": "Marketing & Sales",
+  "categoryDir": "Marketing-and-Sales",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "WB_TEST Plugin Team",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a163c5-e68e-79e1-b9bd-baabab8d037f/62093411_bid-disqualification-terms.zip",
+  "zipSha256": "4bb2cff45ac355f8e26b95b981290f3bb40e284a77d4825466f674fcd58b8ea5",
+  "zipBytes": 112112,
+  "upstreamSha256": "4bb2cff45ac355f8e26b95b981290f3bb40e284a77d4825466f674fcd58b8ea5",
+  "files": 31,
+  "treeSha256": "f98c2242fb60269129c9b095ab07ac906ef5326cfd373628c39060cf6616f8ac",
+  "fetchedAt": "2026-11-18T10:43:55.628Z",
+  "credentialScan": {
+    "textFilesScanned": 29,
+    "filesRedacted": 0
+  },
+  "note": null
+}

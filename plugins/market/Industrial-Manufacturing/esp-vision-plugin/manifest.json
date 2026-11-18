@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "ac4751de-82a8-42d1-8f45-9753c3d1b3c6",
+  "name": "esp-vision-plugin",
+  "displayName": "ESP-Vision Embedded AI Vision Development",
+  "categoryCode": "cat_68c7c3393dca4123a7860771196d3bb5",
+  "categoryDir": "Industrial-Manufacturing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.1",
+  "publisher": "Espressif Systems (Shanghai) CO LTD",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/espressif/esp-vision",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1c45d-0a16-7be5-a522-f77d01b22bc1/44d33bf840d2b2d660e8ff83241be8e72c5b4639302e37ea32ae599ef65dad1e.zip",
+  "zipSha256": "44d33bf840d2b2d660e8ff83241be8e72c5b4639302e37ea32ae599ef65dad1e",
+  "zipBytes": 128908,
+  "upstreamSha256": "44d33bf840d2b2d660e8ff83241be8e72c5b4639302e37ea32ae599ef65dad1e",
+  "files": 27,
+  "treeSha256": "5e1b2336c5d1c52c53b17b2036c4e100bdefebad0e0e020602871a60f7d3f77a",
+  "fetchedAt": "2026-11-18T10:42:18.729Z",
+  "credentialScan": {
+    "textFilesScanned": 16,
+    "filesRedacted": 0
+  },
+  "note": null
+}

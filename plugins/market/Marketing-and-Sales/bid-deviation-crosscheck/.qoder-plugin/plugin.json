@@ -1,0 +1,17 @@
+{
+  "name": "bid-deviation-crosscheck",
+  "version": "0.1.0",
+  "displayName": "偏离表与正文矛盾核对",
+  "description": "核验用户既有偏离表 vs 方案正文：偏离表每行声明（满足/偏离）用关键词在方案正文定位，检测相反信号（表称满足但正文否定回避/表称偏离但正文声称全满足）——当要确认偏离表与实际方案是否矛盾时使用；不生成偏离表，不下是否达标的结论",
+  "author": {
+    "name": "WB_TEST Plugin Team",
+    "email": "team@example.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "deviation-check",
+    "bid-documents",
+    "contradiction-detection"
+  ],
+  "logo": "./logo.png"
+}

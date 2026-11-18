@@ -1,0 +1,4 @@
+interface:
+  display_name: "三维模型几何分析"
+  short_description: "读取STEP并生成实际几何视图，结合拓扑识别结构、接口及局部问题"
+  default_prompt: "使用 $model-geometry-analysis 分析三维参考的结构并生成可核查的多角度视图。"

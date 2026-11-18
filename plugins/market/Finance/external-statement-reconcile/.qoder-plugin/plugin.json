@@ -1,0 +1,17 @@
+{
+  "name": "external-statement-reconcile",
+  "version": "0.1.0",
+  "displayName": "外部单据对账",
+  "description": "把银行流水与订单/应收做确定性勾兑：识别 1:1 / 一对多 / 多对一匹配、尾差、红字冲销与跨期提示，输出未匹配清单转人工，绝不编造勾兑关系把表做平——当要对银行回款与订单/发票逐笔对上、定位差异时使用",
+  "author": {
+    "name": "WB_TEST Plugin Team",
+    "email": "team@example.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "reconciliation",
+    "write-off-detection",
+    "finance-audit"
+  ],
+  "logo": "./logo.png"
+}

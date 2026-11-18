@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "f22e7696-514b-4ff6-a4cb-7f1fef73b2cf",
+  "name": "quote-normalization-preview",
+  "displayName": "Quote Normalization Preview",
+  "categoryCode": "Marketing & Sales",
+  "categoryDir": "Marketing-and-Sales",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "WB_TEST Plugin Team",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a163c4-83e3-7b46-9876-9b200e3fed53/0368ab1d_quote-normalization-preview.zip",
+  "zipSha256": "fb48a6890ede3076bcf039b7deed9dca6bb3f623bcb92726151474aabda81dab",
+  "zipBytes": 158864,
+  "upstreamSha256": "fb48a6890ede3076bcf039b7deed9dca6bb3f623bcb92726151474aabda81dab",
+  "files": 47,
+  "treeSha256": "936b38b8045f981000903b4135bd6d5d5e777fd323a0a70d9ba632f65d15827c",
+  "fetchedAt": "2026-11-18T10:44:12.390Z",
+  "credentialScan": {
+    "textFilesScanned": 42,
+    "filesRedacted": 0
+  },
+  "note": null
+}

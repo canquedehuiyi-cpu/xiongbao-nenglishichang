@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "title": "随行杯双市场上新 · 格式示例",
+  "summary": "这是合成资料，用于演示交付结构。国内与美国站分别维护文案、活动条件和物料；未进行真实市场研究或图片生成。",
+  "updated_at": "2026-11-05T12:00:00+08:00",
+  "markets": [
+    {"id": "cn-taobao", "label": "淘宝中国站", "platform": "淘宝", "region": "中国", "language": "zh-CN", "currency": "CNY", "timezone": "Asia/Shanghai"},
+    {"id": "us-shopify", "label": "独立站美国市场", "platform": "Shopify", "region": "美国", "language": "en-US", "currency": "USD", "timezone": "America/New_York"}
+  ],
+  "sections": [
+    {"id": "product-facts", "market_id": "shared", "stage": "product", "title": "商品共同资料", "revision": 1,
+      "body": "示例商品：日用随行杯。下面数据仅用于格式演示，正式交付须替换成用户确认资料。",
+      "table": {"columns": ["资料项", "示例内容", "状态"], "rows": [["商品编号", "DEMO-CUP", "合成示例"], ["容量", "350 mL", "合成示例"], ["材质与认证", "待提供证据", "待补"], ["实物照片", "尚未提供", "待补"]]}},
+    {"id": "cn-copy", "market_id": "cn-taobao", "stage": "content", "title": "中文商品文案草案", "revision": 1,
+      "body": "标题示例：日用随行杯 350 mL。围绕日常携带与使用方式展开，材质、保温时长和防漏性能须确认后补充。",
+      "items": ["主图准确识别商品与容量", "详情说明包含物及使用条件", "活动价格待确认后进入对外物料"]},
+    {"id": "us-copy", "market_id": "us-shopify", "stage": "content", "title": "美国市场文案草案", "revision": 1,
+      "body": "Example title: Everyday Travel Cup — 350 mL. This is placeholder copy for a format example, not a verified product claim.",
+      "items": ["US English；当地单位须核对后显示", "真实包装、材质与护理信息待补", "不能将人民币活动价直接换汇为美国站定价"]},
+    {"id": "cn-offer", "market_id": "cn-taobao", "stage": "campaign", "title": "国内上新活动框架", "revision": 1,
+      "table": {"columns": ["节点", "安排", "状态"], "rows": [["目标", "上新认知与首次购买", "策划建议"], ["权益", "活动价与条件待商家确认", "待补"], ["排期", "按 Asia/Shanghai 保存起止时间", "未排定"]]}},
+    {"id": "us-offer", "market_id": "us-shopify", "stage": "campaign", "title": "美国站活动框架", "revision": 1,
+      "table": {"columns": ["节点", "安排", "状态"], "rows": [["渠道", "独立站上新页与广告分别准备", "策划建议"], ["权益", "USD 价格、运费和参与条件待确认", "待补"], ["排期", "America/New_York；另核对备货与配送截止", "未排定"]]}}
+  ],
+  "assets": [
+    {"id": "cn-main", "market_id": "cn-taobao", "title": "国内商品主图", "placement": "商品主图", "status": "planned", "notes": "等待实物素材；尚未提交设计任务。", "depends_on": {"product-facts": 1, "cn-copy": 1}},
+    {"id": "us-hero", "market_id": "us-shopify", "title": "美国站上新横幅", "placement": "独立站活动横幅", "status": "planned", "notes": "活动条件与素材待确认；不作为已生成成品。", "depends_on": {"product-facts": 1, "us-copy": 1, "us-offer": 1}}
+  ],
+  "sources": [],
+  "open_items": ["此文件仅演示结构，正式任务替换全部示例资料", "补齐真实商品图片、参数、活动条件后再进入设计阶段"]
+}

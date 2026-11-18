@@ -1,0 +1,5 @@
+# Validated together on Windows x64 / Python 3.14.7.
+# Other OS/Python combinations require the environment smoke check.
+cadquery-ocp==8.0.1.1.0
+matplotlib==3.11.2
+numpy==2.5.3

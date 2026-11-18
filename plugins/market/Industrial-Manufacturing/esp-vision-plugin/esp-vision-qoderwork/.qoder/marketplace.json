@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "ac4751de-82a8-42d1-8f45-9753c3d1b3c6",
+  "itemName": "esp-vision-plugin",
+  "displayName": "ESP-Vision Embedded AI Vision Development",
+  "version": "0.1.1",
+  "packageKind": "plugin"
+}

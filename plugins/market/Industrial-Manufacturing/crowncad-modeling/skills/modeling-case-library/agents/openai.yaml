@@ -1,0 +1,3 @@
+interface:
+  display_name: "建模案例管理"
+  short_description: "检索案例、维护运行记录，验收和授权后归档"

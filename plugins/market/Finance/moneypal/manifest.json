@@ -1,0 +1,29 @@
+{
+ "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+ "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+ "kind": "plugin",
+ "id": "1b69a031-e493-4936-b474-5cea9dfa24ee",
+ "name": "moneypal",
+ "displayName": "MoneyPal",
+ "categoryCode": "Finance",
+ "categoryDir": "Finance",
+ "categoryResolveVia": "catalog-top.category",
+ "version": "1.0.9",
+ "publisher": "mengzai",
+ "license": "UNKNOWN",
+ "githubRepo": "UNKNOWN",
+ "githubPath": "UNKNOWN",
+ "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a14e9b-4642-745d-a80b-2e17f4c87e45/3312a0f8_moneypal-qoder-1.0.9.zip",
+ "zipSha256": "dcba81fb59ed32d04aad4e90f89c240ea70394927d255bdd21280fbf29db244c",
+ "zipBytes": 39321,
+ "upstreamSha256": "dcba81fb59ed32d04aad4e90f89c240ea70394927d255bdd21280fbf29db244c",
+ "files": 15,
+ "treeSha256": "0c41793e0d40b16f7fc4cc87d0157cbf8b94ebed9cede37d6eb886dc76016365",
+ "fetchedAt": "2026-11-18T10:11:53.925Z",
+ "credentialScan": {
+  "textFilesScanned": 15,
+  "filesRedacted": 0
+ },
+ "note": null,
+ "integrityNote": "upstream file_hash baseline verified equal to downloaded zip sha256 (backfilled from intact detail after redaction-rule fix)"
+}

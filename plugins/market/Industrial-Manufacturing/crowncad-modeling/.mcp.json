@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "crowncad_mcp": {
+      "type": "http",
+      "url": "https://dev.crowncad.com/ccagent/mcp",
+      "timeout": 60000,
+      "oauth": {
+        "enabled": true,
+        "clientId": "qoder"
+      }
+    }
+  }
+}

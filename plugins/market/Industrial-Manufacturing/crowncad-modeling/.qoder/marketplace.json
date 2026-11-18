@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "de5b0ff6-d28b-450c-8e52-0dcc77a0810b",
+  "itemName": "crowncad-modeling",
+  "displayName": "CrownCAD ReGen Agent",
+  "version": "1.0.3",
+  "packageKind": "plugin"
+}

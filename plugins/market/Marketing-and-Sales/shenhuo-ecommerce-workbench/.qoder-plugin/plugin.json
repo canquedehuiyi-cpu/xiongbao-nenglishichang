@@ -1,0 +1,22 @@
+{
+  "name": "shenhuo-ecommerce-workbench",
+  "version": "1.0.0",
+  "description": "Research products, write localized listings, plan campaigns and create product images and promotional posters for domestic and cross-border ecommerce through the marketplace Shenhuo Designers connector. Deliver an HTML project page and asset ZIP.",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-ecommerce-workbench-flow"
+  ],
+  "displayName": "神火电商工作台",
+  "keywords": [
+    "ecommerce",
+    "cross-border",
+    "product-research",
+    "product-images",
+    "campaigns",
+    "神火"
+  ]
+}

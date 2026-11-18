@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "8d07dc21-0702-4acb-88d5-d5989713376e",
+  "name": "resume-build",
+  "displayName": "Resume Builder",
+  "categoryCode": "Productivity",
+  "categoryDir": "Productivity",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.3.0",
+  "publisher": "TuLink_SZ",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a163b2-f73f-7f17-9f4b-0477fde9cb7f/c163a7d3_qoder-resume-build.zip",
+  "zipSha256": "7dad43b699323fde3f91d6871221ddc38fb4ca6241e42c67dbc445fe8ddcd149",
+  "zipBytes": 69903,
+  "upstreamSha256": "7dad43b699323fde3f91d6871221ddc38fb4ca6241e42c67dbc445fe8ddcd149",
+  "files": 17,
+  "treeSha256": "e348127519371978fb03ff95a3662eaed17d4b3db8025244bb85249998733043",
+  "fetchedAt": "2026-11-18T10:44:14.087Z",
+  "credentialScan": {
+    "textFilesScanned": 17,
+    "filesRedacted": 0
+  },
+  "note": null
+}

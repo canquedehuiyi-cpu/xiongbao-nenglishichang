@@ -1,0 +1,17 @@
+{
+  "name": "quote-normalization-preview",
+  "version": "0.1.0",
+  "displayName": "多格式报价拉平预审",
+  "description": "按标准报价模板 Excel（内部汇聚总表，采购把各家抄填进「报价明细」）拉平到可比口径并做横向偏离标记：币种/包装单位/含税口径一律由你填「口径声明」（如 USD=7.2、SET=10PC），引擎不自行换算、无法对齐的项判 UNKNOWN 转人工、绝不输出'推荐选哪家'结论——当要用同一票询价的 3 家以上报价比价、标出显著偏离项时使用；输入统一为模板 Excel，无需凑齐格式各异的原始报价文件",
+  "author": {
+    "name": "WB_TEST Plugin Team",
+    "email": "team@example.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "quote-normalization",
+    "deviation-preview",
+    "procurement-comparison"
+  ],
+  "logo": "./logo.png"
+}

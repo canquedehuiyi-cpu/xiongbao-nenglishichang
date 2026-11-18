@@ -1,0 +1,6 @@
+# 展示层配置 —— 只影响显示，不影响判断（判断阈值在 code/validator.py，写死）
+report:
+  title_prefix: "物料齐套核对"
+sections:
+  main_label: "逐订单核对"
+  review_label: "待人工复核项"

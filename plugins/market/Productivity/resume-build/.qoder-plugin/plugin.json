@@ -1,0 +1,14 @@
+{
+  "name": "resume-build",
+  "version": "0.3.0",
+  "displayName": "简历制作",
+  "description": "用于求职者制作简历:当用户给出目标岗位 JD 和个人素材（教育/经历/技能的自由文本）时使用,宿主先起草、本地引擎逐条溯源验据,素材里没有的经历不写,无据条目打回不进终稿",
+  "author": {
+    "name": "TuLink_SZ",
+    "email": ""
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "简历"
+  ]
+}

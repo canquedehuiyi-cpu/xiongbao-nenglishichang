@@ -1,0 +1,14 @@
+{
+  "name": "weekly-report-check",
+  "version": "0.3.0",
+  "displayName": "周报体检",
+  "description": "用于周报提交前的体检:当用户粘贴写好的周报全文（可附上周周报）时使用,点名无负责人、无期限的待办和没有数字支撑的空转进展句,逐条带行号定位;不改写原文,不评文风",
+  "author": {
+    "name": "TuLink_SZ",
+    "email": ""
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "周报"
+  ]
+}

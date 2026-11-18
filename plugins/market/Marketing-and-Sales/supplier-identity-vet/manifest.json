@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "f874d166-8ea6-4f6b-9daf-dd61c3dbd3a8",
+  "name": "supplier-identity-vet",
+  "displayName": "Supplier Entity Verification",
+  "categoryCode": "Marketing & Sales",
+  "categoryDir": "Marketing-and-Sales",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "WB_TEST Plugin Team",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a163c3-d29e-7957-a015-6437d25d9744/9f3d828e_supplier-identity-vet.zip",
+  "zipSha256": "e91fdae3ec3a709c96d6082a3085ee3e649e0e53bae830385bde19ae5bcd9118",
+  "zipBytes": 102877,
+  "upstreamSha256": "e91fdae3ec3a709c96d6082a3085ee3e649e0e53bae830385bde19ae5bcd9118",
+  "files": 29,
+  "treeSha256": "2d0a8d725796f1bc52e935eb5e39e00b0d1b2c93151c53edab58579465af5a1a",
+  "fetchedAt": "2026-11-18T10:44:12.799Z",
+  "credentialScan": {
+    "textFilesScanned": 27,
+    "filesRedacted": 0
+  },
+  "note": null
+}

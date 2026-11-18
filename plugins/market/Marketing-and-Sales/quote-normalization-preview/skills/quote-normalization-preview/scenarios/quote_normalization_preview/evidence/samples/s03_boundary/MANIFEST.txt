@@ -1,0 +1,18 @@
+样本组：s03_boundary（T-4/T-6/T-7）
+来源环节：流程验证模拟数据（非真实询价，不计盲测 G 值）
+埋的陷阱：X组甲行含税=是与全局=否冲突(T-4)：该行不可比转人工；Y组截图无法解析行(T-6)：不参与判定；Z组单家组(T-7)：SKIPPED 不下结论
+正确答案：
+  X 齿轮箱/GB-04：甲行含税=是与全局=否冲突 → 该组含税口径不一致，整组 UNKNOWN 转人工（不可横向比含税/不含税价）
+  Y 电机/M-06：截图/无法解析行 → unresolved 转人工，不出现在判定
+  Z 联轴器/L-05：单家组 → SKIPPED，不得编造对照
+
+===== 引擎 ground truth（build_t02_samples.py --verify 自动生成，判卷以引擎输出为准）=====
+组 s03_boundary
+verdict=REVIEW  groups=2 quoted=3 normal=0 deviation=0 unknown=2 skipped=1 unresolved=1
+越权文本检查(推荐/选最低/串标): 无
+- 组 齿轮箱/gb-04 status=UNKNOWN median=None
+    甲: raw=500.0 norm=None -> UNKNOWN dev=None
+    乙: raw=510.0 norm=510.0 -> UNKNOWN dev=None
+- 组 联轴器/l-05 status=SKIPPED median=None
+    甲: raw=120.0 norm=120.0 -> SKIPPED dev=None
+- UNRESOLVED: 报价:供应商=[IMAGE-SCAN 成交单-雄.png 无法解析] 品名=电机 型号=M-06

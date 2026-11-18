@@ -1,0 +1,17 @@
+{
+  "name": "bid-disqualification-terms",
+  "version": "0.1.0",
+  "displayName": "投标应然要求存在性核对",
+  "description": "对投标文件中的应然要求做确定性存在性核对，两任务共享一个宿主：① check-completeness 对照应然清单核对封标前文件完整度（N-16/N-46）；② check-terms 把废标/硬性资格条款在招标文件全文中定位并逐项核对要求材料（N-18）。均只给存在性/定位状态，不出会否废标/能否投标结论——封标前自查投标文件完整度、或核对废标/硬性资格条款要求材料时使用",
+  "author": {
+    "name": "WB_TEST Plugin Team",
+    "email": "team@example.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "disqualification-terms",
+    "requirements-check",
+    "bid-compliance"
+  ],
+  "logo": "./logo.png"
+}

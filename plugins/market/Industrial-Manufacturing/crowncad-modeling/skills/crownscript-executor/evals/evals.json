@@ -1,0 +1,341 @@
+{
+  "skill_name": "crownscript-executor",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "在测试文档中创建一个带圆形贯穿孔的矩形底座。已知底座长 100mm、宽 80mm、高 20mm，底座中心在 (0,0,10)，圆孔半径 10mm，孔位于底座中心并沿 Z 轴贯穿。请直接生成并执行模型。",
+      "expected_output": "不要求用户指定底层实体类型；自动使用立方体、圆柱体和 booleanSubtract，使用唯一的中文特征名、英文 var 变量、['entityId']，并以 overwrite=true 执行。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "创建一个两级台阶：下层尺寸 100×60×20mm，质心为 (0,0,10)；上层尺寸 60×60×20mm，质心为 (20,0,30)。把两个部分连接成一个整体并直接执行。",
+      "expected_output": "将台阶拆成两个立方体并使用 booleanUnion；特征名为唯一的中文语义名，所有 ID 来自接口返回对象。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "创建两个相交的实体，只保留它们的公共部分。实体尺寸和位置已给出时，请自动选择合适的基础实体并直接执行。",
+      "expected_output": "建立两个基础实体后使用 booleanIntersect，并根据是否后续复用原实体设置 keep；缺少必要尺寸时先询问。",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "创建一个直径 50mm、有体积的实体球，然后直接执行。",
+      "expected_output": "区分实体球与球面曲面。当前没有直接球体原语，实体球的球形截面旋转组合尚未单独运行验证；不得把Surface.revolveSurface的曲面结果当实体，也不得用其他实体近似。说明该实体路线的验证缺口，暂停本次CAD执行，不虚构执行结果。",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "在前视 XY 基准面上创建一个草图：画一个 80×40mm 的中心矩形，并用一条参考直线连接局部坐标 (-50,0) 与 (50,0)。",
+      "expected_output": "使用基准面 elementId 8，完整执行 createSketch、普通矩形、createReferenceLine 和 exitSketch；使用 var、中文唯一特征名和 ['entityId']，参考直线不参与轮廓识别。",
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "在这个零件的顶面创建一个草图并画圆，但我不知道顶面的 ID。",
+      "expected_output": "从当前有效拓扑的 type 为 Plane 的候选面中，利用面积、包围盒和法向自动匹配顶面；项目默认上方为世界坐标 +Y (0,1,0)，不得按 +Z 推断。只在无法可靠区分时询问，不要求用户提供 ID。",
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "把已经创建的草图里的矩形改成圆角矩形，后面还有依赖这个草图的特征。",
+      "expected_output": "不自动调用 editSketch；说明需要以 overwrite=true 重放完整累计脚本，重建草图和全部后续特征，并在后续需要时重新采集拓扑。",
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "在草图中画一条经过四个给定点的样条曲线，并将首尾相接闭合。",
+      "expected_output": "使用已验证的 Sketch.createIntpCurve 创建开放的插值样条；点数组表示曲线必须穿过的局部二维点，最少两个点。明确当前接口不支持闭合样条，首尾点相同会失败，因此不重复首点，也不猜测图元 ID、约束或未确认参数。",
+      "files": []
+    },
+    {
+      "id": 9,
+      "prompt": "齿轮齿侧用本地三次 Bézier 采样后交给 createIntpCurve。终点 E=(10,5)，期望沿轮廓到达方向 T=(0,1)，前一个控制点取 P2=(10,8)。样条和齿根弧端点相同，但附近出现小环。请分析并重新计算；只绘制草图。",
+      "expected_output": "识别终点导数 3(E-P2) 朝负 Y，与期望方向相反；保持距离 3 时改为 P2=(10,2)，不随机调参。按统一遍历方向检查接头切向、曲线回折和与圆弧的额外交点，不能只验证端点。本地生成点与 CAD 插值结果分开验证，不假定 Bézier 控制点可直接传给 createIntpCurve，不创建实体特征。",
+      "files": []
+    },
+    {
+      "id": 10,
+      "prompt": "Python 对齿侧生成曲线采样 2001 点后没有发现交叠，CrownCAD 返回 errorInfo=null，尚未查看 CAD 结果。是否可以报告严格相切、无自交且轮廓区域有效？",
+      "expected_output": "不能。有限采样与执行成功分别只支持本地数值检查通过和命令执行成功；CAD 对经过点重新插值的实际曲线尚未验证。仅用已验证且在授权范围内的查询或界面检查补充证据，否则明确局限，不试探新接口、不用实体特征替代验证。",
+      "files": []
+    },
+    {
+      "id": 11,
+      "prompt": "画一个带尖角的闭合凹多边形和两条互相交叉的参考线。需要强制所有接头相切、极角单调且参考线不相交吗？",
+      "expected_output": "不需要。保留用户要求的尖角；参考线不参与轮廓连通和自交判断，允许相交。极角单调仅适合相应的绕中心单调区段，不是任意草图限制；仍检查普通闭合轮廓自身的端点连接与非预期交叠。",
+      "files": []
+    },
+    {
+      "id": 12,
+      "prompt": "在草图中画一个直口槽：起点 (0,0)、终点 (100,0)、半径点 (50,10)，直接执行。",
+      "expected_output": "使用 Sketch.createStraightSlot 单命令生成闭合腰型槽；startPnt/endPnt 是两端半圆的圆心，radiusPnt 到中心线的垂直距离等于半宽 r=10，总宽 20，总长 120。不返回草图元素 ID。",
+      "files": []
+    },
+    {
+      "id": 13,
+      "prompt": "画一个直口槽，起点和终点重合。",
+      "expected_output": "明确 startPnt 与 endPnt 重合（中心线长度为零）会报错，不提交该脚本；请用户提供不重合的起点和终点，或改用圆。",
+      "files": []
+    },
+    {
+      "id": 14,
+      "prompt": "在草图中画一个中心点圆弧槽：圆心 (0,0)、起点 (100,0)、终点 (0,100)、半径点 (150,0)，直接执行。",
+      "expected_output": "使用 Sketch.createCenterArcSlot；本地预检 R=|startPnt−centerPnt|=100、半宽 r=||radiusPnt−圆心|−R|=50，校验 0<r<R 后提交；外侧弧半径 150、内侧弧半径 50。弧向由草图局部法向的右手定则从 startPnt 唯一确定到 endPnt，不需额外选择；不返回草图元素 ID。",
+      "files": []
+    },
+    {
+      "id": 15,
+      "prompt": "画一个三点圆弧槽：起点 (100,0)、终点 (-100,0)、弧上一点 (0,100)、半径点 (150,0)。",
+      "expected_output": "使用 Sketch.createThreeArcSlot，参数顺序为 startPnt、endPnt、thirdPnt、radiusPnt；本地用三点定圆求出圆心 (0,0) 与 R=100，半宽 r=50，校验 0<r<R；弧段经过 thirdPnt，基本唯一；不返回草图元素 ID。",
+      "files": []
+    },
+    {
+      "id": 16,
+      "prompt": "画一个中心点圆弧槽：圆心 (0,0)、起点 (100,0)、终点 (0,100)、半径点 (200,0)。",
+      "expected_output": "本地预检发现半宽 r=100 不小于中心圆弧半径 R=100，r≥R 会报错，不提交脚本；向用户说明内侧弧会退化或反向，请其调整半径点或圆弧尺寸。",
+      "files": []
+    },
+    {
+      "id": 17,
+      "prompt": "画一个三点圆弧槽：起点 (0,0)、终点 (2,2)、弧上一点 (1,1)、半径点 (50,10)。",
+      "expected_output": "本地预检发现三点共线，无法确定中心圆弧，不提交脚本；说明三点圆弧槽的三个点不能共线，请用户提供不共线的点。",
+      "files": []
+    },
+    {
+      "id": 18,
+      "prompt": "在当前 CrownCAD 文档中创建变量 tets=5，再创建 test1=('tets' * 2) + 5，并用 if('tets' > 5, 100, 0) 创建 test2。随后把 tets 修改为 10。",
+      "expected_output": "使用 Common.createVariable 和 Common.assignVariable 的对象参数形式；变量表达式引用已先创建的当前文档变量；不使用尺寸、文件属性或测量值引用；tets 修改后依赖变量立即重算为 test1=25、test2=100；所有变量名唯一且不写尾随逗号。",
+      "files": []
+    },
+    {
+      "id": 19,
+      "prompt": "把已有实体关于已创建的基准面镜像。已知源实体来自前序结果的 entityId，镜像平面 ID 为 8，使用实体镜像且不合并镜像结果，请生成并执行。",
+      "expected_output": "使用 Solid.mirrorSolid 和 baseType: 0；body 使用前序结果的 ['entityId']；mirrorPlane 使用真实平面 ID；mergeSolids 使用整数 0；读取镜像结果的 ['entityId']；不使用 geometryPattern。",
+      "files": []
+    },
+    {
+      "id": 20,
+      "prompt": "把同一个 Body 中已经成功创建的两个特征关于已创建的实体平面镜像。两个特征 ID 分别来自各自特征结果的 id，镜像平面 ID 为 8，镜像结果不合并，请生成并执行。",
+      "expected_output": "使用 Solid.mirrorSolid 和 baseType: 1；features 使用两个前序结果的 ['id']，不能使用 entityId；多个特征属于同一个 Body；mirrorPlane 使用真实 ID；mergeSolids 使用整数 0；不传 geometryPattern。",
+      "files": []
+    },
+    {
+      "id": 21,
+      "prompt": "把一个特征镜像到另一侧，但没有提供镜像平面，也没有可查询的基准面或实体平面。",
+      "expected_output": "停止执行并要求先提供或创建可用的镜像平面；不能猜测平面 ID，也不能生成不可执行的镜像脚本。",
+      "files": []
+    },
+    {
+      "id": 22,
+      "prompt": "在 AssemblyDocument 中插入两个已有零件，并为后续配合准备实例引用。",
+      "expected_output": "使用 Assembly.insertComponent 插入已有零件；分别查询插入前和插入后的 tree/instance/flattened；通过新增 instanceId 判断新实例；不直接使用插入返回值中的空实例信息，也不按 docName 去重。",
+      "files": []
+    },
+    {
+      "id": 23,
+      "prompt": "根据图片中两个圆柱对象的位置创建同心轴配合。",
+      "expected_output": "根据图片和元素几何信息选择两个实例上的圆柱对象；用 (instanceId, elementId) 形成 move/ref 引用；生成 matingType: 3；创建后检查返回值的 id 和 name。",
+      "files": []
+    },
+    {
+      "id": 24,
+      "prompt": "连续创建三条装配配合，其中第二条返回 {'id': 0, 'name': '', 'entityId': 0, 'instanceId': ''}。",
+      "expected_output": "识别第二条配合是单条失败；记录失败配合和原始返回值；继续创建第三条；最终报告成功列表和失败列表，不把单条配合失败误判为整个 CrownScript 执行失败。",
+      "files": []
+    },
+    {
+      "id": 25,
+      "prompt": "在零件文档中画一个正方形草图，拉伸10毫米，并要求第一方向向外拔模60度。",
+      "expected_output": "生成 Solid.extrude 时必须同时传 draftType1: 0 和 angle1: 60，不能只传 angle1；第二方向未使用时传 extrudeType2: -1 和 draftType2: -1；使用 var、唯一中文特征名和 result['entityId']。",
+      "files": []
+    },
+    {
+      "id": 26,
+      "prompt": "在已有实体上使用草图进行拉伸切除，并要求第一方向向外拔模30度。",
+      "expected_output": "生成 Solid.extrudeCut 时必须同时传 draftType1: 0 和 angle1: 30，不能只传 angle1；第二方向未使用时传 extrudeType2: -1 和 draftType2: -1；cutSolids 使用已有实体的真实 entityId，并读取返回值的 ['entityId']。",
+      "files": []
+    },
+    {
+      "id": 27,
+      "prompt": "只生成脚本：在已有目标草图“草图11”中转换当前有效实体边206、170、210，它们所属实体entityId为698。",
+      "expected_output": "使用匹配的editSketch和exitEditSketch会话，在其中调用Sketch.convertEdge([206, 170, 210]); 不传698，不获取或猜测转换后图元ID，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 28,
+      "prompt": "只生成脚本：把源草图entityId为792的内容转换到已有目标草图“草图11”。",
+      "expected_output": "在目标草图编辑会话中调用Sketch.convertEdge([792]); 区分源草图与目标草图，不假定返回结构，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 29,
+      "prompt": "只生成脚本：把源草图中的线id794转换到“草图11”，该线所属草图entityId为792，单条草图线转换已验证。",
+      "expected_output": "在完整目标草图会话内调用Sketch.convertEdge([794]); 不替换为792，不把单条源草图线转换重新标为未验证，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 30,
+      "prompt": "新建目标草图并转换已确认的源几何，后续用整个目标草图做实体特征。是否必须先取得转换后每条线的ID？只说明生成方案。",
+      "expected_output": "保存目标createSketch返回的['entityId']作为sketchId，转换置于完整草图会话内；后续引用整个草图，不强制枚举转换后图元，不假定返回ID，不把生成模板当作新增运行证据。",
+      "files": []
+    },
+    {
+      "id": 31,
+      "prompt": "只分析：我想转换零件顶面左侧那条实体边，没有给出边ID。说明如何选边，以及之后是否必须取得转换后图元ID。",
+      "expected_output": "按项目+Y上方约定，通过当前有效拓扑及按需详情识别实体边，匹配不唯一时确认意图；不猜ID。后续引用整个目标草图时不要求转换后图元ID，分析阶段不执行CAD查询或写入。",
+      "files": []
+    },
+    {
+      "id": 32,
+      "prompt": "只分析：源草图entityId为792，我只想转换里面指定的一条线，但没有该线ID。能否用792代替，或从792计算出线ID？",
+      "expected_output": "不能。792代表整个源草图，不满足指定线范围；不能推导内部线ID，也不能用已知ID详情查询冒充发现接口。说明需要实际取得该线ID，不臆造草图枚举命令，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 33,
+      "prompt": "只生成脚本：已取得源草图entityId为51，沿草图法向单方向拉伸曲面30毫米，不拔模、不偏置。",
+      "expected_output": "使用Surface.extrudeSurface和curveIds:[51]，采用曲面文档已验证基线参数及capType:0；中文唯一特征名，var、分号、无尾随逗号，读取返回的['entityId']和['id']。不调用Solid.extrude，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 34,
+      "prompt": "只生成脚本：对当前有效的开放样条曲线id52创建法向单方向30毫米拉伸曲面，所属草图entityId为51。",
+      "expected_output": "使用curveIds:[52]，不擅自替换为51，不要求闭合曲线；不推导曲线ID，不额外采集实体拓扑，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 35,
+      "prompt": "只生成脚本：将源草图entityId51绕世界Y轴旋转360度生成曲面，仅用第一方向。",
+      "expected_output": "使用Surface.revolveSurface，contours:[51]；axis为经过(0,0,0)和(0,1,0)的Axis，revolveType1:0、angle1:360、revolveType2:-1、angle2:0、ToSurface1:0、ToSurface2:0。不写rotAxis或小写toSurface1，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 36,
+      "prompt": "只生成脚本：将当前有效开放曲线id52绕世界Y轴旋转360度生成曲面。开放曲线输入已经验证。",
+      "expected_output": "使用Surface.revolveSurface和contours:[52]，采用两点世界Y轴和已验证单方向参数，不要求先闭合，也不改成实体旋转；不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 37,
+      "prompt": "只分析：拉伸曲面返回id26和entityId424，是否可以仅凭entityId就认定它是体积实体，并直接应用实体布尔操作？",
+      "expected_output": "不能。曲面命令返回entityId只确认结果引用，不证明存在体积；不自动套用Solid实体布尔操作，也不把返回ID有效当作实际几何检查。",
+      "files": []
+    },
+    {
+      "id": 38,
+      "prompt": "只分析：目前拉伸曲面测试使用capType:0；能否断言它表示封口，并宣称到面、拔模和双方向旋转全部已验证？",
+      "expected_output": "不能。capType:0只登记为已成功使用的值，含义和其他取值未确认；到面、拔模、双方向等组合保持未验证，不能由基础调用成功扩大验证范围。",
+      "files": []
+    },
+    {
+      "id": 39,
+      "prompt": "只生成脚本：用当前有效圆曲线id207作为轮廓、样条曲线id52作为路径生成扫描曲面，按文档默认正向，不使用圆形轮廓模式。",
+      "expected_output": "使用Surface.sweepSurface，sweepType:0、sweepProfile:207、sweepPath:[52]、profileDirection:2、sweepDirection:0、diameter:0。读取['entityId']和['id']；不写riameter或-1，不把0误报为此前截图已实测，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 40,
+      "prompt": "只生成脚本：按草图区域id307、圆曲线id207的顺序放样曲面，不使用引导线或匹配点。",
+      "expected_output": "使用Surface.loftSurface，profiles:[307,207]、matchPoints:[]、startConstraint:0、startReverse:0、endConstraint:0、endReverse:0、hasGuideCurve:0、guideCurves:[]。不把profiles写成单个整数，不交换顺序，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 41,
+      "prompt": "只生成脚本：使用当前有效曲面圆形边界id461填充曲面，不勾选交替面，不反转。",
+      "expected_output": "使用Surface.fillSurface和boundaryCurveIds:[461]、alternateFace:0、reverseSurface:0。使用实际边界id，不替换成所属曲面的entityId或面id；不调用planeSurface，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 42,
+      "prompt": "只分析：整个源草图entityId51包含曲线id52，填充只需要指定草图曲线，能否把52自动替换成51？",
+      "expected_output": "不能。草图曲线id用于指定边界，整个草图entityId不是同一引用范围，且填充整个草图输入尚未验证；使用实际指定曲线，不猜测内部id，也不推广拉伸旋转的输入能力。",
+      "files": []
+    },
+    {
+      "id": 43,
+      "prompt": "只分析：已知当前曲面entityId951，需要取得它的边界ID用于填充，查询流程是什么？",
+      "expected_output": "使用相同文档版本，按/solids/951/faces取得面，再按/faces/{faceId}/edges取得边；边ID可去重，但共享边不一定是填充外边界，必要时查询已知元素详情。只说明流程，不执行查询，不猜新接口。",
+      "files": []
+    },
+    {
+      "id": 44,
+      "prompt": "只生成脚本：前序扫描和填充曲面结果分别为sweepSurfaceResult、fillSurfaceResult，缝合两个曲面，不自定义精度。",
+      "expected_output": "使用Surface.knitSurface，surfaces使用两个结果的['entityId']，controlGap:1、tolerance:0.001；中文唯一名称，读取缝合结果['entityId']和['id']，后续引用新结果。不传源特征id或边线id，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 45,
+      "prompt": "只分析：使用controlGap:1和tolerance:0.001成功缝合后，能否保证接缝误差小于0.001，并认定曲面已经成为实体？",
+      "expected_output": "不能。按文档controlGap:1为不自定义精度；成功调用不证明tolerance实际控制误差。结果entityId不证明体积实体，分别检查连接和对象状态；自定义精度效果尚未验证。",
+      "files": []
+    },
+    {
+      "id": 46,
+      "prompt": "只说明方案：既有两个单结果曲面特征可按名称查询，缝合后继续做后续操作应该使用什么ID？",
+      "expected_output": "名称查询只作为补充，先确认每个特征只有一个目标结果并检查有效且不同的源entityId；缝合后使用新返回的['entityId']。源ID后续有效性未确认，不依赖旧ID，也不宣称源对象被删除；不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 47,
+      "prompt": "只生成脚本：编辑草图1，使用当前有效曲线ID52和53创建桥接曲线，双方按弧长30%定位、G1相切，其余采用已验证基线。",
+      "expected_output": "依次构造两个Curve.bridgeCurvePoint和两个Curve.bridgeCurveConstraint，再调用Curve.createBridgeCurve；referenceId为52、53，pointType:0、contType:1、pointPositionType:2、curArcLength:new Variable(30)。完整匹配编辑会话，中文唯一名称、var、分号、无尾随逗号，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 48,
+      "prompt": "只分析：桥接约束pointPositionType为2，curArcLength为new Variable(30)，是不是沿曲线走30毫米？",
+      "expected_output": "不是，线上点的pointPositionType:2表示弧长百分比，30表示30%；不解释成30毫米，不把point(0,0,0)直接当作最终桥接端点。",
+      "files": []
+    },
+    {
+      "id": 49,
+      "prompt": "只分析：桥接曲线返回id21、entityId0，实际选中曲线id120。后续单独引用曲线应该使用哪个？",
+      "expected_output": "使用实际取得的曲线ID120，不用返回的21或0。按能够取得有效ID设计后续引用，获取方式预留，不虚构查询接口，不将源曲线ID用作结果ID。",
+      "files": []
+    },
+    {
+      "id": 50,
+      "prompt": "只分析：已验证线上点、弧长百分比和G1桥接，是否可以直接把面上点G2桥接也登记为已验证能力？",
+      "expected_output": "不能，面上点和G2组合尚未验证；说明本次支持范围，不直接生成执行脚本，不把已有参数说明当作运行验证。",
+      "files": []
+    },
+    {
+      "id": 51,
+      "prompt": "只生成脚本：删除当前曲面上的面id1057，所属对象entityId1060。",
+      "expected_output": "使用Surface.deleteSurface('唯一中文名称', [1057])，第二个参数直接传数组，不写deleteFaces或surfaceIds参数对象，不传1060。var、分号、无尾随逗号，读取返回的['entityId']和['id']，不执行CAD。",
+      "files": []
+    },
+    {
+      "id": 52,
+      "prompt": "只分析：删除曲面报surfaceIds应为List，能否改为Surface.deleteSurface('删除曲面_001', {surfaceIds:[1057]})？",
+      "expected_output": "不能。已验证签名的第二个位置参数本身就是面ID数组，正确形式为Surface.deleteSurface('删除曲面_001', [1057])；不根据报错参数名套用对象格式。",
+      "files": []
+    },
+    {
+      "id": 53,
+      "prompt": "只说明方案：已知当前曲面entityId1060，要按位置删除其中一个面，删除后还需要选边。",
+      "expected_output": "使用相同文档版本的/solids/1060/faces取得面ID，按需查询详情识别目标面；deleteSurface传实际面ID数组。后续使用删除结果新entityId并重新取得当前拓扑，不依赖删除前面边ID，不执行查询或CAD。",
+      "files": []
+    },
+    {
+      "id": 54,
+      "prompt": "只分析：曲面单面删除已经验证，是否可以认定体积实体删面会自动补面并保持封闭实体？",
+      "expected_output": "不能。体积实体删面及自动修补效果尚未验证；单面删除成功和返回entityId不证明封闭或有体积，不扩展已验证范围。",
+      "files": []
+    },
+    {
+      "id": 55,
+      "prompt": "只分析建模路线：创建一个直径 50mm、球心在 (0,0,0) 的完整球面曲面，不要体积。",
+      "expected_output": "识别为球面曲面而非实体球。提出在包含直径轴的草图平面中创建半径25mm的精确半圆弧，使用实际取得的单条开放曲线id，通过Surface.revolveSurface绕该直径轴旋转360度；引用使用contours:[sourceArcId]，axis由两个不同的实际世界坐标点定义，参数为revolveType1:0、angle1:360、revolveType2:-1、angle2:0、ToSurface1:0、ToSurface2:0。结果读取['entityId']并说明它是曲面对象。明确该球面组合尚未单独运行验证，不把它宣称为已验证结果；不使用Solid命令，不拒绝该曲面路线。",
+      "files": []
+    },
+    {
+      "id": 56,
+      "prompt": "只分析：给一个理想完整球面曲面添加圆角。",
+      "expected_output": "说明完整球面没有设计边可供倒圆角；不得为满足请求而猜测球面接缝是设计边，也不得调用实体圆角。区分表面边界圆角与球面本身的光滑形状。",
+      "files": []
+    }
+  ]
+}

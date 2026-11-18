@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "0bb2a4ac-48df-4d76-b11e-906fe7a12c7f",
+  "name": "ppt-content-check",
+  "displayName": "PPT Content Fact Check",
+  "categoryCode": "Productivity",
+  "categoryDir": "Productivity",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.3.0",
+  "publisher": "TuLink_SZ",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a163b3-419a-708a-8720-11766d25a315/5e7f1bf4_qoder-ppt-content-check.zip",
+  "zipSha256": "91738eb1e059bef60bbf01948446c60e46e8409352b094295f3e108e1e1c0c14",
+  "zipBytes": 66153,
+  "upstreamSha256": "91738eb1e059bef60bbf01948446c60e46e8409352b094295f3e108e1e1c0c14",
+  "files": 17,
+  "treeSha256": "09c7b9df28ccacf0d24a7acc7abd38046ccc0bb8f102756aa7c4fe932631ab19",
+  "fetchedAt": "2026-11-18T10:44:16.210Z",
+  "credentialScan": {
+    "textFilesScanned": 17,
+    "filesRedacted": 0
+  },
+  "note": null
+}

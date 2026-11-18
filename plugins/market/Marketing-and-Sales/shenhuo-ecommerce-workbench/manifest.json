@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "91ebad7e-49b4-4984-8bd7-83d48a3e59d2",
+  "name": "shenhuo-ecommerce-workbench",
+  "displayName": "Shenhuo E-commerce Workbench",
+  "categoryCode": "Marketing & Sales",
+  "categoryDir": "Marketing-and-Sales",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "chenyth",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1ab2f-64c7-74e8-a476-e9a9d10559fe/330cc62a_神火电商工作台.zip",
+  "zipSha256": "d2e5f17118803ec4d0b88fe924f70348fd461c5eda588212324e1598798221ba",
+  "zipBytes": 72889,
+  "upstreamSha256": "d2e5f17118803ec4d0b88fe924f70348fd461c5eda588212324e1598798221ba",
+  "files": 26,
+  "treeSha256": "93c6acec6c6f4aca1215168dc9cdc3a021d4e61951974d0d13776f5bd1bda765",
+  "fetchedAt": "2026-11-18T10:43:56.825Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

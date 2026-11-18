@@ -1,0 +1,17 @@
+{
+  "name": "shipping-doc-crosscheck",
+  "version": "0.1.0",
+  "displayName": "单证交叉核对",
+  "description": "把多份单证（PO/PI/INV/PL/BL/SL）的同一字段做确定性交叉核对：数值一律代码算、单位口径不可比（CTN vs PC）必须输出 UNKNOWN 转人工、每条不一致结论必带定位（单证+行号+原文摘录），绝不默认 1 CTN=1 PC——当要对形式发票与订单、发票与装箱单、提单草单与出货清单的数字和字段对不对得上时使用",
+  "author": {
+    "name": "WB_TEST Plugin Team",
+    "email": "team@example.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "doc-crosscheck",
+    "trade-compliance",
+    "numeric-normalization"
+  ],
+  "logo": "./logo.png"
+}

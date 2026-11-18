@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "de5b0ff6-d28b-450c-8e52-0dcc77a0810b",
+  "name": "crowncad-modeling",
+  "displayName": "CrownCAD ReGen Agent",
+  "categoryCode": "cat_68c7c3393dca4123a7860771196d3bb5",
+  "categoryDir": "Industrial-Manufacturing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.3",
+  "publisher": "hanjiao sun",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1c384-a34a-726a-af38-c12bc008bd17/8238d685b437c1859cf03b25ccf65b2f7e8eb69c906f2e720644e75939552fe9.zip",
+  "zipSha256": "8238d685b437c1859cf03b25ccf65b2f7e8eb69c906f2e720644e75939552fe9",
+  "zipBytes": 302279,
+  "upstreamSha256": "8238d685b437c1859cf03b25ccf65b2f7e8eb69c906f2e720644e75939552fe9",
+  "files": 76,
+  "treeSha256": "691e4e1f700eb95fe392443759a00ad43c9c263098dc089b63417eb652225fb4",
+  "fetchedAt": "2026-11-18T10:42:18.122Z",
+  "credentialScan": {
+    "textFilesScanned": 74,
+    "filesRedacted": 0
+  },
+  "note": null
+}

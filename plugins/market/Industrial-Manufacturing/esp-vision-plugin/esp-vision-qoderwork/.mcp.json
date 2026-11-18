@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "esp-vision-knowledge": {
+      "type": "streamable-http",
+      "url": "{{USER_CONFIG}}",
+      "_setup": {
+        "configUrl": "https://vision.espressif.com/",
+        "guide": "填写 ESP-VISION 官方文档 MCP 地址：https://mcp.vision.espressif.com/mcp；该公开知识服务不需要设备地址或凭证。",
+        "required": true
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ppt-content-check",
+  "version": "0.3.0",
+  "displayName": "PPT 内容核对",
+  "description": "用于汇报材料提交前的数字核对:当用户给出 PPT 大纲文本或 .pptx 文件并附上源数据表时使用,逐数字回源对账,每个数字给出单元格出处或点名「无出处」;不改 PPT,不猜对应关系",
+  "author": {
+    "name": "TuLink_SZ",
+    "email": ""
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "PPT"
+  ]
+}

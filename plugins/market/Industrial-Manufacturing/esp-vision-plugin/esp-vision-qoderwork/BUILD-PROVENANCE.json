@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "target": "qoderwork",
+  "version": "0.1.1",
+  "sourceVersion": "0.1.1",
+  "sourceCommit": "0c7559bed40433910e91186d461431329c4418a9",
+  "files": [
+    {
+      "path": "assets/esp-vision-logo.png",
+      "sha256": "9d9aab9c27f0cf9465174467698d5ffecd8b344cfd1d460f01409c6f43611e11"
+    },
+    {
+      "path": "assets/PROVENANCE.md",
+      "sha256": "fd567af95145d1b5d875a38c252911459515705700c36d520c6a97242965fb4a"
+    },
+    {
+      "path": "cli/device-cli.mjs",
+      "sha256": "968d6c32fbc38b8e1063811ce7595d30bd5c3fc93d713975aa529dff7acdb18e"
+    },
+    {
+      "path": "cli/licenses/ansi-regex-license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "path": "cli/licenses/dns-packet-LICENSE",
+      "sha256": "6a134e51aa31496c15a741592fc5d782b2dbf8d8b6b8524e15c8520ae0cd6374"
+    },
+    {
+      "path": "cli/licenses/emoji-regex-LICENSE-MIT.txt",
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a"
+    },
+    {
+      "path": "cli/licenses/get-east-asian-width-license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "path": "cli/licenses/leichtgewicht__ip-codec-LICENSE",
+      "sha256": "09fd9784b65e00b09b6366845098a2cb6d6f559e84d292528f1e462c9e4acb62"
+    },
+    {
+      "path": "cli/licenses/multicast-dns-LICENSE",
+      "sha256": "0aa9add6a9158efad3e6649e3affd607c7e2629f6677af19f9988c8fbb0757b0"
+    },
+    {
+      "path": "cli/licenses/smol-toml-LICENSE",
+      "sha256": "fa5659948374d4f555594f47f6da073b40dc503e921aeeece30df4362b3051a5"
+    },
+    {
+      "path": "cli/licenses/string-width-license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "path": "cli/licenses/strip-ansi-license",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3"
+    },
+    {
+      "path": "cli/licenses/thunky-LICENSE",
+      "sha256": "2281f2db407bdbb54f069eec38128b2dee2c0c952f52b786ef1faecb81767b3c"
+    },
+    {
+      "path": "cli/node_rom.py",
+      "sha256": "e67590aaabc59b85fa16e63a518525266ef7e43fd52cf4ebd38c20d32fc6a571"
+    },
+    {
+      "path": "cli/node_serial.py",
+      "sha256": "48c7c5c07f5faef21bddc141ff97f11fe5ab2d566a1e51e71fda34862c7b6173"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "3a127f6cc3e32e87c950e83df4c56232456f8e38f31720c3ca531c835406e61c"
+    },
+    {
+      "path": "DEVICE_CORE_NOTICE.md",
+      "sha256": "05b52b9d89a77c86700a8ac510612088938d39c337cb44335103eafd95c947ea"
+    },
+    {
+      "path": ".qoder-plugin/plugin.json",
+      "sha256": "13117e1eb31bcc0314ee083b4e11f92828183fd8ad92aec4b90d0d63c23aff8b"
+    },
+    {
+      "path": ".mcp.json",
+      "sha256": "c067cc9fd396995bc38bbc7e5f0d18bbecc0c83d2469cb62ff1e99f004dab7d3"
+    },
+    {
+      "path": "skills/esp-vision-development/SKILL.md",
+      "sha256": "7d5685e2b7e82b654398be9c328f8bd0c5b125332976dc95d93b1d8fa4c9c723"
+    },
+    {
+      "path": "skills/esp-vision-development/references/application-workflow.md",
+      "sha256": "b1b79b42493791d5eb46b5b2c169b8480275b86784f10cafb37148855cf49c15"
+    },
+    {
+      "path": "README.md",
+      "sha256": "16af3bdd6139cf6a87a620d491bdb16c4dc9f6a325f7060c1faa750376730d07"
+    },
+    {
+      "path": "CONNECTORS.md",
+      "sha256": "4b4639dd770efe96e71caf68c762616990f162b87a4d004caeb543c44fed56c9"
+    },
+    {
+      "path": "qoder.md",
+      "sha256": "5689ebf8cc9521f868e1a90e586c00316c6ff46f3532947cd640c6e81068afbb"
+    }
+  ]
+}

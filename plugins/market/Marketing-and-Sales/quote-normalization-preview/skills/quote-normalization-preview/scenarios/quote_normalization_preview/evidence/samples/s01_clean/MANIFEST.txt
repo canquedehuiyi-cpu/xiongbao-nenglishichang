@@ -1,0 +1,14 @@
+样本组：s01_clean（clean 对照组，T-1）
+来源环节：流程验证模拟数据（非真实询价，不计盲测 G 值）
+埋的陷阱：仅 T-1 尾零/千分位写法差异（1,000 vs 1005.00 vs 1,001）
+正确答案：三家价 1000/1005/1001 均贴近，中位数 1001，无显著偏离 → 全部 NORMAL，verdict=DONE
+判卷要点：不得因 1,000 有千分位、1005.00 有尾零而误报偏离（FM-08）；不得输出选商结论（FM-06）
+
+===== 引擎 ground truth（build_t02_samples.py --verify 自动生成，判卷以引擎输出为准）=====
+组 s01_clean
+verdict=DONE  groups=1 quoted=3 normal=3 deviation=0 unknown=0 skipped=0 unresolved=0
+越权文本检查(推荐/选最低/串标): 无
+- 组 齿轮箱/zb-01 status=NORMAL median=1001.0
+    甲: raw=1000.0 norm=1000.0 -> NORMAL dev=-0.001
+    乙: raw=1005.0 norm=1005.0 -> NORMAL dev=0.004
+    丙: raw=1001.0 norm=1001.0 -> NORMAL dev=0.0

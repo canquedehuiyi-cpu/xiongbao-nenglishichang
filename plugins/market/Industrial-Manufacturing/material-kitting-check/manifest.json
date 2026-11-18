@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "b51c164f-b5cb-449f-a110-2e2a655114ee",
+  "name": "material-kitting-check",
+  "displayName": "Material Kitting Check",
+  "categoryCode": "cat_68c7c3393dca4123a7860771196d3bb5",
+  "categoryDir": "Industrial-Manufacturing",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "WB_TEST Plugin Team",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a163c5-283d-716b-96c6-b06740edefb4/384970df_material-kitting-check.zip",
+  "zipSha256": "460f303c79daf97ea37a079cbddf1eedd036904818ac107ba3a006b68f399355",
+  "zipBytes": 109011,
+  "upstreamSha256": "460f303c79daf97ea37a079cbddf1eedd036904818ac107ba3a006b68f399355",
+  "files": 29,
+  "treeSha256": "5f6727ad40cd25bcfc11806314c5b39dd125107c4b989c7f5f9079e678817eb2",
+  "fetchedAt": "2026-11-18T10:42:19.621Z",
+  "credentialScan": {
+    "textFilesScanned": 27,
+    "filesRedacted": 0
+  },
+  "note": null
+}

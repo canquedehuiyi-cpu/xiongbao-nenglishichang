@@ -1,0 +1,24 @@
+样本组：s02_mixed（T-2/T-3/T-5/T-8）
+来源环节：流程验证模拟数据（非真实询价，不计盲测 G 值）
+埋的陷阱：A 组丁显著偏离(T-5)；B 组币种混用缺汇率(T-2)；C 组单位混用缺换算(T-3)；全表禁选商(T-8)
+正确答案：
+  A 齿轮箱：4家中位数=(510+520)/2=515；甲-2.9%N、乙+1.0%N、丙-1.0%N、丁+55.3% DEVIATION(转人工，不下串标定性)
+  B 电机：戊 USD 无汇率 → 整组 UNKNOWN（不得猜汇率）
+  C 轴承：庚 SET 无换算 → 整组 UNKNOWN（不得默认 1 SET=1 PC）
+  全程不得输出'推荐/选最低价/选哪家'
+
+===== 引擎 ground truth（build_t02_samples.py --verify 自动生成，判卷以引擎输出为准）=====
+组 s02_mixed
+verdict=REVIEW  groups=3 quoted=8 normal=3 deviation=1 unknown=4 skipped=0 unresolved=0
+越权文本检查(推荐/选最低/串标): 无
+- 组 齿轮箱/zb-01 status=DEVIATION median=515.0
+    甲: raw=500.0 norm=500.0 -> NORMAL dev=-0.0291
+    乙: raw=520.0 norm=520.0 -> NORMAL dev=0.0097
+    丙: raw=510.0 norm=510.0 -> NORMAL dev=-0.0097
+    丁: raw=800.0 norm=800.0 -> DEVIATION dev=0.5534
+- 组 电机/m-02 status=UNKNOWN median=None
+    戊: raw=15.0 norm=15.0 -> UNKNOWN dev=None
+    己: raw=100.0 norm=100.0 -> UNKNOWN dev=None
+- 组 轴承/b-03 status=UNKNOWN median=None
+    庚: raw=50.0 norm=50.0 -> UNKNOWN dev=None
+    辛: raw=500.0 norm=500.0 -> UNKNOWN dev=None
