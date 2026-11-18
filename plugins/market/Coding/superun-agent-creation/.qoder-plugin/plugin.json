@@ -1,0 +1,13 @@
+{
+  "name": "superun-agent-creation",
+  "version": "0.1.11",
+  "displayName": "superun 智能体搭建专家",
+  "description": "通过 superun 云端新建或继续智能体应用，完成需求澄清、方案选择、研发、配置与真实成果核验。",
+  "author": {
+    "name": "xiuyu.yi"
+  },
+  "skills": [
+    "./skills/superun-agent-creation"
+  ],
+  "logo": "./assets/team.png"
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "4f169a92-10aa-4516-9f05-b09f1954c474",
+  "name": "deveco-cli",
+  "displayName": "DevEco CLI",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.0.2",
+  "publisher": "DevEco CLI",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1c580-9ac7-72f6-86ad-34b16e43c8cb/bfdf95d6b66d984148497f81ef204fa42c46fa3f905df6780cc326158024c960.zip",
+  "zipSha256": "bfdf95d6b66d984148497f81ef204fa42c46fa3f905df6780cc326158024c960",
+  "zipBytes": 540877,
+  "upstreamSha256": "bfdf95d6b66d984148497f81ef204fa42c46fa3f905df6780cc326158024c960",
+  "files": 131,
+  "treeSha256": "534e856669b81e1402c36e6d3016f903b542437bea34eec49b2977eaf4dffec3",
+  "fetchedAt": "2026-11-18T10:43:11.438Z",
+  "credentialScan": {
+    "textFilesScanned": 114,
+    "filesRedacted": 0
+  },
+  "note": null
+}

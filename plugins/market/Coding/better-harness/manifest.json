@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "better-harness",
+  "name": "better-harness",
+  "displayName": "Better Harness",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.2.20",
+  "publisher": "Qoder",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0b4a0-1596-72a7-b7ab-d294e84e60b2/ed2674d6_9d1445c5_better-harness-runtime.zip",
+  "zipSha256": "cabe6fdaf2a786272ae2857cb4b8136cf01cb3bb7c7bd7cc5081de3a6b4a23cf",
+  "zipBytes": 4381341,
+  "upstreamSha256": "cabe6fdaf2a786272ae2857cb4b8136cf01cb3bb7c7bd7cc5081de3a6b4a23cf",
+  "files": 66,
+  "treeSha256": "ae0a1fb6d589d17024cb47db2ac778a04999e189bff9415e7d434e0d9cf87d2b",
+  "fetchedAt": "2026-11-18T10:43:04.233Z",
+  "credentialScan": {
+    "textFilesScanned": 62,
+    "filesRedacted": 0
+  },
+  "note": null
+}

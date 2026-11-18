@@ -1,0 +1,10 @@
+{
+  "ruleDirectory": ".qoder/rules",
+  "memoryFiles": [
+    "AGENTS.md",
+    "AGENTS.local.md"
+  ],
+  "memoryLabel": "当前项目 .qoder/rules/",
+  "dataVariable": "QODER_PLUGIN_DATA",
+  "stateNamespace": "superun-qoder-hooks"
+}

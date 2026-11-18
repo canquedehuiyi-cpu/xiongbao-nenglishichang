@@ -1,0 +1,33 @@
+{
+  "name": "superpowers",
+  "displayName": "Superpowers",
+  "version": "6.3.0",
+  "description": "Core skills library: TDD, systematic debugging, task-sized brainstorming, parallel-agent dispatch, plan writing/execution, evidence-based code review, git worktrees, and verification-before-completion.",
+  "descriptionZh": "核心方法论 Skills 库：包含 14 个组合式 skill，覆盖按任务规模开展设计、计划编写/执行、TDD、系统化调试、子代理调度、证据驱动的代码评审、git worktrees 与完成前验证。",
+  "author": {
+    "name": "Jesse Vincent",
+    "email": "jesse@fsck.com"
+  },
+  "homepage": "https://github.com/obra/superpowers",
+  "repository": "https://github.com/obra/superpowers",
+  "license": "MIT",
+  "logo": "./assets/app-icon.png",
+  "keywords": [
+    "skills",
+    "tdd",
+    "debugging",
+    "collaboration",
+    "best-practices",
+    "workflows"
+  ],
+  "category": "Workflow",
+  "tags": [
+    "tdd",
+    "workflow",
+    "code-review",
+    "debugging",
+    "skills"
+  ],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json"
+}

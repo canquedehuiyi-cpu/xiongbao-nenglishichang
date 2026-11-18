@@ -1,0 +1,17 @@
+{
+  "name": "cangjie-skills",
+  "displayName": "Cangjie",
+  "version": "1.0.0",
+  "description": "AI-powered Cangjie programming language development toolkit covering language features, standard library, extended standard library, toolchains, coding regulations, and original documentation.",
+  "descriptionZh": "仓颉编程语言 AI 开发工具箱，覆盖语言特性、标准库、扩展标准库、工具链、编码规范和原始文档六大知识领域，支撑从零创建、开发、构建、运行、测试仓颉项目。",
+  "author": {
+    "name": "Cangjie-SIG"
+  },
+  "homepage": "https://gitcode.com/Cangjie-SIG/CangjieSkills",
+  "repository": "https://gitcode.com/Cangjie-SIG/CangjieSkills.git",
+  "keywords": ["qoder-plugin", "cangjie", "programming-language", "development"],
+  "category": "Coding",
+  "tags": ["cangjie", "compiler", "stdlib", "toolchain"],
+  "logo": "./assets/logo.png",
+  "skills": "./skills/"
+}

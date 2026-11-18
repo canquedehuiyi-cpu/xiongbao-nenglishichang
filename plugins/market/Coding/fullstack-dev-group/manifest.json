@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "a6fbb105-fb79-42e6-9eca-08bf4ffa3ac3",
+  "name": "fullstack-dev-group",
+  "displayName": "fullstack-dev-group",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.2.0",
+  "publisher": "钟帷幄交付团队",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a13f87-4a08-78b5-aff3-b59355fbd058/d0c9bbd6_fullstack-dev-group.zip",
+  "zipSha256": "abdc82fe68cdeeef86ea64368baa9dc7c99199bd61de789ba9fd77257b9e0522",
+  "zipBytes": 210714,
+  "upstreamSha256": "abdc82fe68cdeeef86ea64368baa9dc7c99199bd61de789ba9fd77257b9e0522",
+  "files": 78,
+  "treeSha256": "98ade9724ce7c9bcb56a5a9ac01de68edfb7e79c90eb402c450fa16f2dd12ab8",
+  "fetchedAt": "2026-11-18T10:43:05.299Z",
+  "credentialScan": {
+    "textFilesScanned": 75,
+    "filesRedacted": 0
+  },
+  "note": null
+}

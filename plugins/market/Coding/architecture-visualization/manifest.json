@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "architecture-visualization",
+  "name": "architecture-visualization",
+  "displayName": "Architecture Visualization",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "Qoder",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fb747-8b1c-722b-9b0f-fd3578252acb/e3632563_08-architecture-visualization.zip",
+  "zipSha256": "2f899b58fab12146bcd9a20172b48457150c6d8d9d5a61292b0e91cc1e766cea",
+  "zipBytes": 1745609,
+  "upstreamSha256": "2f899b58fab12146bcd9a20172b48457150c6d8d9d5a61292b0e91cc1e766cea",
+  "files": 61,
+  "treeSha256": "bbc7f9534e6a8209ed204a725e3c461b82c00b8f5d100b59f4c4753df6ef1697",
+  "fetchedAt": "2026-11-18T10:42:54.066Z",
+  "credentialScan": {
+    "textFilesScanned": 52,
+    "filesRedacted": 0
+  },
+  "note": null
+}

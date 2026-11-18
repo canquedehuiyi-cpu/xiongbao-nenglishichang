@@ -1,0 +1,32 @@
+{
+  "name": "fullstack-dev-group",
+  "displayName": "全栈开发组",
+  "version": "0.2.0",
+  "description": "An 18-person software/hardware delivery team as a Qoder plugin: intelligent dispatch routes each request to the right role(s), and multi-role consultation runs a team review. Each member ships a detailed agent config under agents/. Bundles 15 self-contained skills covering orchestration, full-stack engineering, ops, drawio editable diagrams, hardware/embedded, product design, QA, CI/CD, API contract, design diagrams, network topology, high-fidelity prototype, test cases, effect image generation, and interactive canvas; everything is bundled and does not depend on any globally-installed skill.",
+  "author": {
+    "name": "钟帷幄交付团队"
+  },
+  "keywords": ["qoder-plugin", "team", "delivery", "fullstack", "ops", "dispatch", "consultation"],
+  "logo": "./assets/avatar256.png",
+  "skills": "./skills/",
+  "agents": [
+    "./agents/cha-wulou-qa.md",
+    "./agents/chang-shouheng-ops.md",
+    "./agents/chu-guxing-embedded.md",
+    "./agents/fan-chengma-dotnet.md",
+    "./agents/guo-qingzhou-go.md",
+    "./agents/jia-weiran-java.md",
+    "./agents/lan-tuhua-pm.md",
+    "./agents/li-xiangying-react.md",
+    "./agents/ling-chedi-cpp.md",
+    "./agents/lu-tongyuan-hw-lead.md",
+    "./agents/peng-senyu-python.md",
+    "./agents/shi-pan-an-be-lead.md",
+    "./agents/tang-duanyang-cross.md",
+    "./agents/tu-yuemu-ui.md",
+    "./agents/wei-youran-vue.md",
+    "./agents/yan-kejian-fe-lead.md",
+    "./agents/yi-tuan-hw.md",
+    "./agents/zhong-weiwo-director.md"
+  ]
+}

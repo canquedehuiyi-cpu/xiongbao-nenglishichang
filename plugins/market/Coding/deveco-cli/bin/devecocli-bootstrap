@@ -1,0 +1,828 @@
+#!/bin/sh
+# Copyright (c) 2026 Huawei Device Co., Ltd.
+# SPDX-License-Identifier: MIT
+# deveco-cli-plugin-entry
+
+DEVECO_NODE_MAJOR_MINIMUM='22'
+DEVECO_HARMONY_PLATFORM='openharmony'
+DEVECO_HARMONY_HOME='/storage/Users/currentUser'
+DEVECO_HARMONY_SYSTEM_ROOT='/data/service/hnp/hmos-clt.org'
+DEVECO_HARMONY_USER_DIRECTORY='/storage/Users/currentUser/deveco'
+DEVECO_HARMONY_USER_PREFIX='commandline-tools-harmonyos-'
+DEVECO_HARMONY_NODE_RELATIVE='node/bin/node'
+DEVECO_HARMONY_CLT_SANDBOX='.local/share/deveco-cli/clt'
+DEVECO_HARMONY_DOWNLOAD_URL='https://developer.huawei.com/consumer/cn/download/command-line-tools-for-hmos'
+DEVECO_HARMONY_DOWNLOAD_TARGET='/storage/Users/currentUser/deveco'
+DEVECO_HARMONY_STUDIO_SOURCE='app-market'
+DEVECO_HARMONY_STUDIO_SEARCH='DevEco Studio'
+
+deveco_detect_client() {
+  client_path=${SCRIPT_DIR:-${DEVECO_PLUGIN_SCRIPT_DIR:-}}
+  client_id=${DEVECO_PLUGIN_CLIENT:-}
+  DEVECO_CLIENT_ERROR='Cannot identify a unique Qoder client. Set DEVECO_PLUGIN_CLIENT to qoder or qoder-cn; HOME is not a client identifier.'
+  if [ -z "$client_id" ]; then
+    client_count=0
+    case "$client_path/" in *"/.qoder/"*) client_id='qoder'; client_count=$((client_count + 1));; esac
+case "$client_path/" in *"/.qoder-cn/"*) client_id='qoder-cn'; client_count=$((client_count + 1));; esac
+    if [ "$client_count" -eq 0 ]; then
+      if [ -n "${QODER_CONFIG_DIR:-}" ]; then client_id='qoder'; client_count=$((client_count + 1)); fi
+if [ -n "${QODERCN_CONFIG_DIR:-}" ]; then client_id='qoder-cn'; client_count=$((client_count + 1)); fi
+    fi
+    [ "$client_count" -eq 1 ] || return 1
+  fi
+  client_selected=0
+  if [ "$client_id" = 'qoder' ]; then
+      client_selected=1
+      DEVECO_TASK_NAMESPACE='qoder'
+      client_config="${QODER_CONFIG_DIR:-}"
+      if [ -z "$client_config" ]; then
+        case "$client_path/" in
+          *"/.qoder/"*) client_prefix="$client_path/"; client_config="${client_prefix%%/.qoder/*}/.qoder" ;;
+          *) client_config="${HOME:-$DEVECO_HARMONY_HOME}/.qoder" ;;
+        esac
+      fi
+      fi
+if [ "$client_id" = 'qoder-cn' ]; then
+      client_selected=1
+      DEVECO_TASK_NAMESPACE='qoder-cn'
+      client_config="${QODERCN_CONFIG_DIR:-}"
+      if [ -z "$client_config" ]; then
+        case "$client_path/" in
+          *"/.qoder-cn/"*) client_prefix="$client_path/"; client_config="${client_prefix%%/.qoder-cn/*}/.qoder-cn" ;;
+          *) client_config="${HOME:-$DEVECO_HARMONY_HOME}/.qoder-cn" ;;
+        esac
+      fi
+      fi
+  [ "$client_selected" -eq 1 ] || return 1
+  case "$client_config" in
+    /*) ;;
+    *) DEVECO_CLIENT_ERROR='The client configuration directory must be an absolute path.'; return 1 ;;
+  esac
+  DEVECO_PLUGIN_CLIENT=$client_id
+  DEVECO_PLUGIN_CLIENT_CONFIG_DIR=$client_config
+  export DEVECO_PLUGIN_CLIENT DEVECO_PLUGIN_CLIENT_CONFIG_DIR
+}
+
+deveco_async_task() {
+  case "$(uname -s 2>/dev/null || true)" in
+    HarmonyOS|OpenHarmony|openharmony|openharmonyOS) ;;
+    *) echo 'This asynchronous helper is available only on HarmonyOS PC.' >&2; exit 1 ;;
+  esac
+  deveco_detect_client || { echo "$DEVECO_CLIENT_ERROR" >&2; exit 1; }
+  task_kind=$1
+  task_stem=$2
+  shift 2
+  task_entry="$SCRIPT_DIR/$(basename -- "$0")"
+  TASK_DIR="$(deveco_task_directory "$task_kind")"
+  LOG_FILE="$TASK_DIR/$task_stem.log"
+  PID_FILE="$TASK_DIR/$task_stem.pid"
+  EXIT_FILE="$TASK_DIR/$task_stem.exit"
+  LOCK_DIR="$TASK_DIR/$task_stem.start.lock"
+  LOCK_PID_FILE="$LOCK_DIR/pid"
+  mkdir -p "$TASK_DIR"
+  # Verify state-file writes before any background process is created.
+  : > "$TASK_DIR/.write-test"
+  rm -f "$TASK_DIR/.write-test"
+  task_report() {
+    printf '{"status":"%s","pid":"%s","log":"%s","exitFile":"%s","completionSource":"log","completionMarker":"[devecocli-task-result] exitCode="}\n' "$1" "$2" "$(deveco_json_escape "$LOG_FILE")" "$(deveco_json_escape "$EXIT_FILE")"
+  }
+  if [ "${1:-}" = '--internal-worker' ]; then
+    shift
+    printf '%s\n' "$$" > "$PID_FILE"
+    printf '%s\n' "$$" > "$LOCK_PID_FILE"
+    task_finish() {
+      task_code=$?
+      trap - EXIT
+      printf '%s\n' "$task_code" > "$EXIT_FILE.tmp"
+      mv "$EXIT_FILE.tmp" "$EXIT_FILE"
+      if [ "$task_code" = 0 ]; then
+        rm -f "$EXIT_FILE" "$EXIT_FILE.tmp"
+      fi
+      printf '[%s] [%s] [devecocli-task-result] exitCode=%s\n' "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "$$" "$task_code" >> "$LOG_FILE"
+      rm -f "$PID_FILE" "$LOCK_PID_FILE"
+      rmdir "$LOCK_DIR" 2>/dev/null || true
+    }
+    trap task_finish EXIT
+    printf '[%s] [%s] Task started: %s\n' "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "$$" "$(basename -- "$task_entry")"
+    export DEVECO_CLT_LOG_REDIRECTED=1
+    export DEVECO_CLT_TASK_DIR="$TASK_DIR"
+    "$SCRIPT_DIR/devecocli-clt-install-after-browser" "$@" &
+    task_child=$!
+    trap 'kill -TERM "$task_child" 2>/dev/null || true; wait "$task_child" || true; exit 143' TERM HUP
+    trap 'kill -INT "$task_child" 2>/dev/null || true; wait "$task_child" || true; exit 130' INT
+    set +e
+    wait "$task_child"
+    task_code=$?
+    exit "$task_code"
+  fi
+  if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+    task_pid=$(cat "$LOCK_PID_FILE" 2>/dev/null || true)
+    if [ -n "$task_pid" ] && kill -0 "$task_pid" 2>/dev/null; then
+      task_report already-running "$task_pid"
+      exit 0
+    fi
+    rm -f "$LOCK_PID_FILE"
+    if ! rmdir "$LOCK_DIR" 2>/dev/null || ! mkdir "$LOCK_DIR" 2>/dev/null; then
+      echo 'The task startup lock is busy. Retry after the current startup attempt finishes.' >&2
+      exit 2
+    fi
+  fi
+  printf '%s\n' "$$" > "$LOCK_PID_FILE"
+  rm -f "$EXIT_FILE"
+  : > "$LOG_FILE"
+  nohup "$task_entry" --internal-worker "$@" > "$LOG_FILE" 2>&1 < /dev/null &
+  task_pid=$!
+  printf '%s\n' "$task_pid" > "$LOCK_PID_FILE"
+  task_report started "$task_pid"
+}
+
+deveco_task_directory() {
+  printf '%s\n' "${HOME:-$DEVECO_HARMONY_HOME}/.local/state/deveco-cli/$DEVECO_TASK_NAMESPACE/tasks/$1"
+}
+
+deveco_clt_lock_directory() {
+  printf '%s\n' "${HOME:-$DEVECO_HARMONY_HOME}/.local/state/deveco-cli/tasks/clt/.devecocli-clt-install.lock"
+}
+
+deveco_json_escape() {
+  printf '%s' "$1" | LC_ALL=C od -An -v -tu1 | LC_ALL=C awk '
+    {
+      for (position = 1; position <= NF; position++) {
+        byte = $position + 0
+        if (byte == 8) printf "\\b"
+        else if (byte == 9) printf "\\t"
+        else if (byte == 10) printf "\\n"
+        else if (byte == 12) printf "\\f"
+        else if (byte == 13) printf "\\r"
+        else if (byte < 32 || byte == 127) printf "\\u%04x", byte
+        else if (byte == 34) printf "\\\""
+        else if (byte == 92) printf "\\\\"
+        else printf "%c", byte
+      }
+    }
+  '
+}
+
+deveco_check_failure() {
+  status=$1
+  platform=$(deveco_json_escape "$2")
+  variant=$3
+  launcher=$(deveco_json_escape "$DEVECO_PLUGIN_SCRIPT_DIR/devecocli")
+  case "$status" in
+    toolchain-required)
+      actions="[{\"action\":\"choose-toolchain\",\"options\":{\"devecoStudio\":{\"source\":\"$(deveco_json_escape "$DEVECO_HARMONY_STUDIO_SOURCE")\",\"search\":\"$(deveco_json_escape "$DEVECO_HARMONY_STUDIO_SEARCH")\",\"actions\":[{\"action\":\"ask-user-to-install-from-appgallery\"},{\"action\":\"rerun-runtime-check\"}]},\"commandLineTools\":{\"actions\":[{\"action\":\"open-built-in-browser\",\"url\":\"$(deveco_json_escape "$DEVECO_HARMONY_DOWNLOAD_URL")\"},{\"action\":\"run\",\"command\":\"$(deveco_json_escape "$DEVECO_PLUGIN_SCRIPT_DIR/devecocli-clt-install-after-browser-start")\",\"waitForCompletion\":false},{\"action\":\"poll-log-for-task-result-until-complete\"},{\"action\":\"rerun-runtime-check\"}]}}}]"
+      ;;
+    toolchain-invalid) actions='[{"action":"review-runtime-error"}]' ;;
+    *) actions="[{\"action\":\"$(deveco_json_escape "$4")\"}]" ;;
+  esac
+  message=$(deveco_human_failure "$status" "$2" 2>&1)
+  printf '{"schemaVersion":1,"status":"%s","host":{"platform":"%s","runtimeVariant":%s},"launcher":"%s","actions":%s,"error":{"code":"%s","message":"%s"}}\n' \
+    "$status" "$platform" "$variant" "$launcher" "$actions" "$status" "$(deveco_json_escape "$message")"
+}
+
+deveco_human_failure() {
+  case "$1" in
+    toolchain-required)
+      printf '%s\n' "Neither DevEco Studio nor HarmonyOS Command Line Tools was found. Ask the user to choose DevEco Studio or Command Line Tools. For Studio, open AppGallery and search for $DEVECO_HARMONY_STUDIO_SEARCH. For CLT, open the download page in the application's built-in browser, immediately run devecocli-clt-install-after-browser-start, then monitor the same task." >&2
+      ;;
+    toolchain-invalid)
+      printf '%s\n' 'The HarmonyOS toolchain installation is incomplete or invalid. Review the runtime error before proposing repair or replacement; do not assume another download is required.' >&2
+      ;;
+    node-missing)
+      printf '%s\n' "Node.js was not found. Install Node.js $DEVECO_NODE_MAJOR_MINIMUM or later and retry." >&2
+      ;;
+    node-unsupported)
+      printf '%s\n' "Node.js $DEVECO_NODE_MAJOR_MINIMUM or later is required. The available Node.js version is ${DEVECO_PLUGIN_LAST_NODE_VERSION:-unknown}." >&2
+      ;;
+    node-invalid)
+      printf '%s\n' 'The discovered Node.js executable could not report a valid version.' >&2
+      ;;
+    unsupported-host)
+      printf '%s\n' "This plugin does not support the detected host: $2." >&2
+      ;;
+    configuration-error)
+      printf '%s\n' "$DEVECO_CLIENT_ERROR" >&2
+      ;;
+  esac
+}
+
+deveco_system_toolchains() {
+  [ -d "$DEVECO_HARMONY_SYSTEM_ROOT" ] || return 0
+  find "$DEVECO_HARMONY_SYSTEM_ROOT" -maxdepth 5 -type f -path "*/$DEVECO_HARMONY_NODE_RELATIVE" 2>/dev/null |
+    while IFS= read -r marker; do
+      root=${marker%/"$DEVECO_HARMONY_NODE_RELATIVE"}
+      printf '%s\n' "$root"
+    done | deveco_sort_toolchain_roots
+}
+
+deveco_sort_toolchain_roots() {
+  awk '
+      { name=$0; sub(/^.*\//,"",name); sub(/^[^0-9]*/,"",name);
+        n=split(name,v,"."); key="";
+        for(i=1;i<=8;i++) key=key sprintf("%010d",i<=n?v[i]:0);
+        print key "\t" $0
+      }' | sort -r | cut -f2-
+}
+
+deveco_complete_clt() {
+  for relative in "$DEVECO_HARMONY_NODE_RELATIVE" ohpm/bin/pm-cli.js hvigor/bin/hvigorw.js sdk/default/openharmony/toolchains/hdc; do
+    [ -f "$1/$relative" ] || return 1
+  done
+}
+
+deveco_external_toolchains() {
+  for scan_root in "$DEVECO_HARMONY_USER_DIRECTORY" "$DEVECO_HARMONY_HOME" "${HOME:-}"; do
+    [ -d "$scan_root" ] || continue
+    find "$scan_root" -maxdepth 8 -type f -path "*/$DEVECO_HARMONY_NODE_RELATIVE" 2>/dev/null |
+      while IFS= read -r marker; do
+        found_root=${marker%/"$DEVECO_HARMONY_NODE_RELATIVE"}
+        case "$found_root/" in
+          "$DEVECO_HARMONY_SYSTEM_ROOT/"*|"${HOME:-$DEVECO_HARMONY_HOME}/$DEVECO_HARMONY_CLT_SANDBOX/"*) continue ;;
+        esac
+        deveco_complete_clt "$found_root" && printf '%s\n' "$found_root"
+      done
+  done | awk '!seen[$0]++' | deveco_sort_toolchain_roots
+}
+
+deveco_native_node() {
+  native_roots=$(deveco_system_toolchains)
+  saved_ifs=$IFS
+  IFS='
+'
+  for native_root in $native_roots; do
+    IFS=$saved_ifs
+    if deveco_complete_clt "$native_root" && deveco_try_node "$native_root/$DEVECO_HARMONY_NODE_RELATIVE" system; then
+      return 0
+    fi
+  done
+  IFS=$saved_ifs
+  private_parent="${HOME:-$DEVECO_HARMONY_HOME}/$DEVECO_HARMONY_CLT_SANDBOX"
+  for native_root in "$DEVECO_HARMONY_DOWNLOAD_TARGET/command-line-tools" "$DEVECO_HARMONY_DOWNLOAD_TARGET" "$private_parent/command-line-tools" "$private_parent"; do
+    if deveco_complete_clt "$native_root" && deveco_try_node "$native_root/$DEVECO_HARMONY_NODE_RELATIVE" user; then
+      return 0
+    fi
+  done
+  external_roots=$(deveco_external_toolchains)
+  IFS='
+'
+  for native_root in $external_roots; do
+    IFS=$saved_ifs
+    imported_root="$private_parent/command-line-tools"
+    if deveco_import_harmony_toolchain "$native_root" "$imported_root" "$DEVECO_HARMONY_NODE_RELATIVE" "$DEVECO_NODE_MAJOR_MINIMUM" &&
+      deveco_try_node "$imported_root/$DEVECO_HARMONY_NODE_RELATIVE" user; then
+      return 0
+    fi
+  done
+  IFS=$saved_ifs
+  return 1
+}
+
+# Run cp through the host shell: Node may be unable to open the source CLT files.
+deveco_import_harmony_toolchain() (
+  set -eu
+  import_source=$1
+  import_destination=$2
+  import_node_relative=$3
+  import_minimum=$4
+  case "$import_destination/" in "$import_source/"*) echo 'Cannot import a CLT into its own descendant.' >&2; exit 1 ;; esac
+  import_parent=$(dirname "$import_destination")
+  mkdir -p "$import_parent" || exit 1
+  import_lock=$(deveco_clt_lock_directory)
+  import_state=$(dirname "$import_lock")
+  mkdir -p "$import_state" || exit 1
+  if [ -f "$import_lock/pid" ]; then
+    import_owner=$(cat "$import_lock/pid" 2>/dev/null || true)
+    if [ -n "$import_owner" ] && ! kill -0 "$import_owner" 2>/dev/null; then
+      rm -f "$import_lock/pid"
+      rmdir "$import_lock" 2>/dev/null || true
+    fi
+  fi
+  if ! mkdir "$import_lock" 2>/dev/null; then
+    echo "Another CLT import owns $import_lock; wait for it to finish." >&2
+    exit 2
+  fi
+  import_stage=''
+  import_previous=''
+  import_cleanup() {
+    if [ -n "$import_previous" ] && [ ! -e "$import_destination" ]; then
+      mv "$import_previous" "$import_destination" || true
+    fi
+    [ -z "$import_stage" ] || rm -rf "$import_stage"
+    rm -f "$import_lock/pid"
+    rmdir "$import_lock" 2>/dev/null || true
+  }
+  trap import_cleanup EXIT
+  trap 'exit 130' INT
+  trap 'exit 143' TERM HUP
+  printf '%s\n' "$$" > "$import_lock/pid" || exit 1
+  import_stage=$(mktemp -d "$import_parent/.devecocli-clt-import.XXXXXX") || exit 1
+  echo "Copying complete CLT: $import_source -> $import_destination (original unchanged)." >&2
+  cp -R "$import_source/." "$import_stage/" || exit 1
+  for relative in "$import_node_relative" ohpm/bin/pm-cli.js hvigor/bin/hvigorw.js sdk/default/openharmony/toolchains/hdc; do
+    [ -f "$import_stage/$relative" ] || { echo "CLT import missing: $relative" >&2; exit 1; }
+  done
+  [ ! -L "$import_stage/$import_node_relative" ] || { echo 'Imported Node must not be a symbolic link.' >&2; exit 1; }
+  import_version=$("$import_stage/$import_node_relative" -p process.versions.node) || exit 1
+  import_major=${import_version%%.*}
+  case "$import_major" in ''|*[!0-9]*) exit 1 ;; esac
+  [ "$import_major" -ge "$import_minimum" ] || exit 1
+  "$import_stage/$import_node_relative" -e 'const fs=require("fs"),p=require("path"),root=fs.realpathSync(process.argv[1]);function walk(d){for(const e of fs.readdirSync(d,{withFileTypes:true})){const f=p.join(d,e.name);if(e.isSymbolicLink()){const r=fs.realpathSync(f);if(r!==root&&!r.startsWith(root+p.sep))throw Error("CLT link escapes private root: "+f);}else if(e.isDirectory())walk(f);}}walk(root);' "$import_stage" || exit 1
+  printf '%s\n' "$import_source" > "$import_stage/.devecocli-clt-source" || exit 1
+  if [ -e "$import_destination" ]; then
+    import_previous="$import_stage.previous"
+    mv "$import_destination" "$import_previous" || exit 1
+  fi
+  if ! mv "$import_stage" "$import_destination"; then
+    [ -z "$import_previous" ] || mv "$import_previous" "$import_destination"
+    exit 1
+  fi
+  import_stage=''
+  [ -z "$import_previous" ] || echo "Previous private CLT retained at $import_previous" >&2
+  echo "CLT import complete: $import_destination" >&2
+)
+
+deveco_try_node() {
+  candidate=$1
+  source=$2
+  [ -n "$candidate" ] || return 1
+  if [ "${native:-0}" -eq 1 ]; then
+    [ -f "$candidate" ] || return 1
+  else
+    [ -x "$candidate" ] || return 1
+  fi
+  DEVECO_PLUGIN_NODE_SEEN=1
+  node_probe_stderr=/dev/null
+  if [ "${native:-0}" -eq 1 ] && [ "${mode:-}" = install ]; then
+    node_probe_dir="$(deveco_task_directory runtime)"
+    if mkdir -p "$node_probe_dir"; then
+      node_probe_stderr=$(mktemp "$node_probe_dir/.node-probe.XXXXXX" 2>/dev/null || printf /dev/null)
+    fi
+    printf '[%s] [%s] Node probe: source=%s executable=%s args=-p process.versions.node\n' "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "$$" "$source" "$candidate" >&2
+  fi
+  if version=$("$candidate" -p 'process.versions.node' 2> "$node_probe_stderr"); then
+    node_probe_code=0
+  else
+    node_probe_code=$?
+  fi
+  if [ "${native:-0}" -eq 1 ] && [ "${mode:-}" = install ]; then
+    printf '[%s] [%s] Node probe result: exitCode=%s stdout=%s\n' "$(date -u '+%Y-%m-%dT%H:%M:%SZ')" "$$" "$node_probe_code" "${version:-<empty>}" >&2
+    if [ "$node_probe_stderr" != /dev/null ]; then
+      cat "$node_probe_stderr" >&2
+      rm -f "$node_probe_stderr"
+    fi
+  fi
+  if [ "$node_probe_code" -ne 0 ]; then
+    DEVECO_PLUGIN_NODE_INVALID=1
+    return 1
+  fi
+  major=${version%%.*}
+  case "$major" in
+    ''|*[!0-9]*)
+      DEVECO_PLUGIN_NODE_INVALID=1
+      return 1
+      ;;
+  esac
+  DEVECO_PLUGIN_LAST_NODE_VERSION=$version
+  if [ "$major" -lt "$DEVECO_NODE_MAJOR_MINIMUM" ]; then
+    DEVECO_PLUGIN_NODE_UNSUPPORTED=1
+    return 1
+  fi
+  DEVECO_PLUGIN_NODE=$candidate
+  DEVECO_PLUGIN_NODE_SOURCE=$source
+  return 0
+}
+
+deveco_find_harmony_toolchain_root() {
+  for deveco_root in "${HOME:-$DEVECO_HARMONY_HOME}/$DEVECO_HARMONY_CLT_SANDBOX/command-line-tools" "$DEVECO_HARMONY_DOWNLOAD_TARGET/command-line-tools" \
+    "$DEVECO_HARMONY_DOWNLOAD_TARGET" "$DEVECO_HARMONY_HOME" "${HOME:-}"; do
+    [ -d "$deveco_root" ] || continue
+    if [ -f "$deveco_root/$DEVECO_HARMONY_NODE_RELATIVE" ] && \
+      [ -f "$deveco_root/ohpm/bin/pm-cli.js" ] && \
+      [ -f "$deveco_root/hvigor/bin/hvigorw.js" ] && \
+      [ -f "$deveco_root/sdk/default/openharmony/toolchains/hdc" ]; then
+      printf '%s\n' "$deveco_root"
+      return 0
+    fi
+  done
+  for deveco_scan_root in "$DEVECO_HARMONY_DOWNLOAD_TARGET" "$DEVECO_HARMONY_HOME" "${HOME:-}"; do
+    [ -d "$deveco_scan_root" ] || continue
+    deveco_found=$(find "$deveco_scan_root" -maxdepth 8 -type f -path "*/$DEVECO_HARMONY_NODE_RELATIVE" 2>/dev/null |
+      while IFS= read -r deveco_node_marker; do
+        deveco_root=${deveco_node_marker%/"$DEVECO_HARMONY_NODE_RELATIVE"}
+        if [ -f "$deveco_root/ohpm/bin/pm-cli.js" ] &&
+          [ -f "$deveco_root/hvigor/bin/hvigorw.js" ] &&
+          [ -f "$deveco_root/sdk/default/openharmony/toolchains/hdc" ]; then
+          printf '%s\n' "$deveco_root"
+          break
+        fi
+      done)
+    if [ -n "$deveco_found" ]; then
+      printf '%s\n' "$deveco_found"
+      return 0
+    fi
+  done
+  return 1
+}
+
+deveco_probe_native() {
+  DEVECO_PLUGIN_NATIVE_NODE=0
+  DEVECO_PLUGIN_NATIVE_ROOT=0
+  for deveco_root in "$DEVECO_HARMONY_SYSTEM_ROOT" "$DEVECO_HARMONY_USER_DIRECTORY"/"$DEVECO_HARMONY_USER_PREFIX"*; do
+    if [ -d "$deveco_root" ]; then
+      DEVECO_PLUGIN_NATIVE_ROOT=1
+    fi
+    if [ -f "$deveco_root/$DEVECO_HARMONY_NODE_RELATIVE" ]; then
+      DEVECO_PLUGIN_NATIVE_NODE=1
+    fi
+  done
+  case "$1" in
+    HarmonyOS|OpenHarmony|openharmony|openharmonyOS)
+      if [ "$DEVECO_PLUGIN_NATIVE_ROOT" -eq 0 ] &&
+        [ -n "$(deveco_find_harmony_toolchain_root 2>/dev/null || true)" ]; then
+        DEVECO_PLUGIN_NATIVE_ROOT=1
+      fi
+      ;;
+  esac
+}
+
+deveco_clt_archive_size() {
+  deveco_size=$(stat -c '%s' "$1" 2>/dev/null || true)
+  case "$deveco_size" in
+    ''|*[!0-9]*) deveco_size=$(ls -ln "$1" 2>/dev/null | awk '{print $5}' || true) ;;
+  esac
+  case "$deveco_size" in
+    ''|*[!0-9]*) return 1 ;;
+  esac
+  printf '%s\n' "$deveco_size"
+}
+
+deveco_install_clt_archive() {
+  archive=${2:-}
+  staging=''
+  progress_pid=''
+  target="$DEVECO_HARMONY_DOWNLOAD_TARGET"
+  task_dir=${DEVECO_CLT_TASK_DIR:-$(deveco_task_directory clt)}
+  mkdir -p "$task_dir"
+  mkdir -p "$target" || return 1
+  lock_dir=$(deveco_clt_lock_directory)
+  mkdir -p "$(dirname "$lock_dir")" || return 1
+  if ! mkdir "$lock_dir" 2>/dev/null; then
+    owner=''
+    [ -f "$lock_dir/pid" ] && owner=$(cat "$lock_dir/pid" 2>/dev/null || true)
+    if [ -n "$owner" ] && kill -0 "$owner" 2>/dev/null; then
+      printf '%s\n' "Another HarmonyOS CLT installation or import is already running (PID $owner). Wait for that task to finish before retrying."
+      return 2
+    fi
+    if [ -z "$owner" ]; then
+      printf '%s\n' "The shared CLT lock has no recorded PID yet: $lock_dir. It may be initializing; do not remove it while another task may be starting."
+      return 2
+    fi
+    rm -rf "$lock_dir"
+    mkdir "$lock_dir" 2>/dev/null || {
+      printf '%s\n' 'Unable to acquire the HarmonyOS CLT installation lock.'
+      return 2
+    }
+  fi
+  printf '%s\n' "$$" > "$lock_dir/pid"
+  deveco_clt_progress_stop() {
+    if [ -n "$progress_pid" ]; then
+      kill -TERM "$progress_pid" 2>/dev/null || true
+      wait "$progress_pid" 2>/dev/null || true
+      progress_pid=''
+    fi
+  }
+  deveco_clt_cleanup() {
+    deveco_clt_progress_stop
+    if [ -n "${previous:-}" ] && [ ! -e "${destination:-}" ]; then
+      mv "$previous" "$destination" || true
+    fi
+    rm -rf "$lock_dir"
+    [ -n "${selection_file:-}" ] && rm -f "$selection_file"
+    if [ -n "${staging:-}" ] && [ "$staging" = "$target/.devecocli-clt.$$" ]; then
+      if [ -d "$staging" ]; then
+        deveco_clt_log "State: cleanup; removing extraction staging: $staging (original archive unchanged: $archive)"
+        rm -rf "$staging"
+      fi
+    fi
+  }
+  trap 'deveco_clt_cleanup' EXIT
+  trap 'exit 129' HUP
+  trap 'exit 130' INT
+  trap 'exit 143' TERM
+  log_file="$task_dir/.devecocli-clt-install.log"
+  if [ "${DEVECO_CLT_LOG_REDIRECTED:-0}" != 1 ]; then
+    : > "$log_file"
+  fi
+  deveco_clt_log() {
+    message=$1
+    log_time=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+    printf '[%s] [%s] %s\n' "$log_time" "$$" "$message"
+    if [ "${DEVECO_CLT_LOG_REDIRECTED:-0}" != 1 ]; then
+      printf '[%s] [%s] %s\n' "$log_time" "$$" "$message" >> "$log_file"
+    fi
+  }
+  deveco_clt_progress_start() {
+    (
+      progress_wait=''
+      trap 'if [ -n "$progress_wait" ]; then kill -TERM "$progress_wait" 2>/dev/null || true; wait "$progress_wait" 2>/dev/null || true; fi; exit 0' TERM HUP INT
+      progress_elapsed=0
+      while :; do
+        command sleep 20 &
+        progress_wait=$!
+        wait "$progress_wait" || exit 0
+        progress_wait=''
+        progress_elapsed=$((progress_elapsed + 20))
+        deveco_clt_log "State: extracting; elapsed about ${progress_elapsed}s; extraction is still running in $staging"
+      done
+    ) &
+    progress_pid=$!
+  }
+  deveco_clt_log 'HarmonyOS CLT installer started.'
+  deveco_clt_log 'This script finds the downloaded archive, waits for download completion, validates its format, extracts it, fixes the directory layout, validates required components, and installs the toolchain.'
+  deveco_clt_log "Progress log: $log_file"
+  deveco_clt_log "Toolchain install directory: $target/command-line-tools"
+  start_time=$(date +%s 2>/dev/null || printf '0')
+  deadline=$((start_time + 1800))
+  deveco_clt_check_timeout() {
+    now=$(date +%s 2>/dev/null || printf '0')
+    if [ "$now" -ge "$deadline" ]; then
+      deveco_clt_log 'State: timeout; CLT installation exceeded the 30-minute limit.'
+      return 124
+    fi
+    return 0
+  }
+  if [ -z "$archive" ]; then
+    archive=''
+    stable=0
+    previous_size=0
+    previous_archive=''
+    selection_file="$task_dir/.devecocli-selected.$$"
+    rm -f "$selection_file"
+    while [ -z "$archive" ]; do
+      deveco_clt_check_timeout || return $?
+      candidates=''
+      seen_roots=''
+      for scan_root in "$DEVECO_HARMONY_DOWNLOAD_TARGET" "$DEVECO_HARMONY_HOME" "${HOME:-}"; do
+        [ -n "$scan_root" ] || continue
+        case ":$seen_roots:" in
+          *":$scan_root:"*) continue ;;
+        esac
+        seen_roots="$seen_roots:$scan_root"
+        if [ ! -d "$scan_root" ]; then
+          continue
+        fi
+        root_candidates=$(find "$scan_root" -maxdepth 4 -type f \( -name '*.zip' -o -name '*.gz' \) 2>/dev/null || true)
+        [ -n "$root_candidates" ] && candidates="$candidates${candidates:+
+}$root_candidates"
+      done
+      largest_size=0
+      rm -f "$selection_file"
+      old_ifs=$IFS
+      newline=$(printf '\nx')
+      IFS=${newline%x}
+      for candidate in $candidates; do
+        [ -n "$candidate" ] || continue
+        case "$candidate" in
+          *commandline*|*CommandLine*|*command-line*|*Command-Line*|*command_line*|*Command_Line*|*clt*|*CLT*) ;;
+          *) continue ;;
+        esac
+        # HarmonyOS may reject test -r while external tools can open the file.
+        if ! head -c 1 "$candidate" > /dev/null 2>/dev/null; then
+          deveco_clt_log "State: archive-read-failed; actual file read failed, will retry: $candidate"
+          continue
+        fi
+        candidate_size=$(deveco_clt_archive_size "$candidate") || {
+          deveco_clt_log "State: archive-metadata-unavailable; cannot determine archive size, will retry: $candidate"
+          continue
+        }
+        if awk -v candidate_size="$candidate_size" -v largest_size="$largest_size" 'BEGIN { exit !(candidate_size > largest_size) }'; then
+          printf '%s\n' "$candidate" > "$selection_file"
+          largest_size=$candidate_size
+        fi
+      done
+      IFS=$old_ifs
+      if [ -f "$selection_file" ]; then
+        archive=$(cat "$selection_file" 2>/dev/null || true)
+      fi
+      if [ -n "$archive" ]; then
+        current_size=$largest_size
+        if [ "$archive" = "$previous_archive" ] && [ "$current_size" = "$previous_size" ] && [ "$current_size" != 0 ]; then
+          stable=$((stable + 1))
+        else
+          stable=0
+        fi
+        previous_size=$current_size
+        previous_archive=$archive
+        if [ "$stable" -lt 2 ]; then
+          deveco_clt_log "State: download-in-progress; waiting for the archive to become stable: $archive (${current_size:-0} bytes)"
+          archive=''
+          sleep 20
+        fi
+      else
+        deveco_clt_log 'State: waiting-for-download; no readable, non-empty CLT archive is available yet; see any read or metadata errors above.'
+        sleep 20
+      fi
+    done
+  fi
+  deveco_clt_check_timeout || return $?
+  [ -f "$archive" ] || { deveco_clt_log "CLT archive not found: $archive"; return 2; }
+  deveco_clt_log 'State: download-complete; starting archive validation.'
+  deveco_clt_log "CLT download is complete: $archive"
+  staging="$target/.devecocli-clt.$$"
+  mkdir -p "$staging" "$target"
+  deveco_clt_log "Extraction staging directory: $staging"
+  magic=$(head -c 3 "$archive" | od -An -tx1 | tr -d ' \n')
+  if [ "$magic" != '1f8b08' ]; then
+    deveco_clt_log 'The downloaded CLT archive is not gzip+tar format.'
+    return 1
+  fi
+  deveco_clt_log 'State: extracting; skipping archive timestamps; this may take several minutes.'
+  deveco_clt_progress_start
+  if gunzip -c "$archive" | tar xmf - -C "$staging"; then
+    deveco_clt_progress_stop
+  else
+    deveco_clt_progress_stop
+    deveco_clt_log 'State: extraction-failed; gzip/tar extraction returned a failure.'
+    return 1
+  fi
+  nested_archive=$(find "$staging" -mindepth 1 -maxdepth 8 -type f \( -name 'command-tools-harmonyos-*.tar' -o -name 'commandline-tools-harmonyos-*.tar' \) -print -quit 2>/dev/null || true)
+  if [ -n "$nested_archive" ]; then
+    deveco_clt_log 'State: extracting-nested-toolchain; unpacking the inner Command Line Tools tar archive.'
+    deveco_clt_progress_start
+    if tar xmf "$nested_archive" -C "$staging"; then
+      deveco_clt_progress_stop
+    else
+      deveco_clt_progress_stop
+      deveco_clt_log "State: extraction-failed; inner tar failed: $nested_archive"
+      return 1
+    fi
+  fi
+  deveco_clt_log 'State: extraction-complete; validating toolchain contents.'
+  clt_root=$(find "$staging" -mindepth 1 -maxdepth 3 -type d -name 'commandline-tools-harmonyos-*' -print -quit 2>/dev/null || true)
+  [ -n "$clt_root" ] || clt_root=$(find "$staging" -mindepth 1 -maxdepth 3 -type d -name 'command-line-tools-harmonyos-*' -print -quit 2>/dev/null || true)
+  if [ -z "$clt_root" ]; then
+    node_marker=$(find "$staging" -mindepth 1 -maxdepth 7 -type f -path "*/$DEVECO_HARMONY_NODE_RELATIVE" -print -quit 2>/dev/null || true)
+    if [ -n "$node_marker" ]; then
+      clt_root=${node_marker%/"$DEVECO_HARMONY_NODE_RELATIVE"}
+    fi
+  fi
+  [ -n "$clt_root" ] || { deveco_clt_log 'The CLT archive has an unexpected directory structure.'; return 1; }
+  nested="$clt_root/command-line-tools"
+  if [ -d "$nested" ]; then
+    deveco_clt_log 'Flattening nested command-line-tools directory.'
+    mv "$nested"/* "$clt_root"/
+  fi
+  deveco_clt_log "Selected CLT root: $clt_root"
+  deveco_clt_log 'State: validating-components; checking Node.js, npm/ohpm, hvigor, and hdc.'
+  invalid_components=0
+  for component in "$DEVECO_HARMONY_NODE_RELATIVE" ohpm/bin/pm-cli.js hvigor/bin/hvigorw.js sdk/default/openharmony/toolchains/hdc; do
+    if [ ! -f "$clt_root/$component" ]; then
+      deveco_clt_log "Component missing or not a regular file: $clt_root/$component"
+      invalid_components=1
+    else
+      deveco_clt_log "Component present: $clt_root/$component"
+    fi
+  done
+  if [ "$invalid_components" != 0 ]; then
+    deveco_clt_log 'State: component-validation-failed; see individual component results above.'
+    return 1
+  fi
+  destination="$target/command-line-tools"
+  previous=''
+  if [ -e "$destination" ]; then
+    previous="$staging.previous"
+    mv "$destination" "$previous"
+  fi
+  deveco_clt_log 'State: installing; moving the validated toolchain into the configured target.'
+  deveco_clt_log "Installing the validated CLT at $destination"
+  if ! mv "$clt_root" "$destination"; then
+    [ -z "$previous" ] || mv "$previous" "$destination"
+    return 1
+  fi
+  [ -z "$previous" ] || deveco_clt_log "Previous private CLT retained at $previous"
+  rm -rf "$staging"
+  deveco_clt_log "State: complete; installed HarmonyOS Command Line Tools into $destination"
+}
+
+deveco_plugin_bootstrap() {
+  mode=$1
+  shift
+  uname_value=$(uname -s 2>/dev/null || true)
+  case "$uname_value" in
+    Darwin) bootstrap_platform='darwin' ;;
+    Linux) bootstrap_platform='linux' ;;
+    HarmonyOS|OpenHarmony|openharmony|openharmonyOS) bootstrap_platform=$DEVECO_HARMONY_PLATFORM ;;
+    *) bootstrap_platform=${uname_value:-unknown} ;;
+  esac
+  if ! deveco_detect_client; then
+    if [ "$mode" = check ]; then
+      deveco_check_failure configuration-error "$bootstrap_platform" null repair-plugin-configuration
+    else
+      echo "$DEVECO_CLIENT_ERROR" >&2
+    fi
+    return 1
+  fi
+  if [ "$mode" = 'install' ] && [ "${1:-}" = '--clt' ]; then
+    case "$uname_value" in
+      HarmonyOS|OpenHarmony|openharmony|openharmonyOS)
+        deveco_install_clt_archive "$@"
+        return $?
+        ;;
+    esac
+  fi
+  deveco_probe_native "$uname_value"
+  native=$DEVECO_PLUGIN_NATIVE_NODE
+  case "$uname_value" in
+    HarmonyOS|OpenHarmony|openharmony|openharmonyOS) native=1 ;;
+  esac
+  if [ "$native" -eq 1 ]; then
+    if [ "$mode" = install ]; then
+      echo 'MUST run CLI installation in the foreground. MUST continuously read its output until the process exits. Do not detach, hide output, or report success before verification.' >&2
+    elif [ "$mode" = run ] && [ "${1:-}" = auth ] && [ "${2:-}" = login ]; then
+      echo 'MUST redirect login stdout/stderr to an Agent-chosen log and use the host tool background-execution option. READ that known log immediately. DO NOT wait for this command to finish or rely on its returned output to obtain the authorization URL. Do not use nohup or setsid.' >&2
+    fi
+    platform=$DEVECO_HARMONY_PLATFORM
+    variant='"harmonyos-native"'
+    if [ "$DEVECO_PLUGIN_NATIVE_ROOT" -eq 0 ]; then
+      if [ "$mode" = 'check' ]; then
+        deveco_check_failure 'toolchain-required' "$platform" "$variant"
+      else
+        deveco_human_failure 'toolchain-required' "$platform"
+      fi
+      return 2
+    fi
+  else
+    case "$uname_value" in
+      Darwin)
+        platform='darwin'
+        variant='"cross-platform"'
+        ;;
+      Linux)
+        platform='linux'
+        variant='"cross-platform"'
+        ;;
+      *)
+        if [ "$mode" = 'check' ]; then
+          deveco_check_failure 'unsupported-host' "${uname_value:-unknown}" 'null' 'use-a-supported-host'
+        else
+          deveco_human_failure 'unsupported-host' "${uname_value:-unknown}"
+        fi
+        return 1
+        ;;
+    esac
+  fi
+
+  DEVECO_PLUGIN_NODE=''
+  DEVECO_PLUGIN_NODE_SEEN=0
+  DEVECO_PLUGIN_NODE_INVALID=0
+  DEVECO_PLUGIN_NODE_UNSUPPORTED=0
+  DEVECO_PLUGIN_LAST_NODE_VERSION=''
+  path_node=$(command -v node 2>/dev/null || true)
+  if [ "$native" -eq 1 ]; then
+    deveco_native_node || true
+  else
+    deveco_try_node "$path_node" 'path' || true
+  fi
+  if [ -z "$DEVECO_PLUGIN_NODE" ]; then
+    if [ "$DEVECO_PLUGIN_NODE_SEEN" -eq 0 ] && [ "$native" -eq 1 ]; then
+      status='toolchain-invalid'
+    elif [ "$DEVECO_PLUGIN_NODE_UNSUPPORTED" -eq 1 ]; then
+      status='node-unsupported'
+      next_action='install-supported-node'
+    elif [ "$DEVECO_PLUGIN_NODE_INVALID" -eq 1 ]; then
+      status='node-invalid'
+      next_action='repair-node-installation'
+    else
+      status='node-missing'
+      next_action='install-node'
+    fi
+    if [ "$mode" = 'check' ]; then
+      if [ "$status" = 'toolchain-invalid' ]; then
+        deveco_check_failure "$status" "$platform" "$variant"
+      else
+        deveco_check_failure "$status" "$platform" "$variant" "$next_action"
+      fi
+    else
+      deveco_human_failure "$status" "$platform"
+    fi
+    if [ "$status" = 'node-invalid' ]; then
+      return 1
+    fi
+    return 2
+  fi
+
+  export DEVECO_PLUGIN_BOOTSTRAP_PLATFORM=$platform
+  export DEVECO_PLUGIN_BOOTSTRAP_VARIANT=$(printf '%s' "$variant" | tr -d '"')
+  DEVECO_PLUGIN_BOOTSTRAP_NODE_SOURCE=$DEVECO_PLUGIN_NODE_SOURCE
+  export DEVECO_PLUGIN_BOOTSTRAP_NODE_SOURCE
+  if [ "$native" -eq 1 ]; then
+    # Preserve the host-provided HOME in sandboxed app processes; use the
+    # HarmonyOS user home only when the launcher has no HOME to inherit.
+    if [ -z "${HOME:-}" ]; then
+      export HOME=$DEVECO_HARMONY_HOME
+    fi
+  fi
+  PATH="$(dirname "$DEVECO_PLUGIN_NODE"):$PATH"
+  export PATH
+  exec "$DEVECO_PLUGIN_NODE" "$DEVECO_PLUGIN_SCRIPT_DIR/../runtime/main.mjs" "$mode" "$@"
+}

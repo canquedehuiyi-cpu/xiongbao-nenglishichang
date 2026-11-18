@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "b38f6fd8-4f92-456d-924f-5c07ed407628",
+  "name": "superun-agent-creation",
+  "displayName": "superun-agent-creation",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.11",
+  "publisher": "xiuyu.yi",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a18b89-2048-7bdd-9a1f-712614fd7653/08542092_superun-agent-creation-qoder-plugin.zip",
+  "zipSha256": "2ab1ac401594a63d0d6fb314423365cf96c2658f87330ca9aecb625d0b97e008",
+  "zipBytes": 376062,
+  "upstreamSha256": "2ab1ac401594a63d0d6fb314423365cf96c2658f87330ca9aecb625d0b97e008",
+  "files": 11,
+  "treeSha256": "f252d00d06d8159ec871e2b287980441c1d471fd5dac062c6a3f62cc206b9a2f",
+  "fetchedAt": "2026-11-18T10:43:09.932Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

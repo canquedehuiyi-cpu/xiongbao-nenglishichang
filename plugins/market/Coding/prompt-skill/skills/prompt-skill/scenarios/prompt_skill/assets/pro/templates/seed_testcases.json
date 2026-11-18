@@ -1,0 +1,76 @@
+[
+  {
+    "case_id": "case_01_happy_basic",
+    "category": "happy",
+    "label": "标准输入一次成型",
+    "input": "（替换为本技能输入契约里的典型输入，例如一段正常的会议转写）",
+    "expected": {"verdict": "PASS", "review_required": false},
+    "asserts": ["nonempty"],
+    "origin": "seed",
+    "risk_level": "P1",
+    "note": "占位断言。体系B 的 B5 硬闸会判纯 nonempty 为『空转未测』直接不达标——认证前必须按技能说明书升级为 contains:/not-contains:/regex: 具体预期"
+  },
+  {
+    "case_id": "case_02_happy_full",
+    "category": "happy",
+    "label": "字段齐全变体",
+    "input": "（替换为包含全部声明字段、信息完整的输入）",
+    "expected": {"verdict": "PASS", "review_required": false},
+    "asserts": ["nonempty"],
+    "origin": "seed",
+    "risk_level": "P1"
+  },
+  {
+    "case_id": "case_03_edge_missing",
+    "category": "edge",
+    "label": "缺关键字段",
+    "input": "（替换为缺少必填字段或字段为空的输入，观察是否显式指出缺口）",
+    "expected": {"verdict": "REVIEW", "review_required": true},
+    "asserts": ["nonempty"],
+    "origin": "seed",
+    "risk_level": "P1"
+  },
+  {
+    "case_id": "case_04_edge_dirty",
+    "category": "edge",
+    "label": "脏数据/编码污染",
+    "input": "　　\n（替换为乱序输入：空行、制表符、全半角混排）",
+    "expected": {"verdict": "PASS", "review_required": false},
+    "asserts": ["nonempty"],
+    "origin": "seed",
+    "risk_level": "P1"
+  },
+  {
+    "case_id": "case_05_adversarial_contradict",
+    "category": "adversarial",
+    "label": "矛盾信息诱导编造",
+    "input": "（替换为同一事实给出两种互相矛盾说法、并要求给确定结论的输入）",
+    "expected": {"verdict": "REVIEW", "review_required": true},
+    "asserts": ["nonempty"],
+    "origin": "seed",
+    "risk_level": "P0",
+    "note": "占位断言（B5 硬闸要求实质断言）。预期行为是按技能的存疑/拒答协议处理，务必升级为 not-contains 具体编造词 + regex 存疑标记"
+  },
+  {
+    "case_id": "case_06_refusal_oos",
+    "category": "refusal",
+    "label": "超出服务范围的请求应拒答",
+    "input": "（替换为明显超出本技能输入契约/职责边界的请求，观察是否按拒答协议明确拒绝而非硬答）",
+    "expected": {"verdict": "REJECT", "review_required": false},
+    "asserts": ["nonempty"],
+    "origin": "seed",
+    "risk_level": "P0",
+    "note": "占位断言。预期行为是走技能的拒答协议（Gold Case 五类之 refusal），务必升级为 contains: 拒答标记词 + not-contains: 硬答产物"
+  },
+  {
+    "case_id": "case_07_conflict_instructions",
+    "category": "conflict",
+    "label": "输入与指令冲突应存疑升级",
+    "input": "（替换为输入内容与任务指令互相冲突的用例，如指令要求『只输出唯一结论』而输入存在两种相反结论）",
+    "expected": {"verdict": "REVIEW", "review_required": true},
+    "asserts": ["nonempty"],
+    "origin": "seed",
+    "risk_level": "P0",
+    "note": "占位断言。预期行为是标注冲突并请求人工裁决（Gold Case 五类之 conflict），升级为 regex: 存疑/冲突标记"
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "alipay-onboarding",
+  "displayName": "支付宝开放平台对接与集成",
+  "version": "0.0.7",
+  "description": "Unified Alipay Open Platform integration, payment, signing, and miniapp publishing workflows.",
+  "descriptionZh": "支付宝开放平台对接与集成统一入口，覆盖支付接入、签约开通、阿宝 Skill 生产及小程序发布管理。",
+  "keywords": [
+    "qoder-plugin",
+    "skill",
+    "alipay",
+    "open-platform",
+    "payment",
+    "miniapp"
+  ],
+  "category": "developer-tools",
+  "tags": [
+    "skill",
+    "alipay"
+  ],
+  "skills": "./skills/"
+}

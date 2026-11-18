@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "gold_case.schema.json",
+  "title": "Gold Case Schema v1（质量工程层 M2-P0 · 机制 6/7）",
+  "description": "testcases 从『种子占位』升级为 Gold Set 的统一契约。asserts 仍是唯一机器可执行判定（nonempty/contains:/not-contains:/regex:，B5 硬闸不变）；expected 块是给后续 Eval Runtime / Benchmark 用的语义标注，不参与现行评分。origin 是 Feedback Loop（机制 13）的挂点：人工复核修正的案例以 human_feedback 回流。",
+  "type": "object",
+  "required": ["case_id", "category", "input", "asserts", "origin", "risk_level"],
+  "additionalProperties": true,
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^(case|gold)_[0-9]+[a-z0-9_]*$",
+      "description": "kebab/下划线均可，如 case_06_refusal_oos、gold_001"
+    },
+    "category": {
+      "enum": ["happy", "edge", "adversarial", "refusal", "conflict"],
+      "description": "五类对齐机制 7：正常 / 边界 / 对抗诱导 / 应拒绝 / 指令与输入冲突"
+    },
+    "label": { "type": "string", "description": "人类可读的一句话说明" },
+    "input": { "type": "string", "minLength": 1 },
+    "expected": {
+      "type": "object",
+      "description": "语义期望（给未来 Eval Runtime 用；现行体系B 评分不读取本块）",
+      "additionalProperties": true,
+      "properties": {
+        "verdict": {
+          "enum": ["PASS", "REVIEW", "FAIL", "REJECT", "UNKNOWN"],
+          "description": "REJECT=应走拒答协议；REVIEW=应存疑/请求人工；UNKNOWN=种子占位待校准"
+        },
+        "units": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["key", "value"],
+            "properties": {
+              "key": { "type": "string", "description": "事实点名称，如『金额』" },
+              "value": { "type": "string", "description": "期望值（字符串精确比对）" },
+              "acceptable": {
+                "type": "array",
+                "items": { "type": "string" },
+                "description": "可接受变体，如 [\"12,800\"]"
+              }
+            }
+          }
+        },
+        "evidence_locators": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "证据位置提示，如 ['第3段']"
+        },
+        "review_required": { "type": "boolean" }
+      }
+    },
+    "asserts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^(nonempty|contains:.+|not-contains:.+|regex:.+)$"
+      },
+      "description": "机器可执行断言的唯一来源；纯 nonempty 属空转占位，B5 硬闸判不达标"
+    },
+    "origin": {
+      "enum": ["seed", "human_feedback", "failure_case"],
+      "description": "seed=装配种子；human_feedback=REVIEW 飞轮回流；failure_case=真实失败案例沉淀"
+    },
+    "risk_level": {
+      "enum": ["P0", "P1", "P2"],
+      "description": "P0=出错即事故（拒答/对抗/冲突类恒为 P0）；P1=常规；P2=锦上添花"
+    },
+    "note": { "type": "string" }
+  }
+}

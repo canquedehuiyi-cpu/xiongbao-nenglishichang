@@ -1,0 +1,17 @@
+{
+  "name": "supermax92",
+  "owner": {
+    "name": "Max Zheng"
+  },
+  "metadata": {
+    "description": "Plugins by Max Zheng, including QGraphFlow for evidence-grounded interactive diagrams."
+  },
+  "plugins": [
+    {
+      "name": "qgraphflow",
+      "version": "0.0.7",
+      "source": "./",
+      "description": "Generate evidence-grounded interactive software diagrams with offline HTML, SVG and PNG export."
+    }
+  ]
+}

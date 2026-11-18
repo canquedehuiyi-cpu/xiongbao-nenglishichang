@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "3826ee7b-c4d0-48ea-8e05-1dd5a9c712d7",
+  "name": "superun-creation",
+  "displayName": "superun",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.8.30",
+  "publisher": "01a11e9e-53a1-7dfb-b1b3-b47c6e9e8581",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1aa7e-d4ce-76e7-9744-eed603e51317/666f9df6_qoder.zip",
+  "zipSha256": "7a83c8da00acc5f6fd6a0d99cfada1d263229980dabd87cf2b7c57d3af2c47b5",
+  "zipBytes": 486529,
+  "upstreamSha256": "7a83c8da00acc5f6fd6a0d99cfada1d263229980dabd87cf2b7c57d3af2c47b5",
+  "files": 39,
+  "treeSha256": "0486a7d65f3ebee6dccecb63fa6ec33fc31ac971bbb0d0a00817170a5b622736",
+  "fetchedAt": "2026-11-18T10:43:06.586Z",
+  "credentialScan": {
+    "textFilesScanned": 36,
+    "filesRedacted": 0
+  },
+  "note": null
+}

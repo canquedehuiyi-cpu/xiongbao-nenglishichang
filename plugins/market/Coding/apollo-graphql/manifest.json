@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "apollo-graphql",
+  "name": "apollo-graphql",
+  "displayName": "Apollo GraphQL",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Apollo GraphQL",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/apollographql/skills",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fb747-8a74-78e7-90e3-81d43bc9b871/2ff46b9e_06-apollo-graphql.zip",
+  "zipSha256": "eb9f8511d263fdf2a9f61fdf0d4bc25ea348605f54affeb7b2a68804888ebd0c",
+  "zipBytes": 339286,
+  "upstreamSha256": "eb9f8511d263fdf2a9f61fdf0d4bc25ea348605f54affeb7b2a68804888ebd0c",
+  "files": 140,
+  "treeSha256": "ecb4c02caca6fa8e9a1134dc197ba121803d7d52eae26f7e34aaa3d2c65b4c85",
+  "fetchedAt": "2026-11-18T10:42:58.400Z",
+  "credentialScan": {
+    "textFilesScanned": 134,
+    "filesRedacted": 0
+  },
+  "note": null
+}

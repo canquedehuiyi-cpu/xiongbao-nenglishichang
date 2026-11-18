@@ -1,0 +1,16 @@
+{
+  "name": "team-grill",
+  "displayName": "Team Grill · 团队研发协作技能集",
+  "version": "0.1.0",
+  "description": "面向研发团队的 39 项工程协作技能，覆盖需求澄清、任务拆解、TDD、缺陷排查、代码审查和项目规范初始化。",
+  "author": {
+    "name": "开心一本"
+  },
+  "keywords": [
+    "qoder-plugin",
+    "skills",
+    "team",
+    "engineering"
+  ],
+  "skills": "./skills/"
+}

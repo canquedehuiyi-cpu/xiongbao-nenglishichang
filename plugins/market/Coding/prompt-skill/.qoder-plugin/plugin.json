@@ -1,0 +1,17 @@
+{
+  "name": "prompt-skill",
+  "version": "0.2.0",
+  "displayName": "Prompt 修复与 Skill 质检产线",
+  "description": "把粗糙 Prompt 诊断修复或按描述新建，认证质量达标后封装为标准 Skill 包（AWP 目录），再做矩阵测试认证、指纹闸门打包交付——当用户要「整理/评估/产品化一个提示词或技能」时使用",
+  "author": {
+    "name": "WB_TEST Plugin Team",
+    "email": "team@example.com"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "prompt-qa",
+    "skill-packaging",
+    "certification-gate"
+  ],
+  "logo": "./logo.png"
+}

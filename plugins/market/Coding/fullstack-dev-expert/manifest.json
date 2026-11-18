@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "70ed38f4-2cc1-43b6-8c42-ce97956ec725",
+  "name": "fullstack-dev-expert",
+  "displayName": "全栈开发专家",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "019eed55-de33-782f-b718-9923a6f96897",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a024df-ee7d-7607-9864-d30e6d4613e6/28f8bc97_8b4933d4_fullstack-dev-expert-v1.0.0.zip",
+  "zipSha256": "bad034b0beeebbc54e1f830578909d2f5eb8a1121ce304d13111c1f766cbda49",
+  "zipBytes": 33016,
+  "upstreamSha256": "bad034b0beeebbc54e1f830578909d2f5eb8a1121ce304d13111c1f766cbda49",
+  "files": 10,
+  "treeSha256": "353b29fbdf148c9e685fb3f230b5a972a78e38e9bccb4d3c6d4a9f3b50ec2885",
+  "fetchedAt": "2026-11-18T10:42:56.324Z",
+  "credentialScan": {
+    "textFilesScanned": 10,
+    "filesRedacted": 0
+  },
+  "note": null
+}

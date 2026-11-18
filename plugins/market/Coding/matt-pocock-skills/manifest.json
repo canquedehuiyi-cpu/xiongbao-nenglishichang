@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "990a71f5-43c9-442d-9990-372d04099abf",
+  "name": "matt-pocock-skills",
+  "displayName": "Matt Pocock Skills",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.2.3",
+  "publisher": "Matt Pocock (ported by 15111)",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a13dab-fa69-77f9-9eb6-08dccaef654d/619f1093_matt-pocock-skills.zip",
+  "zipSha256": "9afc20c2b267ae537169d1d6c245f76a8bb40f83632fd81acce1f01d3b1a1beb",
+  "zipBytes": 107044,
+  "upstreamSha256": "9afc20c2b267ae537169d1d6c245f76a8bb40f83632fd81acce1f01d3b1a1beb",
+  "files": 54,
+  "treeSha256": "cd37ea74cd066f94a419c5f5df13363b5895c8683dd5e75afd06e41201d4318c",
+  "fetchedAt": "2026-11-18T10:49:03.757Z",
+  "credentialScan": {
+    "textFilesScanned": 52,
+    "filesRedacted": 0
+  },
+  "note": null
+}

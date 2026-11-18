@@ -1,0 +1,21 @@
+{
+  "name": "deveco-cli",
+  "version": "0.0.2",
+  "displayName": "DevEco CLI",
+  "logo": "./assets/logo.png",
+  "description": "通过 DevEco CLI 创建、构建、运行和调试 HarmonyOS 应用，查询鸿蒙文档并检查设备 UI。",
+  "author": {
+    "name": "DevEco CLI"
+  },
+  "homepage": "https://gitcode.com/openharmony-sig/deveco-cli",
+  "repository": "https://gitcode.com/openharmony-sig/deveco-cli",
+  "license": "MIT",
+  "keywords": [
+    "harmonyos",
+    "deveco",
+    "arkts",
+    "arkui",
+    "鸿蒙"
+  ],
+  "skills": "./skills/"
+}

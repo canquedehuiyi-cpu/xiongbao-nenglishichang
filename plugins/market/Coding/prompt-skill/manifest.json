@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "39087009-83a6-4cd0-9b9f-f32d6b5e69b5",
+  "name": "prompt-skill",
+  "displayName": "prompt-skill",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.2.0",
+  "publisher": "WB_TEST Plugin Team",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0e326-cf83-7ba1-bd2c-360677c26f00/970f5dea_prompt-skill.zip",
+  "zipSha256": "c7dac79d6ca039d4f2608f06005a6fa9f32515f0bb64fa6faf2353f57f5741ad",
+  "zipBytes": 141923,
+  "upstreamSha256": "c7dac79d6ca039d4f2608f06005a6fa9f32515f0bb64fa6faf2353f57f5741ad",
+  "files": 26,
+  "treeSha256": "93b46cd4e205568d44549f6b48cfe5502a60cc632e7d6e3f183d0f8fda7c5d69",
+  "fetchedAt": "2026-11-18T10:43:09.095Z",
+  "credentialScan": {
+    "textFilesScanned": 24,
+    "filesRedacted": 0
+  },
+  "note": null
+}

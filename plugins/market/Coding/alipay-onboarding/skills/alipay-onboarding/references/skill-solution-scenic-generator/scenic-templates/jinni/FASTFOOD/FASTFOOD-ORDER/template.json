@@ -1,0 +1,11 @@
+{
+  "templateCode": "FASTFOOD_PICKUP_ORDER",
+  "industryCode": "FASTFOOD",
+  "sceneCode": "FASTFOOD-ORDER",
+  "industry": "快餐",
+  "scene": "到店自提",
+  "version": "1",
+  "generatorSkill": "skill-solution-scenic-generator",
+  "skillTemplate": "fastfood-pickup-order.md",
+  "whitepaper_url": "https://yuque.antfin.com/xy0igb/qy6cz5/yz0f7cx36fvs0k66"
+}

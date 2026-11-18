@@ -1,0 +1,13 @@
+{
+  "upstream": "https://github.com/obra/superpowers",
+  "tag": "v6.3.0",
+  "release_date": "2026-08-12",
+  "commit": "b36e0829c6d0140e93cfef2ca599b1b07d4a7797",
+  "checked_date": "2026-09-11",
+  "upstream_archive_sha256": "2933703111f44dd1ae0234372cd2a924afb372a682fe3d9acdb6497231213fcb",
+  "baseline_version": "5.1.0",
+  "global_plugin_id": "official_Svz0Sn6W",
+  "global_archive_sha256": "c6e7293b37cd0907cb7a4a85ce0ca223ea6022dd945d51861e4cff4cc4330694",
+  "adaptation": "qodercli-r2",
+  "cli_validated_version": "1.1.38"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "fullstack-dev-expert",
+  "displayName": "全栈开发专家",
+  "version": "1.0.0",
+  "description": "Java Spring Boot + Vue 3 full-stack development expert toolkit covering API design, component development, code review, testing, database design, performance tuning, and refactoring",
+  "descriptionZh": "Java Spring Boot + Vue 3 全栈开发专家 toolkit，覆盖 API 设计、组件开发、业务开发、代码审查、单元测试、数据库设计、性能调优、重构建议 8 大场景",
+  "category": "engineering",
+  "tags": [
+    "java",
+    "vue",
+    "spring-boot",
+    "fullstack",
+    "code-review",
+    "testing"
+  ],
+  "skills": [
+    "./skills/API接口设计",
+    "./skills/Vue组件开发",
+    "./skills/Java业务开发",
+    "./skills/代码审查",
+    "./skills/单元测试",
+    "./skills/数据库设计",
+    "./skills/性能调优",
+    "./skills/重构建议"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "superun-android-expert",
+  "version": "0.1.3",
+  "displayName": "superun 安卓开发专家",
+  "description": "从想法完成安卓手机应用，自动咨询适配、确认执行、上线后打包并交付安装二维码。",
+  "author": {
+    "name": "xiuyu.yi"
+  },
+  "skills": [
+    "./skills/superun-android-expert"
+  ],
+  "logo": "./assets/team.png"
+}

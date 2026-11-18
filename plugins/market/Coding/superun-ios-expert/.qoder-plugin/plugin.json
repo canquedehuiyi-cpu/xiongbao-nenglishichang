@@ -1,0 +1,13 @@
+{
+  "name": "superun-ios-expert",
+  "version": "0.1.4",
+  "displayName": "superun iOS开发专家",
+  "description": "从想法完成iOS手机应用，自动咨询适配、确认执行、上线后打包并交付安装二维码。",
+  "author": {
+    "name": "xiuyu.yi"
+  },
+  "skills": [
+    "./skills/superun-ios-expert"
+  ],
+  "logo": "./assets/team.png"
+}

@@ -1,0 +1,42 @@
+{
+  "sourceCommit": "b5470f23629a6609bde20a3c5d67744f636fcdf2",
+  "dirty": true,
+  "platform": "qoder",
+  "pluginVersion": "0.0.2",
+  "packageName": "@deveco/deveco-cli",
+  "minimumVersion": "1.3.12",
+  "installTag": "latest",
+  "nodeMajorMinimum": 22,
+  "skillSha256": "fe930bfd0b5b2a1271109a0543072b1b431b5f8b36e90b0c39835a91d0d4d2dd",
+  "logoSha256": "1e7f7bee5f553b8b24e465995d5c2190b32c03229ca233a8a414edb58a288cc2",
+  "implementationSkills": [
+    {
+      "id": "common",
+      "packageName": "@deveco/deveco-cli-common",
+      "packageVersion": "1.3.12",
+      "sourceSkillPath": "skills/deveco-cli/SKILL.md",
+      "integrity": "sha512-hDsAX99HVxpR9YMM49/b0YFjW10x81wd5de7On9/WhC9gp3JxSU02NQBxKFw7Yc+ac0ykUklxbCvtp/iXqdIPA==",
+      "skillSha256": "3a2b30e73ec0ece2bd35fb270466fb35e23defc19f82f525bfded54f45cf850d",
+      "sourceSkillSha256": "3a19b2d577f48de875539354f08b276690b12dfdb125b75869230efb7c0caa65"
+    },
+    {
+      "id": "openharmony-arm64",
+      "packageName": "@deveco/deveco-cli-openharmony-arm64",
+      "packageVersion": "1.3.12",
+      "sourceSkillPath": "SKILL.md",
+      "integrity": "sha512-DyduXgbC9xKTWEd1z9z0zirvAt/Y8pU/g9w8BjF9bmZckb4hWZP/2DuGjzDrZYSMmo6fV9vDb5/e0eJOMV7DCg==",
+      "skillSha256": "e8f0739e1cc21f9c1452898ccd310a77c5ced90886dd5d2b0edd3724d10c0b67",
+      "sourceSkillSha256": "e8f0739e1cc21f9c1452898ccd310a77c5ced90886dd5d2b0edd3724d10c0b67"
+    }
+  ],
+  "bundledSkills": [
+    {
+      "name": "hmos-arkui-develop-skill",
+      "filesSha256": "70d86fd2e2e4a2c2fa048aa723dc4615c769feab3ad2219daa3549006ac333d3"
+    },
+    {
+      "name": "hmos-dfx-analyzer",
+      "filesSha256": "dc9bc73b48932094fcc3fa421eb14ca96feea0a120de67a987dbf14835db782c"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+# 展示层配置 —— 只影响显示，不改变判断（判断阈值在 code/validator.py，写死——这是本产线的护城河）
+report:
+  title_prefix: "Prompt 修复与 Skill 质检产线"
+
+# 行业化同义词扩展表：按维度名「追加」命中词（默认表不可删改）。
+# 可用键：role / target / input / output / user_context / task_context /
+#         constraint_context / evidence_context / negative / abstain /
+#         evidence_ref / calc / calc_tool
+# 示例（法律文书行业给 negative 追加词）：
+#   negative: ["不得", "严禁", "禁止", "不得另议"]
+lexicon: {}

@@ -1,0 +1,50 @@
+#!/bin/sh
+# Copyright (c) 2026 Huawei Device Co., Ltd.
+# SPDX-License-Identifier: MIT
+set -eu
+
+(
+  export COMMAND_LINE_TOOL_PATH='<absolute CLT root>'
+  export PATH='<absolute Node bin>':"$PATH"
+  cd '<absolute project directory>'
+
+  local_code=0
+  bm install -p '<absolute signed HAP>' || local_code=$?
+  if [ "$local_code" -eq 0 ]; then
+    aa start -a '<ability>' -b '<bundleName>' || local_code=$?
+  fi
+  if [ "$local_code" -eq 0 ]; then
+    exit 0
+  fi
+
+  trim_parameter() {
+    value="$1"
+    value="${value#"${value%%[![:space:]]*}"}"
+    value="${value%"${value##*[![:space:]]}"}"
+    printf '%s' "$value"
+  }
+
+  mode="$(param get persist.hdc.mode)"
+  mode="$(trim_parameter "$mode")"
+  case "$mode" in
+    tcp)
+      port="$(param get persist.hdc.port)"
+      port="$(trim_parameter "$port")"
+      case "$port" in
+        ''|*[!0-9]*) echo 'Invalid local wireless-debugging port.' >&2; exit 1 ;;
+      esac
+      if [ "$port" -lt 1 ] || [ "$port" -gt 65535 ]; then
+        echo 'Invalid local wireless-debugging port.' >&2
+        exit 1
+      fi
+      target="127.0.0.1:$port"
+      '<absolute hdc executable>' tconn "$target"
+      <launcher invocation> run --skip-build --device "$target" --module '<module>' --product '<product>' --build-mode '<build mode>'
+      ;;
+    '')
+      echo '本机安装或启动失败，且无线调试未开启。请打开设置界面，搜索并开启无线调试。' >&2
+      exit "$local_code"
+      ;;
+    *) echo "Unsupported wireless-debugging mode: $mode" >&2; exit 1 ;;
+  esac
+)

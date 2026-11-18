@@ -1,0 +1,14 @@
+{
+  "name": "superun-creation",
+  "displayName": "superun 开发",
+  "displayNameEn": "superun 开发",
+  "displayNameCn": "superun 开发",
+  "version": "0.8.30",
+  "description": "按项目原生记忆选择云端生成或 sxq 本地开发，协作完成产品、设计、开发、QA 与运营",
+  "descriptionEn": "Coordinate superun cloud generation or local development with sxq, preserving the project and task context.",
+  "descriptionZh": "通过 superun CLI 按产品、设计、开发、QA 与运营阶段完成创作任务。",
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "commands": "./commands/",
+  "logo": "./assets/team.png"
+}

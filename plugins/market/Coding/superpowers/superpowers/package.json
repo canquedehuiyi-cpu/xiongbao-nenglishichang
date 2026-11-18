@@ -1,0 +1,7 @@
+{
+  "name": "superpowers",
+  "version": "6.3.0",
+  "private": true,
+  "description": "Qoder CLI adaptation of obra/superpowers v6.3.0",
+  "license": "MIT"
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "73656e4d-5a51-49ce-831d-0d33419879e4",
+  "name": "team-grill",
+  "displayName": "Team Grill · Engineering Collaboration Skills for Teams",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "开心一本",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a17c22-e454-721c-9443-4185db493d6c/2bb55533_team-grill.zip",
+  "zipSha256": "24fe6bab764696640e3918e986d3ce509112f0d8bec5c6627a40761374b9f95f",
+  "zipBytes": 437377,
+  "upstreamSha256": "24fe6bab764696640e3918e986d3ce509112f0d8bec5c6627a40761374b9f95f",
+  "files": 119,
+  "treeSha256": "96c08a60409ffa7797eeb14b07d99c006d2d9be00006a8df1e79be7700e41499",
+  "fetchedAt": "2026-11-18T10:43:08.677Z",
+  "credentialScan": {
+    "textFilesScanned": 116,
+    "filesRedacted": 0
+  },
+  "note": null
+}

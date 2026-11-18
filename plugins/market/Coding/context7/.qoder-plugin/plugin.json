@@ -1,0 +1,14 @@
+{
+  "name": "context7",
+  "version": "1.0.0",
+  "displayName": "Context7",
+  "description": "Context7 fetches up-to-date documentation and code examples for any library or framework, resolving the right library version and answering setup, API, and usage questions with current docs instead of outdated training data.",
+  "descriptionZh": "Context7 为任意库或框架拉取最新文档与代码示例，自动定位对应的版本，基于实时文档回答配置、API 与用法问题，而非依赖可能过时的训练数据。",
+  "homepage": "https://github.com/upstash/context7",
+  "repository": "https://github.com/upstash/context7",
+  "category": "Coding",
+  "skills": "./skills/",
+  "agents": "./agents/docs-researcher.md",
+  "commands": "./commands",
+  "mcpServers": "./.mcp.json"
+}

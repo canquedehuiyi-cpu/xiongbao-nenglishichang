@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "4f169a92-10aa-4516-9f05-b09f1954c474",
+  "itemName": "deveco-cli",
+  "displayName": "DevEco CLI",
+  "version": "0.0.2",
+  "packageKind": "plugin"
+}

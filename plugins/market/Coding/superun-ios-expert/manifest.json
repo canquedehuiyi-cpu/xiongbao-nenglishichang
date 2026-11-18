@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "f4ef699a-313a-4f82-8d69-3b928da270a5",
+  "name": "superun-ios-expert",
+  "displayName": "superun-ios-expert",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.4",
+  "publisher": "xiuyu.yi",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1a58c-8152-7ac0-9845-d53f99d1bdcf/750d45c3_superun-ios-expert-qoder-plugin.zip",
+  "zipSha256": "7e071797441c7ba3540746e8bc1281fe1f4c78cd651e41431b139bb2a03ada81",
+  "zipBytes": 373562,
+  "upstreamSha256": "7e071797441c7ba3540746e8bc1281fe1f4c78cd651e41431b139bb2a03ada81",
+  "files": 10,
+  "treeSha256": "5a4ed16d22fcf99b9b8e491bd80c7a285e4a112e7c5a1181430eb612ec3fc990",
+  "fetchedAt": "2026-11-18T10:43:12.411Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

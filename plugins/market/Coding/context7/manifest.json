@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "context7",
+  "name": "context7",
+  "displayName": "Context7",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Upstash",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/upstash/context7",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a024df-5b73-7434-9538-2970053a1812/20b8ebf9_8e3772a2_05-context7.zip",
+  "zipSha256": "4e3e576567a16c97d2d7e9450008686825975c2f1d0b9988a8e47470ffabc82c",
+  "zipBytes": 5532,
+  "upstreamSha256": "4e3e576567a16c97d2d7e9450008686825975c2f1d0b9988a8e47470ffabc82c",
+  "files": 7,
+  "treeSha256": "0a859a3884f5d976a111dadcf738103d5eee2cbd4ec5894f7e4be0c715c661c6",
+  "fetchedAt": "2026-11-18T10:42:54.510Z",
+  "credentialScan": {
+    "textFilesScanned": 7,
+    "filesRedacted": 0
+  },
+  "note": null
+}

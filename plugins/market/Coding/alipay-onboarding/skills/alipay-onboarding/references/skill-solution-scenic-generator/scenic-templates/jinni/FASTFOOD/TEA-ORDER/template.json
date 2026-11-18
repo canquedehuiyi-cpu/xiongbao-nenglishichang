@@ -1,0 +1,11 @@
+{
+  "templateCode": "TEA_TICKET_BOOKING",
+  "industryCode": "FASTFOOD",
+  "sceneCode": "TEA-ORDER",
+  "industry": "茶饮",
+  "scene": "到店自提",
+  "version": "3",
+  "generatorSkill": "skill-solution-scenic-generator",
+  "skillTemplate": "tea-pickup-order.md",
+  "whitepaper_url": "https://yuque.antfin.com/xy0igb/qy6cz5/uteggmvggfku923h"
+}

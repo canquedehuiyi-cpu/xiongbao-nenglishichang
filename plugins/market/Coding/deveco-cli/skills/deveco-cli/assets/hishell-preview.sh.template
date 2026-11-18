@@ -1,0 +1,20 @@
+#!/bin/sh
+# Copyright (c) 2026 Huawei Device Co., Ltd.
+# SPDX-License-Identifier: MIT
+set -eu
+
+hdc=${1:?"Usage: $0 <hdc> <launcher> <products> [run arguments...]"}
+launcher=${2:?"Usage: $0 <hdc> <launcher> <products> [run arguments...]"}
+products=${3:?"Usage: $0 <hdc> <launcher> <products> [run arguments...]"}
+shift 3
+
+project_root=$(CDPATH= cd -- "$(dirname "$0")/../.." && pwd)
+cd "$project_root"
+
+port="$(param get persist.hdc.port 2>/dev/null | tr -d '\r' | tail -n 1)"
+case "$port" in
+  ''|*[!0-9]*) ;;
+  *) "$hdc" tconn "127.0.0.1:$port" ;;
+esac
+
+exec sh "$launcher" run --device "$products" "$@"

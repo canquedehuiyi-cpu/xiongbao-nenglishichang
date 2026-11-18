@@ -1,0 +1,11 @@
+#!/bin/sh
+# Copyright (c) 2026 Huawei Device Co., Ltd.
+# SPDX-License-Identifier: MIT
+set -eu
+
+(
+  export COMMAND_LINE_TOOL_PATH='<absolute CLT root>'
+  export PATH='<absolute Node bin>':"$PATH"
+  cd '<absolute project directory>' &&
+    <launcher invocation> '<command>' '<argument>'
+)

@@ -1,0 +1,10 @@
+#!/bin/sh
+# Copyright (c) 2026 Huawei Device Co., Ltd.
+# SPDX-License-Identifier: MIT
+# deveco-cli-plugin-entry
+set -eu
+SCRIPT_DIR="$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)"
+DEVECO_PLUGIN_SCRIPT_DIR=$SCRIPT_DIR
+export DEVECO_PLUGIN_SCRIPT_DIR
+. "$SCRIPT_DIR/devecocli-bootstrap"
+deveco_plugin_bootstrap check "$@"

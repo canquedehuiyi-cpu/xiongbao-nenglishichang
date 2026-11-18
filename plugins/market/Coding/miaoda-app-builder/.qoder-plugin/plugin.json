@@ -1,0 +1,12 @@
+{
+  "name": "miaoda-app-builder",
+  "version": "1.1.5",
+  "displayName": "Miaoda App Builder",
+  "description": "Create, edit, publish, and download applications from Baidu Miaoda in Qoder. Requires a Miaoda API key.",
+  "author": {
+    "name": "Baidu Miaoda"
+  },
+  "homepage": "https://www.miaoda.cn/",
+  "keywords": ["Miaoda", "app builder", "website", "low-code"],
+  "skills": ["./skills/miaoda-app-builder"]
+}

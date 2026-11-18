@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "4248c719-380b-4da4-9f32-5032c8329260",
+  "name": "superun-android-expert",
+  "displayName": "superun-android-expert",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.3",
+  "publisher": "xiuyu.yi",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1a14c-5d78-7049-8566-712aa29910c1/138b058f_superun-android-expert-qoder-plugin.zip",
+  "zipSha256": "df5e6de9f28c1c3d1824803827c138b5ea2acef0613dac5bd57f754de914ec14",
+  "zipBytes": 372397,
+  "upstreamSha256": "df5e6de9f28c1c3d1824803827c138b5ea2acef0613dac5bd57f754de914ec14",
+  "files": 10,
+  "treeSha256": "cafd4e2710491d9e8999ec258665cae3e0379479db9ba4e87058057de4389185",
+  "fetchedAt": "2026-11-18T10:43:10.420Z",
+  "credentialScan": {
+    "textFilesScanned": 9,
+    "filesRedacted": 0
+  },
+  "note": null
+}

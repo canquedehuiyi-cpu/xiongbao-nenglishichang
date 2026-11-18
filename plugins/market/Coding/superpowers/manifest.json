@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "superpowers",
+  "name": "superpowers",
+  "displayName": "Superpowers",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "6.3.0",
+  "publisher": "Jesse Vincent",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/obra/superpowers",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a08e9d-f140-778c-8d5e-a1b5e62c0d9b/81cb0c78_superpowers.zip",
+  "zipSha256": "5d53c86708144c80e438bb1ea67fb826f9d064e66a7a4d21514bf3ea64ac43f3",
+  "zipBytes": 290319,
+  "upstreamSha256": "5d53c86708144c80e438bb1ea67fb826f9d064e66a7a4d21514bf3ea64ac43f3",
+  "files": 74,
+  "treeSha256": "a58cc4eb93fc4c588040e7820a0e56fdc14a9a05378c6f5d3015e9c76047f2c6",
+  "fetchedAt": "2026-11-18T10:42:47.721Z",
+  "credentialScan": {
+    "textFilesScanned": 61,
+    "filesRedacted": 0
+  },
+  "note": null
+}

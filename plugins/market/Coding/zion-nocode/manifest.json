@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "e8921b94-938b-4bf1-942e-38eada35b2d9",
+  "name": "zion-nocode",
+  "displayName": "Zion 无代码开发套件",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "2.7.5",
+  "publisher": "Zion",
+  "license": "UNKNOWN",
+  "githubRepo": "https://github.com/functorz-tech/zion-nocode-plugin",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a08fee-183b-7e5e-aea9-5efdc70b9e83/e3b27a3d_zion-nocode-2.7.5.zip",
+  "zipSha256": "2cf0a585bd57b18e0b7d899fdf242c3c4c6315465930068396cc3bb3317687bb",
+  "zipBytes": 275238,
+  "upstreamSha256": "2cf0a585bd57b18e0b7d899fdf242c3c4c6315465930068396cc3bb3317687bb",
+  "files": 65,
+  "treeSha256": "8cc82cd3daf92f8cce8ce482cf8f17ced5ea5769245452ab3248e4f513943a03",
+  "fetchedAt": "2026-11-18T10:43:09.696Z",
+  "credentialScan": {
+    "textFilesScanned": 63,
+    "filesRedacted": 0
+  },
+  "note": null
+}

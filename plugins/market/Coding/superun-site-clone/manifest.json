@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "e23117cf-8905-4cf2-8d7a-711bb798d255",
+  "name": "superun-site-clone",
+  "displayName": "superun Site Clone Expert",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.16",
+  "publisher": "xiuyu.yi",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1e775-667e-7020-acf6-456f98797699/bcc87cdc579734318a5568a4750233a5b55f4f0e7586b303d8c3c89342f8078a.zip",
+  "zipSha256": "bcc87cdc579734318a5568a4750233a5b55f4f0e7586b303d8c3c89342f8078a",
+  "zipBytes": 423624,
+  "upstreamSha256": "bcc87cdc579734318a5568a4750233a5b55f4f0e7586b303d8c3c89342f8078a",
+  "files": 27,
+  "treeSha256": "4a0febb4c869af3a482da1a31ef0f2b67e14451080b15aa2cdc651ada5fcad7e",
+  "fetchedAt": "2026-11-18T10:43:13.864Z",
+  "credentialScan": {
+    "textFilesScanned": 26,
+    "filesRedacted": 0
+  },
+  "note": null
+}

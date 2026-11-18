@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "e23117cf-8905-4cf2-8d7a-711bb798d255",
+  "itemName": "superun-site-clone",
+  "displayName": "superun Site Clone Expert",
+  "version": "0.1.16",
+  "packageKind": "plugin"
+}

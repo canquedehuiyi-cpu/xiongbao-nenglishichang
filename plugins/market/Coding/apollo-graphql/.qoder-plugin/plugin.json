@@ -1,0 +1,11 @@
+{
+  "name": "apollo-graphql",
+  "version": "1.0.0",
+  "displayName": "Apollo GraphQL",
+  "description": "A collection of skills for AI coding agents working with Apollo GraphQL tools and technologies.",
+  "homepage": "https://github.com/apollographql/skills",
+  "repository": "https://github.com/apollographql/skills",
+  "category": "Coding",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

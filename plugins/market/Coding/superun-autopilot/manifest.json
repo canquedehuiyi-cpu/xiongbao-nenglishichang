@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "dbac8a05-58ed-416f-8789-a6220dcdde57",
+  "name": "superun-autopilot",
+  "displayName": "Superun Autopilot",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.2",
+  "publisher": "xiuyu.yi",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1b00f-d27b-7a2c-8f60-353c4abbebfe/23606e47_superun-autopilot-qoder-plugin.zip",
+  "zipSha256": "01d1dd4ed1fa329bd3ae0e5961c9bb17bf04941edf612d6d36d57665b84d25e5",
+  "zipBytes": 476680,
+  "upstreamSha256": "01d1dd4ed1fa329bd3ae0e5961c9bb17bf04941edf612d6d36d57665b84d25e5",
+  "files": 33,
+  "treeSha256": "bef09e810d5de0632d159df64f08272e8dff95efb4491dc9a4a1f455392c29a4",
+  "fetchedAt": "2026-11-18T10:43:14.359Z",
+  "credentialScan": {
+    "textFilesScanned": 32,
+    "filesRedacted": 0
+  },
+  "note": null
+}

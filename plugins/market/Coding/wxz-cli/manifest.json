@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "wxz-cli",
+  "name": "wxz-cli",
+  "displayName": "WXZ CLI",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.10",
+  "publisher": "Wanxiaozhi Team",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fb747-8e0b-7b27-8218-70686c01389e/b3a896fd_18-wxz-cli.zip",
+  "zipSha256": "adfc94264c2d946e7b1f1417a9328dd79d3bae2351f825feffb99d885bb865c9",
+  "zipBytes": 46861,
+  "upstreamSha256": "adfc94264c2d946e7b1f1417a9328dd79d3bae2351f825feffb99d885bb865c9",
+  "files": 7,
+  "treeSha256": "0c0b7463b56c41f9b7a9cdbecc9a6fe75f0457e270b347096b87a457410f53ad",
+  "fetchedAt": "2026-11-18T10:43:05.483Z",
+  "credentialScan": {
+    "textFilesScanned": 5,
+    "filesRedacted": 0
+  },
+  "note": null
+}

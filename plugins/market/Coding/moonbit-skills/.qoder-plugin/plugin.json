@@ -1,0 +1,30 @@
+{
+  "name": "moonbit-skills",
+  "version": "0.1.0",
+  "displayName": "MoonBit",
+  "description": "MoonBit development skills for language orientation, refactoring, proof-carrying code, C bindings, spec-driven tests, and OCaml migration.",
+  "author": {
+    "name": "MoonBit"
+  },
+  "homepage": "https://github.com/moonbitlang/skills",
+  "repository": "https://github.com/moonbitlang/skills",
+  "keywords": [
+    "moonbit",
+    "skills",
+    "ffi",
+    "refactoring",
+    "proofs",
+    "testing",
+    "migration"
+  ],
+  "category": "Coding",
+  "tags": [
+    "moonbit",
+    "compiler",
+    "ffi",
+    "testing"
+  ],
+  "logo": "./assets/logo.png",
+  "skills": "./skills/",
+  "preserveUpstreamMetadata": true
+}

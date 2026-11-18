@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "8c866e61-b575-43b3-845a-b607d3c3b079",
+  "name": "grillme-matt",
+  "displayName": "Grill Me",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "0.1.0",
+  "publisher": "hapicomputer",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a0b364-4355-7456-b0ca-f6eb3535f051/8441f0ab_grillme-matt.zip",
+  "zipSha256": "ebc42ac1cfaee535119f7a83a0ac9b0512bac0541366ef6834ef265feddef8c2",
+  "zipBytes": 18835,
+  "upstreamSha256": "ebc42ac1cfaee535119f7a83a0ac9b0512bac0541366ef6834ef265feddef8c2",
+  "files": 14,
+  "treeSha256": "57a03c2340ef1486217dd75a12a209a4fddf3a7a6ee6e7b67496c6b4ba250515",
+  "fetchedAt": "2026-11-18T10:42:56.106Z",
+  "credentialScan": {
+    "textFilesScanned": 13,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "marketSourceId": "public",
+  "itemKind": "plugin",
+  "marketItemId": "miaoda-app-builder",
+  "itemName": "miaoda-app-builder",
+  "displayName": "Miaoda",
+  "version": "1.1.5",
+  "packageKind": "plugin"
+}

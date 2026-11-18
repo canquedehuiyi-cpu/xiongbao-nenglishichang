@@ -1,0 +1,13 @@
+{
+  "name": "superun-autopilot",
+  "version": "0.1.2",
+  "displayName": "superun 全托管开发",
+  "description": "别人帮你做演示，我们帮你做产品。五位 AI 专家全自动完成产品开发，覆盖需求到运营，让非技术的你也能做出真实应用",
+  "author": {
+    "name": "xiuyu.yi"
+  },
+  "skills": [
+    "./skills/superun-autopilot"
+  ],
+  "logo": "./assets/team.png"
+}

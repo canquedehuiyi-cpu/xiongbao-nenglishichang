@@ -1,0 +1,66 @@
+{
+  "packageName": "@deveco/deveco-cli",
+  "minimumVersion": "1.3.12",
+  "installTag": "latest",
+  "nodeMajorMinimum": 22,
+  "agent": "qoder",
+  "installRoot": ".local/share/qoder/deveco-cli",
+  "clients": [
+    {
+      "id": "qoder",
+      "directory": ".qoder",
+      "configEnvironment": "QODER_CONFIG_DIR"
+    },
+    {
+      "id": "qoder-cn",
+      "directory": ".qoder-cn",
+      "configEnvironment": "QODERCN_CONFIG_DIR"
+    }
+  ],
+  "harmonyos": {
+    "platform": "openharmony",
+    "homeDirectory": "/storage/Users/currentUser",
+    "systemToolchainRoot": "/data/service/hnp/hmos-clt.org",
+    "userToolchainDirectory": "/storage/Users/currentUser/deveco",
+    "userToolchainPrefix": "commandline-tools-harmonyos-",
+    "nodeRelativePath": "node/bin/node",
+    "cltSandboxDirectory": ".local/share/deveco-cli/clt",
+    "downloadUrl": "https://developer.huawei.com/consumer/cn/download/command-line-tools-for-hmos",
+    "downloadTargetDirectory": "/storage/Users/currentUser/deveco",
+    "studioInstallSource": "app-market",
+    "studioInstallSearch": "DevEco Studio"
+  },
+  "wrapper": {
+    "name": "@deveco/deveco-cli",
+    "version": "1.3.12"
+  },
+  "implementations": [
+    {
+      "id": "common",
+      "packageName": "@deveco/deveco-cli-common",
+      "packageVersion": "1.3.12",
+      "os": [
+        "darwin",
+        "linux",
+        "win32"
+      ],
+      "cpu": [
+        "arm64",
+        "x64"
+      ],
+      "skillReference": "references/implementations/cross-platform.md"
+    },
+    {
+      "id": "openharmony-arm64",
+      "packageName": "@deveco/deveco-cli-openharmony-arm64",
+      "packageVersion": "1.3.12",
+      "os": [
+        "openharmony"
+      ],
+      "cpu": [
+        "arm64"
+      ],
+      "skillReference": "references/implementations/openharmony-arm64.md"
+    }
+  ]
+}

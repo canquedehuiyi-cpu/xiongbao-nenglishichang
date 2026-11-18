@@ -1,0 +1,11 @@
+{
+  "templateCode": "SCENIC_TICKET_BOOKING",
+  "industryCode": "SCENIC",
+  "sceneCode": "TICKET-BOOKING",
+  "industry": "景区",
+  "scene": "购票",
+  "version": "1",
+  "generatorSkill": "skill-solution-scenic-generator",
+  "skillTemplate": "scenic-ticket-purchase.md",
+  "whitepaper_url": "https://yuque.antfin.com/xy0igb/qy6cz5/af4cmm553e779eg2"
+}

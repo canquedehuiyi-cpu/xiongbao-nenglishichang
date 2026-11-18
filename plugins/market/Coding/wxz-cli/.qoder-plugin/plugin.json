@@ -1,0 +1,33 @@
+{
+  "name": "wxz-cli",
+  "version": "1.0.10",
+  "displayName": "WXZ CLI",
+  "description": "Wan Xiao Zhi (wxz) AI website-builder CLI: create, preview, and deploy websites through natural-language conversation on Alibaba Cloud.",
+  "descriptionZh": "万小智 (Wan Xiao Zhi) AI 建站平台 CLI 工具插件。通过自然语言对话创建、预览和部署网站。",
+  "author": {
+    "name": "Wanxiaozhi Team"
+  },
+  "homepage": "https://help.aliyun.com/zh/product/3039206.html",
+  "license": "MIT",
+  "logo": "./assets/wxz.png",
+  "keywords": [
+    "qoder-plugin",
+    "skill",
+    "wxz",
+    "万小智",
+    "website builder",
+    "ai",
+    "cli",
+    "aliyun"
+  ],
+  "category": "Developer Tools",
+  "tags": [
+    "wxz",
+    "website-builder",
+    "cli",
+    "skill"
+  ],
+  "skills": [
+    "./skills/wxz-cli"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "miaoda-app-builder",
+  "name": "miaoda-app-builder",
+  "displayName": "Miaoda",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.1.5",
+  "publisher": "baidu-miaoda",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/01a1cfee-f35a-7902-82a6-244832ea8881/dfa4f0ce9da6a6d7670d49b98f15886b4ff118931bfb260ced49121515f229fb.zip",
+  "zipSha256": "dfa4f0ce9da6a6d7670d49b98f15886b4ff118931bfb260ced49121515f229fb",
+  "zipBytes": 37824,
+  "upstreamSha256": "dfa4f0ce9da6a6d7670d49b98f15886b4ff118931bfb260ced49121515f229fb",
+  "files": 6,
+  "treeSha256": "8979bf4d1a24e15c2c60a26b8429a309b86e00c58268af3c4710e3305728ef33",
+  "fetchedAt": "2026-11-18T10:43:13.562Z",
+  "credentialScan": {
+    "textFilesScanned": 6,
+    "filesRedacted": 0
+  },
+  "note": null
+}

@@ -1,0 +1,28 @@
+{
+  "source": "Qoder 能力市场 apphub 详情端点 download_url（公开 OSS 直链，无鉴权下载）",
+  "apiBase": "https://openapi.qoder.com.cn/apphub/api/v1",
+  "kind": "plugin",
+  "id": "cangjie-skills",
+  "name": "cangjie-skills",
+  "displayName": "Cangjie",
+  "categoryCode": "Coding",
+  "categoryDir": "Coding",
+  "categoryResolveVia": "catalog-top.category",
+  "version": "1.0.0",
+  "publisher": "Cangjie-SIG",
+  "license": "UNKNOWN",
+  "githubRepo": "UNKNOWN",
+  "githubPath": "UNKNOWN",
+  "downloadUrl": "https://qoder-cn-mind.oss-accelerate.aliyuncs.com/public/extensions/plugin/019fb747-8b75-7ed1-8720-7db6ddaaeef3/7ec803ff_09-cangjie-skills.zip",
+  "zipSha256": "4ae33e52fa782d5c48f4bcd684bd3d53e51a7078355bd3cd302fb10abeba2602",
+  "zipBytes": 1401724,
+  "upstreamSha256": "4ae33e52fa782d5c48f4bcd684bd3d53e51a7078355bd3cd302fb10abeba2602",
+  "files": 579,
+  "treeSha256": "7407c5f5068fde7099d07ac9de22542203eb99c9b0c6ebaaeb61266b93ab70d7",
+  "fetchedAt": "2026-11-18T10:43:03.477Z",
+  "credentialScan": {
+    "textFilesScanned": 578,
+    "filesRedacted": 0
+  },
+  "note": null
+}

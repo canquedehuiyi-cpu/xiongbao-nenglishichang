@@ -1,0 +1,36 @@
+{
+  "name": "matt-pocock-skills",
+  "displayName": "Matt Pocock Engineering Skills",
+  "version": "1.2.3",
+  "description": "Matt Pocock's agent skills for real engineering: grilling, spec/ticket flows, TDD, code review, domain modelling and more. Plug-and-play, not vibe coding.",
+  "descriptionZh": "Matt Pocock 的工程代理技能集：需求拷问、spec/ticket 流程、TDD、代码审查、领域建模等。即插即用，拒绝氛围编程。",
+  "author": {
+    "name": "Matt Pocock (ported by 15111)"
+  },
+  "license": "MIT",
+  "keywords": [
+    "qoder-plugin",
+    "engineering",
+    "skills",
+    "tdd",
+    "code-review",
+    "grilling",
+    "domain-modeling",
+    "productivity"
+  ],
+  "category": "Coding",
+  "tags": [
+    "engineering",
+    "tdd",
+    "code-review",
+    "grilling",
+    "domain-modeling",
+    "productivity",
+    "spec",
+    "tickets"
+  ],
+  "skills": "./skills/",
+  "logo": "./assets/logo.svg",
+  "marketplaceName": "local",
+  "defaultEnabled": true
+}
