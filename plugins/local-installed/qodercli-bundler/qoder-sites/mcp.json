@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "qoder-sites": {
+      "command": "node",
+      "args": [
+        "${QODER_PLUGIN_ROOT}/runtime/main.cjs"
+      ],
+      "qoderAuthState": true,
+      "timeout": 600000
+    }
+  }
+}

@@ -1,0 +1,25 @@
+name: strict
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@f1d344f4b2b4b7e4b7a8b2c8f1a7c2d3e4f50617
+      - uses: actions/setup-node@25ee4268b08d0b3efd07a2a7e21b6d95b4d8a71f
+        with:
+          node-version: 20
+      - run: npm ci --ignore-scripts
+      - name: 不可信上下文经 env 传值，不插值进 run
+        env:
+          PR_TITLE: ${{ github.event.pull_request.title }}
+        run: |
+          printf '%s\n' "$PR_TITLE" | head -c 40
+          npm run check

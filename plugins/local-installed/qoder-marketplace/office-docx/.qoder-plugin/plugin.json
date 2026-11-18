@@ -1,0 +1,11 @@
+{
+  "name": "office-docx",
+  "displayName": "Word",
+  "version": "0.4.0",
+  "description": "创建与编辑 Word DOCX 文档，支持内容组织、排版和文档保存",
+  "author": {
+    "name": "Qoder"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}

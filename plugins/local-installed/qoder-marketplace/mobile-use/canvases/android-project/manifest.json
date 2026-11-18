@@ -1,0 +1,5 @@
+{
+  "id": "android-project",
+  "label": "Android Emulator",
+  "pathGlobs": ["**/AndroidManifest.xml"]
+}

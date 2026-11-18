@@ -1,0 +1,58 @@
+{
+  "name": "design-review",
+  "displayName": "Design Review",
+  "version": "0.1.0",
+  "description": "Review frontend design contracts, visual alignment, accessibility, component usage, and design debt with Qoder skills and a DESIGN.md Canvas viewer.",
+  "author": {
+    "name": "Qoder"
+  },
+  "homepage": "https://qoder.com/",
+  "repository": "https://github.com/qoderai",
+  "logo": "./assets/avatar.svg",
+  "keywords": [
+    "qoder-plugin",
+    "design",
+    "design-qa",
+    "design-system",
+    "design.md",
+    "frontend",
+    "visual-regression",
+    "accessibility",
+    "ui-alignment",
+    "responsive-design",
+    "ui-designer"
+  ],
+  "category": "Product Design",
+  "tags": [
+    "design",
+    "frontend",
+    "design-qa",
+    "accessibility",
+    "responsive",
+    "ui-design"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Design",
+    "shortDescription": "Review frontend design contracts and UI implementation quality",
+    "longDescription": "Use Design to inspect DESIGN.md contracts, compare UI implementation with design references, review accessibility and component-library alignment, detect design debt, and capture design-system evidence. The plugin also previews DESIGN.md files as Canvas design-system summaries.",
+    "developerName": "Qoder",
+    "category": "Design",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Review this DESIGN.md contract",
+      "Run Design QA for this frontend screen",
+      "Check this UI for design debt",
+      "Implement responsive layout for this component",
+      "Design a UI prototype for this page"
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/avatar.svg",
+    "logo": "./assets/avatar.svg",
+    "screenshots": []
+  }
+}

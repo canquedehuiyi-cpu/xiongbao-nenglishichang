@@ -1,0 +1,17 @@
+{
+  "name": "synthetic-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "site-audit 的自带验收夹具：一个刻意含有四类已知缺陷形状的微型静态站点。全部内容为合成数据。",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node tools/build.js",
+    "validate": "node tools/validate-content.js",
+    "check": "node tools/scan-secrets.js",
+    "audit:baseline": "node tools/audit-baseline.js",
+    "serve": "node tools/serve.js"
+  }
+}

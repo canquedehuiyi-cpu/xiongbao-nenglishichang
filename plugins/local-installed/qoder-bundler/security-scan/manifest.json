@@ -1,0 +1,18 @@
+{
+  "source": "local-installed(~/.qoder-cn/plugins/cache)",
+  "market": "qoder-bundler",
+  "pluginId": "UNKNOWN",
+  "name": "security-scan",
+  "version": "skills",
+  "publisher": "UNKNOWN",
+  "license": "UNKNOWN",
+  "marketCanonicalName": "UNKNOWN",
+  "versionsSeenOnDisk": 5,
+  "skippedVersions": [
+    ".qoder-plugin",
+    "assets",
+    "bin",
+    "scripts"
+  ],
+  "note": "已排除 vendor/bin/runtime/node_modules/媒体与 >2MB 文件；只留最高版本目录"
+}

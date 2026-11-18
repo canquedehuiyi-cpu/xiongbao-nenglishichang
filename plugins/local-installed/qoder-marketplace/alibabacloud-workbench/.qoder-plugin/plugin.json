@@ -1,0 +1,30 @@
+{
+  "name": "alibabacloud-workbench",
+  "displayName": "AlibabaCloud Workbench",
+  "version": "1.0.1",
+  "description": "Operate Alibaba Cloud ECS instances without public IPs via the workbench CLI. Run remote commands, transfer files up to 1GB, and query instances and sessions.",
+  "descriptionZh": "通过 workbench CLI 运维无公网 IP 的阿里云 ECS 实例：远程命令执行、最大 1GB 文件传输、实例与会话查询。",
+  "author": {
+    "name": "Alibaba Cloud"
+  },
+  "homepage": "https://www.alibabacloud.com/help/zh/ecs/user-guide/connect-to-an-instance-through-workbench-cli",
+  "license": "Apache-2.0",
+  "keywords": [
+    "qoder-plugin",
+    "alibabacloud",
+    "aliyun",
+    "ecs",
+    "workbench",
+    "devops",
+    "remote-exec",
+    "file-transfer"
+  ],
+  "category": "DevOps",
+  "tags": [
+    "alibabacloud",
+    "ecs",
+    "devops"
+  ],
+  "skills": "./skills/",
+  "rules": "./rules/"
+}

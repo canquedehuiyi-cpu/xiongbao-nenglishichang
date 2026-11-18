@@ -1,0 +1,31 @@
+{
+  "name": "@ali/qoder-mobile-use",
+  "version": "0.7.5",
+  "description": "Build, preview, inspect, test, and operate Android, HarmonyOS, and iOS apps through interactive Canvas device surfaces.",
+  "type": "module",
+  "bin": {
+    "mobile-use": "./bin/mobile-use.mjs",
+    "qoder-mobile": "./bin/mobile-use.mjs"
+  },
+  "files": [
+    ".qoder-plugin/",
+    "assets/",
+    "bin/",
+    "canvases/",
+    "lib/",
+    "skills/",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@code.alibaba-inc.com/qoder/canvas-sdk.git",
+    "directory": "plugins/mobile-use"
+  },
+  "publishConfig": {
+    "registry": "https://registry.anpm.alibaba-inc.com"
+  },
+  "license": "UNLICENSED"
+}

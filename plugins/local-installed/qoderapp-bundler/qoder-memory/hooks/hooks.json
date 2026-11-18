@@ -1,0 +1,85 @@
+{
+  "description": "qoder-memory 生命周期 Hook：原生客户端把事件转给宿主内的记忆进程，失败一律放行。",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-memory-hook",
+            "args": ["SessionStart"],
+            "name": "qoder-memory-session-start",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-memory-hook",
+            "args": ["UserPromptSubmit"],
+            "name": "qoder-memory-user-prompt-submit",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-memory-hook",
+            "args": ["PostToolUse"],
+            "name": "qoder-memory-post-tool-use",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-memory-hook",
+            "args": ["PreCompact"],
+            "name": "qoder-memory-pre-compact",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "async": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-memory-hook",
+            "args": ["Stop"],
+            "name": "qoder-memory-stop",
+            "timeout": 3
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "async": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-memory-hook",
+            "args": ["SessionEnd"],
+            "name": "qoder-memory-session-end",
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source": "local-installed(~/.qoder-cn/plugins/cache)",
+  "market": "qoder-marketplace",
+  "pluginId": "UNKNOWN",
+  "name": "qgraphflow",
+  "version": "0.0.7",
+  "publisher": "Max Zheng",
+  "license": "UNKNOWN",
+  "marketCanonicalName": "UNKNOWN",
+  "versionsSeenOnDisk": 2,
+  "skippedVersions": [
+    "0.0.5"
+  ],
+  "note": "已排除 vendor/bin/runtime/node_modules/媒体与 >2MB 文件；只留最高版本目录"
+}

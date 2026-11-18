@@ -1,0 +1,163 @@
+{
+  "description": "Qoder Context project knowledge and capability-gated workspace hooks",
+  "hooks": {
+    "SessionStart": [
+      {
+        "async": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-context-hook.exe",
+            "args": [
+              "session-start"
+            ],
+            "name": "qoder-context-session-start",
+            "timeout": 2,
+            "env": {
+              "QODER_PRODUCT_ID": "qoder-cn",
+              "QODER_SEARCH_PRODUCT_FORM": "qoder"
+            }
+          }
+        ]
+      },
+      {
+        "async": false,
+        "matcher": "^(?!resume$).*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-context-hook.exe",
+            "args": [
+              "qoder-context-prompt"
+            ],
+            "name": "qoder-context-knowledge-overview",
+            "timeout": 2,
+            "env": {
+              "QODER_PRODUCT_ID": "qoder-cn",
+              "QODER_SEARCH_PRODUCT_FORM": "qoder"
+            }
+          }
+        ]
+      }
+    ],
+    "SubagentStart": [
+      {
+        "async": false,
+        "matcher": "^(general-purpose|Explore|Plan)$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-context-hook.exe",
+            "args": [
+              "qoder-context-prompt"
+            ],
+            "name": "qoder-context-subagent-knowledge-overview",
+            "timeout": 2,
+            "env": {
+              "QODER_PRODUCT_ID": "qoder-cn",
+              "QODER_SEARCH_PRODUCT_FORM": "qoder"
+            }
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "async": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-context-hook.exe",
+            "args": [
+              "user-prompt-submit"
+            ],
+            "name": "qoder-context-user-prompt-submit",
+            "timeout": 2,
+            "env": {
+              "QODER_PRODUCT_ID": "qoder-cn",
+              "QODER_SEARCH_PRODUCT_FORM": "qoder"
+            }
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "async": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-context-hook.exe",
+            "args": [
+              "post-tool-use"
+            ],
+            "name": "qoder-context-post-tool-use",
+            "timeout": 2,
+            "env": {
+              "QODER_PRODUCT_ID": "qoder-cn",
+              "QODER_SEARCH_PRODUCT_FORM": "qoder"
+            }
+          }
+        ]
+      },
+      {
+        "matcher": "^(mcp_call|(mcp__[^\\s]+__)?(write_wiki|edit_wiki|delete_wiki|write_knowledge|edit_knowledge|delete_knowledge|link_knowledge|unlink_knowledge))$",
+        "async": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-context-hook.exe",
+            "args": [
+              "knowledge-edit-record"
+            ],
+            "name": "qoder-context-knowledge-edit-record",
+            "timeout": 2,
+            "env": {
+              "QODER_PRODUCT_ID": "qoder-cn",
+              "QODER_SEARCH_PRODUCT_FORM": "qoder"
+            }
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "async": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-context-hook.exe",
+            "args": [
+              "stop"
+            ],
+            "name": "qoder-context-stop",
+            "timeout": 5,
+            "env": {
+              "QODER_PRODUCT_ID": "qoder-cn",
+              "QODER_SEARCH_PRODUCT_FORM": "qoder"
+            }
+          }
+        ]
+      },
+      {
+        "async": true,
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${QODER_PLUGIN_ROOT}/bin/qoder-context-hook.exe",
+            "args": [
+              "knowledge-edit-upload"
+            ],
+            "name": "qoder-context-knowledge-edit-upload",
+            "timeout": 2,
+            "env": {
+              "QODER_PRODUCT_ID": "qoder-cn",
+              "QODER_SEARCH_PRODUCT_FORM": "qoder"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

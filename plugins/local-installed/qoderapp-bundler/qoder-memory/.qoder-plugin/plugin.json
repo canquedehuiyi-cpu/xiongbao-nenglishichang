@@ -1,0 +1,14 @@
+{
+  "name": "qoder-memory",
+  "version": "0.1.2",
+  "displayName": "Qoder Memory",
+  "description": "结构化记忆系统：GetMemory/SearchMemory/UpdateMemory 三个记忆工具与会话 Hook，由宿主注入产品、语言、项目与开关配置。",
+  "author": {
+    "name": "Qoder"
+  },
+  "keywords": [
+    "memory",
+    "recall",
+    "qoder-memory"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "mcpServers": {
+    "qoder-memory": {
+      "command": "${QODER_NODE_RUNTIME}",
+      "args": ["${QODER_PLUGIN_ROOT}/dist/plugin/main.js"],
+      "env_vars": [
+        "QODER_HOME",
+        "QODER_ENV",
+        "QODER_BIG_MODEL_ENDPOINT",
+        "QODER_OPENAPI_ENDPOINT"
+      ],
+      "qoderAuthState": true,
+      "startup": "application",
+      "timeout": 600000,
+      "alwaysAllow": ["GetMemory", "SearchMemory", "UpdateMemory"],
+      "toolOverrides": {
+        "GetMemory": {
+          "exposedName": "GetMemory",
+          "alwaysLoad": true
+        },
+        "SearchMemory": {
+          "exposedName": "SearchMemory",
+          "alwaysLoad": true
+        },
+        "UpdateMemory": {
+          "exposedName": "UpdateMemory",
+          "alwaysLoad": true
+        }
+      }
+    }
+  }
+}

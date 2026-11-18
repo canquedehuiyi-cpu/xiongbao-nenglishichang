@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "site-audit finding",
+  "description": "账本一行。JSONL：一行一个对象。只追加；merge 只结转 lastVerified。",
+  "type": "object",
+  "required": ["round", "id", "mode", "verdict", "level", "title"],
+  "additionalProperties": false,
+  "properties": {
+    "round": { "type": "integer", "minimum": 1, "description": "第几轮。由 probe 开轮递增，其它脚本只读" },
+    "runId": { "type": "string" },
+    "ts": { "type": "string", "description": "ISO 8601" },
+    "id": { "type": "string", "pattern": "^(BLD|LIVE|HDR|INJ|CTX|PIPE|SEC|CI|SEO|A11Y|DOC|LNK)-[0-9]+$" },
+    "mode": { "enum": ["whitebox", "blackbox"] },
+    "targetHash": { "type": "string", "description": "被审站 URL 的 SHA-256 前 12 位。第三方站点不记明文 host" },
+    "verdict": { "enum": ["pass", "fail", "not-run"] },
+    "level": { "enum": ["M", "S", "J"], "description": "M 机器可判定 / S 需人调阈值 / J 需人判断" },
+    "severity": { "enum": ["P1", "P2", "P3", "-"] },
+    "title": { "type": "string", "maxLength": 200 },
+    "evidence": { "type": "string", "maxLength": 220, "description": "写盘前必须过 redact()：截断 + 凭据/PII 形态替换" },
+    "locator": {
+      "oneOf": [
+        { "type": "null" },
+        { "type": "object", "properties": { "file": { "type": "string" }, "line": { "type": "integer" }, "url": { "type": "string" } } }
+      ]
+    },
+    "repro": { "type": "string", "description": "别人照着敲就能复现的命令。不得含凭据值" },
+    "script": { "type": "string" },
+    "reason": { "type": "string", "description": "verdict=not-run 时必填：为什么没跑" },
+    "unblockCommand": { "type": "string", "description": "怎么把它变成能跑" },
+    "lastVerified": {
+      "oneOf": [
+        { "type": "null" },
+        { "type": "object", "properties": { "round": { "type": "integer" }, "statement": { "type": "string" } } }
+      ],
+      "description": "该项上次给出结论是第几轮。过期通过必须显式过期"
+    },
+    "supersedes": { "type": ["string", "null"] },
+    "nextAction": { "type": "string" },
+    "authorizedBy": { "type": "string", "description": "黑盒模式：谁授权了这次探测" }
+  },
+  "allOf": [
+    { "if": { "properties": { "verdict": { "const": "not-run" } } }, "then": { "required": ["reason"] } },
+    { "if": { "properties": { "verdict": { "const": "fail" } } }, "then": { "required": ["severity", "title"] } }
+  ]
+}

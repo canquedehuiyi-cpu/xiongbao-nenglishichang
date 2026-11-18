@@ -1,0 +1,28 @@
+{
+  "name": "mobile-use",
+  "displayName": "Mobile Use",
+  "version": "0.7.5",
+  "description": "Build, preview, inspect, test, and operate Android, HarmonyOS, and iOS apps through interactive Canvas device surfaces.",
+  "author": {
+    "name": "Qoder",
+    "email": "dev@qoder.com",
+    "url": "https://qoder.com/"
+  },
+  "homepage": "https://qoder.com/",
+  "logo": "./assets/icon.png",
+  "keywords": [
+    "qoder-plugin",
+    "canvas",
+    "android",
+    "harmonyos",
+    "ios",
+    "mobile",
+    "swiftui",
+    "simulator",
+    "emulator",
+    "accessibility",
+    "testing",
+    "automation"
+  ],
+  "skills": "./skills/"
+}

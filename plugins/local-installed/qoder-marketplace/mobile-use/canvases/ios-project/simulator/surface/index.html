@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iOS Simulator</title>
+    <style>
+      * { box-sizing: border-box; }
+      html, body, #root { width: 100%; min-height: 100%; margin: 0; }
+      body { background: var(--vscode-editor-background, #181818); color: var(--vscode-foreground, #e4e4e4); }
+      @keyframes deviceTap {
+        from { opacity: 1; transform: translate(-50%, -50%) scale(.65); }
+        to { opacity: 0; transform: translate(-50%, -50%) scale(2.3); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

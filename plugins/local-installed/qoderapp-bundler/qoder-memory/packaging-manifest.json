@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "target": "win32-x64",
+  "version": "0.1.2",
+  "javascriptRuntime": {
+    "source": "host-node",
+    "bundled": false
+  },
+  "sdkVersion": "1.0.60-alpha.8",
+  "configSha256": "ef55032428ca6d2e83303e3200293e5808258a12aeee333ba3af0e7bce6025f7",
+  "nativeFiles": [
+    "bin/qoder-memory-hook.exe",
+    "vendor/sqlite-vec/win32-x64/vec0.dll"
+  ],
+  "files": {
+    ".qoder-plugin/plugin.json": {
+      "size": 364,
+      "sha256": "b46d717c108be0075f0bffd52a01fdc419dcedb23799ae33e4050df0a5bcb262"
+    },
+    "bin/qoder-memory-hook.exe": {
+      "size": 373256,
+      "sha256": "50b2840027f800efe488125b5e2c793bb8fac771c4c9bbd5a43967f73bb2d978"
+    },
+    "dist/config/build-features.json": {
+      "size": 22,
+      "sha256": "d6b1fbe520a1ae2d4478dd3fe07f2a770a01db009bb106b26376eebff8d9109a"
+    },
+    "dist/config/config.yaml": {
+      "size": 22548,
+      "sha256": "ef55032428ca6d2e83303e3200293e5808258a12aeee333ba3af0e7bce6025f7"
+    },
+    "dist/daemon/main.js": {
+      "size": 1659307,
+      "sha256": "d8cb2a3b59941028687a50c4ccb72747dacf46acab7b74cc805709e9a1d45c7f"
+    },
+    "dist/plugin/main.js": {
+      "size": 720154,
+      "sha256": "ebbdd5e5087aee1a9766e9212b62d0b3b86c927733055e47f068a950860d3cd3"
+    },
+    "dist/service/storage/schema.sql": {
+      "size": 55706,
+      "sha256": "d1ffa80146599f096c81e2efaa6cbe17816c503d34cd29c3cfe8dd60e67192db"
+    },
+    "dist/template/prompt-key.json": {
+      "size": 666,
+      "sha256": "c14da4e9e70df93d9f0d8ebc1dfbe9da43d9e951de2933a9846241d63edf50ab"
+    },
+    "hooks/hooks.json": {
+      "size": 2038,
+      "sha256": "bbaa9d6790f23908cab88840d7c16f5aec2c7d954025ad2c736c627ff1281bcd"
+    },
+    "mcp.json": {
+      "size": 799,
+      "sha256": "ee34562d9ce12045c6dbe9ca7a6c42a5f9ca5a077e39656263afe3333c7e0c3f"
+    },
+    "package.json": {
+      "size": 246,
+      "sha256": "befe772b57651a488bf71516b6c1778698cc2041f3715d9f3237970d4b37c898"
+    },
+    "vendor/runtime-assets/r1/source.bin": {
+      "size": 298606,
+      "sha256": "6419471effa631519def7797d76d7ede38b9fcfa9a83c2148c8ef5d43355b43d"
+    },
+    "vendor/runtime-assets/r1/source.mjs": {
+      "size": 42296,
+      "sha256": "f25e9e1e15e7c13be846663541cab4ff9ded53fba6c3afc2d4565eb8010b34c2"
+    },
+    "vendor/sqlite-vec/win32-x64/vec0.dll": {
+      "size": 300032,
+      "sha256": "b1d73d9efac78043751868b8830776ae21e7bad2a4d896825e4c697dd0f1e2c8"
+    }
+  }
+}

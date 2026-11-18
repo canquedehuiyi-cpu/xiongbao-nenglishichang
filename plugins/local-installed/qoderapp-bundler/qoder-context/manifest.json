@@ -1,0 +1,19 @@
+{
+  "source": "local-installed(~/.qoder-cn/plugins/cache)",
+  "market": "qoderapp-bundler",
+  "pluginId": "UNKNOWN",
+  "name": "qoder-context",
+  "version": "1.0.102.7c750f24",
+  "publisher": "UNKNOWN",
+  "license": "UNKNOWN",
+  "marketCanonicalName": "UNKNOWN",
+  "versionsSeenOnDisk": 6,
+  "skippedVersions": [
+    "1.0.72.34cf9e2f",
+    "1.0.74.7a73af9",
+    "1.0.78.26e781a",
+    "1.0.84.f756706",
+    "1.0.97.fb328997"
+  ],
+  "note": "已排除 vendor/bin/runtime/node_modules/媒体与 >2MB 文件；只留最高版本目录"
+}

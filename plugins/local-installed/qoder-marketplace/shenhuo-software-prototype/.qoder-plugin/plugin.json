@@ -1,0 +1,22 @@
+{
+  "name": "shenhuo-software-prototype",
+  "version": "1.0.0",
+  "displayName": "软件原型设计",
+  "description": "从一句简单需求开始，快速澄清需求、生成基准设计稿、调整确定风格、完成主要页面效果图，交付 HTML 交互原型及 DESIGN.md 样式基准。支持手机 App、移动网站、小程序和 PC 网站。",
+  "author": {
+    "name": "chenyth",
+    "email": "chenyth@gmail.com"
+  },
+  "homepage": "https://www.shenhuoai.com",
+  "skills": [
+    "./skills/shenhuo-software-prototype"
+  ],
+  "keywords": [
+    "software-prototype",
+    "ui-design",
+    "html",
+    "mobile",
+    "mini-program",
+    "软件原型"
+  ]
+}

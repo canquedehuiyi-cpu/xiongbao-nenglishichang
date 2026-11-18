@@ -1,0 +1,13 @@
+{
+  "source": "local-installed(~/.qoder-cn/plugins/cache)",
+  "market": "qoder-marketplace",
+  "pluginId": "UNKNOWN",
+  "name": "duckdb",
+  "version": "1.0.0",
+  "publisher": "UNKNOWN",
+  "license": "UNKNOWN",
+  "marketCanonicalName": "UNKNOWN",
+  "versionsSeenOnDisk": 1,
+  "skippedVersions": [],
+  "note": "已排除 vendor/bin/runtime/node_modules/媒体与 >2MB 文件；只留最高版本目录"
+}

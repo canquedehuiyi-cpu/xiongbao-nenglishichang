@@ -1,0 +1,235 @@
+# Graph JSON contract
+
+> Authoring a graph? Read [graph-common.md](graph-common.md) and `types/<diagramType>.md` instead — they carry every rule the validator applies, with a minimal valid skeleton per type. This file is the complete reference for maintainers of the validator, layout and Viewer.
+
+
+`scripts/generate-viewer.mjs` accepts either one `Graph` or a graph collection. Older graphs without `meta.diagramType` remain valid and render as `architecture`.
+`adaptive-v3`: generation defaults to `--layout auto` and accepts semantic inputs without positions or sizes. Declare real ownership with node `groupId` and group `parentId`; color `module` is not ownership. Optional node `layout.rank` / `layout.order`, graph `layout.primaryPath` / `layout.participantOrder` express existing order only. `--layout preserve` checks existing geometry without rearranging it. Ambiguous old containment requires an explicit author decision. `--input-only` checks semantics; source, geometry and browser rendering have separate statuses. `--force` only permits replacing outputs and never bypasses quality checks. A layered result whose width/height ratio leaves the accepted band 1/1.6–1.6 by more than 10% is folded (2–5 segments): a top-down layout that is too tall cuts its layer sequence into columns with aligned tops, a left-to-right layout that is too wide cuts it into rows with aligned starts, so every segment keeps its reading direction and continues at the start of the next one. Geometry and routes inside a segment are kept; cuts prefer boundary changes and avoid a decision's branches; an edge across a cut runs through the channel between its segments, or through the corridor before or after them when a neighbour or heading is in the way. A boundary spread over several segments is rebuilt around its members and must not cover foreign nodes. Among the folds that pass the quality gate within 10% of the band, the one with the fewest crossings wins, then the fewest segments, so a balanced fold is not passed over for a ragged one; a fold the gate rejects is skipped for the next one, and otherwise the nearest valid shape competes with the unfolded result. Candidates whose ratio is within 1.3× of the band rank equal on shape, so fewer point crossings come before compactness and a crossing is never traded for a slightly better ratio; only a strip beyond that outranks them. The type budget only breaks ties towards its preferred orientation. Declared `layout.rank` layouts and state charts with branches or loops never fold. Architecture views are laid out both top-down and left-to-right; after crossings, the direction whose whole view fits one 1392×688 screen at the larger zoom wins, and the compiler records it in `layout.direction` (`down` / `right`), which a later compilation keeps.
+
+Flowchart main paths must run top-to-bottom, with left/right branches and outside feedback routes; a column fold continues the main path at the top of the next column, which is the only step that may run upwards. Auto, strict preservation and image exports apply the same rule. Optional `primaryPath` declares the main order; an unambiguous simple chain is checked even without it. Horizontal main paths are rejected regardless of node count; side branches and feedback edges may still run sideways or upwards.
+
+
+```json
+{
+  "meta": {
+    "title": "Required title",
+    "diagramType": "architecture",
+    "subtitle": "Optional supporting line",
+    "sourceRef": "Branch, commit, document version, or evidence scope",
+    "scope": "Verified evidence scope",
+    "notes": ["A finding the reader must see before opening any node"],
+    "generatedAt": "ISO-8601 timestamp"
+  },
+  "groups": [
+    {
+      "id": "runtime-boundary",
+      "label": "Consumer application JVM",
+      "kind": "runtime",
+      "position": { "x": 40, "y": 80 },
+      "size": { "width": 1440, "height": 620 }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "jwt-decoder",
+      "label": "NimbusJwtDecoder",
+      "subtitle": "Verify and decode JWT",
+      "module": "Identity",
+      "kind": "security",
+      "position": { "x": 720, "y": 220 },
+      "size": { "width": 220, "height": 120 },
+      "source": {
+        "kind": "source",
+        "file": "module/src/main/java/example/Config.java",
+        "lineStart": 111,
+        "lineEnd": 130,
+        "symbol": "jwtDecoder"
+      },
+      "facts": ["Built from issuer-uri"],
+      "tags": ["JWT", "Spring Security"]
+    }
+  ],
+  "edges": [
+    {
+      "id": "decode-token",
+      "source": "bearer-filter",
+      "target": "jwt-decoder",
+      "label": "decode and verify",
+      "module": "Identity",
+      "kind": "call",
+      "evidence": "framework",
+      "route": {
+        "via": [{ "x": 640, "y": 180 }],
+        "labelAt": { "x": 640, "y": 156 }
+      }
+    }
+  ]
+}
+```
+
+Use one graph by default; a standalone page has no diagram-type menu. For a requested multi-diagram viewer, wrap 1–32 graphs in `diagrams`. Other types keep a unique `meta.diagramType`; repeated architecture views require unique `meta.viewId` values. The toolbar menu follows the fixed presentation order `capabilities`, `engineering`, `relations`, `flowchart`, `sequence`, `er`, `deployment`, `class`, `state`, `usecase`, `dataflow` regardless of input order. The three architecture entries retain the `architecture` semantic type. The view menu lists the requested types vertically.
+
+```json
+{
+  "diagrams": [
+    { "meta": { "title": "System", "diagramType": "architecture", "sourceRef": "main" }, "nodes": [], "edges": [] },
+    { "meta": { "title": "Request", "diagramType": "sequence", "sourceRef": "main" }, "nodes": [], "edges": [] }
+  ]
+}
+```
+
+The abbreviated graphs above show only the wrapper; every graph still follows the complete contract and requires non-empty nodes.
+
+## Common fields
+
+- Required: `meta.title`, `meta.sourceRef`, non-empty `nodes`, and `edges`.
+- `meta`, nodes, edges, groups and source anchors are objects; `nodes`, `edges`, and optional `groups` are arrays of objects. Invalid containers are rejected before layout or output generation.
+- Optional `meta.subtitle`, `meta.scope`, node `subtitle`, `source.symbol`, and edge `label` are strings. Optional node and edge `module` values are non-empty strings: reuse the exact same value for the same business module across every graph in a collection; do not store literal colors. Node `facts`, `tags`, `attributes`, and `methods` are arrays of non-empty strings. These rules apply to every diagram type.
+- Optional node `fields` is an array of objects with non-empty string `name` and `type`, optional `key` (`PK`, `FK`, `UK`) and boolean `nullable`; ER requires at least one field. Other types can expose these fields in search and details.
+- Optional `meta.notes` is an array of at most 6 non-empty strings of at most 120 characters (counted as characters, not UTF-16 units); an empty array means none. Each view of a collection has its own. It states what a reader must see before opening a node and the drawing cannot show: a defect or risk found, code that contradicts its documentation or UI, an unverified claim, scope left out. The Viewer shows it as a "Key points" card and `diagram.svg`, exported SVG and PNG draw it under the board; a graph without notes renders and exports byte-for-byte as before. The text is authored in the graph's language; saving from the page keeps it.
+- `meta.diagramType`: `architecture`, `flowchart`, `sequence`, `er`, `deployment`, `class`, `state`, `usecase`, or `dataflow`.
+- `meta.locale`: optional Viewer language: `en`, `zh-CN` (default), `ru`, `pt`, `ja`, `de`, or `es`; `ko` and `fr` remain supported for existing graphs. Interface strings are authored in English in the Viewer source (`i18n.js`, `i18n-messages.json` holds every other language including `zh-CN`); a graph without `meta.locale` still renders its interface in Chinese. This controls built-in interface and export labels; author titles, node labels, facts and relationship text in the desired language separately. Code identifiers and standard notation remain unchanged. In a collection, each diagram uses its own locale.
+- IDs are unique non-empty strings. Every edge endpoint names a node.
+- In compiled output or `--layout preserve`, every node and group requires finite non-negative `position` and positive `size`; semantic `auto` input may omit them.
+- Class associations, aggregation and composition may declare `sourceMultiplicity` / `targetMultiplicity`: `*`, a non-negative integer, or an ascending range such as `0..1` or `1..*`. Inheritance, implementation and dependency reject these fields. `dataflow` preserves declared data flows between real components, including direct external-to-store, store-to-store and external-to-external flows. Gane–Sarson-inspired symbols distinguish external entities, processes and stores; this is not strict process-only DFD modeling. Do not invent intermediate processes or reclassify components to satisfy notation.
+- Edge `evidence`: `source`, `code`, `config`, `schema`, `test`, `document`, `framework`, or `inference`.
+- Edge `route` is optional. `via` contains graph-space waypoints and `labelAt` fixes the graph-space label center; omit both when automatic orthogonal routing is clear.
+- Every `route.via` and `route.labelAt` coordinate must be a finite non-negative number. The router inserts orthogonal elbows between waypoints and keeps the first and last connection anchored to the current node positions.
+- Optional node `source.kind` uses the same evidence values. `source.file` and `source.lineStart` identify the exact anchor.
+- Optional edge `site` (`file`, `lineStart`, optional `lineEnd` and `symbol`) records the line that makes the relationship hold: the call, write, foreign key, `extends` clause or state assignment. It has the same shape and checks as a node `source` but no `kind`: the edge's own `evidence` names the kind. An edge needs one when its `evidence` is `source`, `code`, `config`, `schema` or `test` and it is not a sequence `return` (`needsSite()`); the field is optional everywhere, so graphs written without it stay valid.
+- With `--repo-root <directory>`, validation and generation read every node's `source.file` and every edge's `site.file` as repository-relative UTF-8 text and check the inclusive line range. Absolute paths, parent traversal, directories, binary files and symlinks escaping the root are rejected. Repeated references share one file read. When `source.symbol` is present, its last segment (split on every character other than a letter, digit, `_` or `$`) must occur as a whole word within the range; write the name as it appears at the definition, not a description. A failure names the lines where the word does occur in the file, and the receipt counts symbol checks in `sourceEvidence.symbols` and relationship coverage in `sourceEvidence.relations` (`sited` of `eligible`, computed with or without the root). A site failure is named `diagrams[i].edges[j].site`. `--fix --repo-root` moves a node `source` or edge `site` `lineStart` to the only such line in the file and shifts `lineEnd` with it, clamped to the last line; anchors with several or no matches stay for the author (`edge <id>.site` in the messages). Without the root, receipts explicitly mark existing source anchors `skipped`; without anchors they report `not-applicable`. These checks cover the local working tree, not `sourceRef` revision identity, definition parsing or claim correctness: a mention of the name left inside the range still passes.
+- To emphasize the business center, use the existing `business` kind where supported, or include `core` or `business` in `tags` (matched case-insensitively). Keep the diagram's legal node kind; `core` is not a new kind or schema field. In a state diagram the `core` state is the goal and a `failure` tag marks a failed state; both only feed the Viewer's derived state colors.
+- Composition review (`reviewComposition()` in `graph-validation.js`, printed in full by `validate-graph.mjs --input-only` as `Composition warning (<type>) <rule>: …`, counted as `warnings: n` in every receipt) is advisory: warnings never fail validation or generation, and a collection with no `module` anywhere gets none. Rules: `module.missing` (an ordinary node without `module` once the collection uses modules; `initial` / `final` and the outsider kinds `external`, `actor`, `device` are exempt), `module.inconsistent` (the same node label carries a module in one view and none or another in a second view), `module.single-tone` (a flowchart or data flow of ≥ 6 washed nodes all in one module — a prompt to check, legitimate when the flow lives in one subsystem), `flowchart.process-branch` (a non-decision with more than one outgoing edge), `edge.site-missing` (an edge that needs a `site` while at least one other edge of the same graph records one; a graph with no site anywhere stays quiet). One rule needs the laid-out graph: `view.oversized` (`overviewWarnings()`, printed by `generate-viewer.mjs` once and only counted by output validation) fires when a view's bounds need more than `MAX_SCREENS` (4) reading rectangles of `OVERVIEW_AREA` (1392×688, a 1440×900 window with both panels closed) at `READABLE_ZOOM` (.75); a graph without positions reports nothing. The receipt carries `warnings: <count>` only when there are any.
+- The cool-neutral visual system is a Viewer presentation rule. Color, typography, and core styling require no new graph fields. The order-fulfillment preview model is example content, not a default dataset or evidence source.
+
+Legacy `playback` metadata is ignored. The Viewer has no automatic or stepped playback; directed-edge motion is a separate visual cue and does not imply execution order.
+
+## Saving Viewer edits
+
+Switching diagram types retains each graph's saved text and positions within the open page. Reset restores only the active graph's embedded original content. **Save changes** saves the entire collection (or the original single-graph shape), including edits in other views, metadata and source anchors. Chromium browsers let the user pick the page's folder once and then rewrite the open page, its sibling `graph.json` and the per-view SVGs in place, so reloading shows the edits; the SVGs are byte-identical to a `--layout preserve` regeneration, and when an edited view fails the layout gate the page and `graph.json` are saved as a draft while every SVG stays as it was. Other browsers save or download `graph.json`; regenerate with `--layout preserve --force` to update the page and SVGs. Cancelling or failing a save keeps all page edits.
+
+A page saved in place reloads with its edits because its embedded data was rewritten; a page whose edits were only downloaded still starts from its old embedded data, so keep that JSON and regenerate into a new output directory to reopen the edited model. Saving does not bypass validation: manually edited labels or positions can still need layout corrections before regeneration. The browser does not reverify source anchors; rerun both CLI commands with `--repo-root` for source-backed delivery.
+
+## Routing and spacing
+
+- Initial canvas budgets are 2400×1600 graph units for architecture / er / deployment / class / usecase / dataflow, 1600×2400 for flowchart / state, and content-adaptive for sequence. These are starting budgets, not minimum borders, export resolutions or aspect-ratio requirements. Preserve full text and type semantics; expand for spacing and routes, keep small graphs compact, and never shrink text or add empty padding to match a ratio. Start with 64 units between peers and 80–96 between layers; expand only the affected label/port corridor. Keep 24 around labels and below measured group headings, with 32 at group sides. Wrap complete long labels instead of spreading every node; sequence messages constrain their own participant span and measured row height. Budgets alone do not rearrange existing geometry.
+- Full-size text is required for generation and image export. Legacy compact geometry (cards shorter than 100px) remains loadable as a JSON draft, drawn with the regular card layout, and needs recompilation before export.
+- Parallel, fan-out, and fan-in relationships receive automatic 24-pixel lanes and may share at most 12 pixels near an endpoint; the longer ER symbol clearance is not permission to merge routes.
+- A node side must be long enough to hold its automatic lanes; enlarge the node or provide route hints when validation reports endpoint-side overflow.
+- For non-self hinted routes, the first/last waypoint determines each endpoint side and its projected border position. Keep a 28-pixel outward straight section for ER cardinality symbols and a 12-pixel section for other diagrams. Waypoints must stay outside all node interiors, including the endpoints.
+- Self-loops default to a 48-by-32-pixel route outside the node's right edge. Use `route.via` or `route.labelAt` only when that area is occupied.
+- Keep full text at 20/16/14px. Minimum clearances: nodes 48px; labels to nodes/labels 24px; labels to unrelated edges 6px; below measured group heading 24px, other insets 32px; sibling groups 48px; parallel channels 24px; straight endpoint segments 12px, ER 28px. Readable point crossings, including nonplanar graphs, are allowed. Prefer fewer repeated crossings between the same pair and reject long collinear overlaps. Layout generation also removes crossings that a different order would avoid: while a candidate still crosses, a bounded search (`REFINE_*` in `compile-layout.mjs`) swaps the ports of the crossing relations within a node side, the side a decision branch or actor relation leaves on, sibling node order and fold lanes, and keeps a swap only when the candidate scores better, so only the crossings a topology forces remain (a full 3×3 mesh keeps 9). The search ends on its evaluation budget, never on the clock: a slow or busy machine lays out the same graph the same way, and only the generation timeout can end a run, as an error. Authors never need to reorder edges or add hints for this. Canvas ratios are informational; never remove relationships or shrink text to pass.
+- Sequence participant centers must be at least `max(160, estimated message width + 32)` pixels apart.
+
+## Diagram-specific notation
+
+| `diagramType` | Node `kind` | Group `kind` | Edge `kind` |
+| --- | --- | --- | --- |
+| `architecture` | `external`, `config`, `framework`, `security`, `service`, `business`, `data`, `failure`, `system`, `component`, `database` | `runtime`, `security`, `ownership`, `external` | `request`, `call`, `data`, `success`, `failure`, `framework`, `optional`, `depends` |
+| `flowchart` | `start`, `end`, `process`, `decision`, `input`, `output`, `subprocess` | none | `flow`, `yes`, `no`, `success`, `failure` |
+| `sequence` | `actor`, `participant`, `external`, `service`, `database` | `alt`, `opt`, `loop`, `par` | `sync`, `async`, `return` |
+| `er` | `entity` | none | `relationship` |
+| `deployment` | `device`, `node`, `container`, `artifact`, `service`, `database`, `external` | `host`, `network`, `cluster`, `namespace` | `deploy`, `network`, `depends` |
+| `class` | `class`, `interface`, `abstract` | none | `association`, `inheritance`, `implementation`, `composition`, `aggregation`, `dependency` |
+| `state` | `initial`, `state`, `final`, `choice` | none | `transition` |
+| `usecase` | `actor`, `usecase` | `system` | `association`, `include`, `extend` |
+| `dataflow` | `external`, `process`, `dataStore` | `ownership`, `external` | `data` |
+
+### Sequence
+
+Sequence `order` retains semantic order; generated `route.messageY` supplies the actual vertical coordinate. Outside `--input-only`, every sequence message needs `route.messageY`; automatic layout writes it, so regenerate older graphs with `--layout auto`. A page whose messages lack it still opens in the Viewer: they are stacked by order below the headers and the layout notice names the missing coordinate. Without `layout.participantOrder` or node `layout.order`, participants stand left to right in the order the messages first reach them (the initiator leftmost), never by id. Automatic layout requires explicit fragment operands and never invents conditions. A fragment spans the lifelines of its own messages; a fragment without messages (guards and bodies only) stays under the nearest ancestor's message span, or the whole conversation at top level, so it always covers a lifeline. Frames reserve room for the operator tag beyond any activation bar, and guards, bodies and message labels inside a frame take that frame's surface in both themes. Participant subtitles, guards and bodies must be complete. Invalid geometry remains an editable/saveable JSON draft; SVG/PNG export checks the current snapshot and actual glyph bounds after fonts load. PNG rejects blank encoding or sizes above 32767px / 64 million pixels, without reducing resolution.
+
+```json
+{ "id": "request", "source": "browser", "target": "api", "label": "POST /orders", "kind": "sync", "order": 1, "evidence": "source" }
+```
+
+
+Sequence `alt` optionally accepts `operands`: `[{"guard":"SignalR","edgeIds":["m10"]},{"guard":"HTTP","edgeIds":["m11","m12"]}]`. If supplied, at least two branches are required, with nonempty guards and valid, unique message IDs in ordered, non-interleaving order ranges. No visually enclosed message may be omitted. Guards are escaped text, never code. Page/export share guard and separator geometry; insufficient space is an error, not an implicit frame expansion. Legacy alt without operands remains loadable/saveable and visibly reports unspecified branch conditions with a validation warning. Text/position edits preserve operands.
+
+Sync has a filled arrow, async an open V, return an open V plus dashes; Sync stays solid; framework/inference evidence can still dash async messages, while returns remain dashed. Participant subtitles are drawn directly, in full; legacy drafts may retain ellipsis but cannot pass strict export. Actor heads are 130px with a subtitle, otherwise108px; ordinary heads stay72px. Authored lifeline ends and message order remain unchanged. Desktop defaults show the overview while it reads at zoom≥.75, else the start of the flow at .75; directory/search/keyboard locate use local views at zoom≥.75. Explicit fit always shows the whole diagram.
+
+### ER
+
+Every entity requires a non-empty `fields` array. Field `key` may be `PK`, `FK`, or `UK`. A relationship requires both endpoint cardinalities: `1`, `0..1`, `*`, `1..*`, or `0..*`.
+
+Size an entity for a 72px header, approximately 32px per field, and bottom padding. Grow its key/name/type columns for 16px field names and 14px types and key badges, especially with long identifiers. Leave 28px of straight route outside each entity for cardinality symbols; the cardinality values in the JSON remain unchanged.
+
+```json
+{
+  "id": "orders",
+  "label": "orders",
+  "kind": "entity",
+  "fields": [
+    { "name": "id", "type": "bigint", "key": "PK", "nullable": false },
+    { "name": "user_id", "type": "bigint", "key": "FK", "nullable": false }
+  ],
+  "position": { "x": 80, "y": 120 },
+  "size": { "width": 260, "height": 170 }
+}
+```
+
+```json
+{ "id": "user-orders", "source": "users", "target": "orders", "kind": "relationship", "sourceCardinality": "1", "targetCardinality": "0..*", "evidence": "schema" }
+```
+
+### Class
+
+Class nodes may contain string arrays `attributes` and `methods`. Interface and abstract names are rendered with their stereotype. Allow a 68px header, 28px member rows at 16px font size, and both compartments' padding; grow width and height to fit the name, stereotype, and all members without clipping or shrinking. Inheritance/implementation and composition/aggregation use their own triangle and diamond markers without changing the existing edge kinds.
+
+### State
+
+Transition edges may contain `guard` and `action`. The visible label is assembled as `label [guard] / action`; the trigger is drawn in ink, the `[guard]` in amber (Radix amber step 11) and the `/ action` in the muted tone. A self-transition (`source` equals `target`) is drawn as one arc beside the state, and the layout reserves 44 px for it (`elk.spacing.nodeSelfLoop`).
+
+State nodes (`kind: "state"`) may contain `entry`, `do` and `exit`, each a non-empty string. They are listed below a divider as `entry / …`; the title keeps the compartment above. Other node kinds reject the keys. Initial and final pseudostates are ink; transitions end in an open arrow.
+
+### Source anchors
+
+Use `source` only when the node maps to a precise repository or supplied-document location. Omit it for external actors and framework-owned runtime components. Give an edge `site` when a line of code, configuration or schema makes that relationship hold; omit it for `framework`, `document` and `inference` edges. Keep `facts` short and atomic, and put uncertainty in the wording as well as the evidence kind.
+
+For an explicitly requested conceptual example, describe the relevant business model in `facts`, label inferred relationships as `inference`, and name that scope in metadata. Do not fabricate source paths or reuse preview-document anchors for another graph. Normal generation still writes `index.html`, `graph.json` and one SVG per view.
+
+### Execution, pairing and nested fragments
+
+See `examples/jeepay/sequence.graph.json` in the repository and package for source-backed unified-order calls, explicit returns, executions and the success callback fragment. The Viewer keeps these fields optional, so legacy graphs still render; the CLI validator requires a bar on the callee of every `sync` call answered by a `return`, from the call's `receive` to the return's `send` (legacy graphs without `replyTo` are never asked). `--fix` adds the missing bars, each nested in the innermost bar of that participant around it. Two answered calls to one callee that interleave (the second opens inside the first and closes after it) are not asked for bars, since bars on one participant cannot cross. New source-grounded sequences must explicitly author known executions, nesting and call/return references; the renderer does not infer bars from paired messages. Include only fragment behavior established by the source. These fields require a Viewer built with sequence execution support.
+
+A return declares `"replyTo": "call-id"`. It must reference an earlier sync/async call with reversed endpoints, in the same operand path, with at most one explicit return per call. Merge alternative outcomes before that return. Unpaired legacy messages stay legal. Paired labels display `C1` / `↩ C1` independently of editable text. Call and return share a color; nested calls form separate groups. Eight group colors are reused deterministically per theme; larger graphs retain unique pair IDs even when colors repeat. Node module colors are independent.
+
+```json
+"executions": [{
+  "id": "risk-work",
+  "participantId": "risk",
+  "start": { "edgeId": "check", "at": "receive" },
+  "end": { "edgeId": "checked", "at": "send" }
+}]
+```
+
+Each execution uses message `send`/`receive` endpoints belonging to its participant, start before end. Optional `parentId` declares a same-participant enclosing execution. Siblings cannot overlap. Self-calls connect outer send to inner receive; self-returns end the inner bar at send, not receive. Bars are derived from routes and are not separately draggable.
+
+Structured fragments use `operands: [{id, edgeIds, guard?, label?, body?}]`:
+
+- `alt`: at least two guarded operands; optional `else` occurs once, last.
+- `opt`: one guarded operand.
+- `loop`: one guarded operand plus `loop: {min, max}`; non-negative integer min, max ≥ min or `"*"`. The condition is displayed, never evaluated.
+- `par`: at least two labeled operands, separated visibly and joined at the frame end. Message order is local to each branch; vertical branch order is not runtime order.
+
+A child group specifies `parentId` and `parentOperandId`. For example, a loop operand `{id:"attempt", guard:"attempt < 3", edgeIds:["call","reply"]}` owns an alt group via `{parentId:"retry", parentOperandId:"attempt"}`. An opt operand `{id:"reserved", guard:"reserved", edgeIds:[]}` can own a par group in the same way. List a message directly in only one operand; parents inherit child membership. An empty `edgeIds` array requires non-empty plain-text `body` or a child fragment. Guards and body text are escaped, not executable. Reserve authored frame space for titles, guards, text-only branches, message labels and nested frames; validation rejects cycles, crossing frames, incorrect ownership and collisions.
+
+Legacy alt without operand IDs and old unstructured opt/loop remain readable and save without forced migration. Missing conditions are never invented. Sync messages use a solid baseline even for conceptual/inference evidence; evidence remains in metadata and details. Return messages keep dashed open arrows. JSON editing/download, SVG and PNG preserve the same execution bounds, pairing, fragments and group colors; exports remain static.
+
+## Architecture overview extension
+
+The complete authoring shape for `meta.architectureView`, `meta.viewId`, `layout.sections`, node `overviewText` and `badges` is in [types/architecture.md](types/architecture.md#overview-structure). Section geometry is compiled and persisted alongside card geometry. Ownership remains independent. Per-view diagnostics and drafts use view identity; legacy views fall back to diagram type. SVG naming stays index-based for collections. Browser edits do not reverify source claims; badge label edits remove their old anchor and become document claims.
+
+## Dedicated layout templates
+
+The generator measures complete content before choosing positions. Eleven presentation templates share the same routing, geometry checks, browser editing and exports. Platform capabilities use section matrices; engineering uses layers with parallel support; component relations cluster related components within real ownership; flowcharts use a main spine and side branches; sequence uses participant spans and event rows; ER uses related-entity matrices; deployment uses runtime tiers inside actual boundaries; class uses contract hierarchies; state uses lifecycle branches; use cases place actors outside the system; data flow separates processing and storage.
+
+Template placement never creates ownership, relationships or evidence. Authored ranks and peer order remain authoritative; deployment auto layout uses vertical runtime tiers, while other types retain explicit direction. Dense inputs keep a quality-valid layered candidate when it has fewer crossings or no template can pass the routing gate; `--verbose` reports the template, attempts and fallback. No supported facts are removed. Small layouts use their content bounds rather than a fixed canvas. The fixed botanical palette supports light/dark themes and stable module colors across views; it introduces no authored color field.
+
+## Semantic presentation rules
+
+Architecture overviews default to `layout.overviewConnections: "within-category"`: edges only draw when their endpoints belong to the same deepest presentation section. Cross-category edges remain in JSON, source evidence and relationship details. Set `"all"` to draw all relations. Viewer and SVG/PNG export use the same projection.
+
+Deployment nodes may declare `layout.tier`: `external`, `application`, `infrastructure`, or `data`. Auto layout orders these tiers from top to bottom within real runtime boundaries. Without a hint, databases use data, external nodes use external, queues/caches use infrastructure and other runtime nodes use application. This hint never adds a host, service or dependency.
+
+Measured templates preserve the component dependency path, vertical workflow spine, contract hierarchy, lifecycle notation, actor/system boundary and processing stages with adjacent stores. These rules take precedence over aspect ratio and space cost. `--layout preserve` keeps valid user geometry unchanged; invalid geometry returns diagnostics.

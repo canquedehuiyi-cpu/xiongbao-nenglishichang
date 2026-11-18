@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "source": "canvas-sdk",
+  "sourceCommit": "87afc92b7956889e1261c34b68ddc577c765ae2f",
+  "sourceTreeState": "clean",
+  "sourceScope": "mobile-use",
+  "sdkVersion": "0.3.1",
+  "iosHelper": "not-shipped",
+  "canvasSimulatorCompatibility": {
+    "native": "host-component",
+    "legacy": "plugin-run-script-lease"
+  },
+  "iosInteractionRuntime": {
+    "backend": "serve-sim",
+    "version": "0.1.46",
+    "delivery": "host-node-runtime"
+  },
+  "iosSwiftPackagePreview": {
+    "cache": "content-addressed-derived-data-v2",
+    "cacheCommands": 3,
+    "delivery": "generated-xcode-project",
+    "sourceOwner": "plugins/mobile-use/runtime/ios/swift-package-preview",
+    "compileHost": "user-machine",
+    "buildProductsShipped": false,
+    "templateSources": 3,
+    "generatedSources": 4,
+    "reload": "dylib-dlopen"
+  },
+  "viewers": [
+    "android-project",
+    "harmonyos-project",
+    "ios-project"
+  ]
+}

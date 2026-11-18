@@ -1,0 +1,24 @@
+{
+  "source": "local-installed(~/.qoder-cn/plugins/cache)",
+  "market": "qoder-bundler",
+  "pluginId": "UNKNOWN",
+  "name": "better-harness",
+  "version": "templates",
+  "publisher": "UNKNOWN",
+  "license": "UNKNOWN",
+  "marketCanonicalName": "UNKNOWN",
+  "versionsSeenOnDisk": 11,
+  "skippedVersions": [
+    ".qoder-plugin",
+    "assets",
+    "case-studies",
+    "datasets",
+    "docs",
+    "hooks",
+    "models",
+    "references",
+    "scripts",
+    "skills"
+  ],
+  "note": "已排除 vendor/bin/runtime/node_modules/媒体与 >2MB 文件；只留最高版本目录"
+}

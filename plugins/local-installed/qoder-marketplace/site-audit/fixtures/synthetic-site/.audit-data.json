@@ -1,0 +1,6 @@
+[
+  { "name": "packer-a", "severity": "high", "url": "https://advisories.example/ADV-0001", "range": "<1.4.2", "feature": "server: 指令" },
+  { "name": "packer-a", "severity": "moderate", "url": "https://advisories.example/ADV-0002", "range": "<2.0.0", "feature": "未使用的实验性 CLI" },
+  { "name": "bundler-b", "severity": "critical", "url": "https://advisories.example/ADV-0003", "range": ">=0.9.0 <0.9.7", "feature": "构建期 dev server 文件读取" },
+  { "name": "imager-c", "severity": "moderate", "url": "https://advisories.example/ADV-0004", "range": "<3.1.0", "feature": "未被调用的原生重采样" }
+]

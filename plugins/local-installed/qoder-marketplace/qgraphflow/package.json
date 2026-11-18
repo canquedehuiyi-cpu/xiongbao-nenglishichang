@@ -1,0 +1,72 @@
+{
+  "name": "qgraphflow",
+  "version": "0.0.7",
+  "license": "MIT",
+  "description": "Generate evidence-grounded interactive software diagrams with offline HTML, SVG and PNG export.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/supermax92/qgraphflow.git"
+  },
+  "homepage": "https://github.com/supermax92/qgraphflow#readme",
+  "bugs": "https://github.com/supermax92/qgraphflow/issues",
+  "bin": {
+    "qgraphflow": "bin/qgraphflow.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "files": [
+    "bin/",
+    ".codex-plugin/",
+    ".claude-plugin/",
+    ".qoder-plugin/",
+    ".cursor-plugin/",
+    ".agents/plugins/marketplace.json",
+    "skills/q-flow/SKILL.md",
+    "skills/q-flow/agents/",
+    "skills/q-flow/references/",
+    "skills/q-flow/scripts/generate-viewer.mjs",
+    "skills/q-flow/scripts/validate-graph.mjs",
+    "skills/q-flow/assets/viewer-dist/index.html",
+    "skills/q-flow/assets/viewer/package.json",
+    "skills/q-flow/assets/viewer/src/diagrams/",
+    "skills/q-flow/assets/viewer/src/edge-routing.js",
+    "skills/q-flow/assets/viewer/src/sequence-fragments.js",
+    "skills/q-flow/assets/viewer/src/sequence-executions.js",
+    "skills/q-flow/assets/viewer/src/i18n.js",
+    "skills/q-flow/assets/viewer/src/i18n-messages.json",
+    "skills/q-flow/assets/viewer/src/radix-colors.js",
+    "skills/q-flow/assets/viewer/src/text-layout.js",
+    "skills/q-flow/assets/viewer/src/visual-style.js",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md",
+    "docs/clients*.md",
+    "docs/readme/",
+    "skills/q-flow/scripts/compile-layout.mjs",
+    "skills/q-flow/scripts/compile-sequence.mjs",
+    "skills/q-flow/assets/layout-dist/",
+    "skills/q-flow/assets/viewer/src/graph-validation.js",
+    "skills/q-flow/assets/viewer/src/layout-measure.js",
+    "skills/q-flow/assets/viewer/src/layout-spacing.js",
+    "skills/q-flow/assets/viewer/src/session-graph.js",
+    "skills/q-flow/assets/viewer/src/view-identity.js",
+    "skills/q-flow/assets/viewer/src/architecture-overview.js",
+    "skills/q-flow/assets/viewer/src/layout-quality.js",
+    "skills/q-flow/assets/viewer/src/layout-policy.js",
+    "skills/q-flow/assets/viewer/src/layout-compaction.js",
+    "skills/q-flow/assets/viewer/src/route-clearance.js",
+    "skills/q-flow/assets/viewer/src/export-svg.js",
+    "skills/q-flow/assets/viewer/src/node-svg.js",
+    "skills/q-flow/assets/viewer/src/architecture-overview-theme.js",
+    "skills/q-flow/assets/viewer/src/orthogonal-routing.js",
+    "skills/q-flow/assets/viewer/src/layout-refinement.js",
+    "skills/q-flow/assets/viewer/src/layout-templates.js",
+    "skills/q-flow/assets/viewer/src/presentation-graph.js",
+    "skills/q-flow/assets/viewer/src/layout-semantics.js",
+    "examples/jeepay/"
+  ],
+  "scripts": {
+    "package": "node scripts/package.mjs"
+  }
+}

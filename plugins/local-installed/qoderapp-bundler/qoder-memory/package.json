@@ -1,0 +1,16 @@
+{
+  "name": "qoder-memory-plugin",
+  "version": "0.1.2",
+  "type": "module",
+  "engines": {
+    "node": ">=22.16.0 <23 || >=24.0.0 <25"
+  },
+  "files": [
+    ".qoder-plugin",
+    "bin",
+    "dist",
+    "hooks",
+    "mcp.json",
+    "vendor"
+  ]
+}
